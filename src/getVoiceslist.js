@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function initializeVoicesAndPlatform02(n, setVoicesCONSOLE) {
+function initializeVoicesAndPlatform02(n, setVoicesCONSOLE, setVoices) {
   if (n > 1) {
     return Promise.resolve(null);
   }
@@ -24,13 +24,13 @@ function initializeVoicesAndPlatform02(n, setVoicesCONSOLE) {
       voices.forEach((voice, index) => {
         setVoicesCONSOLE((prevVoices) => [
           ...prevVoices,
-          JSON.stringify({ name: voice.name, lang: voice.lang }),
+          JSON.stringify({ index: index, name: voice.name, lang: voice.lang }),
         ]);
       });
       if (isRunningOnWindows()) {
         setVoicesCONSOLE((prevVoices) => [...prevVoices, "ON WINDOWS"]);
         voices.forEach((voice, index) => {
-          if (voice.lang.includes("en-")) {
+          if (voice.lang.includes("en-US")) {
             if (voice.name.includes("David")) {
               imale = index;
             }
@@ -42,11 +42,11 @@ function initializeVoicesAndPlatform02(n, setVoicesCONSOLE) {
       } else if (isRunningOnMac() || isIOS()) {
         setVoicesCONSOLE((prevVoices) => [...prevVoices, "ON MAC/iOS"]);
         voices.forEach((voice, index) => {
-          if (voice.lang.includes("en-")) {
+          if (voice.lang.includes("en-GB")) {
             if (voice.name.includes("Daniel")) {
               imale = index;
             }
-            if (voice.name.includes("Karen")) {
+            if (voice.name.includes("Sandy")) {
               ifemale = index;
             }
           }
@@ -120,7 +120,21 @@ const VoiceList = () => {
       <pre>{JSON.stringify(voicesPICK, null, 2)}</pre>
       <hr />
       {voicesCONSOLE.map((e, i) => (
-        <p key={i}>{e}</p>
+        <p
+          style={{ cursor: "pointer" }}
+          onClick={() => {
+            try {
+              const jsonData = JSON.parse(e);
+              const textNum = jsonData.index;
+              ReadMessage(textNum);
+            } catch (error) {
+              alert("Not");
+            }
+          }}
+          key={i}
+        >
+          {e}
+        </p>
       ))}
     </div>
   );
@@ -142,4 +156,46 @@ function isRunningOnWindows() {
 
 function isRunningOnMac() {
   return /macintosh|mac os x/.test(navigator.userAgent.toLowerCase());
+}
+
+function countAndSplitSentences(text) {
+  const sentences = text.match(/[^!]+[!]+/g);
+  return sentences || [text];
+}
+
+async function ReadMessage(voiceNum) {
+  const text = "I want to tes. I love you so much.";
+  try {
+    const sentences = countAndSplitSentences(text);
+    console.log(sentences.length);
+    // Function to recursively read each sentence
+    const speakSentences = (index) => {
+      if (index >= sentences.length) {
+        // setIsRead(false);
+        return;
+      }
+
+      let msg = new SpeechSynthesisUtterance();
+      let voices = window.speechSynthesis.getVoices();
+      msg.voice = voices[voiceNum];
+      msg.rate = 0.8;
+      msg.text = sentences[index];
+
+      msg.onstart = () => {};
+
+      msg.onend = () => {
+        speakSentences(index + 1);
+      };
+
+      msg.onerror = (error) => {
+        console.error("Error in speech synthesis: ", error);
+      };
+
+      speechSynthesis.speak(msg);
+    };
+
+    speakSentences(0);
+  } catch (error) {
+    console.error("Error in ReadMessage function: ", error);
+  }
 }
