@@ -42,11 +42,11 @@ function initializeVoicesAndPlatform02(n, setVoicesCONSOLE, setVoices) {
       } else if (isRunningOnMac() || isIOS()) {
         setVoicesCONSOLE((prevVoices) => [...prevVoices, "ON MAC/iOS"]);
         voices.forEach((voice, index) => {
-          if (voice.lang.includes("en-GB")) {
+          if (voice.lang.includes("en-GB") || voice.lang.includes("en-AU")) {
             if (voice.name.includes("Daniel")) {
               imale = index;
             }
-            if (voice.name.includes("Sandy")) {
+            if (voice.name.includes("Karen")) {
               ifemale = index;
             }
           }
