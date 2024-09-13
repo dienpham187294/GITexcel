@@ -110,6 +110,7 @@ function transformInputArray(inputArray) {
     const resultSet = new Set(); // Sử dụng Set để loại bỏ phần tử trùng lặp
 
     charactor.forEach((char) => {
+      resultSet.add(char.fsp);
       if (char.data) {
         char.data.forEach((item) => {
           if (item.qs) {
@@ -125,10 +126,13 @@ function transformInputArray(inputArray) {
     return Array.from(resultSet); // Chuyển Set thành Array để trả về
   }
 
+  const SEOData = toSEOparce(IF[0]);
+  delete SEOData.cssStyles;
+  delete SEOData.contentArray;
   return {
-    id: IF[0].IFname.split(" ").join("-"),
+    id: IF[0].IFname.split(" ").join("-").toLowerCase(),
     ListenList,
-    SEO: toSEOparce(IF[0]),
+    SEO: SEOData,
     HDTB: {
       IF: toOUTSeo(IF[0]),
       HD: HD,
