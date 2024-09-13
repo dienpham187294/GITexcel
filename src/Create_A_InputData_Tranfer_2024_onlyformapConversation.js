@@ -157,7 +157,6 @@ function groupByPrefiToArrayPure(data) {
 }
 
 function conversationBox(arr) {
-  console.log(JSON.stringify(arr));
   let res = {
     weSay: [],
     theySay: [],

@@ -3,11 +3,17 @@ import $ from "jquery";
 import readXlsxFile from "read-excel-file";
 import * as TransferData from "./Create_A_InputData_Tranfer_2024_onlyformapConversation";
 import transferTextToArray from "./transferTextToArray";
+// import ReadMessage from "./ReadMessage_2024";
+import Dictaphone from "./RegcognitionV2024-05-NG";
+import initializeVoicesAndPlatform from "./initializeVoicesAndPlatform";
+console.log(initializeVoicesAndPlatform());
 function GetDocument() {
   const [IndexExcel, SetIndexExcel] = useState("1");
-
   const [Documents, SetDocuments] = useState(null);
-
+  const [PracData, SetPracData] = useState(null);
+  const [PickData, SetPickData] = useState([]);
+  const [Index, SetIndex] = useState(0);
+  const [New, SetNew] = useState(0);
   useEffect(() => {
     const handleFileChange = async (event) => {
       try {
@@ -43,6 +49,33 @@ function GetDocument() {
       input.removeEventListener("change", handleFileChange);
     };
   }, []);
+
+  useEffect(() => {
+    if (PracData !== null && PracData[Index]) {
+      let submitListT = PracData[Index].map((e) => e.submitList || []) // Get submitList or return an empty array
+        .flat(); // Flatten the arrays into one array
+
+      let iCheck = submitListT.every((e) => PickData.includes(e + "")); // Check if all items in submitListT are in PickData
+
+      if (iCheck && submitListT.length === PickData.length) {
+        if (Index < PracData.length - 1) {
+          SetIndex((prevIndex) => prevIndex + 1);
+          SetPickData([]);
+        } else {
+          SetPracData(null);
+          SetIndex(0);
+          SetPickData([]);
+        }
+      }
+    }
+  }, [PracData, Index, PickData]);
+
+  useEffect(() => {
+    if (New !== 0) {
+      SetIndex(0);
+      SetPickData([]);
+    }
+  }, [New]);
 
   return (
     <div className="container-fluid row" id="CreateDiv">
@@ -98,7 +131,36 @@ function GetDocument() {
         <hr />
         <div id="ResID" style={{ padding: "35px" }}></div>
       </div>
-      {Documents !== null ? tableDocuments(Documents) : null}
+      {/* {JSON.stringify(PickData)} */}
+      <Dictaphone />
+      {PracData !== null ? (
+        <div>
+          {PracData.map((e, i) => (
+            <div key={i} style={{ marginLeft: i * 25 + "px" }}>
+              {e.map((e1, i1) => (
+                <div key={i1}>
+                  {Index === i && e1.notify ? (
+                    <h1 style={{ color: "blue" }}>{e1.notify}</h1>
+                  ) : null}
+                  {Index >= i && e1.pickingList
+                    ? showPick(
+                        Index === i ? e1.pickingList : e1.submitList,
+                        SetPickData,
+                        PickData,
+                        Index === i ? false : true
+                      )
+                    : null}
+                </div>
+              ))}
+            </div>
+          ))}
+        </div>
+      ) : null}
+      <hr />
+
+      {Documents !== null
+        ? tableDocuments(Documents, SetPracData, SetNew)
+        : null}
     </div>
   );
 }
@@ -120,7 +182,7 @@ function showButton(ArrBTN) {
   ));
 }
 
-function tableDocuments(data) {
+function tableDocuments(data, SetPracData, SetNew) {
   try {
     return (
       <div>
@@ -128,7 +190,16 @@ function tableDocuments(data) {
 
         {data.map((e, i) => (
           <div key={i}>
-            <h5>Conversation {i + 1}</h5>
+            <h5>Conversation {i + 1}</h5>{" "}
+            <button
+              onClick={() => {
+                SetPracData(e);
+                SetNew((D) => D + 1);
+              }}
+            >
+              {" "}
+              StartPractice
+            </button>
             {e.map((e1, i1) => (
               <div
                 key={i1}
@@ -158,7 +229,6 @@ function tableDocuments(data) {
                 ))}
               </div>
             ))}
-
             <hr />
           </div>
         ))}
@@ -178,5 +248,42 @@ function showText(arr) {
     return <b>{text}</b>;
   } catch (error) {
     return "Không";
+  }
+}
+
+function showPick(arr, SetPickData, PickData, mode) {
+  try {
+    if (!Array.isArray(arr)) {
+      throw new Error("Input is not an array");
+    }
+
+    return (
+      <>
+        {arr.map((e, i) => (
+          <button
+            style={{
+              backgroundColor:
+                PickData.includes(e.trim()) || mode ? "yellow" : "transparent",
+            }}
+            onClick={() => {
+              if (!mode) {
+                if (!PickData.includes(e.trim())) {
+                  // Add item if not already in PickData
+                  SetPickData([...PickData, e.trim()]);
+                } else {
+                  // Remove item if it exists in PickData
+                  SetPickData(PickData.filter((item) => item !== e.trim()));
+                }
+              }
+            }}
+            key={i}
+          >
+            {e}
+          </button>
+        ))}
+      </>
+    );
+  } catch (error) {
+    return null;
   }
 }

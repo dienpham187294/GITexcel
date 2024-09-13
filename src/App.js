@@ -1,4 +1,5 @@
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import GetDocument from "./getDocument";
 import VoiceList from "./getVoiceslist";
 
