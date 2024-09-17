@@ -7,6 +7,7 @@ import ReadMessage from "./ReadMessage_2024";
 import Dictaphone from "./RegcognitionV2024-05-NG";
 import initializeVoicesAndPlatform from "./initializeVoicesAndPlatform";
 import { compareTwoStrings } from "string-similarity";
+import { jsx } from "react/jsx-runtime";
 function GetDocument() {
   const [IndexExcel, SetIndexExcel] = useState("1");
   const [Documents, SetDocuments] = useState(null);
@@ -16,6 +17,7 @@ function GetDocument() {
   const [New, SetNew] = useState(0);
   const [ObjRead, SetObjRead] = useState(null);
   const [CMD, SetCMD] = useState(null);
+  const [WeCanSay, SetWeCanSay] = useState([]);
   const [Notify, SetNotify] = useState(null);
   useEffect(() => {
     const handleFileChange = async (event) => {
@@ -57,8 +59,10 @@ function GetDocument() {
 
   useEffect(() => {
     if (PracData !== null && PracData[Index]) {
+      SetWeCanSay(collectWeSay(PracData[Index]));
       let submitListT = PracData[Index].map((e) => e.submitList || []) // Get submitList or return an empty array
         .flat(); // Flatten the arrays into one array
+
       let iCheck = submitListT.every((e) => PickData.includes(e + "")); // Check if all items in submitListT are in PickData
       if (iCheck && submitListT.length === PickData.length) {
         if (Index < PracData.length - 1) {
@@ -159,33 +163,39 @@ function GetDocument() {
           className="row"
         >
           {PracData.map((e, i) => (
-            <div key={i} style={{ marginLeft: i * 25 + "px" }}>
-              {e.map((e1, i1) => (
-                <div key={i1}>
-                  {Index === i && e1.notify ? (
-                    <h1 style={{ color: "blue" }}>{e1.notify}</h1>
-                  ) : null}
-                  {Index >= i && e1.pickingList ? (
-                    <>
-                      {showPick(
-                        Index === i ? e1.pickingList : e1.submitList,
-                        SetPickData,
-                        PickData,
-                        Index === i ? false : true
-                      )}
-                    </>
-                  ) : null}
-
-                  {Index === i && e1.weCanSayList ? (
-                    <select>
-                      <option>"We can say" list:</option>
-                      {e1.weCanSayList.map((e, i) => (
-                        <option key={i}>{e}</option>
-                      ))}
-                    </select>
-                  ) : null}
-                </div>
-              ))}
+            <div className="row" key={i} style={{ marginLeft: i * 25 + "px" }}>
+              <div className="col-7">
+                {" "}
+                {e.map((e1, i1) => (
+                  <div key={i1}>
+                    {Index === i && e1.notify ? (
+                      <h1 style={{ color: "blue" }}>{e1.notify}</h1>
+                    ) : null}
+                    {Index >= i && e1.pickingList ? (
+                      <div className="row">
+                        <div>
+                          {showPick(
+                            Index === i ? e1.pickingList : e1.submitList,
+                            SetPickData,
+                            PickData,
+                            Index === i ? false : true
+                          )}{" "}
+                        </div>
+                      </div>
+                    ) : null}
+                  </div>
+                ))}
+              </div>
+              <div className="col-5">
+                {Index === i ? (
+                  <select className="form-control">
+                    <option>"We can say" list:</option>
+                    {WeCanSay.map((e, i) => (
+                      <option key={i}>{e}</option>
+                    ))}
+                  </select>
+                ) : null}
+              </div>
             </div>
           ))}
         </div>
@@ -406,4 +416,17 @@ function shuffleArray(array) {
     [newArray[i], newArray[randomIndex]] = [newArray[randomIndex], newArray[i]];
   }
   return newArray; // Trả về mảng đã được xáo trộn
+}
+function collectWeSay(arr) {
+  // Sử dụng reduce để gom tất cả weSay và weCanSayList
+  const combined = arr.reduce((result, current) => {
+    const weSayCombined = current.weSay || [];
+    const weCanSayListCombined = current.weCanSayList || [];
+
+    // Nối cả weSay và weCanSayList vào kết quả
+    return result.concat(weSayCombined).concat(weCanSayListCombined);
+  }, []);
+
+  // Sử dụng Set để loại bỏ phần tử trùng lặp và chuyển đổi về mảng
+  return [...new Set(combined)];
 }
