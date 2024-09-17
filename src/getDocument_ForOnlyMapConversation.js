@@ -398,13 +398,12 @@ const getRandomElement = (array) => {
   // Trả về phần tử tại chỉ số ngẫu nhiên
   return array[randomIndex];
 };
-function shuffleArray(arr) {
-  for (let i = arr.length - 1; i > 0; i--) {
-    // Chọn một chỉ số ngẫu nhiên từ 0 đến i
-    const j = Math.floor(Math.random() * (i + 1));
-
-    // Hoán đổi arr[i] với arr[j]
-    [arr[i], arr[j]] = [arr[j], arr[i]];
+function shuffleArray(array) {
+  let newArray = array.slice(); // Sao chép mảng để giữ nguyên mảng gốc
+  for (let i = newArray.length - 1; i > 0; i--) {
+    let randomIndex = Math.floor(Math.random() * (i + 1)); // Chọn một chỉ mục ngẫu nhiên từ 0 đến i
+    // Hoán đổi phần tử hiện tại với phần tử ngẫu nhiên
+    [newArray[i], newArray[randomIndex]] = [newArray[randomIndex], newArray[i]];
   }
-  return arr;
+  return newArray; // Trả về mảng đã được xáo trộn
 }

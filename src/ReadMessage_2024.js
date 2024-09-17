@@ -16,7 +16,9 @@ function setButtonState(buttonId, isEnabled) {
 function enableButton() {
   setButtonState("RegButton", true);
   setButtonState("BtnFsp", true);
-  $("#resetCMD")[0].click();
+  try {
+    $("#resetCMD")[0].click();
+  } catch (error) {}
 }
 
 // Disable specific buttons
