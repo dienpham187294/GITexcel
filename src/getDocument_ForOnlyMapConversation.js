@@ -367,7 +367,7 @@ function findClosestMatch(inputString, arrayInput) {
   });
 
   // Kiểm tra độ tương đồng có lớn hơn 0.6 không và trả về họSay của đối tượng tương ứng
-  if (highestSimilarity > 0.6 && closestMatch) {
+  if (highestSimilarity > 0.5 && closestMatch) {
     return closestMatch;
   }
 
