@@ -144,18 +144,10 @@ function GetDocument() {
         >
           READ
         </button>
-        <button
-          id="resetCMD"
-          onClick={() => {
-            SetCMD(null);
-          }}
-        >
-          ResetCMD
-        </button>
         <hr />
         <div id="ResID" style={{ padding: "15px" }}></div>
       </div>
-      <h1>Phase: {Index + 1}</h1>
+      <h1>Phase: {Index + 1}</h1> {CMD}
       {PracData !== null ? (
         <div
           style={{
@@ -198,7 +190,6 @@ function GetDocument() {
           ))}
         </div>
       ) : null}
-
       <hr />
       <button
         onClick={() => {

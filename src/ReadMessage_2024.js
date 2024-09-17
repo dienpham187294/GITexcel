@@ -1,3 +1,4 @@
+import $ from "jquery";
 let imale, ifemale;
 
 // Function to set the state of a button
@@ -15,6 +16,7 @@ function setButtonState(buttonId, isEnabled) {
 function enableButton() {
   setButtonState("RegButton", true);
   setButtonState("BtnFsp", true);
+  $("#resetCMD")[0].click();
 }
 
 // Disable specific buttons

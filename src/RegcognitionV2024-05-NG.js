@@ -20,8 +20,7 @@ const Dictaphone = ({ SetCMD }) => {
   return (
     <div className="row">
       <div className="col-8">
-        {" "}
-        <h1>{transcript || ". . . "}</h1>
+        <h1>{transcript}</h1>
       </div>
       <div className="col-4">
         {" "}
@@ -29,6 +28,7 @@ const Dictaphone = ({ SetCMD }) => {
           <>
             {" "}
             <button
+              id="resetCMD"
               className="btn btn-outline-primary p-2 m-1"
               onClick={() => {
                 resetTranscript();
