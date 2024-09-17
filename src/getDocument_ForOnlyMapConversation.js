@@ -136,7 +136,7 @@ function GetDocument() {
         >
           GET DOCUMENT
         </button>
-        <button>THỰC HÀNH Start</button>
+        <br />
         {JSON.stringify(ObjRead)}
         <button
           onClick={() => {
@@ -145,7 +145,14 @@ function GetDocument() {
         >
           READ
         </button>
-
+        <button
+          id="resetCMD"
+          onClick={() => {
+            SetCMD(null);
+          }}
+        >
+          ResetCMD
+        </button>
         <hr />
         <div id="ResID" style={{ padding: "15px" }}></div>
       </div>
@@ -192,7 +199,16 @@ function GetDocument() {
           ))}
         </div>
       ) : null}
+
       <hr />
+      <button
+        onClick={() => {
+          SetPracData(null);
+        }}
+        className="btn btn-outline-primary"
+      >
+        Xóa bài thực hành
+      </button>
       {Documents !== null
         ? tableDocuments(Documents, SetPracData, SetNew)
         : null}
@@ -222,6 +238,7 @@ function tableDocuments(data, SetPracData, SetNew) {
   try {
     return (
       <div>
+        <h4>Chọn bài thực hành</h4>
         <hr />
         {data.map((e, i) => (
           <button
@@ -253,15 +270,6 @@ function tableDocuments(data, SetPracData, SetNew) {
         {data.map((e, i) => (
           <div key={i}>
             <h5>Conversation {i + 1}</h5>{" "}
-            <button
-              onClick={() => {
-                SetPracData(e);
-                SetNew((D) => D + 1);
-              }}
-            >
-              {" "}
-              StartPractice
-            </button>
             {e.map((e1, i1) => (
               <div
                 key={i1}
