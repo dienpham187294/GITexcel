@@ -147,7 +147,7 @@ function GetDocument() {
         <hr />
         <div id="ResID" style={{ padding: "15px" }}></div>
       </div>
-      <h1>Phase: {Index + 1}</h1> {CMD}
+      <h1>Phase: {Index + 1}</h1>
       <Dictaphone SetCMD={SetCMD} />{" "}
       {PracData !== null ? (
         <div
