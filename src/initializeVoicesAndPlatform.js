@@ -51,7 +51,6 @@ function initializeVoicesAndPlatform() {
 
     getVoices();
   }
-
   return res;
 }
 

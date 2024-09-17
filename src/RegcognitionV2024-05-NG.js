@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
-// import stringSimilarity from "string-similarity";
 
-const Dictaphone = ({}) => {
+const Dictaphone = ({ SetCMD }) => {
   const { transcript, listening, resetTranscript } = useSpeechRecognition();
 
   const startListening = () => {
@@ -15,28 +14,59 @@ const Dictaphone = ({}) => {
   };
 
   const stopListening = () => {
-    SpeechRecognition.stopListening();
+    SpeechRecognition.stopListening({});
   };
 
   return (
-    <div>
-      <h1>{transcript || ". . . "}</h1>
-      {listening ? "lisening" : "off"}
-
-      <button
-        onClick={() => {
-          startListening();
-        }}
-      >
-        Start
-      </button>
-      <button
-        onClick={() => {
-          stopListening();
-        }}
-      >
-        Stop
-      </button>
+    <div className="row">
+      <div className="col-8">
+        {" "}
+        <h1>{transcript || ". . . "}</h1>
+      </div>
+      <div className="col-4">
+        {" "}
+        {listening ? (
+          <>
+            {" "}
+            <button
+              className="btn btn-outline-primary p-2 m-1"
+              onClick={() => {
+                resetTranscript();
+                SetCMD(null);
+              }}
+            >
+              Reset
+            </button>
+            <button
+              className="btn btn-outline-primary p-2 m-1"
+              onClick={() => {
+                SetCMD(transcript);
+              }}
+            >
+              USE
+            </button>
+            <button
+              className="btn btn-danger p-2 m-1"
+              onClick={() => {
+                stopListening();
+              }}
+            >
+              STOP
+            </button>
+          </>
+        ) : (
+          <button
+            className="btn btn-primary p-2 m-1"
+            onClick={() => {
+              startListening();
+              resetTranscript();
+              SetCMD(null);
+            }}
+          >
+            Start
+          </button>
+        )}
+      </div>
     </div>
   );
 };

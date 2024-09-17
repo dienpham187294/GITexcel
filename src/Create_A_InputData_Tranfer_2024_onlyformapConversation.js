@@ -27,43 +27,94 @@ function NextStep(inX) {
   }
 }
 
-function NextStep_DontUnifile() {
+function NextStep_DontUnifile(input) {
   try {
-    let input = JSON.parse($("#ResID").text());
-    //  let getKeys = Object.keys(input[0])
-    // console.log(input)
-    let output = [];
-    input.forEach((e) => {
-      output.push(NextStep(e));
-    });
+    if (input !== undefined) {
+      let output = [];
+      input.forEach((e) => {
+        output.push(NextStep(e));
+      });
+      return output;
+    } else {
+      let input = JSON.parse($("#ResID").text());
+      let output = [];
+      input.forEach((e) => {
+        output.push(NextStep(e));
+      });
 
-    $("#ResID").text(JSON.stringify(output));
+      $("#ResID").text(JSON.stringify(output));
+    }
+
     // return output
   } catch (error) {
     console.log("Lỗi");
     console.log(error);
   }
 }
-
-function FetchData() {
+function fetchData() {
   try {
+    let resIDText = $("#ResID").text(); // renamed input1 to resIDText
+
+    if (resIDText.includes("id-01")) {
+      let parsedJson = JSON.parse(resIDText); // renamed inputJson1 to parsedJson
+      let dataLength = parsedJson[0][0].length; // renamed setLength to dataLength
+
+      let resultArray = [];
+      for (let i = 0; i < dataLength / 2; i++) {
+        resultArray.push([]);
+      }
+
+      parsedJson[0].forEach((element, index) => {
+        resultArray.forEach((subArray, subIndex) => {
+          subArray.push([element[subIndex * 2], element[subIndex * 2 + 1]]);
+        });
+      });
+
+      let filteredArray = removeNullArrays(resultArray); // renamed beforefinalRes to filteredArray
+
+      let stringifiedResult = JSON.stringify(filteredArray); // renamed finalRes to stringifiedResult
+
+      for (let i = 0; i < dataLength / 2; i++) {
+        let indexStr = i < 10 ? "0" + (i + 1) : "" + (i + 1); // renamed index to indexStr
+        stringifiedResult = stringifiedResult
+          .split("id-" + indexStr)
+          .join("id")
+          .split("content-" + indexStr)
+          .join("content-01");
+      }
+
+      let nextStepInput = NextStep_DontUnifile(JSON.parse(stringifiedResult)); // renamed input to nextStepInput
+      let finalArray = [];
+      nextStepInput.forEach((element, index) => {
+        finalArray.push(splitContentIntoArrays(element));
+      });
+
+      let processedArray = toPracPot(toOneArray(finalArray)); // renamed resresFNALL01 to processedArray
+      $("#ResID").text(JSON.stringify(processedArray));
+      return;
+    }
+
     NextStep_DontUnifile();
-    let input = JSON.parse($("#ResID").text());
-    let res = [];
-    input.forEach((e, i) => {
-      res.push(splitContentIntoArrays(e));
+    let parsedResID = JSON.parse($("#ResID").text()); // renamed input to parsedResID
+    let finalArray = [];
+    parsedResID.forEach((element, index) => {
+      finalArray.push(splitContentIntoArrays(element));
     });
 
-    let res01 = toPracPot(toOneArray(res));
+    let processedArray = toPracPot(toOneArray(finalArray));
 
-    $("#ResID").text(JSON.stringify(res01));
-    // return output
+    $("#ResID").text(JSON.stringify(processedArray));
   } catch (error) {
-    console.log("Lỗi");
+    console.log("Error occurred");
     console.log(error);
   }
 }
 
+function removeNullArrays(nestedArrays) {
+  return nestedArrays.map((array) =>
+    array.filter((subArray) => subArray.some((item) => item !== null))
+  );
+}
 function splitContentIntoArrays(inputArray) {
   let result = {}; // Dùng để lưu các mảng tương ứng với content-01, content-02, ..., content-n
 
@@ -107,7 +158,6 @@ function toOneArray(arr) {
 function toPracPot(arr) {
   let res = [];
   arr.forEach((e, i) => {
-    console.log();
     res.push(groupByPrefiToArrayPure(groupByPrefix(e)));
   });
 
@@ -158,47 +208,123 @@ function groupByPrefiToArrayPure(data) {
 
 function conversationBox(arr) {
   let res = {
+    sayFirst: [],
     weSay: [],
     theySay: [],
     submitList: [],
+    weCanSayList: [],
     pickingList: [],
     action: [],
     reward: [],
     notify: [],
+    theySaySubmitList: [],
   };
 
   arr.forEach((e) => {
-    if (e.id.includes("weSay")) {
-      res.weSay.push(e.content);
-    }
-    if (e.id.includes("theySay")) {
-      res.theySay.push(e.content);
-    }
-    if (e.id.includes("pickingList")) {
-      let listT = e.content.split(";");
-      res.pickingList = res.pickingList.concat(listT);
+    let i = false;
+
+    if (e.id.includes("sayFirst")) {
+      res.sayFirst.push(e.content);
+      i = true;
     }
 
-    if (e.id.includes("submitList")) {
-      res.submitList.push(e.content);
+    if (e.id.includes("weCanSayList")) {
+      let weCanSayList = trimArrayElements(e.content.split(";"));
+      res.weCanSayList = res.weCanSayList.concat(weCanSayList);
+      i = true;
     }
+    if (e.id.includes("weSay")) {
+      res.weSay.push(e.content);
+      i = true;
+    }
+
+    if (e.id.includes("theySay")) {
+      res.theySaySubmitList.push(e);
+      i = true;
+    }
+    if (e.id.includes("submitList")) {
+      res.theySaySubmitList.push(e);
+      i = true;
+    }
+
+    if (e.id.includes("pickingList")) {
+      let listT = trimArrayElements(e.content.split(";"));
+      res.pickingList = res.pickingList.concat(listT);
+      i = true;
+    }
+
     if (e.id.includes("notify")) {
       res.notify.push(e.content);
+      i = true;
     }
     if (e.id.includes("action")) {
       res.action.push(e.content);
+      i = true;
     }
     if (e.id.includes("reward")) {
       res.reward.push(e.content);
+      i = true;
+    }
+    if (!i) {
+      console.log("Lỗi", e.id);
     }
   });
+
+  let iCheckCount = 0;
+  let setsChecks = [];
+  try {
+    if (res["theySaySubmitList"].length > 0) {
+      let contentT = res["theySaySubmitList"][0].content;
+      iCheckCount = getRandomNumber(
+        trimArrayElements(contentT.split(";")).length
+      );
+
+      res["theySaySubmitList"].forEach((e) => {
+        if (e.id.includes("theySay")) {
+          let arr = trimArrayElements(e.content.split(";"));
+          setsChecks.push(arr.length);
+          res["theySay"].push(arr[iCheckCount]);
+        }
+        if (e.id.includes("submitList")) {
+          let arr = trimArrayElements(e.content.split(";"));
+          setsChecks.push(arr.length);
+          res["submitList"].push(arr[iCheckCount]);
+        }
+      });
+    }
+  } catch (error) {
+    console.log(error);
+  }
+  delete res["theySaySubmitList"];
   let keySets = Object.keys(res);
   keySets.forEach((e) => {
     if (res[e].length === 0) {
-      res[e] = null;
+      delete res[e];
     }
   });
   return res;
 }
 
-export { FetchData };
+export { fetchData };
+
+function trimArrayElements(array) {
+  try {
+    return array
+      .filter((element) => element !== null && element !== "") // Bước 1: loại bỏ các phần tử null
+      .map((element) => {
+        if (typeof element === "string") {
+          return element.trim(); // Cắt bỏ khoảng trắng đầu và cuối của chuỗi
+        }
+        if (typeof element === "number") {
+          return element + ""; // Chuyển số thành chuỗi
+        }
+        return element;
+      });
+  } catch (error) {
+    console.log(JSON.stringify(array));
+  }
+}
+
+function getRandomNumber(n) {
+  return Math.floor(Math.random() * n);
+}

@@ -3,10 +3,10 @@ import $ from "jquery";
 import readXlsxFile from "read-excel-file";
 import * as TransferData from "./Create_A_InputData_Tranfer_2024_onlyformapConversation";
 import transferTextToArray from "./transferTextToArray";
-// import ReadMessage from "./ReadMessage_2024";
+import ReadMessage from "./ReadMessage_2024";
 import Dictaphone from "./RegcognitionV2024-05-NG";
 import initializeVoicesAndPlatform from "./initializeVoicesAndPlatform";
-console.log(initializeVoicesAndPlatform());
+import { compareTwoStrings } from "string-similarity";
 function GetDocument() {
   const [IndexExcel, SetIndexExcel] = useState("1");
   const [Documents, SetDocuments] = useState(null);
@@ -14,11 +14,15 @@ function GetDocument() {
   const [PickData, SetPickData] = useState([]);
   const [Index, SetIndex] = useState(0);
   const [New, SetNew] = useState(0);
+  const [ObjRead, SetObjRead] = useState(null);
+  const [CMD, SetCMD] = useState(null);
+
   useEffect(() => {
     const handleFileChange = async (event) => {
       try {
         let ArrIndex;
         const indexText = $("#IndexExcel").text();
+
         if (indexText.includes("-")) {
           ArrIndex = transferTextToArray(indexText);
         } else {
@@ -26,6 +30,7 @@ function GetDocument() {
         }
 
         let ArrOUT = [];
+
         for (const e of ArrIndex) {
           // Note: Assuming readXlsxFile returns a promise
           const rows = await readXlsxFile(event.target.files[0], { sheet: e });
@@ -71,15 +76,44 @@ function GetDocument() {
   }, [PracData, Index, PickData]);
 
   useEffect(() => {
+    try {
+      if (CMD !== null) {
+        const closestMatch = findClosestMatch(CMD, PracData[Index]);
+        ReadMessage(ObjRead, getRandomElement(closestMatch.theySay), 1);
+
+        if (closestMatch.action) {
+          SetPickData([...PickData, "FN01"]);
+        }
+      }
+    } catch (error) {}
+  }, [CMD]);
+
+  useEffect(() => {
     if (New !== 0) {
       SetIndex(0);
       SetPickData([]);
     }
   }, [New]);
+  useEffect(() => {
+    const initialize = async () => {
+      const e = await initializeVoicesAndPlatform();
+      SetObjRead(e);
+    };
+
+    initialize();
+  }, []);
 
   return (
-    <div className="container-fluid row" id="CreateDiv">
+    <div>
       <div style={{ display: "" }} id="remodeDiv">
+        <p id="IndexExcel"> {IndexExcel}</p>
+        <input
+          placeholder="Nhập ds file name cần lấy"
+          onChange={(e) => {
+            SetIndexExcel(e.currentTarget.value.trim());
+          }}
+          type={"text"}
+        />
         <input type="file" id="input" />
         <button
           onClick={() => {
@@ -89,30 +123,7 @@ function GetDocument() {
         >
           Reset
         </button>
-        <button
-          onClick={() => {
-            $("#remodeDiv ").hide();
-          }}
-        >
-          {" "}
-          HIDE
-        </button>
-        {/* {showButton(ArrBTN1)} */}
-        <hr />
-
-        <p id="IndexExcel"> {IndexExcel}</p>
-        <input
-          placeholder="Nhập ds file name cần lấy"
-          onChange={(e) => {
-            SetIndexExcel(e.currentTarget.value.trim());
-          }}
-          type={"text"}
-        />
-        <hr />
-        {/* {showButton(ArrBTN2)} */}
         {showButton(TransferData)}
-        <hr />
-
         <button
           onClick={() => {
             try {
@@ -128,13 +139,28 @@ function GetDocument() {
           GET DOCUMENT
         </button>
         <button>THỰC HÀNH Start</button>
+        {JSON.stringify(ObjRead)}
+        <button
+          onClick={() => {
+            ReadMessage(ObjRead, "Hi, Try it with your best.", 1);
+          }}
+        >
+          READ
+        </button>
+
         <hr />
-        <div id="ResID" style={{ padding: "35px" }}></div>
+        <div id="ResID" style={{ padding: "15px" }}></div>
       </div>
-      {/* {JSON.stringify(PickData)} */}
-      <Dictaphone />
+
       {PracData !== null ? (
-        <div>
+        <div
+          style={{
+            border: "1px solid black",
+            borderRadius: "10px",
+          }}
+          className="row"
+        >
+          <Dictaphone SetCMD={SetCMD} />{" "}
           {PracData.map((e, i) => (
             <div key={i} style={{ marginLeft: i * 25 + "px" }}>
               {e.map((e1, i1) => (
@@ -150,6 +176,15 @@ function GetDocument() {
                         Index === i ? false : true
                       )
                     : null}
+
+                  {Index === i && e1.weCanSayList ? (
+                    <select>
+                      <option>"We can say" list:</option>
+                      {e1.weCanSayList.map((e, i) => (
+                        <option key={i}>{e}</option>
+                      ))}
+                    </select>
+                  ) : null}
                 </div>
               ))}
             </div>
@@ -157,10 +192,10 @@ function GetDocument() {
         </div>
       ) : null}
       <hr />
-
       {Documents !== null
         ? tableDocuments(Documents, SetPracData, SetNew)
         : null}
+      <hr />
     </div>
   );
 }
@@ -187,7 +222,20 @@ function tableDocuments(data, SetPracData, SetNew) {
     return (
       <div>
         <hr />
+        {data.map((e, i) => (
+          <button
+            className="btn btn-outline-primary p-4"
+            key={i}
+            onClick={() => {
+              SetPracData(e);
+              SetNew((D) => D + 1);
+            }}
+          >
+            {i + 1} {/* Display the item from the data array */}
+          </button>
+        ))}
 
+        <hr />
         {data.map((e, i) => (
           <div key={i}>
             <h5>Conversation {i + 1}</h5>{" "}
@@ -214,6 +262,12 @@ function tableDocuments(data, SetPracData, SetNew) {
                     <div className="col-1">{i1 + 1}</div>
                     <div className="col-6">
                       <p>
+                        <i style={{ color: "blue" }}>
+                          {" "}
+                          {showText(e2.sayFirst)}
+                        </i>
+                      </p>
+                      <p>
                         <b> {showText(e2.weSay)}</b>
                       </p>
                       <p>{showText(e2.theySay)}</p>
@@ -222,6 +276,10 @@ function tableDocuments(data, SetPracData, SetNew) {
                       <p> Thông báo: {showText(e2.notify)}</p>
                       <p> Cần chọn: {showText(e2.submitList)}</p>
                       <p> Dánh sách lựa chọn: {showText(e2.pickingList)}</p>
+                      <p>
+                        {" "}
+                        Dánh sách câu có thể nói: {showText(e2.weCanSayList)}
+                      </p>
                       <p> Hành động: {showText(e2.action)}</p>
                       <p> Phần thưởng: {showText(e2.reward)}</p>
                     </div>
@@ -287,3 +345,44 @@ function showPick(arr, SetPickData, PickData, mode) {
     return null;
   }
 }
+function findClosestMatch(inputString, arrayInput) {
+  console.log(arrayInput);
+  let closestMatch = null;
+  let highestSimilarity = 0;
+
+  // Duyệt qua từng đối tượng trong arrayInput
+  arrayInput.forEach((entry) => {
+    // Duyệt qua từng chuỗi trong thuộc tính weSay của đối tượng
+    entry.weSay.forEach((weSayString) => {
+      // So sánh độ tương đồng giữa inputString và weSayString
+      const similarity = compareTwoStrings(inputString, weSayString);
+      console.log(inputString, weSayString, similarity);
+
+      // Cập nhật độ tương đồng cao nhất và đối tượng tương ứng nếu cần
+      if (similarity > highestSimilarity) {
+        highestSimilarity = similarity;
+        closestMatch = entry;
+      }
+    });
+  });
+
+  // Kiểm tra độ tương đồng có lớn hơn 0.6 không và trả về họSay của đối tượng tương ứng
+  if (highestSimilarity > 0.6 && closestMatch) {
+    return closestMatch;
+  }
+
+  return { theySay: ["What do you mean?"] };
+}
+
+const getRandomElement = (array) => {
+  // Kiểm tra nếu mảng rỗng
+  if (array.length === 0) {
+    return null; // Hoặc throw new Error('Array is empty') tùy theo yêu cầu của bạn
+  }
+
+  // Tính toán chỉ số ngẫu nhiên trong mảng
+  const randomIndex = Math.floor(Math.random() * array.length);
+
+  // Trả về phần tử tại chỉ số ngẫu nhiên
+  return array[randomIndex];
+};
