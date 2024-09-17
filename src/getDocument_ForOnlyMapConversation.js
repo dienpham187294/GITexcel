@@ -59,9 +59,7 @@ function GetDocument() {
     if (PracData !== null && PracData[Index]) {
       let submitListT = PracData[Index].map((e) => e.submitList || []) // Get submitList or return an empty array
         .flat(); // Flatten the arrays into one array
-
       let iCheck = submitListT.every((e) => PickData.includes(e + "")); // Check if all items in submitListT are in PickData
-
       if (iCheck && submitListT.length === PickData.length) {
         if (Index < PracData.length - 1) {
           SetIndex((prevIndex) => prevIndex + 1);
@@ -157,6 +155,7 @@ function GetDocument() {
           style={{
             border: "1px solid black",
             borderRadius: "10px",
+            padding: "20px",
           }}
           className="row"
         >
@@ -168,14 +167,16 @@ function GetDocument() {
                   {Index === i && e1.notify ? (
                     <h1 style={{ color: "blue" }}>{e1.notify}</h1>
                   ) : null}
-                  {Index >= i && e1.pickingList
-                    ? showPick(
+                  {Index >= i && e1.pickingList ? (
+                    <>
+                      {showPick(
                         Index === i ? e1.pickingList : e1.submitList,
                         SetPickData,
                         PickData,
                         Index === i ? false : true
-                      )
-                    : null}
+                      )}
+                    </>
+                  ) : null}
 
                   {Index === i && e1.weCanSayList ? (
                     <select>
@@ -232,6 +233,19 @@ function tableDocuments(data, SetPracData, SetNew) {
             }}
           >
             {i + 1} {/* Display the item from the data array */}
+          </button>
+        ))}
+
+        {shuffleArray(data).map((e, i) => (
+          <button
+            className="btn btn-primary p-4"
+            key={i}
+            onClick={() => {
+              SetPracData(e);
+              SetNew((D) => D + 1);
+            }}
+          >
+            ? {/* Display the item from the data array */}
           </button>
         ))}
 
@@ -386,3 +400,13 @@ const getRandomElement = (array) => {
   // Trả về phần tử tại chỉ số ngẫu nhiên
   return array[randomIndex];
 };
+function shuffleArray(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    // Chọn một chỉ số ngẫu nhiên từ 0 đến i
+    const j = Math.floor(Math.random() * (i + 1));
+
+    // Hoán đổi arr[i] với arr[j]
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
