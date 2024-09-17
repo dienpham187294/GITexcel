@@ -148,6 +148,7 @@ function GetDocument() {
         <div id="ResID" style={{ padding: "15px" }}></div>
       </div>
       <h1>Phase: {Index + 1}</h1> {CMD}
+      <Dictaphone SetCMD={SetCMD} />{" "}
       {PracData !== null ? (
         <div
           style={{
@@ -157,7 +158,6 @@ function GetDocument() {
           }}
           className="row"
         >
-          <Dictaphone SetCMD={SetCMD} />{" "}
           {PracData.map((e, i) => (
             <div key={i} style={{ marginLeft: i * 25 + "px" }}>
               {e.map((e1, i1) => (
