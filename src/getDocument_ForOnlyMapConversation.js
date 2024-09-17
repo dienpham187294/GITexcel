@@ -16,7 +16,7 @@ function GetDocument() {
   const [New, SetNew] = useState(0);
   const [ObjRead, SetObjRead] = useState(null);
   const [CMD, SetCMD] = useState(null);
-
+  const [Notify, SetNotify] = useState(null);
   useEffect(() => {
     const handleFileChange = async (event) => {
       try {
@@ -78,7 +78,6 @@ function GetDocument() {
       if (CMD !== null) {
         const closestMatch = findClosestMatch(CMD, PracData[Index]);
         ReadMessage(ObjRead, getRandomElement(closestMatch.theySay), 1);
-
         if (closestMatch.action) {
           SetPickData([...PickData, "FN01"]);
         }
@@ -156,7 +155,7 @@ function GetDocument() {
         <hr />
         <div id="ResID" style={{ padding: "15px" }}></div>
       </div>
-
+      <h1>Phase: {Index + 1}</h1>
       {PracData !== null ? (
         <div
           style={{
