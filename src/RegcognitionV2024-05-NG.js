@@ -26,10 +26,17 @@ const Dictaphone = ({ SetCMD }) => {
         {" "}
         {listening ? (
           <>
-            {" "}
+            <button
+              className="btn btn-danger p-2 m-1"
+              onClick={() => {
+                stopListening();
+              }}
+            >
+              STOP
+            </button>
             <button
               id="resetCMD"
-              className="btn btn-outline-primary p-2 m-1"
+              className="btn btn-outline-primary p-2 ml-3"
               onClick={() => {
                 resetTranscript();
                 SetCMD(null);
@@ -38,20 +45,12 @@ const Dictaphone = ({ SetCMD }) => {
               Reset
             </button>
             <button
-              className="btn btn-outline-primary p-2 m-1"
+              className="btn btn-outline-primary p-2 ml-3"
               onClick={() => {
                 SetCMD(transcript);
               }}
             >
               USE
-            </button>
-            <button
-              className="btn btn-danger p-2 m-1"
-              onClick={() => {
-                stopListening();
-              }}
-            >
-              STOP
             </button>
           </>
         ) : (

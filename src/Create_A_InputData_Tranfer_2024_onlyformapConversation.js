@@ -218,6 +218,7 @@ function conversationBox(arr) {
     reward: [],
     notify: [],
     theySaySubmitList: [],
+    NotifyWeSay: [],
   };
 
   arr.forEach((e) => {
@@ -234,7 +235,8 @@ function conversationBox(arr) {
       i = true;
     }
     if (e.id.includes("weSay")) {
-      res.weSay.push(e.content);
+      res.NotifyWeSay.push(e);
+      // res.weSay.push(e.content);
       i = true;
     }
 
@@ -254,7 +256,8 @@ function conversationBox(arr) {
     }
 
     if (e.id.includes("notify")) {
-      res.notify.push(e.content);
+      res.NotifyWeSay.push(e);
+      // res.notify.push(e.content);
       i = true;
     }
     if (e.id.includes("action")) {
@@ -283,7 +286,17 @@ function conversationBox(arr) {
         if (e.id.includes("theySay")) {
           let arr = trimArrayElements(e.content.split(";"));
           setsChecks.push(arr.length);
-          res["theySay"].push(arr[iCheckCount]);
+
+          if (arr[iCheckCount].includes("\\")) {
+            res["theySay"] = res["theySay"].concat(
+              trimArrayElements(arr[iCheckCount].split("\\"))
+            );
+            // Handle the case where the element contains a backslash
+          } else {
+            res["theySay"].push(arr[iCheckCount]);
+          }
+
+          // res["theySay"].push(arr[iCheckCount]);
         }
         if (e.id.includes("submitList")) {
           let arr = trimArrayElements(e.content.split(";"));
@@ -296,6 +309,41 @@ function conversationBox(arr) {
     console.log(error);
   }
   delete res["theySaySubmitList"];
+  let iCheckCountNotifyWeSay = 0;
+  let setsChecksNotifyWeSay = [];
+  try {
+    if (res["NotifyWeSay"].length > 0) {
+      let contentT = res["NotifyWeSay"][0].content;
+      iCheckCountNotifyWeSay = getRandomNumber(
+        trimArrayElements(contentT.split(";")).length
+      );
+
+      res["NotifyWeSay"].forEach((e) => {
+        if (e.id.includes("notify")) {
+          let arr = trimArrayElements(e.content.split(";"));
+          setsChecksNotifyWeSay.push(arr.length);
+          res["notify"].push(arr[iCheckCountNotifyWeSay]);
+        }
+        if (e.id.includes("weSay")) {
+          let arr = trimArrayElements(e.content.split(";"));
+          setsChecksNotifyWeSay.push(arr.length);
+
+          if (arr[iCheckCountNotifyWeSay].includes("\\")) {
+            res["weSay"] = res["weSay"].concat(
+              trimArrayElements(arr[iCheckCountNotifyWeSay].split("\\"))
+            );
+            // Handle the case where the element contains a backslash
+          } else {
+            res["weSay"].push(arr[iCheckCountNotifyWeSay]);
+          }
+        }
+      });
+    }
+  } catch (error) {
+    console.log(error);
+  }
+  // delete res["NotifyWeSay"];
+
   let keySets = Object.keys(res);
   keySets.forEach((e) => {
     if (res[e].length === 0) {
@@ -328,3 +376,4 @@ function trimArrayElements(array) {
 function getRandomNumber(n) {
   return Math.floor(Math.random() * n);
 }
+

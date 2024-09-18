@@ -59,7 +59,7 @@ function GetDocument() {
 
   useEffect(() => {
     if (PracData !== null && PracData[Index]) {
-      SetWeCanSay(collectWeSay(PracData[Index]));
+      SetWeCanSay(collectWeSay(PracData[Index]).concat(pickRandomN(qsSets, 4)));
       let submitListT = PracData[Index].map((e) => e.submitList || []) // Get submitList or return an empty array
         .flat(); // Flatten the arrays into one array
 
@@ -93,6 +93,7 @@ function GetDocument() {
     if (New !== 0) {
       SetIndex(0);
       SetPickData([]);
+      SetCMD("Hello");
     }
   }, [New]);
   useEffect(() => {
@@ -190,7 +191,7 @@ function GetDocument() {
                 {Index === i ? (
                   <select className="form-control">
                     <option>"We can say" list:</option>
-                    {WeCanSay.map((e, i) => (
+                    {shuffleArray(WeCanSay).map((e, i) => (
                       <option key={i}>{e}</option>
                     ))}
                   </select>
@@ -283,15 +284,19 @@ function tableDocuments(data, SetPracData, SetNew) {
                   <div className="row" key={i2}>
                     <div className="col-1">{i1 + 1}</div>
                     <div className="col-6">
-                      <p>
+                      {/* <p>
                         <i style={{ color: "blue" }}>
                           {" "}
                           {showText(e2.sayFirst)}
                         </i>
-                      </p>
+                      </p> */}
                       <p>
+                        Hỏi:
+                        <br />
                         <b> {showText(e2.weSay)}</b>
                       </p>
+                      <hr />
+                      Trả lời:
                       <p>{showText(e2.theySay)}</p>
                     </div>
                     <div className="col-5">
@@ -321,11 +326,15 @@ function tableDocuments(data, SetPracData, SetNew) {
 
 function showText(arr) {
   try {
-    let text = "";
-    arr.forEach((e) => {
-      text += e + "; ";
-    });
-    return <b>{text}</b>;
+    return (
+      <b>
+        {arr.map((e, i) => (
+          <span key={i} style={{ color: "black" }}>
+            <br /> + {e}
+          </span>
+        ))}
+      </b>
+    );
   } catch (error) {
     return "Không";
   }
@@ -430,3 +439,72 @@ function collectWeSay(arr) {
   // Sử dụng Set để loại bỏ phần tử trùng lặp và chuyển đổi về mảng
   return [...new Set(combined)];
 }
+function pickRandomN(arr, n) {
+  if (arr.length < n) {
+    return arr;
+  }
+
+  let result = [];
+  let tempArr = [...arr]; // Copy the original array to avoid mutation
+
+  for (let i = 0; i < 4; i++) {
+    let randomIndex = Math.floor(Math.random() * tempArr.length);
+    result.push(tempArr[randomIndex]);
+    tempArr.splice(randomIndex, 1); // Remove the selected element from the temp array
+  }
+
+  return result;
+}
+
+const qsSets = [
+  "What is your name?",
+  "How old are you?",
+  "Where are you from?",
+  "Do you speak English?",
+  "What do you do?",
+  "How are you today?",
+  "Where do you live?",
+  "Do you have any pets?",
+  "Can you help me, please?",
+  "What time is it?",
+  "Do you like coffee?",
+  "What is your favorite color?",
+  "How many brothers or sisters do you have?",
+  "Do you have a phone number?",
+  "Are you married?",
+  "What is your job?",
+  "What is your hobby?",
+  "Where is the nearest supermarket?",
+  "What’s your email address?",
+  "How much does this cost?",
+  "Do you have any children?",
+  "What’s your favorite food?",
+  "What’s your favorite movie?",
+  "Where is the bathroom?",
+  "What’s your address?",
+  "Can I have the bill, please?",
+  "How do you spell your name?",
+  "How do you get to work?",
+  "Can you repeat that, please?",
+  "What’s your favorite book?",
+  "How long have you lived here?",
+  "Where do you study?",
+  "What time do you wake up?",
+  "What do you like to do on weekends?",
+  "Can I help you?",
+  "How much is this?",
+  "Do you like music?",
+  "What’s your phone number?",
+  "What do you do in your free time?",
+  "What is your favorite sport?",
+  "Are you tired?",
+  "Where is the train station?",
+  "Can you speak slowly, please?",
+  "How do you feel today?",
+  "Where are we going?",
+  "Do you like to travel?",
+  "What’s the weather like today?",
+  "How far is it from here?",
+  "What’s your favorite season?",
+  "Where is the nearest bus stop?",
+];
