@@ -55,47 +55,82 @@ function fetchData() {
   try {
     let resIDText = $("#ResID").text(); // renamed input1 to resIDText
 
-    if (resIDText.includes("id-01")) {
-      let parsedJson = JSON.parse(resIDText); // renamed inputJson1 to parsedJson
-      let dataLength = parsedJson[0][0].length; // renamed setLength to dataLength
+    let parseDataInput = JSON.parse(resIDText);
 
-      let resultArray = [];
-      for (let i = 0; i < dataLength / 2; i++) {
-        resultArray.push([]);
-      }
+    let parseDataInputSet = [];
 
-      parsedJson[0].forEach((element, index) => {
-        resultArray.forEach((subArray, subIndex) => {
-          subArray.push([element[subIndex * 2], element[subIndex * 2 + 1]]);
+    parseDataInput.forEach((e) => {
+      if (!JSON.stringify(e).includes("id-01")) {
+        parseDataInputSet.push(e);
+      } else {
+        let dataLength = e[0].length; // renamed setLength to dataLength
+        let resultArray = [];
+        for (let i = 0; i < dataLength / 2; i++) {
+          resultArray.push([]);
+        }
+        e.forEach((element, index) => {
+          resultArray.forEach((subArray, subIndex) => {
+            subArray.push([element[subIndex * 2], element[subIndex * 2 + 1]]);
+          });
         });
-      });
 
-      let filteredArray = removeNullArrays(resultArray); // renamed beforefinalRes to filteredArray
+        let filteredArray = removeNullArrays(resultArray); // renamed beforefinalRes to filteredArray
 
-      let stringifiedResult = JSON.stringify(filteredArray); // renamed finalRes to stringifiedResult
+        let stringifiedResult = JSON.stringify(filteredArray); // renamed finalRes to stringifiedResult
 
-      for (let i = 0; i < dataLength / 2; i++) {
-        let indexStr = i < 10 ? "0" + (i + 1) : "" + (i + 1); // renamed index to indexStr
-        stringifiedResult = stringifiedResult
-          .split("id-" + indexStr)
-          .join("id")
-          .split("content-" + indexStr)
-          .join("content-01");
+        for (let i = 0; i < dataLength / 2; i++) {
+          let indexStr = i < 10 ? "0" + (i + 1) : "" + (i + 1); // renamed index to indexStr
+          stringifiedResult = stringifiedResult
+            .split("id-" + indexStr)
+            .join("id")
+            .split("content-" + indexStr)
+            .join("content-01");
+        }
+        parseDataInputSet = parseDataInputSet.concat(
+          JSON.parse(stringifiedResult)
+        );
       }
+    });
 
-      let nextStepInput = NextStep_DontUnifile(JSON.parse(stringifiedResult)); // renamed input to nextStepInput
-      let finalArray = [];
-      nextStepInput.forEach((element, index) => {
-        finalArray.push(splitContentIntoArrays(element));
-      });
+    // if (resIDText.includes("id-01")) {
+    //   let parsedJson = JSON.parse(resIDText); // renamed inputJson1 to parsedJson
+    //   let dataLength = parsedJson[0][0].length; // renamed setLength to dataLength
+    //   let resultArray = [];
+    //   for (let i = 0; i < dataLength / 2; i++) {
+    //     resultArray.push([]);
+    //   }
 
-      let processedArray = toPracPot(toOneArray(finalArray)); // renamed resresFNALL01 to processedArray
-      $("#ResID").text(JSON.stringify(processedArray));
-      return;
-    }
+    //   parsedJson[0].forEach((element, index) => {
+    //     resultArray.forEach((subArray, subIndex) => {
+    //       subArray.push([element[subIndex * 2], element[subIndex * 2 + 1]]);
+    //     });
+    //   });
 
-    NextStep_DontUnifile();
-    let parsedResID = JSON.parse($("#ResID").text()); // renamed input to parsedResID
+    //   let filteredArray = removeNullArrays(resultArray); // renamed beforefinalRes to filteredArray
+
+    //   let stringifiedResult = JSON.stringify(filteredArray); // renamed finalRes to stringifiedResult
+
+    //   for (let i = 0; i < dataLength / 2; i++) {
+    //     let indexStr = i < 10 ? "0" + (i + 1) : "" + (i + 1); // renamed index to indexStr
+    //     stringifiedResult = stringifiedResult
+    //       .split("id-" + indexStr)
+    //       .join("id")
+    //       .split("content-" + indexStr)
+    //       .join("content-01");
+    //   }
+
+    //   let nextStepInput = NextStep_DontUnifile(JSON.parse(stringifiedResult)); // renamed input to nextStepInput
+    //   let finalArray = [];
+    //   nextStepInput.forEach((element, index) => {
+    //     finalArray.push(splitContentIntoArrays(element));
+    //   });
+
+    //   let processedArray = toPracPot(toOneArray(finalArray)); // renamed resresFNALL01 to processedArray
+    //   $("#ResID").text(JSON.stringify(processedArray));
+    //   return;
+    // }
+
+    let parsedResID = NextStep_DontUnifile(parseDataInputSet); // renamed input to parsedResID
     let finalArray = [];
     parsedResID.forEach((element, index) => {
       finalArray.push(splitContentIntoArrays(element));

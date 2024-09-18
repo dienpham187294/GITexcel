@@ -7,7 +7,7 @@ import ReadMessage from "./ReadMessage_2024";
 import Dictaphone from "./RegcognitionV2024-05-NG";
 import initializeVoicesAndPlatform from "./initializeVoicesAndPlatform";
 import { compareTwoStrings } from "string-similarity";
-import { jsx } from "react/jsx-runtime";
+
 function GetDocument() {
   const [IndexExcel, SetIndexExcel] = useState("1");
   const [Documents, SetDocuments] = useState(null);
