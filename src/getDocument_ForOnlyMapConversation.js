@@ -334,6 +334,7 @@ function tableDocuments(
       </div>
     );
   } catch (error) {
+    console.log(error);
     return "Lỗi";
   }
 }
@@ -367,6 +368,8 @@ function showPick(arr, SetPickData, PickData, mode) {
             style={{
               backgroundColor:
                 PickData.includes(e.trim()) || mode ? "yellow" : "transparent",
+              borderRadius: "5px",
+              padding: "5 10px",
             }}
             onClick={() => {
               if (!mode) {

@@ -1,0 +1,94 @@
+[
+  [
+    [
+      {
+        "weSay": ["Hello", "Hi, how can I help you?"],
+        "theySay": ["Hi! I would like to check-out, please."],
+        "submitList": ["Check-out"],
+        "pickingList": [
+          "Booking",
+          "Check-in",
+          "Check-out",
+          "Additional Service",
+          "Room Service",
+          "Housekeeping",
+          "Concierge Service",
+          "Maintenance Service"
+        ],
+        "NotifyWeSay": [
+          { "id": "01-01-weSay-01", "content": "Hello" },
+          { "id": "01-01-weSay-02", "content": "Hi, how can I help you?" }
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["May I have your room number, please?"],
+        "theySay": ["It's room 305."],
+        "submitList": ["305"],
+        "pickingList": ["305", "402", "106", "728"],
+        "NotifyWeSay": [
+          {
+            "id": "02-01-weSay-01",
+            "content": "May I have your room number, please?"
+          }
+        ]
+      },
+      {
+        "weSay": ["Did you have anything from the minibar?"],
+        "theySay": ["No, I didn’t take anything."],
+        "submitList": ["No"],
+        "pickingList": ["No", "Water", "Snacks"],
+        "NotifyWeSay": [
+          {
+            "id": "02-02-weSay-01",
+            "content": "Did you have anything from the minibar?"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["Your total is 150$"],
+        "theySay": ["That fine!"],
+        "submitList": ["FN01"],
+        "weCanSayList": [
+          "Your total is 150$",
+          "Your total is 120$",
+          "Your total is 100$"
+        ],
+        "action": ["submitFN01"],
+        "notify": ["Total: 150$"],
+        "NotifyWeSay": [
+          { "id": "03-01-notify-01", "content": "Total: 150$" },
+          { "id": "03-01-weSay-01", "content": "Your total is 150$" }
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["How would you like to pay?"],
+        "theySay": ["I’ll pay by cash."],
+        "submitList": ["Cash"],
+        "pickingList": ["Credit card", "Debit card", "Cash"],
+        "NotifyWeSay": [
+          { "id": "04-01-weSay-01", "content": "How would you like to pay?" }
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["Do you need anything else?"],
+        "theySay": ["No, thanks."],
+        "submitList": ["FN01"],
+        "weCanSayList": ["Do you need anything else?"],
+        "action": ["submitFN01"],
+        "notify": ["Done"],
+        "NotifyWeSay": [
+          { "id": "05-01-notify-01", "content": "Done" },
+          { "id": "05-01-weSay-01", "content": "Do you need anything else?" }
+        ]
+      }
+    ]
+  ]
+]

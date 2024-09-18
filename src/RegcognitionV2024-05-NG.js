@@ -18,9 +18,17 @@ const Dictaphone = ({ SetCMD }) => {
   };
 
   return (
-    <div className="row">
-      <div className="col-8">
-        <h1>{transcript}</h1>
+    <div
+      className="row"
+      style={{
+        border: "1px solid black",
+        borderRadius: "10px",
+        padding: "10px",
+        marginBottom: "5px",
+      }}
+    >
+      <div className="col-8" style={{ height: "100px", overflow: "auto" }}>
+        <h3>{transcript}</h3>
       </div>
       <div className="col-4">
         {" "}

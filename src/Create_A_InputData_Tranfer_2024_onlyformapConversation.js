@@ -384,7 +384,7 @@ function conversationBox(arr) {
     res.Error.push("Cảnh báo lỗi Thiếu submitList.");
   }
 
-  // delete res["NotifyWeSay"];
+  delete res["NotifyWeSay"];
 
   let keySets = Object.keys(res);
   keySets.forEach((e) => {
