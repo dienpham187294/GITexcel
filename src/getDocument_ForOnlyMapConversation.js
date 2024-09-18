@@ -307,11 +307,29 @@ function tableDocuments(
                       <p>
                         Hỏi:
                         <br />
-                        <b> {showText(e2.weSay)}</b>
+                        <b>
+                          {" "}
+                          {showText(e2.weSay) === "Không" ? (
+                            <h5 style={{ color: "red" }}>
+                              Cảnh báo lỗi không có câu nói
+                            </h5>
+                          ) : (
+                            showText(e2.weSay)
+                          )}
+                        </b>
                       </p>
                       <hr />
                       Trả lời:
-                      <p>{showText(e2.theySay)}</p>
+                      <p>
+                        {" "}
+                        {showText(e2.theySay) === "Không" ? (
+                          <h5 style={{ color: "red" }}>
+                            Cảnh báo lỗi không có câu trả lời
+                          </h5>
+                        ) : (
+                          showText(e2.theySay)
+                        )}
+                      </p>
                     </div>
                     <div className="col-5">
                       <p> Thông báo: {showText(e2.notify)}</p>
