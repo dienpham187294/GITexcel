@@ -403,7 +403,10 @@ function findClosestMatch(inputString, arrayInput) {
     // Duyệt qua từng chuỗi trong thuộc tính weSay của đối tượng
     entry.weSay.forEach((weSayString) => {
       // So sánh độ tương đồng giữa inputString và weSayString
-      const similarity = compareTwoStrings(inputString, weSayString);
+      const similarity = compareTwoStrings(
+        cleanString(inputString),
+        cleanString(weSayString)
+      );
       console.log(inputString, weSayString, similarity);
 
       // Cập nhật độ tương đồng cao nhất và đối tượng tương ứng nếu cần
@@ -525,3 +528,10 @@ const qsSets = [
   "What’s your favorite season?",
   "Where is the nearest bus stop?",
 ];
+function cleanString(str) {
+  return str
+    .toLowerCase() // Chuyển về chữ thường
+    .normalize("NFD") // Chuẩn hóa các ký tự có dấu thành dạng đơn
+    .replace(/[\u0300-\u036f]/g, "") // Loại bỏ dấu
+    .replace(/[^a-z0-9\s]/g, ""); // Loại bỏ ký tự đặc biệt, chỉ giữ chữ cái, số và khoảng trắng
+}
