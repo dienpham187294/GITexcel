@@ -19,6 +19,8 @@ function GetDocument() {
   const [CMD, SetCMD] = useState(null);
   const [WeCanSay, SetWeCanSay] = useState([]);
   const [Notify, SetNotify] = useState(null);
+
+  const [IndexDataShow, SetIndexDataShow] = useState(0);
   useEffect(() => {
     const handleFileChange = async (event) => {
       try {
@@ -211,7 +213,13 @@ function GetDocument() {
         Xóa bài thực hành
       </button>
       {Documents !== null
-        ? tableDocuments(Documents, SetPracData, SetNew)
+        ? tableDocuments(
+            Documents,
+            SetPracData,
+            SetNew,
+            IndexDataShow,
+            SetIndexDataShow
+          )
         : null}
       <hr />
     </div>
@@ -235,7 +243,13 @@ function showButton(ArrBTN) {
   ));
 }
 
-function tableDocuments(data, SetPracData, SetNew) {
+function tableDocuments(
+  data,
+  SetPracData,
+  SetNew,
+  IndexDataShow,
+  SetIndexDataShow
+) {
   try {
     return (
       <div>
@@ -248,6 +262,7 @@ function tableDocuments(data, SetPracData, SetNew) {
             onClick={() => {
               SetPracData(e);
               SetNew((D) => D + 1);
+              SetIndexDataShow(i);
             }}
           >
             {i + 1} {/* Display the item from the data array */}
@@ -268,7 +283,7 @@ function tableDocuments(data, SetPracData, SetNew) {
         ))}
 
         <hr />
-        {data.map((e, i) => (
+        {[data[IndexDataShow]].map((e, i) => (
           <div key={i}>
             <h5>Conversation {i + 1}</h5>{" "}
             {e.map((e1, i1) => (
@@ -284,12 +299,11 @@ function tableDocuments(data, SetPracData, SetNew) {
                   <div className="row" key={i2}>
                     <div className="col-1">{i1 + 1}</div>
                     <div className="col-6">
-                      {/* <p>
-                        <i style={{ color: "blue" }}>
-                          {" "}
-                          {showText(e2.sayFirst)}
-                        </i>
-                      </p> */}
+                      <h4>
+                        {showText(e2.Error) === "Không"
+                          ? null
+                          : showText(e2.Error, "red")}
+                      </h4>
                       <p>
                         Hỏi:
                         <br />
@@ -324,12 +338,12 @@ function tableDocuments(data, SetPracData, SetNew) {
   }
 }
 
-function showText(arr) {
+function showText(arr, colorQ) {
   try {
     return (
       <b>
         {arr.map((e, i) => (
-          <span key={i} style={{ color: "black" }}>
+          <span key={i} style={{ color: colorQ ? colorQ : "black" }}>
             <br /> + {e}
           </span>
         ))}

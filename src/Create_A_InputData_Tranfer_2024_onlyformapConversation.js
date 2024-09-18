@@ -219,6 +219,7 @@ function conversationBox(arr) {
     notify: [],
     theySaySubmitList: [],
     NotifyWeSay: [],
+    Error: [],
   };
 
   arr.forEach((e) => {
@@ -269,6 +270,7 @@ function conversationBox(arr) {
       i = true;
     }
     if (!i) {
+      res.Error.push(" Cảnh báo lỗi ID: " + e.id);
       console.log("Lỗi", e.id);
     }
   });
@@ -342,6 +344,11 @@ function conversationBox(arr) {
   } catch (error) {
     console.log(error);
   }
+
+  if (res.submitList.length === 0) {
+    res.Error.push("Cảnh báo lỗi Thiếu submitList.");
+  }
+
   // delete res["NotifyWeSay"];
 
   let keySets = Object.keys(res);
@@ -376,4 +383,3 @@ function trimArrayElements(array) {
 function getRandomNumber(n) {
   return Math.floor(Math.random() * n);
 }
-
