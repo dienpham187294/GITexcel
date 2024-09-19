@@ -95,7 +95,7 @@ function GetDocument() {
     if (New !== 0) {
       SetIndex(0);
       SetPickData([]);
-      SetCMD("Hello");
+      // SetCMD("Hello");
     }
   }, [New]);
   useEffect(() => {
@@ -170,22 +170,18 @@ function GetDocument() {
               <div className="col-7">
                 {" "}
                 {e.map((e1, i1) => (
-                  <div key={i1}>
+                  <div key={i1} style={{ display: "inline-block" }}>
                     {Index === i && e1.notify ? (
                       <h1 style={{ color: "blue" }}>{e1.notify}</h1>
                     ) : null}
-                    {Index >= i && e1.pickingList ? (
-                      <div className="row">
-                        <div>
-                          {showPick(
-                            Index === i ? e1.pickingList : e1.submitList,
-                            SetPickData,
-                            PickData,
-                            Index === i ? false : true
-                          )}{" "}
-                        </div>
-                      </div>
-                    ) : null}
+                    {Index >= i && e1.pickingList
+                      ? showPick(
+                          Index === i ? e1.pickingList : e1.submitList,
+                          SetPickData,
+                          PickData,
+                          Index === i ? false : true
+                        )
+                      : null}
                   </div>
                 ))}
               </div>
@@ -380,7 +376,7 @@ function showPick(arr, SetPickData, PickData, mode) {
     }
 
     return (
-      <>
+      <div style={{ width: "200px", height: "50px", overflow: "auto" }}>
         {arr.map((e, i) => (
           <button
             style={{
@@ -405,12 +401,57 @@ function showPick(arr, SetPickData, PickData, mode) {
             {e}
           </button>
         ))}
-      </>
+      </div>
     );
   } catch (error) {
     return null;
   }
 }
+// function showPick(arr, SetPickData, PickData, mode) {
+//   try {
+//     if (!Array.isArray(arr)) {
+//       throw new Error("Input is not an array");
+//     }
+
+//     const handleChange = (e) => {
+//       const selectedValue = e.target.value;
+
+//       if (!mode) {
+//         if (selectedValue === "none") {
+//           // Clear the selection if "none" is chosen
+//           SetPickData([]);
+//         } else if (PickData.includes(selectedValue.trim())) {
+//           // Remove item if it exists in PickData
+//           SetPickData(PickData.filter((item) => item !== selectedValue.trim()));
+//         } else {
+//           // Add item if not already in PickData
+//           SetPickData([...PickData, selectedValue.trim()]);
+//         }
+//       }
+//     };
+
+//     return (
+//       <div >
+//         <select
+//           className="form-control"
+//           onChange={handleChange}
+//           value={PickData.length ? PickData[PickData.length - 1] : "none"}
+//         >
+//           <option value="none">-- Tên --</option>
+//           {arr.map((e, i) => (
+//             <option key={i} value={e.trim()}>
+//               {e}
+//             </option>
+//           ))}
+//         </select>
+//       </div>
+//     );
+//   } catch (error) {
+//     console.error(error);
+//     return null;
+//   }
+// }
+
 function findClosestMatch(inputString, arrayInput) {
   console.log(arrayInput);
   let closestMatch = null;
