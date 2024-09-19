@@ -201,26 +201,30 @@ function GetDocument() {
             {" "}
             {PracData.map((e, i) => (
               <div key={i}>
-                <div>
-                  {e.map((e1, i1) => (
-                    <div key={i1} style={{ display: "inline-block" }}>
-                      {Index === i && e1.notify ? (
-                        <h5 style={{ color: "blue" }}>{e1.notify}</h5>
-                      ) : null}
-                      {Index >= i && e1.pickingList
-                        ? e1.pickingList.map(
-                            (ePickingListPot, iPickingListPot) =>
-                              showPick(
-                                Index === i ? ePickingListPot : e1.submitList,
-                                SetPickData,
-                                PickData,
-                                Index === i ? false : true
-                              )
+                {e.map((e1, i1) => (
+                  <div key={i1} style={{ display: "inline-block" }}>
+                    {Index > i
+                      ? e1.submitList.map((e2, i2) => (
+                          <i style={{ margin: "0 5px" }} key={i2}>
+                            {e2}
+                          </i>
+                        ))
+                      : null}
+                    {Index === i && e1.notify ? (
+                      <h5 style={{ color: "blue" }}>{e1.notify}</h5>
+                    ) : null}
+                    {Index >= i && e1.pickingList
+                      ? e1.pickingList.map((ePickingListPot, iPickingListPot) =>
+                          showPick(
+                            ePickingListPot,
+                            SetPickData,
+                            PickData,
+                            Index === i ? false : true
                           )
-                        : null}
-                    </div>
-                  ))}
-                </div>
+                        )
+                      : null}
+                  </div>
+                ))}
               </div>
             ))}
           </div>
@@ -424,17 +428,7 @@ function showText(arr, colorQ) {
 function showPick(arr, SetPickData, PickData, mode) {
   try {
     if (mode) {
-      return (
-        <>
-          {" "}
-          {arr.map((e, i) => (
-            <button className="btn btn-sm btn-outline-info" key={i}>
-              {e}
-            </button>
-          ))}
-          <hr />
-        </>
-      );
+      return null;
     }
     if (!Array.isArray(arr)) {
       throw new Error("Input is not an array");

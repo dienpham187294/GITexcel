@@ -255,6 +255,9 @@ function conversationBox(arr) {
     theySaySubmitList: [],
     NotifyWeSay: [],
     Error: [],
+    guideTable: [],
+    detailTable: [],
+    commonSt: [],
   };
 
   arr.forEach((e) => {
@@ -282,6 +285,18 @@ function conversationBox(arr) {
     }
     if (e.id.includes("submitList")) {
       res.theySaySubmitList.push(e);
+      i = true;
+    }
+    if (e.id.includes("guideTable")) {
+      res.guideTable.push(e);
+      i = true;
+    }
+    if (e.id.includes("detailTable")) {
+      res.detailTable.push(e);
+      i = true;
+    }
+    if (e.id.includes("commonSt")) {
+      res.commonSt.push(e);
       i = true;
     }
 
