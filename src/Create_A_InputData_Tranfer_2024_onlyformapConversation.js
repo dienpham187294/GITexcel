@@ -399,6 +399,13 @@ function conversationBox(arr) {
     res.Error.push("Cảnh báo lỗi Thiếu submitList.");
   }
 
+  if (res.weSay.length === 0) {
+    res.weSay.push("Hi");
+  }
+  if (res.theySay.length === 0) {
+    res.theySay.push("Hi");
+  }
+
   delete res["NotifyWeSay"];
 
   let keySets = Object.keys(res);
