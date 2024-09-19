@@ -171,9 +171,6 @@ function GetDocument() {
                 {" "}
                 {e.map((e1, i1) => (
                   <div key={i1} style={{ display: "inline-block" }}>
-                    {Index === i && e1.notify ? (
-                      <h1 style={{ color: "blue" }}>{e1.notify}</h1>
-                    ) : null}
                     {Index >= i && e1.pickingList
                       ? showPick(
                           Index === i ? e1.pickingList : e1.submitList,
@@ -186,13 +183,21 @@ function GetDocument() {
                 ))}
               </div>
               <div className="col-5">
+                {Index === i && e1.notify ? (
+                  <h5 style={{ color: "blue" }}>{e1.notify}</h5>
+                ) : null}
+
                 {Index === i ? (
-                  <select className="form-control">
-                    <option>"We can say" list:</option>
-                    {shuffleArray(WeCanSay).map((e, i) => (
-                      <option key={i}>{e}</option>
-                    ))}
-                  </select>
+                  <>
+                    <br /> *Bảng hướng dẫn:
+                    <br /> *Bảng thông tin:
+                    <select className="form-control">
+                      <option>"We can say" list:</option>
+                      {shuffleArray(WeCanSay).map((e, i) => (
+                        <option key={i}>{e}</option>
+                      ))}
+                    </select>
+                  </>
                 ) : null}
               </div>
             </div>
