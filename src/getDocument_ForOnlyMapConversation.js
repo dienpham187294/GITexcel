@@ -7,6 +7,7 @@ import ReadMessage from "./ReadMessage_2024";
 import Dictaphone from "./RegcognitionV2024-05-NG";
 import initializeVoicesAndPlatform from "./initializeVoicesAndPlatform";
 import { compareTwoStrings } from "string-similarity";
+import { jsx } from "react/jsx-runtime";
 
 function GetDocument() {
   const [IndexExcel, SetIndexExcel] = useState("1");
@@ -19,6 +20,9 @@ function GetDocument() {
   const [CMD, SetCMD] = useState(null);
   const [WeCanSay, SetWeCanSay] = useState([]);
   const [SubmitSets, SetSubmitSets] = useState([]);
+  const [HDtable, SetHDtable] = useState([]);
+  const [Detailtable, SetDetailtable] = useState([]);
+  const [CommonStTable, SetCommonStTable] = useState([]);
   const [HDinfo, SetHDinfo] = useState("huongdan");
   const [Notify, SetNotify] = useState(null);
 
@@ -70,6 +74,13 @@ function GetDocument() {
       );
 
       SetSubmitSets(collectWeSay(PracData[Index], ["submitList"]));
+
+      SetHDtable(collectWeSay(PracData[Index], ["guideTable"]));
+
+      SetDetailtable(collectWeSay(PracData[Index], ["detailTable"]));
+
+      SetCommonStTable(collectWeSay(PracData[Index], ["commonSt"]));
+
       let submitListT = PracData[Index].map((e) => e.submitList || []) // Get submitList or return an empty array
         .flat(); // Flatten the arrays into one array
 
@@ -242,15 +253,33 @@ function GetDocument() {
                 Thông tin mẫu câu cần dùng
               </option>
             </select>
-            {HDinfo === "huongdan" ? <i>Hướng dẫn</i> : null}{" "}
-            {HDinfo === "thongtinchitiet" ? <i>Thông tin chi tiết</i> : null}
+            {HDinfo === "huongdan" ? (
+              <div>
+                <i>Hướng dẫn</i>
+                <hr />
+                {JSON.stringify(HDtable)}
+              </div>
+            ) : null}{" "}
+            {HDinfo === "thongtinchitiet" ? (
+              <div>
+                <i>Thông tin chi tiết</i>
+                <hr />
+                {JSON.stringify(Detailtable)}
+              </div>
+            ) : null}
             {HDinfo === "maucaucandung" ? (
-              <select className="form-control">
-                <option>"We can say" list:</option>
-                {shuffleArray(WeCanSay).map((e, i) => (
-                  <option key={i}>{e}</option>
-                ))}
-              </select>
+              <div>
+                <i>Mẫu câu thông dụng</i>
+                <hr />
+                {JSON.stringify(CommonStTable)}
+                <hr />
+                <select className="form-control">
+                  <option>"We can say" list:</option>
+                  {shuffleArray(WeCanSay).map((e, i) => (
+                    <option key={i}>{e}</option>
+                  ))}
+                </select>{" "}
+              </div>
             ) : null}
           </div>
         </div>
