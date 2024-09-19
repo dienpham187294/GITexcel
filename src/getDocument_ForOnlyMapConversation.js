@@ -155,6 +155,8 @@ function GetDocument() {
         <div id="ResID" style={{ padding: "15px" }}></div>
       </div>
       <h1>Phase: {Index + 1}</h1>
+      {JSON.stringify(PickData)}
+      <hr />
       <Dictaphone SetCMD={SetCMD} />{" "}
       {PracData !== null ? (
         <div
@@ -167,10 +169,13 @@ function GetDocument() {
         >
           {PracData.map((e, i) => (
             <div className="row" key={i} style={{ marginLeft: i * 25 + "px" }}>
-              <div className="col-7">
+              <div className="col-9">
                 {" "}
                 {e.map((e1, i1) => (
                   <div key={i1} style={{ display: "inline-block" }}>
+                    {Index === i && e1.notify ? (
+                      <h5 style={{ color: "blue" }}>{e1.notify}</h5>
+                    ) : null}
                     {Index >= i && e1.pickingList
                       ? showPick(
                           Index === i ? e1.pickingList : e1.submitList,
@@ -179,18 +184,21 @@ function GetDocument() {
                           Index === i ? false : true
                         )
                       : null}
+
+                    {/* {Index === i ? (
+                      <>
+                        <br />
+                        *Bảng hướng dẫn:
+                        <br /> *Bảng thông tin
+                      </>
+                    ) : null} */}
                   </div>
                 ))}
               </div>
-              <div className="col-5">
-                {Index === i && e1.notify ? (
-                  <h5 style={{ color: "blue" }}>{e1.notify}</h5>
-                ) : null}
-
+              <div className="col-3">
+                {" "}
                 {Index === i ? (
                   <>
-                    <br /> *Bảng hướng dẫn:
-                    <br /> *Bảng thông tin:
                     <select className="form-control">
                       <option>"We can say" list:</option>
                       {shuffleArray(WeCanSay).map((e, i) => (
@@ -202,6 +210,7 @@ function GetDocument() {
               </div>
             </div>
           ))}
+          <div>*Bảng hướng dẫn: *Bảng thông tin: *Bảng các mẫu câu:</div>
         </div>
       ) : null}
       <hr />
@@ -374,7 +383,7 @@ function showText(arr, colorQ) {
   }
 }
 
-function showPick(arr, SetPickData, PickData, mode) {
+function showPick01(arr, SetPickData, PickData, mode) {
   try {
     if (!Array.isArray(arr)) {
       throw new Error("Input is not an array");
@@ -382,6 +391,16 @@ function showPick(arr, SetPickData, PickData, mode) {
 
     return (
       <div style={{ width: "200px", height: "50px", overflow: "auto" }}>
+        <button
+          style={{
+            backgroundColor:
+              PickData.includes("Không") || mode ? "yellow" : "transparent",
+            borderRadius: "5px",
+            padding: "5 10px",
+          }}
+        >
+          Không điền
+        </button>
         {arr.map((e, i) => (
           <button
             style={{
@@ -412,50 +431,53 @@ function showPick(arr, SetPickData, PickData, mode) {
     return null;
   }
 }
-// function showPick(arr, SetPickData, PickData, mode) {
-//   try {
-//     if (!Array.isArray(arr)) {
-//       throw new Error("Input is not an array");
-//     }
+function showPick(arr, SetPickData, PickData, mode) {
+  try {
+    if (mode) {
+      return "Done___";
+    }
+    if (!Array.isArray(arr)) {
+      throw new Error("Input is not an array");
+    }
 
-//     const handleChange = (e) => {
-//       const selectedValue = e.target.value;
+    const handleChange = (e) => {
+      const selectedValue = e.target.value;
 
-//       if (!mode) {
-//         if (selectedValue === "none") {
-//           // Clear the selection if "none" is chosen
-//           SetPickData([]);
-//         } else if (PickData.includes(selectedValue.trim())) {
-//           // Remove item if it exists in PickData
-//           SetPickData(PickData.filter((item) => item !== selectedValue.trim()));
-//         } else {
-//           // Add item if not already in PickData
-//           SetPickData([...PickData, selectedValue.trim()]);
-//         }
-//       }
-//     };
+      if (!mode) {
+        // Remove any previous values from other selects that are already in PickData and not the current select
+        const updatedPickData = PickData.filter((item) => !arr.includes(item));
 
-//     return (
-//       <div >
-//         <select
-//           className="form-control"
-//           onChange={handleChange}
-//           value={PickData.length ? PickData[PickData.length - 1] : "none"}
-//         >
-//           <option value="none">-- Tên --</option>
-//           {arr.map((e, i) => (
-//             <option key={i} value={e.trim()}>
-//               {e}
-//             </option>
-//           ))}
-//         </select>
-//       </div>
-//     );
-//   } catch (error) {
-//     console.error(error);
-//     return null;
-//   }
-// }
+        if (selectedValue !== "none") {
+          // Add the new selected value to the filtered PickData
+          SetPickData([...updatedPickData, selectedValue.trim()]);
+        } else {
+          // Only update with the filtered data when 'none' is selected (i.e., no value added)
+          SetPickData(updatedPickData);
+        }
+      }
+    };
+
+    return (
+      <div>
+        <select
+          className="form-control"
+          onChange={handleChange}
+          value={PickData.find((item) => arr.includes(item)) || "none"}
+        >
+          <option value="none">-- Tên --</option>
+          {arr.map((e, i) => (
+            <option key={i} value={e.trim()}>
+              {e}
+            </option>
+          ))}
+        </select>
+      </div>
+    );
+  } catch (error) {
+    console.error(error);
+    return null;
+  }
+}
 
 function findClosestMatch(inputString, arrayInput) {
   console.log(arrayInput);
