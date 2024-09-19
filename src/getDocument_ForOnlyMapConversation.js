@@ -19,6 +19,7 @@ function GetDocument() {
   const [CMD, SetCMD] = useState(null);
   const [WeCanSay, SetWeCanSay] = useState([]);
   const [SubmitSets, SetSubmitSets] = useState([]);
+  const [HDinfo, SetHDinfo] = useState("huongdan");
   const [Notify, SetNotify] = useState(null);
 
   const [IndexDataShow, SetIndexDataShow] = useState(0);
@@ -72,8 +73,11 @@ function GetDocument() {
       let submitListT = PracData[Index].map((e) => e.submitList || []) // Get submitList or return an empty array
         .flat(); // Flatten the arrays into one array
 
-      let iCheck = submitListT.every((e) => PickData.includes(e + "")); // Check if all items in submitListT are in PickData
-      if (iCheck && submitListT.length === PickData.length) {
+      let DataCheck = removeNoneElements(PickData);
+
+      let iCheck = submitListT.every((e) => DataCheck.includes(e + "")); // Check if all items in submitListT are in PickData
+
+      if (iCheck && submitListT.length === DataCheck.length) {
         if (Index < PracData.length - 1) {
           SetIndex((prevIndex) => prevIndex + 1);
           SetPickData([]);
@@ -176,35 +180,75 @@ function GetDocument() {
           }}
           className="row"
         >
-          {PracData.map((e, i) => (
-            <div className="row" key={i} style={{ marginLeft: i * 25 + "px" }}>
-              <div className="col-12">
-                {" "}
-                {e.map((e1, i1) => (
-                  <div key={i1} style={{ display: "inline-block" }}>
-                    {Index === i && e1.notify ? (
-                      <h5 style={{ color: "blue" }}>{e1.notify}</h5>
-                    ) : null}
-                    {Index >= i && e1.pickingList
-                      ? showPick(
-                          Index === i ? e1.pickingList : e1.submitList,
-                          SetPickData,
-                          PickData,
-                          Index === i ? false : true
-                        )
-                      : null}
-                  </div>
-                ))}
+          <div className="col-2">
+            <img
+              src="https://i.postimg.cc/KzXn83D8/Andrew-40.jpg"
+              width={"200px"}
+            />
+          </div>
+          <div
+            className="col-4"
+            style={{
+              backgroundColor: "#f0f0f0", // Màu nền khác biệt (có thể thay đổi theo ý muốn)
+              boxShadow:
+                "0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08)", // Hiệu ứng đổ bóng 3D
+              borderRadius: "8px", // Bo góc để trông mềm mại hơn
+              padding: "20px", // Khoảng cách bên trong box
+              margin: "10px", // Khoảng cách box với các phần tử xung quanh
+              border: "1px solid rgba(0, 0, 0, 0.05)", // Viền mờ để tạo cảm giác nổi bật hơn
+            }}
+          >
+            {" "}
+            {PracData.map((e, i) => (
+              <div key={i}>
+                <div>
+                  {e.map((e1, i1) => (
+                    <div key={i1} style={{ display: "inline-block" }}>
+                      {Index === i && e1.notify ? (
+                        <h5 style={{ color: "blue" }}>{e1.notify}</h5>
+                      ) : null}
+                      {Index >= i && e1.pickingList
+                        ? e1.pickingList.map(
+                            (ePickingListPot, iPickingListPot) =>
+                              showPick(
+                                Index === i ? ePickingListPot : e1.submitList,
+                                SetPickData,
+                                PickData,
+                                Index === i ? false : true
+                              )
+                          )
+                        : null}
+                    </div>
+                  ))}
+                </div>
               </div>
-            </div>
-          ))}
-          <div>*Bảng hướng dẫn: *Bảng thông tin: *Bảng các mẫu câu:</div>
-          <select className="form-control">
-            <option>"We can say" list:</option>
-            {shuffleArray(WeCanSay).map((e, i) => (
-              <option key={i}>{e}</option>
             ))}
-          </select>
+          </div>
+          <div className="col-5">
+            {" "}
+            <select
+              className="form-control"
+              onChange={(e) => {
+                SetHDinfo(e.currentTarget.value);
+              }}
+            >
+              <option value={"huongdan"}>Thông tin hướng dẫn</option>
+              <option value={"thongtinchitiet"}>Thông tin chi tiết</option>
+              <option value={"maucaucandung"}>
+                Thông tin mẫu câu cần dùng
+              </option>
+            </select>
+            {HDinfo === "huongdan" ? <i>Hướng dẫn</i> : null}{" "}
+            {HDinfo === "thongtinchitiet" ? <i>Thông tin chi tiết</i> : null}
+            {HDinfo === "maucaucandung" ? (
+              <select className="form-control">
+                <option>"We can say" list:</option>
+                {shuffleArray(WeCanSay).map((e, i) => (
+                  <option key={i}>{e}</option>
+                ))}
+              </select>
+            ) : null}
+          </div>
         </div>
       ) : null}
       <hr />
@@ -377,58 +421,20 @@ function showText(arr, colorQ) {
   }
 }
 
-function showPick01(arr, SetPickData, PickData, mode) {
-  try {
-    if (!Array.isArray(arr)) {
-      throw new Error("Input is not an array");
-    }
-
-    return (
-      <div style={{ width: "200px", height: "50px", overflow: "auto" }}>
-        <button
-          style={{
-            backgroundColor:
-              PickData.includes("Không") || mode ? "yellow" : "transparent",
-            borderRadius: "5px",
-            padding: "5 10px",
-          }}
-        >
-          Không điền
-        </button>
-        {arr.map((e, i) => (
-          <button
-            style={{
-              backgroundColor:
-                PickData.includes(e.trim()) || mode ? "yellow" : "transparent",
-              borderRadius: "5px",
-              padding: "5 10px",
-            }}
-            onClick={() => {
-              if (!mode) {
-                if (!PickData.includes(e.trim())) {
-                  // Add item if not already in PickData
-                  SetPickData([...PickData, e.trim()]);
-                } else {
-                  // Remove item if it exists in PickData
-                  SetPickData(PickData.filter((item) => item !== e.trim()));
-                }
-              }
-            }}
-            key={i}
-          >
-            {e}
-          </button>
-        ))}
-      </div>
-    );
-  } catch (error) {
-    return null;
-  }
-}
 function showPick(arr, SetPickData, PickData, mode) {
   try {
     if (mode) {
-      return "Done___";
+      return (
+        <>
+          {" "}
+          {arr.map((e, i) => (
+            <button className="btn btn-sm btn-outline-info" key={i}>
+              {e}
+            </button>
+          ))}
+          <hr />
+        </>
+      );
     }
     if (!Array.isArray(arr)) {
       throw new Error("Input is not an array");
@@ -452,20 +458,18 @@ function showPick(arr, SetPickData, PickData, mode) {
     };
 
     return (
-      <div>
-        <select
-          className="form-control"
-          onChange={handleChange}
-          value={PickData.find((item) => arr.includes(item)) || "none"}
-        >
-          <option value="none">-- Tên --</option>
-          {arr.map((e, i) => (
-            <option key={i} value={e.trim()}>
-              {e}
-            </option>
-          ))}
-        </select>
-      </div>
+      <select
+        className="form-control"
+        onChange={handleChange}
+        value={PickData.find((item) => arr.includes(item)) || "none"}
+      >
+        {arr.map((e, i) => (
+          <option key={i} value={i === 0 ? "None" : e.trim()}>
+            {e}
+          </option>
+        ))}
+        <option value={"None"}>None</option>
+      </select>
     );
   } catch (error) {
     console.error(error);
@@ -616,4 +620,9 @@ function cleanString(str) {
     .normalize("NFD") // Chuẩn hóa các ký tự có dấu thành dạng đơn
     .replace(/[\u0300-\u036f]/g, "") // Loại bỏ dấu
     .replace(/[^a-z0-9\s]/g, ""); // Loại bỏ ký tự đặc biệt, chỉ giữ chữ cái, số và khoảng trắng
+}
+
+function removeNoneElements(arr) {
+  // Sử dụng filter để loại bỏ các phần tử có giá trị là "None"
+  return arr.filter((element) => element !== "None");
 }

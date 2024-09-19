@@ -287,7 +287,7 @@ function conversationBox(arr) {
 
     if (e.id.includes("pickingList")) {
       let listT = trimArrayElements(e.content.split(";"));
-      res.pickingList = res.pickingList.concat(listT);
+      res.pickingList.push(listT);
       i = true;
     }
 
