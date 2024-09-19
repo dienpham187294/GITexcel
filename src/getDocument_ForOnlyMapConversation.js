@@ -18,6 +18,7 @@ function GetDocument() {
   const [ObjRead, SetObjRead] = useState(null);
   const [CMD, SetCMD] = useState(null);
   const [WeCanSay, SetWeCanSay] = useState([]);
+  const [SubmitSets, SetSubmitSets] = useState([]);
   const [Notify, SetNotify] = useState(null);
 
   const [IndexDataShow, SetIndexDataShow] = useState(0);
@@ -61,7 +62,13 @@ function GetDocument() {
 
   useEffect(() => {
     if (PracData !== null && PracData[Index]) {
-      SetWeCanSay(collectWeSay(PracData[Index]).concat(pickRandomN(qsSets, 4)));
+      SetWeCanSay(
+        collectWeSay(PracData[Index], ["weSay", "weCanSayList"]).concat(
+          pickRandomN(qsSets, 4)
+        )
+      );
+
+      SetSubmitSets(collectWeSay(PracData[Index], ["submitList"]));
       let submitListT = PracData[Index].map((e) => e.submitList || []) // Get submitList or return an empty array
         .flat(); // Flatten the arrays into one array
 
@@ -155,6 +162,8 @@ function GetDocument() {
         <div id="ResID" style={{ padding: "15px" }}></div>
       </div>
       <h1>Phase: {Index + 1}</h1>
+      {JSON.stringify(SubmitSets)}
+      <br />
       {JSON.stringify(PickData)}
       <hr />
       <Dictaphone SetCMD={SetCMD} />{" "}
@@ -169,7 +178,7 @@ function GetDocument() {
         >
           {PracData.map((e, i) => (
             <div className="row" key={i} style={{ marginLeft: i * 25 + "px" }}>
-              <div className="col-9">
+              <div className="col-12">
                 {" "}
                 {e.map((e1, i1) => (
                   <div key={i1} style={{ display: "inline-block" }}>
@@ -184,33 +193,18 @@ function GetDocument() {
                           Index === i ? false : true
                         )
                       : null}
-
-                    {/* {Index === i ? (
-                      <>
-                        <br />
-                        *Bảng hướng dẫn:
-                        <br /> *Bảng thông tin
-                      </>
-                    ) : null} */}
                   </div>
                 ))}
-              </div>
-              <div className="col-3">
-                {" "}
-                {Index === i ? (
-                  <>
-                    <select className="form-control">
-                      <option>"We can say" list:</option>
-                      {shuffleArray(WeCanSay).map((e, i) => (
-                        <option key={i}>{e}</option>
-                      ))}
-                    </select>
-                  </>
-                ) : null}
               </div>
             </div>
           ))}
           <div>*Bảng hướng dẫn: *Bảng thông tin: *Bảng các mẫu câu:</div>
+          <select className="form-control">
+            <option>"We can say" list:</option>
+            {shuffleArray(WeCanSay).map((e, i) => (
+              <option key={i}>{e}</option>
+            ))}
+          </select>
         </div>
       ) : null}
       <hr />
@@ -532,19 +526,21 @@ function shuffleArray(array) {
   }
   return newArray; // Trả về mảng đã được xáo trộn
 }
-function collectWeSay(arr) {
-  // Sử dụng reduce để gom tất cả weSay và weCanSayList
-  const combined = arr.reduce((result, current) => {
-    const weSayCombined = current.weSay || [];
-    const weCanSayListCombined = current.weCanSayList || [];
-
-    // Nối cả weSay và weCanSayList vào kết quả
-    return result.concat(weSayCombined).concat(weCanSayListCombined);
+function collectWeSay(arr, keySets) {
+  // Sử dụng reduce để gom tất cả các giá trị từ các key trong keySets
+  return arr.reduce((result, current) => {
+    // Loop qua từng key trong keySets
+    keySets.forEach((key) => {
+      // Kiểm tra nếu key tồn tại trong current
+      if (current[key]) {
+        // Kết hợp kết quả với giá trị từ key hiện tại
+        result = result.concat(current[key]);
+      }
+    });
+    return result;
   }, []);
-
-  // Sử dụng Set để loại bỏ phần tử trùng lặp và chuyển đổi về mảng
-  return [...new Set(combined)];
 }
+
 function pickRandomN(arr, n) {
   if (arr.length < n) {
     return arr;
