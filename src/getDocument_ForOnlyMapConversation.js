@@ -67,36 +67,40 @@ function GetDocument() {
 
   useEffect(() => {
     if (PracData !== null && PracData[Index]) {
-      SetWeCanSay(
-        collectWeSay(PracData[Index], ["weSay", "weCanSayList"]).concat(
-          pickRandomN(qsSets, 4)
-        )
-      );
-
+      // Collecting and setting various states
+      SetWeCanSay(collectWeSay(PracData[Index], ["weSay", "weCanSayList"]));
       SetSubmitSets(collectWeSay(PracData[Index], ["submitList"]));
-
       SetHDtable(collectWeSay(PracData[Index], ["guideTable"]));
-
       SetDetailtable(collectWeSay(PracData[Index], ["detailTable"]));
-
       SetCommonStTable(collectWeSay(PracData[Index], ["commonSt"]));
 
-      let submitListT = PracData[Index].map((e) => e.submitList || []) // Get submitList or return an empty array
-        .flat(); // Flatten the arrays into one array
+      // Handling submitListT and preventing crashes with error handling
+      let submitListT = [];
+      try {
+        submitListT = PracData[Index].map((e) => e.submitList || []).flat();
+      } catch (error) {
+        console.log("Error processing submitListT:", error);
+      }
 
-      let DataCheck = removeNoneElements(PickData);
+      // Checking data and handling index updates
+      try {
+        let DataCheck = removeNoneElements(PickData);
+        let iCheck = submitListT.every((e) => DataCheck.includes(e + "")); // Ensure all elements in submitListT are in DataCheck
 
-      let iCheck = submitListT.every((e) => DataCheck.includes(e + "")); // Check if all items in submitListT are in PickData
-
-      if (iCheck && submitListT.length === DataCheck.length) {
-        if (Index < PracData.length - 1) {
-          SetIndex((prevIndex) => prevIndex + 1);
-          SetPickData([]);
-        } else {
-          SetPracData(null);
-          SetIndex(0);
-          SetPickData([]);
+        if (iCheck && submitListT.length === DataCheck.length) {
+          if (Index < PracData.length - 1) {
+            // Move to the next index if not at the end
+            SetIndex((prevIndex) => prevIndex + 1);
+            SetPickData([]); // Clear PickData for the next set
+          } else {
+            // If at the last index, reset
+            SetPracData(null);
+            SetIndex(0);
+            SetPickData([]);
+          }
         }
+      } catch (error) {
+        console.log("Error during data check:", error);
       }
     }
   }, [PracData, Index, PickData]);
@@ -205,16 +209,15 @@ function GetDocument() {
                 "0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08)", // Hiệu ứng đổ bóng 3D
               borderRadius: "8px", // Bo góc để trông mềm mại hơn
               padding: "20px", // Khoảng cách bên trong box
-              margin: "10px", // Khoảng cách box với các phần tử xung quanh
+              // margin: "10px", // Khoảng cách box với các phần tử xung quanh
               border: "1px solid rgba(0, 0, 0, 0.05)", // Viền mờ để tạo cảm giác nổi bật hơn
             }}
           >
-            {" "}
             {PracData.map((e, i) => (
               <div key={i}>
                 {e.map((e1, i1) => (
                   <div key={i1} style={{ display: "inline-block" }}>
-                    {Index > i
+                    {Index > i && e1.submitList
                       ? e1.submitList.map((e2, i2) => (
                           <i style={{ margin: "0 5px" }} key={i2}>
                             {e2}
@@ -239,48 +242,21 @@ function GetDocument() {
               </div>
             ))}
           </div>
-          <div className="col-5">
-            {" "}
+          <div className="col-6">
+            <div> {DataTableALL(HDtable)}</div>
             <select
               className="form-control"
               onChange={(e) => {
-                SetHDinfo(e.currentTarget.value);
+                SetCMD(e.currentTarget.value);
               }}
             >
-              <option value={"huongdan"}>Thông tin hướng dẫn</option>
-              <option value={"thongtinchitiet"}>Thông tin chi tiết</option>
-              <option value={"maucaucandung"}>
-                Thông tin mẫu câu cần dùng
-              </option>
-            </select>
-            {HDinfo === "huongdan" ? (
-              <div>
-                <i>Hướng dẫn</i>
-                <hr />
-                {JSON.stringify(HDtable)}
-              </div>
-            ) : null}{" "}
-            {HDinfo === "thongtinchitiet" ? (
-              <div>
-                <i>Thông tin chi tiết</i>
-                <hr />
-                {JSON.stringify(Detailtable)}
-              </div>
-            ) : null}
-            {HDinfo === "maucaucandung" ? (
-              <div>
-                <i>Mẫu câu thông dụng</i>
-                <hr />
-                {JSON.stringify(CommonStTable)}
-                <hr />
-                <select className="form-control">
-                  <option>"We can say" list:</option>
-                  {shuffleArray(WeCanSay).map((e, i) => (
-                    <option key={i}>{e}</option>
-                  ))}
-                </select>{" "}
-              </div>
-            ) : null}
+              <option>"We can say" list:</option>
+              {WeCanSay.map((e, i) => (
+                <option key={i} value={e}>
+                  {e}
+                </option>
+              ))}
+            </select>{" "}
           </div>
         </div>
       ) : null}
@@ -648,4 +624,56 @@ function cleanString(str) {
 function removeNoneElements(arr) {
   // Sử dụng filter để loại bỏ các phần tử có giá trị là "None"
   return arr.filter((element) => element !== "None");
+}
+
+function DataTableALL(arr) {
+  // Helper function to render individual tables
+  const renderTable = (data) => {
+    try {
+      const dataRows = data;
+
+      return (
+        <table
+          className="table table-sm table-striped"
+          style={{
+            fontSize: "medium",
+            borderBottom: "1px solid black",
+            marginBottom: "10px",
+          }}
+        >
+          {" "}
+          <tbody>
+            {dataRows.map((row, rowIndex) => (
+              <tr key={rowIndex}>
+                {row.map((cell, cellIndex) => (
+                  <td key={cellIndex}>{cell !== null ? cell : "-"}</td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      );
+    } catch (error) {
+      console.error("Error in renderTable:", error);
+      return <div>Error rendering table</div>;
+    }
+  };
+
+  // Main logic to handle array input
+  if (arr && Array.isArray(arr)) {
+    try {
+      return (
+        <div>
+          {arr.map((tableData, index) => (
+            <div key={index}>{renderTable(tableData)}</div>
+          ))}
+        </div>
+      );
+    } catch (error) {
+      console.error("Error in DataTableALL:", error);
+      return <div>Error rendering tables</div>;
+    }
+  } else {
+    return <div>No data available</div>; // Fallback when no data is passed
+  }
 }

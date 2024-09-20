@@ -288,7 +288,32 @@ function conversationBox(arr) {
       i = true;
     }
     if (e.id.includes("guideTable")) {
-      res.guideTable.push(e);
+      try {
+        let guideInput = JSON.parse(e.content);
+        let guideCheckSets = [];
+        let guideSets = [];
+
+        guideInput[0].forEach((row) => {
+          console.log(row);
+          // Check if the first element (ID) exists in guideCheckSets
+          if (!guideCheckSets.includes(row[0])) {
+            guideCheckSets.push(row[0]); // Add ID to guideCheckSets
+            guideSets.push([]); // Create a new array for this ID
+          }
+          // Push the rest of the elements except the ID to the last guideSets array
+          guideSets[guideSets.length - 1].push(row.slice(1));
+          // row.forEach((e1) => {
+          //   console.log(e1);
+
+          // });
+        });
+
+        // Concatenate guideSets to res.guideTable
+        res.guideTable = res.guideTable.concat(guideSets);
+      } catch (error) {
+        console.log(error);
+      }
+
       i = true;
     }
     if (e.id.includes("detailTable")) {
@@ -417,7 +442,7 @@ function conversationBox(arr) {
   return res;
 }
 
-export { fetchData };
+export { NextStep_DontUnifile, fetchData };
 
 function trimArrayElements(array) {
   try {
