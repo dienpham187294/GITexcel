@@ -18,6 +18,8 @@ function GetDocument() {
   const [New, SetNew] = useState(0);
   const [ObjRead, SetObjRead] = useState(null);
   const [CMD, SetCMD] = useState(null);
+  const [CMDList, SetCMDList] = useState(null);
+  const [CMDInterim, SetCMDInterim] = useState(null);
   const [WeCanSay, SetWeCanSay] = useState([]);
   const [SubmitSets, SetSubmitSets] = useState([]);
   const [HDtable, SetHDtable] = useState([]);
@@ -68,6 +70,7 @@ function GetDocument() {
   useEffect(() => {
     if (PracData !== null && PracData[Index]) {
       // Collecting and setting various states
+      SetCMDList(collectWeSay(PracData[Index], ["weSay"]));
       SetWeCanSay(collectWeSay(PracData[Index], ["weSay", "weCanSayList"]));
       SetSubmitSets(collectWeSay(PracData[Index], ["submitList"]));
       SetHDtable(collectWeSay(PracData[Index], ["guideTable"]));
@@ -185,7 +188,7 @@ function GetDocument() {
       <br />
       {JSON.stringify(PickData)}
       <hr />
-      <Dictaphone SetCMD={SetCMD} />{" "}
+      <Dictaphone SetCMD={SetCMD} CMDList={CMDList} />{" "}
       {PracData !== null ? (
         <div
           style={{
@@ -214,15 +217,14 @@ function GetDocument() {
             }}
           >
             {PracData.map((e, i) => (
-              <div key={i}>
+              <div key={"a" + i}>
                 {Index > i ? i + 1 : null}
-
                 {e.map((e1, i1) => (
-                  <div key={i1} style={{ display: "inline-block" }}>
+                  <div key={"AA" + i1} style={{ display: "inline-block" }}>
                     {Index > i && e1.submitList ? (
                       <div>
                         {e1.submitList.map((e2, i2) => (
-                          <i style={{ margin: "0 10px" }} key={i2}>
+                          <i style={{ margin: "0 10px" }} key={"b" + i1 + i2}>
                             .{e2}
                           </i>
                         ))}
@@ -241,12 +243,17 @@ function GetDocument() {
                       </div>
                     ) : null}
                     {Index >= i && e1.pickingList
-                      ? e1.pickingList.map((ePickingListPot, iPickingListPot) =>
-                          showPick(
-                            ePickingListPot,
-                            SetPickData,
-                            PickData,
-                            Index === i ? false : true
+                      ? e1.pickingList.map(
+                          (ePickingListPot, iPickingListPot) => (
+                            <div key={iPickingListPot}>
+                              {showPick(
+                                ePickingListPot,
+                                SetPickData,
+                                PickData,
+                                Index === i ? false : true,
+                                i
+                              )}
+                            </div>
                           )
                         )
                       : null}
@@ -263,13 +270,13 @@ function GetDocument() {
                 SetCMD(e.currentTarget.value);
               }}
             >
-              <option>"We can say" list:</option>
+              <option key={"a0"}>"We can say" list:</option>
               {WeCanSay.map((e, i) => (
                 <option key={i} value={e}>
                   {e}
                 </option>
               ))}
-            </select>{" "}
+            </select>
           </div>
         </div>
       ) : null}
@@ -443,7 +450,7 @@ function showText(arr, colorQ) {
   }
 }
 
-function showPick(arr, SetPickData, PickData, mode) {
+function showPick(arr, SetPickData, PickData, mode, indexOfPhase) {
   try {
     if (mode) {
       return null;
@@ -476,7 +483,10 @@ function showPick(arr, SetPickData, PickData, mode) {
         value={PickData.find((item) => arr.includes(item)) || "none"}
       >
         {arr.map((e, i) => (
-          <option key={i} value={i === 0 ? "None" : e.trim()}>
+          <option
+            key={indexOfPhase + "" + i}
+            value={i === 0 ? "None" : e.trim()}
+          >
             {e}
           </option>
         ))}
@@ -654,7 +664,6 @@ function DataTableALL(arr) {
             marginBottom: "10px",
           }}
         >
-          {" "}
           <tbody>
             {dataRows.map((row, rowIndex) => (
               <tr key={rowIndex}>

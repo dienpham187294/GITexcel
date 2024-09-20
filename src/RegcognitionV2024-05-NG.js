@@ -1,10 +1,37 @@
-import React from "react";
+import React, { useEffect } from "react";
 import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
-
-const Dictaphone = ({ SetCMD }) => {
-  const { transcript, listening, resetTranscript } = useSpeechRecognition();
+let commands = [];
+const Dictaphone = ({ SetCMD, CMDList }) => {
+  useEffect(() => {
+    commands = [
+      {
+        command: CMDList || ["I am a teacher"],
+        callback: (command) => {
+          SetCMD(command);
+        },
+        isFuzzyMatch: true,
+        fuzzyMatchingThreshold: 0.75,
+        bestMatchOnly: true,
+      },
+      {
+        command: ["clear", "reset"],
+        callback: ({ resetTranscript }) => resetTranscript(),
+      },
+      {
+        command: ["use", "take it"],
+        callback: ({ resetTranscript, transcript }) => {
+          SetCMD(transcript);
+          resetTranscript();
+        },
+      },
+      {
+        command: "stop",
+        callback: stopListening,
+      },
+    ];
+  }, [CMDList]);
 
   const startListening = () => {
     SpeechRecognition.startListening({
@@ -14,8 +41,17 @@ const Dictaphone = ({ SetCMD }) => {
   };
 
   const stopListening = () => {
-    SpeechRecognition.stopListening({});
+    SpeechRecognition.stopListening();
   };
+
+  const { interimTranscript, transcript, listening, resetTranscript } =
+    useSpeechRecognition({ commands });
+
+  // Update the command list with CMDlist when CMDlist changes
+  // useEffect(() => {
+  //   commands[0].commands = CMDList;
+  //   console.log(CMDList);
+  // }, [CMDList]);
 
   return (
     <div
@@ -29,17 +65,12 @@ const Dictaphone = ({ SetCMD }) => {
     >
       <div className="col-8" style={{ height: "100px", overflow: "auto" }}>
         <h3>{transcript}</h3>
+        <h5 style={{ color: "gray" }}>{interimTranscript}</h5>
       </div>
       <div className="col-4">
-        {" "}
         {listening ? (
           <>
-            <button
-              className="btn btn-danger p-2 m-1"
-              onClick={() => {
-                stopListening();
-              }}
-            >
+            <button className="btn btn-danger p-2 m-1" onClick={stopListening}>
               STOP
             </button>
             <button
@@ -54,9 +85,7 @@ const Dictaphone = ({ SetCMD }) => {
             </button>
             <button
               className="btn btn-outline-primary p-2 ml-3"
-              onClick={() => {
-                SetCMD(transcript);
-              }}
+              onClick={() => SetCMD(transcript)}
             >
               USE
             </button>

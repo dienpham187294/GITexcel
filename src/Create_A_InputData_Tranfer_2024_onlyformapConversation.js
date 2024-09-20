@@ -294,7 +294,7 @@ function conversationBox(arr) {
         let guideSets = [];
 
         guideInput[0].forEach((row) => {
-          console.log(row);
+          // console.log(row);
           // Check if the first element (ID) exists in guideCheckSets
           if (!guideCheckSets.includes(row[0])) {
             guideCheckSets.push(row[0]); // Add ID to guideCheckSets
