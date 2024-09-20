@@ -215,17 +215,30 @@ function GetDocument() {
           >
             {PracData.map((e, i) => (
               <div key={i}>
+                {Index > i ? i + 1 : null}
+
                 {e.map((e1, i1) => (
                   <div key={i1} style={{ display: "inline-block" }}>
-                    {Index > i && e1.submitList
-                      ? e1.submitList.map((e2, i2) => (
-                          <i style={{ margin: "0 5px" }} key={i2}>
-                            {e2}
+                    {Index > i && e1.submitList ? (
+                      <div>
+                        {e1.submitList.map((e2, i2) => (
+                          <i style={{ margin: "0 10px" }} key={i2}>
+                            .{e2}
                           </i>
-                        ))
-                      : null}
+                        ))}
+                      </div>
+                    ) : null}
                     {Index === i && e1.notify ? (
-                      <h5 style={{ color: "blue" }}>{e1.notify}</h5>
+                      <div
+                        style={{
+                          borderTop: "1px solid green",
+                          padding: "10px",
+                          width: "300px",
+                          // borderRadius: "5px",
+                        }}
+                      >
+                        <h5 style={{ color: "blue" }}>{e1.notify}</h5>
+                      </div>
                     ) : null}
                     {Index >= i && e1.pickingList
                       ? e1.pickingList.map((ePickingListPot, iPickingListPot) =>
@@ -636,7 +649,7 @@ function DataTableALL(arr) {
         <table
           className="table table-sm table-striped"
           style={{
-            fontSize: "medium",
+            // fontSize: "medium",
             borderBottom: "1px solid black",
             marginBottom: "10px",
           }}
