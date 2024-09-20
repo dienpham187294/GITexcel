@@ -263,7 +263,7 @@ function GetDocument() {
             ))}
           </div>
           <div className="col-6">
-            <div> {DataTableALL(HDtable)}</div>
+            <div style={{ fontSize: "medium" }}> {DataTableALL(HDtable)}</div>
             <select
               className="form-control"
               onChange={(e) => {
