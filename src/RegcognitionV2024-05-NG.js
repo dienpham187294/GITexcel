@@ -12,20 +12,20 @@ const Dictaphone = ({ SetCMD, CMDList }) => {
           SetCMD(command);
         },
         isFuzzyMatch: true,
-        fuzzyMatchingThreshold: 0.75,
+        fuzzyMatchingThreshold: 0.65,
         bestMatchOnly: true,
       },
       {
         command: ["clear", "reset"],
         callback: ({ resetTranscript }) => resetTranscript(),
       },
-      {
-        command: ["use", "take it"],
-        callback: ({ resetTranscript, transcript }) => {
-          SetCMD(transcript);
-          resetTranscript();
-        },
-      },
+      // {
+      //   command: ["use", "take it"],
+      //   callback: ({ resetTranscript, transcript }) => {
+      //     SetCMD(transcript);
+      //     resetTranscript();
+      //   },
+      // },
       {
         command: "stop",
         callback: stopListening,
