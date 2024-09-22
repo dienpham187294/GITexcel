@@ -7,7 +7,9 @@ import ReadMessage from "./ReadMessage_2024";
 import Dictaphone from "./RegcognitionV2024-05-NG";
 import initializeVoicesAndPlatform from "./initializeVoicesAndPlatform";
 import { compareTwoStrings } from "string-similarity";
-import { jsx } from "react/jsx-runtime";
+
+let PracDataSave = [];
+let IndexSave = 0;
 
 function GetDocument() {
   const [IndexExcel, SetIndexExcel] = useState("1");
@@ -68,6 +70,14 @@ function GetDocument() {
   }, []);
 
   useEffect(() => {
+    PracDataSave = PracData;
+  }, [PracData]);
+
+  useEffect(() => {
+    IndexSave = Index;
+  }, [Index]);
+
+  useEffect(() => {
     if (PracData !== null && PracData[Index]) {
       // Collecting and setting various states
       SetCMDList(collectWeSay(PracData[Index], ["weSay"]));
@@ -76,37 +86,44 @@ function GetDocument() {
       SetHDtable(collectWeSay(PracData[Index], ["guideTable"]));
       SetDetailtable(collectWeSay(PracData[Index], ["detailTable"]));
       SetCommonStTable(collectWeSay(PracData[Index], ["commonSt"]));
-
-      // Handling submitListT and preventing crashes with error handling
-      let submitListT = [];
-      try {
-        submitListT = PracData[Index].map((e) => e.submitList || []).flat();
-      } catch (error) {
-        console.log("Error processing submitListT:", error);
-      }
-
-      // Checking data and handling index updates
-      try {
-        let DataCheck = removeNoneElements(PickData);
-        let iCheck = submitListT.every((e) => DataCheck.includes(e + "")); // Ensure all elements in submitListT are in DataCheck
-
-        if (iCheck && submitListT.length === DataCheck.length) {
-          if (Index < PracData.length - 1) {
-            // Move to the next index if not at the end
-            SetIndex((prevIndex) => prevIndex + 1);
-            SetPickData([]); // Clear PickData for the next set
-          } else {
-            // If at the last index, reset
-            SetPracData(null);
-            SetIndex(0);
-            SetPickData([]);
-          }
-        }
-      } catch (error) {
-        console.log("Error during data check:", error);
-      }
     }
-  }, [PracData, Index, PickData]);
+  }, [PracData, Index]);
+
+  useEffect(() => {
+    // Handling submitListT and preventing crashes with error handling
+    if (!PracDataSave) {
+      console.log(!PracDataSave);
+      return;
+    }
+    let submitListT = [];
+    try {
+      submitListT = PracDataSave[IndexSave].map(
+        (e) => e.submitList || []
+      ).flat();
+    } catch (error) {
+      console.log("Error processing submitListT:", error);
+    }
+
+    // Checking data and handling index updates
+    try {
+      let DataCheck = removeNoneElements(PickData);
+      let iCheck = submitListT.every((e) => DataCheck.includes(e + "")); // Ensure all elements in submitListT are in DataCheck
+      if (iCheck && submitListT.length === DataCheck.length) {
+        if (IndexSave < PracDataSave.length - 1) {
+          // Move to the next index if not at the end
+          SetIndex((prevIndex) => prevIndex + 1);
+          SetPickData([]); // Clear PickData for the next set
+        } else {
+          // If at the last index, reset
+          SetPracData(null);
+          SetIndex(0);
+          SetPickData([]);
+        }
+      }
+    } catch (error) {
+      console.log("Error during data check:", error);
+    }
+  }, [PickData]);
 
   useEffect(() => {
     try {
@@ -195,6 +212,9 @@ function GetDocument() {
             border: "1px solid black",
             borderRadius: "10px",
             padding: "20px",
+            transition: "all 0.5s ease-in-out", // Smooth transition for the container
+            opacity: PracData ? 1 : 0, // Fade in/out effect for the container
+            transform: PracData ? "translateY(0)" : "translateY(-10px)", // Smooth movement
           }}
           className="row"
         >
@@ -202,46 +222,95 @@ function GetDocument() {
             <img
               src="https://i.postimg.cc/KzXn83D8/Andrew-40.jpg"
               width={"200px"}
+              style={{
+                transition:
+                  "transform 0.5s ease-in-out, opacity 0.5s ease-in-out", // Smooth transition for image
+                opacity: PracData ? 1 : 0,
+                transform: PracData ? "scale(1)" : "scale(0.95)", // Slight scaling effect
+              }}
             />
           </div>
           <div
             className="col-4"
             style={{
-              backgroundColor: "#f0f0f0", // Màu nền khác biệt (có thể thay đổi theo ý muốn)
+              backgroundColor: "#f0f0f0",
               boxShadow:
-                "0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08)", // Hiệu ứng đổ bóng 3D
-              borderRadius: "8px", // Bo góc để trông mềm mại hơn
-              padding: "20px", // Khoảng cách bên trong box
-              // margin: "10px", // Khoảng cách box với các phần tử xung quanh
-              border: "1px solid rgba(0, 0, 0, 0.05)", // Viền mờ để tạo cảm giác nổi bật hơn
+                "0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08)",
+              borderRadius: "8px",
+              padding: "20px",
+              border: "1px solid rgba(0, 0, 0, 0.05)",
+              transition: "all 0.5s ease-in-out", // Smooth transition for this box
+              opacity: PracData ? 1 : 0,
+              transform: PracData ? "translateY(0)" : "translateY(-10px)", // Move effect
             }}
           >
             {PracData.map((e, i) => (
               <div key={"a" + i}>
                 {Index > i ? i + 1 : null}
                 {e.map((e1, i1) => (
-                  <div key={"AA" + i1} style={{ display: "inline-block" }}>
-                    {Index > i && e1.submitList ? (
+                  <div
+                    key={"AA" + i1}
+                    style={{
+                      display: "inline-block",
+                      transition: "opacity 0.5s ease-in-out", // Smooth transition for inline-block elements
+                      opacity: Index >= i ? 1 : 0,
+                    }}
+                  >
+                    {Index === i && e1.purpose ? (
                       <div>
-                        {e1.submitList.map((e2, i2) => (
-                          <i style={{ margin: "0 10px" }} key={"b" + i1 + i2}>
-                            .{e2}
+                        {e1.purpose.map((e2, i2) => (
+                          <i
+                            style={{
+                              fontSize: "medium",
+                              color: "purple",
+                              transition: "color 0.5s ease-in-out", // Smooth color change
+                            }}
+                            key={"b" + i1 + i2}
+                          >
+                            {e2}
                           </i>
                         ))}
                       </div>
                     ) : null}
+
+                    {Index > i && e1.submitList ? (
+                      <div>
+                        {e1.submitList.map((e2, i2) => (
+                          <i
+                            style={{
+                              marginRight: "10px",
+                              fontSize: "medium",
+                              transition: "all 0.5s ease-in-out", // Smooth transition for list items
+                            }}
+                            key={"b" + i1 + i2}
+                          >
+                            __{e2}
+                          </i>
+                        ))}
+                      </div>
+                    ) : null}
+
                     {Index === i && e1.notify ? (
                       <div
                         style={{
                           borderTop: "1px solid green",
                           padding: "10px",
                           width: "300px",
-                          // borderRadius: "5px",
+                          transition: "all 0.5s ease-in-out", // Smooth transition for notifications
+                          opacity: e1.notify ? 1 : 0,
                         }}
                       >
-                        <h5 style={{ color: "blue" }}>{e1.notify}</h5>
+                        <h5
+                          style={{
+                            color: "blue",
+                            transition: "color 0.5s ease-in-out",
+                          }}
+                        >
+                          {e1.notify}
+                        </h5>
                       </div>
                     ) : null}
+
                     {Index >= i && e1.pickingList
                       ? e1.pickingList.map(
                           (ePickingListPot, iPickingListPot) => (
@@ -262,13 +331,23 @@ function GetDocument() {
               </div>
             ))}
           </div>
+
           <div className="col-6">
-            <div style={{ fontSize: "medium", whiteSpace: "pre-line" }}>
-              {" "}
+            <div
+              style={{
+                fontSize: "medium",
+                whiteSpace: "pre-line",
+                transition: "all 0.5s ease-in-out", // Smooth transition for the table
+              }}
+            >
               {DataTableALL(HDtable)}
             </div>
+
             <select
               className="form-control"
+              style={{
+                transition: "all 0.5s ease-in-out", // Smooth transition for the select box
+              }}
               onChange={(e) => {
                 SetCMD(e.currentTarget.value);
               }}
@@ -280,6 +359,28 @@ function GetDocument() {
                 </option>
               ))}
             </select>
+          </div>
+
+          <div
+            style={{
+              fontSize: "medium",
+              whiteSpace: "pre-line",
+              transition: "all 0.5s ease-in-out", // Add a smooth transition
+              opacity: Detailtable.length !== 0 ? 1 : 0, // Fade effect based on content
+              transform:
+                Detailtable.length !== 0
+                  ? "translateY(0)"
+                  : "translateY(-10px)", // Slight movement effect
+            }}
+          >
+            {Detailtable.length !== 0 ? (
+              <h5
+                style={{ color: "blue", transition: "color 0.5s ease-in-out" }}
+              >
+                Detail information
+              </h5>
+            ) : null}
+            {DataTableALLInformation(Detailtable)}
           </div>
         </div>
       ) : null}
@@ -412,15 +513,32 @@ function tableDocuments(
                       </p>
                     </div>
                     <div className="col-5">
+                      <p> Mục tiêu: {showText(e2.purpose)}</p>
                       <p> Thông báo: {showText(e2.notify)}</p>
                       <p> Cần chọn: {showText(e2.submitList)}</p>
-                      <p> Dánh sách lựa chọn: {showText(e2.pickingList)}</p>
+                      Dánh sách lựa chọn: {showTextARR(e2.pickingList)}
                       <p>
                         {" "}
                         Dánh sách câu có thể nói: {showText(e2.weCanSayList)}
                       </p>
                       <p> Hành động: {showText(e2.action)}</p>
                       <p> Phần thưởng: {showText(e2.reward)}</p>
+                      <p>
+                        Câu chuyện:{" "}
+                        {e2.guideTable !== undefined ? (
+                          <b>{JSON.stringify(e2.guideTable).slice(0, 20)}</b>
+                        ) : (
+                          "Không"
+                        )}{" "}
+                      </p>
+                      <p>
+                        Thông tin chi tiết:{" "}
+                        {e2.detailTable !== undefined ? (
+                          <b>{JSON.stringify(e2.detailTable).slice(0, 20)}</b>
+                        ) : (
+                          "Không"
+                        )}{" "}
+                      </p>
                     </div>
                   </div>
                 ))}
@@ -448,6 +566,22 @@ function showText(arr, colorQ) {
         ))}
       </b>
     );
+  } catch (error) {
+    return "Không";
+  }
+}
+
+function showTextARR(arr) {
+  try {
+    return arr.map((e, i) => (
+      <div key={"group" + i}>
+        {e.map((e1, i1) => (
+          <span key={"e" + i1} style={{ color: "blue" }}>
+            <br /> - {e1}
+          </span>
+        ))}
+      </div>
+    ));
   } catch (error) {
     return "Không";
   }
@@ -667,6 +801,65 @@ function DataTableALL(arr) {
             marginBottom: "10px",
           }}
         >
+          <tbody>
+            {dataRows.map((row, rowIndex) => (
+              <tr key={rowIndex}>
+                {row.map((cell, cellIndex) => (
+                  <td key={cellIndex}>{cell !== null ? cell : "-"}</td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      );
+    } catch (error) {
+      console.error("Error in renderTable:", error);
+      return <div>Error rendering table</div>;
+    }
+  };
+
+  // Main logic to handle array input
+  if (arr && Array.isArray(arr)) {
+    try {
+      return (
+        <div>
+          {arr.map((tableData, index) => (
+            <div key={index}>{renderTable(tableData)}</div>
+          ))}
+        </div>
+      );
+    } catch (error) {
+      console.error("Error in DataTableALL:", error);
+      return <div>Error rendering tables</div>;
+    }
+  } else {
+    return <div>No data available</div>; // Fallback when no data is passed
+  }
+}
+
+function DataTableALLInformation(arr) {
+  // Helper function to render individual tables
+  const renderTable = (data) => {
+    try {
+      if (!data || data.length === 0) return <div>No data available</div>;
+
+      const [headerRow, ...dataRows] = data; // Extract the first row as header
+
+      return (
+        <table
+          className="table table-sm table-striped"
+          style={{
+            borderBottom: "1px solid black",
+            marginBottom: "10px",
+          }}
+        >
+          <thead>
+            <tr>
+              {headerRow.map((cell, cellIndex) => (
+                <th key={cellIndex}>{cell !== null ? cell : "-"}</th>
+              ))}
+            </tr>
+          </thead>
           <tbody>
             {dataRows.map((row, rowIndex) => (
               <tr key={rowIndex}>

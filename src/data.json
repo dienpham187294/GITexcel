@@ -1,16 +1,692 @@
 [
   [
     [
-      1,
-      "If the guest doesn't say anything, try starting by saying 'Hello' or asking if they need any help.",
-      "You can say: 'How can I help you?",
-      null
+      {
+        "weSay": ["Hello", "Hi, how can I help you?"],
+        "theySay": ["Do you have any rooms available for tonight?"],
+        "submitList": ["Check Room"],
+        "pickingList": [
+          [
+            "Demands",
+            "Check Room",
+            "Hotel Facilities",
+            "Room Service",
+            "Transport Service",
+            "Room Complaints",
+            "Meal Order",
+            "Internet Connection",
+            "Laundry Service",
+            "Extend Stay",
+            "Wake-up Call"
+          ]
+        ],
+        "guideTable": [
+          [
+            ["Khách sạn là một địa điểm quen thuộc của du khách tại thị trấn."],
+            [
+              "Hãy bắt đầu làm quen với nghiệp vụ khách sạn bằng cách nắm bắt nhu cầu của khách hàng."
+            ],
+            [
+              "Nếu khách không nói gì, hãy thử bắt đầu bằng cách nói 'Xin chào' hoặc hỏi xem họ có cần giúp đỡ không."
+            ],
+            [
+              "Nếu khách nói gì đó, nhưng bạn không nghe rõ, hãy yêu cầu họ nói lại."
+            ]
+          ]
+        ],
+        "purpose": ["Tìm hiểu nhu cầu của khách hàng"]
+      }
     ],
     [
-      2,
-      "If the guest says something, but you can't hear clearly, ask them again.",
-      "You can say: 'Can you speak again?'",
-      "YOU CAN"
+      {
+        "weSay": ["Hi"],
+        "theySay": ["Hi"],
+        "submitList": ["Find room", "Tonight"],
+        "pickingList": [
+          ["Specific Demand", "Find room", "Find Price"],
+          [
+            "Type of room",
+            "Deluxe room",
+            "Family room",
+            "Standard room",
+            "Suite room",
+            "Executive room"
+          ]
+        ],
+        "guideTable": [
+          [
+            [
+              "Khi làm thủ tục nhận phòng cho khách, điều quan trọng nhất là xác định xem còn phòng phù hợp với nhu cầu của họ hay không."
+            ],
+            [
+              "Để kiểm tra chính xác, hãy hỏi khách về số đêm họ dự định lưu trú và loại phòng mà họ mong muốn."
+            ],
+            [
+              "***Đặc biệt, lưu ý đối với phụ nữ mang thai, gia đình có trẻ nhỏ hoặc người cao tuổi, họ thường có những yêu cầu riêng. Hãy chủ động hỏi xem khách có mong muốn gì thêm để đảm bảo sự thoải mái cho họ"
+            ]
+          ]
+        ],
+        "purpose": [
+          "Điền thông tin [Yêu cầu cụ thể; Loại phòng; Thời gian lưu trú; Yêu cầu khác nếu có] để tra cứu bảng thông tin"
+        ]
+      },
+      {
+        "weSay": ["Hi"],
+        "theySay": ["Hi"],
+        "pickingList": [
+          [
+            "Stay duration",
+            "Tonight",
+            "Weekend",
+            "Next Monday",
+            "Tomorrow",
+            "This Friday"
+          ]
+        ],
+        "Error": ["Cảnh báo lỗi Thiếu submitList."]
+      },
+      {
+        "weSay": ["Hi"],
+        "theySay": ["Hi"],
+        "pickingList": [
+          [
+            "Special request",
+            "A sea view room",
+            "No-smoking room",
+            "Near the pool",
+            "High floor, city view",
+            "Room with a balcony"
+          ]
+        ],
+        "Error": ["Cảnh báo lỗi Thiếu submitList."]
+      }
+    ],
+    [
+      {
+        "weSay": ["You are done."],
+        "theySay": ["Thank you."],
+        "submitList": ["FN01"],
+        "action": ["submitFN01"],
+        "reward": ["reward2000"],
+        "notify": ["Information found - Details below"],
+        "guideTable": [
+          [
+            [
+              "Sau khi tìm được thông tin; việc quan trọng tiếp theo là thông báo các thông tin đến khách hàng theo đúng nhu cầu của họ."
+            ],
+            [
+              "Trong trường hợp khách hàng hỏi thêm các thông tin khác bảng thông tin đi kèm bên dưới sẽ có ích."
+            ]
+          ]
+        ],
+        "detailTable": [
+          [
+            ["No.", "Room type", "Price", "Status"],
+            [1, "Deluxe room", "$100 per night", "Available"],
+            [2, "Standard room", "$80 per night", "Not available"]
+          ],
+          [
+            ["No.", "Common Question", "Answer", 1],
+            [1, "Do you have free Wi-Fi?", "Yes, we have free Wi-Fi.", 1],
+            [2, "What time is check-out?", "Check-out is at 12 PM.", 1]
+          ]
+        ],
+        "purpose": [
+          "Thông báo cho khách hàng về thông tin đã tìm được; giải đáp thắc mắc (nếu có)"
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["Hello", "Hi, how can I help you?"],
+        "theySay": ["I'd like to book a room for the weekend."],
+        "submitList": ["Check Room"],
+        "pickingList": [
+          [
+            "Demands",
+            "Check Room",
+            "Hotel Facilities",
+            "Room Service",
+            "Transport Service",
+            "Room Complaints",
+            "Meal Order",
+            "Internet Connection",
+            "Laundry Service",
+            "Extend Stay",
+            "Wake-up Call"
+          ]
+        ],
+        "guideTable": [
+          [
+            ["Khách sạn là một địa điểm quen thuộc của du khách tại thị trấn."],
+            [
+              "Hãy bắt đầu làm quen với nghiệp vụ khách sạn bằng cách nắm bắt nhu cầu của khách hàng."
+            ],
+            [
+              "Nếu khách không nói gì, hãy thử bắt đầu bằng cách nói 'Xin chào' hoặc hỏi xem họ có cần giúp đỡ không."
+            ],
+            [
+              "Nếu khách nói gì đó, nhưng bạn không nghe rõ, hãy yêu cầu họ nói lại."
+            ]
+          ]
+        ],
+        "purpose": ["Tìm hiểu nhu cầu của khách hàng"]
+      }
+    ],
+    [
+      {
+        "weSay": ["Hi"],
+        "theySay": ["Hi"],
+        "submitList": ["Find room", "Weekend"],
+        "pickingList": [
+          ["Specific Demand", "Find room", "Find Price"],
+          [
+            "Type of room",
+            "Deluxe room",
+            "Family room",
+            "Standard room",
+            "Suite room",
+            "Executive room"
+          ]
+        ],
+        "guideTable": [
+          [
+            [
+              "Khi làm thủ tục nhận phòng cho khách, điều quan trọng nhất là xác định xem còn phòng phù hợp với nhu cầu của họ hay không."
+            ],
+            [
+              "Để kiểm tra chính xác, hãy hỏi khách về số đêm họ dự định lưu trú và loại phòng mà họ mong muốn."
+            ],
+            [
+              "***Đặc biệt, lưu ý đối với phụ nữ mang thai, gia đình có trẻ nhỏ hoặc người cao tuổi, họ thường có những yêu cầu riêng. Hãy chủ động hỏi xem khách có mong muốn gì thêm để đảm bảo sự thoải mái cho họ"
+            ]
+          ]
+        ],
+        "purpose": [
+          "Điền thông tin [Yêu cầu cụ thể; Loại phòng; Thời gian lưu trú; Yêu cầu khác nếu có] để tra cứu bảng thông tin"
+        ]
+      },
+      {
+        "weSay": ["Hi"],
+        "theySay": ["Hi"],
+        "pickingList": [
+          [
+            "Stay duration",
+            "Tonight",
+            "Weekend",
+            "Next Monday",
+            "Tomorrow",
+            "This Friday"
+          ]
+        ],
+        "Error": ["Cảnh báo lỗi Thiếu submitList."]
+      },
+      {
+        "weSay": ["Hi"],
+        "theySay": ["Hi"],
+        "pickingList": [
+          [
+            "Special request",
+            "A sea view room",
+            "No-smoking room",
+            "Near the pool",
+            "High floor, city view",
+            "Room with a balcony"
+          ]
+        ],
+        "Error": ["Cảnh báo lỗi Thiếu submitList."]
+      }
+    ],
+    [
+      {
+        "weSay": ["You are done."],
+        "theySay": ["Thank you."],
+        "submitList": ["FN02"],
+        "action": ["submitFN02"],
+        "reward": ["reward2001"],
+        "notify": ["Information found - Details below"],
+        "guideTable": [
+          [
+            [
+              "Sau khi tìm được thông tin; việc quan trọng tiếp theo là thông báo các thông tin đến khách hàng theo đúng nhu cầu của họ."
+            ],
+            [
+              "Trong trường hợp khách hàng hỏi thêm các thông tin khác bảng thông tin đi kèm bên dưới sẽ có ích."
+            ]
+          ]
+        ],
+        "detailTable": [
+          [
+            ["No.", "Room type", "Price", "Status"],
+            [1, "Deluxe room", "$100 per night", "Available"],
+            [2, "Standard room", "$80 per night", "Not available"]
+          ],
+          [
+            ["No.", "Common Question", "Answer", 1],
+            [1, "Do you have free Wi-Fi?", "Yes, we have free Wi-Fi.", 1],
+            [2, "What time is check-out?", "Check-out is at 12 PM.", 1]
+          ]
+        ],
+        "purpose": [
+          "Thông báo cho khách hàng về thông tin đã tìm được; giải đáp thắc mắc (nếu có)"
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["Hello", "Hi, how can I help you?"],
+        "theySay": ["Can I change my room to one with a sea view?"],
+        "submitList": ["Check Room"],
+        "pickingList": [
+          [
+            "Demands",
+            "Check Room",
+            "Hotel Facilities",
+            "Room Service",
+            "Transport Service",
+            "Room Complaints",
+            "Meal Order",
+            "Internet Connection",
+            "Laundry Service",
+            "Extend Stay",
+            "Wake-up Call"
+          ]
+        ],
+        "guideTable": [
+          [
+            ["Khách sạn là một địa điểm quen thuộc của du khách tại thị trấn."],
+            [
+              "Hãy bắt đầu làm quen với nghiệp vụ khách sạn bằng cách nắm bắt nhu cầu của khách hàng."
+            ],
+            [
+              "Nếu khách không nói gì, hãy thử bắt đầu bằng cách nói 'Xin chào' hoặc hỏi xem họ có cần giúp đỡ không."
+            ],
+            [
+              "Nếu khách nói gì đó, nhưng bạn không nghe rõ, hãy yêu cầu họ nói lại."
+            ]
+          ]
+        ],
+        "purpose": ["Tìm hiểu nhu cầu của khách hàng"]
+      }
+    ],
+    [
+      {
+        "weSay": ["Hi"],
+        "theySay": ["Hi"],
+        "submitList": ["Find room", "A sea view room"],
+        "pickingList": [
+          ["Specific Demand", "Find room", "Find Price"],
+          [
+            "Type of room",
+            "Deluxe room",
+            "Family room",
+            "Standard room",
+            "Suite room",
+            "Executive room"
+          ]
+        ],
+        "guideTable": [
+          [
+            [
+              "Khi làm thủ tục nhận phòng cho khách, điều quan trọng nhất là xác định xem còn phòng phù hợp với nhu cầu của họ hay không."
+            ],
+            [
+              "Để kiểm tra chính xác, hãy hỏi khách về số đêm họ dự định lưu trú và loại phòng mà họ mong muốn."
+            ],
+            [
+              "***Đặc biệt, lưu ý đối với phụ nữ mang thai, gia đình có trẻ nhỏ hoặc người cao tuổi, họ thường có những yêu cầu riêng. Hãy chủ động hỏi xem khách có mong muốn gì thêm để đảm bảo sự thoải mái cho họ"
+            ]
+          ]
+        ],
+        "purpose": [
+          "Điền thông tin [Yêu cầu cụ thể; Loại phòng; Thời gian lưu trú; Yêu cầu khác nếu có] để tra cứu bảng thông tin"
+        ]
+      },
+      {
+        "weSay": ["Hi"],
+        "theySay": ["Hi"],
+        "pickingList": [
+          [
+            "Stay duration",
+            "Tonight",
+            "Weekend",
+            "Next Monday",
+            "Tomorrow",
+            "This Friday"
+          ]
+        ],
+        "Error": ["Cảnh báo lỗi Thiếu submitList."]
+      },
+      {
+        "weSay": ["Hi"],
+        "theySay": ["Hi"],
+        "pickingList": [
+          [
+            "Special request",
+            "A sea view room",
+            "No-smoking room",
+            "Near the pool",
+            "High floor, city view",
+            "Room with a balcony"
+          ]
+        ],
+        "Error": ["Cảnh báo lỗi Thiếu submitList."]
+      }
+    ],
+    [
+      {
+        "weSay": ["You are done."],
+        "theySay": ["Thank you."],
+        "submitList": ["FN03"],
+        "action": ["submitFN03"],
+        "reward": ["reward2002"],
+        "notify": ["Information found - Details below"],
+        "guideTable": [
+          [
+            [
+              "Sau khi tìm được thông tin; việc quan trọng tiếp theo là thông báo các thông tin đến khách hàng theo đúng nhu cầu của họ."
+            ],
+            [
+              "Trong trường hợp khách hàng hỏi thêm các thông tin khác bảng thông tin đi kèm bên dưới sẽ có ích."
+            ]
+          ]
+        ],
+        "detailTable": [
+          [
+            ["No.", "Room type", "Price", "Status"],
+            [1, "Deluxe room", "$100 per night", "Available"],
+            [2, "Standard room", "$80 per night", "Not available"]
+          ],
+          [
+            ["No.", "Common Question", "Answer", 1],
+            [1, "Do you have free Wi-Fi?", "Yes, we have free Wi-Fi.", 1],
+            [2, "What time is check-out?", "Check-out is at 12 PM.", 1]
+          ]
+        ],
+        "purpose": [
+          "Thông báo cho khách hàng về thông tin đã tìm được; giải đáp thắc mắc (nếu có)"
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["Hello", "Hi, how can I help you?"],
+        "theySay": ["Do you have any rooms for families?"],
+        "submitList": ["Check Room"],
+        "pickingList": [
+          [
+            "Demands",
+            "Check Room",
+            "Hotel Facilities",
+            "Room Service",
+            "Transport Service",
+            "Room Complaints",
+            "Meal Order",
+            "Internet Connection",
+            "Laundry Service",
+            "Extend Stay",
+            "Wake-up Call"
+          ]
+        ],
+        "guideTable": [
+          [
+            ["Khách sạn là một địa điểm quen thuộc của du khách tại thị trấn."],
+            [
+              "Hãy bắt đầu làm quen với nghiệp vụ khách sạn bằng cách nắm bắt nhu cầu của khách hàng."
+            ],
+            [
+              "Nếu khách không nói gì, hãy thử bắt đầu bằng cách nói 'Xin chào' hoặc hỏi xem họ có cần giúp đỡ không."
+            ],
+            [
+              "Nếu khách nói gì đó, nhưng bạn không nghe rõ, hãy yêu cầu họ nói lại."
+            ]
+          ]
+        ],
+        "purpose": ["Tìm hiểu nhu cầu của khách hàng"]
+      }
+    ],
+    [
+      {
+        "weSay": ["Hi"],
+        "theySay": ["Hi"],
+        "submitList": ["Find room", "Rooms for family"],
+        "pickingList": [
+          ["Specific Demand", "Find room", "Find Price"],
+          [
+            "Type of room",
+            "Deluxe room",
+            "Family room",
+            "Standard room",
+            "Suite room",
+            "Executive room"
+          ]
+        ],
+        "guideTable": [
+          [
+            [
+              "Khi làm thủ tục nhận phòng cho khách, điều quan trọng nhất là xác định xem còn phòng phù hợp với nhu cầu của họ hay không."
+            ],
+            [
+              "Để kiểm tra chính xác, hãy hỏi khách về số đêm họ dự định lưu trú và loại phòng mà họ mong muốn."
+            ],
+            [
+              "***Đặc biệt, lưu ý đối với phụ nữ mang thai, gia đình có trẻ nhỏ hoặc người cao tuổi, họ thường có những yêu cầu riêng. Hãy chủ động hỏi xem khách có mong muốn gì thêm để đảm bảo sự thoải mái cho họ"
+            ]
+          ]
+        ],
+        "purpose": [
+          "Điền thông tin [Yêu cầu cụ thể; Loại phòng; Thời gian lưu trú; Yêu cầu khác nếu có] để tra cứu bảng thông tin"
+        ]
+      },
+      {
+        "weSay": ["Hi"],
+        "theySay": ["Hi"],
+        "pickingList": [
+          [
+            "Stay duration",
+            "Tonight",
+            "Weekend",
+            "Next Monday",
+            "Tomorrow",
+            "This Friday"
+          ]
+        ],
+        "Error": ["Cảnh báo lỗi Thiếu submitList."]
+      },
+      {
+        "weSay": ["Hi"],
+        "theySay": ["Hi"],
+        "pickingList": [
+          [
+            "Special request",
+            "A sea view room",
+            "No-smoking room",
+            "Near the pool",
+            "High floor, city view",
+            "Room with a balcony"
+          ]
+        ],
+        "Error": ["Cảnh báo lỗi Thiếu submitList."]
+      }
+    ],
+    [
+      {
+        "weSay": ["You are done."],
+        "theySay": ["Thank you."],
+        "submitList": ["FN04"],
+        "action": ["submitFN04"],
+        "reward": ["reward2003"],
+        "notify": ["Information found - Details below"],
+        "guideTable": [
+          [
+            [
+              "Sau khi tìm được thông tin; việc quan trọng tiếp theo là thông báo các thông tin đến khách hàng theo đúng nhu cầu của họ."
+            ],
+            [
+              "Trong trường hợp khách hàng hỏi thêm các thông tin khác bảng thông tin đi kèm bên dưới sẽ có ích."
+            ]
+          ]
+        ],
+        "detailTable": [
+          [
+            ["No.", "Room type", "Price", "Status"],
+            [1, "Deluxe room", "$100 per night", "Available"],
+            [2, "Standard room", "$80 per night", "Not available"]
+          ],
+          [
+            ["No.", "Common Question", "Answer", 1],
+            [1, "Do you have free Wi-Fi?", "Yes, we have free Wi-Fi.", 1],
+            [2, "What time is check-out?", "Check-out is at 12 PM.", 1]
+          ]
+        ],
+        "purpose": [
+          "Thông báo cho khách hàng về thông tin đã tìm được; giải đáp thắc mắc (nếu có)"
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["Hello", "Hi, how can I help you?"],
+        "theySay": ["Can I get the price for a deluxe room?"],
+        "submitList": ["Check Room"],
+        "pickingList": [
+          [
+            "Demands",
+            "Check Room",
+            "Hotel Facilities",
+            "Room Service",
+            "Transport Service",
+            "Room Complaints",
+            "Meal Order",
+            "Internet Connection",
+            "Laundry Service",
+            "Extend Stay",
+            "Wake-up Call"
+          ]
+        ],
+        "guideTable": [
+          [
+            ["Khách sạn là một địa điểm quen thuộc của du khách tại thị trấn."],
+            [
+              "Hãy bắt đầu làm quen với nghiệp vụ khách sạn bằng cách nắm bắt nhu cầu của khách hàng."
+            ],
+            [
+              "Nếu khách không nói gì, hãy thử bắt đầu bằng cách nói 'Xin chào' hoặc hỏi xem họ có cần giúp đỡ không."
+            ],
+            [
+              "Nếu khách nói gì đó, nhưng bạn không nghe rõ, hãy yêu cầu họ nói lại."
+            ]
+          ]
+        ],
+        "purpose": ["Tìm hiểu nhu cầu của khách hàng"]
+      }
+    ],
+    [
+      {
+        "weSay": ["Hi"],
+        "theySay": ["Hi"],
+        "submitList": ["Find Price", "Deluxe room"],
+        "pickingList": [
+          ["Specific Demand", "Find room", "Find Price"],
+          [
+            "Type of room",
+            "Deluxe room",
+            "Family room",
+            "Standard room",
+            "Suite room",
+            "Executive room"
+          ]
+        ],
+        "guideTable": [
+          [
+            [
+              "Khi làm thủ tục nhận phòng cho khách, điều quan trọng nhất là xác định xem còn phòng phù hợp với nhu cầu của họ hay không."
+            ],
+            [
+              "Để kiểm tra chính xác, hãy hỏi khách về số đêm họ dự định lưu trú và loại phòng mà họ mong muốn."
+            ],
+            [
+              "***Đặc biệt, lưu ý đối với phụ nữ mang thai, gia đình có trẻ nhỏ hoặc người cao tuổi, họ thường có những yêu cầu riêng. Hãy chủ động hỏi xem khách có mong muốn gì thêm để đảm bảo sự thoải mái cho họ"
+            ]
+          ]
+        ],
+        "purpose": [
+          "Điền thông tin [Yêu cầu cụ thể; Loại phòng; Thời gian lưu trú; Yêu cầu khác nếu có] để tra cứu bảng thông tin"
+        ]
+      },
+      {
+        "weSay": ["Hi"],
+        "theySay": ["Hi"],
+        "pickingList": [
+          [
+            "Stay duration",
+            "Tonight",
+            "Weekend",
+            "Next Monday",
+            "Tomorrow",
+            "This Friday"
+          ]
+        ],
+        "Error": ["Cảnh báo lỗi Thiếu submitList."]
+      },
+      {
+        "weSay": ["Hi"],
+        "theySay": ["Hi"],
+        "pickingList": [
+          [
+            "Special request",
+            "A sea view room",
+            "No-smoking room",
+            "Near the pool",
+            "High floor, city view",
+            "Room with a balcony"
+          ]
+        ],
+        "Error": ["Cảnh báo lỗi Thiếu submitList."]
+      }
+    ],
+    [
+      {
+        "weSay": ["You are done."],
+        "theySay": ["Thank you."],
+        "submitList": ["FN05"],
+        "action": ["submitFN05"],
+        "reward": ["reward2004"],
+        "notify": ["Information found - Details below"],
+        "guideTable": [
+          [
+            [
+              "Sau khi tìm được thông tin; việc quan trọng tiếp theo là thông báo các thông tin đến khách hàng theo đúng nhu cầu của họ."
+            ],
+            [
+              "Trong trường hợp khách hàng hỏi thêm các thông tin khác bảng thông tin đi kèm bên dưới sẽ có ích."
+            ]
+          ]
+        ],
+        "detailTable": [
+          [
+            ["No.", "Room type", "Price", "Status"],
+            [1, "Deluxe room", "$100 per night", "Available"],
+            [2, "Standard room", "$80 per night", "Not available"]
+          ],
+          [
+            ["No.", "Common Question", "Answer", 1],
+            [1, "Do you have free Wi-Fi?", "Yes, we have free Wi-Fi.", 1],
+            [2, "What time is check-out?", "Check-out is at 12 PM.", 1]
+          ]
+        ],
+        "purpose": [
+          "Thông báo cho khách hàng về thông tin đã tìm được; giải đáp thắc mắc (nếu có)"
+        ]
+      }
     ]
   ]
 ]

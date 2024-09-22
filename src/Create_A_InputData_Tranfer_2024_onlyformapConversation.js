@@ -240,7 +240,7 @@ function groupByPrefiToArrayPure(data) {
   });
   return res2;
 }
-
+let nextSubmistList = [];
 function conversationBox(arr) {
   let res = {
     sayFirst: [],
@@ -258,13 +258,24 @@ function conversationBox(arr) {
     guideTable: [],
     detailTable: [],
     commonSt: [],
+    purpose: [],
   };
-
+  if (nextSubmistList.length !== 0) {
+    res.submitList = res.submitList.concat(nextSubmistList);
+    nextSubmistList = [];
+  }
   arr.forEach((e) => {
     let i = false;
-
     if (e.id.includes("sayFirst")) {
       res.sayFirst.push(e.content);
+      i = true;
+    }
+    if (e.id.includes("nextSubmitList")) {
+      nextSubmistList.push(e.content);
+      i = true;
+    }
+    if (e.id.includes("purpose")) {
+      res.purpose.push(e.content);
       i = true;
     }
 
@@ -309,7 +320,7 @@ function conversationBox(arr) {
         });
 
         // Concatenate guideSets to res.guideTable
-        res.guideTable = res.guideTable.concat(guideSets);
+        res.guideTable = res.guideTable.concat(removeNullElements(guideSets));
       } catch (error) {
         console.log(error);
       }
@@ -317,7 +328,34 @@ function conversationBox(arr) {
       i = true;
     }
     if (e.id.includes("detailTable")) {
-      res.detailTable.push(e);
+      try {
+        let guideInputA = JSON.parse(e.content);
+        let guideCheckSetsA = [];
+        let guideSetsA = [];
+
+        guideInputA[0].forEach((row) => {
+          // console.log(row);
+          // Check if the first element (ID) exists in guideCheckSets
+          if (!guideCheckSetsA.includes(row[0])) {
+            guideCheckSetsA.push(row[0]); // Add ID to guideCheckSets
+            guideSetsA.push([]); // Create a new array for this ID
+          }
+          // Push the rest of the elements except the ID to the last guideSets array
+          guideSetsA[guideSetsA.length - 1].push(row.slice(1));
+          // row.forEach((e1) => {
+          //   console.log(e1);
+
+          // });
+        });
+
+        // Concatenate guideSets to res.detailTable
+        res.detailTable = res.detailTable.concat(
+          removeNullElements(guideSetsA)
+        );
+      } catch (error) {
+        console.log(error);
+      }
+
       i = true;
     }
     if (e.id.includes("commonSt")) {
@@ -383,7 +421,7 @@ function conversationBox(arr) {
       });
     }
   } catch (error) {
-    console.log(error);
+    console.log("TheySay");
   }
   delete res["theySaySubmitList"];
   let iCheckCountNotifyWeSay = 0;
@@ -417,7 +455,7 @@ function conversationBox(arr) {
       });
     }
   } catch (error) {
-    console.log(error);
+    console.log("We Say they Say");
   }
 
   if (res.submitList.length === 0) {
@@ -439,6 +477,7 @@ function conversationBox(arr) {
       delete res[e];
     }
   });
+
   return res;
 }
 
@@ -464,4 +503,23 @@ function trimArrayElements(array) {
 
 function getRandomNumber(n) {
   return Math.floor(Math.random() * n);
+}
+
+function removeNullElements(arr) {
+  // Helper function to remove nulls from nested arrays
+  const cleanArray = (data) => {
+    return data.map((row) => row.filter((cell) => cell !== null));
+  };
+
+  // Main logic to handle the array input
+  if (arr && Array.isArray(arr)) {
+    try {
+      return arr.map((tableData) => cleanArray(tableData));
+    } catch (error) {
+      console.error("Error in removeNullElements:", error);
+      return [];
+    }
+  } else {
+    return []; // Fallback when no data is passed or arr is not an array
+  }
 }
