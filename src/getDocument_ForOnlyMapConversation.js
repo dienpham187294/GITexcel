@@ -212,7 +212,7 @@ function GetDocument() {
             border: "1px solid black",
             borderRadius: "10px",
             padding: "20px",
-            transition: "all 2s ease-in-out", // Smooth transition for the container
+            transition: "all 1s ease-in-out", // Smooth transition for the container
             opacity: PracData ? 1 : 0, // Fade in/out effect for the container
             transform: PracData ? "translateY(0)" : "translateY(-10px)", // Smooth movement
           }}
@@ -224,7 +224,7 @@ function GetDocument() {
               width={"200px"}
               style={{
                 transition:
-                  "transform 2s ease-in-out, opacity 2s ease-in-out", // Smooth transition for image
+                  "transform 1s ease-in-out, opacity 1s ease-in-out", // Smooth transition for image
                 opacity: PracData ? 1 : 0,
                 transform: PracData ? "scale(1)" : "scale(0.95)", // Slight scaling effect
               }}
@@ -239,7 +239,7 @@ function GetDocument() {
               borderRadius: "8px",
               padding: "20px",
               border: "1px solid rgba(0, 0, 0, 0.05)",
-              transition: "all 2s ease-in-out", // Smooth transition for this box
+              transition: "all 1s ease-in-out", // Smooth transition for this box
               opacity: PracData ? 1 : 0,
               transform: PracData ? "translateY(0)" : "translateY(-10px)", // Move effect
             }}
@@ -252,7 +252,7 @@ function GetDocument() {
                     key={"AA" + i1}
                     style={{
                       display: "inline-block",
-                      transition: "opacity 2s ease-in-out", // Smooth transition for inline-block elements
+                      transition: "opacity 1s ease-in-out", // Smooth transition for inline-block elements
                       opacity: Index >= i ? 1 : 0,
                     }}
                   >
@@ -263,7 +263,7 @@ function GetDocument() {
                             style={{
                               fontSize: "medium",
                               color: "purple",
-                              transition: "color 2s ease-in-out", // Smooth color change
+                              transition: "color 1s ease-in-out", // Smooth color change
                             }}
                             key={"b" + i1 + i2}
                           >
@@ -280,7 +280,7 @@ function GetDocument() {
                             style={{
                               marginRight: "10px",
                               fontSize: "medium",
-                              transition: "all 2s ease-in-out", // Smooth transition for list items
+                              transition: "all 1s ease-in-out", // Smooth transition for list items
                             }}
                             key={"b" + i1 + i2}
                           >
@@ -296,14 +296,14 @@ function GetDocument() {
                           borderTop: "1px solid green",
                           padding: "10px",
                           width: "300px",
-                          transition: "all 2s ease-in-out", // Smooth transition for notifications
+                          transition: "all 1s ease-in-out", // Smooth transition for notifications
                           opacity: e1.notify ? 1 : 0,
                         }}
                       >
                         <h5
                           style={{
                             color: "blue",
-                            transition: "color 2s ease-in-out",
+                            transition: "color 1s ease-in-out",
                           }}
                         >
                           {e1.notify}
@@ -337,7 +337,7 @@ function GetDocument() {
               style={{
                 fontSize: "medium",
                 whiteSpace: "pre-line",
-                transition: "all 2s ease-in-out", // Smooth transition for the table
+                transition: "all 1s ease-in-out", // Smooth transition for the table
               }}
             >
               {DataTableALL(HDtable)}
@@ -346,7 +346,7 @@ function GetDocument() {
             <select
               className="form-control"
               style={{
-                transition: "all 2s ease-in-out", // Smooth transition for the select box
+                transition: "all 1s ease-in-out", // Smooth transition for the select box
               }}
               onChange={(e) => {
                 SetCMD(e.currentTarget.value);
@@ -365,7 +365,7 @@ function GetDocument() {
             style={{
               fontSize: "medium",
               whiteSpace: "pre-line",
-              transition: "all 2s ease-in-out", // Add a smooth transition
+              transition: "all 1s ease-in-out", // Add a smooth transition
               opacity: Detailtable.length !== 0 ? 1 : 0, // Fade effect based on content
               transform:
                 Detailtable.length !== 0
@@ -375,7 +375,7 @@ function GetDocument() {
           >
             {Detailtable.length !== 0 ? (
               <h5
-                style={{ color: "blue", transition: "color 2s ease-in-out" }}
+                style={{ color: "blue", transition: "color 1s ease-in-out" }}
               >
                 Detail information
               </h5>
