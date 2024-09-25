@@ -434,7 +434,7 @@ function GetDocument() {
             $("#ResID").text("");
           }}
         >
-          Xóa file excel đã chọn
+          Xóa
         </button>
         {showButton(TransferData, "green")}
         <div style={{ padding: "0 10% " }}>
