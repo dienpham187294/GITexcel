@@ -10,10 +10,11 @@ import ReadMessage from "./ReadMessage_2024";
 import Dictaphone from "./RegcognitionV2024-05-NG";
 import initializeVoicesAndPlatform from "./initializeVoicesAndPlatform";
 import { compareTwoStrings } from "string-similarity";
-
+import InputDataTest from "./ForTest.json";
 let PracDataSave = [];
 let IndexSave = 0;
-
+let theySaySave = "Hi how are you?";
+let CungThucHanhIndex = 0;
 function GetDocument() {
   const [IndexExcel, SetIndexExcel] = useState("1");
   const [Documents, SetDocuments] = useState(null);
@@ -35,10 +36,11 @@ function GetDocument() {
   const [HDinfo, SetHDinfo] = useState("huongdan");
   const [Notify, SetNotify] = useState(null);
   const [DataShowTableOfID, SetDataShowTableOfID] = useState(null);
-
   const [IndexDataShow, SetIndexDataShow] = useState(0);
-
   const [DocumentMode, SetDocumentMode] = useState("A1");
+  const [PracTest, SetPracTest] = useState(false);
+  const [PracTestList, SetPracTestList] = useState(null);
+  const [Score, SetScore] = useState(0);
   useEffect(() => {
     const handleFileChange = async (event) => {
       try {
@@ -144,6 +146,7 @@ function GetDocument() {
           SetPracData(null);
           SetIndex(0);
           SetPickData([]);
+          SetScore((D) => D + 1);
         }
       }
     } catch (error) {
@@ -167,11 +170,8 @@ function GetDocument() {
     try {
       if (CMD !== null) {
         const closestMatch = findClosestMatch(CMD, PracData[Index]);
-        ReadMessage(
-          ObjRead,
-          getRandomElement(closestMatch.theySay),
-          Gender || 1
-        );
+        theySaySave = getRandomElement(closestMatch.theySay);
+        ReadMessage(ObjRead, theySaySave, Gender || 1, 0.75);
         if (closestMatch.action) {
           SetPickData([...PickData, "FN01"]);
         }
@@ -194,6 +194,228 @@ function GetDocument() {
     initialize();
   }, []);
 
+  useEffect(() => {
+    if (PracTest) {
+      let setsN = parceARandomSets(InputDataTest.length);
+      SetPracTestList(setsN);
+      SetPracData(InputDataTest[setsN[0]]);
+    }
+  }, [PracTest]);
+
+  if (PracTest) {
+    return (
+      <div>
+        <button
+          onClick={() => {
+            if (PracData !== null) {
+              CungThucHanhIndex++;
+              SetPracData(null);
+              setTimeout(() => {
+                SetPracData(InputDataTest[PracTestList[CungThucHanhIndex]]);
+              }, 2000);
+            }
+          }}
+        >
+          Chọn ngẫu nhiên
+        </button>
+        <h1>Thực hành thử </h1>
+        {Score}
+        <br />
+        <button
+          onClick={() => {
+            ReadMessage(ObjRead, theySaySave, Gender || 1, 0.75);
+          }}
+        >
+          Read again
+        </button>
+        <button
+          onClick={() => {
+            ReadMessage(ObjRead, theySaySave, Gender || 1, 0.5);
+          }}
+        >
+          Read slow
+        </button>
+        <hr />
+        <Dictaphone fn_Xuly={fn_Xuly} CMDList={CMDList} />{" "}
+        {PracData !== null ? (
+          <div
+            style={{
+              border: "1px solid black",
+              borderRadius: "10px",
+              padding: "20px",
+              transition: "all 1s ease-in-out", // Smooth transition for the container
+              opacity: PracData ? 1 : 0, // Fade in/out effect for the container
+              transform: PracData ? "translateY(0)" : "translateY(-10px)", // Smooth movement
+            }}
+            className="row"
+          >
+            <div className="col-2">
+              <img
+                src={ImgAvatar}
+                width={"200px"}
+                // style={{
+                //   transition: "transform 1s ease-in-out, opacity 1s ease-in-out", // Smooth transition for image
+                //   opacity: PracData ? 1 : 0,
+                //   transform: PracData ? "scale(1)" : "scale(0.95)", // Slight scaling effect
+                // }}
+              />
+            </div>
+            <div
+              className="col-4"
+              style={{
+                backgroundColor: "#f0f0f0",
+                boxShadow:
+                  "0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08)",
+                borderRadius: "8px",
+                padding: "20px",
+                border: "1px solid rgba(0, 0, 0, 0.05)",
+                transition: "all 1s ease-in-out", // Smooth transition for this box
+                opacity: PracData ? 1 : 0,
+                transform: PracData ? "translateY(0)" : "translateY(-10px)", // Move effect
+              }}
+            >
+              {PracData.map((e, i) => (
+                <div key={"a" + i}>
+                  {Index > i ? i + 1 : null}
+                  {e.map((e1, i1) => (
+                    <div
+                      key={"AA" + i1}
+                      style={{
+                        display: "inline-block",
+                        transition: "opacity 1s ease-in-out", // Smooth transition for inline-block elements
+                        opacity: Index >= i ? 1 : 0,
+                      }}
+                    >
+                      {Index === i && e1.purpose ? (
+                        <div>
+                          {e1.purpose.map((e2, i2) => (
+                            <i
+                              style={{
+                                fontSize: "medium",
+                                color: "purple",
+                                transition: "color 1s ease-in-out", // Smooth color change
+                              }}
+                              key={"b" + i1 + i2}
+                            >
+                              {e2}
+                            </i>
+                          ))}
+                        </div>
+                      ) : null}
+
+                      {Index > i && e1.submitList ? (
+                        <div>
+                          {e1.submitList.map((e2, i2) => (
+                            <i
+                              style={{
+                                marginRight: "10px",
+                                fontSize: "medium",
+                                transition: "all 1s ease-in-out", // Smooth transition for list items
+                              }}
+                              key={"b" + i1 + i2}
+                            >
+                              __{e2}
+                            </i>
+                          ))}
+                        </div>
+                      ) : null}
+
+                      {Index === i && e1.notify ? (
+                        <div
+                          style={{
+                            borderTop: "1px solid green",
+                            padding: "10px",
+                            width: "300px",
+                            transition: "all 1s ease-in-out", // Smooth transition for notifications
+                            opacity: e1.notify ? 1 : 0,
+                          }}
+                        >
+                          <h5
+                            style={{
+                              color: "blue",
+                              transition: "color 1s ease-in-out",
+                            }}
+                          >
+                            {e1.notify}
+                          </h5>
+                        </div>
+                      ) : null}
+
+                      {Index >= i && e1.pickingList
+                        ? e1.pickingList.map(
+                            (ePickingListPot, iPickingListPot) => (
+                              <div key={iPickingListPot}>
+                                {showPick(
+                                  ePickingListPot,
+                                  SetPickData,
+                                  PickData,
+                                  Index === i ? false : true,
+                                  i
+                                )}
+                              </div>
+                            )
+                          )
+                        : null}
+                    </div>
+                  ))}
+                </div>
+              ))}
+            </div>
+            <div className="col-6">
+              <div
+                style={{
+                  fontSize: "medium",
+                  whiteSpace: "pre-line",
+                  transition: "all 1s ease-in-out", // Smooth transition for the table
+                }}
+              >
+                {DataTableALL(HDtable)}
+              </div>
+
+              <select
+                className="form-control"
+                style={{
+                  transition: "all 1s ease-in-out", // Smooth transition for the select box
+                }}
+                onChange={(e) => {
+                  SetCMD(e.currentTarget.value);
+                }}
+              >
+                <option key={"a0"}>"We can say" list:</option>
+                {WeCanSay.map((e, i) => (
+                  <option key={i} value={e}>
+                    {e}
+                  </option>
+                ))}
+              </select>
+            </div>
+            <div
+              style={{
+                fontSize: "medium",
+                whiteSpace: "pre-line",
+                transition: "all 1s ease-in-out", // Add a smooth transition
+                opacity: Detailtable.length !== 0 ? 1 : 0, // Fade effect based on content
+                transform:
+                  Detailtable.length !== 0
+                    ? "translateY(0)"
+                    : "translateY(-10px)", // Slight movement effect
+              }}
+            >
+              {Detailtable.length !== 0 ? (
+                <h5
+                  style={{ color: "blue", transition: "color 1s ease-in-out" }}
+                >
+                  Detail information
+                </h5>
+              ) : null}
+              {DataTableALLInformation(Detailtable)}
+            </div>
+          </div>
+        ) : null}
+      </div>
+    );
+  }
+
   return (
     <div>
       <div style={{ display: "" }} id="remodeDiv">
@@ -212,7 +434,7 @@ function GetDocument() {
             $("#ResID").text("");
           }}
         >
-          Reset
+          Xóa file excel đã chọn
         </button>
         {showButton(TransferData, "green")}
         <div style={{ padding: "0 10% " }}>
@@ -227,6 +449,7 @@ function GetDocument() {
           <option value={"A2"}>A2</option>
         </select>
         <button
+          className="btn btn-primary"
           style={{ border: "6px solid purple" }}
           onClick={() => {
             try {
@@ -245,10 +468,18 @@ function GetDocument() {
         {JSON.stringify(ObjRead)}
         <button
           onClick={() => {
-            ReadMessage(ObjRead, "Hi, Try it with your best.", Gender || 1);
+            ReadMessage(
+              ObjRead,
+              "Hi, Try it with your best.",
+              Gender || 1,
+              0.75
+            );
           }}
         >
-          READ
+          Thử giọng đọc
+        </button>
+        <button className="btn btn-primary" onClick={() => SetPracTest(true)}>
+          Cùng thực hành thử
         </button>
         <hr />
         <div id="ResID" style={{ padding: "15px" }}></div>
@@ -729,7 +960,7 @@ function showPick(arr, SetPickData, PickData, mode, indexOfPhase) {
 }
 
 function findClosestMatch(inputString, arrayInput) {
-  console.log(arrayInput);
+  // console.log(arrayInput);
   let closestMatch = null;
   let highestSimilarity = 0;
 
@@ -742,8 +973,7 @@ function findClosestMatch(inputString, arrayInput) {
         cleanString(inputString),
         cleanString(weSayString)
       );
-      console.log(inputString, weSayString, similarity);
-
+      // console.log(inputString, weSayString, similarity);
       // Cập nhật độ tương đồng cao nhất và đối tượng tương ứng nếu cần
       if (similarity > highestSimilarity) {
         highestSimilarity = similarity;
@@ -986,4 +1216,17 @@ function DataTableALLInformation(arr) {
   } else {
     return <div>No data available</div>; // Fallback when no data is passed
   }
+}
+
+function parceARandomSets(n) {
+  // Tạo mảng từ 0 đến n
+  let array = Array.from({ length: n + 1 }, (_, i) => i);
+
+  // Đảo ngẫu nhiên mảng bằng phương pháp Fisher-Yates
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]]; // Hoán đổi vị trí
+  }
+
+  return array;
 }

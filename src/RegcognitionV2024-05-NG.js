@@ -19,13 +19,6 @@ const Dictaphone = ({ fn_Xuly, CMDList }) => {
         command: ["clear", "reset"],
         callback: ({ resetTranscript }) => resetTranscript(),
       },
-      // {
-      //   command: ["use", "take it"],
-      //   callback: ({ resetTranscript, transcript }) => {
-      //     fn_Xuly(transcript);
-      //     resetTranscript();
-      //   },
-      // },
       {
         command: "stop",
         callback: stopListening,
@@ -46,12 +39,6 @@ const Dictaphone = ({ fn_Xuly, CMDList }) => {
 
   const { interimTranscript, transcript, listening, resetTranscript } =
     useSpeechRecognition({ commands });
-
-  // Update the command list with CMDlist when CMDlist changes
-  // useEffect(() => {
-  //   commands[0].commands = CMDList;
-  //   console.log(CMDList);
-  // }, [CMDList]);
 
   return (
     <div

@@ -14,8 +14,8 @@ function setButtonState(buttonId, isEnabled) {
 
 // Enable specific buttons
 function enableButton() {
-  setButtonState("RegButton", true);
-  setButtonState("BtnFsp", true);
+  // setButtonState("RegButton", true);
+  // setButtonState("BtnFsp", true);
   try {
     $("#resetCMD")[0].click();
   } catch (error) {}
@@ -23,8 +23,8 @@ function enableButton() {
 
 // Disable specific buttons
 function disableButton() {
-  setButtonState("RegButton", false);
-  setButtonState("BtnFsp", false);
+  // setButtonState("RegButton", false);
+  // setButtonState("BtnFsp", false);
 }
 
 // Function to count and split sentences in a given text
@@ -47,7 +47,12 @@ function checkFunctionExecution(functionName) {
 }
 
 // Main function to read messages
-export default async function ReadMessage(ObjVoices, text, voiceNum) {
+export default async function ReadMessage(
+  ObjVoices,
+  text,
+  voiceNum,
+  RateIndex
+) {
   if (!checkFunctionExecution("ReadMessage")) {
     console.warn("ReadMessage called too frequently.");
     return;
@@ -79,9 +84,8 @@ export default async function ReadMessage(ObjVoices, text, voiceNum) {
   const speakSentences = (index, sentenceLength) => {
     let msg = new SpeechSynthesisUtterance();
     msg.voice = voices[voiceIndex];
-    msg.rate = 0.75;
+    msg.rate = RateIndex;
     msg.text = sentences[index];
-
     msg.onstart = () => {
       if (index === 0) disableButton();
     };
