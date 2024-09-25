@@ -190,25 +190,25 @@ function Z_TransformTemplateHotel() {
             "How can I help you? \\ What do you want? \\ Can you tell me the detail",
           ],
         ],
-        ["02-01-weSay-01", ParseTheySay(e, "02-01-weSay-01")],
-        ["02-01-theySay-01", ParseTheySay(e, "02-01-theySay-01")],
+        ["02-01-weSay-01", ParseTheySay(e, "01-01-weSay-01")],
+        ["02-01-theySay-01", ParseTheySay(e, "01-01-theySay-01")],
         ["02-01-submitList-01", [e["id-02"]]],
         [
           "02-01-pickingList-01",
           ["Request cấp độ 2"].concat(e["id-02-pickingList-01"].split(";")),
         ],
         //02-02
-        ["02-02-weSay-01", ParseTheySay(e, "02-02-weSay-01")],
-        ["02-02-theySay-01", ParseTheySay(e, "02-02-theySay-01")],
+        ["02-02-weSay-01", ParseTheySay(e, "01-02-weSay-01")],
+        ["02-02-theySay-01", ParseTheySay(e, "01-02-theySay-01")],
         //02-03
-        ["02-03-weSay-01", ParseTheySay(e, "02-03-weSay-01")],
-        ["02-03-theySay-01", ParseTheySay(e, "02-03-theySay-01")],
+        ["02-03-weSay-01", ParseTheySay(e, "01-03-weSay-01")],
+        ["02-03-theySay-01", ParseTheySay(e, "01-03-theySay-01")],
 
         ////03-01
         ["03-01-purpose-01", [e["03-01-purpose-01"]]],
 
-        ["03-01-weSay-01", ParseTheySay(e, "03-01-weSay-01")],
-        ["03-01-theySay-01", ParseTheySay(e, "03-01-theySay-01")],
+        ["03-01-weSay-01", ParseTheySay(e, "01-01-weSay-01")],
+        ["03-01-theySay-01", ParseTheySay(e, "01-01-theySay-01")],
         ["03-01-submitList-01", [e["id-03"]]],
         [
           "03-01-pickingList-01",
@@ -216,11 +216,11 @@ function Z_TransformTemplateHotel() {
         ],
 
         ///03-02
-        ["03-02-weSay-01", ParseTheySay(e, "03-02-weSay-01")],
-        ["03-02-theySay-01", ParseTheySay(e, "03-02-theySay-01")],
+        ["03-02-weSay-01", ParseTheySay(e, "01-02-weSay-01")],
+        ["03-02-theySay-01", ParseTheySay(e, "01-02-theySay-01")],
         ///03-03
-        ["03-03-weSay-01", ParseTheySay(e, "03-03-weSay-01")],
-        ["03-03-theySay-01", ParseTheySay(e, "03-03-theySay-01")],
+        ["03-03-weSay-01", ParseTheySay(e, "01-03-weSay-01")],
+        ["03-03-theySay-01", ParseTheySay(e, "01-03-theySay-01")],
         //////////////04-01
         ["04-01-purpose-01", ["More information"]],
         [
