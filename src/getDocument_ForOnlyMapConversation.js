@@ -2,6 +2,9 @@ import { useEffect, useState } from "react";
 import $ from "jquery";
 import readXlsxFile from "read-excel-file";
 import * as TransferData from "./Create_A_InputData_Tranfer_2024_onlyformapConversation";
+
+import * as TransferData_01 from "./Create_A_InputData_Tranfer_01";
+
 import transferTextToArray from "./transferTextToArray";
 import ReadMessage from "./ReadMessage_2024";
 import Dictaphone from "./RegcognitionV2024-05-NG";
@@ -26,11 +29,16 @@ function GetDocument() {
   const [SubmitSets, SetSubmitSets] = useState([]);
   const [HDtable, SetHDtable] = useState([]);
   const [Detailtable, SetDetailtable] = useState([]);
+  const [ImgAvatar, SetImgAvatar] = useState(null);
+  const [Gender, SetGender] = useState(null);
   const [CommonStTable, SetCommonStTable] = useState([]);
   const [HDinfo, SetHDinfo] = useState("huongdan");
   const [Notify, SetNotify] = useState(null);
+  const [DataShowTableOfID, SetDataShowTableOfID] = useState(null);
 
   const [IndexDataShow, SetIndexDataShow] = useState(0);
+
+  const [DocumentMode, SetDocumentMode] = useState("A1");
   useEffect(() => {
     const handleFileChange = async (event) => {
       try {
@@ -79,9 +87,27 @@ function GetDocument() {
 
   useEffect(() => {
     if (PracData !== null && PracData[Index]) {
+      if (Index === 0) {
+        try {
+          if (PracData[Index]) {
+            SetImgAvatar(
+              PracData[Index][0].img[0] ||
+                "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg"
+            );
+            SetGender(PracData[Index][0].gender[0] || 1);
+          }
+        } catch (error) {}
+      }
+
       // Collecting and setting various states
       SetCMDList(collectWeSay(PracData[Index], ["weSay"]));
-      SetWeCanSay(collectWeSay(PracData[Index], ["weSay", "weCanSayList"]));
+      SetWeCanSay(
+        shuffleArray(
+          collectWeSay(PracData[Index], ["weSay", "weCanSayList"]).concat(
+            pickRandomN(qsSets, 4)
+          )
+        )
+      );
       SetSubmitSets(collectWeSay(PracData[Index], ["submitList"]));
       SetHDtable(collectWeSay(PracData[Index], ["guideTable"]));
       SetDetailtable(collectWeSay(PracData[Index], ["detailTable"]));
@@ -125,18 +151,33 @@ function GetDocument() {
     }
   }, [PickData]);
 
-  useEffect(() => {
+  // useEffect(() => {
+  //   try {
+  //     if (CMD !== null) {
+  //       const closestMatch = findClosestMatch(CMD, PracData[Index]);
+  //       ReadMessage(ObjRead, getRandomElement(closestMatch.theySay), 1);
+  //       if (closestMatch.action) {
+  //         SetPickData([...PickData, "FN01"]);
+  //       }
+  //     }
+  //   } catch (error) {}
+  // }, [CMD]);
+
+  function fn_Xuly(CMD) {
     try {
       if (CMD !== null) {
         const closestMatch = findClosestMatch(CMD, PracData[Index]);
-        ReadMessage(ObjRead, getRandomElement(closestMatch.theySay), 1);
+        ReadMessage(
+          ObjRead,
+          getRandomElement(closestMatch.theySay),
+          Gender || 1
+        );
         if (closestMatch.action) {
           SetPickData([...PickData, "FN01"]);
         }
       }
     } catch (error) {}
-  }, [CMD]);
-
+  }
   useEffect(() => {
     if (New !== 0) {
       SetIndex(0);
@@ -156,7 +197,7 @@ function GetDocument() {
   return (
     <div>
       <div style={{ display: "" }} id="remodeDiv">
-        <p id="IndexExcel"> {IndexExcel}</p>
+        Lấy sheet: <b id="IndexExcel"> {IndexExcel}</b>
         <input
           placeholder="Nhập ds file name cần lấy"
           onChange={(e) => {
@@ -173,8 +214,20 @@ function GetDocument() {
         >
           Reset
         </button>
-        {showButton(TransferData)}
+        {showButton(TransferData, "green")}
+        <div style={{ padding: "0 10% " }}>
+          {showButton(TransferData_01, "blue")}
+        </div>
+        <select
+          onChange={(e) => {
+            SetDocumentMode(e.currentTarget.value);
+          }}
+        >
+          <option value={"A1"}>A1</option>
+          <option value={"A2"}>A2</option>
+        </select>
         <button
+          style={{ border: "6px solid purple" }}
           onClick={() => {
             try {
               if (Documents === null) {
@@ -192,7 +245,7 @@ function GetDocument() {
         {JSON.stringify(ObjRead)}
         <button
           onClick={() => {
-            ReadMessage(ObjRead, "Hi, Try it with your best.", 1);
+            ReadMessage(ObjRead, "Hi, Try it with your best.", Gender || 1);
           }}
         >
           READ
@@ -205,7 +258,7 @@ function GetDocument() {
       <br />
       {JSON.stringify(PickData)}
       <hr />
-      <Dictaphone SetCMD={SetCMD} CMDList={CMDList} />{" "}
+      <Dictaphone fn_Xuly={fn_Xuly} CMDList={CMDList} />{" "}
       {PracData !== null ? (
         <div
           style={{
@@ -220,14 +273,13 @@ function GetDocument() {
         >
           <div className="col-2">
             <img
-              src="https://i.postimg.cc/KzXn83D8/Andrew-40.jpg"
+              src={ImgAvatar}
               width={"200px"}
-              style={{
-                transition:
-                  "transform 1s ease-in-out, opacity 1s ease-in-out", // Smooth transition for image
-                opacity: PracData ? 1 : 0,
-                transform: PracData ? "scale(1)" : "scale(0.95)", // Slight scaling effect
-              }}
+              // style={{
+              //   transition: "transform 1s ease-in-out, opacity 1s ease-in-out", // Smooth transition for image
+              //   opacity: PracData ? 1 : 0,
+              //   transform: PracData ? "scale(1)" : "scale(0.95)", // Slight scaling effect
+              // }}
             />
           </div>
           <div
@@ -331,7 +383,6 @@ function GetDocument() {
               </div>
             ))}
           </div>
-
           <div className="col-6">
             <div
               style={{
@@ -360,7 +411,6 @@ function GetDocument() {
               ))}
             </select>
           </div>
-
           <div
             style={{
               fontSize: "medium",
@@ -374,9 +424,7 @@ function GetDocument() {
             }}
           >
             {Detailtable.length !== 0 ? (
-              <h5
-                style={{ color: "blue", transition: "color 1s ease-in-out" }}
-              >
+              <h5 style={{ color: "blue", transition: "color 1s ease-in-out" }}>
                 Detail information
               </h5>
             ) : null}
@@ -399,7 +447,8 @@ function GetDocument() {
             SetPracData,
             SetNew,
             IndexDataShow,
-            SetIndexDataShow
+            SetIndexDataShow,
+            DocumentMode
           )
         : null}
       <hr />
@@ -409,12 +458,17 @@ function GetDocument() {
 
 export default GetDocument;
 
-function showButton(ArrBTN) {
+function showButton(ArrBTN, color) {
   let ArrObj = Object.keys(ArrBTN);
 
   return ArrObj.map((e, i) => (
     <button
       key={i}
+      style={{
+        borderRadius: "15px",
+        borderColor: color ? color : "black",
+        color: color ? color : "black",
+      }}
       onClick={() => {
         ArrBTN[e]();
       }}
@@ -429,129 +483,167 @@ function tableDocuments(
   SetPracData,
   SetNew,
   IndexDataShow,
-  SetIndexDataShow
+  SetIndexDataShow,
+  mode
 ) {
+  if (mode === "A1") {
+    try {
+      return (
+        <div>
+          <h4>Chọn bài thực hành</h4>
+          <hr />
+          {data.map((e, i) => (
+            <button
+              className="btn btn-outline-primary p-4"
+              key={i}
+              onClick={() => {
+                SetPracData(e);
+                SetNew((D) => D + 1);
+                SetIndexDataShow(i);
+              }}
+            >
+              {i + 1} {/* Display the item from the data array */}
+            </button>
+          ))}
+
+          {shuffleArray(data).map((e, i) => (
+            <button
+              className="btn btn-primary p-4"
+              key={i}
+              onClick={() => {
+                SetPracData(e);
+                SetNew((D) => D + 1);
+              }}
+            >
+              ? {/* Display the item from the data array */}
+            </button>
+          ))}
+
+          <hr />
+          {[data[IndexDataShow]].map((e, i) => (
+            <div key={i}>
+              <h5>Conversation {i + 1}</h5>{" "}
+              {e.map((e1, i1) => (
+                <div
+                  key={i1}
+                  style={{
+                    border: "1px solid black",
+                    borderRadius: "5px",
+                    padding: "5px",
+                  }}
+                >
+                  {e1.map((e2, i2) => (
+                    <div className="row" key={i2}>
+                      <div className="col-1">{i1 + 1}</div>
+                      <div className="col-6">
+                        <h4>
+                          {showText(e2.Error) === "Không"
+                            ? null
+                            : showText(e2.Error, "red")}
+                        </h4>
+                        <p>
+                          Hỏi:
+                          <br />
+                          <b>
+                            {" "}
+                            {showText(e2.weSay) === "Không" ? (
+                              <h5 style={{ color: "red" }}>
+                                Cảnh báo lỗi không có câu nói
+                              </h5>
+                            ) : (
+                              showText(e2.weSay)
+                            )}
+                          </b>
+                        </p>
+                        <hr />
+                        Trả lời:
+                        <p>
+                          {" "}
+                          {showText(e2.theySay) === "Không" ? (
+                            <h5 style={{ color: "red" }}>
+                              Cảnh báo lỗi không có câu trả lời
+                            </h5>
+                          ) : (
+                            showText(e2.theySay)
+                          )}
+                        </p>
+                      </div>
+                      <div className="col-5">
+                        <p> Mục tiêu: {showText(e2.purpose)}</p>
+                        <p> Thông báo: {showText(e2.notify)}</p>
+                        <p> Cần chọn: {showText(e2.submitList)}</p>
+                        Dánh sách lựa chọn: {showTextARR(e2.pickingList)}
+                        <p>
+                          {" "}
+                          Dánh sách câu có thể nói: {showText(e2.weCanSayList)}
+                        </p>
+                        <p> Hành động: {showText(e2.action)}</p>
+                        <p> Phần thưởng: {showText(e2.reward)}</p>
+                        <p>
+                          Câu chuyện:{" "}
+                          {e2.guideTable !== undefined ? (
+                            <b>{JSON.stringify(e2.guideTable).slice(0, 20)}</b>
+                          ) : (
+                            "Không"
+                          )}{" "}
+                        </p>
+                        <p>
+                          Thông tin chi tiết:{" "}
+                          {e2.detailTable !== undefined ? (
+                            <b>{JSON.stringify(e2.detailTable).slice(0, 20)}</b>
+                          ) : (
+                            "Không"
+                          )}{" "}
+                        </p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              ))}
+              <hr />
+            </div>
+          ))}
+        </div>
+      );
+    } catch (error) {
+      return "Lỗi 1";
+    }
+  }
+
   try {
     return (
       <div>
-        <h4>Chọn bài thực hành</h4>
-        <hr />
-        {data.map((e, i) => (
-          <button
-            className="btn btn-outline-primary p-4"
-            key={i}
-            onClick={() => {
-              SetPracData(e);
-              SetNew((D) => D + 1);
-              SetIndexDataShow(i);
-            }}
-          >
-            {i + 1} {/* Display the item from the data array */}
-          </button>
-        ))}
+        <table className="table table-sm">
+          <tbody>
+            {data.map((e0, i0) => (
+              <>
+                <tr>
+                  <td>id-{i0 < 9 ? "0" + (i0 + 1) : i0 + 2}</td>
+                  {e0.map((e, i) => (
+                    <td>{e[0]}</td>
+                  ))}
+                </tr>
 
-        {shuffleArray(data).map((e, i) => (
-          <button
-            className="btn btn-primary p-4"
-            key={i}
-            onClick={() => {
-              SetPracData(e);
-              SetNew((D) => D + 1);
-            }}
-          >
-            ? {/* Display the item from the data array */}
-          </button>
-        ))}
-
-        <hr />
-        {[data[IndexDataShow]].map((e, i) => (
-          <div key={i}>
-            <h5>Conversation {i + 1}</h5>{" "}
-            {e.map((e1, i1) => (
-              <div
-                key={i1}
-                style={{
-                  border: "1px solid black",
-                  borderRadius: "5px",
-                  padding: "5px",
-                }}
-              >
-                {e1.map((e2, i2) => (
-                  <div className="row" key={i2}>
-                    <div className="col-1">{i1 + 1}</div>
-                    <div className="col-6">
-                      <h4>
-                        {showText(e2.Error) === "Không"
-                          ? null
-                          : showText(e2.Error, "red")}
-                      </h4>
-                      <p>
-                        Hỏi:
-                        <br />
-                        <b>
-                          {" "}
-                          {showText(e2.weSay) === "Không" ? (
-                            <h5 style={{ color: "red" }}>
-                              Cảnh báo lỗi không có câu nói
-                            </h5>
-                          ) : (
-                            showText(e2.weSay)
-                          )}
-                        </b>
-                      </p>
-                      <hr />
-                      Trả lời:
-                      <p>
-                        {" "}
-                        {showText(e2.theySay) === "Không" ? (
-                          <h5 style={{ color: "red" }}>
-                            Cảnh báo lỗi không có câu trả lời
-                          </h5>
-                        ) : (
-                          showText(e2.theySay)
-                        )}
-                      </p>
-                    </div>
-                    <div className="col-5">
-                      <p> Mục tiêu: {showText(e2.purpose)}</p>
-                      <p> Thông báo: {showText(e2.notify)}</p>
-                      <p> Cần chọn: {showText(e2.submitList)}</p>
-                      Dánh sách lựa chọn: {showTextARR(e2.pickingList)}
-                      <p>
-                        {" "}
-                        Dánh sách câu có thể nói: {showText(e2.weCanSayList)}
-                      </p>
-                      <p> Hành động: {showText(e2.action)}</p>
-                      <p> Phần thưởng: {showText(e2.reward)}</p>
-                      <p>
-                        Câu chuyện:{" "}
-                        {e2.guideTable !== undefined ? (
-                          <b>{JSON.stringify(e2.guideTable).slice(0, 20)}</b>
-                        ) : (
-                          "Không"
-                        )}{" "}
-                      </p>
-                      <p>
-                        Thông tin chi tiết:{" "}
-                        {e2.detailTable !== undefined ? (
-                          <b>{JSON.stringify(e2.detailTable).slice(0, 20)}</b>
-                        ) : (
-                          "Không"
-                        )}{" "}
-                      </p>
-                    </div>
-                  </div>
-                ))}
-              </div>
+                <tr>
+                  <td>content-{i0 < 9 ? "0" + (i0 + 1) : i0 + 2}</td>
+                  {e0.map((e, i) => (
+                    <td key={i}>
+                      {e[1].map((e1, i1) => (
+                        <span key={i1}>
+                          {i1 === e[1].length - 1 ? e1 : e1 + ";"}
+                        </span>
+                      ))}
+                    </td>
+                  ))}
+                </tr>
+              </>
             ))}
-            <hr />
-          </div>
-        ))}
+          </tbody>
+        </table>
       </div>
     );
   } catch (error) {
-    console.log(error);
-    return "Lỗi";
+    return "Lỗi 2";
   }
 }
 

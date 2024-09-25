@@ -3,13 +3,13 @@ import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
 let commands = [];
-const Dictaphone = ({ SetCMD, CMDList }) => {
+const Dictaphone = ({ fn_Xuly, CMDList }) => {
   useEffect(() => {
     commands = [
       {
         command: CMDList || ["I am a teacher"],
         callback: (command) => {
-          SetCMD(command);
+          fn_Xuly(command);
         },
         isFuzzyMatch: true,
         fuzzyMatchingThreshold: 0.65,
@@ -22,7 +22,7 @@ const Dictaphone = ({ SetCMD, CMDList }) => {
       // {
       //   command: ["use", "take it"],
       //   callback: ({ resetTranscript, transcript }) => {
-      //     SetCMD(transcript);
+      //     fn_Xuly(transcript);
       //     resetTranscript();
       //   },
       // },
@@ -74,18 +74,18 @@ const Dictaphone = ({ SetCMD, CMDList }) => {
               STOP
             </button>
             <button
-              id="resetCMD"
+              id="refn_Xuly"
               className="btn btn-outline-primary p-2 ml-3"
               onClick={() => {
                 resetTranscript();
-                SetCMD(null);
+                fn_Xuly(null);
               }}
             >
               Reset
             </button>
             <button
               className="btn btn-outline-primary p-2 ml-3"
-              onClick={() => SetCMD(transcript)}
+              onClick={() => fn_Xuly(transcript)}
             >
               USE
             </button>
@@ -96,7 +96,7 @@ const Dictaphone = ({ SetCMD, CMDList }) => {
             onClick={() => {
               startListening();
               resetTranscript();
-              SetCMD(null);
+              fn_Xuly(null);
             }}
           >
             Start

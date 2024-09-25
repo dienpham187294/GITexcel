@@ -64,6 +64,7 @@ function fetchData() {
         parseDataInputSet.push(e);
       } else {
         let dataLength = e[0].length; // renamed setLength to dataLength
+
         let resultArray = [];
         for (let i = 0; i < dataLength / 2; i++) {
           resultArray.push([]);
@@ -78,20 +79,22 @@ function fetchData() {
 
         let stringifiedResult = JSON.stringify(filteredArray); // renamed finalRes to stringifiedResult
 
-        for (let i = 0; i < dataLength / 2; i++) {
-          let indexStr = i < 10 ? "0" + (i + 1) : "" + (i + 1); // renamed index to indexStr
+        for (let i = Math.floor(dataLength / 2); i >= 0; i--) {
+          let indexStr = i < 9 ? "0" + (i + 1) : "" + (i + 1); // renamed index to indexStr
+
           stringifiedResult = stringifiedResult
             .split("id-" + indexStr)
             .join("id")
             .split("content-" + indexStr)
             .join("content-01");
         }
+
         parseDataInputSet = parseDataInputSet.concat(
           JSON.parse(stringifiedResult)
         );
       }
     });
-
+    // console.log(JSON.stringify(parseDataInputSet));
     // if (resIDText.includes("id-01")) {
     //   let parsedJson = JSON.parse(resIDText); // renamed inputJson1 to parsedJson
     //   let dataLength = parsedJson[0][0].length; // renamed setLength to dataLength
@@ -156,13 +159,11 @@ function splitContentIntoArrays(inputArray) {
   // Lặp qua từng phần tử trong inputArray
   inputArray.forEach((element) => {
     const { id } = element; // Lấy id
-
     // Lặp qua từng key trong đối tượng element
     Object.keys(element).forEach((key) => {
       if (key.startsWith("content-")) {
         // Lấy chỉ số của content (ví dụ: "01", "02", ...)
         const contentIndex = key.split("-")[1];
-
         // Nếu mảng tương ứng với contentIndex chưa tồn tại, thì khởi tạo
         if (!result[contentIndex]) {
           result[contentIndex] = [];
@@ -243,6 +244,8 @@ function groupByPrefiToArrayPure(data) {
 let nextSubmistList = [];
 function conversationBox(arr) {
   let res = {
+    img: [],
+    gender: [],
     sayFirst: [],
     weSay: [],
     theySay: [],
@@ -266,6 +269,14 @@ function conversationBox(arr) {
   }
   arr.forEach((e) => {
     let i = false;
+    if (e.id.includes("img")) {
+      res.img.push(e.content);
+      i = true;
+    }
+    if (e.id.includes("gender")) {
+      res.gender.push(e.content);
+      i = true;
+    }
     if (e.id.includes("sayFirst")) {
       res.sayFirst.push(e.content);
       i = true;
@@ -414,7 +425,7 @@ function conversationBox(arr) {
           // res["theySay"].push(arr[iCheckCount]);
         }
         if (e.id.includes("submitList")) {
-          let arr = trimArrayElements(e.content.split(";"));
+          let arr = trimArrayElements((e.content + "").split(";"));
           setsChecks.push(arr.length);
           res["submitList"].push(arr[iCheckCount]);
         }
@@ -508,7 +519,9 @@ function getRandomNumber(n) {
 function removeNullElements(arr) {
   // Helper function to remove nulls from nested arrays
   const cleanArray = (data) => {
-    return data.map((row) => row.filter((cell) => cell !== null));
+    return data.map((row) =>
+      row.filter((cell) => cell !== null && cell !== undefined && cell !== "")
+    );
   };
 
   // Main logic to handle the array input
