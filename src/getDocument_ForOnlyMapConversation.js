@@ -210,47 +210,6 @@ function GetDocument() {
   if (PracTest) {
     return (
       <div>
-        <div style={{ height: "100px" }}>
-          <button
-            id="btn_chonngaunhien"
-            onClick={() => {
-              if (PracData !== null) {
-                CungThucHanhIndex++;
-                SetPracData(null);
-                setTimeout(() => {
-                  SetPracData(InputDataTest[PracTestList[CungThucHanhIndex]]);
-                }, 2000);
-
-                $("#btn_chonngaunhien").hide();
-                setTimeout(() => {
-                  $("#btn_chonngaunhien").show();
-                }, [3000]);
-              } else {
-                CungThucHanhIndex++;
-                SetPracData(InputDataTest[PracTestList[CungThucHanhIndex]]);
-              }
-            }}
-          >
-            Chọn ngẫu nhiên
-          </button>
-          Điểm {Score}
-        </div>
-        <br />
-        <button
-          onClick={() => {
-            ReadMessage(ObjRead, theySaySave, Gender || 1, 0.75);
-          }}
-        >
-          Read again
-        </button>
-        <button
-          onClick={() => {
-            ReadMessage(ObjRead, theySaySave, Gender || 1, 0.5);
-          }}
-        >
-          Read slow
-        </button>
-        <hr />
         <Dictaphone fn_Xuly={fn_Xuly} CMDList={CMDList} />{" "}
         {PracData !== null ? (
           <div
@@ -434,6 +393,47 @@ function GetDocument() {
             </div>
           </div>
         ) : null}
+        <div style={{ height: "100px" }}>
+          <button
+            id="btn_chonngaunhien"
+            onClick={() => {
+              if (PracData !== null) {
+                CungThucHanhIndex++;
+                SetPracData(null);
+                setTimeout(() => {
+                  SetPracData(InputDataTest[PracTestList[CungThucHanhIndex]]);
+                }, 2000);
+
+                $("#btn_chonngaunhien").hide();
+                setTimeout(() => {
+                  $("#btn_chonngaunhien").show();
+                }, [3000]);
+              } else {
+                CungThucHanhIndex++;
+                SetPracData(InputDataTest[PracTestList[CungThucHanhIndex]]);
+              }
+            }}
+          >
+            Chọn ngẫu nhiên
+          </button>
+          Điểm {Score}
+        </div>
+        <br />
+        <button
+          onClick={() => {
+            ReadMessage(ObjRead, theySaySave, Gender || 1, 0.75);
+          }}
+        >
+          Read again
+        </button>
+        <button
+          onClick={() => {
+            ReadMessage(ObjRead, theySaySave, Gender || 1, 0.5);
+          }}
+        >
+          Read slow
+        </button>
+        <hr />
       </div>
     );
   }
