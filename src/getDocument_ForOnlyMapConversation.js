@@ -104,12 +104,11 @@ function GetDocument() {
       // Collecting and setting various states
       SetCMDList(collectWeSay(PracData[Index], ["weSay"]));
       SetWeCanSay(
-        shuffleArray(
-          collectWeSay(PracData[Index], ["weSay", "weCanSayList"]).concat(
-            pickRandomN(qsSets, 4)
-          )
-        )
+        shuffleArray(collectWeSay(PracData[Index], ["weSay", "weCanSayList"]))
       );
+      // .concat(
+      //   pickRandomN(qsSets, 4)
+      // )
       SetSubmitSets(collectWeSay(PracData[Index], ["submitList"]));
       SetHDtable(collectWeSay(PracData[Index], ["guideTable"]));
       SetDetailtable(collectWeSay(PracData[Index], ["detailTable"]));
@@ -118,7 +117,6 @@ function GetDocument() {
     if (PracData === null) {
       SetIndex(0);
       SetPickData([]);
-      SetScore((D) => D + 1);
     }
   }, [PracData, Index]);
 
@@ -212,24 +210,31 @@ function GetDocument() {
   if (PracTest) {
     return (
       <div>
-        <button
-          onClick={() => {
-            if (PracData !== null) {
-              CungThucHanhIndex++;
-              SetPracData(null);
-              setTimeout(() => {
+        <div style={{ height: "100px" }}>
+          <button
+            id="btn_chonngaunhien"
+            onClick={() => {
+              if (PracData !== null) {
+                CungThucHanhIndex++;
+                SetPracData(null);
+                setTimeout(() => {
+                  SetPracData(InputDataTest[PracTestList[CungThucHanhIndex]]);
+                }, 2000);
+
+                $("#btn_chonngaunhien").hide();
+                setTimeout(() => {
+                  $("#btn_chonngaunhien").show();
+                }, [3000]);
+              } else {
+                CungThucHanhIndex++;
                 SetPracData(InputDataTest[PracTestList[CungThucHanhIndex]]);
-              }, 2000);
-            } else {
-              CungThucHanhIndex++;
-              SetPracData(InputDataTest[PracTestList[CungThucHanhIndex]]);
-            }
-          }}
-        >
-          Chọn ngẫu nhiên
-        </button>
-        <h1>Thực hành thử </h1>
-        {Score}
+              }
+            }}
+          >
+            Chọn ngẫu nhiên
+          </button>
+          Điểm {Score}
+        </div>
         <br />
         <button
           onClick={() => {
@@ -350,7 +355,14 @@ function GetDocument() {
                           </h5>
                         </div>
                       ) : null}
-
+                      {Index === 3 && Index === i && i1 === 0 ? (
+                        <div style={{ fontSize: "small" }}>
+                          {" "}
+                          {JSON.stringify(SubmitSets)}
+                          <br />
+                          {JSON.stringify(PickData)}
+                        </div>
+                      ) : null}
                       {Index >= i && e1.pickingList
                         ? e1.pickingList.map(
                             (ePickingListPot, iPickingListPot) => (
@@ -391,7 +403,7 @@ function GetDocument() {
                   fn_Xuly(e.currentTarget.value);
                 }}
               >
-                <option key={"a0"}>"We can say" list:</option>
+                <option key={"a0"}>"We can say" list :</option>
                 {WeCanSay.map((e, i) => (
                   <option key={i} value={e}>
                     {e}
