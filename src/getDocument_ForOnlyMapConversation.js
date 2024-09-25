@@ -115,6 +115,11 @@ function GetDocument() {
       SetDetailtable(collectWeSay(PracData[Index], ["detailTable"]));
       SetCommonStTable(collectWeSay(PracData[Index], ["commonSt"]));
     }
+    if (PracData === null) {
+      SetIndex(0);
+      SetPickData([]);
+      SetScore((D) => D + 1);
+    }
   }, [PracData, Index]);
 
   useEffect(() => {
@@ -135,8 +140,10 @@ function GetDocument() {
     // Checking data and handling index updates
     try {
       let DataCheck = removeNoneElements(PickData);
-      let iCheck = submitListT.every((e) => DataCheck.includes(e + "")); // Ensure all elements in submitListT are in DataCheck
-      if (iCheck && submitListT.length === DataCheck.length) {
+
+      let submitSets = removeNoneElements(submitListT);
+      let iCheck = submitSets.every((e) => DataCheck.includes(e + "")); // Ensure all elements in submitListT are in DataCheck
+      if (iCheck && submitSets.length === DataCheck.length) {
         if (IndexSave < PracDataSave.length - 1) {
           // Move to the next index if not at the end
           SetIndex((prevIndex) => prevIndex + 1);
@@ -378,7 +385,7 @@ function GetDocument() {
                   transition: "all 1s ease-in-out", // Smooth transition for the select box
                 }}
                 onChange={(e) => {
-                  SetCMD(e.currentTarget.value);
+                  fn_Xuly(e.currentTarget.value);
                 }}
               >
                 <option key={"a0"}>"We can say" list:</option>
@@ -631,7 +638,7 @@ function GetDocument() {
                 transition: "all 1s ease-in-out", // Smooth transition for the select box
               }}
               onChange={(e) => {
-                SetCMD(e.currentTarget.value);
+                fn_Xuly(e.currentTarget.value);
               }}
             >
               <option key={"a0"}>"We can say" list:</option>
@@ -1105,7 +1112,9 @@ function cleanString(str) {
 
 function removeNoneElements(arr) {
   // Sử dụng filter để loại bỏ các phần tử có giá trị là "None"
-  return arr.filter((element) => element !== "None");
+  return arr.filter(
+    (element) => element !== "None" && element !== null && element !== "null"
+  );
 }
 
 function DataTableALL(arr) {

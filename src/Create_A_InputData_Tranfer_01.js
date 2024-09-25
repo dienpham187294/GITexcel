@@ -191,6 +191,7 @@ function Z_TransformTemplateHotel() {
         ],
         ["02-01-weSay-01", ParseTheySay(e, "02-01-weSay-01")],
         ["02-01-theySay-01", ParseTheySay(e, "02-01-theySay-01")],
+        ["02-01-submitList-01", [e["id-02"]]],
         [
           "02-01-pickingList-01",
           ["Request cấp độ 2"].concat(e["id-02-pickingList-01"].split(";")),
@@ -238,7 +239,7 @@ function Z_TransformTemplateHotel() {
           ),
         ],
         ///////////04-02
-       
+
         [
           "04-02-weSay-01",
           [
@@ -256,7 +257,7 @@ function Z_TransformTemplateHotel() {
           ),
         ],
         ///////////04-03
-       
+
         [
           "04-03-weSay-01",
           [
