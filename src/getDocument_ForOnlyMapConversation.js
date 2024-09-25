@@ -220,6 +220,9 @@ function GetDocument() {
               setTimeout(() => {
                 SetPracData(InputDataTest[PracTestList[CungThucHanhIndex]]);
               }, 2000);
+            } else {
+              CungThucHanhIndex++;
+              SetPracData(InputDataTest[PracTestList[CungThucHanhIndex]]);
             }
           }}
         >
