@@ -7,8 +7,22 @@
   font-size: 18px;
   padding: 5px;
 }
-.App input   {
+.App input {
   margin: 5px;
   font-size: 18px;
   padding: 5px;
+}
+
+.iconInPracDiv {
+  width: 50px; /* Chiều rộng */
+  height: 50px; /* Chiều cao bằng với chiều rộng để tạo hình tròn */
+  border-radius: 50%; /* Tạo thành hình tròn */
+  background-color: #3498db; /* Màu nền cho hình tròn */
+  display: "flex"; /* Sử dụng flexbox để căn giữa */
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  color: white; /* Màu chữ của icon */
+  font-size: 24px; /* Kích thước icon */
+  font-weight: bold; /* Đậm nét chữ */
+  cursor: pointer; /* Thêm hiệu ứng con trỏ khi di chuột */
 }

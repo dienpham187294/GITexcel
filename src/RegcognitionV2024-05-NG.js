@@ -3,13 +3,13 @@ import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
 let commands = [];
-const Dictaphone = ({ fn_Xuly, CMDList }) => {
+const Dictaphone = ({ fn_Xuly, CMDList, fn_speakSlowly, fn_speakAgain }) => {
   useEffect(() => {
     commands = [
       {
         command: CMDList || ["I am a teacher"],
         callback: (command) => {
-          fn_Xuly(command);
+          fn_Xuly(command, "Done");
         },
         isFuzzyMatch: true,
         fuzzyMatchingThreshold: 0.65,
@@ -22,6 +22,23 @@ const Dictaphone = ({ fn_Xuly, CMDList }) => {
       {
         command: "stop",
         callback: stopListening,
+      },
+      {
+        command: [
+          "Can you say that again?",
+          "Can you repeat that?",
+          "Could you say it again, please?",
+        ],
+        callback: () => fn_speakAgain(),
+      },
+      {
+        command: [
+          "Can you speak slowly?",
+          "Can you say it slowly?",
+          "Speak slower, please.",
+          "Please repeat slowly.",
+        ],
+        callback: () => fn_speakSlowly(),
       },
     ];
   }, [CMDList]);

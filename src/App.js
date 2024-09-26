@@ -1,21 +1,18 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import GetDocument from "./getDocument";
-import VoiceList from "./getVoiceslist";
-
 import DocumentsForMap from "./getDocument_ForOnlyMapConversation";
-// import PixiMap from "./H_Pixi";
-import { useState } from "react";
+import Test from "./Get_Test";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      {/* <PixiMap /> */}
-      <hr />
-      {/* <GetDocument />
-      <VoiceList /> */}
-
-      <DocumentsForMap />
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<DocumentsForMap />} />{" "}
+          <Route path="/test" element={<Test />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

@@ -4,13 +4,21 @@ import readXlsxFile from "read-excel-file";
 import * as TransferData from "./Create_A_InputData_Tranfer_2024_onlyformapConversation";
 
 import * as TransferData_01 from "./Create_A_InputData_Tranfer_01";
-
 import transferTextToArray from "./transferTextToArray";
 import ReadMessage from "./ReadMessage_2024";
 import Dictaphone from "./RegcognitionV2024-05-NG";
 import initializeVoicesAndPlatform from "./initializeVoicesAndPlatform";
-import { compareTwoStrings } from "string-similarity";
 import InputDataTest from "./ForTest.json";
+
+import {
+  findClosestMatch,
+  getRandomElement,
+  parceARandomSets,
+  shuffleArray,
+  collectWeSay,
+  removeNoneElements,
+} from "./ulti/help_prac_function";
+
 let PracDataSave = [];
 let IndexSave = 0;
 let theySaySave = "Hi how are you?";
@@ -41,6 +49,7 @@ function GetDocument() {
   const [PracTest, SetPracTest] = useState(false);
   const [PracTestList, SetPracTestList] = useState(null);
   const [Score, SetScore] = useState(0);
+
   useEffect(() => {
     const handleFileChange = async (event) => {
       try {
@@ -159,18 +168,12 @@ function GetDocument() {
     }
   }, [PickData]);
 
-  // useEffect(() => {
-  //   try {
-  //     if (CMD !== null) {
-  //       const closestMatch = findClosestMatch(CMD, PracData[Index]);
-  //       ReadMessage(ObjRead, getRandomElement(closestMatch.theySay), 1);
-  //       if (closestMatch.action) {
-  //         SetPickData([...PickData, "FN01"]);
-  //       }
-  //     }
-  //   } catch (error) {}
-  // }, [CMD]);
-
+  function fn_speakAgain() {
+    ReadMessage(ObjRead, theySaySave, Gender || 1, 0.75);
+  }
+  function fn_speakSlowly() {
+    ReadMessage(ObjRead, theySaySave, Gender || 1, 0.5);
+  }
   function fn_Xuly(CMD) {
     try {
       if (CMD !== null) {
@@ -210,7 +213,12 @@ function GetDocument() {
   if (PracTest) {
     return (
       <div>
-        <Dictaphone fn_Xuly={fn_Xuly} CMDList={CMDList} />{" "}
+        <Dictaphone
+          fn_Xuly={fn_Xuly}
+          CMDList={CMDList}
+          fn_speakAgain={fn_speakAgain}
+          fn_speakSlowly={fn_speakSlowly}
+        />{" "}
         {PracData !== null ? (
           <div
             style={{
@@ -419,20 +427,6 @@ function GetDocument() {
           Điểm {Score}
         </div>
         <br />
-        <button
-          onClick={() => {
-            ReadMessage(ObjRead, theySaySave, Gender || 1, 0.75);
-          }}
-        >
-          Read again
-        </button>
-        <button
-          onClick={() => {
-            ReadMessage(ObjRead, theySaySave, Gender || 1, 0.5);
-          }}
-        >
-          Read slow
-        </button>
         <hr />
       </div>
     );
@@ -500,9 +494,10 @@ function GetDocument() {
         >
           Thử giọng đọc
         </button>
-        <button className="btn btn-primary" onClick={() => SetPracTest(true)}>
+        {/* <button className="btn btn-primary" onClick={() => hr}>
           Cùng thực hành thử
-        </button>
+        </button> */}
+        <a href="/test"> Cùng thực hành thử</a>
         <hr />
         <div id="ResID" style={{ padding: "15px" }}></div>
       </div>
@@ -511,7 +506,12 @@ function GetDocument() {
       <br />
       {JSON.stringify(PickData)}
       <hr />
-      <Dictaphone fn_Xuly={fn_Xuly} CMDList={CMDList} />{" "}
+      <Dictaphone
+        fn_Xuly={fn_Xuly}
+        CMDList={CMDList}
+        fn_speakAgain={fn_speakAgain}
+        fn_speakSlowly={fn_speakSlowly}
+      />{" "}
       {PracData !== null ? (
         <div
           style={{
@@ -981,157 +981,6 @@ function showPick(arr, SetPickData, PickData, mode, indexOfPhase) {
   }
 }
 
-function findClosestMatch(inputString, arrayInput) {
-  // console.log(arrayInput);
-  let closestMatch = null;
-  let highestSimilarity = 0;
-
-  // Duyệt qua từng đối tượng trong arrayInput
-  arrayInput.forEach((entry) => {
-    // Duyệt qua từng chuỗi trong thuộc tính weSay của đối tượng
-    entry.weSay.forEach((weSayString) => {
-      // So sánh độ tương đồng giữa inputString và weSayString
-      const similarity = compareTwoStrings(
-        cleanString(inputString),
-        cleanString(weSayString)
-      );
-      // console.log(inputString, weSayString, similarity);
-      // Cập nhật độ tương đồng cao nhất và đối tượng tương ứng nếu cần
-      if (similarity > highestSimilarity) {
-        highestSimilarity = similarity;
-        closestMatch = entry;
-      }
-    });
-  });
-
-  // Kiểm tra độ tương đồng có lớn hơn 0.6 không và trả về họSay của đối tượng tương ứng
-  if (highestSimilarity > 0.5 && closestMatch) {
-    return closestMatch;
-  }
-
-  return { theySay: ["What do you mean?"] };
-}
-
-const getRandomElement = (array) => {
-  // Kiểm tra nếu mảng rỗng
-  if (array.length === 0) {
-    return null; // Hoặc throw new Error('Array is empty') tùy theo yêu cầu của bạn
-  }
-
-  // Tính toán chỉ số ngẫu nhiên trong mảng
-  const randomIndex = Math.floor(Math.random() * array.length);
-
-  // Trả về phần tử tại chỉ số ngẫu nhiên
-  return array[randomIndex];
-};
-function shuffleArray(array) {
-  let newArray = array.slice(); // Sao chép mảng để giữ nguyên mảng gốc
-  for (let i = newArray.length - 1; i > 0; i--) {
-    let randomIndex = Math.floor(Math.random() * (i + 1)); // Chọn một chỉ mục ngẫu nhiên từ 0 đến i
-    // Hoán đổi phần tử hiện tại với phần tử ngẫu nhiên
-    [newArray[i], newArray[randomIndex]] = [newArray[randomIndex], newArray[i]];
-  }
-  return newArray; // Trả về mảng đã được xáo trộn
-}
-function collectWeSay(arr, keySets) {
-  // Sử dụng reduce để gom tất cả các giá trị từ các key trong keySets
-  return arr.reduce((result, current) => {
-    // Loop qua từng key trong keySets
-    keySets.forEach((key) => {
-      // Kiểm tra nếu key tồn tại trong current
-      if (current[key]) {
-        // Kết hợp kết quả với giá trị từ key hiện tại
-        result = result.concat(current[key]);
-      }
-    });
-    return result;
-  }, []);
-}
-
-function pickRandomN(arr, n) {
-  if (arr.length < n) {
-    return arr;
-  }
-
-  let result = [];
-  let tempArr = [...arr]; // Copy the original array to avoid mutation
-
-  for (let i = 0; i < 4; i++) {
-    let randomIndex = Math.floor(Math.random() * tempArr.length);
-    result.push(tempArr[randomIndex]);
-    tempArr.splice(randomIndex, 1); // Remove the selected element from the temp array
-  }
-
-  return result;
-}
-
-const qsSets = [
-  "What is your name?",
-  "How old are you?",
-  "Where are you from?",
-  "Do you speak English?",
-  "What do you do?",
-  "How are you today?",
-  "Where do you live?",
-  "Do you have any pets?",
-  "Can you help me, please?",
-  "What time is it?",
-  "Do you like coffee?",
-  "What is your favorite color?",
-  "How many brothers or sisters do you have?",
-  "Do you have a phone number?",
-  "Are you married?",
-  "What is your job?",
-  "What is your hobby?",
-  "Where is the nearest supermarket?",
-  "What’s your email address?",
-  "How much does this cost?",
-  "Do you have any children?",
-  "What’s your favorite food?",
-  "What’s your favorite movie?",
-  "Where is the bathroom?",
-  "What’s your address?",
-  "Can I have the bill, please?",
-  "How do you spell your name?",
-  "How do you get to work?",
-  "Can you repeat that, please?",
-  "What’s your favorite book?",
-  "How long have you lived here?",
-  "Where do you study?",
-  "What time do you wake up?",
-  "What do you like to do on weekends?",
-  "Can I help you?",
-  "How much is this?",
-  "Do you like music?",
-  "What’s your phone number?",
-  "What do you do in your free time?",
-  "What is your favorite sport?",
-  "Are you tired?",
-  "Where is the train station?",
-  "Can you speak slowly, please?",
-  "How do you feel today?",
-  "Where are we going?",
-  "Do you like to travel?",
-  "What’s the weather like today?",
-  "How far is it from here?",
-  "What’s your favorite season?",
-  "Where is the nearest bus stop?",
-];
-function cleanString(str) {
-  return str
-    .toLowerCase() // Chuyển về chữ thường
-    .normalize("NFD") // Chuẩn hóa các ký tự có dấu thành dạng đơn
-    .replace(/[\u0300-\u036f]/g, "") // Loại bỏ dấu
-    .replace(/[^a-z0-9\s]/g, ""); // Loại bỏ ký tự đặc biệt, chỉ giữ chữ cái, số và khoảng trắng
-}
-
-function removeNoneElements(arr) {
-  // Sử dụng filter để loại bỏ các phần tử có giá trị là "None"
-  return arr.filter(
-    (element) => element !== "None" && element !== null && element !== "null"
-  );
-}
-
 function DataTableALL(arr) {
   // Helper function to render individual tables
   const renderTable = (data) => {
@@ -1240,17 +1089,4 @@ function DataTableALLInformation(arr) {
   } else {
     return <div>No data available</div>; // Fallback when no data is passed
   }
-}
-
-function parceARandomSets(n) {
-  // Tạo mảng từ 0 đến n
-  let array = Array.from({ length: n + 1 }, (_, i) => i);
-
-  // Đảo ngẫu nhiên mảng bằng phương pháp Fisher-Yates
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]]; // Hoán đổi vị trí
-  }
-
-  return array;
 }

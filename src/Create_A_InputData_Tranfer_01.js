@@ -223,12 +223,7 @@ function Z_TransformTemplateHotel() {
         ["03-03-theySay-01", ParseTheySay(e, "01-03-theySay-01")],
         //////////////04-01
         ["04-01-purpose-01", ["More information"]],
-        [
-          "04-01-weSay-01",
-          [
-            "How can I help you? \\ What do you want? \\ Can you tell me the detail",
-          ],
-        ],
+        ["04-01-weSay-01", ParseTheySay(e, "04-01-weSay-01")],
         ["04-01-theySay-01", ParseTheySay(e, "04-01-theySay-01")],
         ["04-01-submitList-01", ParseSubmit(e, "04-01-submitList-01")],
         [
@@ -241,12 +236,7 @@ function Z_TransformTemplateHotel() {
         ],
         ///////////04-02
 
-        [
-          "04-02-weSay-01",
-          [
-            "How can I help you? \\ What do you want? \\ Can you tell me the detail",
-          ],
-        ],
+        ["04-02-weSay-01", ParseTheySay(e, "04-02-weSay-01")],
         ["04-02-theySay-01", ParseTheySay(e, "04-02-theySay-01")],
         ["04-02-submitList-01", ParseSubmit(e, "04-02-submitList-01")],
         [
@@ -259,12 +249,7 @@ function Z_TransformTemplateHotel() {
         ],
         ///////////04-03
 
-        [
-          "04-03-weSay-01",
-          [
-            "How can I help you? \\ What do you want? \\ Can you tell me the detail",
-          ],
-        ],
+        ["04-03-weSay-01", ParseTheySay(e, "04-03-weSay-01")],
         ["04-03-theySay-01", ParseTheySay(e, "04-03-theySay-01")],
         [
           "04-03-pickingList-01",
