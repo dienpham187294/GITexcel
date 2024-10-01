@@ -146,6 +146,7 @@ function replaceCharsWithHyphen(inputString) {
 function Z_TransformTemplateHotel() {
   try {
     let input = JSON.parse($("#ResID").text());
+
     let res = [];
 
     input.forEach((e, i) => {
@@ -155,26 +156,15 @@ function Z_TransformTemplateHotel() {
           "01-01-gender-01",
           [peopleList[i % 10]["gender"] === "female" ? 1 : 2],
         ],
-        ///01-01
+
         ["01-01-purpose-01", [e["01-01-purpose-01"]]],
         ["01-01-weSay-01", ParseTheySay(e, "01-01-weSay-01")],
         ["01-01-theySay-01", ParseTheySay(e, "01-01-theySay-01")],
         ["01-01-detailTable-01", [JSON.stringify(deitalTable)]],
-        ["01-01-submitList-01", [e["id-01"]]],
-        [
-          "01-01-pickingList-01",
-          [
-            "Request cấp độ 1",
-            "Room Services",
-            "Dining Services",
-            "Guest Support",
-            "Wellness & Leisure",
-            "Business Services",
-            "Transport & Parking",
-            "Event Services",
-            "Customer Relationship",
-          ],
-        ],
+        ["01-01-submitList-01", [e["01-01-submitList-01"]]],
+        ["01-01-submitList-02", [e["02-01-submitList-01"]]],
+        ["01-01-submitList-03", [e["03-01-submitList-01"]]],
+        ["01-01-tablePicking-01", [JSON.stringify(tablePicking)]],
         ///01-02
         ["01-02-weSay-01", ParseTheySay(e, "01-02-weSay-01")],
         ["01-02-theySay-01", ParseTheySay(e, "01-02-theySay-01")],
@@ -182,65 +172,19 @@ function Z_TransformTemplateHotel() {
         ///01-03
         ["01-03-weSay-01", ParseTheySay(e, "01-03-weSay-01")],
         ["01-03-theySay-01", ParseTheySay(e, "01-03-theySay-01")],
-        /////
-        ["02-01-purpose-01", [e["02-01-purpose-01"]]],
-        [
-          "02-01-weSay-01",
-          [
-            "How can I help you? \\ What do you want? \\ Can you tell me the detail",
-          ],
-        ],
-        ["02-01-weSay-01", ParseTheySay(e, "01-01-weSay-01")],
-        ["02-01-theySay-01", ParseTheySay(e, "01-01-theySay-01")],
-        ["02-01-submitList-01", [e["id-02"]]],
-        [
-          "02-01-pickingList-01",
-          ["Request cấp độ 2"].concat(e["id-02-pickingList-01"].split(";")),
-        ],
-        //02-02
-        ["02-02-weSay-01", ParseTheySay(e, "01-02-weSay-01")],
-        ["02-02-theySay-01", ParseTheySay(e, "01-02-theySay-01")],
-        //02-03
-        ["02-03-weSay-01", ParseTheySay(e, "01-03-weSay-01")],
-        ["02-03-theySay-01", ParseTheySay(e, "01-03-theySay-01")],
 
-        ////03-01
-        ["03-01-purpose-01", [e["03-01-purpose-01"]]],
+        ["02-01-purpose-01", ["More information"]],
+        ["02-01-weSay-01", ParseTheySay(e, "04-01-weSay-01")],
+        ["02-01-theySay-01", ParseTheySay(e, "04-01-theySay-01")],
+        ["02-01-submitList-01", ParseSubmit(e, "04-01-submitList-01")],
 
-        ["03-01-weSay-01", ParseTheySay(e, "01-01-weSay-01")],
-        ["03-01-theySay-01", ParseTheySay(e, "01-01-theySay-01")],
-        ["03-01-submitList-01", [e["id-03"]]],
-        [
-          "03-01-pickingList-01",
-          ["Request cấp độ 3"].concat(e["id-03-pickingList-01"].split(";")),
-        ],
-
-        ///03-02
-        ["03-02-weSay-01", ParseTheySay(e, "01-02-weSay-01")],
-        ["03-02-theySay-01", ParseTheySay(e, "01-02-theySay-01")],
-        ///03-03
-        ["03-03-weSay-01", ParseTheySay(e, "01-03-weSay-01")],
-        ["03-03-theySay-01", ParseTheySay(e, "01-03-theySay-01")],
-        //////////////04-01
-        ["04-01-purpose-01", ["More information"]],
-        ["04-01-weSay-01", ParseTheySay(e, "04-01-weSay-01")],
-        ["04-01-theySay-01", ParseTheySay(e, "04-01-theySay-01")],
-        ["04-01-submitList-01", ParseSubmit(e, "04-01-submitList-01")],
-        [
-          "04-01-pickingList-01",
-          ParsePickingList(
-            e,
-            "04-01-pickingListName-01",
-            "04-01-pickingList-01"
-          ),
-        ],
         ///////////04-02
 
-        ["04-02-weSay-01", ParseTheySay(e, "04-02-weSay-01")],
-        ["04-02-theySay-01", ParseTheySay(e, "04-02-theySay-01")],
-        ["04-02-submitList-01", ParseSubmit(e, "04-02-submitList-01")],
+        ["02-02-weSay-01", ParseTheySay(e, "04-02-weSay-01")],
+        ["02-02-theySay-01", ParseTheySay(e, "04-02-theySay-01")],
+        ["02-02-submitList-01", ParseSubmit(e, "04-02-submitList-01")],
         [
-          "04-02-pickingList-01",
+          "02-02-pickingList-01",
           ParsePickingList(
             e,
             "04-02-pickingListName-01",
@@ -249,10 +193,10 @@ function Z_TransformTemplateHotel() {
         ],
         ///////////04-03
 
-        ["04-03-weSay-01", ParseTheySay(e, "04-03-weSay-01")],
-        ["04-03-theySay-01", ParseTheySay(e, "04-03-theySay-01")],
+        ["02-03-weSay-01", ParseTheySay(e, "04-03-weSay-01")],
+        ["02-03-theySay-01", ParseTheySay(e, "04-03-theySay-01")],
         [
-          "04-03-pickingList-01",
+          "02-03-pickingList-01",
           ParsePickingList(
             e,
             "04-03-pickingListName-01",
@@ -490,6 +434,126 @@ const deitalTable = [
       null,
       null,
       null,
+    ],
+  ],
+];
+
+const tablePicking = [
+  [
+    [1, "Room Services", "Cleaning", "Request service"],
+    [1, null, null, "Request service information"],
+    [1, null, null, "Check service status"],
+    [1, null, "Laundry", "Request service"],
+    [1, null, null, "Request service information"],
+    [1, null, null, "Check service status"],
+    [1, null, "In-room dining", "Place order"],
+    [1, null, null, "Request menu information"],
+    [1, null, null, "Check order status"],
+    [1, null, "Towel & linen change", "Request towel or linen change"],
+    [1, null, null, "Check service status"],
+    [1, null, "Wake-up call", "Schedule wake-up call"],
+    [1, null, null, "Modify or cancel wake-up call"],
+    [1, null, null, "Check wake-up call status"],
+    [1, "Dining Services", "Restaurant", "Reserve table"],
+    [1, null, null, "Request menu information"],
+    [1, null, null, "Request special service"],
+    [1, null, "Bar/Café", "Reserve bar/café seat"],
+    [1, null, null, "Request drink menu information"],
+    [1, null, "Buffet", "Reserve buffet seat"],
+    [1, null, null, "Request buffet menu information"],
+    [1, null, "Special dietary options", "Request special dietary meal"],
+    [1, null, null, "Check meal suitability"],
+    [1, "Guest Support", "Booking (Room and additional services)", "Book room"],
+    [1, null, null, "Modify or cancel booking"],
+    [
+      1,
+      null,
+      "Reception desk (Check-in/Check-out)",
+      "Request check-in/check-out",
+    ],
+    [1, null, null, "Request check-in/check-out information"],
+    [
+      1,
+      null,
+      "Concierge services",
+      "Request tour/transport/entertainment assistance",
+    ],
+    [1, null, "Luggage storage", "Send/receive luggage"],
+    [1, null, null, "Check luggage status"],
+    [1, null, "Travel and tour assistance", "Book tour"],
+    [1, null, null, "Request tourist information"],
+    [1, null, "Currency exchange", "Currency exchange"],
+    [1, null, null, "Request exchange rate information"],
+    [1, null, "Lost and found service", "Report lost item"],
+    [1, null, null, "Check found item status"],
+    [1, null, "24-hour front desk", "Request 24-hour front desk assistance"],
+    [1, "Wellness & Leisure", "Gym/Fitness center", "Book gym session"],
+    [1, null, null, "Inquire about personal trainer"],
+    [1, null, "Spa & massage", "Book massage session"],
+    [1, null, null, "Inquire about spa packages"],
+    [1, null, "Swimming pool", "Inquire about pool hours"],
+    [1, null, null, "Book pool session"],
+    [1, null, "Sauna", "Book sauna session"],
+    [1, null, null, "Check sauna status"],
+    [1, null, "Sports facilities (e.g., tennis, yoga)", "Book court"],
+    [1, null, null, "Inquire about classes or trainers"],
+    [1, null, "Personal trainer services", "Book personal trainer session"],
+    [1, null, null, "Check schedule"],
+    [1, null, "Wellness programs", "Inquire about wellness programs"],
+    [1, "Business Services", "Meeting rooms", "Book meeting room"],
+    [1, null, null, "Request meeting equipment"],
+    [1, null, "Conference facilities", "Book conference room"],
+    [1, null, null, "Request conference equipment"],
+    [1, null, "Printing & fax services", "Request printing or fax"],
+    [1, null, "Wi-Fi access", "Request Wi-Fi password"],
+    [1, null, null, "Request connection support"],
+    [1, null, "Office supplies", "Request office supplies"],
+    [
+      1,
+      null,
+      "Business center services (e.g., secretarial services)",
+      "Book business center",
+    ],
+    [1, null, null, "Request secretarial services"],
+    [1, "Transport & Parking", "Airport shuttle", "Book airport shuttle"],
+    [1, null, null, "Inquire about shuttle schedule"],
+    [1, null, "Valet parking", "Request valet parking"],
+    [1, null, null, "Check vehicle status"],
+    [1, null, "Taxi booking", "Book taxi"],
+    [1, null, null, "Inquire about fare and wait time"],
+    [1, null, "Car rental", "Book car rental"],
+    [1, null, null, "Check vehicle status"],
+    [
+      1,
+      null,
+      "Electric vehicle charging stations",
+      "Reserve electric vehicle charging station",
+    ],
+    [1, null, null, "Inquire about charging cost"],
+    [1, null, "Bicycle rental", "Rent bicycle"],
+    [1, null, null, "Check bicycle status"],
+    [1, "Event Services", "Banquet halls", "Book banquet hall"],
+    [1, null, null, "Request event equipment"],
+    [1, null, "Catering", "Request catering service"],
+    [1, null, null, "Inquire about menu"],
+    [1, null, "Wedding planning", "Book wedding planning service"],
+    [1, null, "Corporate event management", "Book corporate event"],
+    [1, null, null, "Inquire about event services"],
+    [1, null, "Audio-visual equipment rental", "Rent audio-visual equipment"],
+    [
+      1,
+      "Customer Relationship",
+      "Common questions",
+      "Inquire about general hotel/service information",
+    ],
+    [1, null, "Feedback collection", "Provide feedback"],
+    [1, null, null, "Request feedback response"],
+    [1, null, "Loyalty programs", "Inquire about loyalty program"],
+    [
+      1,
+      null,
+      "Guest satisfaction surveys",
+      "Participate in customer satisfaction survey",
     ],
   ],
 ];

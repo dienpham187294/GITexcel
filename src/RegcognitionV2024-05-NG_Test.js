@@ -4,6 +4,7 @@ import SpeechRecognition, {
 } from "react-speech-recognition";
 let commands = [];
 let timeoutId;
+
 const Dictaphone = ({ fn_Xuly, CMDList, fn_speakSlowly, fn_speakAgain }) => {
   useEffect(() => {
     commands = [
@@ -11,6 +12,7 @@ const Dictaphone = ({ fn_Xuly, CMDList, fn_speakSlowly, fn_speakAgain }) => {
         command: CMDList || ["I am a teacher"],
         callback: (command) => {
           fn_Xuly(command, "Done");
+          resetTimeout();
         },
         isFuzzyMatch: true,
         fuzzyMatchingThreshold: 0.65,
@@ -18,7 +20,10 @@ const Dictaphone = ({ fn_Xuly, CMDList, fn_speakSlowly, fn_speakAgain }) => {
       },
       {
         command: ["clear", "reset"],
-        callback: ({ resetTranscript }) => resetTranscript(),
+        callback: ({ resetTranscript }) => {
+          resetTranscript();
+          resetTimeout();
+        },
       },
       {
         command: "stop",
@@ -30,7 +35,13 @@ const Dictaphone = ({ fn_Xuly, CMDList, fn_speakSlowly, fn_speakAgain }) => {
           "Can you repeat that?",
           "Could you say it again, please?",
         ],
-        callback: () => fn_speakAgain(),
+        callback: () => {
+          fn_speakAgain();
+          resetTimeout();
+        },
+        isFuzzyMatch: true,
+        fuzzyMatchingThreshold: 0.65,
+        bestMatchOnly: true,
       },
       {
         command: [
@@ -39,7 +50,13 @@ const Dictaphone = ({ fn_Xuly, CMDList, fn_speakSlowly, fn_speakAgain }) => {
           "Speak slower, please.",
           "Please repeat slowly.",
         ],
-        callback: () => fn_speakSlowly(),
+        callback: () => {
+          fn_speakSlowly();
+          resetTimeout();
+        },
+        isFuzzyMatch: true,
+        fuzzyMatchingThreshold: 0.65,
+        bestMatchOnly: true,
       },
     ];
   }, [CMDList]);
@@ -49,10 +66,20 @@ const Dictaphone = ({ fn_Xuly, CMDList, fn_speakSlowly, fn_speakAgain }) => {
       continuous: true,
       language: "en-US",
     });
+    resetTimeout(); // Bắt đầu đếm ngược khi bắt đầu lắng nghe
   };
 
   const stopListening = () => {
     SpeechRecognition.stopListening();
+    clearTimeout(timeoutId); // Xóa timeout khi dừng lắng nghe
+  };
+
+  const resetTimeout = () => {
+    // Reset lại timeout nếu có tương tác
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(() => {
+      stopListening(); // Tự động tắt lắng nghe sau 60 giây
+    }, 60000); // 60 giây
   };
 
   const { interimTranscript, transcript, listening, resetTranscript } =
@@ -66,7 +93,7 @@ const Dictaphone = ({ fn_Xuly, CMDList, fn_speakSlowly, fn_speakAgain }) => {
           position: "fixed",
           top: "20px",
           right: "20px",
-          minWidth: "200px",
+          minWidth: "50px",
           width: "fit-content",
           height: "60px",
           backgroundColor: "#f0f0f0",
@@ -78,34 +105,25 @@ const Dictaphone = ({ fn_Xuly, CMDList, fn_speakSlowly, fn_speakAgain }) => {
       >
         {listening ? (
           <div>
-            <select
-              className="form-control"
-              style={{
-                width: "150px",
-                display: "inline-block",
-                verticalAlign: "middle",
-
-                marginTop: "10px",
-              }} // Đặt width và căn giữa select với icon
-              onChange={(e) => {
-                let cmd = e.currentTarget.value;
-                if (cmd === "stop") {
-                  stopListening();
-                }
-                if (cmd === "reset") {
-                  resetTranscript();
-                }
-                if (cmd === "use") {
-                  fn_Xuly(transcript, "transcript");
-                }
-                e.currentTarget.value = "none"; // Đặt lại giá trị về 'none' sau khi chọn
+            <button
+              className="btn btn-danger p-2"
+              style={{ width: "50px", height: "50px", borderRadius: "50%" }}
+              onClick={() => {
+                stopListening();
               }}
             >
-              <option value={"none"}>Mode</option>
-              <option value={"stop"}>Stop</option>
-              <option value={"reset"}>Reset</option>
-              <option value={"use"}>Use this sentence</option>
-            </select>
+              <i className="bi bi-pause-btn-fill"></i>
+            </button>
+
+            <button
+              className="btn btn-info p-2 ml-1"
+              style={{ width: "50px", height: "50px", borderRadius: "50%" }}
+              onClick={() => {
+                resetTranscript();
+              }}
+            >
+              <i className="bi bi-arrow-clockwise"></i>
+            </button>
           </div>
         ) : (
           <button
@@ -114,10 +132,9 @@ const Dictaphone = ({ fn_Xuly, CMDList, fn_speakSlowly, fn_speakAgain }) => {
             onClick={() => {
               startListening();
               resetTranscript();
-              fn_Xuly(null);
             }}
           >
-            <i className="bi bi-bullseye"></i>
+            <i className="bi bi-skip-start-btn"></i>
           </button>
         )}
       </div>
@@ -129,18 +146,33 @@ const Dictaphone = ({ fn_Xuly, CMDList, fn_speakSlowly, fn_speakAgain }) => {
           left: "20px",
           width: "fit-content",
           height: "60px",
-          backgroundColor: "#f0f0f0",
-          boxShadow:
-            "0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08)",
-          borderRadius: "15px",
           zIndex: 5,
-          padding: "10px",
+          lineHeight: "bottom",
         }}
       >
-        {" "}
-        {transcript} <br />
+        {transcript}{" "}
+        {transcript !== "" ? (
+          <button
+            className="btn btn-primary p-2 ml-1"
+            style={{ width: "50px", height: "50px", borderRadius: "50%" }}
+            onClick={() => {
+              fn_Xuly(transcript, "transcript");
+              resetTimeout();
+            }}
+          >
+            <i className="bi bi-check2-all"></i>
+          </button>
+        ) : null}{" "}
+        <br /> <i>{interimTranscript}</i>
       </div>
-      <i>{interimTranscript}</i>
+
+      <button
+        style={{ display: "none" }}
+        id="resetCMD"
+        onClick={() => {
+          resetTranscript();
+        }}
+      ></button>
     </div>
   );
 };

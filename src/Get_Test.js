@@ -12,7 +12,7 @@ import {
   collectWeSay,
   removeNoneElements,
 } from "./ulti/help_prac_function";
-import InputDataTest from "./ForTest.json";
+import InputDataTest from "./data/test/dataTest_01.json";
 
 let PracDataSave = [];
 let IndexSave = 0;
@@ -30,6 +30,8 @@ function Test() {
   const [SubmitSets, SetSubmitSets] = useState([]);
   const [HDtable, SetHDtable] = useState([]);
   const [Detailtable, SetDetailtable] = useState([]);
+  const [TablePickingList, SetTablePickingList] = useState([]);
+  const [TablePickingListSTT, SetTablePickingListSTT] = useState(false);
   const [ImgAvatar, SetImgAvatar] = useState(null);
   const [Gender, SetGender] = useState(null);
   const [CommonStTable, SetCommonStTable] = useState([]);
@@ -71,6 +73,8 @@ function Test() {
       SetHDtable(collectWeSay(PracData[Index], ["guideTable"]));
       SetDetailtable(collectWeSay(PracData[Index], ["detailTable"]));
       SetCommonStTable(collectWeSay(PracData[Index], ["commonSt"]));
+      SetTablePickingList(collectWeSay(PracData[Index], ["tablePicking"]));
+      SetTablePickingListSTT(false);
     }
     if (PracData === null) {
       SetIndex(0);
@@ -176,7 +180,7 @@ function Test() {
           border: "1px solid black", // Viền của box
           borderRadius: "10px",
           padding: "20px",
-          textAlign: "center", // Canh giữa nội dung bên trong box
+          textAlign: "left", // Canh giữa nội dung bên trong box
           backgroundColor: "#f0f0f0", // Màu nền của box
           transition: "opacity 3s ease-in-out",
           opacity: PracData !== null ? 1 : 0,
@@ -195,20 +199,31 @@ function Test() {
           width={"150px"}
         />
 
-        {conversationView(PracData, Index, SubmitSets, PickData, SetPickData)}
+        {conversationView(
+          PracData,
+          Index,
+          SubmitSets,
+          PickData,
+          SetPickData,
+          SetTablePickingListSTT
+        )}
         <div
           style={{
             position: "fixed", // Giữ vị trí cố định ở phía dưới
             bottom: "10px", // Cách đáy 10px
             right: "10px", // Cách phải 10px
+            width: "600px",
+            height: "60px",
+            display: "flex", // Sử dụng flexbox để sắp xếp các phần tử
+            alignItems: "center", // Căn giữa theo chiều dọc
+            justifyContent: "space-between", // Căn đều các phần tử theo chiều ngang
           }}
         >
           <select
             className="form-control"
             style={{
-              display: "inline-block",
-              float: "left",
-              transition: "all 1s ease-in-out", // Smooth transition for the select box
+              width: "250px",
+              transition: "all 1s ease-in-out", // Hiệu ứng chuyển động mượt mà cho select box
             }}
             onChange={(e) => {
               fn_Xuly(e.currentTarget.value);
@@ -224,7 +239,12 @@ function Test() {
           {Detailtable.length !== 0 ? (
             <button
               className="btn btn-outline-primary"
-              style={{ width: "60px", height: "60px", borderRadius: "50%" }}
+              style={{
+                width: "60px",
+                height: "60px",
+                borderRadius: "50%",
+                marginLeft: "10px", // Khoảng cách bên trái giữa các nút và select box
+              }}
               onClick={() => SetTableMode(1)}
             >
               <i className="bi bi-clipboard-check"></i>
@@ -233,40 +253,38 @@ function Test() {
           {HDtable.length !== 0 ? (
             <button
               className="btn btn-outline-primary"
-              style={{ width: "60px", height: "60px", borderRadius: "50%" }}
+              style={{
+                width: "60px",
+                height: "60px",
+                borderRadius: "50%",
+                marginLeft: "10px", // Khoảng cách giữa các nút
+              }}
               onClick={() => SetTableMode(2)}
             >
               <i className="bi bi-info-circle-fill"></i>
             </button>
-          ) : // <div
-          //   className="iconInPracDiv"
-          //   onClick={() => {
-          //     SetTableMode(2);
-          //   }}
-          // >
-          //   <i className="bi bi-info-circle-fill"></i>
-          // </div>
-          null}
+          ) : null}
         </div>
+
         {TableMode === 1 ? (
           <div
             style={{
               position: "absolute",
-              top: "50%",
-              left: "50%",
+              top: "60%",
+              left: "60%",
               transform: "translate(-50%, -50%)", // Căn giữa theo cả chiều ngang và dọc
               width: "800px", // Đặt chiều rộng cho box
               height: "500px", // Đặt chiều cao bằng chiều rộng để tạo hình vuông
               border: "1px solid black", // Viền của box
               borderRadius: "10px",
               padding: "20px",
-              textAlign: "center", // Canh giữa nội dung bên trong box
+              textAlign: "left", // Canh giữa nội dung bên trong box
               backgroundColor: "#f0f0f0", // Màu nền của box
               transition: "opacity 3s ease-in-out",
               opacity: PracData !== null ? 1 : 0,
               zIndex: 6,
               overflow: "auto",
-              fontSize: "small",
+              fontSize: "medium",
             }}
           >
             {Detailtable.length !== 0 ? (
@@ -301,6 +319,7 @@ function Test() {
             </div>
           </div>
         ) : null}
+
         {TableMode === 2 ? (
           <div
             style={{
@@ -313,13 +332,13 @@ function Test() {
               border: "1px solid black", // Viền của box
               borderRadius: "10px",
               padding: "20px",
-              textAlign: "center", // Canh giữa nội dung bên trong box
+              textAlign: "left", // Canh giữa nội dung bên trong box
               backgroundColor: "#f0f0f0", // Màu nền của box
               transition: "opacity 3s ease-in-out",
               opacity: PracData !== null ? 1 : 0,
               zIndex: 6,
               overflow: "auto",
-              fontSize: "small",
+              fontSize: "medium",
             }}
           >
             {HDtable.length !== 0 ? (
@@ -352,192 +371,70 @@ function Test() {
             </div>
           </div>
         ) : null}
-      </div>
 
-      {/* {PracData !== null ? (
-        <div
-          style={{
-            border: "1px solid black",
-            borderRadius: "10px",
-            padding: "20px",
-            transition: "all 1s ease-in-out", // Smooth transition for the container
-            opacity: PracData ? 1 : 0, // Fade in/out effect for the container
-            transform: PracData ? "translateY(0)" : "translateY(-10px)", // Smooth movement
-          }}
-          className="row"
-        >
-          <div className="col-2">
-            <img src={ImgAvatar} width={"200px"} />
-          </div>
+        {TablePickingListSTT && TablePickingList.length !== 0 ? (
           <div
-            className="col-10"
             style={{
-              backgroundColor: "#f0f0f0",
-              boxShadow:
-                "0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08)",
-              borderRadius: "8px",
+              position: "absolute",
+              top: "40%",
+              left: "40%",
+              transform: "translate(-50%, -50%)", // Căn giữa theo cả chiều ngang và dọc
+              width: "800px", // Đặt chiều rộng cho box
+              height: "500px", // Đặt chiều cao bằng chiều rộng để tạo hình vuông
+              border: "1px solid black", // Viền của box
+              borderRadius: "10px",
               padding: "20px",
-              border: "1px solid rgba(0, 0, 0, 0.05)",
-              transition: "all 1s ease-in-out", // Smooth transition for this box
-              opacity: PracData ? 1 : 0,
-              transform: PracData ? "translateY(0)" : "translateY(-10px)", // Move effect
-            }}
-          >
-            {PracData.map((e, i) => (
-              <div key={"a" + i}>
-                {Index > i ? i + 1 : null}
-                {e.map((e1, i1) => (
-                  <div
-                    key={"AA" + i1}
-                    style={{
-                      display: "inline-block",
-                      transition: "opacity 1s ease-in-out", // Smooth transition for inline-block elements
-                      opacity: Index >= i ? 1 : 0,
-                    }}
-                  >
-                    {Index === i && e1.purpose ? (
-                      <div>
-                        {e1.purpose.map((e2, i2) => (
-                          <i
-                            style={{
-                              fontSize: "medium",
-                              color: "purple",
-                              transition: "color 1s ease-in-out", // Smooth color change
-                            }}
-                            key={"b" + i1 + i2}
-                          >
-                            {e2}
-                          </i>
-                        ))}
-                      </div>
-                    ) : null}
-
-                    {Index > i && e1.submitList ? (
-                      <div>
-                        {e1.submitList.map((e2, i2) => (
-                          <i
-                            style={{
-                              marginRight: "10px",
-                              fontSize: "medium",
-                              transition: "all 1s ease-in-out", // Smooth transition for list items
-                            }}
-                            key={"b" + i1 + i2}
-                          >
-                            __{e2}
-                          </i>
-                        ))}
-                      </div>
-                    ) : null}
-
-                    {Index === i && e1.notify ? (
-                      <div
-                        style={{
-                          borderTop: "1px solid green",
-                          padding: "10px",
-                          width: "300px",
-                          transition: "all 1s ease-in-out", // Smooth transition for notifications
-                          opacity: e1.notify ? 1 : 0,
-                        }}
-                      >
-                        <h5
-                          style={{
-                            color: "blue",
-                            transition: "color 1s ease-in-out",
-                          }}
-                        >
-                          {e1.notify}
-                        </h5>
-                      </div>
-                    ) : null}
-                    {Index === 3 && Index === i && i1 === 0 ? (
-                      <div style={{ fontSize: "small" }}>
-                        {" "}
-                        {JSON.stringify(SubmitSets)}
-                        <br />
-                        {JSON.stringify(PickData)}
-                      </div>
-                    ) : null}
-                    {Index >= i && e1.pickingList
-                      ? e1.pickingList.map(
-                          (ePickingListPot, iPickingListPot) => (
-                            <div key={iPickingListPot}>
-                              {showPick(
-                                ePickingListPot,
-                                SetPickData,
-                                PickData,
-                                Index === i ? false : true,
-                                i
-                              )}
-                            </div>
-                          )
-                        )
-                      : null}
-                  </div>
-                ))}
-              </div>
-            ))}
-          </div>
-          <div className="col-12">
-            <div
-              style={{
-                fontSize: "medium",
-                whiteSpace: "pre-line",
-                transition: "all 1s ease-in-out", // Smooth transition for the table
-              }}
-            >
-              {DataTableALL(HDtable)}
-            </div>
-
-            <select
-              className="form-control"
-              style={{
-                transition: "all 1s ease-in-out", // Smooth transition for the select box
-              }}
-              onChange={(e) => {
-                fn_Xuly(e.currentTarget.value);
-              }}
-            >
-              <option key={"a0"}>"We can say" list :</option>
-              {WeCanSay.map((e, i) => (
-                <option key={i} value={e}>
-                  {e}
-                </option>
-              ))}
-            </select>
-          </div>
-          <div
-            style={{
+              textAlign: "center", // Canh giữa nội dung bên trong box
+              backgroundColor: "#f0f0f0", // Màu nền của box
+              transition: "opacity 3s ease-in-out",
+              opacity: PracData !== null ? 1 : 0,
+              zIndex: 6,
+              overflow: "auto",
               fontSize: "medium",
-              whiteSpace: "pre-line",
-              transition: "all 1s ease-in-out", // Add a smooth transition
-              opacity: Detailtable.length !== 0 ? 1 : 0, // Fade effect based on content
-              transform:
-                Detailtable.length !== 0
-                  ? "translateY(0)"
-                  : "translateY(-10px)", // Slight movement effect
+              cursor: "pointer",
             }}
           >
-            {Detailtable.length !== 0 ? (
+            {TablePickingList.length !== 0 ? (
               <h5 style={{ color: "blue", transition: "color 1s ease-in-out" }}>
-                Detail information
+                Chọn
               </h5>
             ) : null}
-            {DataTableALLInformation(Detailtable)}
+            {DataTableALLInformationPicking(
+              TablePickingList,
+              SetPickData,
+              PickData
+            )}
+            <div
+              style={{
+                position: "fixed", // Giữ vị trí cố định ở phía dưới
+                top: "10px", // Cách đáy 10px
+                right: "10px", // Cách phải 10px
+              }}
+            >
+              <button
+                className="btn btn-danger"
+                style={{
+                  width: "40px",
+                  height: "40px",
+                  borderRadius: "50%",
+                  scale: 2,
+                }}
+                onClick={() => {
+                  SetTablePickingListSTT(false);
+                }}
+              >
+                <i className="bi bi-x-octagon"></i>
+              </button>
+            </div>
           </div>
-        </div>
-      ) : null} */}
+        ) : null}
+      </div>
+
       <div
         style={{
           position: "fixed",
           bottom: "20px",
           right: "20px",
-          // minWidth: "100px",
-          // width: "fit-content",
-          // height: "60px",
-          // backgroundColor: "#f0f0f0",
-          // boxShadow:
-          //   "0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08)",
-          // borderRadius: "15px",
           zIndex: 5,
         }}
       >
@@ -552,7 +449,7 @@ function Test() {
               ReadMessage(ObjRead, "Hi", Gender || 1, 0.5);
             }}
           >
-            + Điểm {Score}
+            <i className="bi bi-person-plus-fill"></i> {Score}
           </button>
         ) : (
           <button
@@ -564,7 +461,7 @@ function Test() {
             onClick={() => SetPracData(null)}
             className="btn btn-danger"
           >
-            <i className="bi bi-x-circle-fill"></i>
+            <i className="bi bi-person-dash-fill"></i>
           </button>
         )}
       </div>
@@ -601,6 +498,7 @@ function showPick(arr, SetPickData, PickData, mode, indexOfPhase) {
 
     return (
       <select
+        style={{ width: "200px" }}
         className="form-control"
         onChange={handleChange}
         value={PickData.find((item) => arr.includes(item)) || "none"}
@@ -686,6 +584,7 @@ function DataTableALLInformation(arr) {
           style={{
             borderBottom: "1px solid black",
             marginBottom: "10px",
+            textAlign: "left",
           }}
         >
           <thead>
@@ -699,7 +598,9 @@ function DataTableALLInformation(arr) {
             {dataRows.map((row, rowIndex) => (
               <tr key={rowIndex}>
                 {row.map((cell, cellIndex) => (
-                  <td key={cellIndex}>{cell !== null ? cell : "-"}</td>
+                  <td key={cellIndex} style={{ borderLeft: "1px solid black" }}>
+                    {cell !== null ? cell : "-"}
+                  </td>
                 ))}
               </tr>
             ))}
@@ -730,7 +631,121 @@ function DataTableALLInformation(arr) {
     return <div>No data available</div>; // Fallback when no data is passed
   }
 }
-function conversationView(PracData, Index, SubmitSets, PickData, SetPickData) {
+
+function DataTableALLInformationPicking(arr, SetPickData, PickData) {
+  // Helper function to render individual tables
+  const renderTable = (data) => {
+    try {
+      if (!data || data.length === 0) return <div>No data available</div>;
+
+      const [headerRow, ...dataRows] = data; // Extract the first row as header
+
+      return (
+        <table
+          className="table table-sm table-striped"
+          style={{
+            borderBottom: "1px solid black",
+            marginBottom: "10px",
+            textAlign: "left",
+          }}
+        >
+          <thead>
+            <tr>
+              {headerRow.map((cell, cellIndex) => (
+                <th
+                  key={cellIndex}
+                  style={{
+                    backgroundColor: PickData.includes(cell)
+                      ? "yellow"
+                      : "transparent",
+                  }}
+                  onClick={() => {
+                    if (cell !== null) {
+                      SetPickData((prevData) => {
+                        // Kiểm tra nếu phần tử đã tồn tại trong mảng
+                        if (prevData.includes(cell)) {
+                          // Nếu đã tồn tại, thì loại bỏ phần tử đó khỏi mảng
+                          return prevData.filter((i) => i !== cell);
+                        } else {
+                          // Nếu chưa tồn tại, thì thêm phần tử vào mảng
+                          return [...prevData, cell];
+                        }
+                      });
+                    }
+                  }}
+                >
+                  {cell !== null ? cell : "-"}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {dataRows.map((row, rowIndex) => (
+              <tr key={rowIndex}>
+                {row.map((cell, cellIndex) => (
+                  <td
+                    key={cellIndex}
+                    style={{
+                      backgroundColor: PickData.includes(cell)
+                        ? "yellow"
+                        : "transparent",
+                      borderLeft: "1px solid black",
+                    }}
+                    onClick={() => {
+                      if (cell !== null) {
+                        SetPickData((prevData) => {
+                          // Kiểm tra nếu phần tử đã tồn tại trong mảng
+                          if (prevData.includes(cell)) {
+                            // Nếu đã tồn tại, thì loại bỏ phần tử đó khỏi mảng
+                            return prevData.filter((i) => i !== cell);
+                          } else {
+                            // Nếu chưa tồn tại, thì thêm phần tử vào mảng
+                            return [...prevData, cell];
+                          }
+                        });
+                      }
+                    }}
+                  >
+                    {cell !== null ? cell : "-"}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      );
+    } catch (error) {
+      console.error("Error in renderTable:", error);
+      return <div>Error rendering table</div>;
+    }
+  };
+
+  // Main logic to handle array input
+  if (arr && Array.isArray(arr)) {
+    try {
+      return (
+        <div>
+          {arr.map((tableData, index) => (
+            <div key={index}>{renderTable(tableData)}</div>
+          ))}
+        </div>
+      );
+    } catch (error) {
+      console.error("Error in DataTableALL:", error);
+      return <div>Error rendering tables</div>;
+    }
+  } else {
+    return <div>No data available</div>; // Fallback when no data is passed
+  }
+}
+function conversationView(
+  PracData,
+  Index,
+  SubmitSets,
+  PickData,
+  SetPickData,
+  SetTablePickingListSTT
+) {
   try {
     return (
       <div
@@ -772,7 +787,6 @@ function conversationView(PracData, Index, SubmitSets, PickData, SetPickData) {
                     ))}
                   </div>
                 ) : null}
-
                 {Index > i && e1.submitList ? (
                   <div>
                     {e1.submitList.map((e2, i2) => (
@@ -789,7 +803,6 @@ function conversationView(PracData, Index, SubmitSets, PickData, SetPickData) {
                     ))}
                   </div>
                 ) : null}
-
                 {Index === i && e1.notify ? (
                   <div
                     style={{
@@ -810,13 +823,28 @@ function conversationView(PracData, Index, SubmitSets, PickData, SetPickData) {
                     </h5>
                   </div>
                 ) : null}
+                {/* {i1 === 0 && TablePickingList.length > 0 ? (
+                  <button></button>
+                ) : (
+                  "null"
+                )} */}
                 {Index === 3 && Index === i && i1 === 0 ? (
-                  <div style={{ fontSize: "small" }}>
+                  <div style={{ fontSize: "medium" }}>
                     {" "}
                     {JSON.stringify(SubmitSets)}
                     <br />
                     {JSON.stringify(PickData)}
                   </div>
+                ) : null}
+                {Index === i && i1 === 0 && e1.tablePicking ? (
+                  <button
+                    className="btn btn-primary"
+                    onClick={() => {
+                      SetTablePickingListSTT(true);
+                    }}
+                  >
+                    <i className="bi bi-card-checklist"></i>
+                  </button>
                 ) : null}
                 {Index >= i && e1.pickingList
                   ? e1.pickingList.map((ePickingListPot, iPickingListPot) => (
@@ -831,6 +859,15 @@ function conversationView(PracData, Index, SubmitSets, PickData, SetPickData) {
                       </div>
                     ))
                   : null}
+
+                {/* {Index >= i && e1.tablePicking
+                  ? e1.tablePicking.map((ePickingListPot, iPickingListPot) => (
+                      <div key={iPickingListPot}>
+                        <hr />
+                        <button className="btn btn-primary"></button>
+                      </div>
+                    ))
+                  : null} */}
               </div>
             ))}
           </div>

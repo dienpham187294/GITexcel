@@ -262,6 +262,7 @@ function conversationBox(arr) {
     detailTable: [],
     commonSt: [],
     purpose: [],
+    tablePicking: [],
   };
   if (nextSubmistList.length !== 0) {
     res.submitList = res.submitList.concat(nextSubmistList);
@@ -331,7 +332,7 @@ function conversationBox(arr) {
         });
 
         // Concatenate guideSets to res.guideTable
-        res.guideTable = res.guideTable.concat(removeNullElements(guideSets));
+        res.guideTable = res.guideTable.concat(guideSets);
       } catch (error) {
         console.log(error);
       }
@@ -360,15 +361,44 @@ function conversationBox(arr) {
         });
 
         // Concatenate guideSets to res.detailTable
-        res.detailTable = res.detailTable.concat(
-          removeNullElements(guideSetsA)
-        );
+        res.detailTable = res.detailTable.concat(guideSetsA);
       } catch (error) {
         console.log(error);
       }
 
       i = true;
     }
+
+    if (e.id.includes("tablePicking")) {
+      try {
+        let guideInputA = JSON.parse(e.content);
+        let guideCheckSetsA = [];
+        let guideSetsA = [];
+
+        guideInputA[0].forEach((row) => {
+          // console.log(row);
+          // Check if the first element (ID) exists in guideCheckSets
+          if (!guideCheckSetsA.includes(row[0])) {
+            guideCheckSetsA.push(row[0]); // Add ID to guideCheckSets
+            guideSetsA.push([]); // Create a new array for this ID
+          }
+          // Push the rest of the elements except the ID to the last guideSets array
+          guideSetsA[guideSetsA.length - 1].push(row.slice(1));
+          // row.forEach((e1) => {
+          //   console.log(e1);
+
+          // });
+        });
+
+        // Concatenate guideSets to res.tablePicking
+        res.tablePicking = res.tablePicking.concat(guideSetsA);
+      } catch (error) {
+        console.log(error);
+      }
+
+      i = true;
+    }
+
     if (e.id.includes("commonSt")) {
       res.commonSt.push(e);
       i = true;
