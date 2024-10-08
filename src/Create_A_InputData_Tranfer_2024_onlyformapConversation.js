@@ -280,8 +280,8 @@ function conversationBox(arr) {
     if (e.content === null) {
       console.log(e.content, e.id);
       return;
-    } else if (e.content.toLowerCase().includes("null")) {
-      console.log(e.content, e.id);
+    } else if ((e.content + "").toLowerCase().includes("null")) {
+      console.log(e.content, e.id, "ERROR A01");
       return;
     }
 
