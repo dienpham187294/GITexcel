@@ -647,7 +647,7 @@ function GetDocument() {
               {DataTableALL(HDtable)}
             </div>
 
-            <select
+            {/* <select
               className="form-control"
               style={{
                 transition: "all 1s ease-in-out", // Smooth transition for the select box
@@ -662,7 +662,7 @@ function GetDocument() {
                   {e}
                 </option>
               ))}
-            </select>
+            </select> */}
           </div>
           <div
             style={{
