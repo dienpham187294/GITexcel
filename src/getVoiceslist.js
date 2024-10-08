@@ -164,7 +164,7 @@ function countAndSplitSentences(text) {
 }
 
 async function ReadMessage(voiceNum) {
-  const text = "I want to tes. I love you so much.";
+  const text = "Tôi là người Việt nam";
   try {
     const sentences = countAndSplitSentences(text);
     console.log(sentences.length);

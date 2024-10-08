@@ -79,8 +79,8 @@ function fetchData() {
 
         let stringifiedResult = JSON.stringify(filteredArray); // renamed finalRes to stringifiedResult
 
-        for (let i = Math.floor(dataLength / 2); i >= 0; i--) {
-          let indexStr = i < 9 ? "0" + (i + 1) : "" + (i + 1); // renamed index to indexStr
+        for (let i = Math.floor(dataLength / 2) + 2; i >= 0; i--) {
+          let indexStr = i < 9 ? "0" + (i + 1) : "" + i; // renamed index to indexStr
 
           stringifiedResult = stringifiedResult
             .split("id-" + indexStr)
@@ -92,6 +92,7 @@ function fetchData() {
         parseDataInputSet = parseDataInputSet.concat(
           JSON.parse(stringifiedResult)
         );
+        console.log(parseDataInputSet);
       }
     });
     // console.log(JSON.stringify(parseDataInputSet));
@@ -134,10 +135,14 @@ function fetchData() {
     // }
 
     let parsedResID = NextStep_DontUnifile(parseDataInputSet); // renamed input to parsedResID
+
     let finalArray = [];
+
     parsedResID.forEach((element, index) => {
       finalArray.push(splitContentIntoArrays(element));
     });
+
+    // console.log(JSON.stringify(finalArray));
 
     let processedArray = toPracPot(toOneArray(finalArray));
 
@@ -159,18 +164,19 @@ function splitContentIntoArrays(inputArray) {
   // Lặp qua từng phần tử trong inputArray
   inputArray.forEach((element) => {
     const { id } = element; // Lấy id
+
     // Lặp qua từng key trong đối tượng element
     Object.keys(element).forEach((key) => {
       if (key.startsWith("content-")) {
         // Lấy chỉ số của content (ví dụ: "01", "02", ...)
         const contentIndex = key.split("-")[1];
-        // Nếu mảng tương ứng với contentIndex chưa tồn tại, thì khởi tạo
-        if (!result[contentIndex]) {
-          result[contentIndex] = [];
-        }
 
+        // Nếu mảng tương ứng với contentIndex chưa tồn tại, thì khởi tạo
+        if (!result["A" + contentIndex]) {
+          result["A" + contentIndex] = [];
+        }
         // Thêm phần tử vào mảng tương ứng
-        result[contentIndex].push({ id: id, content: element[key] });
+        result["A" + contentIndex].push({ id: id, content: element[key] });
       }
     });
   });
@@ -268,8 +274,17 @@ function conversationBox(arr) {
     res.submitList = res.submitList.concat(nextSubmistList);
     nextSubmistList = [];
   }
+
   arr.forEach((e) => {
     let i = false;
+    if (e.content === null) {
+      console.log(e.content, e.id);
+      return;
+    } else if (e.content.toLowerCase().includes("null")) {
+      console.log(e.content, e.id);
+      return;
+    }
+
     if (e.id.includes("img")) {
       res.img.push(e.content);
       i = true;

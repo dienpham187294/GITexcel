@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import $ from "jquery";
-import ReadMessage from "./ReadMessage_2024";
-import Dictaphone from "./RegcognitionV2024-05-NG_Test";
-import initializeVoicesAndPlatform from "./initializeVoicesAndPlatform";
+import ReadMessage from "../ReadMessage_2024";
+import Dictaphone from "../RegcognitionV2024-05-NG_Test";
+import initializeVoicesAndPlatform from "../initializeVoicesAndPlatform";
 
 import {
   findClosestMatch,
@@ -11,14 +11,19 @@ import {
   shuffleArray,
   collectWeSay,
   removeNoneElements,
-} from "./ulti/help_prac_function";
-import InputDataTest from "./data/test/dataTest_01.json";
+  qsSets,
+  pickRandomN,
+} from "../ulti/help_prac_function";
+import InputDataTest from "../data/test/dataTest_01.json";
 
 let PracDataSave = [];
 let IndexSave = 0;
 let theySaySave = "Hi how are you?";
 let CungThucHanhIndex = 0;
+const screenWidth = window.screen.width; // Lấy chiều rộng của màn hình
+const screenHeight = window.screen.height; // Lấy chiều cao của màn hình
 
+console.log(screenWidth, screenHeight);
 function Test() {
   const [PracData, SetPracData] = useState(null);
   const [PickData, SetPickData] = useState([]);
@@ -31,7 +36,7 @@ function Test() {
   const [HDtable, SetHDtable] = useState([]);
   const [Detailtable, SetDetailtable] = useState([]);
   const [TablePickingList, SetTablePickingList] = useState([]);
-  const [TablePickingListSTT, SetTablePickingListSTT] = useState(false);
+
   const [ImgAvatar, SetImgAvatar] = useState(null);
   const [Gender, SetGender] = useState(null);
   const [CommonStTable, SetCommonStTable] = useState([]);
@@ -64,17 +69,19 @@ function Test() {
       // Collecting and setting various states
       SetCMDList(collectWeSay(PracData[Index], ["weSay"]));
       SetWeCanSay(
-        shuffleArray(collectWeSay(PracData[Index], ["weSay", "weCanSayList"]))
+        shuffleArray(
+          collectWeSay(PracData[Index], ["weSay", "weCanSayList"]).concat(
+            pickRandomN(qsSets, 2)
+          )
+        )
       );
-      // .concat(
-      //   pickRandomN(qsSets, 4)
-      // )
+
       SetSubmitSets(collectWeSay(PracData[Index], ["submitList"]));
       SetHDtable(collectWeSay(PracData[Index], ["guideTable"]));
       SetDetailtable(collectWeSay(PracData[Index], ["detailTable"]));
       SetCommonStTable(collectWeSay(PracData[Index], ["commonSt"]));
       SetTablePickingList(collectWeSay(PracData[Index], ["tablePicking"]));
-      SetTablePickingListSTT(false);
+      SetTableMode(null);
     }
     if (PracData === null) {
       SetIndex(0);
@@ -139,6 +146,84 @@ function Test() {
       }
     } catch (error) {}
   }
+
+  let searchIndex = 0;
+  let searchResults = [];
+
+  function handleSearch(query) {
+    // Tìm tất cả các ô trong bảng
+    const tableCells = document.querySelectorAll("#tablePickingId td");
+
+    // Reset kết quả tìm kiếm
+    searchResults = [];
+    searchIndex = 0;
+
+    // Lặp qua tất cả các ô và reset highlight
+    tableCells.forEach((cell) => {
+      cell.style.backgroundColor = PickData.includes(cell.innerText)
+        ? "yellow"
+        : "transparent";
+    });
+
+    // Nếu có từ khóa tìm kiếm, tìm tất cả các ô chứa từ khóa
+    if (query) {
+      tableCells.forEach((cell) => {
+        if (cell.innerText.toLowerCase().includes(query.toLowerCase())) {
+          searchResults.push(cell);
+          cell.style.backgroundColor = "lightgreen"; // Tô sáng các ô chứa từ khóa
+        }
+      });
+
+      // Nếu có kết quả, tô sáng ô đầu tiên
+      if (searchResults.length > 0) {
+        searchResults[searchIndex].style.backgroundColor = "orange";
+        updateSearchDisplay();
+      }
+    }
+
+    // Cập nhật số lượng kết quả
+    updateSearchDisplay();
+  }
+
+  // Hàm để cập nhật hiển thị số kết quả tìm kiếm
+  function updateSearchDisplay() {
+    const searchDisplay = document.getElementById("searchDisplay");
+    if (searchResults.length > 0) {
+      searchDisplay.innerText = `${searchIndex + 1}/${searchResults.length}`;
+    } else {
+      searchDisplay.innerText = "0/0";
+    }
+  }
+
+  // Hàm để di chuyển đến kết quả tiếp theo
+  function goToNextResult() {
+    if (searchResults.length > 0) {
+      searchResults[searchIndex].style.backgroundColor = "lightgreen"; // Reset màu của kết quả hiện tại
+      searchIndex = (searchIndex + 1) % searchResults.length; // Di chuyển đến kết quả tiếp theo
+      searchResults[searchIndex].scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+      }); // Cuộn đến kết quả
+      searchResults[searchIndex].style.backgroundColor = "orange"; // Tô sáng kết quả mới
+      updateSearchDisplay();
+    }
+  }
+
+  // Hàm để di chuyển đến kết quả trước đó
+  function goToPreviousResult() {
+    if (searchResults.length > 0) {
+      searchResults[searchIndex].style.backgroundColor = "lightgreen"; // Reset màu của kết quả hiện tại
+      searchIndex =
+        (searchIndex - 1 + searchResults.length) % searchResults.length; // Di chuyển đến kết quả trước đó
+      searchResults[searchIndex].scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+      }); // Cuộn đến kết quả
+      searchResults[searchIndex].style.backgroundColor = "orange"; // Tô sáng kết quả mới
+      updateSearchDisplay();
+    }
+  }
+
   useEffect(() => {
     if (New !== 0) {
       SetIndex(0);
@@ -172,20 +257,45 @@ function Test() {
       <div
         style={{
           position: "absolute",
-          top: "50%",
+          top: "45%",
           left: "50%",
           transform: "translate(-50%, -50%)", // Căn giữa theo cả chiều ngang và dọc
           width: "800px", // Đặt chiều rộng cho box
           height: "500px", // Đặt chiều cao bằng chiều rộng để tạo hình vuông
           border: "1px solid black", // Viền của box
           borderRadius: "10px",
-          padding: "20px",
+          padding: "0 20px",
           textAlign: "left", // Canh giữa nội dung bên trong box
           backgroundColor: "#f0f0f0", // Màu nền của box
           transition: "opacity 3s ease-in-out",
           opacity: PracData !== null ? 1 : 0,
         }}
       >
+        <div
+          style={{
+            position: "sticky",
+            width: "100%",
+            height: "60px",
+            textAlign: "right",
+          }}
+        >
+          {Detailtable.length !== 0 ? (
+            <button
+              className="btn btn-outline-primary"
+              onClick={() => SetTableMode(1)}
+            >
+              <i className="bi bi-clipboard-check"></i>
+            </button>
+          ) : null}
+          {HDtable.length !== 0 ? (
+            <button
+              className="btn btn-outline-primary"
+              onClick={() => SetTableMode(2)}
+            >
+              <i className="bi bi-info-circle-fill"></i>
+            </button>
+          ) : null}
+        </div>
         <img
           style={{
             borderRadius: "50%",
@@ -205,187 +315,42 @@ function Test() {
           SubmitSets,
           PickData,
           SetPickData,
-          SetTablePickingListSTT
+          SetTableMode
         )}
         <div
           style={{
-            position: "fixed", // Giữ vị trí cố định ở phía dưới
-            bottom: "10px", // Cách đáy 10px
-            right: "10px", // Cách phải 10px
-            width: "600px",
-            height: "60px",
+            position: "absolute", // Cố định vị trí so với div mẹ
+            bottom: "0", // Luôn dính sát đáy
+            width: "80%", // Chiếm toàn bộ chiều rộng của div mẹ
+            height: "60px", // Đặt chiều cao cố định
             display: "flex", // Sử dụng flexbox để sắp xếp các phần tử
-            alignItems: "center", // Căn giữa theo chiều dọc
+            alignItems: "center", // Căn giữa các phần tử theo chiều dọc
             justifyContent: "space-between", // Căn đều các phần tử theo chiều ngang
+            fontSize: "small",
           }}
         >
-          <select
-            className="form-control"
-            style={{
-              width: "250px",
-              transition: "all 1s ease-in-out", // Hiệu ứng chuyển động mượt mà cho select box
-            }}
-            onChange={(e) => {
-              fn_Xuly(e.currentTarget.value);
-            }}
-          >
-            <option key={"a0"}>"We can say" list :</option>
-            {WeCanSay.map((e, i) => (
-              <option key={i} value={e}>
-                {e}
-              </option>
-            ))}
-          </select>
-          {Detailtable.length !== 0 ? (
-            <button
-              className="btn btn-outline-primary"
-              style={{
-                width: "60px",
-                height: "60px",
-                borderRadius: "50%",
-                marginLeft: "10px", // Khoảng cách bên trái giữa các nút và select box
-              }}
-              onClick={() => SetTableMode(1)}
-            >
-              <i className="bi bi-clipboard-check"></i>
-            </button>
-          ) : null}
-          {HDtable.length !== 0 ? (
-            <button
-              className="btn btn-outline-primary"
-              style={{
-                width: "60px",
-                height: "60px",
-                borderRadius: "50%",
-                marginLeft: "10px", // Khoảng cách giữa các nút
-              }}
-              onClick={() => SetTableMode(2)}
-            >
-              <i className="bi bi-info-circle-fill"></i>
-            </button>
-          ) : null}
+          {WeCanSay.map((e, i) => (
+            <i key={i} value={e} style={{ marginRight: "5px" }}>
+              {e}__
+            </i>
+          ))}
         </div>
 
-        {TableMode === 1 ? (
+        {TableMode === 3 && TablePickingList.length !== 0 ? (
           <div
+            id="tablePickingId"
             style={{
               position: "absolute",
               top: "60%",
-              left: "60%",
-              transform: "translate(-50%, -50%)", // Căn giữa theo cả chiều ngang và dọc
-              width: "800px", // Đặt chiều rộng cho box
-              height: "500px", // Đặt chiều cao bằng chiều rộng để tạo hình vuông
-              border: "1px solid black", // Viền của box
-              borderRadius: "10px",
-              padding: "20px",
-              textAlign: "left", // Canh giữa nội dung bên trong box
-              backgroundColor: "#f0f0f0", // Màu nền của box
-              transition: "opacity 3s ease-in-out",
-              opacity: PracData !== null ? 1 : 0,
-              zIndex: 6,
-              overflow: "auto",
-              fontSize: "medium",
-            }}
-          >
-            {Detailtable.length !== 0 ? (
-              <h5 style={{ color: "blue", transition: "color 1s ease-in-out" }}>
-                Detail information
-              </h5>
-            ) : null}
-            {DataTableALLInformation(Detailtable)}
-            <div
-              style={{
-                position: "fixed", // Giữ vị trí cố định ở phía dưới
-                top: "10px", // Cách đáy 10px
-                right: "10px", // Cách phải 10px
-              }}
-            >
-              <button
-                className="btn btn-danger"
-                style={{
-                  width: "40px",
-                  height: "40px",
-                  borderRadius: "50%",
-                  scale: 2,
-                }}
-                onClick={() => {
-                  SetTableMode(0);
-                }}
-              >
-                <i className="bi bi-x-octagon"></i>
-              </button>
-
-              {/* <div className="iconInPracDiv"></div> */}
-            </div>
-          </div>
-        ) : null}
-
-        {TableMode === 2 ? (
-          <div
-            style={{
-              position: "absolute",
-              top: "50%",
               left: "50%",
-              transform: "translate(-50%, -50%)", // Căn giữa theo cả chiều ngang và dọc
-              width: "800px", // Đặt chiều rộng cho box
-              height: "500px", // Đặt chiều cao bằng chiều rộng để tạo hình vuông
-              border: "1px solid black", // Viền của box
+              transform: "translate(-50%, -50%)",
+              width: screenWidth * 0.9,
+              height: screenHeight * 0.6,
+              border: "5px solid black",
               borderRadius: "10px",
-              padding: "20px",
-              textAlign: "left", // Canh giữa nội dung bên trong box
-              backgroundColor: "#f0f0f0", // Màu nền của box
-              transition: "opacity 3s ease-in-out",
-              opacity: PracData !== null ? 1 : 0,
-              zIndex: 6,
-              overflow: "auto",
-              fontSize: "medium",
-            }}
-          >
-            {HDtable.length !== 0 ? (
-              <h5 style={{ color: "blue", transition: "color 1s ease-in-out" }}>
-                Guide
-              </h5>
-            ) : null}
-            {DataTableALLInformation(HDtable)}
-            <div
-              style={{
-                position: "fixed", // Giữ vị trí cố định ở phía dưới
-                top: "10px", // Cách đáy 10px
-                right: "10px", // Cách phải 10px
-              }}
-            >
-              <button
-                className="btn btn-danger"
-                style={{
-                  width: "40px",
-                  height: "40px",
-                  borderRadius: "50%",
-                  scale: 2,
-                }}
-                onClick={() => {
-                  SetTableMode(0);
-                }}
-              >
-                <i className="bi bi-x-octagon"></i>
-              </button>
-            </div>
-          </div>
-        ) : null}
-
-        {TablePickingListSTT && TablePickingList.length !== 0 ? (
-          <div
-            style={{
-              position: "absolute",
-              top: "40%",
-              left: "40%",
-              transform: "translate(-50%, -50%)", // Căn giữa theo cả chiều ngang và dọc
-              width: "800px", // Đặt chiều rộng cho box
-              height: "500px", // Đặt chiều cao bằng chiều rộng để tạo hình vuông
-              border: "1px solid black", // Viền của box
-              borderRadius: "10px",
-              padding: "20px",
-              textAlign: "center", // Canh giữa nội dung bên trong box
-              backgroundColor: "#f0f0f0", // Màu nền của box
+              padding: "0px 20px",
+              textAlign: "center",
+              backgroundColor: "#00BFFF",
               transition: "opacity 3s ease-in-out",
               opacity: PracData !== null ? 1 : 0,
               zIndex: 6,
@@ -394,52 +359,161 @@ function Test() {
               cursor: "pointer",
             }}
           >
-            {TablePickingList.length !== 0 ? (
-              <h5 style={{ color: "blue", transition: "color 1s ease-in-out" }}>
-                Chọn
-              </h5>
-            ) : null}
+            <div
+              id="remoteDiv"
+              style={{
+                position: "sticky",
+                width: "100%",
+                top: "0", // Đặt vị trí cố định sát đầu
+                zIndex: 10,
+                backgroundColor: "#f8f9fa", // Màu nền nhẹ nhàng
+                display: "flex", // Sử dụng flexbox để sắp xếp các phần tử
+                alignItems: "center", // Căn giữa theo chiều dọc
+                justifyContent: "space-between", // Dàn đều các phần tử trong div
+                padding: "10px 20px", // Tạo khoảng cách trong container
+                borderRadius: "8px", // Bo góc mượt mà
+                boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)", // Hiệu ứng bóng đổ
+                border: "1px solid #ddd", // Đường viền nhạt
+              }}
+            >
+              {/* Khối gom input và các nút liên quan */}
+              <div
+                style={{
+                  display: "flex", // Sắp xếp các phần tử bên trong khối này theo chiều ngang
+                  alignItems: "center",
+                  gap: "10px", // Khoảng cách giữa các phần tử trong khối
+                }}
+              >
+                <input
+                  id="searchInput"
+                  className="form-control"
+                  type="text"
+                  placeholder="Search..."
+                  style={{
+                    display: "inline-block",
+                    border: "1px solid #ced4da", // Đường viền nhẹ
+                    borderRadius: "4px", // Bo góc nhẹ
+                    padding: "5px 10px", // Tạo khoảng cách bên trong
+                    width: "200px", // Đặt chiều rộng cố định
+                  }}
+                  onChange={(e) => handleSearch(e.target.value)}
+                />
+
+                <div
+                  id="searchDisplay"
+                  style={{ fontSize: "14px", fontWeight: "bold" }}
+                >
+                  0/0
+                </div>
+
+                {/* Nút di chuyển giữa các kết quả */}
+                <button
+                  className="btn btn-secondary"
+                  onClick={goToPreviousResult}
+                  style={{
+                    backgroundColor: "#6c757d",
+                    color: "white",
+                    border: "none",
+                    padding: "6px 12px",
+                    borderRadius: "4px",
+                    cursor: "pointer",
+                  }}
+                >
+                  &uarr;
+                </button>
+
+                <button
+                  className="btn btn-secondary"
+                  onClick={goToNextResult}
+                  style={{
+                    backgroundColor: "#6c757d",
+                    color: "white",
+                    border: "none",
+                    padding: "6px 12px",
+                    borderRadius: "4px",
+                    cursor: "pointer",
+                  }}
+                >
+                  &darr;
+                </button>
+              </div>
+              <div>
+                {PickData.map((e, i) => (
+                  <i key={i}>
+                    {i + 1}.{e.slice(0, 10)} . . . /{" "}
+                  </i>
+                ))}
+                <button
+                  className="btn btn-outline-danger"
+                  onClick={() => {
+                    SetPickData([]);
+                  }}
+                >
+                  <i className="bi bi-arrow-clockwise"></i>
+                </button>
+              </div>
+
+              {/* Các nút khác nằm ngoài khối */}
+              <div style={{ display: "flex", gap: "10px" }}>
+                <select
+                  onChange={(e) => {
+                    let sizeT = e.currentTarget.value;
+                    $("#tablePickingId").css({
+                      fontSize: sizeT + "px",
+                    });
+                  }}
+                >
+                  <option value={16}>Font Size</option>
+                  {[10, 15, 20, 25, 30, 35, 40, 45].map((eS, iS) => (
+                    <option key={iS} value={eS}>
+                      {eS}px
+                    </option>
+                  ))}
+                </select>
+
+                <button
+                  className="btn btn-outline-danger"
+                  style={{
+                    width: "40px",
+                    height: "40px",
+                    borderRadius: "50%",
+                    display: "inline-block",
+                    boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)", // Bóng đổ nhẹ
+                    cursor: "pointer",
+                    textAlign: "center",
+                  }}
+                  onClick={() => {
+                    SetTableMode(null);
+                  }}
+                >
+                  <i className="bi bi-x-square"></i>
+                </button>
+              </div>
+            </div>
+            <hr />
             {DataTableALLInformationPicking(
               TablePickingList,
               SetPickData,
               PickData
             )}
-            <div
-              style={{
-                position: "fixed", // Giữ vị trí cố định ở phía dưới
-                top: "10px", // Cách đáy 10px
-                right: "10px", // Cách phải 10px
-              }}
-            >
-              <button
-                className="btn btn-danger"
-                style={{
-                  width: "40px",
-                  height: "40px",
-                  borderRadius: "50%",
-                  scale: 2,
-                }}
-                onClick={() => {
-                  SetTablePickingListSTT(false);
-                }}
-              >
-                <i className="bi bi-x-octagon"></i>
-              </button>
-            </div>
           </div>
         ) : null}
       </div>
 
-      <div
-        style={{
-          position: "fixed",
-          bottom: "20px",
-          right: "20px",
-          zIndex: 5,
-        }}
-      >
+      <div>
         {PracData === null ? (
           <button
+            style={{
+              position: "fixed",
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%, -50%)",
+              zIndex: 5,
+              width: "50px",
+              height: "50px",
+              borderRadius: "50%",
+              scale: "3",
+            }}
             className="btn btn-primary"
             id="btn_chonngaunhien"
             onClick={() => {
@@ -454,8 +528,12 @@ function Test() {
         ) : (
           <button
             style={{
-              width: "40px",
-              height: "40px",
+              position: "fixed",
+              top: "130px",
+              right: "10px",
+              zIndex: 5,
+              width: "50px",
+              height: "50px",
               borderRadius: "50%",
             }}
             onClick={() => SetPracData(null)}
@@ -519,168 +597,26 @@ function showPick(arr, SetPickData, PickData, mode, indexOfPhase) {
     return null;
   }
 }
-function DataTableALL(arr) {
-  // Helper function to render individual tables
-  const renderTable = (data) => {
-    try {
-      const dataRows = data;
-
-      return (
-        <table
-          className="table table-sm table-striped"
-          style={{
-            // fontSize: "medium",
-            borderBottom: "1px solid black",
-            marginBottom: "10px",
-          }}
-        >
-          <tbody>
-            {dataRows.map((row, rowIndex) => (
-              <tr key={rowIndex}>
-                {row.map((cell, cellIndex) => (
-                  <td key={cellIndex}>{cell !== null ? cell : "-"}</td>
-                ))}
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      );
-    } catch (error) {
-      console.error("Error in renderTable:", error);
-      return <div>Error rendering table</div>;
-    }
-  };
-
-  // Main logic to handle array input
-  if (arr && Array.isArray(arr)) {
-    try {
-      return (
-        <div>
-          {arr.map((tableData, index) => (
-            <div key={index}>{renderTable(tableData)}</div>
-          ))}
-        </div>
-      );
-    } catch (error) {
-      console.error("Error in DataTableALL:", error);
-      return <div>Error rendering tables</div>;
-    }
-  } else {
-    return <div>No data available</div>; // Fallback when no data is passed
-  }
-}
-
-function DataTableALLInformation(arr) {
-  // Helper function to render individual tables
-  const renderTable = (data) => {
-    try {
-      if (!data || data.length === 0) return <div>No data available</div>;
-
-      const [headerRow, ...dataRows] = data; // Extract the first row as header
-
-      return (
-        <table
-          className="table table-sm table-striped"
-          style={{
-            borderBottom: "1px solid black",
-            marginBottom: "10px",
-            textAlign: "left",
-          }}
-        >
-          <thead>
-            <tr>
-              {headerRow.map((cell, cellIndex) => (
-                <th key={cellIndex}>{cell !== null ? cell : "-"}</th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {dataRows.map((row, rowIndex) => (
-              <tr key={rowIndex}>
-                {row.map((cell, cellIndex) => (
-                  <td key={cellIndex} style={{ borderLeft: "1px solid black" }}>
-                    {cell !== null ? cell : "-"}
-                  </td>
-                ))}
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      );
-    } catch (error) {
-      console.error("Error in renderTable:", error);
-      return <div>Error rendering table</div>;
-    }
-  };
-
-  // Main logic to handle array input
-  if (arr && Array.isArray(arr)) {
-    try {
-      return (
-        <div>
-          {arr.map((tableData, index) => (
-            <div key={index}>{renderTable(tableData)}</div>
-          ))}
-        </div>
-      );
-    } catch (error) {
-      console.error("Error in DataTableALL:", error);
-      return <div>Error rendering tables</div>;
-    }
-  } else {
-    return <div>No data available</div>; // Fallback when no data is passed
-  }
-}
 
 function DataTableALLInformationPicking(arr, SetPickData, PickData) {
   // Helper function to render individual tables
   const renderTable = (data) => {
     try {
       if (!data || data.length === 0) return <div>No data available</div>;
-
-      const [headerRow, ...dataRows] = data; // Extract the first row as header
-
       return (
         <table
           className="table table-sm table-striped"
           style={{
+            backgroundColor: "#FFEFD5",
             borderBottom: "1px solid black",
             marginBottom: "10px",
+            marginTop: "5%",
             textAlign: "left",
+            borderRadius: "5px",
           }}
         >
-          <thead>
-            <tr>
-              {headerRow.map((cell, cellIndex) => (
-                <th
-                  key={cellIndex}
-                  style={{
-                    backgroundColor: PickData.includes(cell)
-                      ? "yellow"
-                      : "transparent",
-                  }}
-                  onClick={() => {
-                    if (cell !== null) {
-                      SetPickData((prevData) => {
-                        // Kiểm tra nếu phần tử đã tồn tại trong mảng
-                        if (prevData.includes(cell)) {
-                          // Nếu đã tồn tại, thì loại bỏ phần tử đó khỏi mảng
-                          return prevData.filter((i) => i !== cell);
-                        } else {
-                          // Nếu chưa tồn tại, thì thêm phần tử vào mảng
-                          return [...prevData, cell];
-                        }
-                      });
-                    }
-                  }}
-                >
-                  {cell !== null ? cell : "-"}
-                </th>
-              ))}
-            </tr>
-          </thead>
           <tbody>
-            {dataRows.map((row, rowIndex) => (
+            {data.map((row, rowIndex) => (
               <tr key={rowIndex}>
                 {row.map((cell, cellIndex) => (
                   <td
@@ -690,6 +626,7 @@ function DataTableALLInformationPicking(arr, SetPickData, PickData) {
                         ? "yellow"
                         : "transparent",
                       borderLeft: "1px solid black",
+                      padding: "10px",
                     }}
                     onClick={() => {
                       if (cell !== null) {
@@ -744,7 +681,7 @@ function conversationView(
   SubmitSets,
   PickData,
   SetPickData,
-  SetTablePickingListSTT
+  SetTableMode
 ) {
   try {
     return (
@@ -823,11 +760,7 @@ function conversationView(
                     </h5>
                   </div>
                 ) : null}
-                {/* {i1 === 0 && TablePickingList.length > 0 ? (
-                  <button></button>
-                ) : (
-                  "null"
-                )} */}
+
                 {Index === 3 && Index === i && i1 === 0 ? (
                   <div style={{ fontSize: "medium" }}>
                     {" "}
@@ -840,7 +773,7 @@ function conversationView(
                   <button
                     className="btn btn-primary"
                     onClick={() => {
-                      SetTablePickingListSTT(true);
+                      SetTableMode(3);
                     }}
                   >
                     <i className="bi bi-card-checklist"></i>
@@ -859,15 +792,6 @@ function conversationView(
                       </div>
                     ))
                   : null}
-
-                {/* {Index >= i && e1.tablePicking
-                  ? e1.tablePicking.map((ePickingListPot, iPickingListPot) => (
-                      <div key={iPickingListPot}>
-                        <hr />
-                        <button className="btn btn-primary"></button>
-                      </div>
-                    ))
-                  : null} */}
               </div>
             ))}
           </div>
