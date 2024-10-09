@@ -46,8 +46,8 @@ function GetDocument() {
   const [DataShowTableOfID, SetDataShowTableOfID] = useState(null);
   const [IndexDataShow, SetIndexDataShow] = useState(0);
   const [DocumentMode, SetDocumentMode] = useState("A1");
-  const [PracTest, SetPracTest] = useState(false);
-  const [PracTestList, SetPracTestList] = useState(null);
+  // const [PracTest, SetPracTest] = useState(false);
+  // const [PracTestList, SetPracTestList] = useState(null);
   const [Score, SetScore] = useState(0);
 
   useEffect(() => {
@@ -202,235 +202,13 @@ function GetDocument() {
     initialize();
   }, []);
 
-  useEffect(() => {
-    if (PracTest) {
-      let setsN = parceARandomSets(InputDataTest.length);
-      SetPracTestList(setsN);
-      SetPracData(InputDataTest[setsN[0]]);
-    }
-  }, [PracTest]);
-
-  if (PracTest) {
-    return (
-      <div>
-        <Dictaphone
-          fn_Xuly={fn_Xuly}
-          CMDList={CMDList}
-          fn_speakAgain={fn_speakAgain}
-          fn_speakSlowly={fn_speakSlowly}
-        />{" "}
-        {PracData !== null ? (
-          <div
-            style={{
-              border: "1px solid black",
-              borderRadius: "10px",
-              padding: "20px",
-              transition: "all 1s ease-in-out", // Smooth transition for the container
-              opacity: PracData ? 1 : 0, // Fade in/out effect for the container
-              transform: PracData ? "translateY(0)" : "translateY(-10px)", // Smooth movement
-            }}
-            className="row"
-          >
-            <div className="col-2">
-              <img
-                src={ImgAvatar}
-                width={"200px"}
-                // style={{
-                //   transition: "transform 1s ease-in-out, opacity 1s ease-in-out", // Smooth transition for image
-                //   opacity: PracData ? 1 : 0,
-                //   transform: PracData ? "scale(1)" : "scale(0.95)", // Slight scaling effect
-                // }}
-              />
-            </div>
-            <div
-              className="col-4"
-              style={{
-                backgroundColor: "#f0f0f0",
-                boxShadow:
-                  "0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08)",
-                borderRadius: "8px",
-                padding: "20px",
-                border: "1px solid rgba(0, 0, 0, 0.05)",
-                transition: "all 1s ease-in-out", // Smooth transition for this box
-                opacity: PracData ? 1 : 0,
-                transform: PracData ? "translateY(0)" : "translateY(-10px)", // Move effect
-              }}
-            >
-              {PracData.map((e, i) => (
-                <div key={"a" + i}>
-                  {Index > i ? i + 1 : null}
-                  {e.map((e1, i1) => (
-                    <div
-                      key={"AA" + i1}
-                      style={{
-                        display: "inline-block",
-                        transition: "opacity 1s ease-in-out", // Smooth transition for inline-block elements
-                        opacity: Index >= i ? 1 : 0,
-                      }}
-                    >
-                      {Index === i && e1.purpose ? (
-                        <div>
-                          {e1.purpose.map((e2, i2) => (
-                            <i
-                              style={{
-                                fontSize: "medium",
-                                color: "purple",
-                                transition: "color 1s ease-in-out", // Smooth color change
-                              }}
-                              key={"b" + i1 + i2}
-                            >
-                              {e2}
-                            </i>
-                          ))}
-                        </div>
-                      ) : null}
-
-                      {Index > i && e1.submitList ? (
-                        <div>
-                          {e1.submitList.map((e2, i2) => (
-                            <i
-                              style={{
-                                marginRight: "10px",
-                                fontSize: "medium",
-                                transition: "all 1s ease-in-out", // Smooth transition for list items
-                              }}
-                              key={"b" + i1 + i2}
-                            >
-                              __{e2}
-                            </i>
-                          ))}
-                        </div>
-                      ) : null}
-
-                      {Index === i && e1.notify ? (
-                        <div
-                          style={{
-                            borderTop: "1px solid green",
-                            padding: "10px",
-                            width: "300px",
-                            transition: "all 1s ease-in-out", // Smooth transition for notifications
-                            opacity: e1.notify ? 1 : 0,
-                          }}
-                        >
-                          <h5
-                            style={{
-                              color: "blue",
-                              transition: "color 1s ease-in-out",
-                            }}
-                          >
-                            {e1.notify}
-                          </h5>
-                        </div>
-                      ) : null}
-                      {Index === 3 && Index === i && i1 === 0 ? (
-                        <div style={{ fontSize: "small" }}>
-                          {" "}
-                          {JSON.stringify(SubmitSets)}
-                          <br />
-                          {JSON.stringify(PickData)}
-                        </div>
-                      ) : null}
-                      {Index >= i && e1.pickingList
-                        ? e1.pickingList.map(
-                            (ePickingListPot, iPickingListPot) => (
-                              <div key={iPickingListPot}>
-                                {showPick(
-                                  ePickingListPot,
-                                  SetPickData,
-                                  PickData,
-                                  Index === i ? false : true,
-                                  i
-                                )}
-                              </div>
-                            )
-                          )
-                        : null}
-                    </div>
-                  ))}
-                </div>
-              ))}
-            </div>
-            <div className="col-6">
-              <div
-                style={{
-                  fontSize: "medium",
-                  whiteSpace: "pre-line",
-                  transition: "all 1s ease-in-out", // Smooth transition for the table
-                }}
-              >
-                {DataTableALL(HDtable)}
-              </div>
-
-              <select
-                className="form-control"
-                style={{
-                  transition: "all 1s ease-in-out", // Smooth transition for the select box
-                }}
-                onChange={(e) => {
-                  fn_Xuly(e.currentTarget.value);
-                }}
-              >
-                <option key={"a0"}>"We can say" list :</option>
-                {WeCanSay.map((e, i) => (
-                  <option key={i} value={e}>
-                    {e}
-                  </option>
-                ))}
-              </select>
-            </div>
-            <div
-              style={{
-                fontSize: "medium",
-                whiteSpace: "pre-line",
-                transition: "all 1s ease-in-out", // Add a smooth transition
-                opacity: Detailtable.length !== 0 ? 1 : 0, // Fade effect based on content
-                transform:
-                  Detailtable.length !== 0
-                    ? "translateY(0)"
-                    : "translateY(-10px)", // Slight movement effect
-              }}
-            >
-              {Detailtable.length !== 0 ? (
-                <h5
-                  style={{ color: "blue", transition: "color 1s ease-in-out" }}
-                >
-                  Detail information
-                </h5>
-              ) : null}
-              {DataTableALLInformation(Detailtable)}
-            </div>
-          </div>
-        ) : null}
-        <div style={{ height: "100px" }}>
-          <button
-            id="btn_chonngaunhien"
-            onClick={() => {
-              if (PracData !== null) {
-                CungThucHanhIndex++;
-                SetPracData(null);
-                setTimeout(() => {
-                  SetPracData(InputDataTest[PracTestList[CungThucHanhIndex]]);
-                }, 2000);
-
-                $("#btn_chonngaunhien").hide();
-                setTimeout(() => {
-                  $("#btn_chonngaunhien").show();
-                }, [3000]);
-              } else {
-                CungThucHanhIndex++;
-                SetPracData(InputDataTest[PracTestList[CungThucHanhIndex]]);
-              }
-            }}
-          >
-            Chọn ngẫu nhiên
-          </button>
-          Điểm {Score}
-        </div>
-        <br />
-        <hr />
-      </div>
-    );
-  }
+  // useEffect(() => {
+  //   if (PracTest) {
+  //     let setsN = parceARandomSets(InputDataTest.length);
+  //     SetPracTestList(setsN);
+  //     SetPracData(InputDataTest[setsN[0]]);
+  //   }
+  // }, [PracTest]);
 
   return (
     <div>
@@ -613,6 +391,34 @@ function GetDocument() {
                         >
                           {e1.notify}
                         </h5>
+                      </div>
+                    ) : null}
+                    {Index === i && i1 === 0
+                      ? JSON.stringify(SubmitSets)
+                      : null}
+
+                    {Index === i && i1 === 0 && SubmitSets.includes("FN01") ? (
+                      <div>
+                        {SubmitSets.map((eFN, iFN) =>
+                          eFN.includes("FN") ? (
+                            <span
+                              style={{
+                                width: "100px",
+                                padding: "1px 20px",
+                                // backgroundColor: "yellow",
+                                border: "1px solid black",
+                                borderRadius: "5px",
+                                backgroundColor: PickData.includes(eFN)
+                                  ? "yellow"
+                                  : "transparent",
+                              }}
+                              key={"FN" + iFN}
+                            >
+                              {" "}
+                              {iFN + 1}. <i className="bi bi-mic"></i>
+                            </span>
+                          ) : null
+                        )}
                       </div>
                     ) : null}
 
