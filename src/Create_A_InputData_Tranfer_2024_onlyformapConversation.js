@@ -47,7 +47,7 @@ function NextStep_DontUnifile(input) {
 
     // return output
   } catch (error) {
-    console.log("Lỗi");
+    console.log("Lỗi B0001");
     console.log(error);
   }
 }
@@ -92,7 +92,7 @@ function fetchData() {
         parseDataInputSet = parseDataInputSet.concat(
           JSON.parse(stringifiedResult)
         );
-        console.log(parseDataInputSet);
+        // console.log(parseDataInputSet);
       }
     });
     // console.log(JSON.stringify(parseDataInputSet));
@@ -148,7 +148,7 @@ function fetchData() {
 
     $("#ResID").text(JSON.stringify(processedArray));
   } catch (error) {
-    console.log("Error occurred");
+    console.log("Error occurred C000001");
     console.log(error);
   }
 }
@@ -278,10 +278,15 @@ function conversationBox(arr) {
   arr.forEach((e) => {
     let i = false;
     if (e.content === null) {
-      console.log(e.content, e.id);
+      console.log(e.id, "D01 NULLLLLLLL");
+      console.log(e.content);
       return;
-    } else if ((e.content + "").toLowerCase().includes("null")) {
-      console.log(e.content, e.id, "ERROR A01");
+    } else if (
+      !(e.content + "").includes("[") &&
+      (e.content + "").toLowerCase().includes("null")
+    ) {
+      console.log(e.id, "ERROR A01");
+      console.log(e.content);
       return;
     }
 
