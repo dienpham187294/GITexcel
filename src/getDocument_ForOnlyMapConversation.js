@@ -147,7 +147,6 @@ function GetDocument() {
     // Checking data and handling index updates
     try {
       let DataCheck = removeNoneElements(PickData);
-
       let submitSets = removeNoneElements(submitListT);
       let iCheck = submitSets.every((e) => DataCheck.includes(e + "")); // Ensure all elements in submitListT are in DataCheck
       if (iCheck && submitSets.length === DataCheck.length) {

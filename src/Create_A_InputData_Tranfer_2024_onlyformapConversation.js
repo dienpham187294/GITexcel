@@ -206,24 +206,27 @@ function toPracPot(arr) {
   return res;
 }
 function groupByPrefix(data) {
+  // console.log(data);
   const groupedData = {};
 
   data.forEach((item) => {
     let keySets = item.id.split("-"); // Tách id thành các phần bằng dấu gạch ngang (-)
 
     // Nếu chưa có nhóm theo keySets[0], tạo một object rỗng
-    if (!groupedData[keySets[0]]) {
-      groupedData[keySets[0]] = {}; // Đây là object thay vì push vào array
+    if (!groupedData["id" + keySets[0]]) {
+      groupedData["id" + keySets[0]] = {}; // Đây là object thay vì push vào array
     }
 
     // Nếu chưa có nhóm theo keySets[1], tạo một array rỗng cho nhóm đó
-    if (!groupedData[keySets[0]][keySets[1]]) {
-      groupedData[keySets[0]][keySets[1]] = []; // Tạo array để chứa các phần tử của nhóm thứ 2
+    if (!groupedData["id" + keySets[0]][keySets[1]]) {
+      groupedData["id" + keySets[0]][keySets[1]] = []; // Tạo array để chứa các phần tử của nhóm thứ 2
     }
 
     // Thêm item vào nhóm tương ứng
-    groupedData[keySets[0]][keySets[1]].push(item);
+    groupedData["id" + keySets[0]][keySets[1]].push(item);
   });
+
+  console.log(JSON.stringify(groupedData));
 
   return groupedData;
 }
