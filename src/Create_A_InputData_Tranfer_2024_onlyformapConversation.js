@@ -226,7 +226,7 @@ function groupByPrefix(data) {
     groupedData["id" + keySets[0]][keySets[1]].push(item);
   });
 
-  console.log(JSON.stringify(groupedData));
+  // console.log(JSON.stringify(groupedData));
 
   return groupedData;
 }

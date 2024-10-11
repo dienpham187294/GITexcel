@@ -180,7 +180,7 @@ function GetDocument() {
         theySaySave = getRandomElement(closestMatch.theySay);
         ReadMessage(ObjRead, theySaySave, Gender || 1, 0.75);
         if (closestMatch.action) {
-          SetPickData([...PickData, "FN01"]);
+          SetPickData([...PickData, closestMatch.action.slice(6)]);
         }
       }
     } catch (error) {}
