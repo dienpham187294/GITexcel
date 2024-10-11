@@ -28,6 +28,7 @@ function GetDocument() {
   const [Documents, SetDocuments] = useState(null);
   const [PracData, SetPracData] = useState(null);
   const [PickData, SetPickData] = useState([]);
+  const [Action, SetAction] = useState([]);
   const [Index, SetIndex] = useState(0);
   const [New, SetNew] = useState(0);
   const [ObjRead, SetObjRead] = useState(null);
@@ -143,7 +144,7 @@ function GetDocument() {
     } catch (error) {
       console.log("Error processing submitListT:", error);
     }
-
+    // console.log(JSON.stringify(PickData));
     // Checking data and handling index updates
     try {
       let DataCheck = removeNoneElements(PickData);
@@ -154,6 +155,7 @@ function GetDocument() {
           // Move to the next index if not at the end
           SetIndex((prevIndex) => prevIndex + 1);
           SetPickData([]); // Clear PickData for the next set
+          SetAction("");
         } else {
           // If at the last index, reset
           SetPracData(null);
@@ -173,6 +175,14 @@ function GetDocument() {
   function fn_speakSlowly() {
     ReadMessage(ObjRead, theySaySave, Gender || 1, 0.5);
   }
+
+  useEffect(() => {
+    console.log(Action, "action");
+    if (Action.includes("FN")) {
+      SetPickData([...PickData, Action]);
+    }
+  }, [Action]);
+
   function fn_Xuly(CMD) {
     try {
       if (CMD !== null) {
@@ -180,7 +190,7 @@ function GetDocument() {
         theySaySave = getRandomElement(closestMatch.theySay);
         ReadMessage(ObjRead, theySaySave, Gender || 1, 0.75);
         if (closestMatch.action) {
-          SetPickData([...PickData, closestMatch.action.slice(6)]);
+          SetAction(closestMatch.action[0].slice(6));
         }
       }
     } catch (error) {}
@@ -392,9 +402,13 @@ function GetDocument() {
                         </h5>
                       </div>
                     ) : null}
-                    {Index === i && i1 === 0
-                      ? JSON.stringify(SubmitSets)
-                      : null}
+                    {Index === i && i1 === 0 ? (
+                      <>
+                        {JSON.stringify(SubmitSets)}
+                        <br />
+                        {JSON.stringify(PickData)}
+                      </>
+                    ) : null}
 
                     {Index === i && i1 === 0 && SubmitSets.includes("FN01") ? (
                       <div>
