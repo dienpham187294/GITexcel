@@ -392,14 +392,17 @@ function GetDocument() {
                           opacity: e1.notify ? 1 : 0,
                         }}
                       >
-                        <h5
-                          style={{
-                            color: "blue",
-                            transition: "color 1s ease-in-out",
-                          }}
-                        >
-                          {e1.notify}
-                        </h5>
+                        {e1.notify.map((e, i) => (
+                          <h5
+                            key={i}
+                            style={{
+                              color: "blue",
+                              transition: "color 1s ease-in-out",
+                            }}
+                          >
+                            + {e}
+                          </h5>
+                        ))}
                       </div>
                     ) : null}
                     {Index === i && i1 === 0 ? (
