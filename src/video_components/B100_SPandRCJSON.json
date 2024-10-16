@@ -1,0 +1,189 @@
+[
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Trường hợp 1",
+    "column": "D1",
+    "imgInDiv": null,
+    "textInDiv": "Trường hợp 1",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
+  },
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Một người khách đến với khách sạn.",
+    "column": "D1",
+    "imgInDiv": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+    "textInDiv": null,
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
+  },
+  {
+    "lang": null,
+    "rate": null,
+    "textToSpeak": null,
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Đặt phòng",
+    "textAppear": null,
+    "clickAnimation": "click",
+    "divCss": "{\"width\":\"200px\", \"border\":\"1px solid black\"}"
+  },
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Chúng ta hỏi nhu cầu của khách hàng.",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Chúng ta hỏi nhu cầu của khách hàng.",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
+  },
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Và được đáp rằng: Tôi muốn đặt khách sạn.",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Và được đáp rằng: Tôi muốn đặt khách sạn.",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
+  },
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Qua câu trả lời trên, chúng ta xác định được nhu cầu cơ bản đầu tiên và điền vào hệ thống.",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Qua câu trả lời trên, chúng ta xác định được nhu cầu cơ bản đầu tiên và điền vào hệ thống.",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
+  },
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Tiếp theo hệ thống yêu cầu cần xác định 2 thông tin là thời gian lưu trú của khách hàng và loại phòng khách hàng mong muốn nhằm xác định xem còn phòng theo nhu cầu của khách hàng hay không.",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Tiếp theo hệ thống yêu cầu cần xác định 2 thông tin là thời gian lưu trú của khách hàng và loại phòng khách hàng mong muốn nhằm xác định xem còn phòng theo nhu cầu của khách hàng hay không.",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
+  },
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Khách hàng sẽ lưu trú bao nhiêu ngày?",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Khách hàng sẽ lưu trú bao nhiêu ngày?",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
+  },
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Nhận câu trả lời và điền vào hệ thống.",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Nhận câu trả lời và điền vào hệ thống.",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
+  },
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Loại phòng khách hàng yêu cầu là gì?",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Loại phòng khách hàng yêu cầu là gì?",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
+  },
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Sau khi nghe đầy đủ thông tin và hoàn thành theo yêu cầu của hệ thống.",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Sau khi nghe đầy đủ thông tin và hoàn thành theo yêu cầu của hệ thống.",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
+  },
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Một bảng thông tin được tra cứu sẽ hiển thị và cho biết có phòng theo yêu cầu của khách hay không.",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Một bảng thông tin được tra cứu sẽ hiển thị và cho biết có phòng theo yêu cầu của khách hay không.",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
+  },
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Tiếp theo chúng ta dựa vào bảng thông tin và thông báo tình trạng phòng đến khách hàng.",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Tiếp theo chúng ta dựa vào bảng thông tin và thông báo tình trạng phòng đến khách hàng.",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
+  },
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Như bảng thông tin ở trên, trường hợp này, phòng đã hết.",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Như bảng thông tin ở trên, trường hợp này, phòng đã hết.",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
+  },
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Hãy thông báo với khách hàng rằng:",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Hãy thông báo với khách hàng rằng:",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
+  },
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Xin lỗi phòng đã hết. Mong rằng được phục vụ quý khách lần sau.",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Xin lỗi phòng đã hết. Mong rằng được phục vụ quý khách lần sau.",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
+  },
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Nếu khách hàng không yêu cầu gì thêm. Đoạn hội thoại kết thúc tại đây.",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Nếu khách hàng không yêu cầu gì thêm. Đoạn hội thoại kết thúc tại đây.",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
+  }
+]

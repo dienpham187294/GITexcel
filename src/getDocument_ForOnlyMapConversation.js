@@ -284,7 +284,8 @@ function GetDocument() {
         {/* <button className="btn btn-primary" onClick={() => hr}>
           Cùng thực hành thử
         </button> */}
-        <a href="/test"> Cùng thực hành thử</a>
+        {/* <a href="/test"> Cùng thực hành thử</a> */}
+        <a href="/video"> Sản xuất video</a>
         <hr />
         <div id="ResID" style={{ padding: "15px" }}></div>
       </div>

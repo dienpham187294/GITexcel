@@ -26,3 +26,119 @@
   font-weight: bold; /* Đậm nét chữ */
   cursor: pointer; /* Thêm hiệu ứng con trỏ khi di chuột */
 }
+
+/* Đặt phần tử nơi văn bản xuất hiện */
+#typing-element {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+  color: black;
+  border-right: 2px solid; /* Tạo hiệu ứng con trỏ */
+  width: fit-content;
+  white-space: nowrap; /* Không cho chữ xuống dòng */
+  overflow: hidden; /* Đảm bảo nội dung không tràn ra */
+}
+
+/* Hiệu ứng con trỏ nhấp nháy */
+@keyframes blink {
+  0% {
+    border-right-color: black;
+  }
+  50% {
+    border-right-color: transparent;
+  }
+  100% {
+    border-right-color: black;
+  }
+}
+
+#typing-element {
+  animation: blink 1s step-end infinite; /* Tạo hiệu ứng nhấp nháy cho con trỏ */
+}
+
+/* Hiệu ứng pop-in */
+@keyframes popIn {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pop-in {
+  animation: popIn 3s ease-in-out forwards;
+}
+
+/* Hiệu ứng fade-in */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 2s ease-in forwards;
+}
+
+/* Hiệu ứng fade-out */
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.fade-out {
+  animation: fadeOut 3s ease-out forwards;
+}
+
+/* Hiệu ứng xoay vòng */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate {
+  animation: rotate 2s linear infinite;
+}
+
+/* Di chuyển từ phải vào */
+@keyframes moveInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.move-in-right {
+  animation: moveInRight 2s ease-in forwards;
+}
+
+/* Di chuyển từ trên xuống */
+@keyframes moveInTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.move-in-top {
+  animation: moveInTop 2s ease-in forwards;
+}

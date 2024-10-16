@@ -1,253 +1,189 @@
-{
-  "id01": {
-    "01": [
-      { "id": "01-01-weSay-01", "content": "Hello! How can I help you?" },
-      {
-        "id": "01-01-theySay-01",
-        "content": "Hi! I would like to make a reservation"
-      },
-      {
-        "id": "01-01-pickingList-01",
-        "content": "Customer Need; Booking; Check-in; Check-out; Laundry; Cleaning; Order Food; Reserve Restaurant; Reserve Coffee; Lost and Found; Book a Taxi;"
-      },
-      { "id": "01-01-submitList-01", "content": "Booking" }
-    ]
+[
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Trường hợp 2",
+    "column": "D1",
+    "imgInDiv": null,
+    "textInDiv": "Trường hợp 2",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
   },
-  "id02": {
-    "01": [
-      {
-        "id": "02-01-guideTable-01",
-        "content": "[[[1,\"How many people will stay?\"],[1,\"For how many nights?\"],[1,\"What date do you want to check in?\"],[1,\"What type of room do you prefer?\"]]]"
-      },
-      { "id": "02-01-weSay-01", "content": "How many people will stay?" },
-      { "id": "02-01-theySay-01", "content": "There are two people." },
-      {
-        "id": "02-01-pickingList-01",
-        "content": "Guest numbers; 1 person ;2 people ;3-5 people ;7-9 people ; Other;"
-      },
-      { "id": "02-01-submitList-01", "content": "2 people" }
-    ],
-    "02": [
-      { "id": "02-02-weSay-01", "content": "For how many nights?" },
-      { "id": "02-02-theySay-01", "content": "We will stay for three nights." },
-      {
-        "id": "02-02-pickingList-01",
-        "content": "Duration;1 night ;2 nights ;3 nights ;4 nights ;5 nights"
-      },
-      { "id": "02-02-submitList-01", "content": "3 nights" }
-    ],
-    "03": [
-      {
-        "id": "02-03-weSay-01",
-        "content": "What date do you want to check in?"
-      },
-      {
-        "id": "02-03-theySay-01",
-        "content": "We want to check in on October 15th."
-      },
-      {
-        "id": "02-03-pickingList-01",
-        "content": "Date; October 15th;October 17th; November 18th; December 15th; February 17th;"
-      },
-      { "id": "02-03-submitList-01", "content": "October 15th" }
-    ],
-    "04": [
-      { "id": "02-04-weSay-01", "content": "What type of room do you prefer?" },
-      { "id": "02-04-theySay-01", "content": "I would like to book a suite" },
-      {
-        "id": "02-04-pickingList-01",
-        "content": "Room Types; Single Room; Double Room; Deluxe Room; Suite; Family Room"
-      },
-      { "id": "02-04-submitList-01", "content": "Suite" }
-    ]
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Một người khách đến với khách sạn.",
+    "column": "D1",
+    "imgInDiv": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+    "textInDiv": null,
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
   },
-  "id03": {
-    "01": [
-      {
-        "id": "03-01-notify-01",
-        "content": "Room Information Found - Notify to guest"
-      },
-      {
-        "id": "03-01-guideTable-01",
-        "content": "[[[1,\"Room available\",\"We have [ Room Type] room available on that day with [ View] and [Price] per night, Do you want to book it now\"],[1,\"Full\",\"Sorry, we are fully booked on that day\"]]]"
-      },
-      {
-        "id": "03-01-detailTable-01",
-        "content": "[[[1,\"Room Types\",\"View\",\"Price / per night\",\"Room Available\"],[1,\"Single Room\",\"City View\",100,2],[1,\"Double Room\",\"Garden View\",150,3],[1,\"Deluxe Room\",\"Sea View\",200,5],[1,\"Suite\",\"Mountain View\",300,1],[1,\"Family Room\",\"Pool View\",250,\"Full\"]]]"
-      },
-      {
-        "id": "03-01-weSay-01",
-        "content": "We have the suite room available on that day with Mountain view and 300 $ per night, do you want to book it now?"
-      },
-      {
-        "id": "03-01-theySay-01",
-        "content": "That sounds good, i will take this room"
-      },
-      { "id": "03-01-action-01", "content": "SubmitFN01" },
-      { "id": "03-01-submitList-01", "content": "FN01" }
-    ]
+  {
+    "lang": null,
+    "rate": null,
+    "textToSpeak": null,
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Đặt phòng",
+    "textAppear": null,
+    "clickAnimation": "click",
+    "divCss": "{\"width\":\"200px\", \"border\":\"1px solid black\"}"
   },
-  "id04": {
-    "01": [
-      {
-        "id": "04-01-guideTable-01",
-        "content": "[[[1,\"Would you like to add breakfast to your stay? It's 35$\"],[1,\"Do you have any special request?\"]]]"
-      },
-      { "id": "04-01-notify-01", "content": "Reservation is in progress" },
-      {
-        "id": "04-01-weSay-01",
-        "content": "Would you like to add breakfast to your stay? It's 35$"
-      },
-      { "id": "04-01-theySay-01", "content": "Yes, please" },
-      {
-        "id": "04-01-pickingList-01",
-        "content": "Breakfast status; Included; NOT"
-      },
-      { "id": "04-01-submitList-01", "content": "Included" }
-    ],
-    "02": [
-      { "id": "04-02-weSay-01", "content": "Do you have any special request?" },
-      { "id": "04-02-theySay-01", "content": "I want to have dietary meal" },
-      {
-        "id": "04-02-pickingList-01",
-        "content": "Special request; Check in early; Dietary Meal; Allergy; Other"
-      },
-      { "id": "04-02-submitList-01", "content": "Dietary Meal" }
-    ]
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Chúng ta hỏi nhu cầu của khách hàng.",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Chúng ta hỏi nhu cầu của khách hàng.",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
   },
-  "id05": {
-    "01": [
-      {
-        "id": "05-01-guideTable-01",
-        "content": "[[[1,\"What type of dietary meal do you prefer? , Or What kind of dietary meal do you require?\"]]]"
-      },
-      { "id": "05-01-notify-01", "content": "Dietary Meal request" },
-      {
-        "id": "05-01-weSay-01",
-        "content": "What type of dietary meal do you prefer? \\\\ What kind of dietary meal do you require?"
-      },
-      { "id": "05-01-theySay-01", "content": "I'm a vegan" },
-      {
-        "id": "05-01-pickingList-01",
-        "content": "Meal type; Gluten-free; Vegetarian; Vegan; Other;"
-      },
-      { "id": "05-01-submitList-01", "content": "Vegan" }
-    ]
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Và được đáp rằng: Tôi muốn đặt khách sạn.",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Và được đáp rằng: Tôi muốn đặt khách sạn.",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
   },
-  "id06": {
-    "01": [
-      { "id": "06-01-notify-01", "content": null },
-      { "id": "06-01-guideTable-01", "content": null },
-      { "id": "06-01-weSay-01", "content": null },
-      { "id": "06-01-theySay-01", "content": null },
-      { "id": "06-01-pickingList-01", "content": null },
-      { "id": "06-01-submitList-01", "content": null }
-    ]
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Qua câu trả lời trên, chúng ta xác định được nhu cầu cơ bản đầu tiên và điền vào hệ thống.",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Qua câu trả lời trên, chúng ta xác định được nhu cầu cơ bản đầu tiên và điền vào hệ thống.",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
   },
-  "id07": {
-    "01": [
-      {
-        "id": "07-01-guideTable-01",
-        "content": "[[[1,\"May I have your name for reservation? Or What is your name?\"],[1,\"What is your phone number? or May I have your phone number to confirm?\"]]]"
-      },
-      { "id": "07-01-notify-01", "content": "Booking Information Progress" },
-      {
-        "id": "07-01-weSay-01",
-        "content": "May I have your name for reservation? \\\\ What is your name?"
-      },
-      { "id": "07-01-theySay-01", "content": "My name is Sarah Johnson" },
-      {
-        "id": "07-01-pickingList-01",
-        "content": "Reservation name; Sarah Johnson; John Smith; Emily Davis; Michael Brown; Lisa White;"
-      },
-      { "id": "07-01-submitList-01", "content": "Sarah Johnson" }
-    ],
-    "02": [
-      {
-        "id": "07-02-weSay-01",
-        "content": "What is your phone number? \\\\ May I have your phone number to confirm?"
-      },
-      { "id": "07-02-theySay-01", "content": "my phone is 8792456" },
-      {
-        "id": "07-02-pickingList-01",
-        "content": "Phone number; 8792456; 3421987; 5638420; 4716395; 2057843;"
-      },
-      { "id": "07-02-submitList-01", "content": 8792456 }
-    ]
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Tiếp theo hệ thống yêu cầu cần xác định 2 thông tin là thời gian lưu trú của khách hàng và loại phòng khách hàng mong muốn nhằm xác định xem còn phòng theo nhu cầu của khách hàng hay không.",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Tiếp theo hệ thống yêu cầu cần xác định 2 thông tin là thời gian lưu trú của khách hàng và loại phòng khách hàng mong muốn nhằm xác định xem còn phòng theo nhu cầu của khách hàng hay không.",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
   },
-  "id08": {
-    "01": [
-      { "id": "08-01-notify-01", "content": "Total Fee: 1100" },
-      {
-        "id": "08-01-guideTable-01",
-        "content": "[[[1,\"Your total fee is 1100$\"]]]"
-      },
-      {
-        "id": "08-01-detailTable-01",
-        "content": "[[[1,\"Booking Receipt\",null,null],[1,null,\"Type\",\"Price\"],[1,1,\"Room Fee\",900],[1,2,\"Breakfast\",210],[1,3,\"Total\",1100]]]"
-      },
-      { "id": "08-01-weSay-01", "content": "Your total fee is 1100$" },
-      { "id": "08-01-theySay-01", "content": "Ok, I got it" },
-      { "id": "08-01-action-01", "content": "SubmitFN01" },
-      { "id": "08-01-submitList-01", "content": "FN01" }
-    ]
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Khách hàng sẽ lưu trú bao nhiêu ngày?",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Khách hàng sẽ lưu trú bao nhiêu ngày?",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
   },
-  "id09": {
-    "01": [
-      { "id": "09-01-notify-01", "content": "Payment Status" },
-      {
-        "id": "09-01-guideTable-01",
-        "content": "[[[1,\"Do you want to pay now or when you check in ?\"]]]"
-      },
-      { "id": "09-01-detailTable-01", "content": null },
-      {
-        "id": "09-01-weSay-01",
-        "content": "Do you want to pay now or when you check in?"
-      },
-      { "id": "09-01-theySay-01", "content": "I'll pay now" },
-      { "id": "09-01-pickingList-01", "content": "Payment; Now; Later" },
-      { "id": "09-01-submitList-01", "content": "Now" }
-    ]
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Nhận câu trả lời và điền vào hệ thống.",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Nhận câu trả lời và điền vào hệ thống.",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
   },
-  "id10": {
-    "01": [
-      {
-        "id": "10-01-guideTable-01",
-        "content": "[[[1,\"What is your card number? \"],[1,\"and the expiration date?\"]]]"
-      },
-      { "id": "10-01-notify-01", "content": "Payment Progress" },
-      { "id": "10-01-weSay-01", "content": "What is your card number?" },
-      { "id": "10-01-theySay-01", "content": "My card number is 45721" },
-      {
-        "id": "10-01-pickingList-01",
-        "content": "Card number; 45721; 83496; 19673; 30258; 87412;"
-      },
-      { "id": "10-01-submitList-01", "content": 45721 }
-    ],
-    "02": [
-      { "id": "10-02-weSay-01", "content": "and the expiration date?" },
-      { "id": "10-02-theySay-01", "content": "25-December;" },
-      {
-        "id": "10-02-pickingList-01",
-        "content": "Expiration Date; 25-December; 24-November; 26-September; 25-May; 27-January;"
-      },
-      { "id": "10-02-submitList-01", "content": "25-December;" }
-    ]
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Loại phòng khách hàng yêu cầu là gì?",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Loại phòng khách hàng yêu cầu là gì?",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
   },
-  "id11": {
-    "01": [
-      { "id": "11-01-notify-01", "content": "Done: Booking number X245" },
-      {
-        "id": "11-01-guideTable-01",
-        "content": "[[[1,\"You are Done, Your booking number is X234\"]]]"
-      },
-      {
-        "id": "11-01-weSay-01",
-        "content": "You are Done, Your booking number is X234"
-      },
-      { "id": "11-01-theySay-01", "content": "Thank you very much" },
-      { "id": "11-01-action-01", "content": "SubmitFN01" },
-      { "id": "11-01-submitList-01", "content": "FN01" }
-    ]
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Sau khi nghe đầy đủ thông tin và hoàn thành theo yêu cầu của hệ thống.",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Sau khi nghe đầy đủ thông tin và hoàn thành theo yêu cầu của hệ thống.",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
+  },
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Một bảng thông tin được tra cứu sẽ hiển thị và cho biết có phòng theo yêu cầu của khách hay không.",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Một bảng thông tin được tra cứu sẽ hiển thị và cho biết có phòng theo yêu cầu của khách hay không.",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
+  },
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Tiếp theo chúng ta dựa vào bảng thông tin và thông báo tình trạng phòng đến khách hàng.",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Tiếp theo chúng ta dựa vào bảng thông tin và thông báo tình trạng phòng đến khách hàng.",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
+  },
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Như bảng thông tin ở trên, trường hợp này, phòng đã hết.",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Như bảng thông tin ở trên, trường hợp này, phòng đã hết.",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
+  },
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Hãy thông báo với khách hàng rằng:",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Hãy thông báo với khách hàng rằng:",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
+  },
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Xin lỗi phòng đã hết. Mong rằng được phục vụ quý khách lần sau.",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Xin lỗi phòng đã hết. Mong rằng được phục vụ quý khách lần sau.",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
+  },
+  {
+    "lang": 316,
+    "rate": 1.3,
+    "textToSpeak": "Nếu khách hàng không yêu cầu gì thêm. Đoạn hội thoại kết thúc tại đây.",
+    "column": "D2",
+    "imgInDiv": null,
+    "textInDiv": "Nếu khách hàng không yêu cầu gì thêm. Đoạn hội thoại kết thúc tại đây.",
+    "textAppear": "normal",
+    "clickAnimation": null,
+    "divCss": "{\n \"width\": \"100%\",\n \"height\": \"auto\",\n \"backgroundColor\": \"#f0f0f0\",\n \"border\": \"1px solid black\",\n \"borderRadius\": \"5px\",\n \"boxShadow\": \"10px 10px 5px rgba(0, 0, 0, 0.1)\",\n \"color\": \"blue\",\n \"fontSize\": \"large\",\n \"fontWeight\": \"bold\",\n \"textAlign\": \"center\",\n \"padding\": \"5px\",\n \"margin\": \"5px\",\n \"display\": \"flex\",\n \"justifyContent\": \"center\",\n \"alignItems\": \"center\",\n \"zIndex\": 1,\n \"transition\": \"all 2s\",\n \"transform\": \"none\",\n \"animation\": \"fadeIn 2s ease-in\"\n}"
   }
-}
+]
