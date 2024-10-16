@@ -189,8 +189,9 @@ const ContentDiv = ({ rateDiv, actionSet, setActionSTT }) => {
           src: imageUrl, // Đặt đường dẫn đến hình ảnh
           alt: "Mô tả hình ảnh", // Thêm thuộc tính alt
           css: {
-            width: "100px", // Đặt kích thước hình ảnh
-            height: "100px", // Đặt kích thước hình ảnh
+            width: "100%", // Đặt chiều rộng bằng 100% của parent
+            height: "100%", // Đặt chiều cao bằng 100% của parent
+            objectFit: "cover", // Đảm bảo hình ảnh giữ tỉ lệ và bao phủ toàn bộ khung chứa
           },
         });
 
