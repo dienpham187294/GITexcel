@@ -108,17 +108,34 @@ const TextToSpeech = () => {
         const voices = window.speechSynthesis.getVoices();
         utterance.voice = voices[lang];
         speechSynthesis.speak(utterance);
-        utterance.onend = () => {
-          if (index + 1 < sets.length) {
-            setReadSTT((D) => D + 1);
-          } else {
-            // readobj([]);
-            setText("Done!");
-            // stopAudio();
-            const stopButton = document.getElementById("stopbutton");
-            stopButton.click();
+
+        utterance.onboundary = (event) => {
+          if (
+            event.name === "word" &&
+            event.charIndex > textToSpeak.length - 20
+          ) {
+            if (index + 1 < sets.length) {
+              setReadSTT((D) => D + 1);
+            } else {
+              setText("Done!");
+              // stopAudio();
+              const stopButton = document.getElementById("stopbutton");
+              stopButton.click();
+            }
           }
         };
+
+        // utterance.onend = () => {
+        //   if (index + 1 < sets.length) {
+        //     setReadSTT((D) => D + 1);
+        //   } else {
+        //     // readobj([]);
+        //     setText("Done!");
+        //     // stopAudio();
+        //     const stopButton = document.getElementById("stopbutton");
+        //     stopButton.click();
+        //   }
+        // };
       } else {
         setReadSTT((D) => D + 1);
       }
@@ -170,8 +187,7 @@ const TextToSpeech = () => {
 
   return (
     <div>
-      <div className="row">
-        Action: {ActionSTT}-Read:{ReadSTT}
+      <div>
         <div
           style={{
             width: 43 * rateDiv + "vw",
@@ -179,6 +195,7 @@ const TextToSpeech = () => {
             position:
               "relative" /* Đảm bảo rằng các div khác có thể nổi trên video */,
             overflow: "hidden",
+            marginLeft: rateDiv * 2 + "vw",
           }}
           className="coverCanvas"
         >
@@ -188,79 +205,8 @@ const TextToSpeech = () => {
             actionSet={ActionSet}
             setActionSTT={setActionSTT}
           />
-          {/* <div>
-            <div
-              style={{
-                marginTop: "5vh",
-                height: "40vh",
-                width: "100%",
-                border: "1px solid black",
-                backgroundColor: "rgba(0, 0, 0, 0.6)",
-                borderRadius: "15px",
-                display: "flex",
-              }}
-            >
-              <div
-                className="col-6"
-                style={{
-                  flex: "1",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                }}
-              >
-                <div className="imgCanvas">
-                  <img
-                    src={backgroundImage}
-                    alt={`img-${backgroundImage}`}
-                    style={{
-                      maxHeight: "80%",
-                      maxWidth: "80%",
-                      objectFit: "contain",
-                      borderRadius: "15px",
-                    }}
-                  />
-                </div>
-              </div>
-              <div
-                className="col-6"
-                style={{
-                  flex: "2",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  whiteSpace: "pre-line",
-                }}
-              >
-                {" "}
-                {ActionSet ? (
-                  <div
-                    style={{
-                      backgroundColor: "white",
-                      borderRadius: "10px",
-                      padding: "15px",
-                      minWidth: "150px",
-                      color: "blue",
-                    }}
-                  >
-                    {ActionSet}
-                  </div>
-                ) : null}{" "}
-                <i
-                  style={{
-                    color: "white",
-                    textAlign: "center",
-                    fontSize: "small",
-                  }}
-                >
-                  {text}
-                </i>
-              </div>
-            </div>
-            <div> {text && <div></div>}</div>
-          </div> */}
         </div>
-        <div className="col-3">
+        <div className="col-12">
           {JSON.stringify(voiceSetup)}
           {InputData ? (
             <button onClick={() => startSpeaking()}>Speak sets</button>
@@ -275,7 +221,7 @@ const TextToSpeech = () => {
           </p>
         </div>
         <div className="col-6"></div>
-        <div className="col-3" style={{ height: "600px" }}>
+        <div className="col-3">
           <div>
             <button onClick={playAudio}>Phát âm thanh</button>
             <button id="stopbutton" onClick={stopAudio}>
@@ -328,6 +274,7 @@ const TextToSpeech = () => {
             >
               TimeYoutube 16
             </button>
+            Action: {ActionSTT}-Read:{ReadSTT}
           </div>
 
           {/* <VoiceList /> */}

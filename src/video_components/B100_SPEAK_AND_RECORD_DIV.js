@@ -52,76 +52,11 @@ const ContentDiv = ({ rateDiv, actionSet, setActionSTT }) => {
       if (actionSet.imgInDiv) {
         addImageToDiv(idNew, actionSet.imgInDiv);
       }
-
-      // let predex = "chatDIVD1";
-      // let action = " actionSet.slice(2)";
-      // if (action.includes("DIV:")) {
-      //   let text = action.slice(4);
-      //   addDiv(predex, "div", text, "a" + Date.now());
-      // } else if (action.includes("H1:")) {
-      //   let newID = "H1" + Date.now();
-      //   addDiv(predex, "h1", "", newID);
-      //   let text = action.split(":")[1];
-      //   typeEffect(newID, text.split(""), 100);
-      // } else if (action.includes("IMG:")) {
-      //   let newID = "IMG" + Date.now();
-      //   addDiv(predex, "div", "", newID);
-      //   let img = action.slice(4);
-      //   addImageToDiv(newID, img);
-      //   // typeEffect(newID, img.split(""), 100);
-      // } else if (action.includes("U:")) {
-      //   let newID = "IMG" + Date.now();
-      //   addDiv(predex, "div", "", newID, {
-      //     borderBottom: "5px solid blue",
-      //     fontSize: "20px",
-      //   });
-      //   let text = action.slice(2);
-      //   $("#" + newID).text(text);
-      //   setActionSTT((D) => D + 1);
-      //   // addImageToDiv(newID, img);
-      //   // typeEffect(newID, img.split(""), 100);
-      // } else if (action.includes("P:")) {
-      //   let newID = "" + Date.now();
-      //   addDiv(
-      //     predex,
-      //     "div",
-      //     action.slice(2),
-      //     newID,
-      //     {
-      //       marginTop: "5px",
-      //       border: "1px solid black",
-      //       borderRadius: "10px",
-      //       padding: "15px",
-      //       width: "200px",
-      //       // height: "50px",
-      //       backgroundColor: "white",
-      //       color: "blue", // Đặt màu chữ
-      //       fontSize: "16px", // Thêm bất kỳ thuộc tính CSS khác
-      //       fontWeight: "800",
-      //     },
-      //     "still"
-      //   );
-      //   setTimeout(() => {
-      //     simulateSelection(newID);
-      //   }, 2000);
-      //   // let img = action.slice(4);
-      //   // addImageToDiv(newID, img);
-      //   // typeEffect(newID, img.split(""), 100);
-      // } else {
-      //   let newID = "p" + Date.now();
-      //   addDiv(predex, "p", "", newID);
-      //   typeEffect(newID, action.split(""), 100);
-      // }
+    } else {
+      setActionSTT((D) => D + 1);
     }
   }, [actionSet]);
 
-  // useEffect(() => {
-  //   if (border !== "") {
-  //     scrollToTopInMindmap(border + "cellTableID");
-  //     setBorderSets((previous) => [...previous, border + "cellTableID"]); // Đảm bảo cập nhật từ giá trị trước đó
-  //   }
-  // }, [border]);
-  // Hàm để clear tất cả nội dung trong bảng
   const clearTable = () => {
     cellSets.forEach((eCol) => {
       cellSets.forEach((eRow) => {
@@ -310,7 +245,7 @@ const ContentDiv = ({ rateDiv, actionSet, setActionSTT }) => {
   return (
     <div
       style={{
-        marginTop: "2vh",
+        marginTop: rateDiv * 5 + "vh",
         height: 40 * rateDiv + "vh",
         width: "100%",
         border: "1px solid black",
