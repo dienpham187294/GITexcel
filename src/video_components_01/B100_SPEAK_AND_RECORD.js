@@ -75,6 +75,7 @@ const TextToSpeech = () => {
         rate,
         textToSpeak,
         column,
+        action,
         divCss,
         divAppear,
         imgInDiv,
@@ -83,10 +84,16 @@ const TextToSpeech = () => {
         clickAnimation,
       } = sets[index];
 
+      if (textToSpeak === "") {
+        console.log("textToSpeak");
+      }
+      console.log(textToSpeak);
+
       setText(textToSpeak);
 
       setActionSet({
         column,
+        action,
         divCss,
         divAppear,
         imgInDiv,
@@ -94,26 +101,24 @@ const TextToSpeech = () => {
         textAppear,
         clickAnimation,
       });
-      // setBorder(border);
-      // showFloatingText(text);
-      // setBackgroundImage(img);
 
-      // if (divCss === null) {
-      //   setActionSTT((D) => D + 1);
-      // }
-
-      if (textToSpeak !== null) {
+      if (textToSpeak) {
         const utterance = new SpeechSynthesisUtterance(textToSpeak);
-        utterance.rate = rate;
+        utterance.rate = rate || 1.3;
         const voices = window.speechSynthesis.getVoices();
-        utterance.voice = voices[lang];
+        utterance.voice = voices[lang || 315];
         speechSynthesis.speak(utterance);
-
+        let stt;
+        utterance.onstart = () => {
+          stt = false;
+        };
         utterance.onboundary = (event) => {
           if (
             event.name === "word" &&
-            event.charIndex > textToSpeak.length - 20
+            event.charIndex > textToSpeak.length - 20 &&
+            !stt
           ) {
+            stt = true;
             if (index + 1 < sets.length) {
               setReadSTT((D) => D + 1);
             } else {

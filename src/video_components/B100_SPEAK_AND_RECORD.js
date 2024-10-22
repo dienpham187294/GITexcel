@@ -108,34 +108,38 @@ const TextToSpeech = () => {
         const voices = window.speechSynthesis.getVoices();
         utterance.voice = voices[lang];
         speechSynthesis.speak(utterance);
-
-        utterance.onboundary = (event) => {
-          if (
-            event.name === "word" &&
-            event.charIndex > textToSpeak.length - 20
-          ) {
-            if (index + 1 < sets.length) {
-              setReadSTT((D) => D + 1);
-            } else {
-              setText("Done!");
-              // stopAudio();
-              const stopButton = document.getElementById("stopbutton");
-              stopButton.click();
-            }
-          }
+        let stt;
+        utterance.onstart = () => {
+          stt = false;
         };
 
-        // utterance.onend = () => {
-        //   if (index + 1 < sets.length) {
-        //     setReadSTT((D) => D + 1);
-        //   } else {
-        //     // readobj([]);
-        //     setText("Done!");
-        //     // stopAudio();
-        //     const stopButton = document.getElementById("stopbutton");
-        //     stopButton.click();
+        // utterance.onboundary = (event) => {
+        //   if (
+        //     event.name === "word" &&
+        //     event.charIndex > textToSpeak.length - 20
+        //   ) {
+        //     if (index + 1 < sets.length) {
+        //       setReadSTT((D) => D + 1);
+        //     } else {
+        //       setText("Done!");
+        //       // stopAudio();
+        //       const stopButton = document.getElementById("stopbutton");
+        //       stopButton.click();
+        //     }
         //   }
         // };
+
+        utterance.onend = () => {
+          if (index + 1 < sets.length) {
+            setReadSTT((D) => D + 1);
+          } else {
+            // readobj([]);
+            setText("Done!");
+            // stopAudio();
+            const stopButton = document.getElementById("stopbutton");
+            stopButton.click();
+          }
+        };
       } else {
         setReadSTT((D) => D + 1);
       }

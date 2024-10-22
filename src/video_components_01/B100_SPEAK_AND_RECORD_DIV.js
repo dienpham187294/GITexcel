@@ -13,44 +13,121 @@ const ContentDiv = ({ rateDiv, actionSet, setActionSTT }) => {
     }
   }, [Index]);
 
+  const NextAction = () => {
+    setActionSTT((D) => D + 1);
+  };
+
   useEffect(() => {
     // actionSet
     // console.log(actionSet.divCss);
     if (
-      actionSet.divCss !== "" &&
-      actionSet.divCss !== null &&
-      actionSet.divCss !== undefined
+      actionSet.action !== "" &&
+      actionSet.action !== null &&
+      actionSet.action !== undefined
     ) {
-      let modeCss = {};
-      try {
-        modeCss = JSON.parse(actionSet.divCss);
-      } catch (error) {
-        console.log(error);
+      if (actionSet.action === "CenterDiv") {
+        createCenteredDiv();
+        typeEffect("centeredDiv", actionSet.textInDiv.split(""), 50);
+        return;
       }
 
-      let idNew = "a" + Date.now();
-      let divID = "chatDIV" + actionSet.column;
-
-      addDiv(divID, "div", "text", idNew, modeCss);
-
-      if (actionSet.clickAnimation) {
-        $("#" + idNew).text(actionSet.textInDiv);
+      if (actionSet.action.includes("Later:")) {
+        let time = parseInt(actionSet.action.slice(6));
         setTimeout(() => {
-          simulateSelection(idNew);
-        }, 2000);
+          // NextAction();
+          setActionSTT((D) => D + 1);
+        }, time);
+        return;
       }
 
-      if (!actionSet.clickAnimation && actionSet.textInDiv) {
-        if (actionSet.textAppear === "normal") {
-          $("#" + idNew).text(actionSet.textInDiv);
-          setActionSTT((D) => D + 1);
+      if (actionSet.action === "DeleteDivCenter") {
+        deleteCenteredDiv("centeredDiv");
+        NextAction();
+        return;
+      }
+      if (actionSet.action.includes("Clear:")) {
+        let id = actionSet.action.slice(6);
+        // smoothClearContent("chatDIVD1");
+        if (id === "All") {
+          smoothClearContent("chatDIVD1");
+          smoothClearContent("chatDIVD2");
+          NextAction();
         } else {
-          typeEffect(idNew, actionSet.textInDiv.split(""), 100);
+          smoothClearContent(id);
+          NextAction();
+        }
+        return;
+      }
+      if (actionSet.action === "AddDivDown") {
+        let modeCss = {};
+        try {
+          if (actionSet.divCss) {
+            modeCss = JSON.parse(actionSet.divCss);
+          }
+        } catch (error) {
+          console.log(error);
+        }
+
+        let idNew = "a" + Date.now();
+        let divID = "chatDIV" + actionSet.column;
+
+        addDiv(divID, "div", "text", idNew, modeCss);
+
+        if (actionSet.clickAnimation) {
+          $("#" + idNew).text(actionSet.textInDiv);
+          setTimeout(() => {
+            simulateSelection(idNew);
+          }, 2000);
+        }
+
+        if (!actionSet.clickAnimation && actionSet.textInDiv) {
+          if (actionSet.textAppear === "normal") {
+            $("#" + idNew).text(actionSet.textInDiv);
+            setActionSTT((D) => D + 1);
+          } else {
+            typeEffect(idNew, actionSet.textInDiv.split(""), 35);
+          }
+        }
+
+        if (actionSet.imgInDiv) {
+          addImageToDiv(idNew, actionSet.imgInDiv);
         }
       }
 
-      if (actionSet.imgInDiv) {
-        addImageToDiv(idNew, actionSet.imgInDiv);
+      if (actionSet.action === "AddDivUp") {
+        let modeCss = {};
+        try {
+          if (actionSet.divCss) {
+            modeCss = JSON.parse(actionSet.divCss);
+          }
+        } catch (error) {
+          console.log(error);
+        }
+
+        let idNew = "a" + Date.now();
+        let divID = "chatDIV" + actionSet.column;
+
+        addDivUp(divID, "div", "text", idNew, modeCss);
+
+        if (actionSet.clickAnimation) {
+          $("#" + idNew).text(actionSet.textInDiv);
+          setTimeout(() => {
+            simulateSelection(idNew);
+          }, 2000);
+        }
+
+        if (!actionSet.clickAnimation && actionSet.textInDiv) {
+          if (actionSet.textAppear === "normal") {
+            $("#" + idNew).text(actionSet.textInDiv);
+            setActionSTT((D) => D + 1);
+          } else {
+            typeEffect(idNew, actionSet.textInDiv.split(""), 35);
+          }
+        }
+
+        if (actionSet.imgInDiv) {
+          addImageToDiv(idNew, actionSet.imgInDiv);
+        }
       }
     } else {
       setActionSTT((D) => D + 1);
@@ -113,6 +190,34 @@ const ContentDiv = ({ rateDiv, actionSet, setActionSTT }) => {
     }
   };
 
+  const addDivUp = (ID, type, text, newid, modeCss) => {
+    // Lấy phần tử bằng jQuery
+    const $element = $("#" + ID);
+
+    if ($element.length) {
+      // Kiểm tra xem phần tử có tồn tại không
+      // Tạo phần tử mới bằng jQuery
+      const $div = $("<" + type + ">", {
+        id: newid, // Đặt ID cho phần tử mới
+        // Thêm nội dung văn bản nếu có
+      });
+
+      $div.css(modeCss);
+
+      // $div.addClass("fade-in");
+
+      $element.prepend($div);
+
+      // Lưu phần tử div để có thể di chuyển sau này
+      // setDivElement($div[0]); // Lưu đối tượng DOM của div
+      $element.animate(
+        {
+          scrollTop: $element[0].scrollHeight,
+        },
+        1000
+      ); // Cuộn trong 500ms
+    }
+  };
   function addImageToDiv(id, imageUrl) {
     try {
       // Lấy phần tử bằng jQuery
@@ -242,8 +347,85 @@ const ContentDiv = ({ rateDiv, actionSet, setActionSTT }) => {
     }, 100); // Bắt đầu sau một khoảng thời gian nhỏ để đảm bảo sự mượt mà
   };
 
+  const createCenteredDiv = () => {
+    const parentElement = $("#ChatDivParent");
+    if (parentElement.length) {
+      // Tạo một div mới với kích thước 50% chiều rộng và chiều cao
+      const $newDiv = $("<div>", {
+        id: "centeredDiv", // ID cho div mới
+        css: {
+          width: "50%",
+          height: "50%",
+          backgroundColor: "transparent", // Màu nền cho dễ nhìn thấy
+          position: "absolute", // Đặt position absolute để căn giữa
+          top: "50%", // Căn giữa theo chiều dọc
+          left: "50%", // Căn giữa theo chiều ngang
+          transform: "translate(-50%, -50%)", // Dịch chuyển để căn giữa chính xác
+          display: "flex",
+          justifyContent: "center", // Đảm bảo nội dung bên trong căn giữa
+          alignItems: "center", // Căn giữa theo chiều dọc
+          border: "1px solid white",
+          borderRadius: "10px",
+          padding: "10px",
+          boxShadow: "2px 2px 10px rgba(0, 0, 0, 0.1)",
+          opacity: 1, // Bắt đầu với opacity đầy đủ
+          transition: "opacity 1s ease, transform 1s ease", // Hiệu ứng smooth khi biến mất
+          textAlign: "center",
+          fontSize: "45px",
+          fontWeight: "800",
+          fontFamily: "Dancing Script",
+        },
+      });
+
+      // Thêm nội dung vào div mới
+      // $newDiv.text("This is a centered div");
+
+      // Thêm div mới vào trong phần tử có id="ChatDivParent"
+      parentElement.append($newDiv);
+    }
+  };
+
+  const deleteCenteredDiv = (id) => {
+    const $centeredDiv = $("#" + id);
+
+    if ($centeredDiv.length) {
+      // Thêm hiệu ứng mờ dần và thu nhỏ về giữa trước khi xóa
+      $centeredDiv.css({
+        opacity: 0, // Làm mờ dần
+        transform: "translate(-50%, -50%) scale(0)", // Thu nhỏ về giữa
+        transition: "opacity 1s ease, transform 1s ease", // Thêm hiệu ứng chuyển đổi mượt mà
+      });
+
+      // Sau khi hiệu ứng hoàn tất (1 giây), xóa phần tử khỏi DOM
+      setTimeout(() => {
+        $centeredDiv.remove();
+      }, 1000); // Đợi 1 giây cho hiệu ứng hoàn tất trước khi xóa
+    }
+  };
+  function smoothClearContent(id) {
+    // Lấy phần tử dựa trên ID
+    const element = document.getElementById(id);
+
+    if (element) {
+      // Bước 1: Giảm dần opacity của tất cả các phần tử bên trong
+      element.style.transition = "opacity 1s ease"; // Thêm hiệu ứng smooth
+      element.style.opacity = 0; // Giảm opacity về 0
+
+      // Sau khi opacity giảm hết (sau 1 giây), xóa nội dung
+      setTimeout(() => {
+        element.innerHTML = ""; // Xóa nội dung của các phần tử bên trong
+
+        // Bước 2: Khôi phục lại opacity về 1
+        element.style.opacity = 1; // Khôi phục lại opacity về 1
+      }, 1000); // Đợi 1 giây trước khi xóa nội dung
+    } else {
+      console.error("Phần tử với ID " + id + " không tồn tại.");
+    }
+  }
+
   return (
     <div
+      id="ChatDivParent"
       style={{
         marginTop: rateDiv * 5 + "vh",
         height: 40 * rateDiv + "vh",
@@ -253,6 +435,7 @@ const ContentDiv = ({ rateDiv, actionSet, setActionSTT }) => {
         borderRadius: "15px",
         display: "flex",
         color: "white",
+        textAlign: "center",
       }}
     >
       <div className="row" style={{ width: "100%" }}>
@@ -265,6 +448,7 @@ const ContentDiv = ({ rateDiv, actionSet, setActionSTT }) => {
             padding: "10px",
             fontSize: "larger",
             marginTop: "10px",
+            justifyItems: "center",
           }}
         ></div>
         <div
@@ -287,6 +471,7 @@ const ContentDiv = ({ rateDiv, actionSet, setActionSTT }) => {
             padding: "20px",
             fontSize: "larger",
             marginTop: "20px",
+            justifyItems: "center",
           }}
         ></div>
       </div>
