@@ -1,17 +1,146 @@
-{
-  "width": "100%",
-  "height": "auto",
-  "backgroundColor": "transparent",
-  "border": "none",
-  "borderRadius": "0px",
-  "boxShadow": "10px 10px 5px rgba(0, 0, 0, 0.2)",
-  "color": "white",
-  "fontSize": "large",
-  "fontWeight": "bold",
-  "textAlign": "left",
-  "padding": "15px",
-  "margin": "25px",
-  "display": "block",
-  "transition": "all 2s",
-  "animation": "fadeIn 2s ease-in-out"
-}
+[
+  [
+    {
+      "imgCode": "A1",
+      "text": "Sóc Nhỏ là một chú sóc hiếu kỳ sống trong khu rừng. Một ngày, cậu gặp Gà Con, một bạn mới đáng yêu từ trang trại gần đó. Hai bạn quyết định cùng nhau khám phá khu rừng.",
+      "lang": 316,
+      "rate": 1.3,
+      "audioCode": "A1"
+    },
+    {
+      "imgCode": "A2",
+      "text": "Sóc Nhỏ dẫn Gà Con đi dạo qua những bụi cây lớn, nơi có nhiều loại côn trùng và hoa dại đầy màu sắc. Gà Con thích thú và khám phá từng chút một.",
+      "lang": 316,
+      "rate": 1.3,
+      "audioCode": "A2"
+    },
+    {
+      "imgCode": "A3",
+      "text": "Đột nhiên, Cáo xuất hiện từ bụi rậm. Sóc Nhỏ cảnh giác nhưng Cáo lại tỏ ra thân thiện và mời hai bạn đến chơi ở sông.",
+      "lang": 316,
+      "rate": 1.3,
+      "audioCode": "A3"
+    },
+    {
+      "imgCode": "A4",
+      "text": "Ba bạn đi đến dòng sông, nước trong veo và lấp lánh dưới ánh mặt trời. Gà Con lần đầu tiên thấy nước nhiều như vậy, rất hào hứng.",
+      "lang": 316,
+      "rate": 1.3,
+      "audioCode": "A4"
+    },
+    {
+      "imgCode": "A5",
+      "text": "Cáo đề nghị chơi trò nhảy qua những viên đá trên sông. Sóc Nhỏ nhảy trước, rồi đến lượt Cáo, còn Gà Con thì cẩn thận nhảy theo sau.",
+      "lang": 316,
+      "rate": 1.3,
+      "audioCode": "A5"
+    },
+    {
+      "imgCode": "A6",
+      "text": "Khi nhảy qua sông, cả ba bạn bắt gặp Nhím đang ngồi đọc sách bên bờ. Nhím vui vẻ mời cả ba đến ngồi nghe truyện.",
+      "lang": 316,
+      "rate": 1.3,
+      "audioCode": "A6"
+    },
+    {
+      "imgCode": "A7",
+      "text": "Nhím lấy ra một giỏ trái cây mà Nhím đã hái từ sáng, mời mọi người cùng ăn. Cả nhóm ngồi ăn và chia sẻ những câu chuyện hài hước.",
+      "lang": 316,
+      "rate": 1.3,
+      "audioCode": "A7"
+    },
+    {
+      "imgCode": "A8",
+      "text": "Cáo đề nghị một cuộc thi leo cây. Sóc Nhỏ leo lên nhanh nhất, trong khi Nhím và Gà Con cổ vũ từ dưới.",
+      "lang": 316,
+      "rate": 1.3,
+      "audioCode": "A8"
+    },
+    {
+      "imgCode": "A9",
+      "text": "Cuối ngày, cả nhóm ngồi bên bờ sông, nhìn lên bầu trời đầy sao và kể cho nhau nghe về những giấc mơ. Gà Con muốn đi du lịch khắp nơi, Cáo muốn làm thám tử, còn Sóc Nhỏ muốn trở thành nhà thám hiểm vĩ đại.",
+      "lang": 316,
+      "rate": 1.3,
+      "audioCode": "A9"
+    },
+    {
+      "imgCode": "A10",
+      "text": "Trời khuya, Sóc Nhỏ tạm biệt các bạn và hứa sẽ gặp lại vào ngày mai để cùng nhau khám phá nhiều điều thú vị hơn nữa trong rừng. Cả nhóm trở về nhà, lòng đầy vui sướng và hạnh phúc.",
+      "lang": 316,
+      "rate": 1.3,
+      "audioCode": "A10"
+    }
+  ],
+  [
+    {
+      "imgCode": "A1",
+      "text": "Sóc Nhỏ là một chú sóc hiếu kỳ sống trong khu rừng. Một ngày, cậu gặp Gà Con, một bạn mới đáng yêu từ trang trại gần đó. Hai bạn quyết định cùng nhau khám phá khu rừng.",
+      "lang": 316,
+      "rate": 1.3,
+      "audioCode": "B1"
+    },
+    {
+      "imgCode": "A2",
+      "text": "Sóc Nhỏ dẫn Gà Con đi dạo qua những bụi cây lớn, nơi có nhiều loại côn trùng và hoa dại đầy màu sắc. Gà Con thích thú và khám phá từng chút một.",
+      "lang": 316,
+      "rate": 1.3,
+      "audioCode": "B2"
+    },
+    {
+      "imgCode": "A3",
+      "text": "Đột nhiên, Cáo xuất hiện từ bụi rậm. Sóc Nhỏ cảnh giác nhưng Cáo lại tỏ ra thân thiện và mời hai bạn đến chơi ở sông.",
+      "lang": 316,
+      "rate": 1.3,
+      "audioCode": "B3"
+    },
+    {
+      "imgCode": "A4",
+      "text": "Ba bạn đi đến dòng sông, nước trong veo và lấp lánh dưới ánh mặt trời. Gà Con lần đầu tiên thấy nước nhiều như vậy, rất hào hứng.",
+      "lang": 316,
+      "rate": 1.3,
+      "audioCode": "B4"
+    },
+    {
+      "imgCode": "A5",
+      "text": "Cáo đề nghị chơi trò nhảy qua những viên đá trên sông. Sóc Nhỏ nhảy trước, rồi đến lượt Cáo, còn Gà Con thì cẩn thận nhảy theo sau.",
+      "lang": 316,
+      "rate": 1.3,
+      "audioCode": "B5"
+    },
+    {
+      "imgCode": "A6",
+      "text": "Khi nhảy qua sông, cả ba bạn bắt gặp Nhím đang ngồi đọc sách bên bờ. Nhím vui vẻ mời cả ba đến ngồi nghe truyện.",
+      "lang": 316,
+      "rate": 1.3,
+      "audioCode": "B6"
+    },
+    {
+      "imgCode": "A7",
+      "text": "Nhím lấy ra một giỏ trái cây mà Nhím đã hái từ sáng, mời mọi người cùng ăn. Cả nhóm ngồi ăn và chia sẻ những câu chuyện hài hước.",
+      "lang": 316,
+      "rate": 1.3,
+      "audioCode": "B7"
+    },
+    {
+      "imgCode": "A8",
+      "text": "Cáo đề nghị một cuộc thi leo cây. Sóc Nhỏ leo lên nhanh nhất, trong khi Nhím và Gà Con cổ vũ từ dưới.",
+      "lang": 316,
+      "rate": 1.3,
+      "audioCode": "B8"
+    },
+    {
+      "imgCode": "A9",
+      "text": "Cuối ngày, cả nhóm ngồi bên bờ sông, nhìn lên bầu trời đầy sao và kể cho nhau nghe về những giấc mơ. Gà Con muốn đi du lịch khắp nơi, Cáo muốn làm thám tử, còn Sóc Nhỏ muốn trở thành nhà thám hiểm vĩ đại.",
+      "lang": 316,
+      "rate": 1.3,
+      "audioCode": "B9"
+    },
+    {
+      "imgCode": "A10",
+      "text": "Trời khuya, Sóc Nhỏ tạm biệt các bạn và hứa sẽ gặp lại vào ngày mai để cùng nhau khám phá nhiều điều thú vị hơn nữa trong rừng. Cả nhóm trở về nhà, lòng đầy vui sướng và hạnh phúc.",
+      "lang": 316,
+      "rate": 1.3,
+      "audioCode": "B10"
+    }
+  ]
+]

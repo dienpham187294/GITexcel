@@ -1,4 +1,5 @@
 import $ from "jquery";
+import { json } from "react-router-dom";
 // import sound20 from "../3000tuthongdung/sounds20";
 // import T0_linkApi from "../../toolAll/T0_linkApi";
 
@@ -51,20 +52,22 @@ function NextStep_DontUnifile(input) {
     console.log(error);
   }
 }
+let parseDataInputSetIndexMark = [];
+let getINDEXfortable = [[], []];
+let ErrorSets = [];
+
 function fetchData() {
   try {
     let resIDText = $("#ResID").text(); // renamed input1 to resIDText
 
     let parseDataInput = JSON.parse(resIDText);
-
     let parseDataInputSet = [];
-
-    parseDataInput.forEach((e) => {
+    parseDataInput.forEach((e, indexOfParceData) => {
       if (!JSON.stringify(e).includes("id-01")) {
+        parseDataInputSetIndexMark.push("A" + indexOfParceData);
         parseDataInputSet.push(e);
       } else {
         let dataLength = e[0].length; // renamed setLength to dataLength
-
         let resultArray = [];
         for (let i = 0; i < dataLength / 2; i++) {
           resultArray.push([]);
@@ -89,64 +92,38 @@ function fetchData() {
             .join("content-01");
         }
 
-        parseDataInputSet = parseDataInputSet.concat(
-          JSON.parse(stringifiedResult)
-        );
-        // console.log(parseDataInputSet);
+        let jsT = JSON.parse(stringifiedResult);
+
+        parseDataInputSet = parseDataInputSet.concat(jsT);
+
+        jsT.forEach((eA1, iA1) => {
+          parseDataInputSetIndexMark.push(
+            "F" + (indexOfParceData + 1) + "-C" + (iA1 + 1)
+          );
+          getINDEXfortable[0].push("F" + (indexOfParceData + 1));
+          getINDEXfortable[1].push("C" + (iA1 + 1));
+        });
       }
     });
-    // console.log(JSON.stringify(parseDataInputSet));
-    // if (resIDText.includes("id-01")) {
-    //   let parsedJson = JSON.parse(resIDText); // renamed inputJson1 to parsedJson
-    //   let dataLength = parsedJson[0][0].length; // renamed setLength to dataLength
-    //   let resultArray = [];
-    //   for (let i = 0; i < dataLength / 2; i++) {
-    //     resultArray.push([]);
-    //   }
-
-    //   parsedJson[0].forEach((element, index) => {
-    //     resultArray.forEach((subArray, subIndex) => {
-    //       subArray.push([element[subIndex * 2], element[subIndex * 2 + 1]]);
-    //     });
-    //   });
-
-    //   let filteredArray = removeNullArrays(resultArray); // renamed beforefinalRes to filteredArray
-
-    //   let stringifiedResult = JSON.stringify(filteredArray); // renamed finalRes to stringifiedResult
-
-    //   for (let i = 0; i < dataLength / 2; i++) {
-    //     let indexStr = i < 10 ? "0" + (i + 1) : "" + (i + 1); // renamed index to indexStr
-    //     stringifiedResult = stringifiedResult
-    //       .split("id-" + indexStr)
-    //       .join("id")
-    //       .split("content-" + indexStr)
-    //       .join("content-01");
-    //   }
-
-    //   let nextStepInput = NextStep_DontUnifile(JSON.parse(stringifiedResult)); // renamed input to nextStepInput
-    //   let finalArray = [];
-    //   nextStepInput.forEach((element, index) => {
-    //     finalArray.push(splitContentIntoArrays(element));
-    //   });
-
-    //   let processedArray = toPracPot(toOneArray(finalArray)); // renamed resresFNALL01 to processedArray
-    //   $("#ResID").text(JSON.stringify(processedArray));
-    //   return;
-    // }
 
     let parsedResID = NextStep_DontUnifile(parseDataInputSet); // renamed input to parsedResID
 
     let finalArray = [];
 
+    //MARK
     parsedResID.forEach((element, index) => {
       finalArray.push(splitContentIntoArrays(element));
     });
 
     // console.log(JSON.stringify(finalArray));
-
+    //MARKNOTE
     let processedArray = toPracPot(toOneArray(finalArray));
 
     $("#ResID").text(JSON.stringify(processedArray));
+
+    ///MARK NOTE END
+    console.log(JSON.stringify(getINDEXfortable));
+    // console.log(JSON.stringify(ErrorSets));
   } catch (error) {
     console.log("Error occurred C000001");
     console.log(error);
@@ -159,6 +136,7 @@ function removeNullArrays(nestedArrays) {
   );
 }
 function splitContentIntoArrays(inputArray) {
+  //MARKNOTE
   let result = {}; // Dùng để lưu các mảng tương ứng với content-01, content-02, ..., content-n
 
   // Lặp qua từng phần tử trong inputArray
@@ -199,8 +177,14 @@ function toOneArray(arr) {
 
 function toPracPot(arr) {
   let res = [];
-  arr.forEach((e, i) => {
-    res.push(groupByPrefiToArrayPure(groupByPrefix(e)));
+  arr.forEach((e, iNOTE) => {
+    let tempID = parseDataInputSetIndexMark[iNOTE].split("-");
+    res.push({
+      idFile: tempID[0],
+      idContent: tempID[1],
+      data: groupByPrefiToArrayPure(groupByPrefix(e), iNOTE),
+    });
+    // res.push(groupByPrefiToArrayPure(groupByPrefix(e), iNOTE));
   });
 
   return res;
@@ -231,8 +215,7 @@ function groupByPrefix(data) {
   return groupedData;
 }
 
-function groupByPrefiToArrayPure(data) {
-  // console.log(data);
+function groupByPrefiToArrayPure(data, iNOTE) {
   let res = [];
   let ketSets = Object.keys(data);
   ketSets.forEach((e) => {
@@ -244,14 +227,20 @@ function groupByPrefiToArrayPure(data) {
     let resT = [];
     let keySets01 = Object.keys(e);
     keySets01.forEach((e1) => {
-      resT.push(conversationBox(e[e1]));
+      let temp01 = conversationBox(e[e1], iNOTE);
+      if (!temp01.ignore) {
+        resT.push(temp01);
+      }
     });
-    res2.push(resT);
+    if (resT.length > 0) {
+      res2.push(resT);
+    }
   });
   return res2;
 }
+
 let nextSubmistList = [];
-function conversationBox(arr) {
+function conversationBox(arr, iNOTE) {
   let res = {
     img: [],
     gender: [],
@@ -259,6 +248,8 @@ function conversationBox(arr) {
     weSay: [],
     theySay: [],
     submitList: [],
+    theySaySubmit: [],
+    notifyWesay: [],
     weCanSayList: [],
     pickingList: [],
     action: [],
@@ -277,12 +268,16 @@ function conversationBox(arr) {
     res.submitList = res.submitList.concat(nextSubmistList);
     nextSubmistList = [];
   }
-
+  let idTempSave = "";
   arr.forEach((e) => {
+    if (idTempSave === "") {
+      idTempSave = e.id;
+    }
+
     let i = false;
     if (e.content === null) {
-      console.log(e.id, "D01 NULLLLLLLL");
-      console.log(e.content);
+      // console.log(e.id, "D01 NULLLLLLLL");
+      // console.log(e.content);
       return;
     } else if (
       !(e.content + "").includes("[") &&
@@ -377,6 +372,7 @@ function conversationBox(arr) {
           }
           // Push the rest of the elements except the ID to the last guideSets array
           guideSetsA[guideSetsA.length - 1].push(row.slice(1));
+
           // row.forEach((e1) => {
           //   console.log(e1);
 
@@ -456,33 +452,81 @@ function conversationBox(arr) {
   let setsChecks = [];
   try {
     if (res["theySaySubmitList"].length > 0) {
+      // console.log(JSON.stringify(res["theySaySubmitList"]));
+
       let contentT = res["theySaySubmitList"][0].content;
+
       iCheckCount = getRandomNumber(
         trimArrayElements(contentT.split(";")).length
       );
 
+      let resTheySaySets = [];
+      let resSunmitSets = [];
+
       res["theySaySubmitList"].forEach((e) => {
         if (e.id.includes("theySay")) {
+          resTheySaySets.push([]);
+
           let arr = trimArrayElements(e.content.split(";"));
+
+          arr.forEach((e1) => {
+            resTheySaySets[resTheySaySets.length - 1].push(
+              trimArrayElements(splitStringAnd(e1))
+            );
+          });
+
           setsChecks.push(arr.length);
 
-          if (arr[iCheckCount].includes("\\")) {
-            res["theySay"] = res["theySay"].concat(
-              trimArrayElements(arr[iCheckCount].split("\\"))
-            );
-            // Handle the case where the element contains a backslash
-          } else {
-            res["theySay"].push(arr[iCheckCount]);
-          }
-
-          // res["theySay"].push(arr[iCheckCount]);
+          res["theySay"] = res["theySay"].concat(
+            trimArrayElements(splitStringAnd(arr[iCheckCount]))
+          );
         }
         if (e.id.includes("submitList")) {
+          resSunmitSets.push([]);
+
           let arr = trimArrayElements((e.content + "").split(";"));
+
+          arr.forEach((e1) => {
+            resSunmitSets[resSunmitSets.length - 1].push(
+              trimArrayElements(splitStringAnd(e1))
+            );
+          });
           setsChecks.push(arr.length);
-          res["submitList"].push(arr[iCheckCount]);
+          res["submitList"] = res["submitList"].concat(
+            trimArrayElements(splitStringAnd(arr[iCheckCount]))
+          );
         }
       });
+
+      if (!allElementsAreSame(setsChecks)) {
+        res["Error"].push(
+          "Có lỗi về mảng Theysay-submit:" +
+            JSON.stringify(setsChecks) +
+            "-" +
+            contentT
+        );
+      }
+
+      if (setsChecks[0] > 1) {
+        for (let i = 0; i < setsChecks[0]; i++) {
+          let theySayTemp = [];
+          let submitTemp = [];
+          resTheySaySets.forEach((e1) => {
+            theySayTemp = theySayTemp.concat(e1[i]);
+          });
+          resSunmitSets.forEach((e2) => {
+            submitTemp = submitTemp.concat(e2[i]);
+          });
+
+          res["theySaySubmit"].push({
+            theySay: theySayTemp,
+            submit: submitTemp,
+          });
+        }
+      }
+
+      // let numberCount = setsChecks[0];
+      // let theySaySubmitSetsTemp = [];
     }
   } catch (error) {
     console.log("TheySay");
@@ -493,6 +537,7 @@ function conversationBox(arr) {
   try {
     if (res["NotifyWeSay"].length > 0) {
       let contentT = res["NotifyWeSay"][0].content;
+
       iCheckCountNotifyWeSay = getRandomNumber(
         trimArrayElements(contentT.split(";")).length
       );
@@ -501,46 +546,73 @@ function conversationBox(arr) {
         if (e.id.includes("notify")) {
           let arr = trimArrayElements(e.content.split(";"));
           setsChecksNotifyWeSay.push(arr.length);
-          res["notify"].push(arr[iCheckCountNotifyWeSay]);
+          res["notify"] = res["notify"].concat(
+            trimArrayElements(splitStringAnd(arr[iCheckCountNotifyWeSay]))
+          );
         }
         if (e.id.includes("weSay")) {
           let arr = trimArrayElements(e.content.split(";"));
           setsChecksNotifyWeSay.push(arr.length);
-
-          if (arr[iCheckCountNotifyWeSay].includes("\\")) {
-            res["weSay"] = res["weSay"].concat(
-              trimArrayElements(arr[iCheckCountNotifyWeSay].split("\\"))
-            );
-            // Handle the case where the element contains a backslash
-          } else {
-            res["weSay"].push(arr[iCheckCountNotifyWeSay]);
-          }
+          res["weSay"] = res["weSay"].concat(
+            trimArrayElements(splitStringAnd(arr[iCheckCountNotifyWeSay]))
+          );
         }
       });
+      if (!allElementsAreSame(setsChecksNotifyWeSay)) {
+        res["Error"].push(
+          "Có lỗi về mảng Notify-weSay:" +
+            JSON.stringify(setsChecksNotifyWeSay) +
+            "-" +
+            contentT
+        );
+      }
     }
   } catch (error) {
     console.log("We Say they Say");
   }
+  //MARKNOT: Có 2 cái chưa làm cặp: Notify: Wesay; THEYSAY; NEXTSUBMITLIST
 
   if (res.submitList.length === 0) {
     res.Error.push("Cảnh báo lỗi Thiếu submitList.");
+  }
+
+  if (
+    (res.weSay.length === 0 || res.theySay.length === 0) &&
+    res.submitList.length !== 0
+  ) {
+    res["Error"].push(
+      idTempSave.slice(0, 6) +
+        "_____Cảnh báo lỗi; WeSay-TheySay không đồng nhất."
+    );
+    res["Error"].push("WeSay: __ " + JSON.stringify(res.weSay));
+    res["Error"].push("TheySay: __ " + JSON.stringify(res.theySay));
   }
 
   if (res.weSay.length === 0) {
     res.weSay.push("Hi");
   }
   if (res.theySay.length === 0) {
-    res.theySay.push("Hi");
+    res.theySay.push("NONE");
   }
 
   delete res["NotifyWeSay"];
-
+  if (res["Error"].length > 0) {
+    ErrorSets.push({
+      id: parseDataInputSetIndexMark[iNOTE],
+      error: res["Error"],
+    });
+  }
   let keySets = Object.keys(res);
   keySets.forEach((e) => {
     if (res[e].length === 0) {
       delete res[e];
     }
   });
+
+  if (Object.keys(res).length <= 3) {
+    res = { ignore: true };
+  }
+  // let parseDataInputSetIndexMark = [];
 
   return res;
 }
@@ -553,7 +625,25 @@ function trimArrayElements(array) {
       .filter((element) => element !== null && element !== "") // Bước 1: loại bỏ các phần tử null
       .map((element) => {
         if (typeof element === "string") {
-          return element.trim(); // Cắt bỏ khoảng trắng đầu và cuối của chuỗi
+          let trimmedElement = element.trim(); // Cắt bỏ khoảng trắng đầu và cuối của chuỗi
+
+          // Thay thế ";;" hoặc "; ;" bằng ";"
+          trimmedElement = trimmedElement.replace(/;[ ]*;/g, ";");
+          // Thay "\ \" bằng "\\"
+          trimmedElement = trimmedElement.replace(/\\ \\/g, "\\\\");
+
+          // Loại bỏ dấu ';' ở đầu và cuối nếu tồn tại
+          if (trimmedElement.startsWith(";")) {
+            trimmedElement = trimmedElement.substring(1);
+          }
+          if (trimmedElement.endsWith(";")) {
+            trimmedElement = trimmedElement.substring(
+              0,
+              trimmedElement.length - 1
+            );
+          }
+
+          return trimmedElement;
         }
         if (typeof element === "number") {
           return element + ""; // Chuyển số thành chuỗi
@@ -562,6 +652,7 @@ function trimArrayElements(array) {
       });
   } catch (error) {
     console.log(JSON.stringify(array));
+    return [];
   }
 }
 
@@ -589,3 +680,21 @@ function removeNullElements(arr) {
     return []; // Fallback when no data is passed or arr is not an array
   }
 }
+
+function allElementsAreSame(array) {
+  // Kiểm tra xem mảng có rỗng không
+  if (array.length === 0) return false;
+
+  // Lấy phần tử đầu tiên làm giá trị để so sánh
+  const firstElement = array[0];
+
+  // Dùng every để kiểm tra xem tất cả các phần tử có giống phần tử đầu tiên không
+  return array.every((element) => element === firstElement);
+}
+
+const splitStringAnd = (str) => {
+  if (str.includes("\\") || str.includes("//")) {
+    return str.split(/\\\\|\/\//);
+  }
+  return [str];
+};

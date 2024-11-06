@@ -573,7 +573,7 @@ function tableDocuments(
               className="btn btn-outline-primary p-4"
               key={i}
               onClick={() => {
-                SetPracData(e);
+                SetPracData(e.data);
                 SetNew((D) => D + 1);
                 SetIndexDataShow(i);
               }}
@@ -587,7 +587,7 @@ function tableDocuments(
               className="btn btn-primary p-4"
               key={i}
               onClick={() => {
-                SetPracData(e);
+                SetPracData(e.data);
                 SetNew((D) => D + 1);
               }}
             >
@@ -596,7 +596,7 @@ function tableDocuments(
           ))}
 
           <hr />
-          {[data[IndexDataShow]].map((e, i) => (
+          {[data[IndexDataShow].data].map((e, i) => (
             <div key={i}>
               <h5>Conversation {i + 1}</h5>{" "}
               {e.map((e1, i1) => (
