@@ -56,7 +56,7 @@ function TextToSpeechRecorder() {
     utterance.onend = () => {
       objTimeline.end = Date.now();
       setTimeline((D) => [...D, objTimeline]);
-      if (n + 1 < jsonData.length) {
+      if (n + 1 < jsonDataFN.length) {
         handleTextToSpeech(n + 1, jsonDataFN);
       }
       // stopRecording(); // Dừng ghi âm khi giọng nói kết thúc
@@ -143,7 +143,7 @@ function TextToSpeechRecorder() {
       <input type="file" accept=".txt" onChange={handleFileUpload} />
       <br />
       <button onClick={() => handleTextToSpeech(0, jsonData[0])}>
-        Chuyển văn bản thành giọng nói và ghi âm
+        Chuyển văn bản thành giọng nói và ghi âm bằng phần mềm ngoài
       </button>
       <div style={{ marginTop: "20px" }}>
         {audioUrl && (

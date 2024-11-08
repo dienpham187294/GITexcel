@@ -9,7 +9,8 @@ import ReadMessage from "./ReadMessage_2024";
 import Dictaphone from "./RegcognitionV2024-05-NG";
 import initializeVoicesAndPlatform from "./initializeVoicesAndPlatform";
 import InputDataTest from "./ForTest.json";
-
+import ghepamJSON from "./data/dataForExcelRare/ghepam.json";
+import ghepamJSONDoandau from "./data/dataForExcelRare/doanmodauGhepam.json";
 import {
   findClosestMatch,
   getRandomElement,
@@ -221,6 +222,121 @@ function GetDocument() {
 
   return (
     <div>
+      {/* <h1>ABC</h1>
+      <div style={{ padding: "5%" }}>
+        <table className="table table-striped">
+          <thead>
+            <tr>
+              <td>id</td>
+              <td>audioCode</td>
+              <td>text</td>
+              <td>lang</td>
+              <td>rate</td>
+            </tr>
+          </thead>
+          <tbody>
+            {ghepamJSON.map((e, i) => (
+              <>
+                <tr key={i}>
+                  <td>{"F" + (i <= 9 ? "0" + i : i)}</td>
+                  <td>{"F" + (i <= 9 ? "0" + i : i) + "A1"}</td>
+                  <td>{ghepamJSONDoandau[i % 20].text01}</td>
+                  <td>316</td>
+                  <td>1.3</td>
+                </tr>
+                <tr key={i}>
+                  <td>{"F" + (i <= 9 ? "0" + i : i)}</td>
+                  <td>{"F" + (i <= 9 ? "0" + i : i) + "A2"}</td>
+                  <td>Tham khảo ví dụ đọc cụm từ sau.</td>
+                  <td>316</td>
+                  <td>1.3</td>
+                </tr>
+                <tr key={i}>
+                  <td>{"F" + (i <= 9 ? "0" + i : i)}</td>
+                  <td>{"F" + (i <= 9 ? "0" + i : i) + "A3"}</td>
+                  <td>{e.Text}</td>
+                  <td>115</td>
+                  <td>1</td>
+                </tr>
+                <tr key={i}>
+                  <td>{"F" + (i <= 9 ? "0" + i : i)}</td>
+                  <td>{"F" + (i <= 9 ? "0" + i : i) + "A4"}</td>
+                  <td>
+                    Thay vì nghe và lặp lại theo cách thông thường thì chúng ta
+                    sẽ kết hợp làm theo 3 bước.
+                  </td>
+                  <td>316</td>
+                  <td>1.3</td>
+                </tr>
+                <tr key={i}>
+                  <td>{"F" + (i <= 9 ? "0" + i : i)}</td>
+                  <td>{"F" + (i <= 9 ? "0" + i : i) + "A5"}</td>
+                  <td>{ghepamJSONDoandau[i % 20].text02}</td>
+                  <td>316</td>
+                  <td>1.3</td>
+                </tr>
+                <tr key={i}>
+                  <td>{"F" + (i <= 9 ? "0" + i : i)}</td>
+                  <td>{"F" + (i <= 9 ? "0" + i : i) + "A6"}</td>
+                  <td>{ghepamJSONDoandau[i % 20].text03}</td>
+                  <td>316</td>
+                  <td>1.3</td>
+                </tr>
+                <tr key={i}>
+                  <td>{"F" + (i <= 9 ? "0" + i : i)}</td>
+                  <td>{"F" + (i <= 9 ? "0" + i : i) + "A7"}</td>
+                  <td>{ghepamJSONDoandau[i % 20].text04}</td>
+                  <td>316</td>
+                  <td>1.3</td>
+                </tr>
+                <tr key={i}>
+                  <td>{"F" + (i <= 9 ? "0" + i : i)}</td>
+                  <td>{"F" + (i <= 9 ? "0" + i : i) + "A8"}</td>
+                  <td>{e.cachDoc}</td>
+                  <td>316</td>
+                  <td>0.4</td>
+                </tr>
+                <tr key={i}>
+                  <td>{"F" + (i <= 9 ? "0" + i : i)}</td>
+                  <td>{"F" + (i <= 9 ? "0" + i : i) + "A9"}</td>
+                  <td>{e.Text}</td>
+                  <td>115</td>
+                  <td>0.6</td>
+                </tr>
+                <tr key={i}>
+                  <td>{"F" + (i <= 9 ? "0" + i : i)}</td>
+                  <td>{"F" + (i <= 9 ? "0" + i : i) + "A10"}</td>
+                  <td>{ghepamJSONDoandau[i % 20].text05}</td>
+                  <td>316</td>
+                  <td>1.3</td>
+                </tr>
+                <tr key={i}>
+                  <td>{"F" + (i <= 9 ? "0" + i : i)}</td>
+                  <td>{"F" + (i <= 9 ? "0" + i : i) + "A11"}</td>
+                  <td>{e.cachDoc}</td>
+                  <td>316</td>
+                  <td>0.4</td>
+                </tr>
+                <tr key={i}>
+                  <td>{"F" + (i <= 9 ? "0" + i : i)}</td>
+                  <td>{"F" + (i <= 9 ? "0" + i : i) + "A12"}</td>
+                  <td>{e.Text}</td>
+                  <td>115</td>
+                  <td>0.6</td>
+                </tr>
+                <tr key={i}>
+                  <td>{"F" + (i <= 9 ? "0" + i : i)}</td>
+                  <td>{"F" + (i <= 9 ? "0" + i : i) + "A13"}</td>
+                  <td>{ghepamJSONDoandau[i % 20].text06}</td>
+                  <td>316</td>
+                  <td>1.3</td>
+                </tr>
+              </>
+            ))}
+          </tbody>
+        </table>
+      </div> */}
+      <hr />
       <div style={{ display: "" }} id="remodeDiv">
         Lấy sheet: <b id="IndexExcel"> {IndexExcel}</b>
         <input

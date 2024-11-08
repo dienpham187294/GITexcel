@@ -126,7 +126,7 @@ const VoiceList = () => {
             try {
               const jsonData = JSON.parse(e);
               const textNum = jsonData.index;
-              ReadMessage(textNum);
+              ReadMessage(textNum, e);
             } catch (error) {
               alert("Not");
             }
@@ -163,8 +163,11 @@ function countAndSplitSentences(text) {
   return sentences || [text];
 }
 
-async function ReadMessage(voiceNum) {
-  const text = "Tôi là người Việt nam";
+async function ReadMessage(voiceNum, e) {
+  let text = "Tôi là người Việt nam";
+  if (!e.includes("vi-VN")) {
+    text = "I am a vietnamese.";
+  }
   try {
     const sentences = countAndSplitSentences(text);
     console.log(sentences.length);

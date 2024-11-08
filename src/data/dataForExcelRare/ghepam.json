@@ -1,0 +1,802 @@
+[
+  {
+    "imgCode": "A1",
+    "Text": "Good morning",
+    "Meaning": "Chào buổi sáng - Dùng để chào buổi sáng.",
+    "IPA": "ɡʊd ˈmɔrnɪŋ",
+    "NguyenAm": "ʊ, ɔ, ɪ",
+    "cachDoc": "u, o, i"
+  },
+  {
+    "imgCode": "A2",
+    "Text": "Good night",
+    "Meaning": "Chúc ngủ ngon - Dùng để chúc người khác ngủ ngon vào buổi tối.",
+    "IPA": "ɡʊd naɪt",
+    "NguyenAm": "ʊ, aɪ",
+    "cachDoc": "u, ai"
+  },
+  {
+    "imgCode": "A3",
+    "Text": "How are you?",
+    "Meaning": "Bạn khỏe không? - Hỏi về tình trạng sức khỏe hoặc tâm trạng của người đối diện.",
+    "IPA": "haʊ ɑr ju?",
+    "NguyenAm": "aʊ, ɑ, u",
+    "cachDoc": "ao, a, u"
+  },
+  {
+    "imgCode": "A4",
+    "Text": "Thank you",
+    "Meaning": "Cảm ơn - Dùng khi muốn bày tỏ lòng biết ơn.",
+    "IPA": "θæŋk ju",
+    "NguyenAm": "æ, u",
+    "cachDoc": "a, u"
+  },
+  {
+    "imgCode": "A5",
+    "Text": "You're welcome",
+    "Meaning": "Không có gì - Câu đáp lại khi người khác cảm ơn mình.",
+    "IPA": "jʊr ˈwɛlkəm",
+    "NguyenAm": "ʊ, ɛ, ə",
+    "cachDoc": "u, e, ơ"
+  },
+  {
+    "imgCode": "A6",
+    "Text": "Excuse me",
+    "Meaning": "Xin lỗi - Dùng khi muốn thu hút sự chú ý hoặc xin lỗi khi làm phiền.",
+    "IPA": "ɪkˈskjus mi",
+    "NguyenAm": "ɪ, ju, i",
+    "cachDoc": "i, iu, i"
+  },
+  {
+    "imgCode": "A7",
+    "Text": "I'm sorry",
+    "Meaning": "Tôi xin lỗi - Dùng để bày tỏ sự xin lỗi.",
+    "IPA": "aɪm ˈsɑri",
+    "NguyenAm": "aɪ, ɑ, i",
+    "cachDoc": "ai, a, i"
+  },
+  {
+    "imgCode": "A8",
+    "Text": "What time is it?",
+    "Meaning": "Mấy giờ rồi? - Câu hỏi về thời gian.",
+    "IPA": "wɑt taɪm ɪz ɪt?",
+    "NguyenAm": "ɑ, aɪ, ɪ, ɪ",
+    "cachDoc": "a, ai, i, i"
+  },
+  {
+    "imgCode": "A9",
+    "Text": "How much is this?",
+    "Meaning": "Cái này bao nhiêu tiền? - Dùng khi muốn hỏi giá tiền của một món đồ.",
+    "IPA": "haʊ mʌʧ ɪz ðɪs?",
+    "NguyenAm": "aʊ, ʌ, ɪ, ɪ",
+    "cachDoc": "ao, a, i, i"
+  },
+  {
+    "imgCode": "A10",
+    "Text": "Where are you from?",
+    "Meaning": "Bạn đến từ đâu? - Hỏi về quê quán hoặc xuất xứ của người đối diện.",
+    "IPA": "wɛr ɑr ju frɒm?",
+    "NguyenAm": "ɛ, ɑ, u, ɒ",
+    "cachDoc": "e, a, u, o"
+  },
+  {
+    "imgCode": "A11",
+    "Text": "What's your name?",
+    "Meaning": "Tên bạn là gì? - Dùng để hỏi tên người khác.",
+    "IPA": "wʌts jʊər neɪm?",
+    "NguyenAm": "ʌ, ʊə, eɪ",
+    "cachDoc": "a, u ơ, ây"
+  },
+  {
+    "imgCode": "A12",
+    "Text": "Nice to meet you",
+    "Meaning": "Rất vui được gặp bạn - Câu nói khi gặp ai đó lần đầu tiên.",
+    "IPA": "naɪs tu mit ju",
+    "NguyenAm": "aɪ, u, i, u",
+    "cachDoc": "ai, u, i, u"
+  },
+  {
+    "imgCode": "A13",
+    "Text": "See you later",
+    "Meaning": "Hẹn gặp lại - Dùng khi tạm biệt và sẽ gặp lại sau.",
+    "IPA": "si ju ˈleɪtər",
+    "NguyenAm": "i, u, eɪ, ə",
+    "cachDoc": "i, u, ây, ơ"
+  },
+  {
+    "imgCode": "A14",
+    "Text": "Take care",
+    "Meaning": "Bảo trọng - Lời dặn dò người khác giữ gìn sức khỏe, thường khi chia tay.",
+    "IPA": "teɪk kɛr",
+    "NguyenAm": "eɪ, ɛ",
+    "cachDoc": "ây, e"
+  },
+  {
+    "imgCode": "A15",
+    "Text": "Can you help me?",
+    "Meaning": "Bạn có thể giúp tôi không? - Dùng khi muốn nhờ ai đó giúp đỡ.",
+    "IPA": "kæn ju hɛlp mi?",
+    "NguyenAm": "æ, u, ɛ, i",
+    "cachDoc": "a, u, e, i"
+  },
+  {
+    "imgCode": "A16",
+    "Text": "What's up?",
+    "Meaning": "Có gì mới không? - Câu chào hỏi thân mật, thường dùng với bạn bè.",
+    "IPA": "wʌts ʌp?",
+    "NguyenAm": "ʌ, ʌ",
+    "cachDoc": "a, a"
+  },
+  {
+    "imgCode": "A17",
+    "Text": "I don't understand",
+    "Meaning": "Tôi không hiểu - Dùng khi không hiểu điều người khác nói.",
+    "IPA": "aɪ doʊnt ˌʌndərˈstænd",
+    "NguyenAm": "aɪ, oʊ, ʌ, ə, æ",
+    "cachDoc": "ai, âu, a, ơ, a"
+  },
+  {
+    "imgCode": "A18",
+    "Text": "Please repeat",
+    "Meaning": "Vui lòng nhắc lại - Yêu cầu người khác nói lại điều gì đó.",
+    "IPA": "pliz rɪˈpit",
+    "NguyenAm": "i, ɪ, i",
+    "cachDoc": "i, i, i"
+  },
+  {
+    "imgCode": "A19",
+    "Text": "I'm lost",
+    "Meaning": "Tôi bị lạc - Dùng khi không biết đường và cần sự giúp đỡ.",
+    "IPA": "aɪm lɔst",
+    "NguyenAm": "aɪ, ɔ",
+    "cachDoc": "ai, o"
+  },
+  {
+    "imgCode": "A20",
+    "Text": "Where is the restroom?",
+    "Meaning": "Nhà vệ sinh ở đâu? - Hỏi vị trí của nhà vệ sinh.",
+    "IPA": "wɛr ɪz ðə ˈrɛˌstrum?",
+    "NguyenAm": "ɛ, ɪ, ə, ɛ, u",
+    "cachDoc": "e, i, ơ, e, u"
+  },
+  {
+    "imgCode": "A21",
+    "Text": "How do I get to...?",
+    "Meaning": "Làm sao để đến...? - Câu hỏi về đường đi đến một nơi cụ thể.",
+    "IPA": "haʊ du aɪ ɡɛt tu...?",
+    "NguyenAm": "aʊ, u, aɪ, ɛ, u",
+    "cachDoc": "ao, u, ai, e, u"
+  },
+  {
+    "imgCode": "A22",
+    "Text": "I'd like to order",
+    "Meaning": "Tôi muốn gọi món - Dùng khi muốn đặt món trong nhà hàng.",
+    "IPA": "aɪd laɪk tu ˈɔrdər",
+    "NguyenAm": "aɪ, aɪ, u, ɔ, ə",
+    "cachDoc": "ai, ai, u, o, ơ"
+  },
+  {
+    "imgCode": "A23",
+    "Text": "Check, please",
+    "Meaning": "Tính tiền giúp - Dùng khi yêu cầu tính tiền tại nhà hàng.",
+    "IPA": "ʧɛk, pliz",
+    "NguyenAm": "ɛ, i",
+    "cachDoc": "e, i"
+  },
+  {
+    "imgCode": "A24",
+    "Text": "Have a good day",
+    "Meaning": "Chúc bạn một ngày tốt lành - Lời chào hoặc lời chúc khi chia tay.",
+    "IPA": "hæv ə ɡʊd deɪ",
+    "NguyenAm": "æ, ə, ʊ, eɪ",
+    "cachDoc": "a, ơ, u, ây"
+  },
+  {
+    "imgCode": "A25",
+    "Text": "It's okay",
+    "Meaning": "Không sao đâu - Câu trấn an, cho thấy không có vấn đề gì.",
+    "IPA": "ɪts ˌoʊˈkeɪ",
+    "NguyenAm": "ɪ, oʊ, eɪ",
+    "cachDoc": "i, âu, ây"
+  },
+  {
+    "imgCode": "A26",
+    "Text": "Long time no see",
+    "Meaning": "Lâu quá không gặp - Câu nói khi gặp lại ai đó sau thời gian dài.",
+    "IPA": "lɔŋ taɪm noʊ si",
+    "NguyenAm": "ɔ, aɪ, oʊ, i",
+    "cachDoc": "o, ai, âu, i"
+  },
+  {
+    "imgCode": "A27",
+    "Text": "Congratulations",
+    "Meaning": "Chúc mừng - Lời chúc khi ai đó đạt được điều gì đó.",
+    "IPA": "kənˌɡræʧəˈleɪʃənz",
+    "NguyenAm": "ə, æ, ə, eɪ, ə",
+    "cachDoc": "ơ, a, ơ, ây, ơ"
+  },
+  {
+    "imgCode": "A28",
+    "Text": "Good luck",
+    "Meaning": "Chúc may mắn - Lời chúc trước khi ai đó làm việc gì đó quan trọng.",
+    "IPA": "ɡʊd lʌk",
+    "NguyenAm": "ʊ, ʌ",
+    "cachDoc": "u, a"
+  },
+  {
+    "imgCode": "A29",
+    "Text": "Can I have...?",
+    "Meaning": "Tôi có thể xin...? - Câu xin phép hoặc yêu cầu lịch sự.",
+    "IPA": "kæn aɪ hæv...?",
+    "NguyenAm": "æ, aɪ, æ",
+    "cachDoc": "a, ai, a"
+  },
+  {
+    "imgCode": "A30",
+    "Text": "I need help",
+    "Meaning": "Tôi cần giúp đỡ - Dùng khi cần sự trợ giúp.",
+    "IPA": "aɪ nid hɛlp",
+    "NguyenAm": "aɪ, i, ɛ",
+    "cachDoc": "ai, i, e"
+  },
+  {
+    "imgCode": "A31",
+    "Text": "I love you",
+    "Meaning": "Tôi yêu bạn - Lời bày tỏ tình cảm.",
+    "IPA": "aɪ lʌv ju",
+    "NguyenAm": "aɪ, ʌ, u",
+    "cachDoc": "ai, a, u"
+  },
+  {
+    "imgCode": "A32",
+    "Text": "Happy birthday",
+    "Meaning": "Chúc mừng sinh nhật - Lời chúc sinh nhật.",
+    "IPA": "ˈhæpi ˈbɜrθˌdeɪ",
+    "NguyenAm": "æ, i, ɜ, eɪ",
+    "cachDoc": "a, i, ơ, ây"
+  },
+  {
+    "imgCode": "A33",
+    "Text": "Happy anniversary",
+    "Meaning": "Chúc mừng kỷ niệm - Dùng trong dịp kỷ niệm.",
+    "IPA": "ˈhæpi ˌænəˈvɜrsəri",
+    "NguyenAm": "æ, i, æ, ə, ɜ, ə, i",
+    "cachDoc": "a, i, a, ơ, ơ, ơ, i"
+  },
+  {
+    "imgCode": "A34",
+    "Text": "How old are you?",
+    "Meaning": "Bạn bao nhiêu tuổi? - Câu hỏi về tuổi tác của người đối diện.",
+    "IPA": "haʊ oʊld ɑr ju?",
+    "NguyenAm": "aʊ, oʊ, ɑ, u",
+    "cachDoc": "ao, âu, a, u"
+  },
+  {
+    "imgCode": "A35",
+    "Text": "Where do you live?",
+    "Meaning": "Bạn sống ở đâu? - Hỏi nơi ở của người đối diện.",
+    "IPA": "wɛr du ju lɪv?",
+    "NguyenAm": "ɛ, u, u, ɪ",
+    "cachDoc": "e, u, u ,i"
+  },
+  {
+    "imgCode": "A36",
+    "Text": "What do you do?",
+    "Meaning": "Bạn làm nghề gì? - Hỏi về công việc của người đối diện.",
+    "IPA": "wɑt du ju du?",
+    "NguyenAm": "ɑ, u, u, u",
+    "cachDoc": "a, u, u, u"
+  },
+  {
+    "imgCode": "A37",
+    "Text": "That's interesting",
+    "Meaning": "Thật thú vị - Dùng để bày tỏ sự hứng thú với điều gì đó.",
+    "IPA": "ðæts ˈɪntrəstɪŋ",
+    "NguyenAm": "æ, ɪ, ə",
+    "cachDoc": "a, i, ơ"
+  },
+  {
+    "imgCode": "A38",
+    "Text": "I agree",
+    "Meaning": "Tôi đồng ý - Câu nói khi muốn đồng ý với ý kiến người khác.",
+    "IPA": "aɪ əˈɡri",
+    "NguyenAm": "aɪ, ə, i",
+    "cachDoc": "ai, ơ, i"
+  },
+  {
+    "imgCode": "A39",
+    "Text": "I disagree",
+    "Meaning": "Tôi không đồng ý - Câu nói khi không đồng ý với ý kiến người khác.",
+    "IPA": "aɪ dɪsəˈɡri",
+    "NguyenAm": "aɪ, ɪ, ə, i",
+    "cachDoc": "ai, i, ơ, i"
+  },
+  {
+    "imgCode": "A40",
+    "Text": "That's right",
+    "Meaning": "Đúng rồi - Dùng khi xác nhận điều gì đó là đúng.",
+    "IPA": "ðæts raɪt",
+    "NguyenAm": "æ, aɪ",
+    "cachDoc": "a, ai"
+  },
+  {
+    "imgCode": "A41",
+    "Text": "That's wrong",
+    "Meaning": "Sai rồi - Dùng khi xác nhận điều gì đó là sai.",
+    "IPA": "ðæts rɔŋ",
+    "NguyenAm": "æ, ɔ",
+    "cachDoc": "a, o"
+  },
+  {
+    "imgCode": "A42",
+    "Text": "I'm tired",
+    "Meaning": "Tôi mệt - Dùng khi muốn nói rằng mình đang mệt.",
+    "IPA": "aɪm ˈtaɪərd",
+    "NguyenAm": "aɪ, ai, ə",
+    "cachDoc": "ai, ai, ơ"
+  },
+  {
+    "imgCode": "A43",
+    "Text": "I'm hungry",
+    "Meaning": "Tôi đói - Câu nói khi cảm thấy đói.",
+    "IPA": "aɪm ˈhʌŋɡri",
+    "NguyenAm": "aɪ, ʌ, i",
+    "cachDoc": "ai, a, i"
+  },
+  {
+    "imgCode": "A44",
+    "Text": "I'm thirsty",
+    "Meaning": "Tôi khát - Câu nói khi cảm thấy khát nước.",
+    "IPA": "aɪm ˈθɜrsti",
+    "NguyenAm": "aɪ, ɜ, i",
+    "cachDoc": "ai, ơ, i"
+  },
+  {
+    "imgCode": "A45",
+    "Text": "I'm bored",
+    "Meaning": "Tôi chán - Dùng khi cảm thấy buồn chán.",
+    "IPA": "aɪm bɔrd",
+    "NguyenAm": "aɪ, ɔ",
+    "cachDoc": "ai, o"
+  },
+  {
+    "imgCode": "A46",
+    "Text": "What happened?",
+    "Meaning": "Chuyện gì đã xảy ra? - Dùng khi muốn hỏi về điều gì vừa xảy ra.",
+    "IPA": "wɑt ˈhæpənd?",
+    "NguyenAm": "ɑ, æ, ə",
+    "cachDoc": "a, a, ơ"
+  },
+  {
+    "imgCode": "A47",
+    "Text": "It's my pleasure",
+    "Meaning": "Rất hân hạnh - Câu đáp lại khi ai đó cảm ơn, có nghĩa là \"Không có gì\".",
+    "IPA": "ɪts maɪ ˈplɛʒər",
+    "NguyenAm": "ɪ, aɪ, ɛ, ə",
+    "cachDoc": "i, ai, e, ơ"
+  },
+  {
+    "imgCode": "A48",
+    "Text": "You're amazing",
+    "Meaning": "Bạn thật tuyệt vời - Câu khen ngợi ai đó.",
+    "IPA": "jʊr əˈmeɪzɪŋ",
+    "NguyenAm": "ʊ, ə, eɪ, ɪ",
+    "cachDoc": "u, ơ, ây, i"
+  },
+  {
+    "imgCode": "A49",
+    "Text": "You're beautiful",
+    "Meaning": "Bạn thật xinh đẹp - Câu khen ngợi về ngoại hình.",
+    "IPA": "jʊr ˈbjutəfəl",
+    "NguyenAm": "ʊ, ju, ə, ə",
+    "cachDoc": "u, iu, ơ, ơ"
+  },
+  {
+    "imgCode": "A50",
+    "Text": "You're funny",
+    "Meaning": "Bạn thật hài hước - Câu khen ngợi khi ai đó làm bạn cười.",
+    "IPA": "jʊr ˈfʌni",
+    "NguyenAm": "ʊ, ʌ, i",
+    "cachDoc": "u, a, i"
+  },
+  {
+    "imgCode": "A51",
+    "Text": "I'm just kidding",
+    "Meaning": "Tôi chỉ đùa thôi - Dùng để bày tỏ rằng mình đang đùa.",
+    "IPA": "aɪm ʤʌst ˈkɪdɪŋ",
+    "NguyenAm": "aɪ, ʌ, ɪ, ɪ",
+    "cachDoc": "ai, a, i, i"
+  },
+  {
+    "imgCode": "A52",
+    "Text": "Good job",
+    "Meaning": "Làm tốt lắm - Dùng khi khen ngợi ai đó làm việc tốt.",
+    "IPA": "ɡʊd ʤɒb",
+    "NguyenAm": "ʊ, ɒ",
+    "cachDoc": "u, o"
+  },
+  {
+    "imgCode": "A53",
+    "Text": "I'm proud of you",
+    "Meaning": "Tôi tự hào về bạn - Câu khen ngợi ai đó khi đạt được điều gì đó.",
+    "IPA": "aɪm praʊd ɒv juː",
+    "NguyenAm": "aɪ, aʊ, ɒ, u",
+    "cachDoc": "ai, ao, o, u"
+  },
+  {
+    "imgCode": "A54",
+    "Text": "Take it easy",
+    "Meaning": "Cứ bình tĩnh - Dùng để khuyên ai đó nên thư giãn, không lo lắng.",
+    "IPA": "teɪk ɪt ˈizi",
+    "NguyenAm": "eɪ, ɪ, I, i",
+    "cachDoc": "ây, i, i, i"
+  },
+  {
+    "imgCode": "A55",
+    "Text": "Don't worry",
+    "Meaning": "Đừng lo lắng - Dùng để trấn an người khác không nên lo lắng.",
+    "IPA": "doʊnt ˈwɜri",
+    "NguyenAm": "oʊ, ɜ, i",
+    "cachDoc": "âu, ơ, i"
+  },
+  {
+    "imgCode": "A56",
+    "Text": "Let’s go",
+    "Meaning": "Đi thôi - Câu kêu gọi bắt đầu đi hoặc hành động.",
+    "IPA": "lɛts ɡoʊ",
+    "NguyenAm": "ɛ, oʊ",
+    "cachDoc": "e, âu"
+  },
+  {
+    "imgCode": "A57",
+    "Text": "Wait a moment",
+    "Meaning": "Chờ một chút - Yêu cầu người khác đợi một lát.",
+    "IPA": "weɪt ə ˈmoʊmənt",
+    "NguyenAm": "eɪ, ə, oʊ, ə",
+    "cachDoc": "ây, ơ, âu, ơ"
+  },
+  {
+    "imgCode": "A58",
+    "Text": "I'm busy",
+    "Meaning": "Tôi đang bận - Dùng khi không thể tiếp tục vì đang có việc.",
+    "IPA": "aɪm ˈbɪzi",
+    "NguyenAm": "aɪ, ɪ, i",
+    "cachDoc": "ai, i, i"
+  },
+  {
+    "imgCode": "A59",
+    "Text": "I'm excited",
+    "Meaning": "Tôi rất phấn khích - Dùng khi cảm thấy hứng thú và phấn khích.",
+    "IPA": "aɪm ɪkˈsaɪtɪd",
+    "NguyenAm": "aɪ, ɪ, aɪ, ɪ",
+    "cachDoc": "ai, i, ai, i"
+  },
+  {
+    "imgCode": "A60",
+    "Text": "I'm nervous",
+    "Meaning": "Tôi lo lắng - Dùng khi cảm thấy hồi hộp hoặc lo lắng.",
+    "IPA": "aɪm ˈnɜrvəs",
+    "NguyenAm": "aɪ, ɜ, ə",
+    "cachDoc": "ai, ơ, ơ"
+  },
+  {
+    "imgCode": "A61",
+    "Text": "Call me",
+    "Meaning": "Gọi cho tôi - Yêu cầu người khác gọi điện.",
+    "IPA": "kɔl mi",
+    "NguyenAm": "ɔ, i",
+    "cachDoc": "o, i"
+  },
+  {
+    "imgCode": "A62",
+    "Text": "Text me",
+    "Meaning": "Nhắn tin cho tôi - Yêu cầu người khác gửi tin nhắn.",
+    "IPA": "tɛkst mi",
+    "NguyenAm": "ɛ, i",
+    "cachDoc": "e, i"
+  },
+  {
+    "imgCode": "A63",
+    "Text": "Let me know",
+    "Meaning": "Cho tôi biết nhé - Yêu cầu người khác thông báo lại khi có thông tin.",
+    "IPA": "lɛt mi noʊ",
+    "NguyenAm": "ɛ, i, oʊ",
+    "cachDoc": "e, i, âu"
+  },
+  {
+    "imgCode": "A64",
+    "Text": "I’m on my way",
+    "Meaning": "Tôi đang đến - Thông báo khi bạn đang trên đường tới.",
+    "IPA": "aɪm ɒn maɪ weɪ",
+    "NguyenAm": "aɪ, ɒ, aɪ, eɪ",
+    "cachDoc": "ai, o, ai, ây"
+  },
+  {
+    "imgCode": "A65",
+    "Text": "Be careful",
+    "Meaning": "Cẩn thận nhé - Câu dặn dò ai đó nên chú ý hoặc cẩn thận.",
+    "IPA": "biː ˈkeəfəl",
+    "NguyenAm": "i, eə, ə",
+    "cachDoc": "i, e ơ, ơ"
+  },
+  {
+    "imgCode": "A66",
+    "Text": "Hurry up",
+    "Meaning": "Nhanh lên - Yêu cầu ai đó làm nhanh hơn.",
+    "IPA": "ˈhʌri ʌp",
+    "NguyenAm": "ʌ, i , ʌ",
+    "cachDoc": "a, i, a"
+  },
+  {
+    "imgCode": "A67",
+    "Text": "Let’s meet up",
+    "Meaning": "Hẹn gặp nhau nhé - Đề nghị gặp mặt.",
+    "IPA": "lɛts miːt ʌp",
+    "NguyenAm": "ɛ, i, ʌ",
+    "cachDoc": "e, i, a"
+  },
+  {
+    "imgCode": "A68",
+    "Text": "I have no idea",
+    "Meaning": "Tôi không biết - Dùng khi không có thông tin về vấn đề gì đó.",
+    "IPA": "aɪ hæv nəʊ aɪˈdɪə",
+    "NguyenAm": "aɪ, æ, əʊ, aɪ, iə",
+    "cachDoc": "ai, a, âu, ai, i ờ"
+  },
+  {
+    "imgCode": "A69",
+    "Text": "It doesn't matter",
+    "Meaning": "Không sao đâu - Trấn an rằng vấn đề đó không quan trọng.",
+    "IPA": "ɪt ˈdʌzᵊnt ˈmætə",
+    "NguyenAm": "ɪ, ʌ, ə, æ, ə",
+    "cachDoc": "i, a, ơ, a, ơ"
+  },
+  {
+    "imgCode": "A70",
+    "Text": "That's enough",
+    "Meaning": "Thế là đủ rồi - Dùng khi điều gì đó đã đạt mức cần thiết.",
+    "IPA": "ðæts ɪˈnʌf",
+    "NguyenAm": "æ, ɪ, ʌ",
+    "cachDoc": "a, i, a"
+  },
+  {
+    "imgCode": "A71",
+    "Text": "It's too expensive",
+    "Meaning": "Nó quá đắt - Nhận xét khi một món đồ quá đắt.",
+    "IPA": "ɪts tuː ɪkˈspɛnsɪv",
+    "NguyenAm": "ɪ, u, ɪ, ɛ, ɪ",
+    "cachDoc": "i, u, i, e, i"
+  },
+  {
+    "imgCode": "A72",
+    "Text": "I'm not sure",
+    "Meaning": "Tôi không chắc - Dùng khi không hoàn toàn chắc chắn về điều gì đó.",
+    "IPA": "aɪm nɒt ʃɔː",
+    "NguyenAm": "aɪ, ɒ, ɔː",
+    "cachDoc": "ai, o, o"
+  },
+  {
+    "imgCode": "A73",
+    "Text": "Sounds good",
+    "Meaning": "Nghe hay đấy - Đồng ý với một đề nghị hoặc ý tưởng.",
+    "IPA": "saʊndz ɡʊd",
+    "NguyenAm": "aʊ, ʊ",
+    "cachDoc": "ao, u"
+  },
+  {
+    "imgCode": "A74",
+    "Text": "I don't mind",
+    "Meaning": "Tôi không phiền đâu - Bày tỏ rằng mình không phản đối hay ngại điều gì đó.",
+    "IPA": "aɪ dəʊnt maɪnd",
+    "NguyenAm": "aɪ, əʊ, aɪ",
+    "cachDoc": "ai, âu, ai"
+  },
+  {
+    "imgCode": "A75",
+    "Text": "I'm afraid",
+    "Meaning": "Tôi e rằng... - Dùng khi phải báo tin xấu hoặc từ chối lịch sự.",
+    "IPA": "aɪm əˈfreɪd",
+    "NguyenAm": "aɪ, ə, eɪ",
+    "cachDoc": "ai, ơ, ây"
+  },
+  {
+    "imgCode": "A76",
+    "Text": "What do you mean?",
+    "Meaning": "Ý bạn là gì? - Yêu cầu làm rõ ý của người khác.",
+    "IPA": "wɑt duː juː miːn?",
+    "NguyenAm": "ɑ, u, u, i",
+    "cachDoc": "a, u, u, i"
+  },
+  {
+    "imgCode": "A77",
+    "Text": "I’ll be right back",
+    "Meaning": "Tôi sẽ quay lại ngay - Nói với ai đó khi rời đi tạm thời.",
+    "IPA": "aɪl biː raɪt bæk",
+    "NguyenAm": "aɪ, i, aɪ, æ",
+    "cachDoc": "ai, i, ai, a"
+  },
+  {
+    "imgCode": "A78",
+    "Text": "See you soon",
+    "Meaning": "Hẹn gặp lại sớm - Lời chào tạm biệt, hẹn gặp lại trong thời gian ngắn.",
+    "IPA": "siː juː suːn",
+    "NguyenAm": "i, u, u",
+    "cachDoc": "i, u, u"
+  },
+  {
+    "imgCode": "A79",
+    "Text": "I miss you",
+    "Meaning": "Tôi nhớ bạn - Bày tỏ sự nhớ nhung với ai đó.",
+    "IPA": "aɪ mɪs juː",
+    "NguyenAm": "aɪ, ɪ, u",
+    "cachDoc": "ai, i, u"
+  },
+  {
+    "imgCode": "A80",
+    "Text": "Have a seat",
+    "Meaning": "Ngồi đi - Dùng để mời ai đó ngồi.",
+    "IPA": "hæv ə siːt",
+    "NguyenAm": "æ, ə, i",
+    "cachDoc": "a, ơ, i"
+  },
+  {
+    "imgCode": "A81",
+    "Text": "Make yourself at home",
+    "Meaning": "Cứ tự nhiên như ở nhà - Dùng để mời người khác thoải mái khi ở nhà mình.",
+    "IPA": "meɪk jɔːˈsɛlf æt həʊm",
+    "NguyenAm": "eɪ, ɔː, ɛ, æ, əʊ",
+    "cachDoc": "ây, o, e, a, âu"
+  },
+  {
+    "imgCode": "A82",
+    "Text": "I'm ready",
+    "Meaning": "Tôi sẵn sàng rồi - Thông báo khi đã chuẩn bị xong.",
+    "IPA": "aɪm ˈrɛdi",
+    "NguyenAm": "aɪ, ɛ, i",
+    "cachDoc": "ai, e, i"
+  },
+  {
+    "imgCode": "A83",
+    "Text": "I’m not ready",
+    "Meaning": "Tôi chưa sẵn sàng - Nói khi chưa sẵn sàng làm gì đó.",
+    "IPA": "aɪm nɒt ˈrɛdi",
+    "NguyenAm": "aɪ, ɒ, ɛ, i",
+    "cachDoc": "ai, o, e, i"
+  },
+  {
+    "imgCode": "A84",
+    "Text": "Let's do it",
+    "Meaning": "Làm thôi nào - Dùng khi khuyến khích bắt đầu làm điều gì đó.",
+    "IPA": "lɛts duː ɪt",
+    "NguyenAm": "ɛ, u, ɪ",
+    "cachDoc": "e, u, i"
+  },
+  {
+    "imgCode": "A85",
+    "Text": "I'm done",
+    "Meaning": "Tôi xong rồi - Nói khi hoàn thành nhiệm vụ hoặc công việc.",
+    "IPA": "aɪm dʌn",
+    "NguyenAm": "aɪ, ʌ",
+    "cachDoc": "ai, a"
+  },
+  {
+    "imgCode": "A86",
+    "Text": "You're right",
+    "Meaning": "Bạn đúng rồi - Dùng khi xác nhận ai đó đúng.",
+    "IPA": "jɔː raɪt",
+    "NguyenAm": "ɔː, aɪ",
+    "cachDoc": "o, ai"
+  },
+  {
+    "imgCode": "A87",
+    "Text": "You're wrong",
+    "Meaning": "Bạn sai rồi - Dùng khi xác nhận ai đó sai.",
+    "IPA": "jɔː rɒŋ",
+    "NguyenAm": "ɔː, ɔ",
+    "cachDoc": "o, o"
+  },
+  {
+    "imgCode": "A88",
+    "Text": "I have a question",
+    "Meaning": "Tôi có câu hỏi - Dùng khi muốn đặt câu hỏi.",
+    "IPA": "aɪ hæv ə ˈkwɛsʧən",
+    "NguyenAm": "aɪ, æ, ə, ɛ, ə",
+    "cachDoc": "ai, a, ơ, e, ơ"
+  },
+  {
+    "imgCode": "A89",
+    "Text": "What's going on?",
+    "Meaning": "Có chuyện gì vậy? - Dùng khi thấy điều gì đó bất thường hoặc muốn biết tình hình.",
+    "IPA": "wɑt ˈɡəʊɪŋ ɒn?",
+    "NguyenAm": "ɑ, əʊ, ɪ, ɒ",
+    "cachDoc": "a, âu, I, o"
+  },
+  {
+    "imgCode": "A90",
+    "Text": "Let’s go for a walk",
+    "Meaning": "Đi dạo nhé - Rủ ai đó đi dạo.",
+    "IPA": "lɛts ɡəʊ fɔːr ə wɔːk",
+    "NguyenAm": "ɛ, əʊ, ɔː, ə, ɔː",
+    "cachDoc": "e, âu, o, ơ, o"
+  },
+  {
+    "imgCode": "A91",
+    "Text": "It's up to you",
+    "Meaning": "Tùy bạn thôi - Để người khác tự quyết định.",
+    "IPA": "ɪts ʌp tuː juː",
+    "NguyenAm": "ɪ, ʌ, u, u",
+    "cachDoc": "I, a, u, u"
+  },
+  {
+    "imgCode": "A92",
+    "Text": "I'm on a diet",
+    "Meaning": "Tôi đang ăn kiêng - Dùng khi muốn báo rằng mình đang ăn kiêng.",
+    "IPA": "aɪm ɒn ə ˈdaɪət",
+    "NguyenAm": "aɪ, ɒ, ə, aɪ, ə",
+    "cachDoc": "ai, o, ơ, ai, ơ"
+  },
+  {
+    "imgCode": "A93",
+    "Text": "Get well soon",
+    "Meaning": "Chúc bạn mau khỏe - Lời chúc ai đó nhanh khỏi bệnh.",
+    "IPA": "ɡɛt wɛl suːn",
+    "NguyenAm": "ɛ, ɛ, u",
+    "cachDoc": "e, e, u"
+  },
+  {
+    "imgCode": "A94",
+    "Text": "Take your time",
+    "Meaning": "Cứ từ từ - Khuyên người khác không cần vội.",
+    "IPA": "teɪk jɔː taɪm",
+    "NguyenAm": "eɪ, ɔː, aɪ",
+    "cachDoc": "ây, o, ai"
+  },
+  {
+    "imgCode": "A95",
+    "Text": "I hope so",
+    "Meaning": "Tôi hy vọng là vậy - Dùng khi mong điều gì đó xảy ra.",
+    "IPA": "aɪ həʊp səʊ",
+    "NguyenAm": "aɪ, əʊ, əʊ",
+    "cachDoc": "ai, âu, âu"
+  },
+  {
+    "imgCode": "A96",
+    "Text": "I’m worried",
+    "Meaning": "Tôi lo lắng - Thể hiện cảm giác lo âu.",
+    "IPA": "aɪm ˈwɜrid",
+    "NguyenAm": "aɪ, ɜ, i",
+    "cachDoc": "ai, ơ, i"
+  },
+  {
+    "imgCode": "A97",
+    "Text": "I'm surprised",
+    "Meaning": "Tôi ngạc nhiên - Dùng khi cảm thấy bất ngờ.",
+    "IPA": "aɪm səˈpraɪzd",
+    "NguyenAm": "aɪ, ə, aɪ",
+    "cachDoc": "ai, ơ, ai"
+  },
+  {
+    "imgCode": "A98",
+    "Text": "I can't wait",
+    "Meaning": "Tôi không thể chờ được - Bày tỏ sự háo hức.",
+    "IPA": "aɪ kɑːnt weɪt",
+    "NguyenAm": "aɪ, ɑː, eɪ",
+    "cachDoc": null
+  },
+  {
+    "imgCode": "A99",
+    "Text": "Can you hear me?",
+    "Meaning": "Bạn có nghe thấy tôi không? - Câu hỏi kiểm tra xem người khác có nghe thấy mình không.",
+    "IPA": "kæn juː hɪə miː",
+    "NguyenAm": "æ, u, ɪə, iː",
+    "cachDoc": "a, u, i ơ, i"
+  },
+  {
+    "imgCode": "A100",
+    "Text": "Thank you for your time",
+    "Meaning": "Cảm ơn bạn đã dành thời gian - Cảm ơn khi người khác dành thời gian để giúp đỡ hoặc gặp gỡ mình.",
+    "IPA": "θæŋk juː fɔː jɔː taɪm",
+    "NguyenAm": "æ, u, ɔː, ɔː, aɪ",
+    "cachDoc": "a, u, o, o, ai"
+  }
+]

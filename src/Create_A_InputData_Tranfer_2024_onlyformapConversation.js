@@ -218,6 +218,9 @@ function groupByPrefix(data) {
 function groupByPrefiToArrayPure(data, iNOTE) {
   let res = [];
   let ketSets = Object.keys(data);
+
+  console.log(JSON.stringify(ketSets));
+
   ketSets.forEach((e) => {
     res.push(data[e]);
   });
