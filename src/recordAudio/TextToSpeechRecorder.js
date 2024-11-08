@@ -37,10 +37,10 @@ function TextToSpeechRecorder() {
 
   const handleTextToSpeech = (n, jsonDataFN) => {
     setINDEX(n);
-    if (!deviceId) {
-      alert("Không tìm thấy thiết bị CABLE Input.");
-      return;
-    }
+    // if (!deviceId) {
+    //   alert("Không tìm thấy thiết bị CABLE Input.");
+    //   return;
+    // }
     const utterance = new SpeechSynthesisUtterance(jsonDataFN[n].text);
     utterance.rate = jsonDataFN[n].rate;
     let voices = window.speechSynthesis.getVoices();
