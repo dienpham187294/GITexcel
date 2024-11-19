@@ -1,260 +1,4905 @@
-{
-  "id01": {
-    "A01": [
-      {
-        "id": "01-01-guideTable-01",
-        "content": "[[[1,\"THỰC HÀNH: Thu thập thông tin tạm trú (Temporary Residence Information Collection)\",null],[1,null,null],[2,\"***GỢI Ý ( dựa vào bảng câu đồng nghĩa để khai thác thông tin)\",null],[2,\"Trường hợp 1\",\"Nếu người làm đơn chưa có số điện thoại thì hãy thay thế bằng Gmail (6)\"],[2,\"Trường hợp 2\",\"Nếu người làm đơn đăng kí với mục đích làm việc (work) thì hỏi thêm tên của công ty (11)\"],[2,\"Trường hợp 3\",\"Nếu người làm đơn đăng kí với mục đích học tập (study) thì hỏi thêm học trường gì (12)\"],[2,\"Trường hợp 4\",\"Nếu người làm đơn đăng kí với mục đích viếng thăm người thân ( Visit family) thì hỏi thêm mối quan hệ giữa họ là gì (13)\"],[3,null,null],[3,\"** REFERENCE\",null],[3,\"Synonymous sentences 1\",\"Synonymous sentences 2\"],[3,\"1. How can I help you?\",\"What can I do for you?\"],[3,\"2. What is your full name?\",\"Can you tell me your name?\"],[3,\"3. Can I have your ID number, please?\",\"Could you give me your ID number?\"],[3,\"4. When is your date of birth?\",\"What’s your birth date?\"],[3,\"5. What is your phone number?\",\"Can I have your phone number?\"],[3,\"6. May I have your email address?\",\"Can you give me your email address?\"],[3,\"7. Could you tell me your current address of temporary residence?\",\"Where are you staying right now?\"],[3,\"8. Is your permanent address different from your temporary address?\",\"Are your permanent and temporary addresses the same?\"],[3,\"9. How long do you plan to stay here?\",\"How long will you be here?\"],[3,\"10. What’s the purpose of your stay?\",\"Why are you here?\"],[3,\"11. What is your company name?\",\"What’s the name of the company you work for?\"],[3,\"12. What is your school name?\",\"What’s the name of your school?\"],[3,\"13. What is the relationship between you and that person?\",\"How are you related to that person?\"],[3,\"14. What is the start date of your temporary stay?\",\"When did you arrive here?\"],[3,\"15. When do you expect to leave?\",\"When do you plan to leave?\"],[3,\"16. Do you have a local contact person during your stay?\",\"Who can we contact locally?\"],[3,\"17. What is your relationship?\",\"How are you related to this person?\"],[3,\"18. In case of emergency, how can we contact you?\",\"What’s your emergency contact number?\"],[3,\"19. Did you recently move from another address?\",\"Have you just moved?\"],[3,\"20. Thank you for providing everything.\",\"Thanks for all the information.\"]]]"
-      },
-      {
-        "id": "01-01-weSay-01",
-        "content": "How can I help you? \\\\ What can I do for you?"
-      },
-      {
-        "id": "01-01-theySay-01",
-        "content": "Hello, I need to register my temporary residence."
-      },
-      {
-        "id": "01-01-pickingList-01",
-        "content": "Public service; Temporary residence and Temporary absence; Building permits; Driver’s licenses and vehicle registration; Business licenses; Other"
-      },
-      {
-        "id": "01-01-submitList-01",
-        "content": "Temporary residence and Temporary absence"
-      }
-    ],
-    "A02": [
-      {
-        "id": "01-02-weSay-01",
-        "content": "What is your full name? \\\\ Can you tell me your name?"
-      },
-      { "id": "01-02-theySay-01", "content": "My name is Ava Davis." },
-      {
-        "id": "01-02-pickingList-01",
-        "content": "Name; John Doe; Sarah Parker; Michael Johnson; Emma Smith; Daniel White; Olivia Brown; Ethan Green; Sophia Taylor; Jack Williams; Ava Davis;"
-      },
-      { "id": "01-02-submitList-01", "content": "Ava Davis" }
-    ],
-    "A03": [
-      {
-        "id": "01-03-weSay-01",
-        "content": "Can I have your ID number, please? \\\\ Could you give me your ID number?"
-      },
-      { "id": "01-03-theySay-01", "content": "My ID number is C61748129." },
-      {
-        "id": "01-03-pickingList-01",
-        "content": "ID numbers; A98456732; A52731964; K13087645; D75829401; J46392057; D80213467; P76859401; R60748129; N49120583; C61748129;"
-      },
-      { "id": "01-03-submitList-01", "content": "C61748129" }
-    ],
-    "A04": [
-      {
-        "id": "01-04-weSay-01",
-        "content": "When is your date of birth? \\\\ What’s your birth date?"
-      },
-      { "id": "01-04-theySay-01", "content": "January 1st 1990" },
-      {
-        "id": "01-04-pickingList-01",
-        "content": "Date of birth (DOB); January 1st 1990; May 15th 1992; November 22nd 1985; July 28th 2000; September 23rd 1991; December 4th 1990; August 17th 1984; November 25th 1992; April 30th 1989; September 6th 1987;"
-      },
-      { "id": "01-04-submitList-01", "content": "September 6th 1987" }
-    ],
-    "A05": [
-      {
-        "id": "01-05-weSay-01",
-        "content": "What is your phone number? \\\\ Can I have your phone number?"
-      },
-      { "id": "01-05-theySay-01", "content": "My phone number is 1534972" },
-      {
-        "id": "01-05-pickingList-01",
-        "content": "Phone number; 2651387; 9476531; 5721936; 4398251; 3716042; 7582463; 1534972;"
-      },
-      { "id": "01-05-submitList-01", "content": 1534972 }
-    ],
-    "A06": [
-      { "id": "01-06-weSay-01", "content": null },
-      { "id": "01-06-theySay-01", "content": null },
-      { "id": "01-06-pickingList-01", "content": null },
-      { "id": "01-06-submitList-01", "content": null }
-    ],
-    "A07": [
-      {
-        "id": "01-07-weSay-01",
-        "content": "Could you tell me your current address of temporary residence? \\\\ Where are you staying right now?"
-      },
-      {
-        "id": "01-07-theySay-01",
-        "content": "I am staying at 123 Maple Boulevard."
-      },
-      {
-        "id": "01-07-pickingList-01",
-        "content": "Temorary address; 500 Main St; 123 Oak Road; 45 Pine Avenue; 200 Queen St; 1500 Sunset ; 2nd Avenue; 98 Park Lane; 50 Harbor ; 789 Old Park ; 123 Maple Boulevard;"
-      },
-      { "id": "01-07-submitList-01", "content": "123 Maple Boulevard" }
-    ],
-    "A08": [
-      {
-        "id": "01-08-weSay-01",
-        "content": "Is your permanent address different from your temporary address? \\\\ Are your permanent and temporary addresses the same?"
-      },
-      {
-        "id": "01-08-theySay-01",
-        "content": "My permanent address is 22 Greenway."
-      },
-      {
-        "id": "01-08-pickingList-01",
-        "content": "Place of residence; 120 Maple; 89 Willow; 60 Elm Street; 420 Birch Road; 320 Pine Street; 1000 King Street; 45 Thames Road; 15 Rose Street,; 100 Victoria ; 22 Greenway;"
-      },
-      { "id": "01-08-submitList-01", "content": "22 Greenway" }
-    ],
-    "A09": [
-      {
-        "id": "01-09-weSay-01",
-        "content": "How long do you plan to stay here? \\\\ How long will you be here?"
-      },
-      { "id": "01-09-theySay-01", "content": "I’ll be staying for 4 months" },
-      {
-        "id": "01-09-pickingList-01",
-        "content": "Duration; 6 months; 3 months; 4 months; 1 year; 2 years;"
-      },
-      { "id": "01-09-submitList-01", "content": "4 months" }
-    ],
-    "A10": [
-      {
-        "id": "01-10-weSay-01",
-        "content": "What’s the purpose of your stay? \\\\ Why are you here?"
-      },
-      { "id": "01-10-theySay-01", "content": "I'm here to visit my family" },
-      {
-        "id": "01-10-pickingList-01",
-        "content": "Purpose; Work; Study; Visit family;"
-      },
-      { "id": "01-10-submitList-01", "content": "Visit family" }
-    ],
-    "A11": [
-      { "id": "01-11-weSay-01", "content": null },
-      { "id": "01-11-theySay-01", "content": null },
-      {
-        "id": "01-11-pickingList-01",
-        "content": "Company Name; TechCorp Ltd.; Global Inc.; Silicon Labs; Innovate Solutions Ltd.; None; BioTech Co.;"
-      },
-      { "id": "01-11-submitList-01", "content": null }
-    ],
-    "A12": [
-      { "id": "01-12-weSay-01", "content": null },
-      { "id": "01-12-theySay-01", "content": null },
-      {
-        "id": "01-12-pickingList-02",
-        "content": "University Name; Global University of Excellence; Horizon University; Nova University"
-      },
-      { "id": "01-12-submitList-02", "content": null }
-    ],
-    "A13": [
-      {
-        "id": "01-13-weSay-01",
-        "content": "What is the relationship between you and that person? \\\\ How are you related to that person?"
-      },
-      { "id": "01-13-theySay-01", "content": "My mother; My brother" },
-      {
-        "id": "01-13-pickingList-03",
-        "content": "Relationship; Father; Mother; Brother; Sister; Aunt; Uncle;"
-      },
-      { "id": "01-13-submitList-03", "content": "Brother" }
-    ],
-    "A14": [
-      {
-        "id": "01-14-weSay-01",
-        "content": "What is the start date of your temporary stay? \\\\ When did you arrive here?"
-      },
-      { "id": "01-14-theySay-01", "content": "I arrived on October 1st 2024" },
-      {
-        "id": "01-14-pickingList-01",
-        "content": "Starting Date; January 1st 2024; March 1st 2024; April 1st 2024; July 15th 2024; May 1st 2024; January 10th 2024; June 25th 2024; July 1st 2024; August 20th 2024; October 1st 2024;"
-      },
-      { "id": "01-14-submitList-01", "content": "October 1st 2024" }
-    ],
-    "A15": [
-      {
-        "id": "01-15-weSay-01",
-        "content": "When do you expect to leave? \\\\ When do you plan to leave?"
-      },
-      {
-        "id": "01-15-theySay-01",
-        "content": "I plan to stay until October 1st 2026"
-      },
-      {
-        "id": "01-15-pickingList-01",
-        "content": "Expected end date; July 1st 2024; June 1st 2024; June 2nd 2024; July 15th 2025; November 1st 2024; January 24th 2024; September 1st 2024; November 1st 2024; January 1st 2025; October 1st 2026;"
-      },
-      { "id": "01-15-submitList-01", "content": "October 1st 2026" }
-    ],
-    "A16": [
-      {
-        "id": "01-16-weSay-01",
-        "content": "Do you have a local contact person during your stay? \\\\ Who can we contact locally?"
-      },
-      {
-        "id": "01-16-theySay-01",
-        "content": "Lucas Black is my local contact."
-      },
-      {
-        "id": "01-16-pickingList-01",
-        "content": "Local contact name; Robert Brown; Jane Foster; Olivia Green; Daniel Wilson; Sarah Lee; Ethan Clark; Ava Taylor; Mia Roberts; Sophie White; Lucas Black;"
-      },
-      { "id": "01-16-submitList-01", "content": "Lucas Black" }
-    ],
-    "A17": [
-      {
-        "id": "01-17-weSay-01",
-        "content": "What is your relationship? \\\\ How are you related to this person?"
-      },
-      { "id": "01-17-theySay-01", "content": "He is my big brother" },
-      {
-        "id": "01-17-pickingList-01",
-        "content": "Relationship status; Co-worker; Classmate; Friend; Colleague; Brother; Mother; Sister"
-      },
-      { "id": "01-17-submitList-01", "content": "Brother" }
-    ],
-    "A18": [
-      {
-        "id": "01-18-weSay-01",
-        "content": "In case of emergency, how can we contact you? \\\\ What’s your emergency contact number?"
-      },
-      { "id": "01-18-theySay-01", "content": "You can reach me at 4871502." },
-      {
-        "id": "01-18-pickingList-01",
-        "content": "Contact number; 6391852; 9514726; 4826701; 7231864; 5319827; 8043716; 1957384; 6248053; 3126475; 4871502;"
-      },
-      { "id": "01-18-submitList-01", "content": 4871502 }
-    ],
-    "A19": [
-      {
-        "id": "01-19-weSay-01",
-        "content": "Did you recently move from another address? \\\\ Have you just moved?"
-      },
-      {
-        "id": "01-19-theySay-01",
-        "content": "I previously lived at 1150 Main Street."
-      },
-      {
-        "id": "01-19-pickingList-01",
-        "content": "Previous adress; 432 Elm Street; 1587 Oak Avenue; 23 Pine Lane; 902 Maple Boulevard; 672 Sunset Drive; 1748 River Road; 319 Cedar Street; 501 Birch Place; 84 Willow Crescent; 1150 Main Street;"
-      },
-      { "id": "01-19-submitList-01", "content": "1150 Main Street" }
+[
+  {
+    "idFile": "F1",
+    "idContent": "C1",
+    "data": [
+      [
+        {
+          "weSay": ["How can I help you?", "What can I do for you?"],
+          "theySay": ["Hello, I need to register my temporary residence."],
+          "submitList": ["Temporary residence and Temporary absence"],
+          "pickingList": [
+            [
+              "Public service",
+              "Temporary residence and Temporary absence",
+              "Building permits",
+              "Driver’s licenses and vehicle registration",
+              "Business licenses",
+              "Other"
+            ]
+          ],
+          "guideTable": [
+            [
+              [
+                "THỰC HÀNH: Thu thập thông tin tạm trú (Temporary Residence Information Collection)",
+                null
+              ],
+              [null, null]
+            ],
+            [
+              [
+                "***GỢI Ý ( dựa vào bảng câu đồng nghĩa để khai thác thông tin)",
+                null
+              ],
+              [
+                "Trường hợp 1",
+                "Nếu người làm đơn chưa có số điện thoại thì hãy thay thế bằng Gmail (6)"
+              ],
+              [
+                "Trường hợp 2",
+                "Nếu người làm đơn đăng kí với mục đích làm việc (work) thì hỏi thêm tên của công ty (11)"
+              ],
+              [
+                "Trường hợp 3",
+                "Nếu người làm đơn đăng kí với mục đích học tập (study) thì hỏi thêm học trường gì (12)"
+              ],
+              [
+                "Trường hợp 4",
+                "Nếu người làm đơn đăng kí với mục đích viếng thăm người thân ( Visit family) thì hỏi thêm mối quan hệ giữa họ là gì (13)"
+              ]
+            ],
+            [
+              [null, null],
+              ["** REFERENCE", null],
+              ["Synonymous sentences 1", "Synonymous sentences 2"],
+              ["1. How can I help you?", "What can I do for you?"],
+              ["2. What is your full name?", "Can you tell me your name?"],
+              [
+                "3. Can I have your ID number, please?",
+                "Could you give me your ID number?"
+              ],
+              ["4. When is your date of birth?", "What’s your birth date?"],
+              [
+                "5. What is your phone number?",
+                "Can I have your phone number?"
+              ],
+              [
+                "6. May I have your email address?",
+                "Can you give me your email address?"
+              ],
+              [
+                "7. Could you tell me your current address of temporary residence?",
+                "Where are you staying right now?"
+              ],
+              [
+                "8. Is your permanent address different from your temporary address?",
+                "Are your permanent and temporary addresses the same?"
+              ],
+              [
+                "9. How long do you plan to stay here?",
+                "How long will you be here?"
+              ],
+              ["10. What’s the purpose of your stay?", "Why are you here?"],
+              [
+                "11. What is your company name?",
+                "What’s the name of the company you work for?"
+              ],
+              [
+                "12. What is your school name?",
+                "What’s the name of your school?"
+              ],
+              [
+                "13. What is the relationship between you and that person?",
+                "How are you related to that person?"
+              ],
+              [
+                "14. What is the start date of your temporary stay?",
+                "When did you arrive here?"
+              ],
+              [
+                "15. When do you expect to leave?",
+                "When do you plan to leave?"
+              ],
+              [
+                "16. Do you have a local contact person during your stay?",
+                "Who can we contact locally?"
+              ],
+              [
+                "17. What is your relationship?",
+                "How are you related to this person?"
+              ],
+              [
+                "18. In case of emergency, how can we contact you?",
+                "What’s your emergency contact number?"
+              ],
+              [
+                "19. Did you recently move from another address?",
+                "Have you just moved?"
+              ],
+              [
+                "20. Thank you for providing everything.",
+                "Thanks for all the information."
+              ]
+            ]
+          ]
+        },
+        {
+          "weSay": ["What is your full name?", "Can you tell me your name?"],
+          "theySay": ["My name is John Doe."],
+          "submitList": ["John Doe"],
+          "pickingList": [
+            [
+              "Name",
+              "John Doe",
+              "Sarah Parker",
+              "Michael Johnson",
+              "Emma Smith",
+              "Daniel White",
+              "Olivia Brown",
+              "Ethan Green",
+              "Sophia Taylor",
+              "Jack Williams",
+              "Ava Davis"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Can I have your ID number, please?",
+            "Could you give me your ID number?"
+          ],
+          "theySay": ["My ID number is A98456732."],
+          "submitList": ["A98456732"],
+          "pickingList": [
+            [
+              "ID numbers",
+              "A98456732",
+              "A52731964",
+              "K13087645",
+              "D75829401",
+              "J46392057",
+              "D80213467",
+              "P76859401",
+              "R60748129",
+              "N49120583",
+              "C61748129"
+            ]
+          ]
+        },
+        {
+          "weSay": ["When is your date of birth?", "What’s your birth date?"],
+          "theySay": ["I was born on January 1st 1990."],
+          "submitList": ["January 1st 1990"],
+          "pickingList": [
+            [
+              "Date of birth (DOB)",
+              "January 1st 1990",
+              "May 15th 1992",
+              "November 22nd 1985",
+              "July 28th 2000",
+              "September 23rd 1991",
+              "December 4th 1990",
+              "August 17th 1984",
+              "November 25th 1992",
+              "April 30th 1989",
+              "September 6th 1987"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "What is your phone number?",
+            "Can I have your phone number?"
+          ],
+          "theySay": ["I have not registered a local sim"],
+          "pickingList": [
+            [
+              "Phone number",
+              "2651387",
+              "9476531",
+              "5721936",
+              "4398251",
+              "3716042",
+              "7582463",
+              "1534972"
+            ]
+          ],
+          "Error": ["Cảnh báo lỗi Thiếu submitList."]
+        },
+        {
+          "weSay": [
+            "May I have your email address?",
+            "Can you give me your email address?"
+          ],
+          "theySay": ["You can reach me via email at victory@email.com"],
+          "submitList": ["victory@email.com"],
+          "pickingList": [
+            [
+              "Email address",
+              "victory@email.com",
+              "bamber1@email.com",
+              "DLH34@email.com"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Could you tell me your current address of temporary residence?",
+            "Where are you staying right now?"
+          ],
+          "theySay": ["I am staying at 500 Main St."],
+          "submitList": ["500 Main St"],
+          "pickingList": [
+            [
+              "Temorary address",
+              "500 Main St",
+              "123 Oak Road",
+              "45 Pine Avenue",
+              "200 Queen St",
+              "1500 Sunset",
+              "2nd Avenue",
+              "98 Park Lane",
+              "50 Harbor",
+              "789 Old Park",
+              "123 Maple Boulevard"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Is your permanent address different from your temporary address?",
+            "Are your permanent and temporary addresses the same?"
+          ],
+          "theySay": ["My permanent address is 120 Maple."],
+          "submitList": ["120 Maple"],
+          "pickingList": [
+            [
+              "Place of residence",
+              "120 Maple",
+              "89 Willow",
+              "60 Elm Street",
+              "420 Birch Road",
+              "320 Pine Street",
+              "1000 King Street",
+              "45 Thames Road",
+              "15 Rose Street,",
+              "100 Victoria",
+              "22 Greenway"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "How long do you plan to stay here?",
+            "How long will you be here?"
+          ],
+          "theySay": ["I’ll be staying for 6 months"],
+          "submitList": ["6 months"],
+          "pickingList": [
+            [
+              "Duration",
+              "6 months",
+              "3 months",
+              "4 months",
+              "1 year",
+              "2 years"
+            ]
+          ]
+        },
+        {
+          "weSay": ["What’s the purpose of your stay?", "Why are you here?"],
+          "theySay": ["I’m here for Work"],
+          "submitList": ["Work"],
+          "pickingList": [["Purpose", "Work", "Study", "Visit family"]]
+        },
+        {
+          "weSay": [
+            "What is your company name?",
+            "What’s the name of the company you work for?"
+          ],
+          "theySay": ["I work at TechCorp Ltd"],
+          "submitList": ["TechCorp Ltd."],
+          "pickingList": [
+            [
+              "Company Name",
+              "TechCorp Ltd.",
+              "Global Inc.",
+              "Silicon Labs",
+              "Innovate Solutions Ltd.",
+              "None",
+              "BioTech Co."
+            ]
+          ]
+        },
+        {
+          "weSay": ["Hi"],
+          "theySay": ["NONE"],
+          "pickingList": [
+            [
+              "University Name",
+              "Global University of Excellence",
+              "Horizon University",
+              "Nova University"
+            ]
+          ],
+          "Error": ["Cảnh báo lỗi Thiếu submitList."]
+        },
+        {
+          "weSay": ["Hi"],
+          "theySay": ["NONE"],
+          "pickingList": [
+            [
+              "Relationship",
+              "Father",
+              "Mother",
+              "Brother",
+              "Sister",
+              "Aunt",
+              "Uncle"
+            ]
+          ],
+          "Error": ["Cảnh báo lỗi Thiếu submitList."]
+        },
+        {
+          "weSay": [
+            "What is the start date of your temporary stay?",
+            "When did you arrive here?"
+          ],
+          "theySay": ["I arrived on January 1st 2024"],
+          "submitList": ["January 1st 2024"],
+          "pickingList": [
+            [
+              "Starting Date",
+              "January 1st 2024",
+              "March 1st 2024",
+              "April 1st 2024",
+              "July 15th 2024",
+              "May 1st 2024",
+              "January 10th 2024",
+              "June 25th 2024",
+              "July 1st 2024",
+              "August 20th 2024",
+              "October 1st 2024"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "When do you expect to leave?",
+            "When do you plan to leave?"
+          ],
+          "theySay": ["I plan to stay until July 3rd 2024"],
+          "submitList": ["July 1st 2024"],
+          "pickingList": [
+            [
+              "Expected end date",
+              "July 3rd 2024",
+              "June 1st 2024",
+              "June 2nd 2024",
+              "July 15th 2025",
+              "November 1st 2024",
+              "January 24th 2024",
+              "September 1st 2024",
+              "November 1st 2024",
+              "January 1st 2025",
+              "October 1st 2026"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Do you have a local contact person during your stay?",
+            "Who can we contact locally?"
+          ],
+          "theySay": ["Robert Brown is my local contact"],
+          "submitList": ["Robert Brown"],
+          "pickingList": [
+            [
+              "Local contact name",
+              "Robert Brown",
+              "Jane Foster",
+              "Olivia Green",
+              "Daniel Wilson",
+              "Sarah Lee",
+              "Ethan Clark",
+              "Ava Taylor",
+              "Mia Roberts",
+              "Sophie White",
+              "Lucas Black"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "What is your relationship?",
+            "How are you related to this person?"
+          ],
+          "theySay": ["He is my Co-worker"],
+          "submitList": ["Co-worker"],
+          "pickingList": [
+            [
+              "Relationship status",
+              "Co-worker",
+              "Classmate",
+              "Friend",
+              "Colleague",
+              "Brother",
+              "Mother",
+              "Sister"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "In case of emergency, how can we contact you?",
+            "What’s your emergency contact number?"
+          ],
+          "theySay": ["You can reach me at 6391852."],
+          "submitList": ["6391852"],
+          "pickingList": [
+            [
+              "Contact number",
+              "6391852",
+              "9514726",
+              "4826701",
+              "7231864",
+              "5319827",
+              "8043716",
+              "1957384",
+              "6248053",
+              "3126475",
+              "4871502"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Did you recently move from another address?",
+            "Have you just moved?"
+          ],
+          "theySay": ["I previously lived at 432 Elm Street."],
+          "submitList": ["432 Elm Street"],
+          "pickingList": [
+            [
+              "Previous adress",
+              "432 Elm Street",
+              "1587 Oak Avenue",
+              "23 Pine Lane",
+              "902 Maple Boulevard",
+              "672 Sunset Drive",
+              "1748 River Road",
+              "319 Cedar Street",
+              "501 Birch Place",
+              "84 Willow Crescent",
+              "1150 Main Street"
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "weSay": [
+            "Thank you for providing everything.",
+            "Thanks for all the information."
+          ],
+          "theySay": ["Thank you for your help!"],
+          "submitList": ["FN01"],
+          "action": ["submitFN01"],
+          "guideTable": [
+            [
+              ["KẾT THÚC", null],
+              ["** REFERENCE", null],
+              ["Synonymous sentences 1", "Synonymous sentences 2"],
+              [
+                "Thank you for providing everything.",
+                "Thanks for all the information."
+              ]
+            ]
+          ]
+        }
+      ]
     ]
   },
-  "id02": {
-    "A01": [
-      {
-        "id": "02-01-guideTable-01",
-        "content": "[[[1,\"KẾT THÚC\",null],[1,\"** REFERENCE\",null],[1,\"Synonymous sentences 1\",\"Synonymous sentences 2\"],[1,\"Thank you for providing everything.\",\"Thanks for all the information.\"]]]"
-      },
-      {
-        "id": "02-01-weSay-01",
-        "content": "Thank you for providing everything. \\\\ Thanks for all the information."
-      },
-      { "id": "02-01-theySay-01", "content": "Thank you for your help!" },
-      { "id": "02-01-action-01", "content": "submitFN01" },
-      { "id": "02-01-submitList-01", "content": "FN01" }
+  {
+    "idFile": "F1",
+    "idContent": "C2",
+    "data": [
+      [
+        {
+          "weSay": ["How can I help you?", "What can I do for you?"],
+          "theySay": ["Hello, I need to register my temporary residence."],
+          "submitList": ["Temporary residence and Temporary absence"],
+          "pickingList": [
+            [
+              "Public service",
+              "Temporary residence and Temporary absence",
+              "Building permits",
+              "Driver’s licenses and vehicle registration",
+              "Business licenses",
+              "Other"
+            ]
+          ],
+          "guideTable": [
+            [
+              [
+                "THỰC HÀNH: Thu thập thông tin tạm trú (Temporary Residence Information Collection)",
+                null
+              ],
+              [null, null]
+            ],
+            [
+              [
+                "***GỢI Ý ( dựa vào bảng câu đồng nghĩa để khai thác thông tin)",
+                null
+              ],
+              [
+                "Trường hợp 1",
+                "Nếu người làm đơn chưa có số điện thoại thì hãy thay thế bằng Gmail (6)"
+              ],
+              [
+                "Trường hợp 2",
+                "Nếu người làm đơn đăng kí với mục đích làm việc (work) thì hỏi thêm tên của công ty (11)"
+              ],
+              [
+                "Trường hợp 3",
+                "Nếu người làm đơn đăng kí với mục đích học tập (study) thì hỏi thêm học trường gì (12)"
+              ],
+              [
+                "Trường hợp 4",
+                "Nếu người làm đơn đăng kí với mục đích viếng thăm người thân ( Visit family) thì hỏi thêm mối quan hệ giữa họ là gì (13)"
+              ]
+            ],
+            [
+              [null, null],
+              ["** REFERENCE", null],
+              ["Synonymous sentences 1", "Synonymous sentences 2"],
+              ["1. How can I help you?", "What can I do for you?"],
+              ["2. What is your full name?", "Can you tell me your name?"],
+              [
+                "3. Can I have your ID number, please?",
+                "Could you give me your ID number?"
+              ],
+              ["4. When is your date of birth?", "What’s your birth date?"],
+              [
+                "5. What is your phone number?",
+                "Can I have your phone number?"
+              ],
+              [
+                "6. May I have your email address?",
+                "Can you give me your email address?"
+              ],
+              [
+                "7. Could you tell me your current address of temporary residence?",
+                "Where are you staying right now?"
+              ],
+              [
+                "8. Is your permanent address different from your temporary address?",
+                "Are your permanent and temporary addresses the same?"
+              ],
+              [
+                "9. How long do you plan to stay here?",
+                "How long will you be here?"
+              ],
+              ["10. What’s the purpose of your stay?", "Why are you here?"],
+              [
+                "11. What is your company name?",
+                "What’s the name of the company you work for?"
+              ],
+              [
+                "12. What is your school name?",
+                "What’s the name of your school?"
+              ],
+              [
+                "13. What is the relationship between you and that person?",
+                "How are you related to that person?"
+              ],
+              [
+                "14. What is the start date of your temporary stay?",
+                "When did you arrive here?"
+              ],
+              [
+                "15. When do you expect to leave?",
+                "When do you plan to leave?"
+              ],
+              [
+                "16. Do you have a local contact person during your stay?",
+                "Who can we contact locally?"
+              ],
+              [
+                "17. What is your relationship?",
+                "How are you related to this person?"
+              ],
+              [
+                "18. In case of emergency, how can we contact you?",
+                "What’s your emergency contact number?"
+              ],
+              [
+                "19. Did you recently move from another address?",
+                "Have you just moved?"
+              ],
+              [
+                "20. Thank you for providing everything.",
+                "Thanks for all the information."
+              ]
+            ]
+          ]
+        },
+        {
+          "weSay": ["What is your full name?", "Can you tell me your name?"],
+          "theySay": ["My name is Sarah Parker."],
+          "submitList": ["Sarah Parker"],
+          "pickingList": [
+            [
+              "Name",
+              "John Doe",
+              "Sarah Parker",
+              "Michael Johnson",
+              "Emma Smith",
+              "Daniel White",
+              "Olivia Brown",
+              "Ethan Green",
+              "Sophia Taylor",
+              "Jack Williams",
+              "Ava Davis"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Can I have your ID number, please?",
+            "Could you give me your ID number?"
+          ],
+          "theySay": ["My ID number is A52731964."],
+          "submitList": ["A52731964"],
+          "pickingList": [
+            [
+              "ID numbers",
+              "A98456732",
+              "A52731964",
+              "K13087645",
+              "D75829401",
+              "J46392057",
+              "D80213467",
+              "P76859401",
+              "R60748129",
+              "N49120583",
+              "C61748129"
+            ]
+          ]
+        },
+        {
+          "weSay": ["When is your date of birth?", "What’s your birth date?"],
+          "theySay": ["I was born on May 15th 1992."],
+          "submitList": ["May 15th 1992"],
+          "pickingList": [
+            [
+              "Date of birth (DOB)",
+              "January 1st 1990",
+              "May 15th 1992",
+              "November 22nd 1985",
+              "July 28th 2000",
+              "September 23rd 1991",
+              "December 4th 1990",
+              "August 17th 1984",
+              "November 25th 1992",
+              "April 30th 1989",
+              "September 6th 1987"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "What is your phone number?",
+            "Can I have your phone number?"
+          ],
+          "theySay": ["My phone number is 2651387"],
+          "submitList": ["2651387"],
+          "pickingList": [
+            [
+              "Phone number",
+              "2651387",
+              "9476531",
+              "5721936",
+              "4398251",
+              "3716042",
+              "7582463",
+              "1534972"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Could you tell me your current address of temporary residence?",
+            "Where are you staying right now?"
+          ],
+          "theySay": ["I am staying at 123 Oak Road."],
+          "submitList": ["123 Oak Road"],
+          "pickingList": [
+            [
+              "Temorary address",
+              "500 Main St",
+              "123 Oak Road",
+              "45 Pine Avenue",
+              "200 Queen St",
+              "1500 Sunset",
+              "2nd Avenue",
+              "98 Park Lane",
+              "50 Harbor",
+              "789 Old Park",
+              "123 Maple Boulevard"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Is your permanent address different from your temporary address?",
+            "Are your permanent and temporary addresses the same?"
+          ],
+          "theySay": ["My permanent address is 89 Willow."],
+          "submitList": ["89 Willow"],
+          "pickingList": [
+            [
+              "Place of residence",
+              "120 Maple",
+              "89 Willow",
+              "60 Elm Street",
+              "420 Birch Road",
+              "320 Pine Street",
+              "1000 King Street",
+              "45 Thames Road",
+              "15 Rose Street,",
+              "100 Victoria",
+              "22 Greenway"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "How long do you plan to stay here?",
+            "How long will you be here?"
+          ],
+          "theySay": ["I’ll be staying for 3 months"],
+          "submitList": ["3 months"],
+          "pickingList": [
+            [
+              "Duration",
+              "6 months",
+              "3 months",
+              "4 months",
+              "1 year",
+              "2 years"
+            ]
+          ]
+        },
+        {
+          "weSay": ["What’s the purpose of your stay?", "Why are you here?"],
+          "theySay": ["I’m here for study"],
+          "submitList": ["Study"],
+          "pickingList": [["Purpose", "Work", "Study", "Visit family"]]
+        },
+        {
+          "weSay": ["Hi"],
+          "theySay": ["NONE"],
+          "pickingList": [
+            [
+              "Company Name",
+              "TechCorp Ltd.",
+              "Global Inc.",
+              "Silicon Labs",
+              "Innovate Solutions Ltd.",
+              "None",
+              "BioTech Co."
+            ]
+          ],
+          "Error": ["Cảnh báo lỗi Thiếu submitList."]
+        },
+        {
+          "weSay": [
+            "What is your school name?",
+            "What’s the name of your school?"
+          ],
+          "theySay": ["I study at Global University of Excellence"],
+          "submitList": ["Global University of Excellence"],
+          "pickingList": [
+            [
+              "University Name",
+              "Global University of Excellence",
+              "Horizon University",
+              "Nova University"
+            ]
+          ]
+        },
+        {
+          "weSay": ["Hi"],
+          "theySay": ["NONE"],
+          "pickingList": [
+            [
+              "Relationship",
+              "Father",
+              "Mother",
+              "Brother",
+              "Sister",
+              "Aunt",
+              "Uncle"
+            ]
+          ],
+          "Error": ["Cảnh báo lỗi Thiếu submitList."]
+        },
+        {
+          "weSay": [
+            "What is the start date of your temporary stay?",
+            "When did you arrive here?"
+          ],
+          "theySay": ["I arrived on March 1st 2024"],
+          "submitList": ["March 1st 2024"],
+          "pickingList": [
+            [
+              "Starting Date",
+              "January 1st 2024",
+              "March 1st 2024",
+              "April 1st 2024",
+              "July 15th 2024",
+              "May 1st 2024",
+              "January 10th 2024",
+              "June 25th 2024",
+              "July 1st 2024",
+              "August 20th 2024",
+              "October 1st 2024"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "When do you expect to leave?",
+            "When do you plan to leave?"
+          ],
+          "theySay": ["I plan to stay until June 1st 2024"],
+          "submitList": ["June 1st 2024"],
+          "pickingList": [
+            [
+              "Expected end date",
+              "July 1st 2024",
+              "June 1st 2024",
+              "June 2nd 2024",
+              "July 15th 2025",
+              "November 1st 2024",
+              "January 24th 2024",
+              "September 1st 2024",
+              "November 1st 2024",
+              "January 1st 2025",
+              "October 1st 2026"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Do you have a local contact person during your stay?",
+            "Who can we contact locally?"
+          ],
+          "theySay": ["Jane Foster is my local contact."],
+          "submitList": ["Jane Foster"],
+          "pickingList": [
+            [
+              "Local contact name",
+              "Robert Brown",
+              "Jane Foster",
+              "Olivia Green",
+              "Daniel Wilson",
+              "Sarah Lee",
+              "Ethan Clark",
+              "Ava Taylor",
+              "Mia Roberts",
+              "Sophie White",
+              "Lucas Black"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "What is your relationship?",
+            "How are you related to this person?"
+          ],
+          "theySay": ["He is my Classmate"],
+          "submitList": ["Classmate"],
+          "pickingList": [
+            [
+              "Relationship status",
+              "Co-worker",
+              "Classmate",
+              "Friend",
+              "Colleague",
+              "Brother",
+              "Mother",
+              "Sister"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "In case of emergency, how can we contact you?",
+            "What’s your emergency contact number?"
+          ],
+          "theySay": ["You can reach me at 9514726."],
+          "submitList": ["9514726"],
+          "pickingList": [
+            [
+              "Contact number",
+              "6391852",
+              "9514726",
+              "4826701",
+              "7231864",
+              "5319827",
+              "8043716",
+              "1957384",
+              "6248053",
+              "3126475",
+              "4871502"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Did you recently move from another address?",
+            "Have you just moved?"
+          ],
+          "theySay": ["I previously lived at 1587 Oak Avenue."],
+          "submitList": ["1587 Oak Avenue"],
+          "pickingList": [
+            [
+              "Previous adress",
+              "432 Elm Street",
+              "1587 Oak Avenue",
+              "23 Pine Lane",
+              "902 Maple Boulevard",
+              "672 Sunset Drive",
+              "1748 River Road",
+              "319 Cedar Street",
+              "501 Birch Place",
+              "84 Willow Crescent",
+              "1150 Main Street"
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "weSay": [
+            "Thank you for providing everything.",
+            "Thanks for all the information."
+          ],
+          "theySay": ["Thank you for your help!"],
+          "submitList": ["FN01"],
+          "action": ["submitFN01"],
+          "guideTable": [
+            [
+              ["KẾT THÚC", null],
+              ["** REFERENCE", null],
+              ["Synonymous sentences 1", "Synonymous sentences 2"],
+              [
+                "Thank you for providing everything.",
+                "Thanks for all the information."
+              ]
+            ]
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "idFile": "F1",
+    "idContent": "C3",
+    "data": [
+      [
+        {
+          "weSay": ["How can I help you?", "What can I do for you?"],
+          "theySay": ["Hello, I need to register my temporary residence."],
+          "submitList": ["Temporary residence and Temporary absence"],
+          "pickingList": [
+            [
+              "Public service",
+              "Temporary residence and Temporary absence",
+              "Building permits",
+              "Driver’s licenses and vehicle registration",
+              "Business licenses",
+              "Other"
+            ]
+          ],
+          "guideTable": [
+            [
+              [
+                "THỰC HÀNH: Thu thập thông tin tạm trú (Temporary Residence Information Collection)",
+                null
+              ],
+              [null, null]
+            ],
+            [
+              [
+                "***GỢI Ý ( dựa vào bảng câu đồng nghĩa để khai thác thông tin)",
+                null
+              ],
+              [
+                "Trường hợp 1",
+                "Nếu người làm đơn chưa có số điện thoại thì hãy thay thế bằng Gmail (6)"
+              ],
+              [
+                "Trường hợp 2",
+                "Nếu người làm đơn đăng kí với mục đích làm việc (work) thì hỏi thêm tên của công ty (11)"
+              ],
+              [
+                "Trường hợp 3",
+                "Nếu người làm đơn đăng kí với mục đích học tập (study) thì hỏi thêm học trường gì (12)"
+              ],
+              [
+                "Trường hợp 4",
+                "Nếu người làm đơn đăng kí với mục đích viếng thăm người thân ( Visit family) thì hỏi thêm mối quan hệ giữa họ là gì (13)"
+              ]
+            ],
+            [
+              [null, null],
+              ["** REFERENCE", null],
+              ["Synonymous sentences 1", "Synonymous sentences 2"],
+              ["1. How can I help you?", "What can I do for you?"],
+              ["2. What is your full name?", "Can you tell me your name?"],
+              [
+                "3. Can I have your ID number, please?",
+                "Could you give me your ID number?"
+              ],
+              ["4. When is your date of birth?", "What’s your birth date?"],
+              [
+                "5. What is your phone number?",
+                "Can I have your phone number?"
+              ],
+              [
+                "6. May I have your email address?",
+                "Can you give me your email address?"
+              ],
+              [
+                "7. Could you tell me your current address of temporary residence?",
+                "Where are you staying right now?"
+              ],
+              [
+                "8. Is your permanent address different from your temporary address?",
+                "Are your permanent and temporary addresses the same?"
+              ],
+              [
+                "9. How long do you plan to stay here?",
+                "How long will you be here?"
+              ],
+              ["10. What’s the purpose of your stay?", "Why are you here?"],
+              [
+                "11. What is your company name?",
+                "What’s the name of the company you work for?"
+              ],
+              [
+                "12. What is your school name?",
+                "What’s the name of your school?"
+              ],
+              [
+                "13. What is the relationship between you and that person?",
+                "How are you related to that person?"
+              ],
+              [
+                "14. What is the start date of your temporary stay?",
+                "When did you arrive here?"
+              ],
+              [
+                "15. When do you expect to leave?",
+                "When do you plan to leave?"
+              ],
+              [
+                "16. Do you have a local contact person during your stay?",
+                "Who can we contact locally?"
+              ],
+              [
+                "17. What is your relationship?",
+                "How are you related to this person?"
+              ],
+              [
+                "18. In case of emergency, how can we contact you?",
+                "What’s your emergency contact number?"
+              ],
+              [
+                "19. Did you recently move from another address?",
+                "Have you just moved?"
+              ],
+              [
+                "20. Thank you for providing everything.",
+                "Thanks for all the information."
+              ]
+            ]
+          ]
+        },
+        {
+          "weSay": ["What is your full name?", "Can you tell me your name?"],
+          "theySay": ["My name is Michael Johnson."],
+          "submitList": ["Michael Johnson"],
+          "pickingList": [
+            [
+              "Name",
+              "John Doe",
+              "Sarah Parker",
+              "Michael Johnson",
+              "Emma Smith",
+              "Daniel White",
+              "Olivia Brown",
+              "Ethan Green",
+              "Sophia Taylor",
+              "Jack Williams",
+              "Ava Davis"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Can I have your ID number, please?",
+            "Could you give me your ID number?"
+          ],
+          "theySay": ["My ID number is K13087645."],
+          "submitList": ["K13087645"],
+          "pickingList": [
+            [
+              "ID numbers",
+              "A98456732",
+              "A52731964",
+              "K13087645",
+              "D75829401",
+              "J46392057",
+              "D80213467",
+              "P76859401",
+              "R60748129",
+              "N49120583",
+              "C61748129"
+            ]
+          ]
+        },
+        {
+          "weSay": ["When is your date of birth?", "What’s your birth date?"],
+          "theySay": ["I was born on November 22nd 1985."],
+          "submitList": ["November 22nd 1985"],
+          "pickingList": [
+            [
+              "Date of birth (DOB)",
+              "January 1st 1990",
+              "May 15th 1992",
+              "November 22nd 1985",
+              "July 28th 2000",
+              "September 23rd 1991",
+              "December 4th 1990",
+              "August 17th 1984",
+              "November 25th 1992",
+              "April 30th 1989",
+              "September 6th 1987"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "What is your phone number?",
+            "Can I have your phone number?"
+          ],
+          "theySay": ["My phone number is 9476531"],
+          "submitList": ["9476531"],
+          "pickingList": [
+            [
+              "Phone number",
+              "2651387",
+              "9476531",
+              "5721936",
+              "4398251",
+              "3716042",
+              "7582463",
+              "1534972"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Could you tell me your current address of temporary residence?",
+            "Where are you staying right now?"
+          ],
+          "theySay": ["I am staying at 45 Pine Avenue."],
+          "submitList": ["45 Pine Avenue"],
+          "pickingList": [
+            [
+              "Temorary address",
+              "500 Main St",
+              "123 Oak Road",
+              "45 Pine Avenue",
+              "200 Queen St",
+              "1500 Sunset",
+              "2nd Avenue",
+              "98 Park Lane",
+              "50 Harbor",
+              "789 Old Park",
+              "123 Maple Boulevard"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Is your permanent address different from your temporary address?",
+            "Are your permanent and temporary addresses the same?"
+          ],
+          "theySay": ["My permanent address is 60 Elm Street."],
+          "submitList": ["60 Elm Street"],
+          "pickingList": [
+            [
+              "Place of residence",
+              "120 Maple",
+              "89 Willow",
+              "60 Elm Street",
+              "420 Birch Road",
+              "320 Pine Street",
+              "1000 King Street",
+              "45 Thames Road",
+              "15 Rose Street,",
+              "100 Victoria",
+              "22 Greenway"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "How long do you plan to stay here?",
+            "How long will you be here?"
+          ],
+          "theySay": ["I’ll be staying for 1 year"],
+          "submitList": ["1 year"],
+          "pickingList": [
+            [
+              "Duration",
+              "6 months",
+              "3 months",
+              "4 months",
+              "1 year",
+              "2 years"
+            ]
+          ]
+        },
+        {
+          "weSay": ["What’s the purpose of your stay?", "Why are you here?"],
+          "theySay": ["I’m here for study"],
+          "submitList": ["Study"],
+          "pickingList": [["Purpose", "Work", "Study", "Visit family"]]
+        },
+        {
+          "weSay": ["Hi"],
+          "theySay": ["NONE"],
+          "pickingList": [
+            [
+              "Company Name",
+              "TechCorp Ltd.",
+              "Global Inc.",
+              "Silicon Labs",
+              "Innovate Solutions Ltd.",
+              "None",
+              "BioTech Co."
+            ]
+          ],
+          "Error": ["Cảnh báo lỗi Thiếu submitList."]
+        },
+        {
+          "weSay": [
+            "What is your school name?",
+            "What’s the name of your school?"
+          ],
+          "theySay": ["I study at Horizon University"],
+          "submitList": ["Horizon University"],
+          "pickingList": [
+            [
+              "University Name",
+              "Global University of Excellence",
+              "Horizon University",
+              "Nova University"
+            ]
+          ]
+        },
+        {
+          "weSay": ["Hi"],
+          "theySay": ["NONE"],
+          "pickingList": [
+            [
+              "Relationship",
+              "Father",
+              "Mother",
+              "Brother",
+              "Sister",
+              "Aunt",
+              "Uncle"
+            ]
+          ],
+          "Error": ["Cảnh báo lỗi Thiếu submitList."]
+        },
+        {
+          "weSay": [
+            "What is the start date of your temporary stay?",
+            "When did you arrive here?"
+          ],
+          "theySay": ["I arrived on April 1st 2024"],
+          "submitList": ["April 1st 2024"],
+          "pickingList": [
+            [
+              "Starting Date",
+              "January 1st 2024",
+              "March 1st 2024",
+              "April 1st 2024",
+              "July 15th 2024",
+              "May 1st 2024",
+              "January 10th 2024",
+              "June 25th 2024",
+              "July 1st 2024",
+              "August 20th 2024",
+              "October 1st 2024"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "When do you expect to leave?",
+            "When do you plan to leave?"
+          ],
+          "theySay": ["I plan to stay until June 2nd 202"],
+          "submitList": ["June 2nd 202"],
+          "pickingList": [
+            [
+              "Expected end date",
+              "July 1st 2024",
+              "June 1st 2024",
+              "June 2nd 2024",
+              "July 15th 2025",
+              "November 1st 2024",
+              "January 24th 2024",
+              "September 1st 2024",
+              "November 1st 2024",
+              "January 1st 2025",
+              "October 1st 2026"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Do you have a local contact person during your stay?",
+            "Who can we contact locally?"
+          ],
+          "theySay": ["Olivia Green is my local contact."],
+          "submitList": ["Olivia Green"],
+          "pickingList": [
+            [
+              "Local contact name",
+              "Robert Brown",
+              "Jane Foster",
+              "Olivia Green",
+              "Daniel Wilson",
+              "Sarah Lee",
+              "Ethan Clark",
+              "Ava Taylor",
+              "Mia Roberts",
+              "Sophie White",
+              "Lucas Black"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "What is your relationship?",
+            "How are you related to this person?"
+          ],
+          "theySay": ["He is my Friend"],
+          "submitList": ["Co-worker"],
+          "pickingList": [
+            [
+              "Relationship status",
+              "Co-worker",
+              "Classmate",
+              "Friend",
+              "Colleague",
+              "Brother",
+              "Mother",
+              "Sister"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "In case of emergency, how can we contact you?",
+            "What’s your emergency contact number?"
+          ],
+          "theySay": ["You can reach me at 4826701."],
+          "submitList": ["4826701"],
+          "pickingList": [
+            [
+              "Contact number",
+              "6391852",
+              "9514726",
+              "4826701",
+              "7231864",
+              "5319827",
+              "8043716",
+              "1957384",
+              "6248053",
+              "3126475",
+              "4871502"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Did you recently move from another address?",
+            "Have you just moved?"
+          ],
+          "theySay": ["I previously lived at 23 Pine Lane."],
+          "submitList": ["23 Pine Lane"],
+          "pickingList": [
+            [
+              "Previous adress",
+              "432 Elm Street",
+              "1587 Oak Avenue",
+              "23 Pine Lane",
+              "902 Maple Boulevard",
+              "672 Sunset Drive",
+              "1748 River Road",
+              "319 Cedar Street",
+              "501 Birch Place",
+              "84 Willow Crescent",
+              "1150 Main Street"
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "weSay": [
+            "Thank you for providing everything.",
+            "Thanks for all the information."
+          ],
+          "theySay": ["Thank you for your help!"],
+          "submitList": ["FN01"],
+          "action": ["submitFN01"],
+          "guideTable": [
+            [
+              ["KẾT THÚC", null],
+              ["** REFERENCE", null],
+              ["Synonymous sentences 1", "Synonymous sentences 2"],
+              [
+                "Thank you for providing everything.",
+                "Thanks for all the information."
+              ]
+            ]
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "idFile": "F1",
+    "idContent": "C4",
+    "data": [
+      [
+        {
+          "weSay": ["How can I help you?", "What can I do for you?"],
+          "theySay": ["Hello, I need to register my temporary residence."],
+          "submitList": ["Temporary residence and Temporary absence"],
+          "pickingList": [
+            [
+              "Public service",
+              "Temporary residence and Temporary absence",
+              "Building permits",
+              "Driver’s licenses and vehicle registration",
+              "Business licenses",
+              "Other"
+            ]
+          ],
+          "guideTable": [
+            [
+              [
+                "THỰC HÀNH: Thu thập thông tin tạm trú (Temporary Residence Information Collection)",
+                null
+              ],
+              [null, null]
+            ],
+            [
+              [
+                "***GỢI Ý ( dựa vào bảng câu đồng nghĩa để khai thác thông tin)",
+                null
+              ],
+              [
+                "Trường hợp 1",
+                "Nếu người làm đơn chưa có số điện thoại thì hãy thay thế bằng Gmail (6)"
+              ],
+              [
+                "Trường hợp 2",
+                "Nếu người làm đơn đăng kí với mục đích làm việc (work) thì hỏi thêm tên của công ty (11)"
+              ],
+              [
+                "Trường hợp 3",
+                "Nếu người làm đơn đăng kí với mục đích học tập (study) thì hỏi thêm học trường gì (12)"
+              ],
+              [
+                "Trường hợp 4",
+                "Nếu người làm đơn đăng kí với mục đích viếng thăm người thân ( Visit family) thì hỏi thêm mối quan hệ giữa họ là gì (13)"
+              ]
+            ],
+            [
+              [null, null],
+              ["** REFERENCE", null],
+              ["Synonymous sentences 1", "Synonymous sentences 2"],
+              ["1. How can I help you?", "What can I do for you?"],
+              ["2. What is your full name?", "Can you tell me your name?"],
+              [
+                "3. Can I have your ID number, please?",
+                "Could you give me your ID number?"
+              ],
+              ["4. When is your date of birth?", "What’s your birth date?"],
+              [
+                "5. What is your phone number?",
+                "Can I have your phone number?"
+              ],
+              [
+                "6. May I have your email address?",
+                "Can you give me your email address?"
+              ],
+              [
+                "7. Could you tell me your current address of temporary residence?",
+                "Where are you staying right now?"
+              ],
+              [
+                "8. Is your permanent address different from your temporary address?",
+                "Are your permanent and temporary addresses the same?"
+              ],
+              [
+                "9. How long do you plan to stay here?",
+                "How long will you be here?"
+              ],
+              ["10. What’s the purpose of your stay?", "Why are you here?"],
+              [
+                "11. What is your company name?",
+                "What’s the name of the company you work for?"
+              ],
+              [
+                "12. What is your school name?",
+                "What’s the name of your school?"
+              ],
+              [
+                "13. What is the relationship between you and that person?",
+                "How are you related to that person?"
+              ],
+              [
+                "14. What is the start date of your temporary stay?",
+                "When did you arrive here?"
+              ],
+              [
+                "15. When do you expect to leave?",
+                "When do you plan to leave?"
+              ],
+              [
+                "16. Do you have a local contact person during your stay?",
+                "Who can we contact locally?"
+              ],
+              [
+                "17. What is your relationship?",
+                "How are you related to this person?"
+              ],
+              [
+                "18. In case of emergency, how can we contact you?",
+                "What’s your emergency contact number?"
+              ],
+              [
+                "19. Did you recently move from another address?",
+                "Have you just moved?"
+              ],
+              [
+                "20. Thank you for providing everything.",
+                "Thanks for all the information."
+              ]
+            ]
+          ]
+        },
+        {
+          "weSay": ["What is your full name?", "Can you tell me your name?"],
+          "theySay": ["My name is Emma Smith."],
+          "submitList": ["Emma Smith"],
+          "pickingList": [
+            [
+              "Name",
+              "John Doe",
+              "Sarah Parker",
+              "Michael Johnson",
+              "Emma Smith",
+              "Daniel White",
+              "Olivia Brown",
+              "Ethan Green",
+              "Sophia Taylor",
+              "Jack Williams",
+              "Ava Davis"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Can I have your ID number, please?",
+            "Could you give me your ID number?"
+          ],
+          "theySay": ["My ID number is D75829401."],
+          "submitList": ["D75829401"],
+          "pickingList": [
+            [
+              "ID numbers",
+              "A98456732",
+              "A52731964",
+              "K13087645",
+              "D75829401",
+              "J46392057",
+              "D80213467",
+              "P76859401",
+              "R60748129",
+              "N49120583",
+              "C61748129"
+            ]
+          ]
+        },
+        {
+          "weSay": ["When is your date of birth?", "What’s your birth date?"],
+          "theySay": ["I was born on July 28th 2000."],
+          "submitList": ["July 28th 2000"],
+          "pickingList": [
+            [
+              "Date of birth (DOB)",
+              "January 1st 1990",
+              "May 15th 1992",
+              "November 22nd 1985",
+              "July 28th 2000",
+              "September 23rd 1991",
+              "December 4th 1990",
+              "August 17th 1984",
+              "November 25th 1992",
+              "April 30th 1989",
+              "September 6th 1987"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "What is your phone number?",
+            "Can I have your phone number?"
+          ],
+          "theySay": ["I have not registered a local sim"],
+          "pickingList": [
+            [
+              "Phone number",
+              "2651387",
+              "9476531",
+              "5721936",
+              "4398251",
+              "3716042",
+              "7582463",
+              "1534972"
+            ]
+          ],
+          "Error": ["Cảnh báo lỗi Thiếu submitList."]
+        },
+        {
+          "weSay": [
+            "May I have your email address?",
+            "Can you give me your email address?"
+          ],
+          "theySay": ["You can reach me via email at bamber1@email.com"],
+          "submitList": ["bamber1@email.com"],
+          "pickingList": [
+            [
+              "Email address",
+              "victory@email.com",
+              "bamber1@email.com",
+              "DLH34@email.com"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Could you tell me your current address of temporary residence?",
+            "Where are you staying right now?"
+          ],
+          "theySay": ["I am staying at 200 Queen St."],
+          "submitList": ["200 Queen St"],
+          "pickingList": [
+            [
+              "Temorary address",
+              "500 Main St",
+              "123 Oak Road",
+              "45 Pine Avenue",
+              "200 Queen St",
+              "1500 Sunset",
+              "2nd Avenue",
+              "98 Park Lane",
+              "50 Harbor",
+              "789 Old Park",
+              "123 Maple Boulevard"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Is your permanent address different from your temporary address?",
+            "Are your permanent and temporary addresses the same?"
+          ],
+          "theySay": ["My permanent address is 420 Birch Road."],
+          "submitList": ["420 Birch Road"],
+          "pickingList": [
+            [
+              "Place of residence",
+              "120 Maple",
+              "89 Willow",
+              "60 Elm Street",
+              "420 Birch Road",
+              "320 Pine Street",
+              "1000 King Street",
+              "45 Thames Road",
+              "15 Rose Street,",
+              "100 Victoria",
+              "22 Greenway"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "How long do you plan to stay here?",
+            "How long will you be here?"
+          ],
+          "theySay": ["I’ll be staying for 6 months"],
+          "submitList": ["6 months"],
+          "pickingList": [
+            [
+              "Duration",
+              "6 months",
+              "3 months",
+              "4 months",
+              "1 year",
+              "2 years"
+            ]
+          ]
+        },
+        {
+          "weSay": ["What’s the purpose of your stay?", "Why are you here?"],
+          "theySay": ["I’m here for Work"],
+          "submitList": ["Work"],
+          "pickingList": [["Purpose", "Work", "Study", "Visit family"]]
+        },
+        {
+          "weSay": [
+            "What is your company name?",
+            "What’s the name of the company you work for?"
+          ],
+          "theySay": ["I work at Global Inc."],
+          "submitList": ["Global Inc."],
+          "pickingList": [
+            [
+              "Company Name",
+              "TechCorp Ltd.",
+              "Global Inc.",
+              "Silicon Labs",
+              "Innovate Solutions Ltd.",
+              "None",
+              "BioTech Co."
+            ]
+          ]
+        },
+        {
+          "weSay": ["Hi"],
+          "theySay": ["NONE"],
+          "pickingList": [
+            [
+              "University Name",
+              "Global University of Excellence",
+              "Horizon University",
+              "Nova University"
+            ]
+          ],
+          "Error": ["Cảnh báo lỗi Thiếu submitList."]
+        },
+        {
+          "weSay": ["Hi"],
+          "theySay": ["NONE"],
+          "pickingList": [
+            [
+              "Relationship",
+              "Father",
+              "Mother",
+              "Brother",
+              "Sister",
+              "Aunt",
+              "Uncle"
+            ]
+          ],
+          "Error": ["Cảnh báo lỗi Thiếu submitList."]
+        },
+        {
+          "weSay": [
+            "What is the start date of your temporary stay?",
+            "When did you arrive here?"
+          ],
+          "theySay": ["I arrived on July 15th 2024"],
+          "submitList": ["July 15th 2024"],
+          "pickingList": [
+            [
+              "Starting Date",
+              "January 1st 2024",
+              "March 1st 2024",
+              "April 1st 2024",
+              "July 15th 2024",
+              "May 1st 2024",
+              "January 10th 2024",
+              "June 25th 2024",
+              "July 1st 2024",
+              "August 20th 2024",
+              "October 1st 2024"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "When do you expect to leave?",
+            "When do you plan to leave?"
+          ],
+          "theySay": ["I plan to stay until July 15th 2025"],
+          "submitList": ["July 15th 2025"],
+          "pickingList": [
+            [
+              "Expected end date",
+              "July 1st 2024",
+              "June 1st 2024",
+              "June 2nd 2024",
+              "July 15th 2025",
+              "November 1st 2024",
+              "January 24th 2024",
+              "September 1st 2024",
+              "November 1st 2024",
+              "January 1st 2025",
+              "October 1st 2026"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Do you have a local contact person during your stay?",
+            "Who can we contact locally?"
+          ],
+          "theySay": ["Daniel Wilson is my local contact."],
+          "submitList": ["Daniel Wilson"],
+          "pickingList": [
+            [
+              "Local contact name",
+              "Robert Brown",
+              "Jane Foster",
+              "Olivia Green",
+              "Daniel Wilson",
+              "Sarah Lee",
+              "Ethan Clark",
+              "Ava Taylor",
+              "Mia Roberts",
+              "Sophie White",
+              "Lucas Black"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "What is your relationship?",
+            "How are you related to this person?"
+          ],
+          "theySay": ["He is my Colleague"],
+          "submitList": ["Co-worker"],
+          "pickingList": [
+            [
+              "Relationship status",
+              "Co-worker",
+              "Classmate",
+              "Friend",
+              "Colleague",
+              "Brother",
+              "Mother",
+              "Sister"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "In case of emergency, how can we contact you?",
+            "What’s your emergency contact number?"
+          ],
+          "theySay": ["You can reach me at 7231864."],
+          "submitList": ["7231864"],
+          "pickingList": [
+            [
+              "Contact number",
+              "6391852",
+              "9514726",
+              "4826701",
+              "7231864",
+              "5319827",
+              "8043716",
+              "1957384",
+              "6248053",
+              "3126475",
+              "4871502"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Did you recently move from another address?",
+            "Have you just moved?"
+          ],
+          "theySay": ["I previously lived at 902 Maple Boulevard."],
+          "submitList": ["902 Maple Boulevard"],
+          "pickingList": [
+            [
+              "Previous adress",
+              "432 Elm Street",
+              "1587 Oak Avenue",
+              "23 Pine Lane",
+              "902 Maple Boulevard",
+              "672 Sunset Drive",
+              "1748 River Road",
+              "319 Cedar Street",
+              "501 Birch Place",
+              "84 Willow Crescent",
+              "1150 Main Street"
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "weSay": [
+            "Thank you for providing everything.",
+            "Thanks for all the information."
+          ],
+          "theySay": ["Thank you for your help!"],
+          "submitList": ["FN01"],
+          "action": ["submitFN01"],
+          "guideTable": [
+            [
+              ["KẾT THÚC", null],
+              ["** REFERENCE", null],
+              ["Synonymous sentences 1", "Synonymous sentences 2"],
+              [
+                "Thank you for providing everything.",
+                "Thanks for all the information."
+              ]
+            ]
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "idFile": "F1",
+    "idContent": "C5",
+    "data": [
+      [
+        {
+          "weSay": ["How can I help you?", "What can I do for you?"],
+          "theySay": ["Hello, I need to register my temporary residence."],
+          "submitList": ["Temporary residence and Temporary absence"],
+          "pickingList": [
+            [
+              "Public service",
+              "Temporary residence and Temporary absence",
+              "Building permits",
+              "Driver’s licenses and vehicle registration",
+              "Business licenses",
+              "Other"
+            ]
+          ],
+          "guideTable": [
+            [
+              [
+                "THỰC HÀNH: Thu thập thông tin tạm trú (Temporary Residence Information Collection)",
+                null
+              ],
+              [null, null]
+            ],
+            [
+              [
+                "***GỢI Ý ( dựa vào bảng câu đồng nghĩa để khai thác thông tin)",
+                null
+              ],
+              [
+                "Trường hợp 1",
+                "Nếu người làm đơn chưa có số điện thoại thì hãy thay thế bằng Gmail (6)"
+              ],
+              [
+                "Trường hợp 2",
+                "Nếu người làm đơn đăng kí với mục đích làm việc (work) thì hỏi thêm tên của công ty (11)"
+              ],
+              [
+                "Trường hợp 3",
+                "Nếu người làm đơn đăng kí với mục đích học tập (study) thì hỏi thêm học trường gì (12)"
+              ],
+              [
+                "Trường hợp 4",
+                "Nếu người làm đơn đăng kí với mục đích viếng thăm người thân ( Visit family) thì hỏi thêm mối quan hệ giữa họ là gì (13)"
+              ]
+            ],
+            [
+              [null, null],
+              ["** REFERENCE", null],
+              ["Synonymous sentences 1", "Synonymous sentences 2"],
+              ["1. How can I help you?", "What can I do for you?"],
+              ["2. What is your full name?", "Can you tell me your name?"],
+              [
+                "3. Can I have your ID number, please?",
+                "Could you give me your ID number?"
+              ],
+              ["4. When is your date of birth?", "What’s your birth date?"],
+              [
+                "5. What is your phone number?",
+                "Can I have your phone number?"
+              ],
+              [
+                "6. May I have your email address?",
+                "Can you give me your email address?"
+              ],
+              [
+                "7. Could you tell me your current address of temporary residence?",
+                "Where are you staying right now?"
+              ],
+              [
+                "8. Is your permanent address different from your temporary address?",
+                "Are your permanent and temporary addresses the same?"
+              ],
+              [
+                "9. How long do you plan to stay here?",
+                "How long will you be here?"
+              ],
+              ["10. What’s the purpose of your stay?", "Why are you here?"],
+              [
+                "11. What is your company name?",
+                "What’s the name of the company you work for?"
+              ],
+              [
+                "12. What is your school name?",
+                "What’s the name of your school?"
+              ],
+              [
+                "13. What is the relationship between you and that person?",
+                "How are you related to that person?"
+              ],
+              [
+                "14. What is the start date of your temporary stay?",
+                "When did you arrive here?"
+              ],
+              [
+                "15. When do you expect to leave?",
+                "When do you plan to leave?"
+              ],
+              [
+                "16. Do you have a local contact person during your stay?",
+                "Who can we contact locally?"
+              ],
+              [
+                "17. What is your relationship?",
+                "How are you related to this person?"
+              ],
+              [
+                "18. In case of emergency, how can we contact you?",
+                "What’s your emergency contact number?"
+              ],
+              [
+                "19. Did you recently move from another address?",
+                "Have you just moved?"
+              ],
+              [
+                "20. Thank you for providing everything.",
+                "Thanks for all the information."
+              ]
+            ]
+          ]
+        },
+        {
+          "weSay": ["What is your full name?", "Can you tell me your name?"],
+          "theySay": ["My name is Daniel White."],
+          "submitList": ["Daniel White"],
+          "pickingList": [
+            [
+              "Name",
+              "John Doe",
+              "Sarah Parker",
+              "Michael Johnson",
+              "Emma Smith",
+              "Daniel White",
+              "Olivia Brown",
+              "Ethan Green",
+              "Sophia Taylor",
+              "Jack Williams",
+              "Ava Davis"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Can I have your ID number, please?",
+            "Could you give me your ID number?"
+          ],
+          "theySay": ["My ID number is J46392057."],
+          "submitList": ["J46392057"],
+          "pickingList": [
+            [
+              "ID numbers",
+              "A98456732",
+              "A52731964",
+              "K13087645",
+              "D75829401",
+              "J46392057",
+              "D80213467",
+              "P76859401",
+              "R60748129",
+              "N49120583",
+              "C61748129"
+            ]
+          ]
+        },
+        {
+          "weSay": ["When is your date of birth?", "What’s your birth date?"],
+          "theySay": ["I was born on September 23rd 1991."],
+          "submitList": ["September 23rd 1991"],
+          "pickingList": [
+            [
+              "Date of birth (DOB)",
+              "January 1st 1990",
+              "May 15th 1992",
+              "November 22nd 1985",
+              "July 28th 2000",
+              "September 23rd 1991",
+              "December 4th 1990",
+              "August 17th 1984",
+              "November 25th 1992",
+              "April 30th 1989",
+              "September 6th 1987"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "What is your phone number?",
+            "Can I have your phone number?"
+          ],
+          "theySay": ["My phone number is 5721936"],
+          "submitList": ["5721936"],
+          "pickingList": [
+            [
+              "Phone number",
+              "2651387",
+              "9476531",
+              "5721936",
+              "4398251",
+              "3716042",
+              "7582463",
+              "1534972"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Could you tell me your current address of temporary residence?",
+            "Where are you staying right now?"
+          ],
+          "theySay": ["I am staying at 1500 Sunset."],
+          "submitList": ["1500 Sunset"],
+          "pickingList": [
+            [
+              "Temorary address",
+              "500 Main St",
+              "123 Oak Road",
+              "45 Pine Avenue",
+              "200 Queen St",
+              "1500 Sunset",
+              "2nd Avenue",
+              "98 Park Lane",
+              "50 Harbor",
+              "789 Old Park",
+              "123 Maple Boulevard"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Is your permanent address different from your temporary address?",
+            "Are your permanent and temporary addresses the same?"
+          ],
+          "theySay": ["My permanent address is 320 Pine Street."],
+          "submitList": ["320 Pine Street"],
+          "pickingList": [
+            [
+              "Place of residence",
+              "120 Maple",
+              "89 Willow",
+              "60 Elm Street",
+              "420 Birch Road",
+              "320 Pine Street",
+              "1000 King Street",
+              "45 Thames Road",
+              "15 Rose Street,",
+              "100 Victoria",
+              "22 Greenway"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "How long do you plan to stay here?",
+            "How long will you be here?"
+          ],
+          "theySay": ["I’ll be staying for 2 years"],
+          "submitList": ["2 years"],
+          "pickingList": [
+            [
+              "Duration",
+              "6 months",
+              "3 months",
+              "4 months",
+              "1 year",
+              "2 years"
+            ]
+          ]
+        },
+        {
+          "weSay": ["What’s the purpose of your stay?", "Why are you here?"],
+          "theySay": ["I’m here for Work"],
+          "submitList": ["Work"],
+          "pickingList": [["Purpose", "Work", "Study", "Visit family"]]
+        },
+        {
+          "weSay": [
+            "What is your company name?",
+            "What’s the name of the company you work for?"
+          ],
+          "theySay": ["I work at Silicon Labs"],
+          "submitList": ["Silicon Labs"],
+          "pickingList": [
+            [
+              "Company Name",
+              "TechCorp Ltd.",
+              "Global Inc.",
+              "Silicon Labs",
+              "Innovate Solutions Ltd.",
+              "None",
+              "BioTech Co."
+            ]
+          ]
+        },
+        {
+          "weSay": ["Hi"],
+          "theySay": ["NONE"],
+          "pickingList": [
+            [
+              "University Name",
+              "Global University of Excellence",
+              "Horizon University",
+              "Nova University"
+            ]
+          ],
+          "Error": ["Cảnh báo lỗi Thiếu submitList."]
+        },
+        {
+          "weSay": ["Hi"],
+          "theySay": ["NONE"],
+          "pickingList": [
+            [
+              "Relationship",
+              "Father",
+              "Mother",
+              "Brother",
+              "Sister",
+              "Aunt",
+              "Uncle"
+            ]
+          ],
+          "Error": ["Cảnh báo lỗi Thiếu submitList."]
+        },
+        {
+          "weSay": [
+            "What is the start date of your temporary stay?",
+            "When did you arrive here?"
+          ],
+          "theySay": ["I arrived on May 1st 2024"],
+          "submitList": ["May 1st 2024"],
+          "pickingList": [
+            [
+              "Starting Date",
+              "January 1st 2024",
+              "March 1st 2024",
+              "April 1st 2024",
+              "July 15th 2024",
+              "May 1st 2024",
+              "January 10th 2024",
+              "June 25th 2024",
+              "July 1st 2024",
+              "August 20th 2024",
+              "October 1st 2024"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "When do you expect to leave?",
+            "When do you plan to leave?"
+          ],
+          "theySay": ["I plan to stay until November 1st 2024"],
+          "submitList": ["November 1st 2024"],
+          "pickingList": [
+            [
+              "Expected end date",
+              "July 1st 2024",
+              "June 1st 2024",
+              "June 2nd 2024",
+              "July 15th 2025",
+              "November 1st 2024",
+              "January 24th 2024",
+              "September 1st 2024",
+              "November 1st 2024",
+              "January 1st 2025",
+              "October 1st 2026"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Do you have a local contact person during your stay?",
+            "Who can we contact locally?"
+          ],
+          "theySay": ["Sarah Lee is my local contact."],
+          "submitList": ["Sarah Lee"],
+          "pickingList": [
+            [
+              "Local contact name",
+              "Robert Brown",
+              "Jane Foster",
+              "Olivia Green",
+              "Daniel Wilson",
+              "Sarah Lee",
+              "Ethan Clark",
+              "Ava Taylor",
+              "Mia Roberts",
+              "Sophie White",
+              "Lucas Black"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "What is your relationship?",
+            "How are you related to this person?"
+          ],
+          "theySay": ["He is my Colleague"],
+          "submitList": ["Co-worker"],
+          "pickingList": [
+            [
+              "Relationship status",
+              "Co-worker",
+              "Classmate",
+              "Friend",
+              "Colleague",
+              "Brother",
+              "Mother",
+              "Sister"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "In case of emergency, how can we contact you?",
+            "What’s your emergency contact number?"
+          ],
+          "theySay": ["You can reach me at 5319827."],
+          "submitList": ["5319827"],
+          "pickingList": [
+            [
+              "Contact number",
+              "6391852",
+              "9514726",
+              "4826701",
+              "7231864",
+              "5319827",
+              "8043716",
+              "1957384",
+              "6248053",
+              "3126475",
+              "4871502"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Did you recently move from another address?",
+            "Have you just moved?"
+          ],
+          "theySay": ["I previously lived at 672 Sunset Drive."],
+          "submitList": ["672 Sunset Drive"],
+          "pickingList": [
+            [
+              "Previous adress",
+              "432 Elm Street",
+              "1587 Oak Avenue",
+              "23 Pine Lane",
+              "902 Maple Boulevard",
+              "672 Sunset Drive",
+              "1748 River Road",
+              "319 Cedar Street",
+              "501 Birch Place",
+              "84 Willow Crescent",
+              "1150 Main Street"
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "weSay": [
+            "Thank you for providing everything.",
+            "Thanks for all the information."
+          ],
+          "theySay": ["Thank you for your help!"],
+          "submitList": ["FN01"],
+          "action": ["submitFN01"],
+          "guideTable": [
+            [
+              ["KẾT THÚC", null],
+              ["** REFERENCE", null],
+              ["Synonymous sentences 1", "Synonymous sentences 2"],
+              [
+                "Thank you for providing everything.",
+                "Thanks for all the information."
+              ]
+            ]
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "idFile": "F1",
+    "idContent": "C6",
+    "data": [
+      [
+        {
+          "weSay": ["How can I help you?", "What can I do for you?"],
+          "theySay": ["Hello, I need to register my temporary residence."],
+          "submitList": ["Temporary residence and Temporary absence"],
+          "pickingList": [
+            [
+              "Public service",
+              "Temporary residence and Temporary absence",
+              "Building permits",
+              "Driver’s licenses and vehicle registration",
+              "Business licenses",
+              "Other"
+            ]
+          ],
+          "guideTable": [
+            [
+              [
+                "THỰC HÀNH: Thu thập thông tin tạm trú (Temporary Residence Information Collection)",
+                null
+              ],
+              [null, null]
+            ],
+            [
+              [
+                "***GỢI Ý ( dựa vào bảng câu đồng nghĩa để khai thác thông tin)",
+                null
+              ],
+              [
+                "Trường hợp 1",
+                "Nếu người làm đơn chưa có số điện thoại thì hãy thay thế bằng Gmail (6)"
+              ],
+              [
+                "Trường hợp 2",
+                "Nếu người làm đơn đăng kí với mục đích làm việc (work) thì hỏi thêm tên của công ty (11)"
+              ],
+              [
+                "Trường hợp 3",
+                "Nếu người làm đơn đăng kí với mục đích học tập (study) thì hỏi thêm học trường gì (12)"
+              ],
+              [
+                "Trường hợp 4",
+                "Nếu người làm đơn đăng kí với mục đích viếng thăm người thân ( Visit family) thì hỏi thêm mối quan hệ giữa họ là gì (13)"
+              ]
+            ],
+            [
+              [null, null],
+              ["** REFERENCE", null],
+              ["Synonymous sentences 1", "Synonymous sentences 2"],
+              ["1. How can I help you?", "What can I do for you?"],
+              ["2. What is your full name?", "Can you tell me your name?"],
+              [
+                "3. Can I have your ID number, please?",
+                "Could you give me your ID number?"
+              ],
+              ["4. When is your date of birth?", "What’s your birth date?"],
+              [
+                "5. What is your phone number?",
+                "Can I have your phone number?"
+              ],
+              [
+                "6. May I have your email address?",
+                "Can you give me your email address?"
+              ],
+              [
+                "7. Could you tell me your current address of temporary residence?",
+                "Where are you staying right now?"
+              ],
+              [
+                "8. Is your permanent address different from your temporary address?",
+                "Are your permanent and temporary addresses the same?"
+              ],
+              [
+                "9. How long do you plan to stay here?",
+                "How long will you be here?"
+              ],
+              ["10. What’s the purpose of your stay?", "Why are you here?"],
+              [
+                "11. What is your company name?",
+                "What’s the name of the company you work for?"
+              ],
+              [
+                "12. What is your school name?",
+                "What’s the name of your school?"
+              ],
+              [
+                "13. What is the relationship between you and that person?",
+                "How are you related to that person?"
+              ],
+              [
+                "14. What is the start date of your temporary stay?",
+                "When did you arrive here?"
+              ],
+              [
+                "15. When do you expect to leave?",
+                "When do you plan to leave?"
+              ],
+              [
+                "16. Do you have a local contact person during your stay?",
+                "Who can we contact locally?"
+              ],
+              [
+                "17. What is your relationship?",
+                "How are you related to this person?"
+              ],
+              [
+                "18. In case of emergency, how can we contact you?",
+                "What’s your emergency contact number?"
+              ],
+              [
+                "19. Did you recently move from another address?",
+                "Have you just moved?"
+              ],
+              [
+                "20. Thank you for providing everything.",
+                "Thanks for all the information."
+              ]
+            ]
+          ]
+        },
+        {
+          "weSay": ["What is your full name?", "Can you tell me your name?"],
+          "theySay": ["My name is Olivia Brown."],
+          "submitList": ["Olivia Brown"],
+          "pickingList": [
+            [
+              "Name",
+              "John Doe",
+              "Sarah Parker",
+              "Michael Johnson",
+              "Emma Smith",
+              "Daniel White",
+              "Olivia Brown",
+              "Ethan Green",
+              "Sophia Taylor",
+              "Jack Williams",
+              "Ava Davis"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Can I have your ID number, please?",
+            "Could you give me your ID number?"
+          ],
+          "theySay": ["My ID number is D80213467."],
+          "submitList": ["D80213467"],
+          "pickingList": [
+            [
+              "ID numbers",
+              "A98456732",
+              "A52731964",
+              "K13087645",
+              "D75829401",
+              "J46392057",
+              "D80213467",
+              "P76859401",
+              "R60748129",
+              "N49120583",
+              "C61748129"
+            ]
+          ]
+        },
+        {
+          "weSay": ["When is your date of birth?", "What’s your birth date?"],
+          "theySay": ["I was born on December 4th 1990."],
+          "submitList": ["December 4th 1990"],
+          "pickingList": [
+            [
+              "Date of birth (DOB)",
+              "January 1st 1990",
+              "May 15th 1992",
+              "November 22nd 1985",
+              "July 28th 2000",
+              "September 23rd 1991",
+              "December 4th 1990",
+              "August 17th 1984",
+              "November 25th 1992",
+              "April 30th 1989",
+              "September 6th 1987"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "What is your phone number?",
+            "Can I have your phone number?"
+          ],
+          "theySay": ["I have not registered a local sim"],
+          "pickingList": [
+            [
+              "Phone number",
+              "2651387",
+              "9476531",
+              "5721936",
+              "4398251",
+              "3716042",
+              "7582463",
+              "1534972"
+            ]
+          ],
+          "Error": ["Cảnh báo lỗi Thiếu submitList."]
+        },
+        {
+          "weSay": [
+            "May I have your email address?",
+            "Can you give me your email address?"
+          ],
+          "theySay": ["You can reach me via email at DLH34@email.com"],
+          "submitList": ["DLH34@email.com"],
+          "pickingList": [
+            [
+              "Email address",
+              "victory@email.com",
+              "bamber1@email.com",
+              "DLH34@email.com"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Could you tell me your current address of temporary residence?",
+            "Where are you staying right now?"
+          ],
+          "theySay": ["I am staying at 2nd Avenue."],
+          "submitList": ["2nd Avenue"],
+          "pickingList": [
+            [
+              "Temorary address",
+              "500 Main St",
+              "123 Oak Road",
+              "45 Pine Avenue",
+              "200 Queen St",
+              "1500 Sunset",
+              "2nd Avenue",
+              "98 Park Lane",
+              "50 Harbor",
+              "789 Old Park",
+              "123 Maple Boulevard"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Is your permanent address different from your temporary address?",
+            "Are your permanent and temporary addresses the same?"
+          ],
+          "theySay": ["My permanent address is 1000 King Street."],
+          "submitList": ["1000 King Street"],
+          "pickingList": [
+            [
+              "Place of residence",
+              "120 Maple",
+              "89 Willow",
+              "60 Elm Street",
+              "420 Birch Road",
+              "320 Pine Street",
+              "1000 King Street",
+              "45 Thames Road",
+              "15 Rose Street,",
+              "100 Victoria",
+              "22 Greenway"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "How long do you plan to stay here?",
+            "How long will you be here?"
+          ],
+          "theySay": ["I’ll be staying for 6 months"],
+          "submitList": ["6 months"],
+          "pickingList": [
+            [
+              "Duration",
+              "6 months",
+              "3 months",
+              "4 months",
+              "1 year",
+              "2 years"
+            ]
+          ]
+        },
+        {
+          "weSay": ["What’s the purpose of your stay?", "Why are you here?"],
+          "theySay": ["I'm here to visit my family"],
+          "submitList": ["Visit family"],
+          "pickingList": [["Purpose", "Work", "Study", "Visit family"]]
+        },
+        {
+          "weSay": ["Hi"],
+          "theySay": ["NONE"],
+          "pickingList": [
+            [
+              "Company Name",
+              "TechCorp Ltd.",
+              "Global Inc.",
+              "Silicon Labs",
+              "Innovate Solutions Ltd.",
+              "None",
+              "BioTech Co."
+            ]
+          ],
+          "Error": ["Cảnh báo lỗi Thiếu submitList."]
+        },
+        {
+          "weSay": ["Hi"],
+          "theySay": ["NONE"],
+          "pickingList": [
+            [
+              "University Name",
+              "Global University of Excellence",
+              "Horizon University",
+              "Nova University"
+            ]
+          ],
+          "Error": ["Cảnh báo lỗi Thiếu submitList."]
+        },
+        {
+          "weSay": [
+            "What is the relationship between you and that person?",
+            "How are you related to that person?"
+          ],
+          "theySay": ["My mother"],
+          "submitList": ["Mother"],
+          "pickingList": [
+            [
+              "Relationship",
+              "Father",
+              "Mother",
+              "Brother",
+              "Sister",
+              "Aunt",
+              "Uncle"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "What is the start date of your temporary stay?",
+            "When did you arrive here?"
+          ],
+          "theySay": ["I arrived on January 10th 2024"],
+          "submitList": ["January 10th 2024"],
+          "pickingList": [
+            [
+              "Starting Date",
+              "January 1st 2024",
+              "March 1st 2024",
+              "April 1st 2024",
+              "July 15th 2024",
+              "May 1st 2024",
+              "January 10th 2024",
+              "June 25th 2024",
+              "July 1st 2024",
+              "August 20th 2024",
+              "October 1st 2024"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "When do you expect to leave?",
+            "When do you plan to leave?"
+          ],
+          "theySay": ["I plan to stay until January 24th 2024"],
+          "submitList": ["January 24th 2024"],
+          "pickingList": [
+            [
+              "Expected end date",
+              "July 1st 2024",
+              "June 1st 2024",
+              "June 2nd 2024",
+              "July 15th 2025",
+              "November 1st 2024",
+              "January 24th 2024",
+              "September 1st 2024",
+              "November 1st 2024",
+              "January 1st 2025",
+              "October 1st 2026"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Do you have a local contact person during your stay?",
+            "Who can we contact locally?"
+          ],
+          "theySay": ["Ethan Clark is my local contact."],
+          "submitList": ["Ethan Clark"],
+          "pickingList": [
+            [
+              "Local contact name",
+              "Robert Brown",
+              "Jane Foster",
+              "Olivia Green",
+              "Daniel Wilson",
+              "Sarah Lee",
+              "Ethan Clark",
+              "Ava Taylor",
+              "Mia Roberts",
+              "Sophie White",
+              "Lucas Black"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "What is your relationship?",
+            "How are you related to this person?"
+          ],
+          "theySay": ["She is my sister"],
+          "submitList": ["Sister"],
+          "pickingList": [
+            [
+              "Relationship status",
+              "Co-worker",
+              "Classmate",
+              "Friend",
+              "Colleague",
+              "Brother",
+              "Mother",
+              "Sister"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "In case of emergency, how can we contact you?",
+            "What’s your emergency contact number?"
+          ],
+          "theySay": ["You can reach me at 8043716."],
+          "submitList": ["8043716"],
+          "pickingList": [
+            [
+              "Contact number",
+              "6391852",
+              "9514726",
+              "4826701",
+              "7231864",
+              "5319827",
+              "8043716",
+              "1957384",
+              "6248053",
+              "3126475",
+              "4871502"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Did you recently move from another address?",
+            "Have you just moved?"
+          ],
+          "theySay": ["I previously lived at 1748 River Road."],
+          "submitList": ["1748 River Road"],
+          "pickingList": [
+            [
+              "Previous adress",
+              "432 Elm Street",
+              "1587 Oak Avenue",
+              "23 Pine Lane",
+              "902 Maple Boulevard",
+              "672 Sunset Drive",
+              "1748 River Road",
+              "319 Cedar Street",
+              "501 Birch Place",
+              "84 Willow Crescent",
+              "1150 Main Street"
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "weSay": [
+            "Thank you for providing everything.",
+            "Thanks for all the information."
+          ],
+          "theySay": ["Thank you for your help!"],
+          "submitList": ["FN01"],
+          "action": ["submitFN01"],
+          "guideTable": [
+            [
+              ["KẾT THÚC", null],
+              ["** REFERENCE", null],
+              ["Synonymous sentences 1", "Synonymous sentences 2"],
+              [
+                "Thank you for providing everything.",
+                "Thanks for all the information."
+              ]
+            ]
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "idFile": "F1",
+    "idContent": "C7",
+    "data": [
+      [
+        {
+          "weSay": ["How can I help you?", "What can I do for you?"],
+          "theySay": ["Hello, I need to register my temporary residence."],
+          "submitList": ["Temporary residence and Temporary absence"],
+          "pickingList": [
+            [
+              "Public service",
+              "Temporary residence and Temporary absence",
+              "Building permits",
+              "Driver’s licenses and vehicle registration",
+              "Business licenses",
+              "Other"
+            ]
+          ],
+          "guideTable": [
+            [
+              [
+                "THỰC HÀNH: Thu thập thông tin tạm trú (Temporary Residence Information Collection)",
+                null
+              ],
+              [null, null]
+            ],
+            [
+              [
+                "***GỢI Ý ( dựa vào bảng câu đồng nghĩa để khai thác thông tin)",
+                null
+              ],
+              [
+                "Trường hợp 1",
+                "Nếu người làm đơn chưa có số điện thoại thì hãy thay thế bằng Gmail (6)"
+              ],
+              [
+                "Trường hợp 2",
+                "Nếu người làm đơn đăng kí với mục đích làm việc (work) thì hỏi thêm tên của công ty (11)"
+              ],
+              [
+                "Trường hợp 3",
+                "Nếu người làm đơn đăng kí với mục đích học tập (study) thì hỏi thêm học trường gì (12)"
+              ],
+              [
+                "Trường hợp 4",
+                "Nếu người làm đơn đăng kí với mục đích viếng thăm người thân ( Visit family) thì hỏi thêm mối quan hệ giữa họ là gì (13)"
+              ]
+            ],
+            [
+              [null, null],
+              ["** REFERENCE", null],
+              ["Synonymous sentences 1", "Synonymous sentences 2"],
+              ["1. How can I help you?", "What can I do for you?"],
+              ["2. What is your full name?", "Can you tell me your name?"],
+              [
+                "3. Can I have your ID number, please?",
+                "Could you give me your ID number?"
+              ],
+              ["4. When is your date of birth?", "What’s your birth date?"],
+              [
+                "5. What is your phone number?",
+                "Can I have your phone number?"
+              ],
+              [
+                "6. May I have your email address?",
+                "Can you give me your email address?"
+              ],
+              [
+                "7. Could you tell me your current address of temporary residence?",
+                "Where are you staying right now?"
+              ],
+              [
+                "8. Is your permanent address different from your temporary address?",
+                "Are your permanent and temporary addresses the same?"
+              ],
+              [
+                "9. How long do you plan to stay here?",
+                "How long will you be here?"
+              ],
+              ["10. What’s the purpose of your stay?", "Why are you here?"],
+              [
+                "11. What is your company name?",
+                "What’s the name of the company you work for?"
+              ],
+              [
+                "12. What is your school name?",
+                "What’s the name of your school?"
+              ],
+              [
+                "13. What is the relationship between you and that person?",
+                "How are you related to that person?"
+              ],
+              [
+                "14. What is the start date of your temporary stay?",
+                "When did you arrive here?"
+              ],
+              [
+                "15. When do you expect to leave?",
+                "When do you plan to leave?"
+              ],
+              [
+                "16. Do you have a local contact person during your stay?",
+                "Who can we contact locally?"
+              ],
+              [
+                "17. What is your relationship?",
+                "How are you related to this person?"
+              ],
+              [
+                "18. In case of emergency, how can we contact you?",
+                "What’s your emergency contact number?"
+              ],
+              [
+                "19. Did you recently move from another address?",
+                "Have you just moved?"
+              ],
+              [
+                "20. Thank you for providing everything.",
+                "Thanks for all the information."
+              ]
+            ]
+          ]
+        },
+        {
+          "weSay": ["What is your full name?", "Can you tell me your name?"],
+          "theySay": ["My name is Ethan Green."],
+          "submitList": ["Ethan Green"],
+          "pickingList": [
+            [
+              "Name",
+              "John Doe",
+              "Sarah Parker",
+              "Michael Johnson",
+              "Emma Smith",
+              "Daniel White",
+              "Olivia Brown",
+              "Ethan Green",
+              "Sophia Taylor",
+              "Jack Williams",
+              "Ava Davis"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Can I have your ID number, please?",
+            "Could you give me your ID number?"
+          ],
+          "theySay": ["My ID number is P76859401."],
+          "submitList": ["P76859401"],
+          "pickingList": [
+            [
+              "ID numbers",
+              "A98456732",
+              "A52731964",
+              "K13087645",
+              "D75829401",
+              "J46392057",
+              "D80213467",
+              "P76859401",
+              "R60748129",
+              "N49120583",
+              "C61748129"
+            ]
+          ]
+        },
+        {
+          "weSay": ["When is your date of birth?", "What’s your birth date?"],
+          "theySay": ["I was born on August 17th 1984."],
+          "submitList": ["August 17th 1984"],
+          "pickingList": [
+            [
+              "Date of birth (DOB)",
+              "January 1st 1990",
+              "May 15th 1992",
+              "November 22nd 1985",
+              "July 28th 2000",
+              "September 23rd 1991",
+              "December 4th 1990",
+              "August 17th 1984",
+              "November 25th 1992",
+              "April 30th 1989",
+              "September 6th 1987"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "What is your phone number?",
+            "Can I have your phone number?"
+          ],
+          "theySay": ["My phone number is 4398251"],
+          "submitList": ["4398251"],
+          "pickingList": [
+            [
+              "Phone number",
+              "2651387",
+              "9476531",
+              "5721936",
+              "4398251",
+              "3716042",
+              "7582463",
+              "1534972"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Could you tell me your current address of temporary residence?",
+            "Where are you staying right now?"
+          ],
+          "theySay": ["I am staying at 98 Park Lane."],
+          "submitList": ["98 Park Lane"],
+          "pickingList": [
+            [
+              "Temorary address",
+              "500 Main St",
+              "123 Oak Road",
+              "45 Pine Avenue",
+              "200 Queen St",
+              "1500 Sunset",
+              "2nd Avenue",
+              "98 Park Lane",
+              "50 Harbor",
+              "789 Old Park",
+              "123 Maple Boulevard"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Is your permanent address different from your temporary address?",
+            "Are your permanent and temporary addresses the same?"
+          ],
+          "theySay": ["My permanent address is 45 Thames Road."],
+          "submitList": ["45 Thames Road"],
+          "pickingList": [
+            [
+              "Place of residence",
+              "120 Maple",
+              "89 Willow",
+              "60 Elm Street",
+              "420 Birch Road",
+              "320 Pine Street",
+              "1000 King Street",
+              "45 Thames Road",
+              "15 Rose Street,",
+              "100 Victoria",
+              "22 Greenway"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "How long do you plan to stay here?",
+            "How long will you be here?"
+          ],
+          "theySay": ["I’ll be staying for 3 months"],
+          "submitList": ["3 months"],
+          "pickingList": [
+            [
+              "Duration",
+              "6 months",
+              "3 months",
+              "4 months",
+              "1 year",
+              "2 years"
+            ]
+          ]
+        },
+        {
+          "weSay": ["What’s the purpose of your stay?", "Why are you here?"],
+          "theySay": ["I’m here for Work"],
+          "submitList": ["Work"],
+          "pickingList": [["Purpose", "Work", "Study", "Visit family"]]
+        },
+        {
+          "weSay": [
+            "What is your company name?",
+            "What’s the name of the company you work for?"
+          ],
+          "theySay": ["I work at Innovate Solutions Ltd."],
+          "submitList": ["Innovate Solutions Ltd."],
+          "pickingList": [
+            [
+              "Company Name",
+              "TechCorp Ltd.",
+              "Global Inc.",
+              "Silicon Labs",
+              "Innovate Solutions Ltd.",
+              "None",
+              "BioTech Co."
+            ]
+          ]
+        },
+        {
+          "weSay": ["Hi"],
+          "theySay": ["NONE"],
+          "pickingList": [
+            [
+              "University Name",
+              "Global University of Excellence",
+              "Horizon University",
+              "Nova University"
+            ]
+          ],
+          "Error": ["Cảnh báo lỗi Thiếu submitList."]
+        },
+        {
+          "weSay": ["Hi"],
+          "theySay": ["NONE"],
+          "pickingList": [
+            [
+              "Relationship",
+              "Father",
+              "Mother",
+              "Brother",
+              "Sister",
+              "Aunt",
+              "Uncle"
+            ]
+          ],
+          "Error": ["Cảnh báo lỗi Thiếu submitList."]
+        },
+        {
+          "weSay": [
+            "What is the start date of your temporary stay?",
+            "When did you arrive here?"
+          ],
+          "theySay": ["I arrived on June 25th 2024"],
+          "submitList": ["June 25th 2024"],
+          "pickingList": [
+            [
+              "Starting Date",
+              "January 1st 2024",
+              "March 1st 2024",
+              "April 1st 2024",
+              "July 15th 2024",
+              "May 1st 2024",
+              "January 10th 2024",
+              "June 25th 2024",
+              "July 1st 2024",
+              "August 20th 2024",
+              "October 1st 2024"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "When do you expect to leave?",
+            "When do you plan to leave?"
+          ],
+          "theySay": ["I plan to stay until September 1st 2024"],
+          "submitList": ["September 1st 2024"],
+          "pickingList": [
+            [
+              "Expected end date",
+              "July 1st 2024",
+              "June 1st 2024",
+              "June 2nd 2024",
+              "July 15th 2025",
+              "November 1st 2024",
+              "January 24th 2024",
+              "September 1st 2024",
+              "November 1st 2024",
+              "January 1st 2025",
+              "October 1st 2026"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Do you have a local contact person during your stay?",
+            "Who can we contact locally?"
+          ],
+          "theySay": ["Ava Taylor is my local contact."],
+          "submitList": ["Ava Taylor"],
+          "pickingList": [
+            [
+              "Local contact name",
+              "Robert Brown",
+              "Jane Foster",
+              "Olivia Green",
+              "Daniel Wilson",
+              "Sarah Lee",
+              "Ethan Clark",
+              "Ava Taylor",
+              "Mia Roberts",
+              "Sophie White",
+              "Lucas Black"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "What is your relationship?",
+            "How are you related to this person?"
+          ],
+          "theySay": ["He is my Friend"],
+          "submitList": ["Co-worker"],
+          "pickingList": [
+            [
+              "Relationship status",
+              "Co-worker",
+              "Classmate",
+              "Friend",
+              "Colleague",
+              "Brother",
+              "Mother",
+              "Sister"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "In case of emergency, how can we contact you?",
+            "What’s your emergency contact number?"
+          ],
+          "theySay": ["You can reach me at 1957384."],
+          "submitList": ["1957384"],
+          "pickingList": [
+            [
+              "Contact number",
+              "6391852",
+              "9514726",
+              "4826701",
+              "7231864",
+              "5319827",
+              "8043716",
+              "1957384",
+              "6248053",
+              "3126475",
+              "4871502"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Did you recently move from another address?",
+            "Have you just moved?"
+          ],
+          "theySay": ["I previously lived at 319 Cedar Street."],
+          "submitList": ["319 Cedar Street"],
+          "pickingList": [
+            [
+              "Previous adress",
+              "432 Elm Street",
+              "1587 Oak Avenue",
+              "23 Pine Lane",
+              "902 Maple Boulevard",
+              "672 Sunset Drive",
+              "1748 River Road",
+              "319 Cedar Street",
+              "501 Birch Place",
+              "84 Willow Crescent",
+              "1150 Main Street"
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "weSay": [
+            "Thank you for providing everything.",
+            "Thanks for all the information."
+          ],
+          "theySay": ["Thank you for your help!"],
+          "submitList": ["FN01"],
+          "action": ["submitFN01"],
+          "guideTable": [
+            [
+              ["KẾT THÚC", null],
+              ["** REFERENCE", null],
+              ["Synonymous sentences 1", "Synonymous sentences 2"],
+              [
+                "Thank you for providing everything.",
+                "Thanks for all the information."
+              ]
+            ]
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "idFile": "F1",
+    "idContent": "C8",
+    "data": [
+      [
+        {
+          "weSay": ["How can I help you?", "What can I do for you?"],
+          "theySay": ["Hello, I need to register my temporary residence."],
+          "submitList": ["Temporary residence and Temporary absence"],
+          "pickingList": [
+            [
+              "Public service",
+              "Temporary residence and Temporary absence",
+              "Building permits",
+              "Driver’s licenses and vehicle registration",
+              "Business licenses",
+              "Other"
+            ]
+          ],
+          "guideTable": [
+            [
+              [
+                "THỰC HÀNH: Thu thập thông tin tạm trú (Temporary Residence Information Collection)",
+                null
+              ],
+              [null, null]
+            ],
+            [
+              [
+                "***GỢI Ý ( dựa vào bảng câu đồng nghĩa để khai thác thông tin)",
+                null
+              ],
+              [
+                "Trường hợp 1",
+                "Nếu người làm đơn chưa có số điện thoại thì hãy thay thế bằng Gmail (6)"
+              ],
+              [
+                "Trường hợp 2",
+                "Nếu người làm đơn đăng kí với mục đích làm việc (work) thì hỏi thêm tên của công ty (11)"
+              ],
+              [
+                "Trường hợp 3",
+                "Nếu người làm đơn đăng kí với mục đích học tập (study) thì hỏi thêm học trường gì (12)"
+              ],
+              [
+                "Trường hợp 4",
+                "Nếu người làm đơn đăng kí với mục đích viếng thăm người thân ( Visit family) thì hỏi thêm mối quan hệ giữa họ là gì (13)"
+              ]
+            ],
+            [
+              [null, null],
+              ["** REFERENCE", null],
+              ["Synonymous sentences 1", "Synonymous sentences 2"],
+              ["1. How can I help you?", "What can I do for you?"],
+              ["2. What is your full name?", "Can you tell me your name?"],
+              [
+                "3. Can I have your ID number, please?",
+                "Could you give me your ID number?"
+              ],
+              ["4. When is your date of birth?", "What’s your birth date?"],
+              [
+                "5. What is your phone number?",
+                "Can I have your phone number?"
+              ],
+              [
+                "6. May I have your email address?",
+                "Can you give me your email address?"
+              ],
+              [
+                "7. Could you tell me your current address of temporary residence?",
+                "Where are you staying right now?"
+              ],
+              [
+                "8. Is your permanent address different from your temporary address?",
+                "Are your permanent and temporary addresses the same?"
+              ],
+              [
+                "9. How long do you plan to stay here?",
+                "How long will you be here?"
+              ],
+              ["10. What’s the purpose of your stay?", "Why are you here?"],
+              [
+                "11. What is your company name?",
+                "What’s the name of the company you work for?"
+              ],
+              [
+                "12. What is your school name?",
+                "What’s the name of your school?"
+              ],
+              [
+                "13. What is the relationship between you and that person?",
+                "How are you related to that person?"
+              ],
+              [
+                "14. What is the start date of your temporary stay?",
+                "When did you arrive here?"
+              ],
+              [
+                "15. When do you expect to leave?",
+                "When do you plan to leave?"
+              ],
+              [
+                "16. Do you have a local contact person during your stay?",
+                "Who can we contact locally?"
+              ],
+              [
+                "17. What is your relationship?",
+                "How are you related to this person?"
+              ],
+              [
+                "18. In case of emergency, how can we contact you?",
+                "What’s your emergency contact number?"
+              ],
+              [
+                "19. Did you recently move from another address?",
+                "Have you just moved?"
+              ],
+              [
+                "20. Thank you for providing everything.",
+                "Thanks for all the information."
+              ]
+            ]
+          ]
+        },
+        {
+          "weSay": ["What is your full name?", "Can you tell me your name?"],
+          "theySay": ["My name is Sophia Taylor."],
+          "submitList": ["Sophia Taylor"],
+          "pickingList": [
+            [
+              "Name",
+              "John Doe",
+              "Sarah Parker",
+              "Michael Johnson",
+              "Emma Smith",
+              "Daniel White",
+              "Olivia Brown",
+              "Ethan Green",
+              "Sophia Taylor",
+              "Jack Williams",
+              "Ava Davis"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Can I have your ID number, please?",
+            "Could you give me your ID number?"
+          ],
+          "theySay": ["My ID number is R60748129."],
+          "submitList": ["R60748129"],
+          "pickingList": [
+            [
+              "ID numbers",
+              "A98456732",
+              "A52731964",
+              "K13087645",
+              "D75829401",
+              "J46392057",
+              "D80213467",
+              "P76859401",
+              "R60748129",
+              "N49120583",
+              "C61748129"
+            ]
+          ]
+        },
+        {
+          "weSay": ["When is your date of birth?", "What’s your birth date?"],
+          "theySay": ["I was born on November 25th 1992."],
+          "submitList": ["November 25th 1992"],
+          "pickingList": [
+            [
+              "Date of birth (DOB)",
+              "January 1st 1990",
+              "May 15th 1992",
+              "November 22nd 1985",
+              "July 28th 2000",
+              "September 23rd 1991",
+              "December 4th 1990",
+              "August 17th 1984",
+              "November 25th 1992",
+              "April 30th 1989",
+              "September 6th 1987"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "What is your phone number?",
+            "Can I have your phone number?"
+          ],
+          "theySay": ["My phone number is 3716042"],
+          "submitList": ["3716042"],
+          "pickingList": [
+            [
+              "Phone number",
+              "2651387",
+              "9476531",
+              "5721936",
+              "4398251",
+              "3716042",
+              "7582463",
+              "1534972"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Could you tell me your current address of temporary residence?",
+            "Where are you staying right now?"
+          ],
+          "theySay": ["I am staying at 50 Harbor."],
+          "submitList": ["50 Harbor"],
+          "pickingList": [
+            [
+              "Temorary address",
+              "500 Main St",
+              "123 Oak Road",
+              "45 Pine Avenue",
+              "200 Queen St",
+              "1500 Sunset",
+              "2nd Avenue",
+              "98 Park Lane",
+              "50 Harbor",
+              "789 Old Park",
+              "123 Maple Boulevard"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Is your permanent address different from your temporary address?",
+            "Are your permanent and temporary addresses the same?"
+          ],
+          "theySay": ["My permanent address is 15 Rose Street."],
+          "submitList": ["15 Rose Street"],
+          "pickingList": [
+            [
+              "Place of residence",
+              "120 Maple",
+              "89 Willow",
+              "60 Elm Street",
+              "420 Birch Road",
+              "320 Pine Street",
+              "1000 King Street",
+              "45 Thames Road",
+              "15 Rose Street,",
+              "100 Victoria",
+              "22 Greenway"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "How long do you plan to stay here?",
+            "How long will you be here?"
+          ],
+          "theySay": ["I’ll be staying for 2 years"],
+          "submitList": ["2 years"],
+          "pickingList": [
+            [
+              "Duration",
+              "6 months",
+              "3 months",
+              "4 months",
+              "1 year",
+              "2 years"
+            ]
+          ]
+        },
+        {
+          "weSay": ["What’s the purpose of your stay?", "Why are you here?"],
+          "theySay": ["I’m here for study"],
+          "submitList": ["Study"],
+          "pickingList": [["Purpose", "Work", "Study", "Visit family"]]
+        },
+        {
+          "weSay": ["Hi"],
+          "theySay": ["NONE"],
+          "pickingList": [
+            [
+              "Company Name",
+              "TechCorp Ltd.",
+              "Global Inc.",
+              "Silicon Labs",
+              "Innovate Solutions Ltd.",
+              "None",
+              "BioTech Co."
+            ]
+          ],
+          "Error": ["Cảnh báo lỗi Thiếu submitList."]
+        },
+        {
+          "weSay": [
+            "What is your school name?",
+            "What’s the name of your school?"
+          ],
+          "theySay": ["I study at Nova University"],
+          "submitList": ["Nova University"],
+          "pickingList": [
+            [
+              "University Name",
+              "Global University of Excellence",
+              "Horizon University",
+              "Nova University"
+            ]
+          ]
+        },
+        {
+          "weSay": ["Hi"],
+          "theySay": ["NONE"],
+          "pickingList": [
+            [
+              "Relationship",
+              "Father",
+              "Mother",
+              "Brother",
+              "Sister",
+              "Aunt",
+              "Uncle"
+            ]
+          ],
+          "Error": ["Cảnh báo lỗi Thiếu submitList."]
+        },
+        {
+          "weSay": [
+            "What is the start date of your temporary stay?",
+            "When did you arrive here?"
+          ],
+          "theySay": ["I arrived on July 1st 2024"],
+          "submitList": ["July 1st 2024"],
+          "pickingList": [
+            [
+              "Starting Date",
+              "January 1st 2024",
+              "March 1st 2024",
+              "April 1st 2024",
+              "July 15th 2024",
+              "May 1st 2024",
+              "January 10th 2024",
+              "June 25th 2024",
+              "July 1st 2024",
+              "August 20th 2024",
+              "October 1st 2024"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "When do you expect to leave?",
+            "When do you plan to leave?"
+          ],
+          "theySay": ["I plan to stay until November 1st 2024"],
+          "submitList": ["November 1st 2024"],
+          "pickingList": [
+            [
+              "Expected end date",
+              "July 1st 2024",
+              "June 1st 2024",
+              "June 2nd 2024",
+              "July 15th 2025",
+              "November 1st 2024",
+              "January 24th 2024",
+              "September 1st 2024",
+              "November 1st 2024",
+              "January 1st 2025",
+              "October 1st 2026"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Do you have a local contact person during your stay?",
+            "Who can we contact locally?"
+          ],
+          "theySay": ["Mia Roberts is my local contact."],
+          "submitList": ["Mia Roberts"],
+          "pickingList": [
+            [
+              "Local contact name",
+              "Robert Brown",
+              "Jane Foster",
+              "Olivia Green",
+              "Daniel Wilson",
+              "Sarah Lee",
+              "Ethan Clark",
+              "Ava Taylor",
+              "Mia Roberts",
+              "Sophie White",
+              "Lucas Black"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "What is your relationship?",
+            "How are you related to this person?"
+          ],
+          "theySay": ["He is my Classmate"],
+          "submitList": ["Co-worker"],
+          "pickingList": [
+            [
+              "Relationship status",
+              "Co-worker",
+              "Classmate",
+              "Friend",
+              "Colleague",
+              "Brother",
+              "Mother",
+              "Sister"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "In case of emergency, how can we contact you?",
+            "What’s your emergency contact number?"
+          ],
+          "theySay": ["You can reach me at 6248053."],
+          "submitList": ["6248053"],
+          "pickingList": [
+            [
+              "Contact number",
+              "6391852",
+              "9514726",
+              "4826701",
+              "7231864",
+              "5319827",
+              "8043716",
+              "1957384",
+              "6248053",
+              "3126475",
+              "4871502"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Did you recently move from another address?",
+            "Have you just moved?"
+          ],
+          "theySay": ["I previously lived at 501 Birch Place."],
+          "submitList": ["501 Birch Place"],
+          "pickingList": [
+            [
+              "Previous adress",
+              "432 Elm Street",
+              "1587 Oak Avenue",
+              "23 Pine Lane",
+              "902 Maple Boulevard",
+              "672 Sunset Drive",
+              "1748 River Road",
+              "319 Cedar Street",
+              "501 Birch Place",
+              "84 Willow Crescent",
+              "1150 Main Street"
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "weSay": [
+            "Thank you for providing everything.",
+            "Thanks for all the information."
+          ],
+          "theySay": ["Thank you for your help!"],
+          "submitList": ["FN01"],
+          "action": ["submitFN01"],
+          "guideTable": [
+            [
+              ["KẾT THÚC", null],
+              ["** REFERENCE", null],
+              ["Synonymous sentences 1", "Synonymous sentences 2"],
+              [
+                "Thank you for providing everything.",
+                "Thanks for all the information."
+              ]
+            ]
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "idFile": "F1",
+    "idContent": "C9",
+    "data": [
+      [
+        {
+          "weSay": ["How can I help you?", "What can I do for you?"],
+          "theySay": ["Hello, I need to register my temporary residence."],
+          "submitList": ["Temporary residence and Temporary absence"],
+          "pickingList": [
+            [
+              "Public service",
+              "Temporary residence and Temporary absence",
+              "Building permits",
+              "Driver’s licenses and vehicle registration",
+              "Business licenses",
+              "Other"
+            ]
+          ],
+          "guideTable": [
+            [
+              [
+                "THỰC HÀNH: Thu thập thông tin tạm trú (Temporary Residence Information Collection)",
+                null
+              ],
+              [null, null]
+            ],
+            [
+              [
+                "***GỢI Ý ( dựa vào bảng câu đồng nghĩa để khai thác thông tin)",
+                null
+              ],
+              [
+                "Trường hợp 1",
+                "Nếu người làm đơn chưa có số điện thoại thì hãy thay thế bằng Gmail (6)"
+              ],
+              [
+                "Trường hợp 2",
+                "Nếu người làm đơn đăng kí với mục đích làm việc (work) thì hỏi thêm tên của công ty (11)"
+              ],
+              [
+                "Trường hợp 3",
+                "Nếu người làm đơn đăng kí với mục đích học tập (study) thì hỏi thêm học trường gì (12)"
+              ],
+              [
+                "Trường hợp 4",
+                "Nếu người làm đơn đăng kí với mục đích viếng thăm người thân ( Visit family) thì hỏi thêm mối quan hệ giữa họ là gì (13)"
+              ]
+            ],
+            [
+              [null, null],
+              ["** REFERENCE", null],
+              ["Synonymous sentences 1", "Synonymous sentences 2"],
+              ["1. How can I help you?", "What can I do for you?"],
+              ["2. What is your full name?", "Can you tell me your name?"],
+              [
+                "3. Can I have your ID number, please?",
+                "Could you give me your ID number?"
+              ],
+              ["4. When is your date of birth?", "What’s your birth date?"],
+              [
+                "5. What is your phone number?",
+                "Can I have your phone number?"
+              ],
+              [
+                "6. May I have your email address?",
+                "Can you give me your email address?"
+              ],
+              [
+                "7. Could you tell me your current address of temporary residence?",
+                "Where are you staying right now?"
+              ],
+              [
+                "8. Is your permanent address different from your temporary address?",
+                "Are your permanent and temporary addresses the same?"
+              ],
+              [
+                "9. How long do you plan to stay here?",
+                "How long will you be here?"
+              ],
+              ["10. What’s the purpose of your stay?", "Why are you here?"],
+              [
+                "11. What is your company name?",
+                "What’s the name of the company you work for?"
+              ],
+              [
+                "12. What is your school name?",
+                "What’s the name of your school?"
+              ],
+              [
+                "13. What is the relationship between you and that person?",
+                "How are you related to that person?"
+              ],
+              [
+                "14. What is the start date of your temporary stay?",
+                "When did you arrive here?"
+              ],
+              [
+                "15. When do you expect to leave?",
+                "When do you plan to leave?"
+              ],
+              [
+                "16. Do you have a local contact person during your stay?",
+                "Who can we contact locally?"
+              ],
+              [
+                "17. What is your relationship?",
+                "How are you related to this person?"
+              ],
+              [
+                "18. In case of emergency, how can we contact you?",
+                "What’s your emergency contact number?"
+              ],
+              [
+                "19. Did you recently move from another address?",
+                "Have you just moved?"
+              ],
+              [
+                "20. Thank you for providing everything.",
+                "Thanks for all the information."
+              ]
+            ]
+          ]
+        },
+        {
+          "weSay": ["What is your full name?", "Can you tell me your name?"],
+          "theySay": ["My name is Jack Williams."],
+          "submitList": ["Jack Williams"],
+          "pickingList": [
+            [
+              "Name",
+              "John Doe",
+              "Sarah Parker",
+              "Michael Johnson",
+              "Emma Smith",
+              "Daniel White",
+              "Olivia Brown",
+              "Ethan Green",
+              "Sophia Taylor",
+              "Jack Williams",
+              "Ava Davis"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Can I have your ID number, please?",
+            "Could you give me your ID number?"
+          ],
+          "theySay": ["My ID number is N49120583."],
+          "submitList": ["N49120583"],
+          "pickingList": [
+            [
+              "ID numbers",
+              "A98456732",
+              "A52731964",
+              "K13087645",
+              "D75829401",
+              "J46392057",
+              "D80213467",
+              "P76859401",
+              "R60748129",
+              "N49120583",
+              "C61748129"
+            ]
+          ]
+        },
+        {
+          "weSay": ["When is your date of birth?", "What’s your birth date?"],
+          "theySay": ["I was born on April 30th 1989."],
+          "submitList": ["April 30th 1989"],
+          "pickingList": [
+            [
+              "Date of birth (DOB)",
+              "January 1st 1990",
+              "May 15th 1992",
+              "November 22nd 1985",
+              "July 28th 2000",
+              "September 23rd 1991",
+              "December 4th 1990",
+              "August 17th 1984",
+              "November 25th 1992",
+              "April 30th 1989",
+              "September 6th 1987"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "What is your phone number?",
+            "Can I have your phone number?"
+          ],
+          "theySay": ["My phone number is 7582463"],
+          "submitList": ["7582463"],
+          "pickingList": [
+            [
+              "Phone number",
+              "2651387",
+              "9476531",
+              "5721936",
+              "4398251",
+              "3716042",
+              "7582463",
+              "1534972"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Could you tell me your current address of temporary residence?",
+            "Where are you staying right now?"
+          ],
+          "theySay": ["I am staying at 789 Old Park."],
+          "submitList": ["789 Old Park"],
+          "pickingList": [
+            [
+              "Temorary address",
+              "500 Main St",
+              "123 Oak Road",
+              "45 Pine Avenue",
+              "200 Queen St",
+              "1500 Sunset",
+              "2nd Avenue",
+              "98 Park Lane",
+              "50 Harbor",
+              "789 Old Park",
+              "123 Maple Boulevard"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Is your permanent address different from your temporary address?",
+            "Are your permanent and temporary addresses the same?"
+          ],
+          "theySay": ["My permanent address is 100 Victoria."],
+          "submitList": ["100 Victoria"],
+          "pickingList": [
+            [
+              "Place of residence",
+              "120 Maple",
+              "89 Willow",
+              "60 Elm Street",
+              "420 Birch Road",
+              "320 Pine Street",
+              "1000 King Street",
+              "45 Thames Road",
+              "15 Rose Street,",
+              "100 Victoria",
+              "22 Greenway"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "How long do you plan to stay here?",
+            "How long will you be here?"
+          ],
+          "theySay": ["I’ll be staying for 3 months"],
+          "submitList": ["3 month"],
+          "pickingList": [
+            [
+              "Duration",
+              "6 months",
+              "3 months",
+              "4 months",
+              "1 year",
+              "2 years"
+            ]
+          ]
+        },
+        {
+          "weSay": ["What’s the purpose of your stay?", "Why are you here?"],
+          "theySay": ["I’m here for Work"],
+          "submitList": ["Work"],
+          "pickingList": [["Purpose", "Work", "Study", "Visit family"]]
+        },
+        {
+          "weSay": [
+            "What is your company name?",
+            "What’s the name of the company you work for?"
+          ],
+          "theySay": ["I work at BioTech Co."],
+          "submitList": ["BioTech Co."],
+          "pickingList": [
+            [
+              "Company Name",
+              "TechCorp Ltd.",
+              "Global Inc.",
+              "Silicon Labs",
+              "Innovate Solutions Ltd.",
+              "None",
+              "BioTech Co."
+            ]
+          ]
+        },
+        {
+          "weSay": ["Hi"],
+          "theySay": ["NONE"],
+          "pickingList": [
+            [
+              "University Name",
+              "Global University of Excellence",
+              "Horizon University",
+              "Nova University"
+            ]
+          ],
+          "Error": ["Cảnh báo lỗi Thiếu submitList."]
+        },
+        {
+          "weSay": ["Hi"],
+          "theySay": ["NONE"],
+          "pickingList": [
+            [
+              "Relationship",
+              "Father",
+              "Mother",
+              "Brother",
+              "Sister",
+              "Aunt",
+              "Uncle"
+            ]
+          ],
+          "Error": ["Cảnh báo lỗi Thiếu submitList."]
+        },
+        {
+          "weSay": [
+            "What is the start date of your temporary stay?",
+            "When did you arrive here?"
+          ],
+          "theySay": ["I arrived on August 20th 2024"],
+          "submitList": ["August 20th 2024"],
+          "pickingList": [
+            [
+              "Starting Date",
+              "January 1st 2024",
+              "March 1st 2024",
+              "April 1st 2024",
+              "July 15th 2024",
+              "May 1st 2024",
+              "January 10th 2024",
+              "June 25th 2024",
+              "July 1st 2024",
+              "August 20th 2024",
+              "October 1st 2024"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "When do you expect to leave?",
+            "When do you plan to leave?"
+          ],
+          "theySay": ["I plan to stay until January 1st 2025"],
+          "submitList": ["January 1st 2025"],
+          "pickingList": [
+            [
+              "Expected end date",
+              "July 1st 2024",
+              "June 1st 2024",
+              "June 2nd 2024",
+              "July 15th 2025",
+              "November 1st 2024",
+              "January 24th 2024",
+              "September 1st 2024",
+              "November 1st 2024",
+              "January 1st 2025",
+              "October 1st 2026"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Do you have a local contact person during your stay?",
+            "Who can we contact locally?"
+          ],
+          "theySay": ["Sophie White is my local contact."],
+          "submitList": ["Sophie White"],
+          "pickingList": [
+            [
+              "Local contact name",
+              "Robert Brown",
+              "Jane Foster",
+              "Olivia Green",
+              "Daniel Wilson",
+              "Sarah Lee",
+              "Ethan Clark",
+              "Ava Taylor",
+              "Mia Roberts",
+              "Sophie White",
+              "Lucas Black"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "What is your relationship?",
+            "How are you related to this person?"
+          ],
+          "theySay": ["He is my Classmate"],
+          "submitList": ["Co-worker"],
+          "pickingList": [
+            [
+              "Relationship status",
+              "Co-worker",
+              "Classmate",
+              "Friend",
+              "Colleague",
+              "Brother",
+              "Mother",
+              "Sister"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "In case of emergency, how can we contact you?",
+            "What’s your emergency contact number?"
+          ],
+          "theySay": ["You can reach me at 3126475."],
+          "submitList": ["3126475"],
+          "pickingList": [
+            [
+              "Contact number",
+              "6391852",
+              "9514726",
+              "4826701",
+              "7231864",
+              "5319827",
+              "8043716",
+              "1957384",
+              "6248053",
+              "3126475",
+              "4871502"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Did you recently move from another address?",
+            "Have you just moved?"
+          ],
+          "theySay": ["I previously lived at 84 Willow Crescent."],
+          "submitList": ["84 Willow Crescent"],
+          "pickingList": [
+            [
+              "Previous adress",
+              "432 Elm Street",
+              "1587 Oak Avenue",
+              "23 Pine Lane",
+              "902 Maple Boulevard",
+              "672 Sunset Drive",
+              "1748 River Road",
+              "319 Cedar Street",
+              "501 Birch Place",
+              "84 Willow Crescent",
+              "1150 Main Street"
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "weSay": [
+            "Thank you for providing everything.",
+            "Thanks for all the information."
+          ],
+          "theySay": ["Thank you for your help!"],
+          "submitList": ["FN01"],
+          "action": ["submitFN01"],
+          "guideTable": [
+            [
+              ["KẾT THÚC", null],
+              ["** REFERENCE", null],
+              ["Synonymous sentences 1", "Synonymous sentences 2"],
+              [
+                "Thank you for providing everything.",
+                "Thanks for all the information."
+              ]
+            ]
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "idFile": "F1",
+    "idContent": "C10",
+    "data": [
+      [
+        {
+          "weSay": ["How can I help you?", "What can I do for you?"],
+          "theySay": ["Hello, I need to register my temporary residence."],
+          "submitList": ["Temporary residence and Temporary absence"],
+          "pickingList": [
+            [
+              "Public service",
+              "Temporary residence and Temporary absence",
+              "Building permits",
+              "Driver’s licenses and vehicle registration",
+              "Business licenses",
+              "Other"
+            ]
+          ],
+          "guideTable": [
+            [
+              [
+                "THỰC HÀNH: Thu thập thông tin tạm trú (Temporary Residence Information Collection)",
+                null
+              ],
+              [null, null]
+            ],
+            [
+              [
+                "***GỢI Ý ( dựa vào bảng câu đồng nghĩa để khai thác thông tin)",
+                null
+              ],
+              [
+                "Trường hợp 1",
+                "Nếu người làm đơn chưa có số điện thoại thì hãy thay thế bằng Gmail (6)"
+              ],
+              [
+                "Trường hợp 2",
+                "Nếu người làm đơn đăng kí với mục đích làm việc (work) thì hỏi thêm tên của công ty (11)"
+              ],
+              [
+                "Trường hợp 3",
+                "Nếu người làm đơn đăng kí với mục đích học tập (study) thì hỏi thêm học trường gì (12)"
+              ],
+              [
+                "Trường hợp 4",
+                "Nếu người làm đơn đăng kí với mục đích viếng thăm người thân ( Visit family) thì hỏi thêm mối quan hệ giữa họ là gì (13)"
+              ]
+            ],
+            [
+              [null, null],
+              ["** REFERENCE", null],
+              ["Synonymous sentences 1", "Synonymous sentences 2"],
+              ["1. How can I help you?", "What can I do for you?"],
+              ["2. What is your full name?", "Can you tell me your name?"],
+              [
+                "3. Can I have your ID number, please?",
+                "Could you give me your ID number?"
+              ],
+              ["4. When is your date of birth?", "What’s your birth date?"],
+              [
+                "5. What is your phone number?",
+                "Can I have your phone number?"
+              ],
+              [
+                "6. May I have your email address?",
+                "Can you give me your email address?"
+              ],
+              [
+                "7. Could you tell me your current address of temporary residence?",
+                "Where are you staying right now?"
+              ],
+              [
+                "8. Is your permanent address different from your temporary address?",
+                "Are your permanent and temporary addresses the same?"
+              ],
+              [
+                "9. How long do you plan to stay here?",
+                "How long will you be here?"
+              ],
+              ["10. What’s the purpose of your stay?", "Why are you here?"],
+              [
+                "11. What is your company name?",
+                "What’s the name of the company you work for?"
+              ],
+              [
+                "12. What is your school name?",
+                "What’s the name of your school?"
+              ],
+              [
+                "13. What is the relationship between you and that person?",
+                "How are you related to that person?"
+              ],
+              [
+                "14. What is the start date of your temporary stay?",
+                "When did you arrive here?"
+              ],
+              [
+                "15. When do you expect to leave?",
+                "When do you plan to leave?"
+              ],
+              [
+                "16. Do you have a local contact person during your stay?",
+                "Who can we contact locally?"
+              ],
+              [
+                "17. What is your relationship?",
+                "How are you related to this person?"
+              ],
+              [
+                "18. In case of emergency, how can we contact you?",
+                "What’s your emergency contact number?"
+              ],
+              [
+                "19. Did you recently move from another address?",
+                "Have you just moved?"
+              ],
+              [
+                "20. Thank you for providing everything.",
+                "Thanks for all the information."
+              ]
+            ]
+          ]
+        },
+        {
+          "weSay": ["What is your full name?", "Can you tell me your name?"],
+          "theySay": ["My name is Ava Davis."],
+          "submitList": ["Ava Davis"],
+          "pickingList": [
+            [
+              "Name",
+              "John Doe",
+              "Sarah Parker",
+              "Michael Johnson",
+              "Emma Smith",
+              "Daniel White",
+              "Olivia Brown",
+              "Ethan Green",
+              "Sophia Taylor",
+              "Jack Williams",
+              "Ava Davis"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Can I have your ID number, please?",
+            "Could you give me your ID number?"
+          ],
+          "theySay": ["My ID number is C61748129."],
+          "submitList": ["C61748129"],
+          "pickingList": [
+            [
+              "ID numbers",
+              "A98456732",
+              "A52731964",
+              "K13087645",
+              "D75829401",
+              "J46392057",
+              "D80213467",
+              "P76859401",
+              "R60748129",
+              "N49120583",
+              "C61748129"
+            ]
+          ]
+        },
+        {
+          "weSay": ["When is your date of birth?", "What’s your birth date?"],
+          "theySay": ["January 1st 1990"],
+          "submitList": ["September 6th 1987"],
+          "pickingList": [
+            [
+              "Date of birth (DOB)",
+              "January 1st 1990",
+              "May 15th 1992",
+              "November 22nd 1985",
+              "July 28th 2000",
+              "September 23rd 1991",
+              "December 4th 1990",
+              "August 17th 1984",
+              "November 25th 1992",
+              "April 30th 1989",
+              "September 6th 1987"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "What is your phone number?",
+            "Can I have your phone number?"
+          ],
+          "theySay": ["My phone number is 1534972"],
+          "submitList": ["1534972"],
+          "pickingList": [
+            [
+              "Phone number",
+              "2651387",
+              "9476531",
+              "5721936",
+              "4398251",
+              "3716042",
+              "7582463",
+              "1534972"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Could you tell me your current address of temporary residence?",
+            "Where are you staying right now?"
+          ],
+          "theySay": ["I am staying at 123 Maple Boulevard."],
+          "submitList": ["123 Maple Boulevard"],
+          "pickingList": [
+            [
+              "Temorary address",
+              "500 Main St",
+              "123 Oak Road",
+              "45 Pine Avenue",
+              "200 Queen St",
+              "1500 Sunset",
+              "2nd Avenue",
+              "98 Park Lane",
+              "50 Harbor",
+              "789 Old Park",
+              "123 Maple Boulevard"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Is your permanent address different from your temporary address?",
+            "Are your permanent and temporary addresses the same?"
+          ],
+          "theySay": ["My permanent address is 22 Greenway."],
+          "submitList": ["22 Greenway"],
+          "pickingList": [
+            [
+              "Place of residence",
+              "120 Maple",
+              "89 Willow",
+              "60 Elm Street",
+              "420 Birch Road",
+              "320 Pine Street",
+              "1000 King Street",
+              "45 Thames Road",
+              "15 Rose Street,",
+              "100 Victoria",
+              "22 Greenway"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "How long do you plan to stay here?",
+            "How long will you be here?"
+          ],
+          "theySay": ["I’ll be staying for 4 months"],
+          "submitList": ["4 months"],
+          "pickingList": [
+            [
+              "Duration",
+              "6 months",
+              "3 months",
+              "4 months",
+              "1 year",
+              "2 years"
+            ]
+          ]
+        },
+        {
+          "weSay": ["What’s the purpose of your stay?", "Why are you here?"],
+          "theySay": ["I'm here to visit my family"],
+          "submitList": ["Visit family"],
+          "pickingList": [["Purpose", "Work", "Study", "Visit family"]]
+        },
+        {
+          "weSay": ["Hi"],
+          "theySay": ["NONE"],
+          "pickingList": [
+            [
+              "Company Name",
+              "TechCorp Ltd.",
+              "Global Inc.",
+              "Silicon Labs",
+              "Innovate Solutions Ltd.",
+              "None",
+              "BioTech Co."
+            ]
+          ],
+          "Error": ["Cảnh báo lỗi Thiếu submitList."]
+        },
+        {
+          "weSay": ["Hi"],
+          "theySay": ["NONE"],
+          "pickingList": [
+            [
+              "University Name",
+              "Global University of Excellence",
+              "Horizon University",
+              "Nova University"
+            ]
+          ],
+          "Error": ["Cảnh báo lỗi Thiếu submitList."]
+        },
+        {
+          "weSay": [
+            "What is the relationship between you and that person?",
+            "How are you related to that person?"
+          ],
+          "theySay": ["My mother"],
+          "submitList": ["Brother"],
+          "theySaySubmit": [
+            { "theySay": ["My mother"], "submit": ["Brother"] },
+            { "theySay": ["My brother"], "submit": [null] }
+          ],
+          "pickingList": [
+            [
+              "Relationship",
+              "Father",
+              "Mother",
+              "Brother",
+              "Sister",
+              "Aunt",
+              "Uncle"
+            ]
+          ],
+          "Error": ["Có lỗi về mảng Theysay-submit:[2,1]-My mother; My brother"]
+        },
+        {
+          "weSay": [
+            "What is the start date of your temporary stay?",
+            "When did you arrive here?"
+          ],
+          "theySay": ["I arrived on October 1st 2024"],
+          "submitList": ["October 1st 2024"],
+          "pickingList": [
+            [
+              "Starting Date",
+              "January 1st 2024",
+              "March 1st 2024",
+              "April 1st 2024",
+              "July 15th 2024",
+              "May 1st 2024",
+              "January 10th 2024",
+              "June 25th 2024",
+              "July 1st 2024",
+              "August 20th 2024",
+              "October 1st 2024"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "When do you expect to leave?",
+            "When do you plan to leave?"
+          ],
+          "theySay": ["I plan to stay until October 1st 2026"],
+          "submitList": ["October 1st 2026"],
+          "pickingList": [
+            [
+              "Expected end date",
+              "July 1st 2024",
+              "June 1st 2024",
+              "June 2nd 2024",
+              "July 15th 2025",
+              "November 1st 2024",
+              "January 24th 2024",
+              "September 1st 2024",
+              "November 1st 2024",
+              "January 1st 2025",
+              "October 1st 2026"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Do you have a local contact person during your stay?",
+            "Who can we contact locally?"
+          ],
+          "theySay": ["Lucas Black is my local contact."],
+          "submitList": ["Lucas Black"],
+          "pickingList": [
+            [
+              "Local contact name",
+              "Robert Brown",
+              "Jane Foster",
+              "Olivia Green",
+              "Daniel Wilson",
+              "Sarah Lee",
+              "Ethan Clark",
+              "Ava Taylor",
+              "Mia Roberts",
+              "Sophie White",
+              "Lucas Black"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "What is your relationship?",
+            "How are you related to this person?"
+          ],
+          "theySay": ["He is my big brother"],
+          "submitList": ["Brother"],
+          "pickingList": [
+            [
+              "Relationship status",
+              "Co-worker",
+              "Classmate",
+              "Friend",
+              "Colleague",
+              "Brother",
+              "Mother",
+              "Sister"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "In case of emergency, how can we contact you?",
+            "What’s your emergency contact number?"
+          ],
+          "theySay": ["You can reach me at 4871502."],
+          "submitList": ["4871502"],
+          "pickingList": [
+            [
+              "Contact number",
+              "6391852",
+              "9514726",
+              "4826701",
+              "7231864",
+              "5319827",
+              "8043716",
+              "1957384",
+              "6248053",
+              "3126475",
+              "4871502"
+            ]
+          ]
+        },
+        {
+          "weSay": [
+            "Did you recently move from another address?",
+            "Have you just moved?"
+          ],
+          "theySay": ["I previously lived at 1150 Main Street."],
+          "submitList": ["1150 Main Street"],
+          "pickingList": [
+            [
+              "Previous adress",
+              "432 Elm Street",
+              "1587 Oak Avenue",
+              "23 Pine Lane",
+              "902 Maple Boulevard",
+              "672 Sunset Drive",
+              "1748 River Road",
+              "319 Cedar Street",
+              "501 Birch Place",
+              "84 Willow Crescent",
+              "1150 Main Street"
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "weSay": [
+            "Thank you for providing everything.",
+            "Thanks for all the information."
+          ],
+          "theySay": ["Thank you for your help!"],
+          "submitList": ["FN01"],
+          "action": ["submitFN01"],
+          "guideTable": [
+            [
+              ["KẾT THÚC", null],
+              ["** REFERENCE", null],
+              ["Synonymous sentences 1", "Synonymous sentences 2"],
+              [
+                "Thank you for providing everything.",
+                "Thanks for all the information."
+              ]
+            ]
+          ]
+        }
+      ]
     ]
   }
-}
+]

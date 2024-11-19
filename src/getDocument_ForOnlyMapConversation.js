@@ -902,6 +902,11 @@ function showPick(arr, SetPickData, PickData, mode, indexOfPhase) {
         className="form-control"
         onChange={handleChange}
         value={PickData.find((item) => arr.includes(item)) || "none"}
+        style={{
+          width: "200px",
+          color: PickData.find((item) => arr.includes(item)) ? "blue" : "black",
+          // color: "blue",
+        }}
       >
         {arr.map((e, i) => (
           <option
