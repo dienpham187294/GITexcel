@@ -1,146 +1,260 @@
-[
-  [
-    {
-      "imgCode": "A1",
-      "text": "Sóc Nhỏ là một chú sóc hiếu kỳ sống trong khu rừng. Một ngày, cậu gặp Gà Con, một bạn mới đáng yêu từ trang trại gần đó. Hai bạn quyết định cùng nhau khám phá khu rừng.",
-      "lang": 316,
-      "rate": 1.3,
-      "audioCode": "A1"
-    },
-    {
-      "imgCode": "A2",
-      "text": "Sóc Nhỏ dẫn Gà Con đi dạo qua những bụi cây lớn, nơi có nhiều loại côn trùng và hoa dại đầy màu sắc. Gà Con thích thú và khám phá từng chút một.",
-      "lang": 316,
-      "rate": 1.3,
-      "audioCode": "A2"
-    },
-    {
-      "imgCode": "A3",
-      "text": "Đột nhiên, Cáo xuất hiện từ bụi rậm. Sóc Nhỏ cảnh giác nhưng Cáo lại tỏ ra thân thiện và mời hai bạn đến chơi ở sông.",
-      "lang": 316,
-      "rate": 1.3,
-      "audioCode": "A3"
-    },
-    {
-      "imgCode": "A4",
-      "text": "Ba bạn đi đến dòng sông, nước trong veo và lấp lánh dưới ánh mặt trời. Gà Con lần đầu tiên thấy nước nhiều như vậy, rất hào hứng.",
-      "lang": 316,
-      "rate": 1.3,
-      "audioCode": "A4"
-    },
-    {
-      "imgCode": "A5",
-      "text": "Cáo đề nghị chơi trò nhảy qua những viên đá trên sông. Sóc Nhỏ nhảy trước, rồi đến lượt Cáo, còn Gà Con thì cẩn thận nhảy theo sau.",
-      "lang": 316,
-      "rate": 1.3,
-      "audioCode": "A5"
-    },
-    {
-      "imgCode": "A6",
-      "text": "Khi nhảy qua sông, cả ba bạn bắt gặp Nhím đang ngồi đọc sách bên bờ. Nhím vui vẻ mời cả ba đến ngồi nghe truyện.",
-      "lang": 316,
-      "rate": 1.3,
-      "audioCode": "A6"
-    },
-    {
-      "imgCode": "A7",
-      "text": "Nhím lấy ra một giỏ trái cây mà Nhím đã hái từ sáng, mời mọi người cùng ăn. Cả nhóm ngồi ăn và chia sẻ những câu chuyện hài hước.",
-      "lang": 316,
-      "rate": 1.3,
-      "audioCode": "A7"
-    },
-    {
-      "imgCode": "A8",
-      "text": "Cáo đề nghị một cuộc thi leo cây. Sóc Nhỏ leo lên nhanh nhất, trong khi Nhím và Gà Con cổ vũ từ dưới.",
-      "lang": 316,
-      "rate": 1.3,
-      "audioCode": "A8"
-    },
-    {
-      "imgCode": "A9",
-      "text": "Cuối ngày, cả nhóm ngồi bên bờ sông, nhìn lên bầu trời đầy sao và kể cho nhau nghe về những giấc mơ. Gà Con muốn đi du lịch khắp nơi, Cáo muốn làm thám tử, còn Sóc Nhỏ muốn trở thành nhà thám hiểm vĩ đại.",
-      "lang": 316,
-      "rate": 1.3,
-      "audioCode": "A9"
-    },
-    {
-      "imgCode": "A10",
-      "text": "Trời khuya, Sóc Nhỏ tạm biệt các bạn và hứa sẽ gặp lại vào ngày mai để cùng nhau khám phá nhiều điều thú vị hơn nữa trong rừng. Cả nhóm trở về nhà, lòng đầy vui sướng và hạnh phúc.",
-      "lang": 316,
-      "rate": 1.3,
-      "audioCode": "A10"
-    }
-  ],
-  [
-    {
-      "imgCode": "A1",
-      "text": "Sóc Nhỏ là một chú sóc hiếu kỳ sống trong khu rừng. Một ngày, cậu gặp Gà Con, một bạn mới đáng yêu từ trang trại gần đó. Hai bạn quyết định cùng nhau khám phá khu rừng.",
-      "lang": 316,
-      "rate": 1.3,
-      "audioCode": "B1"
-    },
-    {
-      "imgCode": "A2",
-      "text": "Sóc Nhỏ dẫn Gà Con đi dạo qua những bụi cây lớn, nơi có nhiều loại côn trùng và hoa dại đầy màu sắc. Gà Con thích thú và khám phá từng chút một.",
-      "lang": 316,
-      "rate": 1.3,
-      "audioCode": "B2"
-    },
-    {
-      "imgCode": "A3",
-      "text": "Đột nhiên, Cáo xuất hiện từ bụi rậm. Sóc Nhỏ cảnh giác nhưng Cáo lại tỏ ra thân thiện và mời hai bạn đến chơi ở sông.",
-      "lang": 316,
-      "rate": 1.3,
-      "audioCode": "B3"
-    },
-    {
-      "imgCode": "A4",
-      "text": "Ba bạn đi đến dòng sông, nước trong veo và lấp lánh dưới ánh mặt trời. Gà Con lần đầu tiên thấy nước nhiều như vậy, rất hào hứng.",
-      "lang": 316,
-      "rate": 1.3,
-      "audioCode": "B4"
-    },
-    {
-      "imgCode": "A5",
-      "text": "Cáo đề nghị chơi trò nhảy qua những viên đá trên sông. Sóc Nhỏ nhảy trước, rồi đến lượt Cáo, còn Gà Con thì cẩn thận nhảy theo sau.",
-      "lang": 316,
-      "rate": 1.3,
-      "audioCode": "B5"
-    },
-    {
-      "imgCode": "A6",
-      "text": "Khi nhảy qua sông, cả ba bạn bắt gặp Nhím đang ngồi đọc sách bên bờ. Nhím vui vẻ mời cả ba đến ngồi nghe truyện.",
-      "lang": 316,
-      "rate": 1.3,
-      "audioCode": "B6"
-    },
-    {
-      "imgCode": "A7",
-      "text": "Nhím lấy ra một giỏ trái cây mà Nhím đã hái từ sáng, mời mọi người cùng ăn. Cả nhóm ngồi ăn và chia sẻ những câu chuyện hài hước.",
-      "lang": 316,
-      "rate": 1.3,
-      "audioCode": "B7"
-    },
-    {
-      "imgCode": "A8",
-      "text": "Cáo đề nghị một cuộc thi leo cây. Sóc Nhỏ leo lên nhanh nhất, trong khi Nhím và Gà Con cổ vũ từ dưới.",
-      "lang": 316,
-      "rate": 1.3,
-      "audioCode": "B8"
-    },
-    {
-      "imgCode": "A9",
-      "text": "Cuối ngày, cả nhóm ngồi bên bờ sông, nhìn lên bầu trời đầy sao và kể cho nhau nghe về những giấc mơ. Gà Con muốn đi du lịch khắp nơi, Cáo muốn làm thám tử, còn Sóc Nhỏ muốn trở thành nhà thám hiểm vĩ đại.",
-      "lang": 316,
-      "rate": 1.3,
-      "audioCode": "B9"
-    },
-    {
-      "imgCode": "A10",
-      "text": "Trời khuya, Sóc Nhỏ tạm biệt các bạn và hứa sẽ gặp lại vào ngày mai để cùng nhau khám phá nhiều điều thú vị hơn nữa trong rừng. Cả nhóm trở về nhà, lòng đầy vui sướng và hạnh phúc.",
-      "lang": 316,
-      "rate": 1.3,
-      "audioCode": "B10"
-    }
-  ]
-]
+{
+  "id01": {
+    "A01": [
+      {
+        "id": "01-01-guideTable-01",
+        "content": "[[[1,\"THỰC HÀNH: Thu thập thông tin tạm trú (Temporary Residence Information Collection)\",null],[1,null,null],[2,\"***GỢI Ý ( dựa vào bảng câu đồng nghĩa để khai thác thông tin)\",null],[2,\"Trường hợp 1\",\"Nếu người làm đơn chưa có số điện thoại thì hãy thay thế bằng Gmail (6)\"],[2,\"Trường hợp 2\",\"Nếu người làm đơn đăng kí với mục đích làm việc (work) thì hỏi thêm tên của công ty (11)\"],[2,\"Trường hợp 3\",\"Nếu người làm đơn đăng kí với mục đích học tập (study) thì hỏi thêm học trường gì (12)\"],[2,\"Trường hợp 4\",\"Nếu người làm đơn đăng kí với mục đích viếng thăm người thân ( Visit family) thì hỏi thêm mối quan hệ giữa họ là gì (13)\"],[3,null,null],[3,\"** REFERENCE\",null],[3,\"Synonymous sentences 1\",\"Synonymous sentences 2\"],[3,\"1. How can I help you?\",\"What can I do for you?\"],[3,\"2. What is your full name?\",\"Can you tell me your name?\"],[3,\"3. Can I have your ID number, please?\",\"Could you give me your ID number?\"],[3,\"4. When is your date of birth?\",\"What’s your birth date?\"],[3,\"5. What is your phone number?\",\"Can I have your phone number?\"],[3,\"6. May I have your email address?\",\"Can you give me your email address?\"],[3,\"7. Could you tell me your current address of temporary residence?\",\"Where are you staying right now?\"],[3,\"8. Is your permanent address different from your temporary address?\",\"Are your permanent and temporary addresses the same?\"],[3,\"9. How long do you plan to stay here?\",\"How long will you be here?\"],[3,\"10. What’s the purpose of your stay?\",\"Why are you here?\"],[3,\"11. What is your company name?\",\"What’s the name of the company you work for?\"],[3,\"12. What is your school name?\",\"What’s the name of your school?\"],[3,\"13. What is the relationship between you and that person?\",\"How are you related to that person?\"],[3,\"14. What is the start date of your temporary stay?\",\"When did you arrive here?\"],[3,\"15. When do you expect to leave?\",\"When do you plan to leave?\"],[3,\"16. Do you have a local contact person during your stay?\",\"Who can we contact locally?\"],[3,\"17. What is your relationship?\",\"How are you related to this person?\"],[3,\"18. In case of emergency, how can we contact you?\",\"What’s your emergency contact number?\"],[3,\"19. Did you recently move from another address?\",\"Have you just moved?\"],[3,\"20. Thank you for providing everything.\",\"Thanks for all the information.\"]]]"
+      },
+      {
+        "id": "01-01-weSay-01",
+        "content": "How can I help you? \\\\ What can I do for you?"
+      },
+      {
+        "id": "01-01-theySay-01",
+        "content": "Hello, I need to register my temporary residence."
+      },
+      {
+        "id": "01-01-pickingList-01",
+        "content": "Public service; Temporary residence and Temporary absence; Building permits; Driver’s licenses and vehicle registration; Business licenses; Other"
+      },
+      {
+        "id": "01-01-submitList-01",
+        "content": "Temporary residence and Temporary absence"
+      }
+    ],
+    "A02": [
+      {
+        "id": "01-02-weSay-01",
+        "content": "What is your full name? \\\\ Can you tell me your name?"
+      },
+      { "id": "01-02-theySay-01", "content": "My name is Ava Davis." },
+      {
+        "id": "01-02-pickingList-01",
+        "content": "Name; John Doe; Sarah Parker; Michael Johnson; Emma Smith; Daniel White; Olivia Brown; Ethan Green; Sophia Taylor; Jack Williams; Ava Davis;"
+      },
+      { "id": "01-02-submitList-01", "content": "Ava Davis" }
+    ],
+    "A03": [
+      {
+        "id": "01-03-weSay-01",
+        "content": "Can I have your ID number, please? \\\\ Could you give me your ID number?"
+      },
+      { "id": "01-03-theySay-01", "content": "My ID number is C61748129." },
+      {
+        "id": "01-03-pickingList-01",
+        "content": "ID numbers; A98456732; A52731964; K13087645; D75829401; J46392057; D80213467; P76859401; R60748129; N49120583; C61748129;"
+      },
+      { "id": "01-03-submitList-01", "content": "C61748129" }
+    ],
+    "A04": [
+      {
+        "id": "01-04-weSay-01",
+        "content": "When is your date of birth? \\\\ What’s your birth date?"
+      },
+      { "id": "01-04-theySay-01", "content": "January 1st 1990" },
+      {
+        "id": "01-04-pickingList-01",
+        "content": "Date of birth (DOB); January 1st 1990; May 15th 1992; November 22nd 1985; July 28th 2000; September 23rd 1991; December 4th 1990; August 17th 1984; November 25th 1992; April 30th 1989; September 6th 1987;"
+      },
+      { "id": "01-04-submitList-01", "content": "September 6th 1987" }
+    ],
+    "A05": [
+      {
+        "id": "01-05-weSay-01",
+        "content": "What is your phone number? \\\\ Can I have your phone number?"
+      },
+      { "id": "01-05-theySay-01", "content": "My phone number is 1534972" },
+      {
+        "id": "01-05-pickingList-01",
+        "content": "Phone number; 2651387; 9476531; 5721936; 4398251; 3716042; 7582463; 1534972;"
+      },
+      { "id": "01-05-submitList-01", "content": 1534972 }
+    ],
+    "A06": [
+      { "id": "01-06-weSay-01", "content": null },
+      { "id": "01-06-theySay-01", "content": null },
+      { "id": "01-06-pickingList-01", "content": null },
+      { "id": "01-06-submitList-01", "content": null }
+    ],
+    "A07": [
+      {
+        "id": "01-07-weSay-01",
+        "content": "Could you tell me your current address of temporary residence? \\\\ Where are you staying right now?"
+      },
+      {
+        "id": "01-07-theySay-01",
+        "content": "I am staying at 123 Maple Boulevard."
+      },
+      {
+        "id": "01-07-pickingList-01",
+        "content": "Temorary address; 500 Main St; 123 Oak Road; 45 Pine Avenue; 200 Queen St; 1500 Sunset ; 2nd Avenue; 98 Park Lane; 50 Harbor ; 789 Old Park ; 123 Maple Boulevard;"
+      },
+      { "id": "01-07-submitList-01", "content": "123 Maple Boulevard" }
+    ],
+    "A08": [
+      {
+        "id": "01-08-weSay-01",
+        "content": "Is your permanent address different from your temporary address? \\\\ Are your permanent and temporary addresses the same?"
+      },
+      {
+        "id": "01-08-theySay-01",
+        "content": "My permanent address is 22 Greenway."
+      },
+      {
+        "id": "01-08-pickingList-01",
+        "content": "Place of residence; 120 Maple; 89 Willow; 60 Elm Street; 420 Birch Road; 320 Pine Street; 1000 King Street; 45 Thames Road; 15 Rose Street,; 100 Victoria ; 22 Greenway;"
+      },
+      { "id": "01-08-submitList-01", "content": "22 Greenway" }
+    ],
+    "A09": [
+      {
+        "id": "01-09-weSay-01",
+        "content": "How long do you plan to stay here? \\\\ How long will you be here?"
+      },
+      { "id": "01-09-theySay-01", "content": "I’ll be staying for 4 months" },
+      {
+        "id": "01-09-pickingList-01",
+        "content": "Duration; 6 months; 3 months; 4 months; 1 year; 2 years;"
+      },
+      { "id": "01-09-submitList-01", "content": "4 months" }
+    ],
+    "A10": [
+      {
+        "id": "01-10-weSay-01",
+        "content": "What’s the purpose of your stay? \\\\ Why are you here?"
+      },
+      { "id": "01-10-theySay-01", "content": "I'm here to visit my family" },
+      {
+        "id": "01-10-pickingList-01",
+        "content": "Purpose; Work; Study; Visit family;"
+      },
+      { "id": "01-10-submitList-01", "content": "Visit family" }
+    ],
+    "A11": [
+      { "id": "01-11-weSay-01", "content": null },
+      { "id": "01-11-theySay-01", "content": null },
+      {
+        "id": "01-11-pickingList-01",
+        "content": "Company Name; TechCorp Ltd.; Global Inc.; Silicon Labs; Innovate Solutions Ltd.; None; BioTech Co.;"
+      },
+      { "id": "01-11-submitList-01", "content": null }
+    ],
+    "A12": [
+      { "id": "01-12-weSay-01", "content": null },
+      { "id": "01-12-theySay-01", "content": null },
+      {
+        "id": "01-12-pickingList-02",
+        "content": "University Name; Global University of Excellence; Horizon University; Nova University"
+      },
+      { "id": "01-12-submitList-02", "content": null }
+    ],
+    "A13": [
+      {
+        "id": "01-13-weSay-01",
+        "content": "What is the relationship between you and that person? \\\\ How are you related to that person?"
+      },
+      { "id": "01-13-theySay-01", "content": "My mother; My brother" },
+      {
+        "id": "01-13-pickingList-03",
+        "content": "Relationship; Father; Mother; Brother; Sister; Aunt; Uncle;"
+      },
+      { "id": "01-13-submitList-03", "content": "Brother" }
+    ],
+    "A14": [
+      {
+        "id": "01-14-weSay-01",
+        "content": "What is the start date of your temporary stay? \\\\ When did you arrive here?"
+      },
+      { "id": "01-14-theySay-01", "content": "I arrived on October 1st 2024" },
+      {
+        "id": "01-14-pickingList-01",
+        "content": "Starting Date; January 1st 2024; March 1st 2024; April 1st 2024; July 15th 2024; May 1st 2024; January 10th 2024; June 25th 2024; July 1st 2024; August 20th 2024; October 1st 2024;"
+      },
+      { "id": "01-14-submitList-01", "content": "October 1st 2024" }
+    ],
+    "A15": [
+      {
+        "id": "01-15-weSay-01",
+        "content": "When do you expect to leave? \\\\ When do you plan to leave?"
+      },
+      {
+        "id": "01-15-theySay-01",
+        "content": "I plan to stay until October 1st 2026"
+      },
+      {
+        "id": "01-15-pickingList-01",
+        "content": "Expected end date; July 1st 2024; June 1st 2024; June 2nd 2024; July 15th 2025; November 1st 2024; January 24th 2024; September 1st 2024; November 1st 2024; January 1st 2025; October 1st 2026;"
+      },
+      { "id": "01-15-submitList-01", "content": "October 1st 2026" }
+    ],
+    "A16": [
+      {
+        "id": "01-16-weSay-01",
+        "content": "Do you have a local contact person during your stay? \\\\ Who can we contact locally?"
+      },
+      {
+        "id": "01-16-theySay-01",
+        "content": "Lucas Black is my local contact."
+      },
+      {
+        "id": "01-16-pickingList-01",
+        "content": "Local contact name; Robert Brown; Jane Foster; Olivia Green; Daniel Wilson; Sarah Lee; Ethan Clark; Ava Taylor; Mia Roberts; Sophie White; Lucas Black;"
+      },
+      { "id": "01-16-submitList-01", "content": "Lucas Black" }
+    ],
+    "A17": [
+      {
+        "id": "01-17-weSay-01",
+        "content": "What is your relationship? \\\\ How are you related to this person?"
+      },
+      { "id": "01-17-theySay-01", "content": "He is my big brother" },
+      {
+        "id": "01-17-pickingList-01",
+        "content": "Relationship status; Co-worker; Classmate; Friend; Colleague; Brother; Mother; Sister"
+      },
+      { "id": "01-17-submitList-01", "content": "Brother" }
+    ],
+    "A18": [
+      {
+        "id": "01-18-weSay-01",
+        "content": "In case of emergency, how can we contact you? \\\\ What’s your emergency contact number?"
+      },
+      { "id": "01-18-theySay-01", "content": "You can reach me at 4871502." },
+      {
+        "id": "01-18-pickingList-01",
+        "content": "Contact number; 6391852; 9514726; 4826701; 7231864; 5319827; 8043716; 1957384; 6248053; 3126475; 4871502;"
+      },
+      { "id": "01-18-submitList-01", "content": 4871502 }
+    ],
+    "A19": [
+      {
+        "id": "01-19-weSay-01",
+        "content": "Did you recently move from another address? \\\\ Have you just moved?"
+      },
+      {
+        "id": "01-19-theySay-01",
+        "content": "I previously lived at 1150 Main Street."
+      },
+      {
+        "id": "01-19-pickingList-01",
+        "content": "Previous adress; 432 Elm Street; 1587 Oak Avenue; 23 Pine Lane; 902 Maple Boulevard; 672 Sunset Drive; 1748 River Road; 319 Cedar Street; 501 Birch Place; 84 Willow Crescent; 1150 Main Street;"
+      },
+      { "id": "01-19-submitList-01", "content": "1150 Main Street" }
+    ]
+  },
+  "id02": {
+    "A01": [
+      {
+        "id": "02-01-guideTable-01",
+        "content": "[[[1,\"KẾT THÚC\",null],[1,\"** REFERENCE\",null],[1,\"Synonymous sentences 1\",\"Synonymous sentences 2\"],[1,\"Thank you for providing everything.\",\"Thanks for all the information.\"]]]"
+      },
+      {
+        "id": "02-01-weSay-01",
+        "content": "Thank you for providing everything. \\\\ Thanks for all the information."
+      },
+      { "id": "02-01-theySay-01", "content": "Thank you for your help!" },
+      { "id": "02-01-action-01", "content": "submitFN01" },
+      { "id": "02-01-submitList-01", "content": "FN01" }
+    ]
+  }
+}

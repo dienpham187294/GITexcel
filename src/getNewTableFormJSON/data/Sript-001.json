@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "text": "pig",
+    "ipa": "pɪɡ",
+    "phuamt": "P",
+    "nguyenam": "i",
+    "gheplai": "Pi",
+    "phuamsau": "gờ",
+    "note": null
+  },
+  {
+    "id": 2,
+    "text": "pet",
+    "ipa": "pɛt",
+    "phuamt": "P",
+    "nguyenam": "e",
+    "gheplai": "pe",
+    "phuamsau": "tờ",
+    "note": null
+  },
+  {
+    "id": 3,
+    "text": "pack",
+    "ipa": "pæk",
+    "phuamt": "P",
+    "nguyenam": "a",
+    "gheplai": "pa",
+    "phuamsau": "kờ",
+    "note": null
+  },
+  {
+    "id": 4,
+    "text": "part",
+    "ipa": "pɑːt",
+    "phuamt": "P",
+    "nguyenam": "a",
+    "gheplai": "pa",
+    "phuamsau": "tờ",
+    "note": null
+  },
+  {
+    "id": 5,
+    "text": "pot",
+    "ipa": "pɒt",
+    "phuamt": "P",
+    "nguyenam": "o",
+    "gheplai": "po",
+    "phuamsau": "tờ",
+    "note": null
+  },
+  {
+    "id": 6,
+    "text": "port",
+    "ipa": "pɔːt",
+    "phuamt": "P",
+    "nguyenam": "o",
+    "gheplai": "po",
+    "phuamsau": "tờ",
+    "note": null
+  },
+  {
+    "id": 7,
+    "text": "pull",
+    "ipa": "pʊl",
+    "phuamt": "P",
+    "nguyenam": "u",
+    "gheplai": "pu",
+    "phuamsau": "ồ",
+    "note": "Với phụ âm l là âm dấu, ta đọc là ồ."
+  },
+  {
+    "id": 8,
+    "text": "pearl",
+    "ipa": "pɜːl",
+    "phuamt": "P",
+    "nguyenam": "ơ",
+    "gheplai": "pơ",
+    "phuamsau": "ồ",
+    "note": "Với phụ âm l là âm dấu, ta đọc là ồ."
+  },
+  {
+    "id": 9,
+    "text": "beat",
+    "ipa": "bi:t",
+    "phuamt": "b",
+    "nguyenam": "i",
+    "gheplai": "bi",
+    "phuamsau": "tờ",
+    "note": null
+  },
+  {
+    "id": 10,
+    "text": "bed",
+    "ipa": "bed",
+    "phuamt": "b",
+    "nguyenam": "e",
+    "gheplai": "be",
+    "phuamsau": "đờ",
+    "note": null
+  },
+  {
+    "id": 11,
+    "text": "bad",
+    "ipa": "bæd",
+    "phuamt": "b",
+    "nguyenam": "a",
+    "gheplai": "ba",
+    "phuamsau": "đờ",
+    "note": null
+  },
+  {
+    "id": 12,
+    "text": "bark",
+    "ipa": "bɑ:k",
+    "phuamt": "b",
+    "nguyenam": "a",
+    "gheplai": "ba",
+    "phuamsau": "kờ",
+    "note": null
+  },
+  {
+    "id": 13,
+    "text": "born",
+    "ipa": "bɔ:n",
+    "phuamt": "b",
+    "nguyenam": "o",
+    "gheplai": "bo",
+    "phuamsau": "nờ",
+    "note": null
+  },
+  {
+    "id": 14,
+    "text": "book",
+    "ipa": "buk",
+    "phuamt": "b",
+    "nguyenam": "u",
+    "gheplai": "bu",
+    "phuamsau": "kờ",
+    "note": null
+  },
+  {
+    "id": 15,
+    "text": "bird",
+    "ipa": "bə:d",
+    "phuamt": "b",
+    "nguyenam": "ơ",
+    "gheplai": "bơ",
+    "phuamsau": "đờ",
+    "note": null
+  },
+  {
+    "id": 16,
+    "text": "team",
+    "ipa": "ti:m",
+    "phuamt": "t",
+    "nguyenam": "i",
+    "gheplai": "ti",
+    "phuamsau": "mờ",
+    "note": null
+  },
+  {
+    "id": 17,
+    "text": "tell",
+    "ipa": "tel",
+    "phuamt": "t",
+    "nguyenam": "e",
+    "gheplai": "te",
+    "phuamsau": "ồ",
+    "note": "Với phụ âm l là âm dấu, ta đọc là ồ."
+  },
+  {
+    "id": 18,
+    "text": "task",
+    "ipa": "tɑ:sk",
+    "phuamt": "t",
+    "nguyenam": "a",
+    "gheplai": "ta",
+    "phuamsau": "sờ kờ",
+    "note": null
+  },
+  {
+    "id": 19,
+    "text": "tart",
+    "ipa": "tɑ:t",
+    "phuamt": "t",
+    "nguyenam": "a",
+    "gheplai": "ta",
+    "phuamsau": "tờ",
+    "note": null
+  },
+  {
+    "id": 20,
+    "text": "toss",
+    "ipa": "tɔs",
+    "phuamt": "t",
+    "nguyenam": "o",
+    "gheplai": "to",
+    "phuamsau": "sờ",
+    "note": null
+  },
+  {
+    "id": 21,
+    "text": "tool",
+    "ipa": "tu:l",
+    "phuamt": "t",
+    "nguyenam": "u",
+    "gheplai": "tu",
+    "phuamsau": "ồ",
+    "note": "Với phụ âm l là âm dấu, ta đọc là ồ."
+  },
+  {
+    "id": 22,
+    "text": "tooth",
+    "ipa": "tu:θ",
+    "phuamt": "t",
+    "nguyenam": "u",
+    "gheplai": "tu",
+    "phuamsau": "thờ",
+    "note": null
+  },
+  {
+    "id": 23,
+    "text": "turn",
+    "ipa": "tə:n",
+    "phuamt": "t",
+    "nguyenam": "ơ",
+    "gheplai": "tơ",
+    "phuamsau": "nờ",
+    "note": null
+  },
+  {
+    "id": 24,
+    "text": "deal",
+    "ipa": "di:l",
+    "phuamt": "đ",
+    "nguyenam": "i",
+    "gheplai": "đi",
+    "phuamsau": "ồ",
+    "note": "Với phụ âm l là âm dấu, ta đọc là ồ."
+  },
+  {
+    "id": 25,
+    "text": "dark",
+    "ipa": "dɑ:k",
+    "phuamt": "đ",
+    "nguyenam": "a",
+    "gheplai": "đa",
+    "phuamsau": "kờ",
+    "note": null
+  },
+  {
+    "id": 26,
+    "text": "doll",
+    "ipa": "dɔl",
+    "phuamt": "đ",
+    "nguyenam": "o",
+    "gheplai": "đo",
+    "phuamsau": "ồ",
+    "note": "Với phụ âm l là âm dấu, ta đọc là ồ."
+  },
+  {
+    "id": 27,
+    "text": "duke",
+    "ipa": "duːk",
+    "phuamt": "đ",
+    "nguyenam": "u",
+    "gheplai": "đu",
+    "phuamsau": "kờ",
+    "note": null
+  },
+  {
+    "id": 28,
+    "text": "doom",
+    "ipa": "du:m",
+    "phuamt": "đ",
+    "nguyenam": "u",
+    "gheplai": "đu",
+    "phuamsau": "mờ",
+    "note": null
+  },
+  {
+    "id": 29,
+    "text": "dirt",
+    "ipa": "də:t",
+    "phuamt": "đ",
+    "nguyenam": "ơ",
+    "gheplai": "đơ",
+    "phuamsau": "tờ",
+    "note": null
+  },
+  {
+    "id": 30,
+    "text": "keen",
+    "ipa": "ki:n",
+    "phuamt": "k",
+    "nguyenam": "i",
+    "gheplai": "ki",
+    "phuamsau": "nờ",
+    "note": null
+  },
+  {
+    "id": 31,
+    "text": "kid",
+    "ipa": "ki:d",
+    "phuamt": "k",
+    "nguyenam": "i",
+    "gheplai": "ki",
+    "phuamsau": "đờ",
+    "note": null
+  },
+  {
+    "id": 32,
+    "text": "cat",
+    "ipa": "kæt",
+    "phuamt": "k",
+    "nguyenam": "a",
+    "gheplai": "ka",
+    "phuamsau": "tờ",
+    "note": null
+  },
+  {
+    "id": 33,
+    "text": "cart",
+    "ipa": "kɑ:t",
+    "phuamt": "k",
+    "nguyenam": "a",
+    "gheplai": "ka",
+    "phuamsau": "tờ",
+    "note": null
+  },
+  {
+    "id": 34,
+    "text": "corn",
+    "ipa": "kɔ:n",
+    "phuamt": "k",
+    "nguyenam": "o",
+    "gheplai": "ko",
+    "phuamsau": "nờ",
+    "note": null
+  },
+  {
+    "id": 35,
+    "text": "cool",
+    "ipa": "ku:l",
+    "phuamt": "k",
+    "nguyenam": "u",
+    "gheplai": "ku",
+    "phuamsau": "ồ",
+    "note": "Với phụ âm l là âm dấu, ta đọc là ồ."
+  },
+  {
+    "id": 36,
+    "text": "curb",
+    "ipa": "kə:b",
+    "phuamt": "k",
+    "nguyenam": "ơ",
+    "gheplai": "kơ",
+    "phuamsau": "bờ",
+    "note": null
+  },
+  {
+    "id": 37,
+    "text": "geek",
+    "ipa": "giːk",
+    "phuamt": "g",
+    "nguyenam": "i",
+    "gheplai": "gi",
+    "phuamsau": "kờ",
+    "note": null
+  },
+  {
+    "id": 38,
+    "text": "get",
+    "ipa": "get",
+    "phuamt": "g",
+    "nguyenam": "e",
+    "gheplai": "ge",
+    "phuamsau": "tờ",
+    "note": null
+  },
+  {
+    "id": 39,
+    "text": "got",
+    "ipa": "ɡɑːt",
+    "phuamt": "g",
+    "nguyenam": "o",
+    "gheplai": "go",
+    "phuamsau": "tờ",
+    "note": null
+  },
+  {
+    "id": 40,
+    "text": "gas",
+    "ipa": "ɡæs",
+    "phuamt": "g",
+    "nguyenam": "a",
+    "gheplai": "ga",
+    "phuamsau": "sờ",
+    "note": null
+  },
+  {
+    "id": 41,
+    "text": "good",
+    "ipa": "gud",
+    "phuamt": "g",
+    "nguyenam": "u",
+    "gheplai": "gu",
+    "phuamsau": "đờ",
+    "note": null
+  },
+  {
+    "id": 42,
+    "text": "girl",
+    "ipa": "gə:l",
+    "phuamt": "g",
+    "nguyenam": "ơ",
+    "gheplai": "gơ",
+    "phuamsau": "ồ",
+    "note": "Với phụ âm l là âm dấu, ta đọc là ồ."
+  },
+  {
+    "id": 43,
+    "text": "feel",
+    "ipa": "fi:l",
+    "phuamt": "f",
+    "nguyenam": "i",
+    "gheplai": "fi",
+    "phuamsau": "ồ",
+    "note": "Với phụ âm l là âm dấu, ta đọc là ồ."
+  },
+  {
+    "id": 44,
+    "text": "fell",
+    "ipa": "fel",
+    "phuamt": "f",
+    "nguyenam": "e",
+    "gheplai": "fe",
+    "phuamsau": "ồ",
+    "note": "Với phụ âm l là âm dấu, ta đọc là ồ."
+  },
+  {
+    "id": 45,
+    "text": "fan",
+    "ipa": "fæn",
+    "phuamt": "f",
+    "nguyenam": "a",
+    "gheplai": "fa",
+    "phuamsau": "nờ",
+    "note": null
+  },
+  {
+    "id": 46,
+    "text": "farm",
+    "ipa": "fɑ:m",
+    "phuamt": "f",
+    "nguyenam": "a",
+    "gheplai": "fa",
+    "phuamsau": "mờ",
+    "note": null
+  },
+  {
+    "id": 47,
+    "text": "fog",
+    "ipa": "fɔg",
+    "phuamt": "f",
+    "nguyenam": "o",
+    "gheplai": "fo",
+    "phuamsau": "gờ",
+    "note": null
+  },
+  {
+    "id": 48,
+    "text": "foot",
+    "ipa": "fʊt",
+    "phuamt": "f",
+    "nguyenam": "u",
+    "gheplai": "fu",
+    "phuamsau": "tờ",
+    "note": null
+  },
+  {
+    "id": 49,
+    "text": "fern",
+    "ipa": "fə:n",
+    "phuamt": "f",
+    "nguyenam": "ơ",
+    "gheplai": "fơ",
+    "phuamsau": "nờ",
+    "note": null
+  },
+  {
+    "id": 50,
+    "text": "firm",
+    "ipa": "fə:m",
+    "phuamt": "f",
+    "nguyenam": "ơ",
+    "gheplai": "fơ",
+    "phuamsau": "mờ",
+    "note": null
+  }
+]

@@ -197,20 +197,21 @@ function groupByPrefix(data) {
     let keySets = item.id.split("-"); // Tách id thành các phần bằng dấu gạch ngang (-)
 
     // Nếu chưa có nhóm theo keySets[0], tạo một object rỗng
+
     if (!groupedData["id" + keySets[0]]) {
       groupedData["id" + keySets[0]] = {}; // Đây là object thay vì push vào array
     }
 
     // Nếu chưa có nhóm theo keySets[1], tạo một array rỗng cho nhóm đó
-    if (!groupedData["id" + keySets[0]][keySets[1]]) {
-      groupedData["id" + keySets[0]][keySets[1]] = []; // Tạo array để chứa các phần tử của nhóm thứ 2
+    if (!groupedData["id" + keySets[0]]["A" + keySets[1]]) {
+      groupedData["id" + keySets[0]]["A" + keySets[1]] = []; // Tạo array để chứa các phần tử của nhóm thứ 2
     }
 
     // Thêm item vào nhóm tương ứng
-    groupedData["id" + keySets[0]][keySets[1]].push(item);
+    groupedData["id" + keySets[0]]["A" + keySets[1]].push(item);
   });
 
-  // console.log(JSON.stringify(groupedData));
+  console.log(JSON.stringify(groupedData), "SAAAAAAAAAAAAAAAAAAAAAA");
 
   return groupedData;
 }
@@ -219,7 +220,7 @@ function groupByPrefiToArrayPure(data, iNOTE) {
   let res = [];
   let ketSets = Object.keys(data);
 
-  console.log(JSON.stringify(ketSets));
+  // console.log(JSON.stringify(ketSets), "AAAAAAAAAAAAAAAAAAa");
 
   ketSets.forEach((e) => {
     res.push(data[e]);
@@ -229,6 +230,7 @@ function groupByPrefiToArrayPure(data, iNOTE) {
   res.forEach((e) => {
     let resT = [];
     let keySets01 = Object.keys(e);
+    // console.log(keySets01, "--------------------");
     keySets01.forEach((e1) => {
       let temp01 = conversationBox(e[e1], iNOTE);
       if (!temp01.ignore) {

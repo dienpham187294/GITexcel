@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import $ from "jquery";
+import VideoPlayer from "./YoutubeCover";
 function TextToSpeechRecorder() {
   // const [text, setText] = useState(
   //   "Xin chào, đây là một ví dụ về text to speech!"
@@ -12,7 +13,6 @@ function TextToSpeechRecorder() {
   const [deviceId, setDeviceId] = useState(null);
   const mediaRecorderRef = useRef(null);
   const chunksRef = useRef([]);
-
   useEffect(() => {
     navigator.mediaDevices.enumerateDevices().then((devices) => {
       devices.forEach((device) => {
@@ -51,14 +51,42 @@ function TextToSpeechRecorder() {
     utterance.onstart = () => {
       objTimeline.begin = Date.now();
       // startRecording(); // Bắt đầu ghi âm khi phát giọng nói
+      if (n + 1 < jsonDataFN.length) {
+        handleTextToSpeech(n + 1, jsonDataFN);
+      }
+    };
+    let firstBoundaryLogged = false; // Biến để kiểm soát việc ghi log chỉ một lần cho từ đầu tiên
+    let firstBoundaryEND = false;
+    utterance.onboundary = (event) => {
+      const currentTime = Date.now();
+      console.log(
+        event.charLength + event.charLength,
+        jsonDataFN[n].text.length
+      );
+      if (!firstBoundaryLogged) {
+        console.log("Thời gian bắt đầu đọc từ đầu tiên:", currentTime);
+        objTimeline.begin_01 = Date.now();
+        firstBoundaryLogged = true;
+      }
+
+      // Kiểm tra nếu vị trí đang ở cuối văn bản để log thời gian đọc từ cuối cùng
+      // if (
+      //   event.charIndex + event.charLength > jsonDataFN[n].text.length - 40 &&
+      //   !firstBoundaryEND
+      // ) {
+      //   firstBoundaryEND = true;
+      //   console.log("Thời gian kết thúc đọc từ cuối cùng:", currentTime);
+      //   objTimeline.end = Date.now();
+      //   setTimeline((D) => [...D, objTimeline]);
+      //   if (n + 1 < jsonDataFN.length) {
+      //     handleTextToSpeech(n + 1, jsonDataFN);
+      //   }
+      // }
     };
 
     utterance.onend = () => {
       objTimeline.end = Date.now();
       setTimeline((D) => [...D, objTimeline]);
-      if (n + 1 < jsonDataFN.length) {
-        handleTextToSpeech(n + 1, jsonDataFN);
-      }
       // stopRecording(); // Dừng ghi âm khi giọng nói kết thúc
     };
 
@@ -142,8 +170,28 @@ function TextToSpeechRecorder() {
       <h1>Chuyển Văn Bản Thành Giọng Nói và Ghi Âm Từ Hệ Thống</h1>
       <input type="file" accept=".txt" onChange={handleFileUpload} />
       <br />
-      <button onClick={() => handleTextToSpeech(0, jsonData[0])}>
+      <button
+        onClick={() => {
+          try {
+            handleTextToSpeech(0, jsonData[0]);
+          } catch (error) {
+            alert("Kiểm tra file thông tin.");
+          }
+        }}
+      >
         Chuyển văn bản thành giọng nói và ghi âm bằng phần mềm ngoài
+      </button>
+
+      <button
+        onClick={() => {
+          try {
+            handleTextToSpeech(0, jsonData[0]);
+          } catch (error) {
+            alert("Kiểm tra file thông tin.");
+          }
+        }}
+      >
+        Chạy thử mô hình video mới.
       </button>
       <div style={{ marginTop: "20px" }}>
         {audioUrl && (
@@ -168,6 +216,7 @@ function TextToSpeechRecorder() {
           {JSON.stringify(jsonData, null, 2)}
         </pre>
       )}
+      <VideoPlayer />
     </div>
   );
 }
