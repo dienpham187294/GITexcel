@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
 import $ from "jquery";
 import readXlsxFile from "read-excel-file";
-import * as TransferData from "./Create_A_InputData_Tranfer_2024_onlyformapConversation";
+import * as TransferData from "./create/Create_A_InputData_Tranfer_2024_onlyformapConversation";
 
-import * as TransferData_01 from "./Create_A_InputData_Tranfer_01";
+import * as TransferData_01 from "./create/Create_A_InputData_Tranfer_01";
+
+import * as TransferData_f_json_to_jsonDivTable from "./create/Create_A_f_json_t_table";
+
 import transferTextToArray from "./transferTextToArray";
 import ReadMessage from "./ReadMessage_2024";
 import Dictaphone from "./RegcognitionV2024-05-NG";
@@ -11,6 +14,9 @@ import initializeVoicesAndPlatform from "./initializeVoicesAndPlatform";
 import InputDataTest from "./ForTest.json";
 import ghepamJSON from "./data/dataForExcelRare/ghepam.json";
 import ghepamJSONDoandau from "./data/dataForExcelRare/doanmodauGhepam.json";
+
+import ShowTableFJSON from "./create/showTable_f_json";
+
 import {
   findClosestMatch,
   getRandomElement,
@@ -18,6 +24,8 @@ import {
   shuffleArray,
   collectWeSay,
   removeNoneElements,
+  transper_to_table_f_json_obj,
+  copyTable_f_id,
 } from "./ulti/help_prac_function";
 
 let PracDataSave = [];
@@ -51,6 +59,7 @@ function GetDocument() {
   // const [PracTest, SetPracTest] = useState(false);
   // const [PracTestList, SetPracTestList] = useState(null);
   const [Score, SetScore] = useState(0);
+  const [ParceTableFromDiv, SetParceTableFromDiv] = useState(null);
 
   useEffect(() => {
     const handleFileChange = async (event) => {
@@ -359,6 +368,9 @@ function GetDocument() {
         <div style={{ padding: "0 10% " }}>
           {showButton(TransferData_01, "blue")}
         </div>
+        <div style={{ padding: "0 2% " }}>
+          {showButton(TransferData_f_json_to_jsonDivTable, "green")}
+        </div>
         <select
           onChange={(e) => {
             SetDocumentMode(e.currentTarget.value);
@@ -402,6 +414,24 @@ function GetDocument() {
         </button> */}
         {/* <a href="/test"> Cùng thực hành thử</a> */}
         <a href="/video"> Sản xuất video</a>
+        <hr />
+        <button onClick={() => copyTable_f_id("DivTable_f_state")}>
+          Copy Table
+        </button>
+        <button
+          onClick={() => {
+            try {
+              SetParceTableFromDiv(JSON.parse($("#DivTable01").text()));
+            } catch (error) {}
+          }}
+        >
+          PARCE TABLE
+        </button>
+        <div style={{ whiteSpace: "pre-line" }} id="DivTable_f_state">
+          {transper_to_table_f_json_obj(ParceTableFromDiv)}
+        </div>
+        <ShowTableFJSON />
+        <div id="DivTable01"></div>
         <hr />
         <div id="ResID" style={{ padding: "15px" }}></div>
       </div>

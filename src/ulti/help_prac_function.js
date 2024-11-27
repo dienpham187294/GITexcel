@@ -166,6 +166,60 @@ function pickRandomN(arr, n) {
   // Trả về n phần tử đầu tiên từ mảng đã xáo trộn
   return shuffled.slice(0, n);
 }
+
+function transper_to_table_f_json_obj(data) {
+  if (data === null) {
+    return <div>Loading table</div>;
+  }
+
+  const keysList = Object.keys(data[0]);
+
+  return (
+    <div>
+      <table id="table_f_state" className="table">
+        <thead>
+          <tr>
+            {keysList.map((eKey, iKey) => (
+              <td key={iKey}>{eKey}</td>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {data.map((edata, idata) => (
+            <tr key={idata}>
+              {keysList.map((eKey, iKey) => (
+                <td key={idata + "" + iKey}>{edata[eKey]}</td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+function copyTable_f_id(divId) {
+  const divElement = document.getElementById(divId);
+  if (divElement) {
+    const range = document.createRange();
+    range.selectNode(divElement);
+    const selection = window.getSelection();
+    selection.removeAllRanges();
+    selection.addRange(range);
+
+    try {
+      document.execCommand("copy");
+      alert("Table copied successfully!");
+    } catch (err) {
+      alert("Failed to copy the table. Please try again.");
+    }
+
+    selection.removeAllRanges(); // Clear selection after copying
+  } else {
+    alert("Table not found!");
+  }
+}
+
 export {
   findClosestMatch,
   getRandomElement,
@@ -175,4 +229,6 @@ export {
   removeNoneElements,
   qsSets,
   pickRandomN,
+  transper_to_table_f_json_obj,
+  copyTable_f_id,
 };

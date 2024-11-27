@@ -1,0 +1,3202 @@
+[
+  {
+    "stt": 1,
+    "GotoLocation": "Nhà ở (Home)",
+    "tinh-huong": "1. Thợ sửa ống nước - \"I need to repair a pipe.\"",
+    "Need": "I need to repair a pipe.",
+    "cau-hoi-1": "Where is the pipe located?",
+    "cau-hoi-2": "What type of pipe is it?"
+  },
+  {
+    "stt": 2,
+    "GotoLocation": "Nhà ở (Home)",
+    "tinh-huong": "2. Thợ điện - \"I need to fix the lights.\"",
+    "Need": "I need to fix the lights.",
+    "cau-hoi-1": "Which room has the issue?",
+    "cau-hoi-2": "Are all the lights not working?"
+  },
+  {
+    "stt": 3,
+    "GotoLocation": "Nhà ở (Home)",
+    "tinh-huong": "3. Thợ làm vườn - \"I need to trim the plants.\"",
+    "Need": "I need to trim the plants.",
+    "cau-hoi-1": "Which plants need trimming?",
+    "cau-hoi-2": "Do you need any specific shaping?"
+  },
+  {
+    "stt": 4,
+    "GotoLocation": "Nhà ở (Home)",
+    "tinh-huong": "4. Nhân viên vệ sinh - \"I need to clean the house.\"",
+    "Need": "I need to clean the house.",
+    "cau-hoi-1": "Which area should be cleaned first?",
+    "cau-hoi-2": "Do you have any cleaning supplies?"
+  },
+  {
+    "stt": 5,
+    "GotoLocation": "Trường học (School)",
+    "tinh-huong": "5. Giáo viên - \"I need information about my class.\"",
+    "Need": "I need information about my class.",
+    "cau-hoi-1": "What class are you in?",
+    "cau-hoi-2": "What information do you need?"
+  },
+  {
+    "stt": 6,
+    "GotoLocation": "Trường học (School)",
+    "tinh-huong": "6. Thủ thư - \"I need to borrow a book.\"",
+    "Need": "I need to borrow a book.",
+    "cau-hoi-1": "Which book do you need?",
+    "cau-hoi-2": "How long do you need it for?"
+  },
+  {
+    "stt": 7,
+    "GotoLocation": "Trường học (School)",
+    "tinh-huong": "7. Bảo vệ - \"I need directions to my classroom.\"",
+    "Need": "I need directions to my classroom.",
+    "cau-hoi-1": "What is the classroom number?",
+    "cau-hoi-2": "Do you have a map of the school?"
+  },
+  {
+    "stt": 8,
+    "GotoLocation": "Trường học (School)",
+    "tinh-huong": "8. Nhân viên hành chính - \"I need the event schedule.\"",
+    "Need": "I need the event schedule.",
+    "cau-hoi-1": "Which event are you referring to?",
+    "cau-hoi-2": "When is the event scheduled?"
+  },
+  {
+    "stt": 9,
+    "GotoLocation": "Văn phòng (Office)",
+    "tinh-huong": "9. Quản lý dự án - \"I need to discuss the project.\"",
+    "Need": "I need to discuss the project.",
+    "cau-hoi-1": "Which project are we discussing?",
+    "cau-hoi-2": "What is the purpose of the meeting?"
+  },
+  {
+    "stt": 10,
+    "GotoLocation": "Văn phòng (Office)",
+    "tinh-huong": "10. Nhân viên hành chính - \"I need help with the documents.\"",
+    "Need": "I need help with the documents.",
+    "cau-hoi-1": "What documents do you need help with?",
+    "cau-hoi-2": "Is it urgent?"
+  },
+  {
+    "stt": 11,
+    "GotoLocation": "Văn phòng (Office)",
+    "tinh-huong": "11. Kế toán - \"I need information about my salary.\"",
+    "Need": "I need information about my salary.",
+    "cau-hoi-1": "Which month's salary details?",
+    "cau-hoi-2": "Do you need a printed statement?"
+  },
+  {
+    "stt": 12,
+    "GotoLocation": "Văn phòng (Office)",
+    "tinh-huong": "12. Nhân viên IT - \"I need to fix my computer.\"",
+    "Need": "I need to fix my computer.",
+    "cau-hoi-1": "What problem are you facing?",
+    "cau-hoi-2": "When did the issue start?"
+  },
+  {
+    "stt": 13,
+    "GotoLocation": "Siêu thị (Supermarket)",
+    "tinh-huong": "13. Nhân viên bán hàng - \"I need help with groceries.\"",
+    "Need": "I need help with groceries.",
+    "cau-hoi-1": "What specific items are you looking for?",
+    "cau-hoi-2": "Do you need assistance with payment?"
+  },
+  {
+    "stt": 14,
+    "GotoLocation": "Siêu thị (Supermarket)",
+    "tinh-huong": "14. Quản lý - \"I need to exchange this item.\"",
+    "Need": "I need to exchange this item.",
+    "cau-hoi-1": "Do you have the receipt?",
+    "cau-hoi-2": "What is wrong with the item?"
+  },
+  {
+    "stt": 15,
+    "GotoLocation": "Siêu thị (Supermarket)",
+    "tinh-huong": "15. Nhân viên bán hàng - \"I need to know the price.\"",
+    "Need": "I need to know the price.",
+    "cau-hoi-1": "Which item are you referring to?",
+    "cau-hoi-2": "Do you need help finding the item?"
+  },
+  {
+    "stt": 16,
+    "GotoLocation": "Siêu thị (Supermarket)",
+    "tinh-huong": "16. Nhân viên giao hàng - \"I need home delivery.\"",
+    "Need": "I need home delivery.",
+    "cau-hoi-1": "What items need delivery?",
+    "cau-hoi-2": "What is the delivery address?"
+  },
+  {
+    "stt": 17,
+    "GotoLocation": "Nhà hàng (Restaurant)",
+    "tinh-huong": "17. Nhân viên phục vụ - \"I need to book a table.\"",
+    "Need": "I need to book a table.",
+    "cau-hoi-1": "How many people are in your group?",
+    "cau-hoi-2": "When would you like to book?"
+  },
+  {
+    "stt": 18,
+    "GotoLocation": "Nhà hàng (Restaurant)",
+    "tinh-huong": "18. Đầu bếp - \"I need information about the dishes.\"",
+    "Need": "I need information about the dishes.",
+    "cau-hoi-1": "What dishes are you interested in?",
+    "cau-hoi-2": "Do you have any dietary preferences?"
+  },
+  {
+    "stt": 19,
+    "GotoLocation": "Nhà hàng (Restaurant)",
+    "tinh-huong": "19. Nhân viên phục vụ - \"I need to order food.\"",
+    "Need": "I need to order food.",
+    "cau-hoi-1": "What would you like to order?",
+    "cau-hoi-2": "Would you like a drink with that?"
+  },
+  {
+    "stt": 20,
+    "GotoLocation": "Nhà hàng (Restaurant)",
+    "tinh-huong": "20. Quản lý - \"I need to make a complaint.\"",
+    "Need": "I need to make a complaint.",
+    "cau-hoi-1": "What is the issue you’re facing?",
+    "cau-hoi-2": "When did this issue occur?"
+  },
+  {
+    "stt": 21,
+    "GotoLocation": "Khách sạn (Hotel)",
+    "tinh-huong": "21. Lễ tân - \"I need to book a room.\"",
+    "Need": "I need to book a room.",
+    "cau-hoi-1": "What type of room would you like?",
+    "cau-hoi-2": "When will you check in?"
+  },
+  {
+    "stt": 22,
+    "GotoLocation": "Khách sạn (Hotel)",
+    "tinh-huong": "22. Nhân viên hành lý - \"I need help with my luggage.\"",
+    "Need": "I need help with my luggage.",
+    "cau-hoi-1": "Where is your luggage located?",
+    "cau-hoi-2": "Where should it be taken?"
+  },
+  {
+    "stt": 23,
+    "GotoLocation": "Khách sạn (Hotel)",
+    "tinh-huong": "23. Lễ tân - \"I need information about breakfast.\"",
+    "Need": "I need information about breakfast.",
+    "cau-hoi-1": "What would you like to know?",
+    "cau-hoi-2": "Would you like the menu or timing?"
+  },
+  {
+    "stt": 24,
+    "GotoLocation": "Khách sạn (Hotel)",
+    "tinh-huong": "24. Nhân viên vệ sinh - \"I need my room cleaned.\"",
+    "Need": "I need my room cleaned.",
+    "cau-hoi-1": "When do you need it cleaned?",
+    "cau-hoi-2": "Do you need any specific services?"
+  },
+  {
+    "stt": 25,
+    "GotoLocation": "Bệnh viện (Hospital)",
+    "tinh-huong": "25. Bác sĩ - \"I need a health check-up.\"",
+    "Need": "I need a health check-up.",
+    "cau-hoi-1": "What symptoms are you experiencing?",
+    "cau-hoi-2": "Do you have a medical history file?"
+  },
+  {
+    "stt": 26,
+    "GotoLocation": "Bệnh viện (Hospital)",
+    "tinh-huong": "26. Y tá - \"I need information about my prescription.\"",
+    "Need": "I need information about my prescription.",
+    "cau-hoi-1": "Which prescription do you mean?",
+    "cau-hoi-2": "When was it prescribed?"
+  },
+  {
+    "stt": 27,
+    "GotoLocation": "Bệnh viện (Hospital)",
+    "tinh-huong": "27. Nhân viên lễ tân - \"I need to book an appointment.\"",
+    "Need": "I need to book an appointment.",
+    "cau-hoi-1": "What time would you like to book?",
+    "cau-hoi-2": "What is the reason for the visit?"
+  },
+  {
+    "stt": 28,
+    "GotoLocation": "Bệnh viện (Hospital)",
+    "tinh-huong": "28. Dược sĩ - \"I need to buy medicine.\"",
+    "Need": "I need to buy medicine.",
+    "cau-hoi-1": "Do you have a prescription?",
+    "cau-hoi-2": "What medicine do you need?"
+  },
+  {
+    "stt": 29,
+    "GotoLocation": "Công viên (Park)",
+    "tinh-huong": "29. Hướng dẫn viên - \"I need a tour guide for the park.\"",
+    "Need": "I need a tour guide for the park.",
+    "cau-hoi-1": "How many people are in your group?",
+    "cau-hoi-2": "How long will the tour last?"
+  },
+  {
+    "stt": 30,
+    "GotoLocation": "Công viên (Park)",
+    "tinh-huong": "30. Nhân viên bảo vệ - \"I need directions to the playground.\"",
+    "Need": "I need directions to the playground.",
+    "cau-hoi-1": "Where are you now?",
+    "cau-hoi-2": "Would you like me to guide you?"
+  },
+  {
+    "stt": 31,
+    "GotoLocation": "Công viên (Park)",
+    "tinh-huong": "31. Công viên (Park) - Nhân viên vệ sinh - \"I need to find the trash bin.\"",
+    "Need": "I need to find the trash bin.",
+    "cau-hoi-1": "Where are you located now?",
+    "cau-hoi-2": "Is it for regular or recyclable waste?"
+  },
+  {
+    "stt": 32,
+    "GotoLocation": "Công viên (Park)",
+    "tinh-huong": "32. Công viên (Park) - Nhân viên bán hàng - \"I need to buy some snacks.\"",
+    "Need": "I need to buy some snacks.",
+    "cau-hoi-1": "What type of snacks are you looking for?",
+    "cau-hoi-2": "Do you need any drinks with that?"
+  },
+  {
+    "stt": 33,
+    "GotoLocation": "Trung tâm thương mại (Mall)",
+    "tinh-huong": "33. Trung tâm thương mại (Mall) - Quản lý trung tâm - \"I need help with mall services.\"",
+    "Need": "I need help with mall services.",
+    "cau-hoi-1": "What specific service do you need help with?",
+    "cau-hoi-2": "Is it urgent?"
+  },
+  {
+    "stt": 34,
+    "GotoLocation": "Trung tâm thương mại (Mall)",
+    "tinh-huong": "34. Trung tâm thương mại (Mall) - Nhân viên bảo vệ - \"I need directions to the emergency exit.\"",
+    "Need": "I need directions to the emergency exit.",
+    "cau-hoi-1": "Where are you now?",
+    "cau-hoi-2": "Are you looking for the nearest exit?"
+  },
+  {
+    "stt": 35,
+    "GotoLocation": "Trung tâm thương mại (Mall)",
+    "tinh-huong": "35. Trung tâm thương mại (Mall) - Nhân viên bán hàng - \"I need information about this product.\"",
+    "Need": "I need information about this product.",
+    "cau-hoi-1": "What information do you need?",
+    "cau-hoi-2": "Are you looking to purchase it?"
+  },
+  {
+    "stt": 36,
+    "GotoLocation": "Trung tâm thương mại (Mall)",
+    "tinh-huong": "36. Trung tâm thương mại (Mall) - Nhân viên hỗ trợ khách hàng - \"I need help finding a store.\"",
+    "Need": "I need help finding a store.",
+    "cau-hoi-1": "What store are you looking for?",
+    "cau-hoi-2": "Do you know the category of the store?"
+  },
+  {
+    "stt": 37,
+    "GotoLocation": "Quán cà phê (Café)",
+    "tinh-huong": "37. Quán cà phê (Café) - Nhân viên pha chế - \"I need a cup of coffee.\"",
+    "Need": "I need a cup of coffee.",
+    "cau-hoi-1": "What size would you like?",
+    "cau-hoi-2": "Do you want it hot or cold?"
+  },
+  {
+    "stt": 38,
+    "GotoLocation": "Quán cà phê (Café)",
+    "tinh-huong": "38. Quán cà phê (Café) - Nhân viên phục vụ - \"I need the menu, please.\"",
+    "Need": "I need the menu, please.",
+    "cau-hoi-1": "Would you like a printed or digital menu?",
+    "cau-hoi-2": "Are you looking for food or drinks?"
+  },
+  {
+    "stt": 39,
+    "GotoLocation": "Quán cà phê (Café)",
+    "tinh-huong": "39. Quán cà phê (Café) - Quản lý - \"I need to make a complaint.\"",
+    "Need": "I need to make a complaint.",
+    "cau-hoi-1": "What issue would you like to report?",
+    "cau-hoi-2": "When did this happen?"
+  },
+  {
+    "stt": 40,
+    "GotoLocation": "Quán cà phê (Café)",
+    "tinh-huong": "40. Quán cà phê (Café) - Nhân viên pha chế - \"I need a coffee to-go.\"",
+    "Need": "I need a coffee to-go.",
+    "cau-hoi-1": "What type of coffee would you like?",
+    "cau-hoi-2": "Do you need any sugar or milk?"
+  },
+  {
+    "stt": 41,
+    "GotoLocation": "Nhà thờ (Church)",
+    "tinh-huong": "41. Nhà thờ (Church) - Cha xứ - \"I need spiritual advice.\"",
+    "Need": "I need spiritual advice.",
+    "cau-hoi-1": "What specific concern would you like to discuss?",
+    "cau-hoi-2": "Have you visited us before?"
+  },
+  {
+    "stt": 42,
+    "GotoLocation": "Nhà thờ (Church)",
+    "tinh-huong": "42. Nhà thờ (Church) - Nhân viên hỗ trợ - \"I need to know the mass schedule.\"",
+    "Need": "I need to know the mass schedule.",
+    "cau-hoi-1": "Do you need the weekday or weekend schedule?",
+    "cau-hoi-2": "Do you need timings in the morning or evening?"
+  },
+  {
+    "stt": 43,
+    "GotoLocation": "Nhà thờ (Church)",
+    "tinh-huong": "43. Nhà thờ (Church) - Nhân viên hỗ trợ - \"I need help joining a community activity.\"",
+    "Need": "I need help joining a community activity.",
+    "cau-hoi-1": "Which activity are you interested in?",
+    "cau-hoi-2": "Do you want to join as a volunteer or participant?"
+  },
+  {
+    "stt": 44,
+    "GotoLocation": "Nhà thờ (Church)",
+    "tinh-huong": "44. Nhà thờ (Church) - Cha xứ - \"I need a prayer.\"",
+    "Need": "I need a prayer.",
+    "cau-hoi-1": "What would you like us to pray for?",
+    "cau-hoi-2": "Would you like it done privately or publicly?"
+  },
+  {
+    "stt": 45,
+    "GotoLocation": "Chùa (Temple)",
+    "tinh-huong": "45. Chùa (Temple) - Sư thầy - \"I want to pray at the temple.\"",
+    "Need": "I want to pray at the temple.",
+    "cau-hoi-1": "Do you need guidance for the prayer?",
+    "cau-hoi-2": "Would you like to offer any items?"
+  },
+  {
+    "stt": 46,
+    "GotoLocation": "Chùa (Temple)",
+    "tinh-huong": "46. Chùa (Temple) - Nhân viên hỗ trợ - \"I need to know the opening hours.\"",
+    "Need": "I need to know the opening hours.",
+    "cau-hoi-1": "Are you planning to visit today?",
+    "cau-hoi-2": "Would you like the hours for weekdays or weekends?"
+  },
+  {
+    "stt": 47,
+    "GotoLocation": "Chùa (Temple)",
+    "tinh-huong": "47. Chùa (Temple) - Sư thầy - \"I need spiritual guidance.\"",
+    "Need": "I need spiritual guidance.",
+    "cau-hoi-1": "What specific matter would you like guidance on?",
+    "cau-hoi-2": "Have you consulted us before?"
+  },
+  {
+    "stt": 48,
+    "GotoLocation": "Chùa (Temple)",
+    "tinh-huong": "48. Chùa (Temple) - Nhân viên hỗ trợ - \"I need information about temple events.\"",
+    "Need": "I need information about temple events.",
+    "cau-hoi-1": "Which event are you referring to?",
+    "cau-hoi-2": "Would you like to register for it?"
+  },
+  {
+    "stt": 49,
+    "GotoLocation": "Sân bay (Airport)",
+    "tinh-huong": "49. Sân bay (Airport) - Nhân viên hỗ trợ - \"I need help with my flight check-in.\"",
+    "Need": "I need help with my flight check-in.",
+    "cau-hoi-1": "Which airline are you flying with?",
+    "cau-hoi-2": "Do you have your booking confirmation?"
+  },
+  {
+    "stt": 50,
+    "GotoLocation": "Sân bay (Airport)",
+    "tinh-huong": "50. Sân bay (Airport) - Nhân viên hướng dẫn - \"I need directions to my gate.\"",
+    "Need": "I need directions to my gate.",
+    "cau-hoi-1": "What is your flight number?",
+    "cau-hoi-2": "Where are you currently located?"
+  },
+  {
+    "stt": 51,
+    "GotoLocation": "Sân bay (Airport)",
+    "tinh-huong": "51. Sân bay (Airport) - Nhân viên hỗ trợ - \"I need help with my luggage.\"",
+    "Need": "I need help with my luggage.",
+    "cau-hoi-1": "Where is your luggage located?",
+    "cau-hoi-2": "Do you need assistance carrying it?"
+  },
+  {
+    "stt": 52,
+    "GotoLocation": "Sân bay (Airport)",
+    "tinh-huong": "52. Sân bay (Airport) - Nhân viên bán vé - \"I need information about my ticket.\"",
+    "Need": "I need information about my ticket.",
+    "cau-hoi-1": "What is your ticket number?",
+    "cau-hoi-2": "Do you need details about changes or cancellations?"
+  },
+  {
+    "stt": 53,
+    "GotoLocation": "Nhà ga (Train station)",
+    "tinh-huong": "53. Nhà ga (Train station) - Nhân viên nhà ga - \"I need a train ticket.\"",
+    "Need": "I need a train ticket.",
+    "cau-hoi-1": "Which destination are you traveling to?",
+    "cau-hoi-2": "Do you need a one-way or round-trip ticket?"
+  },
+  {
+    "stt": 54,
+    "GotoLocation": "Nhà ga (Train station)",
+    "tinh-huong": "54. Nhà ga (Train station) - Nhân viên hướng dẫn - \"I need directions to the platform.\"",
+    "Need": "I need directions to the platform.",
+    "cau-hoi-1": "Which train are you catching?",
+    "cau-hoi-2": "Where are you now?"
+  },
+  {
+    "stt": 55,
+    "GotoLocation": "Nhà ga (Train station)",
+    "tinh-huong": "55. Nhà ga (Train station) - Nhân viên nhà ga - \"I need the train schedule.\"",
+    "Need": "I need the train schedule.",
+    "cau-hoi-1": "Which destination are you asking about?",
+    "cau-hoi-2": "Do you need the weekday or weekend schedule?"
+  },
+  {
+    "stt": 56,
+    "GotoLocation": "Nhà ga (Train station)",
+    "tinh-huong": "56. Nhà ga (Train station) - Nhân viên hỗ trợ - \"I need help with my luggage.\"",
+    "Need": "I need help with my luggage.",
+    "cau-hoi-1": "How many bags do you have?",
+    "cau-hoi-2": "Where do you need the luggage taken?"
+  },
+  {
+    "stt": 57,
+    "GotoLocation": "Bến xe buýt (Bus station)",
+    "tinh-huong": "57. Bến xe buýt (Bus station) - Nhân viên bán vé - \"I need the bus schedule.\"",
+    "Need": "I need the bus schedule.",
+    "cau-hoi-1": "Which route are you asking about?",
+    "cau-hoi-2": "Do you need timings for today or later?"
+  },
+  {
+    "stt": 58,
+    "GotoLocation": "Bến xe buýt (Bus station)",
+    "tinh-huong": "58. Bến xe buýt (Bus station) - Nhân viên hỗ trợ - \"I need directions to the bus stop.\"",
+    "Need": "I need directions to the bus stop.",
+    "cau-hoi-1": "Which bus stop are you heading to?",
+    "cau-hoi-2": "Where are you now?"
+  },
+  {
+    "stt": 59,
+    "GotoLocation": "Bến xe buýt (Bus station)",
+    "tinh-huong": "59. Bến xe buýt (Bus station) - Nhân viên bán vé - \"I need to buy a bus ticket.\"",
+    "Need": "I need to buy a bus ticket.",
+    "cau-hoi-1": "Which route are you traveling on?",
+    "cau-hoi-2": "Do you need a one-way or return ticket?"
+  },
+  {
+    "stt": 60,
+    "GotoLocation": "Bến xe buýt (Bus station)",
+    "tinh-huong": "60. Bến xe buýt (Bus station) - Tài xế xe buýt - \"I need information about my stop.\"",
+    "Need": "I need information about my stop.",
+    "cau-hoi-1": "Which stop are you referring to?",
+    "cau-hoi-2": "Do you know the bus number?"
+  },
+  {
+    "stt": 61,
+    "GotoLocation": "Phòng tập gym (Gym)",
+    "tinh-huong": "61. Phòng tập gym (Gym) - Huấn luyện viên - \"I want to join a fitness class.\"",
+    "Need": "I want to join a fitness class.",
+    "cau-hoi-1": "What type of class are you looking for?",
+    "cau-hoi-2": "What is your fitness level?"
+  },
+  {
+    "stt": 62,
+    "GotoLocation": "Phòng tập gym (Gym)",
+    "tinh-huong": "62. Phòng tập gym (Gym) - Nhân viên lễ tân - \"I need to know the gym schedule.\"",
+    "Need": "I need to know the gym schedule.",
+    "cau-hoi-1": "Do you need the class or general schedule?",
+    "cau-hoi-2": "Are you planning to visit today?"
+  },
+  {
+    "stt": 63,
+    "GotoLocation": "Phòng tập gym (Gym)",
+    "tinh-huong": "63. Phòng tập gym (Gym) - Huấn luyện viên - \"I need help with the equipment.\"",
+    "Need": "I need help with the equipment.",
+    "cau-hoi-1": "Which equipment are you having trouble with?",
+    "cau-hoi-2": "Do you need a demonstration?"
+  },
+  {
+    "stt": 64,
+    "GotoLocation": "Phòng tập gym (Gym)",
+    "tinh-huong": "64. Phòng tập gym (Gym) - Nhân viên hỗ trợ - \"I need information about the fees.\"",
+    "Need": "I need information about the fees.",
+    "cau-hoi-1": "Do you need a monthly or yearly fee structure?",
+    "cau-hoi-2": "Are you planning to register now?"
+  },
+  {
+    "stt": 65,
+    "GotoLocation": "Thư viện (Library)",
+    "tinh-huong": "65. Thư viện (Library) - Thủ thư - \"I need to borrow a book.\"",
+    "Need": "I need to borrow a book.",
+    "cau-hoi-1": "Which book are you looking for?",
+    "cau-hoi-2": "Do you have a library card?"
+  },
+  {
+    "stt": 66,
+    "GotoLocation": "Thư viện (Library)",
+    "tinh-huong": "66. Thư viện (Library) - Thủ thư - \"I need to know the opening hours.\"",
+    "Need": "I need to know the opening hours.",
+    "cau-hoi-1": "Are you planning to visit today?",
+    "cau-hoi-2": "Do you need the weekday or weekend hours?"
+  },
+  {
+    "stt": 67,
+    "GotoLocation": "Thư viện (Library)",
+    "tinh-huong": "67. Thư viện (Library) - Nhân viên hỗ trợ - \"I need directions to the shelves.\"",
+    "Need": "I need directions to the shelves.",
+    "cau-hoi-1": "What type of books are you looking for?",
+    "cau-hoi-2": "Where are you currently standing?"
+  },
+  {
+    "stt": 68,
+    "GotoLocation": "Thư viện (Library)",
+    "tinh-huong": "68. Thư viện (Library) - Thủ thư - \"I need information about new books.\"",
+    "Need": "I need information about new books.",
+    "cau-hoi-1": "What genre are you interested in?",
+    "cau-hoi-2": "Would you like to join our mailing list?"
+  },
+  {
+    "stt": 69,
+    "GotoLocation": "Rạp chiếu phim (Cinema)",
+    "tinh-huong": "69. Rạp chiếu phim (Cinema) - Nhân viên rạp - \"I need a movie ticket.\"",
+    "Need": "I need a movie ticket.",
+    "cau-hoi-1": "Which movie would you like to watch?",
+    "cau-hoi-2": "What time would you like to attend?"
+  },
+  {
+    "stt": 70,
+    "GotoLocation": "Rạp chiếu phim (Cinema)",
+    "tinh-huong": "70. Rạp chiếu phim (Cinema) - Nhân viên hướng dẫn - \"I need to know the showtimes.\"",
+    "Need": "I need to know the showtimes.",
+    "cau-hoi-1": "Which movie are you asking about?",
+    "cau-hoi-2": "Are you looking for today’s showtimes?"
+  },
+  {
+    "stt": 71,
+    "GotoLocation": "Rạp chiếu phim (Cinema)",
+    "tinh-huong": "71. Rạp chiếu phim (Cinema) - Nhân viên bán hàng - \"I need to buy some snacks.\"",
+    "Need": "I need to buy some snacks.",
+    "cau-hoi-1": "What kind of snacks would you like?",
+    "cau-hoi-2": "Do you need any drinks with that?"
+  },
+  {
+    "stt": 72,
+    "GotoLocation": "Rạp chiếu phim (Cinema)",
+    "tinh-huong": "72. Rạp chiếu phim (Cinema) - Nhân viên hỗ trợ - \"I need help finding my seat.\"",
+    "Need": "I need help finding my seat.",
+    "cau-hoi-1": "What is your seat number?",
+    "cau-hoi-2": "Which theater are you in?"
+  },
+  {
+    "stt": 73,
+    "GotoLocation": "Sân vận động (Stadium)",
+    "tinh-huong": "73. Sân vận động (Stadium) - Quản lý sân - \"I need help finding my seat.\"",
+    "Need": "I need help finding my seat.",
+    "cau-hoi-1": "Can you show me your ticket?",
+    "cau-hoi-2": "What is your seat section?"
+  },
+  {
+    "stt": 74,
+    "GotoLocation": "Sân vận động (Stadium)",
+    "tinh-huong": "74. Sân vận động (Stadium) - Nhân viên bán vé - \"I need information about my ticket.\"",
+    "Need": "I need information about my ticket.",
+    "cau-hoi-1": "What is your ticket number?",
+    "cau-hoi-2": "Do you need help with seat details or timing?"
+  },
+  {
+    "stt": 75,
+    "GotoLocation": "Sân vận động (Stadium)",
+    "tinh-huong": "75. Sân vận động (Stadium) - Nhân viên hướng dẫn - \"I need directions to the entrance.\"",
+    "Need": "I need directions to the entrance.",
+    "cau-hoi-1": "Which entrance are you looking for?",
+    "cau-hoi-2": "Where are you now?"
+  },
+  {
+    "stt": 76,
+    "GotoLocation": "Sân vận động (Stadium)",
+    "tinh-huong": "76. Sân vận động (Stadium) - Nhân viên bán hàng - \"I need to buy snacks or drinks.\"",
+    "Need": "I need to buy snacks or drinks.",
+    "cau-hoi-1": "What snacks or drinks would you like?",
+    "cau-hoi-2": "Would you like to know the prices?"
+  },
+  {
+    "stt": 77,
+    "GotoLocation": "Nhà hát (Theater)",
+    "tinh-huong": "77. Nhà hát (Theater) - Nhân viên bán vé - \"I need to book a theater ticket.\"",
+    "Need": "I need to book a theater ticket.",
+    "cau-hoi-1": "What show would you like to watch?",
+    "cau-hoi-2": "When would you like to attend?"
+  },
+  {
+    "stt": 78,
+    "GotoLocation": "Nhà hát (Theater)",
+    "tinh-huong": "78. Nhà hát (Theater) - Nhân viên hướng dẫn - \"I need to find my seat.\"",
+    "Need": "I need to find my seat.",
+    "cau-hoi-1": "What is your seat number?",
+    "cau-hoi-2": "Do you have your ticket with you?"
+  },
+  {
+    "stt": 79,
+    "GotoLocation": "Nhà hát (Theater)",
+    "tinh-huong": "79. Nhà hát (Theater) - Nhân viên hỗ trợ - \"I need to know the showtime.\"",
+    "Need": "I need to know the showtime.",
+    "cau-hoi-1": "Which show are you asking about?",
+    "cau-hoi-2": "Do you need timings for today or later?"
+  },
+  {
+    "stt": 80,
+    "GotoLocation": "Nhà hát (Theater)",
+    "tinh-huong": "80. Nhà hát (Theater) - Nhân viên bán hàng - \"I need to buy snacks or drinks.\"",
+    "Need": "I need to buy snacks or drinks.",
+    "cau-hoi-1": "What snacks or drinks would you like?",
+    "cau-hoi-2": "Do you want them before or during the show?"
+  },
+  {
+    "stt": 81,
+    "GotoLocation": "Cửa hàng tạp hóa (Convenience)",
+    "tinh-huong": "81. Cửa hàng tạp hóa (Convenience) - Nhân viên cửa hàng - \"I need daily essentials.\"",
+    "Need": "I need daily essentials.",
+    "cau-hoi-1": "What items are you looking for?",
+    "cau-hoi-2": "Do you need any assistance carrying them?"
+  },
+  {
+    "stt": 82,
+    "GotoLocation": "Cửa hàng tạp hóa (Convenience)",
+    "tinh-huong": "82. Cửa hàng tạp hóa (Convenience) - Nhân viên cửa hàng - \"I need to know the price of this item.\"",
+    "Need": "I need to know the price of this item.",
+    "cau-hoi-1": "Can you show me the item?",
+    "cau-hoi-2": "Would you like to check for discounts?"
+  },
+  {
+    "stt": 83,
+    "GotoLocation": "Cửa hàng tạp hóa (Convenience)",
+    "tinh-huong": "83. Cửa hàng tạp hóa (Convenience) - Nhân viên cửa hàng - \"I need information about promotions.\"",
+    "Need": "I need information about promotions.",
+    "cau-hoi-1": "Are you looking for specific product promotions?",
+    "cau-hoi-2": "Do you need a list of ongoing offers?"
+  },
+  {
+    "stt": 84,
+    "GotoLocation": "Cửa hàng tạp hóa (Convenience)",
+    "tinh-huong": "84. Cửa hàng tạp hóa (Convenience) - Nhân viên cửa hàng - \"I need to know the return policy.\"",
+    "Need": "I need to know the return policy.",
+    "cau-hoi-1": "What item would you like to return?",
+    "cau-hoi-2": "Do you have the receipt with you?"
+  },
+  {
+    "stt": 85,
+    "GotoLocation": "Chợ (Market)",
+    "tinh-huong": "85. Chợ (Market) - Người bán hàng - \"I need fresh vegetables.\"",
+    "Need": "I need fresh vegetables.",
+    "cau-hoi-1": "What type of vegetables are you looking for?",
+    "cau-hoi-2": "How much do you need?"
+  },
+  {
+    "stt": 86,
+    "GotoLocation": "Chợ (Market)",
+    "tinh-huong": "86. Chợ (Market) - Người bán hàng - \"I need to know the price of this product.\"",
+    "Need": "I need to know the price of this product.",
+    "cau-hoi-1": "Can you show me the product?",
+    "cau-hoi-2": "Would you like to buy it in bulk?"
+  },
+  {
+    "stt": 87,
+    "GotoLocation": "Chợ (Market)",
+    "tinh-huong": "87. Chợ (Market) - Người bán hàng - \"I need to know the origin of these items.\"",
+    "Need": "I need to know the origin of these items.",
+    "cau-hoi-1": "Which items are you referring to?",
+    "cau-hoi-2": "Do you need any additional details?"
+  },
+  {
+    "stt": 88,
+    "GotoLocation": "Chợ (Market)",
+    "tinh-huong": "88. Chợ (Market) - Người bán hàng - \"I need to negotiate the price.\"",
+    "Need": "I need to negotiate the price.",
+    "cau-hoi-1": "How much are you willing to pay?",
+    "cau-hoi-2": "Are you buying in bulk?"
+  },
+  {
+    "stt": 89,
+    "GotoLocation": "Ngân hàng (Bank)",
+    "tinh-huong": "89. Ngân hàng (Bank) - Nhân viên ngân hàng - \"I need to open a bank account.\"",
+    "Need": "I need to open a bank account.",
+    "cau-hoi-1": "What type of account would you like to open?",
+    "cau-hoi-2": "Do you have the required documents?"
+  },
+  {
+    "stt": 90,
+    "GotoLocation": "Ngân hàng (Bank)",
+    "tinh-huong": "90. Ngân hàng (Bank) - Nhân viên ngân hàng - \"I need to check my account balance.\"",
+    "Need": "I need to check my account balance.",
+    "cau-hoi-1": "Can I have your account number?",
+    "cau-hoi-2": "Do you have an ID with you?"
+  },
+  {
+    "stt": 91,
+    "GotoLocation": "Ngân hàng (Bank)",
+    "tinh-huong": "91. Ngân hàng (Bank) - Nhân viên ngân hàng - \"I need to withdraw some money.\"",
+    "Need": "I need to withdraw some money.",
+    "cau-hoi-1": "How much would you like to withdraw?",
+    "cau-hoi-2": "Do you have your bank card or ID?"
+  },
+  {
+    "stt": 92,
+    "GotoLocation": "Ngân hàng (Bank)",
+    "tinh-huong": "92. Ngân hàng (Bank) - Nhân viên ngân hàng - \"I need to know the opening hours.\"",
+    "Need": "I need to know the opening hours.",
+    "cau-hoi-1": "Are you planning to visit today?",
+    "cau-hoi-2": "Would you like to know weekday or weekend hours?"
+  },
+  {
+    "stt": 93,
+    "GotoLocation": "Bưu điện (Post office)",
+    "tinh-huong": "93. Bưu điện (Post office) - Nhân viên bưu điện - \"I need to send a package.\"",
+    "Need": "I need to send a package.",
+    "cau-hoi-1": "What is the destination of the package?",
+    "cau-hoi-2": "Do you need standard or express shipping?"
+  },
+  {
+    "stt": 94,
+    "GotoLocation": "Bưu điện (Post office)",
+    "tinh-huong": "94. Bưu điện (Post office) - Nhân viên bưu điện - \"I need to know the shipping cost.\"",
+    "Need": "I need to know the shipping cost.",
+    "cau-hoi-1": "What is the weight of the package?",
+    "cau-hoi-2": "Where is it being sent to?"
+  },
+  {
+    "stt": 95,
+    "GotoLocation": "Bưu điện (Post office)",
+    "tinh-huong": "95. Bưu điện (Post office) - Nhân viên bưu điện - \"I need to buy stamps.\"",
+    "Need": "I need to buy stamps.",
+    "cau-hoi-1": "How many stamps do you need?",
+    "cau-hoi-2": "Are they for local or international mail?"
+  },
+  {
+    "stt": 96,
+    "GotoLocation": "Bưu điện (Post office)",
+    "tinh-huong": "96. Bưu điện (Post office) - Nhân viên bưu điện - \"I need to know the delivery time.\"",
+    "Need": "I need to know the delivery time.",
+    "cau-hoi-1": "What is the destination of the package?",
+    "cau-hoi-2": "Are you sending it via standard or express delivery?"
+  },
+  {
+    "stt": 97,
+    "GotoLocation": "Tiệm làm tóc (Hair salon)",
+    "tinh-huong": "97. Tiệm làm tóc (Hair salon) - Thợ làm tóc - \"I need a haircut.\"",
+    "Need": "I need a haircut.",
+    "cau-hoi-1": "What style are you looking for?",
+    "cau-hoi-2": "Would you like a wash included?"
+  },
+  {
+    "stt": 98,
+    "GotoLocation": "Tiệm làm tóc (Hair salon)",
+    "tinh-huong": "98. Tiệm làm tóc (Hair salon) - Thợ làm tóc - \"I need a hair wash.\"",
+    "Need": "I need a hair wash.",
+    "cau-hoi-1": "Would you like any additional services?",
+    "cau-hoi-2": "Do you have any specific preferences?"
+  },
+  {
+    "stt": 99,
+    "GotoLocation": "Tiệm làm tóc (Hair salon)",
+    "tinh-huong": "99. Tiệm làm tóc (Hair salon) - Thợ làm tóc - \"I need advice on a hairstyle.\"",
+    "Need": "I need advice on a hairstyle.",
+    "cau-hoi-1": "What is the occasion for the hairstyle?",
+    "cau-hoi-2": "Do you have any preferences or ideas?"
+  },
+  {
+    "stt": 100,
+    "GotoLocation": "Tiệm làm tóc (Hair salon)",
+    "tinh-huong": "100. Tiệm làm tóc (Hair salon) - Thợ làm tóc - \"I need a hair color.\"",
+    "Need": "I need a hair color.",
+    "cau-hoi-1": "What color are you considering?",
+    "cau-hoi-2": "Do you want a permanent or temporary dye?"
+  },
+  {
+    "stt": 101,
+    "GotoLocation": "Tiệm spa (Spa)",
+    "tinh-huong": "101. Tiệm spa (Spa) - Nhân viên spa - \"I need a relaxing massage.\"",
+    "Need": "I need a relaxing massage.",
+    "cau-hoi-1": "What type of massage would you prefer?",
+    "cau-hoi-2": "Do you have any specific pain points?"
+  },
+  {
+    "stt": 102,
+    "GotoLocation": "Tiệm spa (Spa)",
+    "tinh-huong": "102. Tiệm spa (Spa) - Nhân viên spa - \"I need a facial treatment.\"",
+    "Need": "I need a facial treatment.",
+    "cau-hoi-1": "What type of facial treatment do you need?",
+    "cau-hoi-2": "Do you have any skin concerns?"
+  },
+  {
+    "stt": 103,
+    "GotoLocation": "Tiệm spa (Spa)",
+    "tinh-huong": "103. Tiệm spa (Spa) - Nhân viên spa - \"I need a manicure or pedicure.\"",
+    "Need": "I need a manicure or pedicure.",
+    "cau-hoi-1": "Do you want a manicure, pedicure, or both?",
+    "cau-hoi-2": "Do you have any color preferences?"
+  },
+  {
+    "stt": 104,
+    "GotoLocation": "Tiệm spa (Spa)",
+    "tinh-huong": "104. Tiệm spa (Spa) - Nhân viên spa - \"I need a body scrub.\"",
+    "Need": "I need a body scrub.",
+    "cau-hoi-1": "What type of body scrub do you prefer?",
+    "cau-hoi-2": "Do you have any allergies to products?"
+  },
+  {
+    "stt": 105,
+    "GotoLocation": "Hiệu sách (Bookstore)",
+    "tinh-huong": "105. Hiệu sách (Bookstore) - Nhân viên bán sách - \"I need a new book.\"",
+    "Need": "I need a new book.",
+    "cau-hoi-1": "What genre of book are you looking for?",
+    "cau-hoi-2": "Would you like any recommendations?"
+  },
+  {
+    "stt": 106,
+    "GotoLocation": "Hiệu sách (Bookstore)",
+    "tinh-huong": "106. Hiệu sách (Bookstore) - Nhân viên bán sách - \"I need information about new arrivals.\"",
+    "Need": "I need information about new arrivals.",
+    "cau-hoi-1": "What genre of new arrivals do you want?",
+    "cau-hoi-2": "Are you looking for hardcover or paperback?"
+  },
+  {
+    "stt": 107,
+    "GotoLocation": "Hiệu sách (Bookstore)",
+    "tinh-huong": "107. Hiệu sách (Bookstore) - Nhân viên bán sách - \"I need to buy stationery.\"",
+    "Need": "I need to buy stationery.",
+    "cau-hoi-1": "What type of stationery do you need?",
+    "cau-hoi-2": "Are you looking for any specific brand?"
+  },
+  {
+    "stt": 108,
+    "GotoLocation": "Hiệu sách (Bookstore)",
+    "tinh-huong": "108. Hiệu sách (Bookstore) - Nhân viên bán sách - \"I need to know about discounted books.\"",
+    "Need": "I need to know about discounted books.",
+    "cau-hoi-1": "What genre are you interested in?",
+    "cau-hoi-2": "Are you looking for any specific author?"
+  },
+  {
+    "stt": 109,
+    "GotoLocation": "Hiệu thuốc (Pharmacy)",
+    "tinh-huong": "109. Hiệu thuốc (Pharmacy) - Dược sĩ - \"I need some medicine.\"",
+    "Need": "I need some medicine.",
+    "cau-hoi-1": "Do you have a prescription?",
+    "cau-hoi-2": "What symptoms are you treating?"
+  },
+  {
+    "stt": 110,
+    "GotoLocation": "Hiệu thuốc (Pharmacy)",
+    "tinh-huong": "110. Hiệu thuốc (Pharmacy) - Dược sĩ - \"I need to know the dosage.\"",
+    "Need": "I need to know the dosage.",
+    "cau-hoi-1": "What medicine are you taking?",
+    "cau-hoi-2": "Are you taking any other medications?"
+  },
+  {
+    "stt": 111,
+    "GotoLocation": "Hiệu thuốc (Pharmacy)",
+    "tinh-huong": "111. Hiệu thuốc (Pharmacy) - Dược sĩ - \"I need advice about side effects.\"",
+    "Need": "I need advice about side effects.",
+    "cau-hoi-1": "What medicine are you referring to?",
+    "cau-hoi-2": "What side effects are you experiencing?"
+  },
+  {
+    "stt": 112,
+    "GotoLocation": "Hiệu thuốc (Pharmacy)",
+    "tinh-huong": "112. Hiệu thuốc (Pharmacy) - Dược sĩ - \"I need to buy medical supplies.\"",
+    "Need": "I need to buy medical supplies.",
+    "cau-hoi-1": "What type of supplies are you looking for?",
+    "cau-hoi-2": "Are they for personal or professional use?"
+  },
+  {
+    "stt": 113,
+    "GotoLocation": "Trạm xăng (Gas station)",
+    "tinh-huong": "113. Trạm xăng (Gas station) - Nhân viên trạm xăng - \"I need to refuel my car.\"",
+    "Need": "I need to refuel my car.",
+    "cau-hoi-1": "What type of fuel does your car use?",
+    "cau-hoi-2": "How much fuel do you need?"
+  },
+  {
+    "stt": 114,
+    "GotoLocation": "Trạm xăng (Gas station)",
+    "tinh-huong": "114. Trạm xăng (Gas station) - Nhân viên trạm xăng - \"I need to know the fuel price.\"",
+    "Need": "I need to know the fuel price.",
+    "cau-hoi-1": "What type of fuel are you asking about?",
+    "cau-hoi-2": "Would you like the price per liter or gallon?"
+  },
+  {
+    "stt": 115,
+    "GotoLocation": "Trạm xăng (Gas station)",
+    "tinh-huong": "115. Trạm xăng (Gas station) - Nhân viên trạm xăng - \"I need directions to the restroom.\"",
+    "Need": "I need directions to the restroom.",
+    "cau-hoi-1": "Where are you currently located?",
+    "cau-hoi-2": "Do you need any assistance to get there?"
+  },
+  {
+    "stt": 116,
+    "GotoLocation": "Trạm xăng (Gas station)",
+    "tinh-huong": "116. Trạm xăng (Gas station) - Nhân viên trạm xăng - \"I need to check the tire pressure.\"",
+    "Need": "I need to check the tire pressure.",
+    "cau-hoi-1": "Do you know the recommended pressure for your tires?",
+    "cau-hoi-2": "Would you like assistance with the process?"
+  },
+  {
+    "stt": 117,
+    "GotoLocation": "Ga tàu điện ngầm (Subway)",
+    "tinh-huong": "117. Ga tàu điện ngầm (Subway) - Nhân viên nhà ga - \"I need a subway ticket.\"",
+    "Need": "I need a subway ticket.",
+    "cau-hoi-1": "What destination are you traveling to?",
+    "cau-hoi-2": "Would you like a one-way or return ticket?"
+  },
+  {
+    "stt": 118,
+    "GotoLocation": "Ga tàu điện ngầm (Subway)",
+    "tinh-huong": "118. Ga tàu điện ngầm (Subway) - Nhân viên nhà ga - \"I need to know the train schedule.\"",
+    "Need": "I need to know the train schedule.",
+    "cau-hoi-1": "What destination are you asking about?",
+    "cau-hoi-2": "Are you traveling today or later?"
+  },
+  {
+    "stt": 119,
+    "GotoLocation": "Ga tàu điện ngầm (Subway)",
+    "tinh-huong": "119. Ga tàu điện ngầm (Subway) - Nhân viên nhà ga - \"I need directions to the platform.\"",
+    "Need": "I need directions to the platform.",
+    "cau-hoi-1": "What train are you taking?",
+    "cau-hoi-2": "Where are you currently located?"
+  },
+  {
+    "stt": 120,
+    "GotoLocation": "Ga tàu điện ngầm (Subway)",
+    "tinh-huong": "120. Ga tàu điện ngầm (Subway) - Nhân viên nhà ga - \"I need to check my card balance.\"",
+    "Need": "I need to check my card balance.",
+    "cau-hoi-1": "Do you have your subway card with you?",
+    "cau-hoi-2": "Would you like to add balance if needed?"
+  },
+  {
+    "stt": 121,
+    "GotoLocation": "Tiệm bánh (Bakery)",
+    "tinh-huong": "121. Tiệm bánh (Bakery) - Thợ làm bánh - \"I need a loaf of bread.\"",
+    "Need": "I need a loaf of bread.",
+    "cau-hoi-1": "What type of bread would you like?",
+    "cau-hoi-2": "How many loaves do you need?"
+  },
+  {
+    "stt": 122,
+    "GotoLocation": "Tiệm bánh (Bakery)",
+    "tinh-huong": "122. Tiệm bánh (Bakery) - Thợ làm bánh - \"I need to order a birthday cake.\"",
+    "Need": "I need to order a birthday cake.",
+    "cau-hoi-1": "What size and flavor would you like?",
+    "cau-hoi-2": "Do you need any special decorations?"
+  },
+  {
+    "stt": 123,
+    "GotoLocation": "Tiệm bánh (Bakery)",
+    "tinh-huong": "123. Tiệm bánh (Bakery) - Nhân viên bán hàng - \"I need to know the ingredients of this cake.\"",
+    "Need": "I need to know the ingredients of this cake.",
+    "cau-hoi-1": "Which cake are you referring to?",
+    "cau-hoi-2": "Do you have any allergies?"
+  },
+  {
+    "stt": 124,
+    "GotoLocation": "Tiệm bánh (Bakery)",
+    "tinh-huong": "124. Tiệm bánh (Bakery) - Nhân viên bán hàng - \"I need this bread packed to go.\"",
+    "Need": "I need this bread packed to go.",
+    "cau-hoi-1": "Would you like it sliced or whole?",
+    "cau-hoi-2": "Do you need any additional items packed?"
+  },
+  {
+    "stt": 125,
+    "GotoLocation": "Cửa hàng quần áo (Clothing store)",
+    "tinh-huong": "125. Cửa hàng quần áo (Clothing store) - Nhân viên bán hàng - \"I need a new jacket.\"",
+    "Need": "I need a new jacket.",
+    "cau-hoi-1": "What size and style are you looking for?",
+    "cau-hoi-2": "Do you prefer a specific color?"
+  },
+  {
+    "stt": 126,
+    "GotoLocation": "Cửa hàng quần áo (Clothing store)",
+    "tinh-huong": "126. Cửa hàng quần áo (Clothing store) - Nhân viên bán hàng - \"I need to know my size.\"",
+    "Need": "I need to know my size.",
+    "cau-hoi-1": "Would you like to measure it here?",
+    "cau-hoi-2": "What type of clothing are you shopping for?"
+  },
+  {
+    "stt": 127,
+    "GotoLocation": "Cửa hàng quần áo (Clothing store)",
+    "tinh-huong": "127. Cửa hàng quần áo (Clothing store) - Nhân viên bán hàng - \"I need information about discounts.\"",
+    "Need": "I need information about discounts.",
+    "cau-hoi-1": "What items are you looking to buy?",
+    "cau-hoi-2": "Are you a member of our store?"
+  },
+  {
+    "stt": 128,
+    "GotoLocation": "Cửa hàng quần áo (Clothing store)",
+    "tinh-huong": "128. Cửa hàng quần áo (Clothing store) - Nhân viên bán hàng - \"I need to exchange this item.\"",
+    "Need": "I need to exchange this item.",
+    "cau-hoi-1": "Do you have the receipt with you?",
+    "cau-hoi-2": "What size or color would you like in exchange?"
+  },
+  {
+    "stt": 129,
+    "GotoLocation": "Phòng khám (Clinic)",
+    "tinh-huong": "129. Phòng khám (Clinic) - Bác sĩ - \"I need a medical consultation.\"",
+    "Need": "I need a medical consultation.",
+    "cau-hoi-1": "What symptoms are you experiencing?",
+    "cau-hoi-2": "Have you seen a doctor for this before?"
+  },
+  {
+    "stt": 130,
+    "GotoLocation": "Phòng khám (Clinic)",
+    "tinh-huong": "130. Phòng khám (Clinic) - Bác sĩ - \"I need information about my prescription.\"",
+    "Need": "I need information about my prescription.",
+    "cau-hoi-1": "Which prescription are you referring to?",
+    "cau-hoi-2": "Are you taking it as prescribed?"
+  },
+  {
+    "stt": 131,
+    "GotoLocation": "Phòng khám (Clinic)",
+    "tinh-huong": "131. Phòng khám (Clinic) - Y tá - \"I need to book an appointment.\"",
+    "Need": "I need to book an appointment.",
+    "cau-hoi-1": "What type of appointment do you need?",
+    "cau-hoi-2": "What day and time are you available?"
+  },
+  {
+    "stt": 132,
+    "GotoLocation": "Phòng khám (Clinic)",
+    "tinh-huong": "132. Phòng khám (Clinic) - Nhân viên lễ tân - \"I need to know the consultation fee.\"",
+    "Need": "I need to know the consultation fee.",
+    "cau-hoi-1": "What type of consultation are you asking about?",
+    "cau-hoi-2": "Do you need the fee breakdown?"
+  },
+  {
+    "stt": 133,
+    "GotoLocation": "Trường đại học (University)",
+    "tinh-huong": "133. Trường đại học (University) - Giảng viên - \"I need to enroll in a class.\"",
+    "Need": "I need to enroll in a class.",
+    "cau-hoi-1": "What class are you looking to join?",
+    "cau-hoi-2": "Have you checked the enrollment requirements?"
+  },
+  {
+    "stt": 134,
+    "GotoLocation": "Trường đại học (University)",
+    "tinh-huong": "134. Trường đại học (University) - Giảng viên - \"I need to know the schedule.\"",
+    "Need": "I need to know the schedule.",
+    "cau-hoi-1": "Which course or program are you referring to?",
+    "cau-hoi-2": "Are you looking for weekday or weekend schedules?"
+  },
+  {
+    "stt": 135,
+    "GotoLocation": "Trường đại học (University)",
+    "tinh-huong": "135. Trường đại học (University) - Cố vấn học tập - \"I need advice on my study plan.\"",
+    "Need": "I need advice on my study plan.",
+    "cau-hoi-1": "What is your major or field of study?",
+    "cau-hoi-2": "What are your academic goals?"
+  },
+  {
+    "stt": 136,
+    "GotoLocation": "Trường đại học (University)",
+    "tinh-huong": "136. Trường đại học (University) - Nhân viên văn phòng - \"I need to know the tuition fees.\"",
+    "Need": "I need to know the tuition fees.",
+    "cau-hoi-1": "Which program are you enrolling in?",
+    "cau-hoi-2": "Do you need details about scholarships or payment plans?"
+  },
+  {
+    "stt": 137,
+    "GotoLocation": "Trạm cảnh sát (Police station)",
+    "tinh-huong": "137. Trạm cảnh sát (Police station) - Cảnh sát - \"I need to report a theft.\"",
+    "Need": "I need to report a theft.",
+    "cau-hoi-1": "Where did the theft occur?",
+    "cau-hoi-2": "When did it happen?"
+  },
+  {
+    "stt": 138,
+    "GotoLocation": "Trạm cảnh sát (Police station)",
+    "tinh-huong": "138. Trạm cảnh sát (Police station) - Cảnh sát - \"I need to know the reporting process.\"",
+    "Need": "I need to know the reporting process.",
+    "cau-hoi-1": "What type of incident are you reporting?",
+    "cau-hoi-2": "Do you need assistance filling out forms?"
+  },
+  {
+    "stt": 139,
+    "GotoLocation": "Trạm cảnh sát (Police station)",
+    "tinh-huong": "139. Trạm cảnh sát (Police station) - Cảnh sát - \"I need to report lost documents.\"",
+    "Need": "I need to report lost documents.",
+    "cau-hoi-1": "Which documents have you lost?",
+    "cau-hoi-2": "Where do you think you lost them?"
+  },
+  {
+    "stt": 140,
+    "GotoLocation": "Trạm cảnh sát (Police station)",
+    "tinh-huong": "140. Trạm cảnh sát (Police station) - Cảnh sát - \"I need emergency contact information.\"",
+    "Need": "I need emergency contact information.",
+    "cau-hoi-1": "What type of emergency are you dealing with?",
+    "cau-hoi-2": "Do you need any immediate assistance?"
+  },
+  {
+    "stt": 141,
+    "GotoLocation": "Trạm cứu hỏa (Fire station)",
+    "tinh-huong": "141. Trạm cứu hỏa (Fire station) - Nhân viên cứu hỏa - \"I need emergency assistance.\"",
+    "Need": "I need emergency assistance.",
+    "cau-hoi-1": "What is the nature of the emergency?",
+    "cau-hoi-2": "Where is the emergency located?"
+  },
+  {
+    "stt": 142,
+    "GotoLocation": "Trạm cứu hỏa (Fire station)",
+    "tinh-huong": "142. Trạm cứu hỏa (Fire station) - Nhân viên cứu hỏa - \"I need to report a fire.\"",
+    "Need": "I need to report a fire.",
+    "cau-hoi-1": "Where is the fire located?",
+    "cau-hoi-2": "Are there any people in danger?"
+  },
+  {
+    "stt": 143,
+    "GotoLocation": "Trạm cứu hỏa (Fire station)",
+    "tinh-huong": "143. Trạm cứu hỏa (Fire station) - Nhân viên cứu hỏa - \"I need fire safety information.\"",
+    "Need": "I need fire safety information.",
+    "cau-hoi-1": "What specific information are you looking for?",
+    "cau-hoi-2": "Are you asking for personal or workplace safety?"
+  },
+  {
+    "stt": 144,
+    "GotoLocation": "Trạm cứu hỏa (Fire station)",
+    "tinh-huong": "144. Trạm cứu hỏa (Fire station) - Nhân viên cứu hỏa - \"I need help with a rescue.\"",
+    "Need": "I need help with a rescue.",
+    "cau-hoi-1": "Who needs to be rescued?",
+    "cau-hoi-2": "Where is the person located?"
+  },
+  {
+    "stt": 145,
+    "GotoLocation": "Khu vui chơi giải trí (Amusement park)",
+    "tinh-huong": "145. Khu vui chơi giải trí (Amusement park) - Nhân viên hướng dẫn - \"I want to enjoy the rides.\"",
+    "Need": "I want to enjoy the rides.",
+    "cau-hoi-1": "What type of rides are you interested in?",
+    "cau-hoi-2": "Do you have any restrictions or preferences?"
+  },
+  {
+    "stt": 146,
+    "GotoLocation": "Khu vui chơi giải trí (Amusement park)",
+    "tinh-huong": "146. Khu vui chơi giải trí (Amusement park) - Nhân viên bán vé - \"I need to buy a ticket.\"",
+    "Need": "I need to buy a ticket.",
+    "cau-hoi-1": "How many tickets do you need?",
+    "cau-hoi-2": "Would you like a single or group pass?"
+  },
+  {
+    "stt": 147,
+    "GotoLocation": "Khu vui chơi giải trí (Amusement park)",
+    "tinh-huong": "147. Khu vui chơi giải trí (Amusement park) - Nhân viên hướng dẫn - \"I need information about the rides.\"",
+    "Need": "I need information about the rides.",
+    "cau-hoi-1": "What type of rides are you asking about?",
+    "cau-hoi-2": "Do you need a map or a guide?"
+  },
+  {
+    "stt": 148,
+    "GotoLocation": "Khu vui chơi giải trí (Amusement park)",
+    "tinh-huong": "148. Khu vui chơi giải trí (Amusement park) - Nhân viên hỗ trợ - \"I need directions to the rides.\"",
+    "Need": "I need directions to the rides.",
+    "cau-hoi-1": "Which ride are you looking for?",
+    "cau-hoi-2": "Where are you currently located?"
+  },
+  {
+    "stt": 149,
+    "GotoLocation": "Vườn thú (Zoo)",
+    "tinh-huong": "149. Vườn thú (Zoo) - Hướng dẫn viên - \"I want to see the animals.\"",
+    "Need": "I want to see the animals.",
+    "cau-hoi-1": "Do you have any specific animals in mind?",
+    "cau-hoi-2": "Would you like a guided tour?"
+  },
+  {
+    "stt": 150,
+    "GotoLocation": "Vườn thú (Zoo)",
+    "tinh-huong": "150. Vườn thú (Zoo) - Hướng dẫn viên - \"I need to know the feeding times.\"",
+    "Need": "I need to know the feeding times.",
+    "cau-hoi-1": "Which animal feeding schedule do you want to know?",
+    "cau-hoi-2": "Are you planning to attend any shows?"
+  },
+  {
+    "stt": 151,
+    "GotoLocation": "Vườn thú (Zoo)",
+    "tinh-huong": "151. Vườn thú (Zoo) - Hướng dẫn viên - \"I need directions to the animal exhibits.\"",
+    "Need": "I need directions to the animal exhibits.",
+    "cau-hoi-1": "Which exhibit are you looking for?",
+    "cau-hoi-2": "Do you need a map for navigation?"
+  },
+  {
+    "stt": 152,
+    "GotoLocation": "Vườn thú (Zoo)",
+    "tinh-huong": "152. Vườn thú (Zoo) - Nhân viên bán vé - \"I need to buy a ticket.\"",
+    "Need": "I need to buy a ticket.",
+    "cau-hoi-1": "How many tickets do you need?",
+    "cau-hoi-2": "Are you looking for a day pass or annual pass?"
+  },
+  {
+    "stt": 153,
+    "GotoLocation": "Viện bảo tàng (Museum)",
+    "tinh-huong": "153. Viện bảo tàng (Museum) - Quản lý triển lãm - \"I need a tour guide for the museum.\"",
+    "Need": "I need a tour guide for the museum.",
+    "cau-hoi-1": "What type of exhibits are you interested in?",
+    "cau-hoi-2": "Do you need a group or private guide?"
+  },
+  {
+    "stt": 154,
+    "GotoLocation": "Viện bảo tàng (Museum)",
+    "tinh-huong": "154. Viện bảo tàng (Museum) - Nhân viên bán vé - \"I need to buy a ticket.\"",
+    "Need": "I need to buy a ticket.",
+    "cau-hoi-1": "How many tickets would you like?",
+    "cau-hoi-2": "Would you like a guided tour included?"
+  },
+  {
+    "stt": 155,
+    "GotoLocation": "Viện bảo tàng (Museum)",
+    "tinh-huong": "155. Viện bảo tàng (Museum) - Nhân viên hướng dẫn - \"I need information about the exhibits.\"",
+    "Need": "I need information about the exhibits.",
+    "cau-hoi-1": "Are you looking for specific exhibits?",
+    "cau-hoi-2": "Would you like a brochure?"
+  },
+  {
+    "stt": 156,
+    "GotoLocation": "Viện bảo tàng (Museum)",
+    "tinh-huong": "156. Viện bảo tàng (Museum) - Nhân viên hỗ trợ - \"I need to know the opening hours.\"",
+    "Need": "I need to know the opening hours.",
+    "cau-hoi-1": "Which day are you planning to visit?",
+    "cau-hoi-2": "Do you need information about special events?"
+  },
+  {
+    "stt": 157,
+    "GotoLocation": "Nhà triển lãm (Exhibition hall)",
+    "tinh-huong": "157. Nhà triển lãm (Exhibition hall) - Nhân viên triển lãm - \"I want to see the exhibits.\"",
+    "Need": "I want to see the exhibits.",
+    "cau-hoi-1": "What type of exhibits are you interested in?",
+    "cau-hoi-2": "Would you like a guided tour?"
+  },
+  {
+    "stt": 158,
+    "GotoLocation": "Nhà triển lãm (Exhibition hall)",
+    "tinh-huong": "158. Nhà triển lãm (Exhibition hall) - Nhân viên bán vé - \"I need to buy a ticket.\"",
+    "Need": "I need to buy a ticket.",
+    "cau-hoi-1": "How many tickets do you need?",
+    "cau-hoi-2": "Would you like access to all exhibits?"
+  },
+  {
+    "stt": 159,
+    "GotoLocation": "Nhà triển lãm (Exhibition hall)",
+    "tinh-huong": "159. Nhà triển lãm (Exhibition hall) - Nhân viên hướng dẫn - \"I need information about the exhibits.\"",
+    "Need": "I need information about the exhibits.",
+    "cau-hoi-1": "Are you looking for specific types of exhibits?",
+    "cau-hoi-2": "Do you need a guidebook or brochure?"
+  },
+  {
+    "stt": 160,
+    "GotoLocation": "Nhà triển lãm (Exhibition hall)",
+    "tinh-huong": "160. Nhà triển lãm (Exhibition hall) - Nhân viên hỗ trợ - \"I need to know the opening hours.\"",
+    "Need": "I need to know the opening hours.",
+    "cau-hoi-1": "What day are you planning to visit?",
+    "cau-hoi-2": "Do you need details on any special events?"
+  },
+  {
+    "stt": 161,
+    "GotoLocation": "Bãi biển (Beach)",
+    "tinh-huong": "161. Bãi biển (Beach) - Hướng dẫn viên du lịch - \"I need to rent a beach chair.\"",
+    "Need": "I need to rent a beach chair.",
+    "cau-hoi-1": "How many chairs do you need?",
+    "cau-hoi-2": "Would you like an umbrella as well?"
+  },
+  {
+    "stt": 162,
+    "GotoLocation": "Bãi biển (Beach)",
+    "tinh-huong": "162. Bãi biển (Beach) - Nhân viên cho thuê - \"I need to rent a surfboard.\"",
+    "Need": "I need to rent a surfboard.",
+    "cau-hoi-1": "What size of surfboard do you prefer?",
+    "cau-hoi-2": "How long would you like to rent it for?"
+  },
+  {
+    "stt": 163,
+    "GotoLocation": "Bãi biển (Beach)",
+    "tinh-huong": "163. Bãi biển (Beach) - Nhân viên bán hàng - \"I need to buy snacks or drinks.\"",
+    "Need": "I need to buy snacks or drinks.",
+    "cau-hoi-1": "What type of snacks or drinks are you looking for?",
+    "cau-hoi-2": "Would you like them chilled?"
+  },
+  {
+    "stt": 164,
+    "GotoLocation": "Bãi biển (Beach)",
+    "tinh-huong": "164. Bãi biển (Beach) - Nhân viên cứu hộ - \"I need to know about beach safety.\"",
+    "Need": "I need to know about beach safety.",
+    "cau-hoi-1": "Are you asking about swimming safety or general rules?",
+    "cau-hoi-2": "Do you need a map of safety zones?"
+  },
+  {
+    "stt": 165,
+    "GotoLocation": "Khu du lịch (Tourist attraction)",
+    "tinh-huong": "165. Khu du lịch (Tourist attraction) - Nhân viên hướng dẫn - \"I need a tour ticket.\"",
+    "Need": "I need a tour ticket.",
+    "cau-hoi-1": "How many tickets do you need?",
+    "cau-hoi-2": "Are you joining a group tour or private tour?"
+  },
+  {
+    "stt": 166,
+    "GotoLocation": "Khu du lịch (Tourist attraction)",
+    "tinh-huong": "166. Khu du lịch (Tourist attraction) - Nhân viên hướng dẫn - \"I need information about the tour schedule.\"",
+    "Need": "I need information about the tour schedule.",
+    "cau-hoi-1": "What date are you planning to visit?",
+    "cau-hoi-2": "Are you interested in specific attractions?"
+  },
+  {
+    "stt": 167,
+    "GotoLocation": "Khu du lịch (Tourist attraction)",
+    "tinh-huong": "167. Khu du lịch (Tourist attraction) - Nhân viên bán hàng - \"I need to buy souvenirs.\"",
+    "Need": "I need to buy souvenirs.",
+    "cau-hoi-1": "What type of souvenirs are you looking for?",
+    "cau-hoi-2": "Are you looking for local handmade items?"
+  },
+  {
+    "stt": 168,
+    "GotoLocation": "Khu du lịch (Tourist attraction)",
+    "tinh-huong": "168. Khu du lịch (Tourist attraction) - Nhân viên hỗ trợ - \"I need to know about the available services.\"",
+    "Need": "I need to know about the available services.",
+    "cau-hoi-1": "What specific services are you asking about?",
+    "cau-hoi-2": "Do you need information on accommodations?"
+  },
+  {
+    "stt": 169,
+    "GotoLocation": "Khách sạn nghỉ dưỡng (Resort)",
+    "tinh-huong": "169. Khách sạn nghỉ dưỡng (Resort) - Nhân viên lễ tân - \"I need to book a suite.\"",
+    "Need": "I need to book a suite.",
+    "cau-hoi-1": "What dates are you planning to stay?",
+    "cau-hoi-2": "How many guests will be staying?"
+  },
+  {
+    "stt": 170,
+    "GotoLocation": "Khách sạn nghỉ dưỡng (Resort)",
+    "tinh-huong": "170. Khách sạn nghỉ dưỡng (Resort) - Nhân viên hỗ trợ - \"I need information about the spa services.\"",
+    "Need": "I need information about the spa services.",
+    "cau-hoi-1": "What type of spa services are you interested in?",
+    "cau-hoi-2": "Do you need to make a reservation?"
+  },
+  {
+    "stt": 171,
+    "GotoLocation": "Khách sạn nghỉ dưỡng (Resort)",
+    "tinh-huong": "171. Khách sạn nghỉ dưỡng (Resort) - Nhân viên lễ tân - \"I need to know about recreational activities.\"",
+    "Need": "I need to know about recreational activities.",
+    "cau-hoi-1": "What activities are you looking for?",
+    "cau-hoi-2": "Do you need assistance booking any?"
+  },
+  {
+    "stt": 172,
+    "GotoLocation": "Khách sạn nghỉ dưỡng (Resort)",
+    "tinh-huong": "172. Khách sạn nghỉ dưỡng (Resort) - Nhân viên hỗ trợ - \"I need to book airport transportation.\"",
+    "Need": "I need to book airport transportation.",
+    "cau-hoi-1": "What time is your flight?",
+    "cau-hoi-2": "How many people need transportation?"
+  },
+  {
+    "stt": 173,
+    "GotoLocation": "Nhà kho (Warehouse)",
+    "tinh-huong": "173. Nhà kho (Warehouse) - Quản lý kho - \"I need to pick up supplies.\"",
+    "Need": "I need to pick up supplies.",
+    "cau-hoi-1": "What items are you here to pick up?",
+    "cau-hoi-2": "Do you have the required documentation?"
+  },
+  {
+    "stt": 174,
+    "GotoLocation": "Nhà kho (Warehouse)",
+    "tinh-huong": "174. Nhà kho (Warehouse) - Nhân viên kho - \"I need information about stock availability.\"",
+    "Need": "I need information about stock availability.",
+    "cau-hoi-1": "What specific items are you inquiring about?",
+    "cau-hoi-2": "Do you need current stock levels?"
+  },
+  {
+    "stt": 175,
+    "GotoLocation": "Nhà kho (Warehouse)",
+    "tinh-huong": "175. Nhà kho (Warehouse) - Quản lý kho - \"I need to know the location of the items.\"",
+    "Need": "I need to know the location of the items.",
+    "cau-hoi-1": "What items are you searching for?",
+    "cau-hoi-2": "Do you have a reference order number?"
+  },
+  {
+    "stt": 176,
+    "GotoLocation": "Nhà kho (Warehouse)",
+    "tinh-huong": "176. Nhà kho (Warehouse) - Nhân viên kho - \"I need to check my order status.\"",
+    "Need": "I need to check my order status.",
+    "cau-hoi-1": "Do you have the order ID?",
+    "cau-hoi-2": "When was the order placed?"
+  },
+  {
+    "stt": 177,
+    "GotoLocation": "Xưởng sản xuất (Factory)",
+    "tinh-huong": "177. Xưởng sản xuất (Factory) - Quản đốc - \"I need to inspect the production line.\"",
+    "Need": "I need to inspect the production line.",
+    "cau-hoi-1": "What specific area do you want to inspect?",
+    "cau-hoi-2": "Do you have any safety equipment?"
+  },
+  {
+    "stt": 178,
+    "GotoLocation": "Xưởng sản xuất (Factory)",
+    "tinh-huong": "178. Xưởng sản xuất (Factory) - Nhân viên kỹ thuật - \"I need information about the machines.\"",
+    "Need": "I need information about the machines.",
+    "cau-hoi-1": "Which machines are you inquiring about?",
+    "cau-hoi-2": "Are you asking about functionality or maintenance?"
+  },
+  {
+    "stt": 179,
+    "GotoLocation": "Xưởng sản xuất (Factory)",
+    "tinh-huong": "179. Xưởng sản xuất (Factory) - Quản đốc - \"I need to report an issue on the production line.\"",
+    "Need": "I need to report an issue on the production line.",
+    "cau-hoi-1": "What is the issue you are reporting?",
+    "cau-hoi-2": "When did the issue start?"
+  },
+  {
+    "stt": 180,
+    "GotoLocation": "Xưởng sản xuất (Factory)",
+    "tinh-huong": "180. Xưởng sản xuất (Factory) - Nhân viên kho - \"I need to check the raw materials.\"",
+    "Need": "I need to check the raw materials.",
+    "cau-hoi-1": "What materials are you looking for?",
+    "cau-hoi-2": "Do you need the quantity or quality details?"
+  },
+  {
+    "stt": 181,
+    "GotoLocation": "Bến tàu (Harbor)",
+    "tinh-huong": "181. Bến tàu (Harbor) - Nhân viên bến tàu - \"I need a ferry ticket.\"",
+    "Need": "I need a ferry ticket.",
+    "cau-hoi-1": "What is your destination?",
+    "cau-hoi-2": "How many tickets do you need?"
+  },
+  {
+    "stt": 182,
+    "GotoLocation": "Bến tàu (Harbor)",
+    "tinh-huong": "182. Bến tàu (Harbor) - Nhân viên bến tàu - \"I need to know the ferry schedule.\"",
+    "Need": "I need to know the ferry schedule.",
+    "cau-hoi-1": "Which ferry route are you asking about?",
+    "cau-hoi-2": "What date and time do you plan to travel?"
+  },
+  {
+    "stt": 183,
+    "GotoLocation": "Bến tàu (Harbor)",
+    "tinh-huong": "183. Bến tàu (Harbor) - Nhân viên bến tàu - \"I need to know the shipping rates.\"",
+    "Need": "I need to know the shipping rates.",
+    "cau-hoi-1": "What type of cargo are you shipping?",
+    "cau-hoi-2": "What is the destination of the shipment?"
+  },
+  {
+    "stt": 184,
+    "GotoLocation": "Bến tàu (Harbor)",
+    "tinh-huong": "184. Bến tàu (Harbor) - Nhân viên bến tàu - \"I need help with cargo transportation.\"",
+    "Need": "I need help with cargo transportation.",
+    "cau-hoi-1": "What type of cargo do you need to transport?",
+    "cau-hoi-2": "When do you need the transportation to start?"
+  },
+  {
+    "stt": 185,
+    "GotoLocation": "Sân golf (Golf course)",
+    "tinh-huong": "185. Sân golf (Golf course) - Nhân viên hỗ trợ - \"I need to book a golf course.\"",
+    "Need": "I need to book a golf course.",
+    "cau-hoi-1": "What date and time do you want to play?",
+    "cau-hoi-2": "How many players will be in your group?"
+  },
+  {
+    "stt": 186,
+    "GotoLocation": "Sân golf (Golf course)",
+    "tinh-huong": "186. Sân golf (Golf course) - Nhân viên hỗ trợ - \"I need to rent golf clubs.\"",
+    "Need": "I need to rent golf clubs.",
+    "cau-hoi-1": "What type of clubs do you need?",
+    "cau-hoi-2": "How long do you need the rental for?"
+  },
+  {
+    "stt": 187,
+    "GotoLocation": "Sân golf (Golf course)",
+    "tinh-huong": "187. Sân golf (Golf course) - Nhân viên hỗ trợ - \"I need to know the playing schedule.\"",
+    "Need": "I need to know the playing schedule.",
+    "cau-hoi-1": "Are you asking about tournament schedules or general play?",
+    "cau-hoi-2": "What date are you interested in?"
+  },
+  {
+    "stt": 188,
+    "GotoLocation": "Sân golf (Golf course)",
+    "tinh-huong": "188. Sân golf (Golf course) - Nhân viên hỗ trợ - \"I need information about training sessions.\"",
+    "Need": "I need information about training sessions.",
+    "cau-hoi-1": "What level of training are you looking for?",
+    "cau-hoi-2": "Do you want private or group sessions?"
+  },
+  {
+    "stt": 189,
+    "GotoLocation": "Quán bar (Bar)",
+    "tinh-huong": "189. Quán bar (Bar) - Nhân viên pha chế - \"I need a cocktail.\"",
+    "Need": "I need a cocktail.",
+    "cau-hoi-1": "What type of cocktail do you prefer?",
+    "cau-hoi-2": "Do you have any specific flavors in mind?"
+  },
+  {
+    "stt": 190,
+    "GotoLocation": "Quán bar (Bar)",
+    "tinh-huong": "190. Quán bar (Bar) - Nhân viên phục vụ - \"I need the drink menu.\"",
+    "Need": "I need the drink menu.",
+    "cau-hoi-1": "Would you like to see the specials?",
+    "cau-hoi-2": "Are you looking for alcoholic or non-alcoholic drinks?"
+  },
+  {
+    "stt": 191,
+    "GotoLocation": "Quán bar (Bar)",
+    "tinh-huong": "191. Quán bar (Bar) - Nhân viên pha chế - \"I need a non-alcoholic drink.\"",
+    "Need": "I need a non-alcoholic drink.",
+    "cau-hoi-1": "What type of non-alcoholic drink would you like?",
+    "cau-hoi-2": "Do you prefer something fruity or creamy?"
+  },
+  {
+    "stt": 192,
+    "GotoLocation": "Quán bar (Bar)",
+    "tinh-huong": "192. Quán bar (Bar) - Nhân viên phục vụ - \"I need to pay my bill.\"",
+    "Need": "I need to pay my bill.",
+    "cau-hoi-1": "What is your table number?",
+    "cau-hoi-2": "Will you be paying by cash or card?"
+  },
+  {
+    "stt": 193,
+    "GotoLocation": "Câu lạc bộ đêm (Nightclub)",
+    "tinh-huong": "193. Câu lạc bộ đêm (Nightclub) - Quản lý câu lạc bộ - \"I need to reserve a table.\"",
+    "Need": "I need to reserve a table.",
+    "cau-hoi-1": "For what date and time would you like the reservation?",
+    "cau-hoi-2": "How many people will be joining?"
+  },
+  {
+    "stt": 194,
+    "GotoLocation": "Câu lạc bộ đêm (Nightclub)",
+    "tinh-huong": "194. Câu lạc bộ đêm (Nightclub) - Nhân viên phục vụ - \"I need a drink.\"",
+    "Need": "I need a drink.",
+    "cau-hoi-1": "What drink would you like to order?",
+    "cau-hoi-2": "Do you have any preferences for ingredients?"
+  },
+  {
+    "stt": 195,
+    "GotoLocation": "Câu lạc bộ đêm (Nightclub)",
+    "tinh-huong": "195. Câu lạc bộ đêm (Nightclub) - Nhân viên bảo vệ - \"I need information about the event.\"",
+    "Need": "I need information about the event.",
+    "cau-hoi-1": "What specific details are you looking for?",
+    "cau-hoi-2": "Do you need help with the ticket or timing?"
+  },
+  {
+    "stt": 196,
+    "GotoLocation": "Câu lạc bộ đêm (Nightclub)",
+    "tinh-huong": "196. Câu lạc bộ đêm (Nightclub) - Quản lý câu lạc bộ - \"I need to know the opening hours.\"",
+    "Need": "I need to know the opening hours.",
+    "cau-hoi-1": "Are you asking for tonight or the weekend?",
+    "cau-hoi-2": "Would you like information about special events?"
+  },
+  {
+    "stt": 197,
+    "GotoLocation": "Cửa hàng đồ gia dụng (Home appliance store)",
+    "tinh-huong": "197. Cửa hàng đồ gia dụng (Home appliance store) - Nhân viên bán hàng - \"I need a new microwave.\"",
+    "Need": "I need a new microwave.",
+    "cau-hoi-1": "What size or features are you looking for?",
+    "cau-hoi-2": "Do you have a preferred brand?"
+  },
+  {
+    "stt": 198,
+    "GotoLocation": "Cửa hàng đồ gia dụng (Home appliance store)",
+    "tinh-huong": "198. Cửa hàng đồ gia dụng (Home appliance store) - Nhân viên bán hàng - \"I need information about the warranty.\"",
+    "Need": "I need information about the warranty.",
+    "cau-hoi-1": "What specific product are you inquiring about?",
+    "cau-hoi-2": "How long do you need the warranty for?"
+  },
+  {
+    "stt": 199,
+    "GotoLocation": "Cửa hàng đồ gia dụng (Home appliance store)",
+    "tinh-huong": "199. Cửa hàng đồ gia dụng (Home appliance store) - Nhân viên hỗ trợ - \"I need to repair my appliance.\"",
+    "Need": "I need to repair my appliance.",
+    "cau-hoi-1": "What is the issue with your appliance?",
+    "cau-hoi-2": "Is it still under warranty?"
+  },
+  {
+    "stt": 200,
+    "GotoLocation": "Cửa hàng đồ gia dụng (Home appliance store)",
+    "tinh-huong": "200. Cửa hàng đồ gia dụng (Home appliance store) - Nhân viên bán hàng - \"I need to know about discounts.\"",
+    "Need": "I need to know about discounts.",
+    "cau-hoi-1": "What type of products are you looking to buy?",
+    "cau-hoi-2": "Are you interested in seasonal sales?"
+  },
+  {
+    "stt": 201,
+    "GotoLocation": "Quán ăn đường phố (Street food stall)",
+    "tinh-huong": "201. Quán ăn đường phố (Street food stall) - Người bán hàng - \"I need some street food.\"",
+    "Need": "I need some street food.",
+    "cau-hoi-1": "What type of food are you looking for?",
+    "cau-hoi-2": "Do you have any dietary preferences?"
+  },
+  {
+    "stt": 202,
+    "GotoLocation": "Quán ăn đường phố (Street food stall)",
+    "tinh-huong": "202. Quán ăn đường phố (Street food stall) - Người bán hàng - \"I need to know the ingredients of this dish.\"",
+    "Need": "I need to know the ingredients of this dish.",
+    "cau-hoi-1": "Are you checking for allergies?",
+    "cau-hoi-2": "Would you like a detailed list of ingredients?"
+  },
+  {
+    "stt": 203,
+    "GotoLocation": "Quán ăn đường phố (Street food stall)",
+    "tinh-huong": "203. Quán ăn đường phố (Street food stall) - Người bán hàng - \"I need to order the special dish.\"",
+    "Need": "I need to order the special dish.",
+    "cau-hoi-1": "How many portions would you like to order?",
+    "cau-hoi-2": "Would you like it to-go or dine-in?"
+  },
+  {
+    "stt": 204,
+    "GotoLocation": "Quán ăn đường phố (Street food stall)",
+    "tinh-huong": "204. Quán ăn đường phố (Street food stall) - Người bán hàng - \"I need to know the price of this dish.\"",
+    "Need": "I need to know the price of this dish.",
+    "cau-hoi-1": "Which dish are you referring to?",
+    "cau-hoi-2": "Do you need pricing for multiple dishes?"
+  },
+  {
+    "stt": 205,
+    "GotoLocation": "Trung tâm thể dục thẩm mỹ (Fitness center)",
+    "tinh-huong": "205. Trung tâm thể dục thẩm mỹ (Fitness center) - Huấn luyện viên - \"I want to join a yoga class.\"",
+    "Need": "I want to join a yoga class.",
+    "cau-hoi-1": "What level of yoga class are you looking for?",
+    "cau-hoi-2": "What days are you available to attend?"
+  },
+  {
+    "stt": 206,
+    "GotoLocation": "Trung tâm thể dục thẩm mỹ (Fitness center)",
+    "tinh-huong": "206. Trung tâm thể dục thẩm mỹ (Fitness center) - Nhân viên lễ tân - \"I need to know the training schedule.\"",
+    "Need": "I need to know the training schedule.",
+    "cau-hoi-1": "What type of training are you asking about?",
+    "cau-hoi-2": "Are you looking for group or personal sessions?"
+  },
+  {
+    "stt": 207,
+    "GotoLocation": "Trung tâm thể dục thẩm mỹ (Fitness center)",
+    "tinh-huong": "207. Trung tâm thể dục thẩm mỹ (Fitness center) - Huấn luyện viên - \"I need help using the equipment.\"",
+    "Need": "I need help using the equipment.",
+    "cau-hoi-1": "What equipment do you need assistance with?",
+    "cau-hoi-2": "Would you like a quick demonstration?"
+  },
+  {
+    "stt": 208,
+    "GotoLocation": "Trung tâm thể dục thẩm mỹ (Fitness center)",
+    "tinh-huong": "208. Trung tâm thể dục thẩm mỹ (Fitness center) - Nhân viên hỗ trợ - \"I need information about membership plans.\"",
+    "Need": "I need information about membership plans.",
+    "cau-hoi-1": "How long are you planning to enroll?",
+    "cau-hoi-2": "Are you looking for individual or family plans?"
+  },
+  {
+    "stt": 209,
+    "GotoLocation": "Tiệm giặt ủi (Laundromat)",
+    "tinh-huong": "209. Tiệm giặt ủi (Laundromat) - Nhân viên giặt là - \"I need my clothes washed.\"",
+    "Need": "I need my clothes washed.",
+    "cau-hoi-1": "How many clothes do you have?",
+    "cau-hoi-2": "Do you need express service?"
+  },
+  {
+    "stt": 210,
+    "GotoLocation": "Tiệm giặt ủi (Laundromat)",
+    "tinh-huong": "210. Tiệm giặt ủi (Laundromat) - Nhân viên giặt là - \"I need to know the laundry service price.\"",
+    "Need": "I need to know the laundry service price.",
+    "cau-hoi-1": "What type of clothes are you washing?",
+    "cau-hoi-2": "Do you require additional services like ironing?"
+  },
+  {
+    "stt": 211,
+    "GotoLocation": "Tiệm giặt ủi (Laundromat)",
+    "tinh-huong": "211. Tiệm giặt ủi (Laundromat) - Nhân viên giặt là - \"I need an express laundry service.\"",
+    "Need": "I need an express laundry service.",
+    "cau-hoi-1": "How urgently do you need it done?",
+    "cau-hoi-2": "What type of clothes are being washed?"
+  },
+  {
+    "stt": 212,
+    "GotoLocation": "Tiệm giặt ủi (Laundromat)",
+    "tinh-huong": "212. Tiệm giặt ủi (Laundromat) - Nhân viên giặt là - \"I need to know when it will be ready.\"",
+    "Need": "I need to know when it will be ready.",
+    "cau-hoi-1": "What service did you request?",
+    "cau-hoi-2": "Would you like a notification when it’s ready?"
+  },
+  {
+    "stt": 213,
+    "GotoLocation": "Khu nhà trọ (Hostel)",
+    "tinh-huong": "213. Khu nhà trọ (Hostel) - Nhân viên lễ tân - \"I need a room for two nights.\"",
+    "Need": "I need a room for two nights.",
+    "cau-hoi-1": "What type of room are you looking for?",
+    "cau-hoi-2": "How many people will stay?"
+  },
+  {
+    "stt": 214,
+    "GotoLocation": "Khu nhà trọ (Hostel)",
+    "tinh-huong": "214. Khu nhà trọ (Hostel) - Nhân viên lễ tân - \"I need information about the amenities.\"",
+    "Need": "I need information about the amenities.",
+    "cau-hoi-1": "Are you looking for shared or private amenities?",
+    "cau-hoi-2": "Do you need access to any specific facilities?"
+  },
+  {
+    "stt": 215,
+    "GotoLocation": "Khu nhà trọ (Hostel)",
+    "tinh-huong": "215. Khu nhà trọ (Hostel) - Nhân viên lễ tân - \"I need to know about the meal options.\"",
+    "Need": "I need to know about the meal options.",
+    "cau-hoi-1": "Do you prefer vegetarian or non-vegetarian meals?",
+    "cau-hoi-2": "Would you like breakfast, lunch, or dinner?"
+  },
+  {
+    "stt": 216,
+    "GotoLocation": "Khu nhà trọ (Hostel)",
+    "tinh-huong": "216. Khu nhà trọ (Hostel) - Nhân viên lễ tân - \"I need to extend my stay.\"",
+    "Need": "I need to extend my stay.",
+    "cau-hoi-1": "How many additional nights will you stay?",
+    "cau-hoi-2": "Would you like to keep the same room?"
+  },
+  {
+    "stt": 217,
+    "GotoLocation": "Cơ quan chính phủ (Government office)",
+    "tinh-huong": "217. Cơ quan chính phủ (Government office) - Nhân viên công chức - \"I need a permit.\"",
+    "Need": "I need a permit.",
+    "cau-hoi-1": "What type of permit are you requesting?",
+    "cau-hoi-2": "Do you have the necessary documents ready?"
+  },
+  {
+    "stt": 218,
+    "GotoLocation": "Cơ quan chính phủ (Government office)",
+    "tinh-huong": "218. Cơ quan chính phủ (Government office) - Nhân viên công chức - \"I need information about the procedures.\"",
+    "Need": "I need information about the procedures.",
+    "cau-hoi-1": "What specific procedure are you asking about?",
+    "cau-hoi-2": "Do you need a step-by-step guide?"
+  },
+  {
+    "stt": 219,
+    "GotoLocation": "Cơ quan chính phủ (Government office)",
+    "tinh-huong": "219. Cơ quan chính phủ (Government office) - Nhân viên công chức - \"I need to replace a lost document.\"",
+    "Need": "I need to replace a lost document.",
+    "cau-hoi-1": "What document have you lost?",
+    "cau-hoi-2": "Do you have any identification for verification?"
+  },
+  {
+    "stt": 220,
+    "GotoLocation": "Cơ quan chính phủ (Government office)",
+    "tinh-huong": "220. Cơ quan chính phủ (Government office) - Nhân viên công chức - \"I need to know the office hours.\"",
+    "Need": "I need to know the office hours.",
+    "cau-hoi-1": "Are you asking for today’s schedule or a specific date?",
+    "cau-hoi-2": "Do you need information on extended hours?"
+  },
+  {
+    "stt": 221,
+    "GotoLocation": "Cửa hàng điện thoại (Mobile phone store)",
+    "tinh-huong": "221. Cửa hàng điện thoại - Nhân viên bán hàng - \"I need a new phone.\"",
+    "Need": "I need a new phone.",
+    "cau-hoi-1": "What is your budget?",
+    "cau-hoi-2": "What features are important to you?"
+  },
+  {
+    "stt": 222,
+    "GotoLocation": "Cửa hàng điện thoại (Mobile phone store)",
+    "tinh-huong": "222. Cửa hàng điện thoại - Nhân viên kỹ thuật - \"I need to repair my phone.\"",
+    "Need": "I need to repair my phone.",
+    "cau-hoi-1": "What issue are you experiencing with your phone?",
+    "cau-hoi-2": "Is it still under warranty?"
+  },
+  {
+    "stt": 223,
+    "GotoLocation": "Cửa hàng điện thoại (Mobile phone store)",
+    "tinh-huong": "223. Cửa hàng điện thoại - Nhân viên bán hàng - \"I need to know the price of this phone.\"",
+    "Need": "I need to know the price of this phone.",
+    "cau-hoi-1": "Which model are you asking about?",
+    "cau-hoi-2": "Would you like to know about payment options?"
+  },
+  {
+    "stt": 224,
+    "GotoLocation": "Cửa hàng điện thoại (Mobile phone store)",
+    "tinh-huong": "224. Cửa hàng điện thoại - Nhân viên bán hàng - \"I need to buy phone accessories.\"",
+    "Need": "I need to buy phone accessories.",
+    "cau-hoi-1": "What type of accessory are you looking for?",
+    "cau-hoi-2": "Is it for a specific phone model?"
+  },
+  {
+    "stt": 225,
+    "GotoLocation": "Cửa hàng điện máy (Electronics store)",
+    "tinh-huong": "225. Cửa hàng điện máy - Nhân viên bán hàng - \"I need a new laptop.\"",
+    "Need": "I need a new laptop.",
+    "cau-hoi-1": "What will you primarily use the laptop for?",
+    "cau-hoi-2": "What is your budget?"
+  },
+  {
+    "stt": 226,
+    "GotoLocation": "Cửa hàng điện máy (Electronics store)",
+    "tinh-huong": "226. Cửa hàng điện máy - Nhân viên bán hàng - \"I need information about the warranty.\"",
+    "Need": "I need information about the warranty.",
+    "cau-hoi-1": "Which product are you inquiring about?",
+    "cau-hoi-2": "How long a warranty do you need?"
+  },
+  {
+    "stt": 227,
+    "GotoLocation": "Cửa hàng điện máy (Electronics store)",
+    "tinh-huong": "227. Cửa hàng điện máy - Nhân viên kỹ thuật - \"I need to repair my device.\"",
+    "Need": "I need to repair my device.",
+    "cau-hoi-1": "What problem are you experiencing with the device?",
+    "cau-hoi-2": "Do you have a receipt or proof of purchase?"
+  },
+  {
+    "stt": 228,
+    "GotoLocation": "Cửa hàng điện máy (Electronics store)",
+    "tinh-huong": "228. Cửa hàng điện máy - Nhân viên bán hàng - \"I need to know about discounts.\"",
+    "Need": "I need to know about discounts.",
+    "cau-hoi-1": "What type of electronics are you looking for?",
+    "cau-hoi-2": "Are you interested in seasonal promotions?"
+  },
+  {
+    "stt": 229,
+    "GotoLocation": "Cửa hàng đồ chơi (Toy store)",
+    "tinh-huong": "229. Cửa hàng đồ chơi - Nhân viên bán hàng - \"I need a toy for my child.\"",
+    "Need": "I need a toy for my child.",
+    "cau-hoi-1": "How old is your child?",
+    "cau-hoi-2": "Are you looking for a specific type of toy?"
+  },
+  {
+    "stt": 230,
+    "GotoLocation": "Cửa hàng đồ chơi (Toy store)",
+    "tinh-huong": "230. Cửa hàng đồ chơi - Nhân viên bán hàng - \"I need an educational toy.\"",
+    "Need": "I need an educational toy.",
+    "cau-hoi-1": "What age range is the toy for?",
+    "cau-hoi-2": "What skill or subject are you focusing on?"
+  },
+  {
+    "stt": 231,
+    "GotoLocation": "Cửa hàng đồ chơi (Toy store)",
+    "tinh-huong": "231. Cửa hàng đồ chơi - Nhân viên bán hàng - \"I need to know the price and discounts.\"",
+    "Need": "I need to know the price and discounts.",
+    "cau-hoi-1": "Which toy are you asking about?",
+    "cau-hoi-2": "Would you like to see other options as well?"
+  },
+  {
+    "stt": 232,
+    "GotoLocation": "Cửa hàng đồ chơi (Toy store)",
+    "tinh-huong": "232. Cửa hàng đồ chơi - Nhân viên bán hàng - \"I need to know the return policy.\"",
+    "Need": "I need to know the return policy.",
+    "cau-hoi-1": "Are you asking for a specific product?",
+    "cau-hoi-2": "Would you like the full terms of the policy?"
+  },
+  {
+    "stt": 233,
+    "GotoLocation": "Trung tâm dịch vụ khách hàng (Customer service center)",
+    "tinh-huong": "233. Trung tâm dịch vụ khách hàng - Nhân viên CSKH - \"I need help with my account.\"",
+    "Need": "I need help with my account.",
+    "cau-hoi-1": "What issue are you experiencing with your account?",
+    "cau-hoi-2": "Can you provide your account number?"
+  },
+  {
+    "stt": 234,
+    "GotoLocation": "Trung tâm dịch vụ khách hàng (Customer service center)",
+    "tinh-huong": "234. Trung tâm dịch vụ khách hàng - Nhân viên CSKH - \"I need information about the services.\"",
+    "Need": "I need information about the services.",
+    "cau-hoi-1": "What specific service are you inquiring about?",
+    "cau-hoi-2": "Would you like a detailed brochure?"
+  },
+  {
+    "stt": 235,
+    "GotoLocation": "Trung tâm dịch vụ khách hàng (Customer service center)",
+    "tinh-huong": "235. Trung tâm dịch vụ khách hàng - Nhân viên CSKH - \"I need to report an issue.\"",
+    "Need": "I need to report an issue.",
+    "cau-hoi-1": "What is the issue you’re experiencing?",
+    "cau-hoi-2": "Do you have any supporting documents or proof?"
+  },
+  {
+    "stt": 236,
+    "GotoLocation": "Trung tâm dịch vụ khách hàng (Customer service center)",
+    "tinh-huong": "236. Trung tâm dịch vụ khách hàng - Nhân viên CSKH - \"I need to update my information.\"",
+    "Need": "I need to update my information.",
+    "cau-hoi-1": "What information do you need to update?",
+    "cau-hoi-2": "Do you have your ID with you?"
+  },
+  {
+    "stt": 237,
+    "GotoLocation": "Quảng trường (Square)",
+    "tinh-huong": "237. Quảng trường - Nhân viên sự kiện - \"I want to join the festival.\"",
+    "Need": "I want to join the festival.",
+    "cau-hoi-1": "Have you registered for the festival?",
+    "cau-hoi-2": "Do you need information about the events?"
+  },
+  {
+    "stt": 238,
+    "GotoLocation": "Quảng trường (Square)",
+    "tinh-huong": "238. Quảng trường - Nhân viên sự kiện - \"I need to know the event schedule.\"",
+    "Need": "I need to know the event schedule.",
+    "cau-hoi-1": "Which event are you asking about?",
+    "cau-hoi-2": "Do you need a printed schedule?"
+  },
+  {
+    "stt": 239,
+    "GotoLocation": "Quảng trường (Square)",
+    "tinh-huong": "239. Quảng trường - Nhân viên hướng dẫn - \"I need directions to the event area.\"",
+    "Need": "I need directions to the event area.",
+    "cau-hoi-1": "Which event are you attending?",
+    "cau-hoi-2": "Do you need a map?"
+  },
+  {
+    "stt": 240,
+    "GotoLocation": "Quảng trường (Square)",
+    "tinh-huong": "240. Quảng trường - Nhân viên bán vé - \"I need to buy a ticket for the event.\"",
+    "Need": "I need to buy a ticket for the event.",
+    "cau-hoi-1": "Which event are you buying a ticket for?",
+    "cau-hoi-2": "How many tickets do you need?"
+  },
+  {
+    "stt": 241,
+    "GotoLocation": "Đài tưởng niệm (Monument)",
+    "tinh-huong": "241. Đài tưởng niệm - Hướng dẫn viên - \"I want to learn about this monument.\"",
+    "Need": "I want to learn about this monument.",
+    "cau-hoi-1": "What specific details are you interested in?",
+    "cau-hoi-2": "Do you need a guidebook?"
+  },
+  {
+    "stt": 242,
+    "GotoLocation": "Đài tưởng niệm (Monument)",
+    "tinh-huong": "242. Đài tưởng niệm - Hướng dẫn viên - \"I need to know about the famous people related to this monument.\"",
+    "Need": "I need to know about the famous people related to this monument.",
+    "cau-hoi-1": "Are you looking for a specific time period?",
+    "cau-hoi-2": "Would you like a tour?"
+  },
+  {
+    "stt": 243,
+    "GotoLocation": "Đài tưởng niệm (Monument)",
+    "tinh-huong": "243. Đài tưởng niệm - Nhân viên hướng dẫn - \"I need information about activities here.\"",
+    "Need": "I need information about activities here.",
+    "cau-hoi-1": "What type of activities are you interested in?",
+    "cau-hoi-2": "Would you like to join any programs?"
+  },
+  {
+    "stt": 244,
+    "GotoLocation": "Đài tưởng niệm (Monument)",
+    "tinh-huong": "244. Đài tưởng niệm - Nhân viên hỗ trợ - \"I need to know the opening hours.\"",
+    "Need": "I need to know the opening hours.",
+    "cau-hoi-1": "Are you planning to visit today?",
+    "cau-hoi-2": "Do you need information about ticketing hours?"
+  },
+  {
+    "stt": 245,
+    "GotoLocation": "Khu di tích lịch sử (Historical site)",
+    "tinh-huong": "245. Khu di tích lịch sử - Nhân viên hướng dẫn - \"I need a guide for the site.\"",
+    "Need": "I need a guide for the site.",
+    "cau-hoi-1": "Do you want a private or group tour?",
+    "cau-hoi-2": "What time are you planning to visit?"
+  },
+  {
+    "stt": 246,
+    "GotoLocation": "Khu di tích lịch sử (Historical site)",
+    "tinh-huong": "246. Khu di tích lịch sử - Nhân viên hướng dẫn - \"I need to learn about historical events here.\"",
+    "Need": "I need to learn about historical events here.",
+    "cau-hoi-1": "Are you looking for a specific event?",
+    "cau-hoi-2": "Would you like a detailed tour?"
+  },
+  {
+    "stt": 247,
+    "GotoLocation": "Khu di tích lịch sử (Historical site)",
+    "tinh-huong": "247. Khu di tích lịch sử - Nhân viên bán vé - \"I need to buy a ticket for the site.\"",
+    "Need": "I need to buy a ticket for the site.",
+    "cau-hoi-1": "How many tickets do you need?",
+    "cau-hoi-2": "What type of ticket are you looking for (e.g., adult/child)?"
+  },
+  {
+    "stt": 248,
+    "GotoLocation": "Khu di tích lịch sử (Historical site)",
+    "tinh-huong": "248. Khu di tích lịch sử - Nhân viên hỗ trợ - \"I need to know the rules of the site.\"",
+    "Need": "I need to know the rules of the site.",
+    "cau-hoi-1": "Are you asking about photography or general behavior?",
+    "cau-hoi-2": "Would you like a printed guide?"
+  },
+  {
+    "stt": 249,
+    "GotoLocation": "Sân bóng đá (Football field)",
+    "tinh-huong": "249. Sân bóng đá - Huấn luyện viên - \"I want to join the football practice.\"",
+    "Need": "I want to join the football practice.",
+    "cau-hoi-1": "What is your current skill level?",
+    "cau-hoi-2": "Do you have the required equipment?"
+  },
+  {
+    "stt": 250,
+    "GotoLocation": "Sân bóng đá (Football field)",
+    "tinh-huong": "250. Sân bóng đá - Huấn luyện viên - \"I need to know the practice schedule.\"",
+    "Need": "I need to know the practice schedule.",
+    "cau-hoi-1": "Which team or group are you asking about?",
+    "cau-hoi-2": "What days are you available?"
+  },
+  {
+    "stt": 251,
+    "GotoLocation": "Sân bóng đá (Football field)",
+    "tinh-huong": "251. Sân bóng đá - Nhân viên hỗ trợ - \"I need to borrow equipment.\"",
+    "Need": "I need to borrow equipment.",
+    "cau-hoi-1": "What equipment do you need?",
+    "cau-hoi-2": "How long will you need it?"
+  },
+  {
+    "stt": 252,
+    "GotoLocation": "Sân bóng đá (Football field)",
+    "tinh-huong": "252. Sân bóng đá - Huấn luyện viên - \"I need help with basic strategies.\"",
+    "Need": "I need help with basic strategies.",
+    "cau-hoi-1": "What aspect of the game do you need help with?",
+    "cau-hoi-2": "Do you prefer one-on-one or group instruction?"
+  },
+  {
+    "stt": 253,
+    "GotoLocation": "Sân bóng rổ (Basketball court)",
+    "tinh-huong": "253. Sân bóng rổ - Huấn luyện viên - \"I want to play basketball.\"",
+    "Need": "I want to play basketball.",
+    "cau-hoi-1": "Have you played before?",
+    "cau-hoi-2": "Are you joining a team or playing casually?"
+  },
+  {
+    "stt": 254,
+    "GotoLocation": "Sân bóng rổ (Basketball court)",
+    "tinh-huong": "254. Sân bóng rổ - Huấn luyện viên - \"I need to know the practice schedule.\"",
+    "Need": "I need to know the practice schedule.",
+    "cau-hoi-1": "What level or team are you interested in?",
+    "cau-hoi-2": "What days and times suit your schedule?"
+  },
+  {
+    "stt": 255,
+    "GotoLocation": "Sân bóng rổ (Basketball court)",
+    "tinh-huong": "255. Sân bóng rổ - Nhân viên hỗ trợ - \"I need to borrow a basketball.\"",
+    "Need": "I need to borrow a basketball.",
+    "cau-hoi-1": "Do you need it for practice or a game?",
+    "cau-hoi-2": "How long will you need it?"
+  },
+  {
+    "stt": 256,
+    "GotoLocation": "Sân bóng rổ (Basketball court)",
+    "tinh-huong": "256. Sân bóng rổ - Huấn luyện viên - \"I need help with basketball strategies.\"",
+    "Need": "I need help with basketball strategies.",
+    "cau-hoi-1": "Are you asking about offense or defense?",
+    "cau-hoi-2": "Do you prefer group sessions or personal coaching?"
+  },
+  {
+    "stt": 257,
+    "GotoLocation": "Nhà thi đấu (Sports arena)",
+    "tinh-huong": "257. Nhà thi đấu - Quản lý sân đấu - \"I need help finding my seat.\"",
+    "Need": "I need help finding my seat.",
+    "cau-hoi-1": "Can I see your ticket?",
+    "cau-hoi-2": "Do you know your seat number?"
+  },
+  {
+    "stt": 258,
+    "GotoLocation": "Nhà thi đấu (Sports arena)",
+    "tinh-huong": "258. Nhà thi đấu - Nhân viên bán vé - \"I need to buy a ticket.\"",
+    "Need": "I need to buy a ticket.",
+    "cau-hoi-1": "Which event are you attending?",
+    "cau-hoi-2": "How many tickets do you need?"
+  },
+  {
+    "stt": 259,
+    "GotoLocation": "Nhà thi đấu (Sports arena)",
+    "tinh-huong": "259. Nhà thi đấu - Nhân viên hỗ trợ - \"I need to know the match schedule.\"",
+    "Need": "I need to know the match schedule.",
+    "cau-hoi-1": "Which match are you asking about?",
+    "cau-hoi-2": "Do you need a printed schedule?"
+  },
+  {
+    "stt": 260,
+    "GotoLocation": "Nhà thi đấu (Sports arena)",
+    "tinh-huong": "260. Nhà thi đấu - Nhân viên hướng dẫn - \"I need information about the facilities.\"",
+    "Need": "I need information about the facilities.",
+    "cau-hoi-1": "What specific facilities are you looking for?",
+    "cau-hoi-2": "Are you attending an event today?"
+  },
+  {
+    "stt": 261,
+    "GotoLocation": "Hồ bơi (Swimming pool)",
+    "tinh-huong": "261. Hồ bơi - Nhân viên cứu hộ - \"I want to join a swimming class.\"",
+    "Need": "I want to join a swimming class.",
+    "cau-hoi-1": "What is your current swimming ability?",
+    "cau-hoi-2": "What days and times are you available?"
+  },
+  {
+    "stt": 262,
+    "GotoLocation": "Hồ bơi (Swimming pool)",
+    "tinh-huong": "262. Hồ bơi - Nhân viên cứu hộ - \"I need to know the swimming class schedule.\"",
+    "Need": "I need to know the swimming class schedule.",
+    "cau-hoi-1": "Are you looking for beginner or advanced classes?",
+    "cau-hoi-2": "Do you need information about pricing?"
+  },
+  {
+    "stt": 263,
+    "GotoLocation": "Hồ bơi (Swimming pool)",
+    "tinh-huong": "263. Hồ bơi - Nhân viên cứu hộ - \"I want to swim for relaxation.\"",
+    "Need": "I want to swim for relaxation.",
+    "cau-hoi-1": "Do you have your own gear?",
+    "cau-hoi-2": "Would you like information about pool hours?"
+  },
+  {
+    "stt": 264,
+    "GotoLocation": "Hồ bơi (Swimming pool)",
+    "tinh-huong": "264. Hồ bơi - Nhân viên cứu hộ - \"I need to know the safety rules.\"",
+    "Need": "I need to know the safety rules.",
+    "cau-hoi-1": "Are you asking about specific pool zones?",
+    "cau-hoi-2": "Would you like a printed guide?"
+  },
+  {
+    "stt": 265,
+    "GotoLocation": "Công ty (Company)",
+    "tinh-huong": "265. Công ty - Quản lý hoặc đối tác - \"I need to discuss the project.\"",
+    "Need": "I need to discuss the project.",
+    "cau-hoi-1": "What aspect of the project do you want to discuss?",
+    "cau-hoi-2": "When is a convenient time for the meeting?"
+  },
+  {
+    "stt": 266,
+    "GotoLocation": "Công ty (Company)",
+    "tinh-huong": "266. Công ty - Nhân viên văn phòng - \"I need to know the meeting schedule.\"",
+    "Need": "I need to know the meeting schedule.",
+    "cau-hoi-1": "Which meeting are you asking about?",
+    "cau-hoi-2": "Would you like a digital or printed schedule?"
+  },
+  {
+    "stt": 267,
+    "GotoLocation": "Công ty (Company)",
+    "tinh-huong": "267. Công ty - Nhân viên hành chính - \"I need information about the project documents.\"",
+    "Need": "I need information about the project documents.",
+    "cau-hoi-1": "Which documents are you referring to?",
+    "cau-hoi-2": "Do you need a physical or digital copy?"
+  },
+  {
+    "stt": 268,
+    "GotoLocation": "Công ty (Company)",
+    "tinh-huong": "268. Công ty - Nhân viên lễ tân - \"I need directions to the meeting room.\"",
+    "Need": "I need directions to the meeting room.",
+    "cau-hoi-1": "Which meeting room are you going to?",
+    "cau-hoi-2": "Do you need a map of the office?"
+  },
+  {
+    "stt": 269,
+    "GotoLocation": "Hội trường (Conference hall)",
+    "tinh-huong": "269. Hội trường - Nhân viên sự kiện - \"I want to attend the conference.\"",
+    "Need": "I want to attend the conference.",
+    "cau-hoi-1": "Have you registered for the conference?",
+    "cau-hoi-2": "Do you need a ticket?"
+  },
+  {
+    "stt": 270,
+    "GotoLocation": "Hội trường (Conference hall)",
+    "tinh-huong": "270. Hội trường - Nhân viên sự kiện - \"I need to know the conference schedule.\"",
+    "Need": "I need to know the conference schedule.",
+    "cau-hoi-1": "Which sessions are you interested in?",
+    "cau-hoi-2": "Do you need a detailed or general schedule?"
+  },
+  {
+    "stt": 271,
+    "GotoLocation": "Hội trường (Conference hall)",
+    "tinh-huong": "271. Hội trường - Nhân viên bán vé - \"I need to buy a ticket for the conference.\"",
+    "Need": "I need to buy a ticket for the conference.",
+    "cau-hoi-1": "How many tickets do you need?",
+    "cau-hoi-2": "Would you like standard or VIP tickets?"
+  },
+  {
+    "stt": 272,
+    "GotoLocation": "Hội trường (Conference hall)",
+    "tinh-huong": "272. Hội trường - Nhân viên hỗ trợ - \"I need information about the conference materials.\"",
+    "Need": "I need information about the conference materials.",
+    "cau-hoi-1": "Which materials are you referring to?",
+    "cau-hoi-2": "Do you need printed or digital resources?"
+  },
+  {
+    "stt": 273,
+    "GotoLocation": "Cửa hàng hoa (Flower shop)",
+    "tinh-huong": "273. Cửa hàng hoa - Người bán hoa - \"I need a bouquet of roses.\"",
+    "Need": "I need a bouquet of roses.",
+    "cau-hoi-1": "How many roses would you like?",
+    "cau-hoi-2": "Would you like it gift-wrapped?"
+  },
+  {
+    "stt": 274,
+    "GotoLocation": "Cửa hàng hoa (Flower shop)",
+    "tinh-huong": "274. Cửa hàng hoa - Nhân viên bán hoa - \"I need to know about the different flowers.\"",
+    "Need": "I need to know about the different flowers.",
+    "cau-hoi-1": "What occasion are you buying the flowers for?",
+    "cau-hoi-2": "Would you like suggestions?"
+  },
+  {
+    "stt": 275,
+    "GotoLocation": "Cửa hàng hoa (Flower shop)",
+    "tinh-huong": "275. Cửa hàng hoa - Nhân viên bán hoa - \"I need flowers for a celebration.\"",
+    "Need": "I need flowers for a celebration.",
+    "cau-hoi-1": "What type of celebration is it?",
+    "cau-hoi-2": "Do you have any color preferences?"
+  },
+  {
+    "stt": 276,
+    "GotoLocation": "Cửa hàng hoa (Flower shop)",
+    "tinh-huong": "276. Cửa hàng hoa - Nhân viên bán hoa - \"I need the bouquet wrapped.\"",
+    "Need": "I need the bouquet wrapped.",
+    "cau-hoi-1": "Would you like a specific wrapping style?",
+    "cau-hoi-2": "Do you need a card attached?"
+  },
+  {
+    "stt": 277,
+    "GotoLocation": "Tiệm sửa xe (Car repair shop)",
+    "tinh-huong": "277. Tiệm sửa xe - Thợ sửa xe - \"I need my car fixed.\"",
+    "Need": "I need my car fixed.",
+    "cau-hoi-1": "What issue are you experiencing with your car?",
+    "cau-hoi-2": "When would you like to bring the car in?"
+  },
+  {
+    "stt": 278,
+    "GotoLocation": "Tiệm sửa xe (Car repair shop)",
+    "tinh-huong": "278. Tiệm sửa xe - Thợ sửa xe - \"I need to know the repair cost.\"",
+    "Need": "I need to know the repair cost.",
+    "cau-hoi-1": "What is the issue with your car?",
+    "cau-hoi-2": "Do you have a preferred payment method?"
+  },
+  {
+    "stt": 279,
+    "GotoLocation": "Tiệm sửa xe (Car repair shop)",
+    "tinh-huong": "279. Tiệm sửa xe - Nhân viên sửa xe - \"I need an oil change.\"",
+    "Need": "I need an oil change.",
+    "cau-hoi-1": "What type of oil does your car require?",
+    "cau-hoi-2": "When can you bring your car in?"
+  },
+  {
+    "stt": 280,
+    "GotoLocation": "Tiệm sửa xe (Car repair shop)",
+    "tinh-huong": "280. Tiệm sửa xe - Thợ sửa xe - \"I need to know the repair time.\"",
+    "Need": "I need to know the repair time.",
+    "cau-hoi-1": "What specific repairs are needed?",
+    "cau-hoi-2": "Is the car available for inspection today?"
+  },
+  {
+    "stt": 281,
+    "GotoLocation": "Trạm y tế (Medical station)",
+    "tinh-huong": "281. Trạm y tế - Nhân viên y tế - \"I need a health check-up.\"",
+    "Need": "I need a health check-up.",
+    "cau-hoi-1": "Do you have an appointment?",
+    "cau-hoi-2": "Are there any specific health concerns?"
+  },
+  {
+    "stt": 282,
+    "GotoLocation": "Trạm y tế (Medical station)",
+    "tinh-huong": "282. Trạm y tế - Nhân viên y tế - \"I need information about the medical services.\"",
+    "Need": "I need information about the medical services.",
+    "cau-hoi-1": "What type of services are you looking for?",
+    "cau-hoi-2": "Do you have insurance coverage?"
+  },
+  {
+    "stt": 283,
+    "GotoLocation": "Trạm y tế (Medical station)",
+    "tinh-huong": "283. Trạm y tế - Nhân viên y tế - \"I need a medical test.\"",
+    "Need": "I need a medical test.",
+    "cau-hoi-1": "What type of test do you need?",
+    "cau-hoi-2": "Do you have a referral from a doctor?"
+  },
+  {
+    "stt": 284,
+    "GotoLocation": "Trạm y tế (Medical station)",
+    "tinh-huong": "284. Trạm y tế - Nhân viên y tế - \"I need to know the doctor’s schedule.\"",
+    "Need": "I need to know the doctor’s schedule.",
+    "cau-hoi-1": "Which doctor do you want to see?",
+    "cau-hoi-2": "Are you available on weekdays or weekends?"
+  },
+  {
+    "stt": 285,
+    "GotoLocation": "Khu chung cư (Apartment complex)",
+    "tinh-huong": "285. Khu chung cư - Quản lý căn hộ - \"I want to see an apartment.\"",
+    "Need": "I want to see an apartment.",
+    "cau-hoi-1": "What type of apartment are you looking for?",
+    "cau-hoi-2": "When are you available for a tour?"
+  },
+  {
+    "stt": 286,
+    "GotoLocation": "Khu chung cư (Apartment complex)",
+    "tinh-huong": "286. Khu chung cư - Nhân viên quản lý - \"I need to know about the apartment amenities.\"",
+    "Need": "I need to know about the apartment amenities.",
+    "cau-hoi-1": "What amenities are you most interested in?",
+    "cau-hoi-2": "Would you like a brochure or a tour?"
+  },
+  {
+    "stt": 287,
+    "GotoLocation": "Khu chung cư (Apartment complex)",
+    "tinh-huong": "287. Khu chung cư - Nhân viên cho thuê - \"I need to know the rent price.\"",
+    "Need": "I need to know the rent price.",
+    "cau-hoi-1": "What size or type of apartment do you need?",
+    "cau-hoi-2": "Are you looking for a furnished unit?"
+  },
+  {
+    "stt": 288,
+    "GotoLocation": "Khu chung cư (Apartment complex)",
+    "tinh-huong": "288. Khu chung cư - Nhân viên quản lý - \"I want to rent an apartment.\"",
+    "Need": "I want to rent an apartment.",
+    "cau-hoi-1": "What is your budget for rent?",
+    "cau-hoi-2": "When do you plan to move in?"
+  },
+  {
+    "stt": 289,
+    "GotoLocation": "Sân vận động trong nhà (Indoor stadium)",
+    "tinh-huong": "289. Sân vận động trong nhà - Quản lý sân đấu - \"I want to join the sports event.\"",
+    "Need": "I want to join the sports event.",
+    "cau-hoi-1": "Are you a participant or a spectator?",
+    "cau-hoi-2": "Do you have a ticket or need assistance?"
+  },
+  {
+    "stt": 290,
+    "GotoLocation": "Sân vận động trong nhà (Indoor stadium)",
+    "tinh-huong": "290. Sân vận động trong nhà - Nhân viên bán vé - \"I need to buy a ticket for the event.\"",
+    "Need": "I need to buy a ticket for the event.",
+    "cau-hoi-1": "Which event are you attending?",
+    "cau-hoi-2": "How many tickets do you need?"
+  },
+  {
+    "stt": 291,
+    "GotoLocation": "Sân vận động trong nhà (Indoor stadium)",
+    "tinh-huong": "291. Sân vận động trong nhà - Nhân viên hỗ trợ - \"I need to know the game schedule.\"",
+    "Need": "I need to know the game schedule.",
+    "cau-hoi-1": "Which game or match are you asking about?",
+    "cau-hoi-2": "Would you like an email or printed schedule?"
+  },
+  {
+    "stt": 292,
+    "GotoLocation": "Sân vận động trong nhà (Indoor stadium)",
+    "tinh-huong": "292. Sân vận động trong nhà - Nhân viên hỗ trợ - \"I need information about the stadium facilities.\"",
+    "Need": "I need information about the stadium facilities.",
+    "cau-hoi-1": "Are you asking about seating or amenities?",
+    "cau-hoi-2": "Do you need accessibility information?"
+  },
+  {
+    "stt": 293,
+    "GotoLocation": "Quán karaoke (Karaoke bar)",
+    "tinh-huong": "293. Quán karaoke - Nhân viên lễ tân - \"I need to book a karaoke room.\"",
+    "Need": "I need to book a karaoke room.",
+    "cau-hoi-1": "How many people are in your group?",
+    "cau-hoi-2": "What time would you like to book?"
+  },
+  {
+    "stt": 294,
+    "GotoLocation": "Quán karaoke (Karaoke bar)",
+    "tinh-huong": "294. Quán karaoke - Nhân viên lễ tân - \"I need to know about the packages.\"",
+    "Need": "I need to know about the packages.",
+    "cau-hoi-1": "Are you looking for hourly or all-inclusive packages?",
+    "cau-hoi-2": "Do you need food and drink options included?"
+  },
+  {
+    "stt": 295,
+    "GotoLocation": "Quán karaoke (Karaoke bar)",
+    "tinh-huong": "295. Quán karaoke - Nhân viên lễ tân - \"I need to know the price.\"",
+    "Need": "I need to know the price.",
+    "cau-hoi-1": "What size room do you need?",
+    "cau-hoi-2": "How many hours are you planning to book?"
+  },
+  {
+    "stt": 296,
+    "GotoLocation": "Quán karaoke (Karaoke bar)",
+    "tinh-huong": "296. Quán karaoke - Nhân viên lễ tân - \"I want to order food and drinks.\"",
+    "Need": "I want to order food and drinks.",
+    "cau-hoi-1": "What items would you like to order?",
+    "cau-hoi-2": "Should they be served during the session?"
+  },
+  {
+    "stt": 297,
+    "GotoLocation": "Nhà xe (Parking garage)",
+    "tinh-huong": "297. Nhà xe - Nhân viên bảo vệ - \"I need a parking spot.\"",
+    "Need": "I need a parking spot.",
+    "cau-hoi-1": "What size is your vehicle?",
+    "cau-hoi-2": "How long do you need to park?"
+  },
+  {
+    "stt": 298,
+    "GotoLocation": "Nhà xe (Parking garage)",
+    "tinh-huong": "298. Nhà xe - Nhân viên bảo vệ - \"I need to know the parking fee.\"",
+    "Need": "I need to know the parking fee.",
+    "cau-hoi-1": "What duration are you parking for?",
+    "cau-hoi-2": "Do you need information about payment options?"
+  },
+  {
+    "stt": 299,
+    "GotoLocation": "Nhà xe (Parking garage)",
+    "tinh-huong": "299. Nhà xe - Nhân viên bảo vệ - \"I need help finding a nearby parking spot.\"",
+    "Need": "I need help finding a nearby parking spot.",
+    "cau-hoi-1": "What type of vehicle are you driving?",
+    "cau-hoi-2": "Are you looking for short-term or long-term parking?"
+  },
+  {
+    "stt": 300,
+    "GotoLocation": "Nhà xe (Parking garage)",
+    "tinh-huong": "300. Nhà xe - Nhân viên bảo vệ - \"I need to know the opening hours.\"",
+    "Need": "I need to know the opening hours.",
+    "cau-hoi-1": "Are you looking for daily or overnight access?",
+    "cau-hoi-2": "Would you like printed parking guidelines?"
+  },
+  {
+    "stt": 301,
+    "GotoLocation": "Trung tâm nghệ thuật (Art center)",
+    "tinh-huong": "301. Trung tâm nghệ thuật - Họa sĩ/hướng dẫn viên - \"I want to join an art class.\"",
+    "Need": "I want to join an art class.",
+    "cau-hoi-1": "What type of art class are you interested in?",
+    "cau-hoi-2": "What is your current skill level?"
+  },
+  {
+    "stt": 302,
+    "GotoLocation": "Trung tâm nghệ thuật (Art center)",
+    "tinh-huong": "302. Trung tâm nghệ thuật - Nhân viên đăng ký lớp học - \"I need information about art classes.\"",
+    "Need": "I need information about art classes.",
+    "cau-hoi-1": "What type of art are you interested in?",
+    "cau-hoi-2": "Do you have a preferred schedule?"
+  },
+  {
+    "stt": 303,
+    "GotoLocation": "Trung tâm nghệ thuật (Art center)",
+    "tinh-huong": "303. Trung tâm nghệ thuật - Họa sĩ - \"I need drawing lessons.\"",
+    "Need": "I need drawing lessons.",
+    "cau-hoi-1": "What style of drawing do you want to learn?",
+    "cau-hoi-2": "Have you taken any drawing classes before?"
+  },
+  {
+    "stt": 304,
+    "GotoLocation": "Trung tâm nghệ thuật (Art center)",
+    "tinh-huong": "304. Trung tâm nghệ thuật - Nhân viên hỗ trợ - \"I need to know the class prices.\"",
+    "Need": "I need to know the class prices.",
+    "cau-hoi-1": "Which class are you interested in?",
+    "cau-hoi-2": "Do you need information about discounts?"
+  },
+  {
+    "stt": 305,
+    "GotoLocation": "Xưởng phim (Film studio)",
+    "tinh-huong": "305. Xưởng phim - Đạo diễn/nhà sản xuất - \"I want to join the filming session.\"",
+    "Need": "I want to join the filming session.",
+    "cau-hoi-1": "What is your role in the session?",
+    "cau-hoi-2": "Have you received permission to join?"
+  },
+  {
+    "stt": 306,
+    "GotoLocation": "Xưởng phim (Film studio)",
+    "tinh-huong": "306. Xưởng phim - Nhân viên sản xuất - \"I need to know the filming schedule.\"",
+    "Need": "I need to know the filming schedule.",
+    "cau-hoi-1": "Which project or film are you asking about?",
+    "cau-hoi-2": "Do you need a full schedule or just specific dates?"
+  },
+  {
+    "stt": 307,
+    "GotoLocation": "Xưởng phim (Film studio)",
+    "tinh-huong": "307. Xưởng phim - Nhân viên hậu cần - \"I need information about the costume requirements.\"",
+    "Need": "I need information about the costume requirements.",
+    "cau-hoi-1": "What role are you preparing for?",
+    "cau-hoi-2": "Do you have any special size requirements?"
+  },
+  {
+    "stt": 308,
+    "GotoLocation": "Xưởng phim (Film studio)",
+    "tinh-huong": "308. Xưởng phim - Nhân viên kỹ thuật - \"I need technical support for the filming.\"",
+    "Need": "I need technical support for the filming.",
+    "cau-hoi-1": "What specific technical issue are you facing?",
+    "cau-hoi-2": "Have you tried troubleshooting it?"
+  },
+  {
+    "stt": 309,
+    "GotoLocation": "Quán net (Internet café)",
+    "tinh-huong": "309. Quán net - Nhân viên hỗ trợ - \"I need a computer with internet access.\"",
+    "Need": "I need a computer with internet access.",
+    "cau-hoi-1": "How long do you need to use the computer?",
+    "cau-hoi-2": "Do you require any special software?"
+  },
+  {
+    "stt": 310,
+    "GotoLocation": "Quán net (Internet café)",
+    "tinh-huong": "310. Quán net - Nhân viên hỗ trợ - \"I need to know the service price.\"",
+    "Need": "I need to know the service price.",
+    "cau-hoi-1": "How many hours do you plan to use the service?",
+    "cau-hoi-2": "Are you looking for a package or per-hour rate?"
+  },
+  {
+    "stt": 311,
+    "GotoLocation": "Quán net (Internet café)",
+    "tinh-huong": "311. Quán net - Nhân viên hỗ trợ - \"I need help printing documents.\"",
+    "Need": "I need help printing documents.",
+    "cau-hoi-1": "How many documents do you need to print?",
+    "cau-hoi-2": "Do you need them in black-and-white or color?"
+  },
+  {
+    "stt": 312,
+    "GotoLocation": "Quán net (Internet café)",
+    "tinh-huong": "312. Quán net - Nhân viên hỗ trợ - \"I need to know the opening hours.\"",
+    "Need": "I need to know the opening hours.",
+    "cau-hoi-1": "Are you asking about weekday or weekend hours?",
+    "cau-hoi-2": "Would you like a brochure with the hours?"
+  },
+  {
+    "stt": 313,
+    "GotoLocation": "Sân vận động quần vợt (Tennis court)",
+    "tinh-huong": "313. Sân vận động quần vợt - Huấn luyện viên - \"I want to play tennis.\"",
+    "Need": "I want to play tennis.",
+    "cau-hoi-1": "Do you have your own racket and gear?",
+    "cau-hoi-2": "What is your skill level?"
+  },
+  {
+    "stt": 314,
+    "GotoLocation": "Sân vận động quần vợt (Tennis court)",
+    "tinh-huong": "314. Sân vận động quần vợt - Huấn luyện viên - \"I need to know the practice schedule.\"",
+    "Need": "I need to know the practice schedule.",
+    "cau-hoi-1": "Are you looking for group or individual lessons?",
+    "cau-hoi-2": "Do you prefer morning or evening sessions?"
+  },
+  {
+    "stt": 315,
+    "GotoLocation": "Sân vận động quần vợt (Tennis court)",
+    "tinh-huong": "315. Sân vận động quần vợt - Nhân viên hỗ trợ - \"I need to borrow a tennis racket.\"",
+    "Need": "I need to borrow a tennis racket.",
+    "cau-hoi-1": "What size racket do you need?",
+    "cau-hoi-2": "How long do you need to borrow it for?"
+  },
+  {
+    "stt": 316,
+    "GotoLocation": "Sân vận động quần vợt (Tennis court)",
+    "tinh-huong": "316. Sân vận động quần vợt - Nhân viên hỗ trợ - \"I need information about tennis classes.\"",
+    "Need": "I need information about tennis classes.",
+    "cau-hoi-1": "Are you a beginner or experienced player?",
+    "cau-hoi-2": "What time slots are convenient for you?"
+  },
+  {
+    "stt": 317,
+    "GotoLocation": "Bến phà (Ferry terminal)",
+    "tinh-huong": "317. Bến phà - Nhân viên bán vé - \"I need a ferry ticket.\"",
+    "Need": "I need a ferry ticket.",
+    "cau-hoi-1": "What is your destination?",
+    "cau-hoi-2": "Do you need a one-way or round-trip ticket?"
+  },
+  {
+    "stt": 318,
+    "GotoLocation": "Bến phà (Ferry terminal)",
+    "tinh-huong": "318. Bến phà - Nhân viên bán vé - \"I need to know the ferry schedule.\"",
+    "Need": "I need to know the ferry schedule.",
+    "cau-hoi-1": "Which ferry route are you asking about?",
+    "cau-hoi-2": "Do you need departure or arrival times?"
+  },
+  {
+    "stt": 319,
+    "GotoLocation": "Bến phà (Ferry terminal)",
+    "tinh-huong": "319. Bến phà - Nhân viên bán vé - \"I need to know the ticket price.\"",
+    "Need": "I need to know the ticket price.",
+    "cau-hoi-1": "How many tickets do you need?",
+    "cau-hoi-2": "Are you traveling with a vehicle?"
+  },
+  {
+    "stt": 320,
+    "GotoLocation": "Bến phà (Ferry terminal)",
+    "tinh-huong": "320. Bến phà - Nhân viên bán vé - \"I need a one-way or return ticket.\"",
+    "Need": "I need a one-way or return ticket.",
+    "cau-hoi-1": "What is your destination?",
+    "cau-hoi-2": "What time do you plan to travel?"
+  },
+  {
+    "stt": 321,
+    "GotoLocation": "Quán ăn nhanh (Fast food restaurant)",
+    "tinh-huong": "321. Fast food restaurant - \"I need a burger and fries.\"",
+    "Need": "I need a burger and fries.",
+    "cau-hoi-1": "Would you like any drink with that?",
+    "cau-hoi-2": "Do you prefer regular or large fries?"
+  },
+  {
+    "stt": 322,
+    "GotoLocation": "Quán ăn nhanh (Fast food restaurant)",
+    "tinh-huong": "322. Fast food restaurant - \"I need to see the menu.\"",
+    "Need": "I need to see the menu.",
+    "cau-hoi-1": "Would you like a printed or digital menu?",
+    "cau-hoi-2": "Do you have any dietary preferences?"
+  },
+  {
+    "stt": 323,
+    "GotoLocation": "Quán ăn nhanh (Fast food restaurant)",
+    "tinh-huong": "323. Fast food restaurant - \"I need to order takeout.\"",
+    "Need": "I need to order takeout.",
+    "cau-hoi-1": "How many meals would you like to order?",
+    "cau-hoi-2": "Would you like utensils included?"
+  },
+  {
+    "stt": 324,
+    "GotoLocation": "Quán ăn nhanh (Fast food restaurant)",
+    "tinh-huong": "324. Fast food restaurant - \"I need to pay the bill.\"",
+    "Need": "I need to pay the bill.",
+    "cau-hoi-1": "Will you be paying by cash or card?",
+    "cau-hoi-2": "Do you need a receipt?"
+  },
+  {
+    "stt": 325,
+    "GotoLocation": "Cửa hàng thú cưng (Pet store)",
+    "tinh-huong": "325. Pet store - \"I need food for my dog.\"",
+    "Need": "I need food for my dog.",
+    "cau-hoi-1": "What breed is your dog?",
+    "cau-hoi-2": "Would you like dry or wet food?"
+  },
+  {
+    "stt": 326,
+    "GotoLocation": "Cửa hàng thú cưng (Pet store)",
+    "tinh-huong": "326. Pet store - \"I need toys for my pet.\"",
+    "Need": "I need toys for my pet.",
+    "cau-hoi-1": "What type of pet do you have?",
+    "cau-hoi-2": "Are you looking for chewable or interactive toys?"
+  },
+  {
+    "stt": 327,
+    "GotoLocation": "Cửa hàng thú cưng (Pet store)",
+    "tinh-huong": "327. Pet store - \"I need accessories for my pet.\"",
+    "Need": "I need accessories for my pet.",
+    "cau-hoi-1": "What kind of accessories do you need?",
+    "cau-hoi-2": "What size is your pet?"
+  },
+  {
+    "stt": 328,
+    "GotoLocation": "Cửa hàng thú cưng (Pet store)",
+    "tinh-huong": "328. Pet store - \"I need information about pet grooming services.\"",
+    "Need": "I need information about pet grooming services.",
+    "cau-hoi-1": "What type of pet do you have?",
+    "cau-hoi-2": "Would you like a grooming appointment?"
+  },
+  {
+    "stt": 329,
+    "GotoLocation": "Trung tâm bảo hành (Service center)",
+    "tinh-huong": "329. Service center - \"I need my phone repaired.\"",
+    "Need": "I need my phone repaired.",
+    "cau-hoi-1": "What issue are you experiencing?",
+    "cau-hoi-2": "Is your phone still under warranty?"
+  },
+  {
+    "stt": 330,
+    "GotoLocation": "Trung tâm bảo hành (Service center)",
+    "tinh-huong": "330. Service center - \"I need to know the warranty period.\"",
+    "Need": "I need to know the warranty period.",
+    "cau-hoi-1": "What is the model of your product?",
+    "cau-hoi-2": "Do you have the purchase receipt?"
+  },
+  {
+    "stt": 331,
+    "GotoLocation": "Trung tâm bảo hành (Service center)",
+    "tinh-huong": "331. Service center - \"I need to know the repair cost.\"",
+    "Need": "I need to know the repair cost.",
+    "cau-hoi-1": "What issue needs to be fixed?",
+    "cau-hoi-2": "Is your device covered under warranty?"
+  },
+  {
+    "stt": 332,
+    "GotoLocation": "Trung tâm bảo hành (Service center)",
+    "tinh-huong": "332. Service center - \"I need maintenance for my product.\"",
+    "Need": "I need maintenance for my product.",
+    "cau-hoi-1": "What product do you need maintenance for?",
+    "cau-hoi-2": "When was the last maintenance done?"
+  },
+  {
+    "stt": 333,
+    "GotoLocation": "Trung tâm công nghệ (Technology center)",
+    "tinh-huong": "333. Technology center - \"I want to learn about new gadgets.\"",
+    "Need": "I want to learn about new gadgets.",
+    "cau-hoi-1": "What type of gadgets are you interested in?",
+    "cau-hoi-2": "Do you need information on features or prices?"
+  },
+  {
+    "stt": 334,
+    "GotoLocation": "Trung tâm công nghệ (Technology center)",
+    "tinh-huong": "334. Technology center - \"I need information about the features of the product.\"",
+    "Need": "I need information about the features of the product.",
+    "cau-hoi-1": "Which product are you asking about?",
+    "cau-hoi-2": "Do you want a demonstration?"
+  },
+  {
+    "stt": 335,
+    "GotoLocation": "Trung tâm công nghệ (Technology center)",
+    "tinh-huong": "335. Technology center - \"I need to know the price of the product.\"",
+    "Need": "I need to know the price of the product.",
+    "cau-hoi-1": "Which product would you like the price for?",
+    "cau-hoi-2": "Are you looking for any specific discounts?"
+  },
+  {
+    "stt": 336,
+    "GotoLocation": "Trung tâm công nghệ (Technology center)",
+    "tinh-huong": "336. Technology center - \"I need help with using the product.\"",
+    "Need": "I need help with using the product.",
+    "cau-hoi-1": "What issue are you facing with the product?",
+    "cau-hoi-2": "Have you read the product manual?"
+  },
+  {
+    "stt": 337,
+    "GotoLocation": "Cửa hàng xe máy (Motorbike store)",
+    "tinh-huong": "337. Motorbike store - \"I need a new motorbike.\"",
+    "Need": "I need a new motorbike.",
+    "cau-hoi-1": "What type of motorbike are you looking for?",
+    "cau-hoi-2": "What is your budget?"
+  },
+  {
+    "stt": 338,
+    "GotoLocation": "Cửa hàng xe máy (Motorbike store)",
+    "tinh-huong": "338. Motorbike store - \"I need information about the motorbikes.\"",
+    "Need": "I need information about the motorbikes.",
+    "cau-hoi-1": "Are you looking for a specific brand?",
+    "cau-hoi-2": "Would you like information on fuel or electric bikes?"
+  },
+  {
+    "stt": 339,
+    "GotoLocation": "Cửa hàng xe máy (Motorbike store)",
+    "tinh-huong": "339. Motorbike store - \"I need to repair my motorbike.\"",
+    "Need": "I need to repair my motorbike.",
+    "cau-hoi-1": "What issue are you experiencing?",
+    "cau-hoi-2": "When was the last service done?"
+  },
+  {
+    "stt": 340,
+    "GotoLocation": "Cửa hàng xe máy (Motorbike store)",
+    "tinh-huong": "340. Motorbike store - \"I need to know the price of the motorbike.\"",
+    "Need": "I need to know the price of the motorbike.",
+    "cau-hoi-1": "Which model are you interested in?",
+    "cau-hoi-2": "Do you need financing options?"
+  },
+  {
+    "stt": 341,
+    "GotoLocation": "Nhà kính trồng cây (Greenhouse)",
+    "tinh-huong": "341. Greenhouse - \"I want to buy a plant for my garden.\"",
+    "Need": "I want to buy a plant for my garden.",
+    "cau-hoi-1": "What type of plant are you looking for?",
+    "cau-hoi-2": "Do you need indoor or outdoor plants?"
+  },
+  {
+    "stt": 342,
+    "GotoLocation": "Nhà kính trồng cây (Greenhouse)",
+    "tinh-huong": "342. Greenhouse - \"I need information about the plants.\"",
+    "Need": "I need information about the plants.",
+    "cau-hoi-1": "What kind of plants are you interested in?",
+    "cau-hoi-2": "Do you need care instructions?"
+  },
+  {
+    "stt": 343,
+    "GotoLocation": "Nhà kính trồng cây (Greenhouse)",
+    "tinh-huong": "343. Greenhouse - \"I need fertilizer for my plants.\"",
+    "Need": "I need fertilizer for my plants.",
+    "cau-hoi-1": "What type of plants are you growing?",
+    "cau-hoi-2": "Do you need organic or chemical fertilizer?"
+  },
+  {
+    "stt": 344,
+    "GotoLocation": "Nhà kính trồng cây (Greenhouse)",
+    "tinh-huong": "344. Greenhouse - \"I need advice on how to care for the plant.\"",
+    "Need": "I need advice on how to care for the plant.",
+    "cau-hoi-1": "What type of plant do you have?",
+    "cau-hoi-2": "Are you having any specific care issues?"
+  },
+  {
+    "stt": 345,
+    "GotoLocation": "Trường mẫu giáo (Kindergarten)",
+    "tinh-huong": "345. Kindergarten - \"I need to enroll my child.\"",
+    "Need": "I need to enroll my child.",
+    "cau-hoi-1": "How old is your child?",
+    "cau-hoi-2": "Do you need full-day or half-day sessions?"
+  },
+  {
+    "stt": 346,
+    "GotoLocation": "Trường mẫu giáo (Kindergarten)",
+    "tinh-huong": "346. Kindergarten - \"I need information about the curriculum.\"",
+    "Need": "I need information about the curriculum.",
+    "cau-hoi-1": "What specific information are you looking for?",
+    "cau-hoi-2": "Does your child have any special needs?"
+  },
+  {
+    "stt": 347,
+    "GotoLocation": "Trường mẫu giáo (Kindergarten)",
+    "tinh-huong": "347. Kindergarten - \"I need to visit the classroom.\"",
+    "Need": "I need to visit the classroom.",
+    "cau-hoi-1": "What day and time would you like to visit?",
+    "cau-hoi-2": "Is your child enrolled here?"
+  },
+  {
+    "stt": 348,
+    "GotoLocation": "Trường mẫu giáo (Kindergarten)",
+    "tinh-huong": "348. Kindergarten - \"I need to know about extracurricular activities.\"",
+    "Need": "I need to know about extracurricular activities.",
+    "cau-hoi-1": "What activities are you interested in?",
+    "cau-hoi-2": "Is your child already enrolled in the school?"
+  },
+  {
+    "stt": 349,
+    "GotoLocation": "Trường dạy nghề (Vocational school)",
+    "tinh-huong": "349. Vocational school - \"I want to join a vocational course.\"",
+    "Need": "I want to join a vocational course.",
+    "cau-hoi-1": "What course are you interested in?",
+    "cau-hoi-2": "Do you have any prior experience in this field?"
+  },
+  {
+    "stt": 350,
+    "GotoLocation": "Trường dạy nghề (Vocational school)",
+    "tinh-huong": "350. Vocational school - \"I need information about the courses.\"",
+    "Need": "I need information about the courses.",
+    "cau-hoi-1": "What specific program are you inquiring about?",
+    "cau-hoi-2": "Are you looking for part-time or full-time courses?"
+  },
+  {
+    "stt": 351,
+    "GotoLocation": "Trường dạy nghề (Vocational school)",
+    "tinh-huong": "351. Vocational school - \"I need to know the tuition fees.\"",
+    "Need": "I need to know the tuition fees.",
+    "cau-hoi-1": "What course are you interested in?",
+    "cau-hoi-2": "Are you looking for part-time or full-time study?"
+  },
+  {
+    "stt": 352,
+    "GotoLocation": "Trường dạy nghề (Vocational school)",
+    "tinh-huong": "352. Vocational school - \"I need to know the class schedule.\"",
+    "Need": "I need to know the class schedule.",
+    "cau-hoi-1": "What course are you enrolled in?",
+    "cau-hoi-2": "Are you looking for morning or evening classes?"
+  },
+  {
+    "stt": 353,
+    "GotoLocation": "Đồn biên phòng (Border post)",
+    "tinh-huong": "353. Border post - \"I need help with border clearance.\"",
+    "Need": "I need help with border clearance.",
+    "cau-hoi-1": "What type of clearance do you need?",
+    "cau-hoi-2": "Do you have all the necessary documents?"
+  },
+  {
+    "stt": 354,
+    "GotoLocation": "Đồn biên phòng (Border post)",
+    "tinh-huong": "354. Border post - \"I need to know what documents I need.\"",
+    "Need": "I need to know what documents I need.",
+    "cau-hoi-1": "What is the purpose of your travel?",
+    "cau-hoi-2": "Are you traveling for personal or business reasons?"
+  },
+  {
+    "stt": 355,
+    "GotoLocation": "Đồn biên phòng (Border post)",
+    "tinh-huong": "355. Border post - \"I need to know the border crossing procedure.\"",
+    "Need": "I need to know the border crossing procedure.",
+    "cau-hoi-1": "Are you traveling by land or air?",
+    "cau-hoi-2": "Do you have a valid visa?"
+  },
+  {
+    "stt": 356,
+    "GotoLocation": "Đồn biên phòng (Border post)",
+    "tinh-huong": "356. Border post - \"I need to check my visa status.\"",
+    "Need": "I need to check my visa status.",
+    "cau-hoi-1": "What is your visa type?",
+    "cau-hoi-2": "Can you provide your passport number?"
+  },
+  {
+    "stt": 357,
+    "GotoLocation": "Cửa khẩu (Border gate)",
+    "tinh-huong": "357. Border gate - \"I need to clear customs.\"",
+    "Need": "I need to clear customs.",
+    "cau-hoi-1": "Are you carrying any restricted items?",
+    "cau-hoi-2": "Do you have a declaration form?"
+  },
+  {
+    "stt": 358,
+    "GotoLocation": "Cửa khẩu (Border gate)",
+    "tinh-huong": "358. Border gate - \"I need to know what documents I need.\"",
+    "Need": "I need to know what documents I need.",
+    "cau-hoi-1": "Are you importing or exporting goods?",
+    "cau-hoi-2": "Do you have an invoice or receipt for the goods?"
+  },
+  {
+    "stt": 359,
+    "GotoLocation": "Cửa khẩu (Border gate)",
+    "tinh-huong": "359. Border gate - \"I need to know the customs procedure.\"",
+    "Need": "I need to know the customs procedure.",
+    "cau-hoi-1": "What type of items are you declaring?",
+    "cau-hoi-2": "Are you aware of the duty regulations?"
+  },
+  {
+    "stt": 360,
+    "GotoLocation": "Cửa khẩu (Border gate)",
+    "tinh-huong": "360. Border gate - \"I need to check the status of my goods.\"",
+    "Need": "I need to check the status of my goods.",
+    "cau-hoi-1": "What is your shipment reference number?",
+    "cau-hoi-2": "When was the shipment scheduled to arrive?"
+  },
+  {
+    "stt": 361,
+    "GotoLocation": "Sở thú (Aquarium)",
+    "tinh-huong": "361. Aquarium - \"I want to see the marine animals.\"",
+    "Need": "I want to see the marine animals.",
+    "cau-hoi-1": "Are you looking for a specific species?",
+    "cau-hoi-2": "Would you like a guided tour?"
+  },
+  {
+    "stt": 362,
+    "GotoLocation": "Sở thú (Aquarium)",
+    "tinh-huong": "362. Aquarium - \"I need information about sea animals.\"",
+    "Need": "I need information about sea animals.",
+    "cau-hoi-1": "What type of sea animals are you interested in?",
+    "cau-hoi-2": "Would you like to know about their habitats?"
+  },
+  {
+    "stt": 363,
+    "GotoLocation": "Sở thú (Aquarium)",
+    "tinh-huong": "363. Aquarium - \"I want to visit the coral reef area.\"",
+    "Need": "I want to visit the coral reef area.",
+    "cau-hoi-1": "Do you need a guide for the coral reef area?",
+    "cau-hoi-2": "Would you like to know about feeding times?"
+  },
+  {
+    "stt": 364,
+    "GotoLocation": "Sở thú (Aquarium)",
+    "tinh-huong": "364. Aquarium - \"I need to know the opening hours and ticket price.\"",
+    "Need": "I need to know the opening hours and ticket price.",
+    "cau-hoi-1": "What day are you planning to visit?",
+    "cau-hoi-2": "How many tickets do you need?"
+  },
+  {
+    "stt": 365,
+    "GotoLocation": "Khu cắm trại (Campground)",
+    "tinh-huong": "365. Campground - \"I need a camping spot.\"",
+    "Need": "I need a camping spot.",
+    "cau-hoi-1": "How many people will be camping?",
+    "cau-hoi-2": "Do you need any equipment rental?"
+  },
+  {
+    "stt": 366,
+    "GotoLocation": "Khu cắm trại (Campground)",
+    "tinh-huong": "366. Campground - \"I need information about camping facilities.\"",
+    "Need": "I need information about camping facilities.",
+    "cau-hoi-1": "Are you looking for a specific type of facility?",
+    "cau-hoi-2": "Will you need access to water or electricity?"
+  },
+  {
+    "stt": 367,
+    "GotoLocation": "Khu cắm trại (Campground)",
+    "tinh-huong": "367. Campground - \"I need to know the opening hours.\"",
+    "Need": "I need to know the opening hours.",
+    "cau-hoi-1": "Are you planning a day trip or overnight stay?",
+    "cau-hoi-2": "Would you like a reservation?"
+  },
+  {
+    "stt": 368,
+    "GotoLocation": "Khu cắm trại (Campground)",
+    "tinh-huong": "368. Campground - \"I need to know the camping fee.\"",
+    "Need": "I need to know the camping fee.",
+    "cau-hoi-1": "How many nights will you stay?",
+    "cau-hoi-2": "Do you have any discount vouchers?"
+  },
+  {
+    "stt": 369,
+    "GotoLocation": "Khu rừng (Forest)",
+    "tinh-huong": "369. Forest - \"I want to hike in the forest.\"",
+    "Need": "I want to hike in the forest.",
+    "cau-hoi-1": "How long do you plan to hike?",
+    "cau-hoi-2": "Do you need a map of the trails?"
+  },
+  {
+    "stt": 370,
+    "GotoLocation": "Khu rừng (Forest)",
+    "tinh-huong": "370. Forest - \"I need information about the trails.\"",
+    "Need": "I need information about the trails.",
+    "cau-hoi-1": "What difficulty level are you looking for?",
+    "cau-hoi-2": "Are you interested in guided hikes?"
+  },
+  {
+    "stt": 371,
+    "GotoLocation": "Khu rừng (Forest)",
+    "tinh-huong": "371. Forest - \"I need to know what equipment to bring.\"",
+    "Need": "I need to know what equipment to bring.",
+    "cau-hoi-1": "What type of trail are you planning to hike?",
+    "cau-hoi-2": "Will you be hiking alone or in a group?"
+  },
+  {
+    "stt": 372,
+    "GotoLocation": "Khu rừng (Forest)",
+    "tinh-huong": "372. Forest - \"I need to know the safety rules.\"",
+    "Need": "I need to know the safety rules.",
+    "cau-hoi-1": "Are you hiking during the day or at night?",
+    "cau-hoi-2": "Do you have a first aid kit?"
+  },
+  {
+    "stt": 373,
+    "GotoLocation": "Khu bảo tồn thiên nhiên (Nature reserve)",
+    "tinh-huong": "373. Nature reserve - \"I need a wildlife tour guide.\"",
+    "Need": "I need a wildlife tour guide.",
+    "cau-hoi-1": "What animals are you interested in seeing?",
+    "cau-hoi-2": "How long would you like the tour to be?"
+  },
+  {
+    "stt": 374,
+    "GotoLocation": "Khu bảo tồn thiên nhiên (Nature reserve)",
+    "tinh-huong": "374. Nature reserve - \"I need information about the animals.\"",
+    "Need": "I need information about the animals.",
+    "cau-hoi-1": "Are you looking for specific species?",
+    "cau-hoi-2": "Would you like a printed or digital guide?"
+  },
+  {
+    "stt": 375,
+    "GotoLocation": "Khu bảo tồn thiên nhiên (Nature reserve)",
+    "tinh-huong": "375. Nature reserve - \"I need to know about the visitor areas.\"",
+    "Need": "I need to know about the visitor areas.",
+    "cau-hoi-1": "Are you looking for picnic or observation areas?",
+    "cau-hoi-2": "Do you need a map of the reserve?"
+  },
+  {
+    "stt": 376,
+    "GotoLocation": "Khu bảo tồn thiên nhiên (Nature reserve)",
+    "tinh-huong": "376. Nature reserve - \"I need to know the opening hours and rules.\"",
+    "Need": "I need to know the opening hours and rules.",
+    "cau-hoi-1": "What day are you planning to visit?",
+    "cau-hoi-2": "Do you have any questions about restricted areas?"
+  },
+  {
+    "stt": 377,
+    "GotoLocation": "Hồ nước (Lake)",
+    "tinh-huong": "377. Lake - \"I need to rent a boat.\"",
+    "Need": "I need to rent a boat.",
+    "cau-hoi-1": "How many people will be using the boat?",
+    "cau-hoi-2": "Do you prefer a rowboat or motorboat?"
+  },
+  {
+    "stt": 378,
+    "GotoLocation": "Hồ nước (Lake)",
+    "tinh-huong": "378. Lake - \"I need to know the boat rental price.\"",
+    "Need": "I need to know the boat rental price.",
+    "cau-hoi-1": "How many hours would you like to rent the boat?",
+    "cau-hoi-2": "Do you need any additional equipment?"
+  },
+  {
+    "stt": 379,
+    "GotoLocation": "Hồ nước (Lake)",
+    "tinh-huong": "379. Lake - \"I want to go fishing.\"",
+    "Need": "I want to go fishing.",
+    "cau-hoi-1": "Do you have your own equipment?",
+    "cau-hoi-2": "Do you need a fishing license?"
+  },
+  {
+    "stt": 380,
+    "GotoLocation": "Hồ nước (Lake)",
+    "tinh-huong": "380. Lake - \"I need to know the operating hours.\"",
+    "Need": "I need to know the operating hours.",
+    "cau-hoi-1": "Are you planning to visit during the weekend?",
+    "cau-hoi-2": "Do you need to make a reservation?"
+  },
+  {
+    "stt": 381,
+    "GotoLocation": "Cửa hàng đồ cũ (Second-hand store)",
+    "tinh-huong": "381. Second-hand store - \"I need to buy a second-hand bicycle.\"",
+    "Need": "I need to buy a second-hand bicycle.",
+    "cau-hoi-1": "What size bicycle do you need?",
+    "cau-hoi-2": "Are you looking for any specific brands?"
+  },
+  {
+    "stt": 382,
+    "GotoLocation": "Cửa hàng đồ cũ (Second-hand store)",
+    "tinh-huong": "382. Second-hand store - \"I need to know the price of the item.\"",
+    "Need": "I need to know the price of the item.",
+    "cau-hoi-1": "What item are you referring to?",
+    "cau-hoi-2": "Would you like to see more similar items?"
+  },
+  {
+    "stt": 383,
+    "GotoLocation": "Cửa hàng đồ cũ (Second-hand store)",
+    "tinh-huong": "383. Second-hand store - \"I need to know what items are available.\"",
+    "Need": "I need to know what items are available.",
+    "cau-hoi-1": "Are you looking for a specific category?",
+    "cau-hoi-2": "Would you like a catalog?"
+  },
+  {
+    "stt": 384,
+    "GotoLocation": "Cửa hàng đồ cũ (Second-hand store)",
+    "tinh-huong": "384. Second-hand store - \"I want to sell my second-hand clothes.\"",
+    "Need": "I want to sell my second-hand clothes.",
+    "cau-hoi-1": "How many items are you selling?",
+    "cau-hoi-2": "Are the clothes in good condition?"
+  },
+  {
+    "stt": 385,
+    "GotoLocation": "Nhà máy điện (Power plant)",
+    "tinh-huong": "385. Power plant - \"I need to inspect the facility.\"",
+    "Need": "I need to inspect the facility.",
+    "cau-hoi-1": "Do you have an inspection appointment?",
+    "cau-hoi-2": "What specific areas will you inspect?"
+  },
+  {
+    "stt": 386,
+    "GotoLocation": "Nhà máy điện (Power plant)",
+    "tinh-huong": "386. Power plant - \"I need information about the electrical equipment.\"",
+    "Need": "I need information about the electrical equipment.",
+    "cau-hoi-1": "What specific equipment are you inquiring about?",
+    "cau-hoi-2": "Do you need specifications or operational details?"
+  },
+  {
+    "stt": 387,
+    "GotoLocation": "Nhà máy điện (Power plant)",
+    "tinh-huong": "387. Power plant - \"I need to know the inspection procedure.\"",
+    "Need": "I need to know the inspection procedure.",
+    "cau-hoi-1": "What is the purpose of the inspection?",
+    "cau-hoi-2": "Are you aware of the safety protocols?"
+  },
+  {
+    "stt": 388,
+    "GotoLocation": "Nhà máy điện (Power plant)",
+    "tinh-huong": "388. Power plant - \"I need to repair the electrical equipment.\"",
+    "Need": "I need to repair the electrical equipment.",
+    "cau-hoi-1": "What is the issue with the equipment?",
+    "cau-hoi-2": "Do you need replacement parts?"
+  },
+  {
+    "stt": 389,
+    "GotoLocation": "Nhà tù (Prison)",
+    "tinh-huong": "389. Prison - \"I need to visit an inmate.\"",
+    "Need": "I need to visit an inmate.",
+    "cau-hoi-1": "What is the name of the inmate?",
+    "cau-hoi-2": "Do you have prior approval for the visit?"
+  },
+  {
+    "stt": 390,
+    "GotoLocation": "Nhà tù (Prison)",
+    "tinh-huong": "390. Prison - \"I need to know the visiting procedure.\"",
+    "Need": "I need to know the visiting procedure.",
+    "cau-hoi-1": "Have you scheduled a visit?",
+    "cau-hoi-2": "Are you familiar with the items you can bring?"
+  },
+  {
+    "stt": 391,
+    "GotoLocation": "Nhà tù (Prison)",
+    "tinh-huong": "391. Prison - \"I need to know the visiting hours.\"",
+    "Need": "I need to know the visiting hours.",
+    "cau-hoi-1": "What day are you planning to visit?",
+    "cau-hoi-2": "Are you visiting a specific section of the prison?"
+  },
+  {
+    "stt": 392,
+    "GotoLocation": "Nhà tù (Prison)",
+    "tinh-huong": "392. Prison - \"I need information about the inmate's family.\"",
+    "Need": "I need information about the inmate's family.",
+    "cau-hoi-1": "What specific information are you looking for?",
+    "cau-hoi-2": "Do you have the inmate's consent for this inquiry?"
+  },
+  {
+    "stt": 393,
+    "GotoLocation": "Lò gốm (Pottery workshop)",
+    "tinh-huong": "393. Pottery workshop - \"I want to make pottery.\"",
+    "Need": "I want to make pottery.",
+    "cau-hoi-1": "Do you have prior experience with pottery?",
+    "cau-hoi-2": "Would you like to join a beginner or advanced class?"
+  },
+  {
+    "stt": 394,
+    "GotoLocation": "Lò gốm (Pottery workshop)",
+    "tinh-huong": "394. Pottery workshop - \"I need information about pottery classes.\"",
+    "Need": "I need information about pottery classes.",
+    "cau-hoi-1": "What type of classes are you interested in?",
+    "cau-hoi-2": "Do you prefer group or private lessons?"
+  },
+  {
+    "stt": 395,
+    "GotoLocation": "Lò gốm (Pottery workshop)",
+    "tinh-huong": "395. Pottery workshop - \"I need to buy pottery items.\"",
+    "Need": "I need to buy pottery items.",
+    "cau-hoi-1": "What kind of pottery items are you looking for?",
+    "cau-hoi-2": "Are you interested in custom designs?"
+  },
+  {
+    "stt": 396,
+    "GotoLocation": "Lò gốm (Pottery workshop)",
+    "tinh-huong": "396. Pottery workshop - \"I need to learn about pottery techniques.\"",
+    "Need": "I need to learn about pottery techniques.",
+    "cau-hoi-1": "Are you looking for specific techniques?",
+    "cau-hoi-2": "Do you need tools for practice?"
+  },
+  {
+    "stt": 397,
+    "GotoLocation": "Đường phố (Street)",
+    "tinh-huong": "397. Street - \"I need directions to the main square.\"",
+    "Need": "I need directions to the main square.",
+    "cau-hoi-1": "Are you traveling by foot or vehicle?",
+    "cau-hoi-2": "Are you looking for the quickest route?"
+  },
+  {
+    "stt": 398,
+    "GotoLocation": "Đường phố (Street)",
+    "tinh-huong": "398. Street - \"I need to know about nearby places.\"",
+    "Need": "I need to know about nearby places.",
+    "cau-hoi-1": "What type of places are you looking for?",
+    "cau-hoi-2": "Do you need a map or list of attractions?"
+  },
+  {
+    "stt": 399,
+    "GotoLocation": "Đường phố (Street)",
+    "tinh-huong": "399. Street - \"I need directions to the bus station.\"",
+    "Need": "I need directions to the bus station.",
+    "cau-hoi-1": "Do you know the bus station name?",
+    "cau-hoi-2": "Are you walking or taking transportation?"
+  },
+  {
+    "stt": 400,
+    "GotoLocation": "Đường phố (Street)",
+    "tinh-huong": "400. Street - \"I need to know the store opening hours.\"",
+    "Need": "I need to know the store opening hours.",
+    "cau-hoi-1": "What store are you referring to?",
+    "cau-hoi-2": "Are you planning to visit today?"
+  }
+]

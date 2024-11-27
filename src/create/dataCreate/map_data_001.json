@@ -1,0 +1,902 @@
+[
+  {
+    "STT": 1,
+    "GotoLocation": "Nhà ở (Home)",
+    "MeetWho": "Người A1",
+    "Position": "Thợ sửa ống nước",
+    "PurposeofRequest": "Sửa chữa một vật dụng",
+    "Task": "Đến Nhà ở gặp Người A1 nhằm yêu cầu sửa chữa một vật dụng",
+    "Need": "I need to repair a pipe."
+  },
+  {
+    "STT": 2,
+    "GotoLocation": "Trường học (School)",
+    "MeetWho": "Người A2",
+    "Position": "Giáo viên",
+    "PurposeofRequest": "Hỏi thông tin về lớp học",
+    "Task": "Đến Trường học gặp Người A2 nhằm yêu cầu thông tin lớp học",
+    "Need": "I need information about my class."
+  },
+  {
+    "STT": 3,
+    "GotoLocation": "Văn phòng (Office)",
+    "MeetWho": "Người A3",
+    "Position": "Quản lý dự án",
+    "PurposeofRequest": "Thảo luận về một dự án",
+    "Task": "Đến Văn phòng gặp Người A3 nhằm yêu cầu thảo luận về dự án",
+    "Need": "I need to discuss the project."
+  },
+  {
+    "STT": 4,
+    "GotoLocation": "Siêu thị (Supermarket)",
+    "MeetWho": "Người A4",
+    "Position": "Nhân viên bán hàng",
+    "PurposeofRequest": "Mua hàng hóa",
+    "Task": "Đến Siêu thị gặp Người A4 nhằm yêu cầu hỗ trợ mua sắm",
+    "Need": "I need help with groceries."
+  },
+  {
+    "STT": 5,
+    "GotoLocation": "Nhà hàng (Restaurant)",
+    "MeetWho": "Người A5",
+    "Position": "Nhân viên phục vụ",
+    "PurposeofRequest": "Đặt bàn",
+    "Task": "Đến Nhà hàng gặp Người A5 nhằm yêu cầu đặt bàn ăn",
+    "Need": "I need to book a table."
+  },
+  {
+    "STT": 6,
+    "GotoLocation": "Khách sạn (Hotel)",
+    "MeetWho": "Người A6",
+    "Position": "Lễ tân",
+    "PurposeofRequest": "Đặt phòng",
+    "Task": "Đến Khách sạn gặp Người A6 nhằm yêu cầu đặt phòng",
+    "Need": "I need to book a room."
+  },
+  {
+    "STT": 7,
+    "GotoLocation": "Bệnh viện (Hospital)",
+    "MeetWho": "Người A7",
+    "Position": "Bác sĩ",
+    "PurposeofRequest": "Kiểm tra sức khỏe",
+    "Task": "Đến Bệnh viện gặp Người A7 nhằm yêu cầu kiểm tra sức khỏe",
+    "Need": "I need a health check-up."
+  },
+  {
+    "STT": 8,
+    "GotoLocation": "Công viên (Park)",
+    "MeetWho": "Người A8",
+    "Position": "Hướng dẫn viên",
+    "PurposeofRequest": "Tham quan khu vực",
+    "Task": "Đến Công viên gặp Người A8 nhằm yêu cầu hướng dẫn tham quan",
+    "Need": "I need a tour guide for the park."
+  },
+  {
+    "STT": 9,
+    "GotoLocation": "Trung tâm thương mại (Mall)",
+    "MeetWho": "Người A9",
+    "Position": "Quản lý trung tâm",
+    "PurposeofRequest": "Giải đáp thắc mắc",
+    "Task": "Đến Trung tâm thương mại gặp Người A9 nhằm yêu cầu giải đáp các vấn đề về dịch vụ",
+    "Need": "I need help with mall services."
+  },
+  {
+    "STT": 10,
+    "GotoLocation": "Quán cà phê (Café)",
+    "MeetWho": "Người A10",
+    "Position": "Nhân viên pha chế",
+    "PurposeofRequest": "Gọi đồ uống",
+    "Task": "Đến Quán cà phê gặp Người A10 nhằm yêu cầu gọi đồ uống",
+    "Need": "I need a cup of coffee."
+  },
+  {
+    "STT": 11,
+    "GotoLocation": "Nhà thờ (Church)",
+    "MeetWho": "Người A11",
+    "Position": "Cha xứ",
+    "PurposeofRequest": "Xin lời khuyên",
+    "Task": "Đến Nhà thờ gặp Người A11 nhằm yêu cầu lời khuyên tâm linh",
+    "Need": "I need spiritual advice."
+  },
+  {
+    "STT": 12,
+    "GotoLocation": "Chùa (Temple)",
+    "MeetWho": "Người A12",
+    "Position": "Sư thầy",
+    "PurposeofRequest": "Cầu nguyện",
+    "Task": "Đến Chùa gặp Người A12 nhằm yêu cầu cầu nguyện hoặc làm lễ",
+    "Need": "I want to pray at the temple."
+  },
+  {
+    "STT": 13,
+    "GotoLocation": "Sân bay (Airport)",
+    "MeetWho": "Người A13",
+    "Position": "Nhân viên hỗ trợ",
+    "PurposeofRequest": "Làm thủ tục bay",
+    "Task": "Đến Sân bay gặp Người A13 nhằm yêu cầu hỗ trợ làm thủ tục bay",
+    "Need": "I need help with my flight check-in."
+  },
+  {
+    "STT": 14,
+    "GotoLocation": "Nhà ga (Train station)",
+    "MeetWho": "Người A14",
+    "Position": "Nhân viên nhà ga",
+    "PurposeofRequest": "Mua vé tàu",
+    "Task": "Đến Nhà ga gặp Người A14 nhằm yêu cầu mua vé tàu",
+    "Need": "I need a train ticket."
+  },
+  {
+    "STT": 15,
+    "GotoLocation": "Bến xe buýt (Bus station)",
+    "MeetWho": "Người A15",
+    "Position": "Nhân viên bán vé",
+    "PurposeofRequest": "Thông tin lịch trình",
+    "Task": "Đến Bến xe buýt gặp Người A15 nhằm yêu cầu thông tin về lịch trình",
+    "Need": "I need the bus schedule."
+  },
+  {
+    "STT": 16,
+    "GotoLocation": "Phòng tập gym (Gym)",
+    "MeetWho": "Người A16",
+    "Position": "Huấn luyện viên",
+    "PurposeofRequest": "Đăng ký khóa học",
+    "Task": "Đến Phòng tập gym gặp Người A16 nhằm yêu cầu đăng ký khóa học",
+    "Need": "I want to join a fitness class."
+  },
+  {
+    "STT": 17,
+    "GotoLocation": "Thư viện (Library)",
+    "MeetWho": "Người A17",
+    "Position": "Thủ thư",
+    "PurposeofRequest": "Mượn sách",
+    "Task": "Đến Thư viện gặp Người A17 nhằm yêu cầu mượn sách",
+    "Need": "I need to borrow a book."
+  },
+  {
+    "STT": 18,
+    "GotoLocation": "Rạp chiếu phim (Cinema)",
+    "MeetWho": "Người A18",
+    "Position": "Nhân viên rạp",
+    "PurposeofRequest": "Mua vé xem phim",
+    "Task": "Đến Rạp chiếu phim gặp Người A18 nhằm yêu cầu mua vé xem phim",
+    "Need": "I need a movie ticket."
+  },
+  {
+    "STT": 19,
+    "GotoLocation": "Sân vận động (Stadium)",
+    "MeetWho": "Người A19",
+    "Position": "Quản lý sân",
+    "PurposeofRequest": "Tìm chỗ ngồi",
+    "Task": "Đến Sân vận động gặp Người A19 nhằm yêu cầu hỗ trợ tìm chỗ ngồi",
+    "Need": "I need help finding my seat."
+  },
+  {
+    "STT": 20,
+    "GotoLocation": "Nhà hát (Theater)",
+    "MeetWho": "Người A20",
+    "Position": "Nhân viên bán vé",
+    "PurposeofRequest": "Đặt vé xem kịch",
+    "Task": "Đến Nhà hát gặp Người A20 nhằm yêu cầu đặt vé xem kịch",
+    "Need": "I need to book a theater ticket."
+  },
+  {
+    "STT": 21,
+    "GotoLocation": "Cửa hàng tạp hóa (Convenience)",
+    "MeetWho": "Người A21",
+    "Position": "Nhân viên cửa hàng",
+    "PurposeofRequest": "Mua đồ dùng cần thiết",
+    "Task": "Đến Cửa hàng tạp hóa gặp Người A21 nhằm yêu cầu mua đồ dùng",
+    "Need": "I need daily essentials."
+  },
+  {
+    "STT": 22,
+    "GotoLocation": "Chợ (Market)",
+    "MeetWho": "Người A22",
+    "Position": "Người bán hàng",
+    "PurposeofRequest": "Mua thực phẩm",
+    "Task": "Đến Chợ gặp Người A22 nhằm yêu cầu mua thực phẩm tươi sống",
+    "Need": "I need fresh vegetables."
+  },
+  {
+    "STT": 23,
+    "GotoLocation": "Ngân hàng (Bank)",
+    "MeetWho": "Người A23",
+    "Position": "Nhân viên ngân hàng",
+    "PurposeofRequest": "Mở tài khoản",
+    "Task": "Đến Ngân hàng gặp Người A23 nhằm yêu cầu mở tài khoản",
+    "Need": "I need to open a bank account."
+  },
+  {
+    "STT": 24,
+    "GotoLocation": "Bưu điện (Post office)",
+    "MeetWho": "Người A24",
+    "Position": "Nhân viên bưu điện",
+    "PurposeofRequest": "Gửi thư hoặc bưu kiện",
+    "Task": "Đến Bưu điện gặp Người A24 nhằm yêu cầu gửi thư hoặc bưu kiện",
+    "Need": "I need to send a package."
+  },
+  {
+    "STT": 25,
+    "GotoLocation": "Tiệm làm tóc (Hair salon)",
+    "MeetWho": "Người A25",
+    "Position": "Thợ làm tóc",
+    "PurposeofRequest": "Cắt tóc hoặc làm đẹp",
+    "Task": "Đến Tiệm làm tóc gặp Người A25 nhằm yêu cầu cắt tóc",
+    "Need": "I need a haircut."
+  },
+  {
+    "STT": 26,
+    "GotoLocation": "Tiệm spa (Spa)",
+    "MeetWho": "Người A26",
+    "Position": "Nhân viên spa",
+    "PurposeofRequest": "Thư giãn và chăm sóc da",
+    "Task": "Đến Tiệm spa gặp Người A26 nhằm yêu cầu thư giãn hoặc massage",
+    "Need": "I need a relaxing massage."
+  },
+  {
+    "STT": 27,
+    "GotoLocation": "Hiệu sách (Bookstore)",
+    "MeetWho": "Người A27",
+    "Position": "Nhân viên bán sách",
+    "PurposeofRequest": "Mua sách hoặc dụng cụ học tập",
+    "Task": "Đến Hiệu sách gặp Người A27 nhằm yêu cầu mua sách",
+    "Need": "I need a new book."
+  },
+  {
+    "STT": 28,
+    "GotoLocation": "Hiệu thuốc (Pharmacy)",
+    "MeetWho": "Người A28",
+    "Position": "Dược sĩ",
+    "PurposeofRequest": "Mua thuốc hoặc tư vấn",
+    "Task": "Đến Hiệu thuốc gặp Người A28 nhằm yêu cầu thuốc",
+    "Need": "I need some medicine."
+  },
+  {
+    "STT": 29,
+    "GotoLocation": "Trạm xăng (Gas station)",
+    "MeetWho": "Người A29",
+    "Position": "Nhân viên trạm xăng",
+    "PurposeofRequest": "Đổ nhiên liệu",
+    "Task": "Đến Trạm xăng gặp Người A29 nhằm yêu cầu đổ nhiên liệu",
+    "Need": "I need to refuel my car."
+  },
+  {
+    "STT": 30,
+    "GotoLocation": "Ga tàu điện ngầm (Subway)",
+    "MeetWho": "Người A30",
+    "Position": "Nhân viên nhà ga",
+    "PurposeofRequest": "Mua vé tàu",
+    "Task": "Đến Ga tàu điện ngầm gặp Người A30 nhằm yêu cầu mua vé",
+    "Need": "I need a subway ticket."
+  },
+  {
+    "STT": 31,
+    "GotoLocation": "Tiệm bánh (Bakery)",
+    "MeetWho": "Người A31",
+    "Position": "Thợ làm bánh",
+    "PurposeofRequest": "Mua bánh mì hoặc bánh ngọt",
+    "Task": "Đến Tiệm bánh gặp Người A31 nhằm yêu cầu mua bánh",
+    "Need": "I need a loaf of bread."
+  },
+  {
+    "STT": 32,
+    "GotoLocation": "Cửa hàng quần áo (Clothing store)",
+    "MeetWho": "Người A32",
+    "Position": "Nhân viên bán hàng",
+    "PurposeofRequest": "Mua quần áo",
+    "Task": "Đến Cửa hàng quần áo gặp Người A32 nhằm yêu cầu mua quần áo",
+    "Need": "I need a new jacket."
+  },
+  {
+    "STT": 33,
+    "GotoLocation": "Phòng khám (Clinic)",
+    "MeetWho": "Người A33",
+    "Position": "Bác sĩ",
+    "PurposeofRequest": "Khám bệnh hoặc tư vấn sức khỏe",
+    "Task": "Đến Phòng khám gặp Người A33 nhằm yêu cầu khám bệnh",
+    "Need": "I need a medical consultation."
+  },
+  {
+    "STT": 34,
+    "GotoLocation": "Trường đại học (University)",
+    "MeetWho": "Người A34",
+    "Position": "Giảng viên",
+    "PurposeofRequest": "Đăng ký lớp học hoặc xin lời khuyên",
+    "Task": "Đến Trường đại học gặp Người A34 nhằm yêu cầu đăng ký khóa học",
+    "Need": "I need to enroll in a class."
+  },
+  {
+    "STT": 35,
+    "GotoLocation": "Trạm cảnh sát (Police station)",
+    "MeetWho": "Người A35",
+    "Position": "Cảnh sát",
+    "PurposeofRequest": "Báo cáo mất cắp hoặc xin trợ giúp",
+    "Task": "Đến Trạm cảnh sát gặp Người A35 nhằm yêu cầu giúp đỡ",
+    "Need": "I need to report a theft."
+  },
+  {
+    "STT": 36,
+    "GotoLocation": "Trạm cứu hỏa (Fire station)",
+    "MeetWho": "Người A36",
+    "Position": "Nhân viên cứu hỏa",
+    "PurposeofRequest": "Xin hỗ trợ khẩn cấp",
+    "Task": "Đến Trạm cứu hỏa gặp Người A36 nhằm yêu cầu hỗ trợ trong tình huống khẩn cấp",
+    "Need": "I need emergency assistance."
+  },
+  {
+    "STT": 37,
+    "GotoLocation": "Khu vui chơi giải trí (Amusement park)",
+    "MeetWho": "Người A37",
+    "Position": "Nhân viên hướng dẫn",
+    "PurposeofRequest": "Tham gia các trò chơi hoặc mua vé",
+    "Task": "Đến Khu vui chơi giải trí gặp Người A37 nhằm yêu cầu hỗ trợ tham gia các trò chơi",
+    "Need": "I want to enjoy the rides."
+  },
+  {
+    "STT": 38,
+    "GotoLocation": "Vườn thú (Zoo)",
+    "MeetWho": "Người A38",
+    "Position": "Hướng dẫn viên",
+    "PurposeofRequest": "Tham quan hoặc tìm hiểu về động vật",
+    "Task": "Đến Vườn thú gặp Người A38 nhằm yêu cầu tham quan",
+    "Need": "I want to see the animals."
+  },
+  {
+    "STT": 39,
+    "GotoLocation": "Viện bảo tàng (Museum)",
+    "MeetWho": "Người A39",
+    "Position": "Quản lý triển lãm",
+    "PurposeofRequest": "Tham quan hoặc tìm hiểu lịch sử",
+    "Task": "Đến Viện bảo tàng gặp Người A39 nhằm yêu cầu tham quan các triển lãm",
+    "Need": "I need a tour guide for the museum."
+  },
+  {
+    "STT": 40,
+    "GotoLocation": "Nhà triển lãm (Exhibition hall)",
+    "MeetWho": "Người A40",
+    "Position": "Nhân viên triển lãm",
+    "PurposeofRequest": "Xem triển lãm hoặc đặt chỗ",
+    "Task": "Đến Nhà triển lãm gặp Người A40 nhằm yêu cầu hỗ trợ đặt chỗ",
+    "Need": "I want to see the exhibits."
+  },
+  {
+    "STT": 41,
+    "GotoLocation": "Bãi biển (Beach)",
+    "MeetWho": "Người A41",
+    "Position": "Hướng dẫn viên du lịch",
+    "PurposeofRequest": "Thuê ghế hoặc dù",
+    "Task": "Đến Bãi biển gặp Người A41 nhằm yêu cầu thuê ghế hoặc dù",
+    "Need": "I need to rent a beach chair."
+  },
+  {
+    "STT": 42,
+    "GotoLocation": "Khu du lịch (Tourist attraction)",
+    "MeetWho": "Người A42",
+    "Position": "Nhân viên hướng dẫn",
+    "PurposeofRequest": "Mua vé hoặc hỏi thông tin",
+    "Task": "Đến Khu du lịch gặp Người A42 nhằm yêu cầu thông tin tham quan",
+    "Need": "I need a tour ticket."
+  },
+  {
+    "STT": 43,
+    "GotoLocation": "Khách sạn nghỉ dưỡng (Resort)",
+    "MeetWho": "Người A43",
+    "Position": "Nhân viên lễ tân",
+    "PurposeofRequest": "Đặt phòng hoặc sử dụng dịch vụ",
+    "Task": "Đến Khách sạn nghỉ dưỡng gặp Người A43 nhằm yêu cầu đặt phòng",
+    "Need": "I need to book a suite."
+  },
+  {
+    "STT": 44,
+    "GotoLocation": "Nhà kho (Warehouse)",
+    "MeetWho": "Người A44",
+    "Position": "Quản lý kho",
+    "PurposeofRequest": "Lấy hàng hoặc kiểm kê",
+    "Task": "Đến Nhà kho gặp Người A44 nhằm yêu cầu nhận hàng hóa",
+    "Need": "I need to pick up supplies."
+  },
+  {
+    "STT": 45,
+    "GotoLocation": "Xưởng sản xuất (Factory)",
+    "MeetWho": "Người A45",
+    "Position": "Quản đốc",
+    "PurposeofRequest": "Kiểm tra quy trình sản xuất",
+    "Task": "Đến Xưởng sản xuất gặp Người A45 nhằm yêu cầu kiểm tra dây chuyền sản xuất",
+    "Need": "I need to inspect the production line."
+  },
+  {
+    "STT": 46,
+    "GotoLocation": "Bến tàu (Harbor)",
+    "MeetWho": "Người A46",
+    "Position": "Nhân viên bến tàu",
+    "PurposeofRequest": "Mua vé phà hoặc nhận hàng",
+    "Task": "Đến Bến tàu gặp Người A46 nhằm yêu cầu mua vé phà",
+    "Need": "I need a ferry ticket."
+  },
+  {
+    "STT": 47,
+    "GotoLocation": "Sân golf (Golf course)",
+    "MeetWho": "Người A47",
+    "Position": "Nhân viên hỗ trợ",
+    "PurposeofRequest": "Đặt sân hoặc thuê dụng cụ",
+    "Task": "Đến Sân golf gặp Người A47 nhằm yêu cầu đặt sân chơi",
+    "Need": "I need to book a golf course."
+  },
+  {
+    "STT": 48,
+    "GotoLocation": "Quán bar (Bar)",
+    "MeetWho": "Người A48",
+    "Position": "Nhân viên pha chế",
+    "PurposeofRequest": "Gọi đồ uống",
+    "Task": "Đến Quán bar gặp Người A48 nhằm yêu cầu đồ uống",
+    "Need": "I need a cocktail."
+  },
+  {
+    "STT": 49,
+    "GotoLocation": "Câu lạc bộ đêm (Nightclub)",
+    "MeetWho": "Người A49",
+    "Position": "Quản lý câu lạc bộ",
+    "PurposeofRequest": "Đặt bàn hoặc tham gia sự kiện",
+    "Task": "Đến Câu lạc bộ đêm gặp Người A49 nhằm yêu cầu đặt bàn",
+    "Need": "I need to reserve a table."
+  },
+  {
+    "STT": 50,
+    "GotoLocation": "Cửa hàng đồ gia dụng (Home appliance store)",
+    "MeetWho": "Người A50",
+    "Position": "Nhân viên bán hàng",
+    "PurposeofRequest": "Mua hoặc sửa thiết bị gia dụng",
+    "Task": "Đến Cửa hàng đồ gia dụng gặp Người A50 nhằm yêu cầu mua thiết bị",
+    "Need": "I need a new microwave."
+  },
+  {
+    "STT": 51,
+    "GotoLocation": "Quán ăn đường phố (Street food stall)",
+    "MeetWho": "Người A51",
+    "Position": "Người bán hàng",
+    "PurposeofRequest": "Mua đồ ăn nhanh",
+    "Task": "Đến Quán ăn đường phố gặp Người A51 nhằm yêu cầu món ăn",
+    "Need": "I need some street food."
+  },
+  {
+    "STT": 52,
+    "GotoLocation": "Trung tâm thể dục thẩm mỹ (Fitness center)",
+    "MeetWho": "Người A52",
+    "Position": "Huấn luyện viên",
+    "PurposeofRequest": "Tham gia lớp học hoặc tập luyện",
+    "Task": "Đến Trung tâm thể dục thẩm mỹ gặp Người A52 nhằm yêu cầu đăng ký lớp yoga",
+    "Need": "I want to join a yoga class."
+  },
+  {
+    "STT": 53,
+    "GotoLocation": "Tiệm giặt ủi (Laundromat)",
+    "MeetWho": "Người A53",
+    "Position": "Nhân viên giặt là",
+    "PurposeofRequest": "Gửi quần áo để giặt",
+    "Task": "Đến Tiệm giặt ủi gặp Người A53 nhằm yêu cầu giặt quần áo",
+    "Need": "I need my clothes washed."
+  },
+  {
+    "STT": 54,
+    "GotoLocation": "Khu nhà trọ (Hostel)",
+    "MeetWho": "Người A54",
+    "Position": "Nhân viên lễ tân",
+    "PurposeofRequest": "Thuê phòng",
+    "Task": "Đến Khu nhà trọ gặp Người A54 nhằm yêu cầu thuê phòng ngắn hạn",
+    "Need": "I need a room for two nights."
+  },
+  {
+    "STT": 55,
+    "GotoLocation": "Cơ quan chính phủ (Government office)",
+    "MeetWho": "Người A55",
+    "Position": "Nhân viên công chức",
+    "PurposeofRequest": "Xin giấy tờ",
+    "Task": "Đến Cơ quan chính phủ gặp Người A55 nhằm yêu cầu xin cấp giấy phép",
+    "Need": "I need a permit."
+  },
+  {
+    "STT": 56,
+    "GotoLocation": "Cửa hàng điện thoại (Mobile phone store)",
+    "MeetWho": "Người A56",
+    "Position": "Nhân viên bán hàng",
+    "PurposeofRequest": "Mua hoặc sửa điện thoại",
+    "Task": "Đến Cửa hàng điện thoại gặp Người A56 nhằm yêu cầu mua điện thoại mới",
+    "Need": "I need a new phone."
+  },
+  {
+    "STT": 57,
+    "GotoLocation": "Cửa hàng điện máy (Electronics store)",
+    "MeetWho": "Người A57",
+    "Position": "Nhân viên bán hàng",
+    "PurposeofRequest": "Mua thiết bị điện tử",
+    "Task": "Đến Cửa hàng điện máy gặp Người A57 nhằm yêu cầu mua laptop",
+    "Need": "I need a new laptop."
+  },
+  {
+    "STT": 58,
+    "GotoLocation": "Cửa hàng đồ chơi (Toy store)",
+    "MeetWho": "Người A58",
+    "Position": "Nhân viên bán hàng",
+    "PurposeofRequest": "Mua quà cho trẻ em",
+    "Task": "Đến Cửa hàng đồ chơi gặp Người A58 nhằm yêu cầu mua quà",
+    "Need": "I need a toy for my child."
+  },
+  {
+    "STT": 59,
+    "GotoLocation": "Trung tâm dịch vụ khách hàng (Customer service center)",
+    "MeetWho": "Người A59",
+    "Position": "Nhân viên CSKH",
+    "PurposeofRequest": "Giải quyết khiếu nại hoặc tư vấn",
+    "Task": "Đến Trung tâm dịch vụ khách hàng gặp Người A59 nhằm yêu cầu giải quyết vấn đề",
+    "Need": "I need help with my account."
+  },
+  {
+    "STT": 60,
+    "GotoLocation": "Quảng trường (Square)",
+    "MeetWho": "Người A60",
+    "Position": "Nhân viên sự kiện",
+    "PurposeofRequest": "Tham gia lễ hội hoặc sự kiện",
+    "Task": "Đến Quảng trường gặp Người A60 nhằm yêu cầu hỗ trợ tham gia lễ hội",
+    "Need": "I want to join the festival."
+  },
+  {
+    "STT": 61,
+    "GotoLocation": "Đài tưởng niệm (Monument)",
+    "MeetWho": "Người A61",
+    "Position": "Hướng dẫn viên",
+    "PurposeofRequest": "Tìm hiểu về lịch sử",
+    "Task": "Đến Đài tưởng niệm gặp Người A61 nhằm yêu cầu cung cấp thông tin lịch sử",
+    "Need": "I want to learn about this monument."
+  },
+  {
+    "STT": 62,
+    "GotoLocation": "Khu di tích lịch sử (Historical site)",
+    "MeetWho": "Người A62",
+    "Position": "Nhân viên hướng dẫn",
+    "PurposeofRequest": "Tham quan hoặc học lịch sử",
+    "Task": "Đến Khu di tích lịch sử gặp Người A62 nhằm yêu cầu hướng dẫn tham quan",
+    "Need": "I need a guide for the site."
+  },
+  {
+    "STT": 63,
+    "GotoLocation": "Sân bóng đá (Football field)",
+    "MeetWho": "Người A63",
+    "Position": "Huấn luyện viên",
+    "PurposeofRequest": "Tham gia buổi tập luyện",
+    "Task": "Đến Sân bóng đá gặp Người A63 nhằm yêu cầu tham gia buổi tập",
+    "Need": "I want to join the football practice."
+  },
+  {
+    "STT": 64,
+    "GotoLocation": "Sân bóng rổ (Basketball court)",
+    "MeetWho": "Người A64",
+    "Position": "Huấn luyện viên",
+    "PurposeofRequest": "Tập luyện hoặc chơi bóng",
+    "Task": "Đến Sân bóng rổ gặp Người A64 nhằm yêu cầu tham gia trận đấu",
+    "Need": "I want to play basketball."
+  },
+  {
+    "STT": 65,
+    "GotoLocation": "Nhà thi đấu (Sports arena)",
+    "MeetWho": "Người A65",
+    "Position": "Quản lý sân đấu",
+    "PurposeofRequest": "Xem trận đấu hoặc sự kiện",
+    "Task": "Đến Nhà thi đấu gặp Người A65 nhằm yêu cầu tìm chỗ ngồi",
+    "Need": "I need help finding my seat."
+  },
+  {
+    "STT": 66,
+    "GotoLocation": "Hồ bơi (Swimming pool)",
+    "MeetWho": "Người A66",
+    "Position": "Nhân viên cứu hộ",
+    "PurposeofRequest": "Học bơi hoặc bơi thư giãn",
+    "Task": "Đến Hồ bơi gặp Người A66 nhằm yêu cầu đăng ký lớp học bơi",
+    "Need": "I want to join a swimming class."
+  },
+  {
+    "STT": 67,
+    "GotoLocation": "Công ty (Company)",
+    "MeetWho": "Người A67",
+    "Position": "Quản lý hoặc đối tác",
+    "PurposeofRequest": "Họp bàn công việc",
+    "Task": "Đến Công ty gặp Người A67 nhằm yêu cầu thảo luận dự án",
+    "Need": "I need to discuss the project."
+  },
+  {
+    "STT": 68,
+    "GotoLocation": "Hội trường (Conference hall)",
+    "MeetWho": "Người A68",
+    "Position": "Nhân viên sự kiện",
+    "PurposeofRequest": "Tham gia hội thảo",
+    "Task": "Đến Hội trường gặp Người A68 nhằm yêu cầu hỗ trợ tham gia hội thảo",
+    "Need": "I want to attend the conference."
+  },
+  {
+    "STT": 69,
+    "GotoLocation": "Cửa hàng hoa (Flower shop)",
+    "MeetWho": "Người A69",
+    "Position": "Người bán hoa",
+    "PurposeofRequest": "Mua hoa cho dịp đặc biệt",
+    "Task": "Đến Cửa hàng hoa gặp Người A69 nhằm yêu cầu đặt một bó hoa",
+    "Need": "I need a bouquet of roses."
+  },
+  {
+    "STT": 70,
+    "GotoLocation": "Tiệm sửa xe (Car repair shop)",
+    "MeetWho": "Người A70",
+    "Position": "Thợ sửa xe",
+    "PurposeofRequest": "Sửa chữa hoặc bảo trì xe",
+    "Task": "Đến Tiệm sửa xe gặp Người A70 nhằm yêu cầu sửa chữa xe",
+    "Need": "I need my car fixed."
+  },
+  {
+    "STT": 71,
+    "GotoLocation": "Trạm y tế (Medical station)",
+    "MeetWho": "Người A71",
+    "Position": "Nhân viên y tế",
+    "PurposeofRequest": "Khám sức khỏe",
+    "Task": "Đến Trạm y tế gặp Người A71 nhằm yêu cầu kiểm tra sức khỏe",
+    "Need": "I need a health check-up."
+  },
+  {
+    "STT": 72,
+    "GotoLocation": "Khu chung cư (Apartment complex)",
+    "MeetWho": "Người A72",
+    "Position": "Quản lý căn hộ",
+    "PurposeofRequest": "Hỏi thông tin hoặc thuê căn hộ",
+    "Task": "Đến Khu chung cư gặp Người A72 nhằm yêu cầu tham quan căn hộ",
+    "Need": "I want to see an apartment."
+  },
+  {
+    "STT": 73,
+    "GotoLocation": "Sân vận động trong nhà (Indoor stadium)",
+    "MeetWho": "Người A73",
+    "Position": "Quản lý sân đấu",
+    "PurposeofRequest": "Tham gia sự kiện hoặc buổi tập",
+    "Task": "Đến Sân vận động trong nhà gặp Người A73 nhằm yêu cầu tham gia sự kiện",
+    "Need": "I want to join the sports event."
+  },
+  {
+    "STT": 74,
+    "GotoLocation": "Quán karaoke (Karaoke bar)",
+    "MeetWho": "Người A74",
+    "Position": "Nhân viên lễ tân",
+    "PurposeofRequest": "Đặt phòng karaoke",
+    "Task": "Đến Quán karaoke gặp Người A74 nhằm yêu cầu đặt phòng",
+    "Need": "I need to book a karaoke room."
+  },
+  {
+    "STT": 75,
+    "GotoLocation": "Nhà xe (Parking garage)",
+    "MeetWho": "Người A75",
+    "Position": "Nhân viên bảo vệ",
+    "PurposeofRequest": "Gửi xe hoặc tìm chỗ đậu xe",
+    "Task": "Đến Nhà xe gặp Người A75 nhằm yêu cầu hỗ trợ tìm chỗ đậu xe",
+    "Need": "I need a parking spot."
+  },
+  {
+    "STT": 76,
+    "GotoLocation": "Trung tâm nghệ thuật (Art center)",
+    "MeetWho": "Người A76",
+    "Position": "Họa sĩ hoặc hướng dẫn viên",
+    "PurposeofRequest": "Tham gia lớp học nghệ thuật",
+    "Task": "Đến Trung tâm nghệ thuật gặp Người A76 nhằm yêu cầu tham gia lớp học nghệ thuật",
+    "Need": "I want to join an art class."
+  },
+  {
+    "STT": 77,
+    "GotoLocation": "Xưởng phim (Film studio)",
+    "MeetWho": "Người A77",
+    "Position": "Đạo diễn hoặc nhà sản xuất",
+    "PurposeofRequest": "Tham gia buổi quay phim",
+    "Task": "Đến Xưởng phim gặp Người A77 nhằm yêu cầu tham gia buổi quay",
+    "Need": "I want to join the filming session."
+  },
+  {
+    "STT": 78,
+    "GotoLocation": "Quán net (Internet café)",
+    "MeetWho": "Người A78",
+    "Position": "Nhân viên hỗ trợ",
+    "PurposeofRequest": "Sử dụng máy tính hoặc truy cập Internet",
+    "Task": "Đến Quán net gặp Người A78 nhằm yêu cầu máy tính với Internet",
+    "Need": "I need a computer with internet access."
+  },
+  {
+    "STT": 79,
+    "GotoLocation": "Sân vận động quần vợt (Tennis court)",
+    "MeetWho": "Người A79",
+    "Position": "Huấn luyện viên",
+    "PurposeofRequest": "Tham gia buổi tập luyện tennis",
+    "Task": "Đến Sân vận động quần vợt gặp Người A79 nhằm yêu cầu tham gia buổi tập",
+    "Need": "I want to play tennis."
+  },
+  {
+    "STT": 80,
+    "GotoLocation": "Bến phà (Ferry terminal)",
+    "MeetWho": "Người A80",
+    "Position": "Nhân viên bán vé",
+    "PurposeofRequest": "Mua vé phà",
+    "Task": "Đến Bến phà gặp Người A80 nhằm yêu cầu mua vé phà",
+    "Need": "I need a ferry ticket."
+  },
+  {
+    "STT": 81,
+    "GotoLocation": "Quán ăn nhanh (Fast food restaurant)",
+    "MeetWho": "Người A81",
+    "Position": "Nhân viên phục vụ",
+    "PurposeofRequest": "Đặt món hoặc mua mang về",
+    "Task": "Đến Quán ăn nhanh gặp Người A81 nhằm yêu cầu đặt món",
+    "Need": "I need a burger and fries."
+  },
+  {
+    "STT": 82,
+    "GotoLocation": "Cửa hàng thú cưng (Pet store)",
+    "MeetWho": "Người A82",
+    "Position": "Nhân viên bán hàng",
+    "PurposeofRequest": "Mua thức ăn hoặc đồ chơi cho thú cưng",
+    "Task": "Đến Cửa hàng thú cưng gặp Người A82 nhằm yêu cầu thức ăn cho thú cưng",
+    "Need": "I need food for my dog."
+  },
+  {
+    "STT": 83,
+    "GotoLocation": "Trung tâm bảo hành (Service center)",
+    "MeetWho": "Người A83",
+    "Position": "Nhân viên bảo hành",
+    "PurposeofRequest": "Sửa chữa hoặc bảo trì sản phẩm",
+    "Task": "Đến Trung tâm bảo hành gặp Người A83 nhằm yêu cầu sửa chữa điện thoại",
+    "Need": "I need my phone repaired."
+  },
+  {
+    "STT": 84,
+    "GotoLocation": "Trung tâm công nghệ (Technology center)",
+    "MeetWho": "Người A84",
+    "Position": "Kỹ thuật viên",
+    "PurposeofRequest": "Học hỏi hoặc cập nhật thông tin công nghệ",
+    "Task": "Đến Trung tâm công nghệ gặp Người A84 nhằm yêu cầu thông tin về sản phẩm mới",
+    "Need": "I want to learn about new gadgets."
+  },
+  {
+    "STT": 85,
+    "GotoLocation": "Cửa hàng xe máy (Motorbike store)",
+    "MeetWho": "Người A85",
+    "Position": "Nhân viên bán hàng",
+    "PurposeofRequest": "Mua hoặc sửa xe máy",
+    "Task": "Đến Cửa hàng xe máy gặp Người A85 nhằm yêu cầu mua xe máy mới",
+    "Need": "I need a new motorbike."
+  },
+  {
+    "STT": 86,
+    "GotoLocation": "Nhà kính trồng cây (Greenhouse)",
+    "MeetWho": "Người A86",
+    "Position": "Quản lý nhà kính",
+    "PurposeofRequest": "Tham quan hoặc mua cây trồng",
+    "Task": "Đến Nhà kính trồng cây gặp Người A86 nhằm yêu cầu mua cây cảnh",
+    "Need": "I want to buy a plant for my garden."
+  },
+  {
+    "STT": 87,
+    "GotoLocation": "Trường mẫu giáo (Kindergarten)",
+    "MeetWho": "Người A87",
+    "Position": "Giáo viên mầm non",
+    "PurposeofRequest": "Đăng ký cho trẻ đi học",
+    "Task": "Đến Trường mẫu giáo gặp Người A87 nhằm yêu cầu đăng ký cho con",
+    "Need": "I need to enroll my child."
+  },
+  {
+    "STT": 88,
+    "GotoLocation": "Trường dạy nghề (Vocational school)",
+    "MeetWho": "Người A88",
+    "Position": "Giáo viên dạy nghề",
+    "PurposeofRequest": "Đăng ký khóa học",
+    "Task": "Đến Trường dạy nghề gặp Người A88 nhằm yêu cầu đăng ký khóa học",
+    "Need": "I want to join a vocational course."
+  },
+  {
+    "STT": 89,
+    "GotoLocation": "Đồn biên phòng (Border post)",
+    "MeetWho": "Người A89",
+    "Position": "Nhân viên biên phòng",
+    "PurposeofRequest": "Làm thủ tục qua biên giới",
+    "Task": "Đến Đồn biên phòng gặp Người A89 nhằm yêu cầu hỗ trợ thủ tục qua biên giới",
+    "Need": "I need help with border clearance."
+  },
+  {
+    "STT": 90,
+    "GotoLocation": "Cửa khẩu (Border gate)",
+    "MeetWho": "Người A90",
+    "Position": "Nhân viên hải quan",
+    "PurposeofRequest": "Kiểm tra giấy tờ hoặc thông quan hàng hóa",
+    "Task": "Đến Cửa khẩu gặp Người A90 nhằm yêu cầu thông quan",
+    "Need": "I need to clear customs."
+  },
+  {
+    "STT": 91,
+    "GotoLocation": "Sở thú (Aquarium)",
+    "MeetWho": "Người A91",
+    "Position": "Nhân viên hướng dẫn",
+    "PurposeofRequest": "Tham quan và tìm hiểu động vật biển",
+    "Task": "Đến Sở thú gặp Người A91 nhằm yêu cầu hướng dẫn tham quan",
+    "Need": "I want to see the marine animals."
+  },
+  {
+    "STT": 92,
+    "GotoLocation": "Khu cắm trại (Campground)",
+    "MeetWho": "Người A92",
+    "Position": "Quản lý khu cắm trại",
+    "PurposeofRequest": "Đặt chỗ cắm trại",
+    "Task": "Đến Khu cắm trại gặp Người A92 nhằm yêu cầu đặt chỗ",
+    "Need": "I need a camping spot."
+  },
+  {
+    "STT": 93,
+    "GotoLocation": "Khu rừng (Forest)",
+    "MeetWho": "Người A93",
+    "Position": "Hướng dẫn viên",
+    "PurposeofRequest": "Tham quan hoặc đi bộ đường dài",
+    "Task": "Đến Khu rừng gặp Người A93 nhằm yêu cầu hướng dẫn đi bộ",
+    "Need": "I want to hike in the forest."
+  },
+  {
+    "STT": 94,
+    "GotoLocation": "Khu bảo tồn thiên nhiên (Nature reserve)",
+    "MeetWho": "Người A94",
+    "Position": "Nhân viên hướng dẫn",
+    "PurposeofRequest": "Tham quan và tìm hiểu thiên nhiên",
+    "Task": "Đến Khu bảo tồn thiên nhiên gặp Người A94 nhằm yêu cầu hướng dẫn tham quan",
+    "Need": "I need a wildlife tour guide."
+  },
+  {
+    "STT": 95,
+    "GotoLocation": "Hồ nước (Lake)",
+    "MeetWho": "Người A95",
+    "Position": "Nhân viên hỗ trợ",
+    "PurposeofRequest": "Thuê thuyền hoặc câu cá",
+    "Task": "Đến Hồ nước gặp Người A95 nhằm yêu cầu thuê thuyền",
+    "Need": "I need to rent a boat."
+  },
+  {
+    "STT": 96,
+    "GotoLocation": "Cửa hàng đồ cũ (Second-hand store)",
+    "MeetWho": "Người A96",
+    "Position": "Nhân viên bán hàng",
+    "PurposeofRequest": "Mua hoặc bán đồ cũ",
+    "Task": "Đến Cửa hàng đồ cũ gặp Người A96 nhằm yêu cầu mua một món đồ cũ",
+    "Need": "I need to buy a second-hand bicycle."
+  },
+  {
+    "STT": 97,
+    "GotoLocation": "Nhà máy điện (Power plant)",
+    "MeetWho": "Người A97",
+    "Position": "Kỹ thuật viên",
+    "PurposeofRequest": "Kiểm tra hệ thống điện hoặc làm việc",
+    "Task": "Đến Nhà máy điện gặp Người A97 nhằm yêu cầu hỗ trợ kiểm tra thiết bị",
+    "Need": "I need to inspect the facility."
+  },
+  {
+    "STT": 98,
+    "GotoLocation": "Nhà tù (Prison)",
+    "MeetWho": "Người A98",
+    "Position": "Quản giáo",
+    "PurposeofRequest": "Thăm tù nhân hoặc làm việc",
+    "Task": "Đến Nhà tù gặp Người A98 nhằm yêu cầu hỗ trợ thăm thân nhân",
+    "Need": "I need to visit an inmate."
+  },
+  {
+    "STT": 99,
+    "GotoLocation": "Lò gốm (Pottery workshop)",
+    "MeetWho": "Người A99",
+    "Position": "Thợ gốm",
+    "PurposeofRequest": "Làm gốm hoặc mua sản phẩm",
+    "Task": "Đến Lò gốm gặp Người A99 nhằm yêu cầu tham gia lớp học làm gốm",
+    "Need": "I want to make pottery."
+  },
+  {
+    "STT": 100,
+    "GotoLocation": "Đường phố (Street)",
+    "MeetWho": "Người A100",
+    "Position": "Người dân hoặc nhân viên hỗ trợ",
+    "PurposeofRequest": "Hỏi đường hoặc khám phá khu vực",
+    "Task": "Đến Đường phố gặp Người A100 nhằm yêu cầu chỉ đường",
+    "Need": "I need directions to the main square."
+  }
+]
