@@ -5,6 +5,8 @@ function TextToSpeechRecorder() {
   // const [text, setText] = useState(
   //   "Xin chào, đây là một ví dụ về text to speech!"
   // );
+
+  //File {text, rate, number}
   const [jsonData, setJsonData] = useState(null);
   const [Timeline, setTimeline] = useState([]);
   const [INDEX, setINDEX] = useState(0);
@@ -13,27 +15,27 @@ function TextToSpeechRecorder() {
   const [deviceId, setDeviceId] = useState(null);
   const mediaRecorderRef = useRef(null);
   const chunksRef = useRef([]);
-  useEffect(() => {
-    navigator.mediaDevices.enumerateDevices().then((devices) => {
-      devices.forEach((device) => {
-        console.log(`${device.kind}: ${device.label} (ID: ${device.deviceId})`);
-      });
-    });
-  }, []);
+  // useEffect(() => {
+  //   navigator.mediaDevices.enumerateDevices().then((devices) => {
+  //     devices.forEach((device) => {
+  //       console.log(`${device.kind}: ${device.label} (ID: ${device.deviceId})`);
+  //     });
+  //   });
+  // }, []);
   // Tìm deviceId của "CABLE Input"
-  useEffect(() => {
-    navigator.mediaDevices.enumerateDevices().then((devices) => {
-      const cableInput = devices.find(
-        (device) =>
-          device.label.includes("CABLE") && device.kind === "audioinput"
-      );
-      if (cableInput) {
-        setDeviceId(cableInput.deviceId);
-      } else {
-        console.warn("Không tìm thấy thiết bị CABLE Input.");
-      }
-    });
-  }, []);
+  // useEffect(() => {
+  //   navigator.mediaDevices.enumerateDevices().then((devices) => {
+  //     const cableInput = devices.find(
+  //       (device) =>
+  //         device.label.includes("CABLE") && device.kind === "audioinput"
+  //     );
+  //     if (cableInput) {
+  //       setDeviceId(cableInput.deviceId);
+  //     } else {
+  //       console.warn("Không tìm thấy thiết bị CABLE Input.");
+  //     }
+  //   });
+  // }, []);
 
   const handleTextToSpeech = (n, jsonDataFN) => {
     setINDEX(n);
@@ -41,6 +43,7 @@ function TextToSpeechRecorder() {
     //   alert("Không tìm thấy thiết bị CABLE Input.");
     //   return;
     // }
+
     const utterance = new SpeechSynthesisUtterance(jsonDataFN[n].text);
     utterance.rate = jsonDataFN[n].rate;
     let voices = window.speechSynthesis.getVoices();
@@ -173,9 +176,10 @@ function TextToSpeechRecorder() {
       <button
         onClick={() => {
           try {
-            handleTextToSpeech(0, jsonData[0]);
+            handleTextToSpeech(0, jsonData);
           } catch (error) {
             alert("Kiểm tra file thông tin.");
+            console.log(error);
           }
         }}
       >
@@ -185,7 +189,7 @@ function TextToSpeechRecorder() {
       <button
         onClick={() => {
           try {
-            handleTextToSpeech(0, jsonData[0]);
+            handleTextToSpeech(0, jsonData);
           } catch (error) {
             alert("Kiểm tra file thông tin.");
           }
@@ -216,7 +220,7 @@ function TextToSpeechRecorder() {
           {JSON.stringify(jsonData, null, 2)}
         </pre>
       )}
-      <VideoPlayer />
+      {/* <VideoPlayer /> */}
     </div>
   );
 }

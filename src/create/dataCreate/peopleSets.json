@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Emily",
+    "gender": "female",
+    "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg"
+  },
+  {
+    "id": 2,
+    "name": "David",
+    "gender": "male",
+    "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Jessica",
+    "gender": "female",
+    "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Michael",
+    "gender": "male",
+    "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Sarah",
+    "gender": "female",
+    "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Andrew",
+    "gender": "male",
+    "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Ashley",
+    "gender": "female",
+    "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Christopher",
+    "gender": "male",
+    "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Jennifer",
+    "gender": "female",
+    "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Joshua",
+    "gender": "male",
+    "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg"
+  }
+]

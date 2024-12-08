@@ -416,7 +416,10 @@ function GetDocument() {
         <a href="/video"> Sản xuất video</a>
         <hr />
         <button onClick={() => copyTable_f_id("DivTable_f_state")}>
-          Copy Table
+          Copy Table f state afterParce
+        </button>
+        <button onClick={() => copyTable_f_id("DivTable_f_table_in_Sreen")}>
+          Copy Table f sreen
         </button>
         <button
           onClick={() => {
@@ -430,7 +433,7 @@ function GetDocument() {
         <div style={{ whiteSpace: "pre-line" }} id="DivTable_f_state">
           {transper_to_table_f_json_obj(ParceTableFromDiv)}
         </div>
-        <ShowTableFJSON />
+        <div id="DivTable_f_table_in_Sreen">{/* <ShowTableFJSON /> */}</div>
         <div id="DivTable01"></div>
         <hr />
         <div id="ResID" style={{ padding: "15px" }}></div>
