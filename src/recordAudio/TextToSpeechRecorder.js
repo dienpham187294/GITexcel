@@ -214,12 +214,31 @@ function TextToSpeechRecorder() {
         )}
       </div>
       {error && <p style={{ color: "red" }}>{error}</p>}
-      {JSON.stringify(Timeline)}
-      {jsonData && (
-        <pre style={{ whiteSpace: "pre-wrap", wordWrap: "break-word" }}>
-          {JSON.stringify(jsonData, null, 2)}
-        </pre>
-      )}
+
+      <div>
+        {jsonData ? Timeline.length + "/" + jsonData.length : "Loading"}
+      </div>
+      <div
+        style={{
+          maxHeight: "300px",
+          overflow: "hidden",
+        }}
+      >
+        {JSON.stringify(Timeline)}
+      </div>
+      <div
+        style={{
+          maxHeight: "300px",
+          overflow: "hidden",
+        }}
+      >
+        {jsonData && (
+          <pre style={{ whiteSpace: "pre-wrap", wordWrap: "break-word" }}>
+            {JSON.stringify(jsonData, null, 2)}
+          </pre>
+        )}
+      </div>
+
       {/* <VideoPlayer /> */}
     </div>
   );
