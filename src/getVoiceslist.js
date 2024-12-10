@@ -166,7 +166,8 @@ function countAndSplitSentences(text) {
 async function ReadMessage(voiceNum, e) {
   let text = "Tôi là người Việt nam";
   if (!e.includes("vi-VN")) {
-    text = "I am a vietnamese.";
+    text =
+      "She is of medium height, has long black hair, and is always smiling.";
   }
   try {
     const sentences = countAndSplitSentences(text);

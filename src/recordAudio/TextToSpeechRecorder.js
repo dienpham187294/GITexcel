@@ -54,9 +54,6 @@ function TextToSpeechRecorder() {
     utterance.onstart = () => {
       objTimeline.begin = Date.now();
       // startRecording(); // Bắt đầu ghi âm khi phát giọng nói
-      if (n + 1 < jsonDataFN.length) {
-        handleTextToSpeech(n + 1, jsonDataFN);
-      }
     };
     let firstBoundaryLogged = false; // Biến để kiểm soát việc ghi log chỉ một lần cho từ đầu tiên
     let firstBoundaryEND = false;
@@ -91,8 +88,12 @@ function TextToSpeechRecorder() {
       objTimeline.end = Date.now();
       setTimeline((D) => [...D, objTimeline]);
       // stopRecording(); // Dừng ghi âm khi giọng nói kết thúc
+      setTimeout(() => {
+        if (n + 1 < jsonDataFN.length) {
+          handleTextToSpeech(n + 1, jsonDataFN);
+        }
+      }, 2000);
     };
-
     window.speechSynthesis.speak(utterance);
   };
 
