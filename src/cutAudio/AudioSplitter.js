@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FFmpeg } from "@ffmpeg/ffmpeg";
 import { fetchFile } from "@ffmpeg/util";
-import audio from "./data/SH1T1.mp3";
+import audio from "./data/SH1_T1.mp3";
 import jsonData_origin from "./data/SH1T1.json";
 import $ from "jquery";
 function AudioSplitter() {
@@ -34,7 +34,7 @@ function AudioSplitter() {
           const { id, begin_01, end } = item;
           $("#baocao").append(id + " "); // Display the current id
           const startTime = (begin_01 - jsonData[0].begin_01) / 1000;
-          const duration = (end - begin_01) / 1000 + 1;
+          const duration = (end - begin_01) / 1000 + 2;
 
           // Execute FFmpeg to extract the segment
           await ffmpeg.exec([

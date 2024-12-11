@@ -92,7 +92,7 @@ function TextToSpeechRecorder() {
         if (n + 1 < jsonDataFN.length) {
           handleTextToSpeech(n + 1, jsonDataFN);
         }
-      }, 2000);
+      }, 1000);
     };
     window.speechSynthesis.speak(utterance);
   };
