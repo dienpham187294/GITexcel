@@ -7,7 +7,8 @@
 
 # testing
 /coverage
-
+#mp3file
+/src/cutAudio/data
 # production
 /build
 
