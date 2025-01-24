@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { FFmpeg } from "@ffmpeg/ffmpeg";
 import { fetchFile } from "@ffmpeg/util";
-import audio from "./data/SH1_T1.mp3";
-import jsonData_origin from "./data/SH1T1.json";
+import audio from "./data/AB1_2F.mp3";
+import jsonData_origin from "./data/AB1_2F.json";
 import $ from "jquery";
 function AudioSplitter() {
   const [audioSegments, setAudioSegments] = useState([]);
@@ -12,11 +12,11 @@ function AudioSplitter() {
   const loadFFmpeg = async () => {
     await ffmpeg.load();
   };
-
+  let ArrDone = [];
   const splitAudio = async () => {
     try {
       // await loadFFmpeg();
-
+      let time = 200;
       let m = 0;
       let jsonData = jsonData_origin;
       let n = 0;
@@ -32,9 +32,9 @@ function AudioSplitter() {
           // Load the audio file
           await ffmpeg.writeFile("input.mp3", await fetchFile(audio));
           const { id, begin_01, end } = item;
-          $("#baocao").append(id + " "); // Display the current id
+
           const startTime = (begin_01 - jsonData[0].begin_01) / 1000;
-          const duration = (end - begin_01) / 1000 + 2;
+          const duration = (end - begin_01) / 1000 + 1.5;
 
           // Execute FFmpeg to extract the segment
           await ffmpeg.exec([
@@ -61,17 +61,25 @@ function AudioSplitter() {
           link.href = audioUrl;
           link.download = `${id}.mp3`;
           document.body.appendChild(link); // Append link to body
-          link.click(); // Programmatically click the link
+          link.click();
+          ArrDone.push(n);
+
+          document.getElementById(id).style.backgroundColor = "yellow";
+          // $("#baocao").append(id + " "); // Display the current id
           document.body.removeChild(link); // Remove the link after download
 
           // Terminate FFmpeg
+
           await ffmpeg.terminate(`${item.id}A.mp3`);
         } catch (error) {
           console.error("Error processing segment:", item, error);
         }
 
-        n++; // Move to the next item
-      }, 1000);
+        if (n - ArrDone[ArrDone.length - 1] === 0) {
+          n++;
+        }
+        // Move to the next item
+      }, 3000);
 
       // for (const item of jsonData.slice(200, 300)) {
       //   const { id, begin, end } = item;
@@ -134,6 +142,11 @@ function AudioSplitter() {
           </div>
         ))}
       </div>
+      {jsonData_origin.map((e, i) => (
+        <i style={{ padding: "5px", margin: "5px" }} id={e.id} key={i}>
+          {e.id}{" "}
+        </i>
+      ))}
       <div id="baocao"></div>
     </div>
   );

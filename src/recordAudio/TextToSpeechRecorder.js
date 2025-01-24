@@ -179,8 +179,12 @@ function TextToSpeechRecorder() {
           try {
             handleTextToSpeech(0, jsonData);
           } catch (error) {
-            alert("Kiểm tra file thông tin.");
-            console.log(error);
+            try {
+              handleTextToSpeech(0, [jsonData]);
+            } catch (error) {
+              alert("Kiểm tra file thông tin.");
+              console.log(error);
+            }
           }
         }}
       >
