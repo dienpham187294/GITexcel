@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { FFmpeg } from "@ffmpeg/ffmpeg";
 import { fetchFile } from "@ffmpeg/util";
-import audio from "./data/AB1_2F.mp3";
-import jsonData_origin from "./data/AB1_2F.json";
+import audio from "./data/mp3.mp3";
+import jsonData_origin from "./data/codefile_01.json";
 import $ from "jquery";
 function AudioSplitter() {
   const [audioSegments, setAudioSegments] = useState([]);
@@ -33,7 +33,7 @@ function AudioSplitter() {
           await ffmpeg.writeFile("input.mp3", await fetchFile(audio));
           const { id, begin_01, end } = item;
 
-          const startTime = (begin_01 - jsonData[0].begin_01) / 1000;
+          const startTime = (begin_01 - jsonData[0].begin_01) / 1000 + 0.6;
           const duration = (end - begin_01) / 1000 + 1.5;
 
           // Execute FFmpeg to extract the segment
@@ -64,7 +64,7 @@ function AudioSplitter() {
           link.click();
           ArrDone.push(n);
 
-          document.getElementById(id).style.backgroundColor = "yellow";
+          document.getElementById(id).style.display = "none";
           // $("#baocao").append(id + " "); // Display the current id
           document.body.removeChild(link); // Remove the link after download
 
@@ -79,7 +79,7 @@ function AudioSplitter() {
           n++;
         }
         // Move to the next item
-      }, 3000);
+      }, 6000);
 
       // for (const item of jsonData.slice(200, 300)) {
       //   const { id, begin, end } = item;
@@ -142,6 +142,7 @@ function AudioSplitter() {
           </div>
         ))}
       </div>
+      <h1>{jsonData_origin.length}</h1>
       {jsonData_origin.map((e, i) => (
         <i style={{ padding: "5px", margin: "5px" }} id={e.id} key={i}>
           {e.id}{" "}

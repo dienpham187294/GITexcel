@@ -6,6 +6,8 @@ function TextToSpeechRecorder() {
   //   "Xin chào, đây là một ví dụ về text to speech!"
   // );
 
+  let beginNumber = 2431;
+
   //File {text, rate, number}
   const [jsonData, setJsonData] = useState(null);
   const [Timeline, setTimeline] = useState([]);
@@ -94,6 +96,19 @@ function TextToSpeechRecorder() {
         }
       }, 1000);
     };
+    utterance.onerror = () => {
+      console.log(error);
+      document.getElementById("errorNotify").textContent = "errorNotify";
+      // objTimeline.end = Date.now();
+      // setTimeline((D) => [...D, objTimeline]);
+      // // stopRecording(); // Dừng ghi âm khi giọng nói kết thúc
+      // setTimeout(() => {
+      //   if (n + 1 < jsonDataFN.length) {
+      //     handleTextToSpeech(n + 1, jsonDataFN);
+      //   }
+      // }, 1000);
+    };
+
     window.speechSynthesis.speak(utterance);
   };
 
@@ -177,10 +192,10 @@ function TextToSpeechRecorder() {
       <button
         onClick={() => {
           try {
-            handleTextToSpeech(0, jsonData);
+            handleTextToSpeech(0, jsonData.slice(beginNumber));
           } catch (error) {
             try {
-              handleTextToSpeech(0, [jsonData]);
+              handleTextToSpeech(0, [jsonData.slice(beginNumber)]);
             } catch (error) {
               alert("Kiểm tra file thông tin.");
               console.log(error);
@@ -219,9 +234,11 @@ function TextToSpeechRecorder() {
         )}
       </div>
       {error && <p style={{ color: "red" }}>{error}</p>}
-
+      <h1 id="errorNotify"></h1>
       <div>
-        {jsonData ? Timeline.length + "/" + jsonData.length : "Loading"}
+        {jsonData
+          ? Timeline.length + beginNumber + "/" + jsonData.length
+          : "Loading"}
       </div>
       <div
         style={{
@@ -250,3 +267,16 @@ function TextToSpeechRecorder() {
 }
 
 export default TextToSpeechRecorder;
+function findAndSlice(arr, n) {
+  // Tìm phần tử có id = n
+  if (n === null) {
+    return arr;
+  }
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].id === n) {
+      // Trả về mảng con từ phần tử n+1 đến hết mảng
+      return arr.slice(i);
+    }
+  }
+  return arr; // Nếu không tìm thấy phần tử với id = n
+}
