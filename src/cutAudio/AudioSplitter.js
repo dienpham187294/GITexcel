@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FFmpeg } from "@ffmpeg/ffmpeg";
 import { fetchFile } from "@ffmpeg/util";
-import audio from "./data/mp3.mp3";
+import audio from "./data_can_push/mp3.mp3";
 import jsonData_origin from "./data/codefile_01.json";
 import $ from "jquery";
 function AudioSplitter() {
