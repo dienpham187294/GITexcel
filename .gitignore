@@ -10,6 +10,7 @@
 # mp3 files in cutData
 /src/cutAudio/data/*.mp3
 
+
 # production
 /build
 
