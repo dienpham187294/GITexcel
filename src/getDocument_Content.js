@@ -1,18 +1,30 @@
 import { useEffect, useState } from "react";
 import $ from "jquery";
 import readXlsxFile from "read-excel-file";
-import * as TransferData from "./Create_A_InputData_Tranfer_01";
-import * as TransferData2024 from "./Create_A_InputData_Tranfer_2024_HOPEFINAL";
 import transferTextToArray from "./transferTextToArray";
+import * as Button_chuyendoi_001 from "./create/getDocumentContent_helper_function/Button_chuyendoi_001";
+import * as ChuyenDoi_Buoc_1 from "./create/getDocumentContent_helper_function/JSON_chuyendoiSangDangThucbang";
+import * as ChuyenDoi_Buoc_2 from "./create/getDocumentContent_helper_function/Create_A_InputData_Tranfer_2024_HOPEFINAL_C001";
+import {
+  findClosestMatch,
+  getRandomElement,
+  parceARandomSets,
+  shuffleArray,
+  collectWeSay,
+  removeNoneElements,
+  transper_to_table_f_json_obj,
+  copyTable_f_id,
+} from "./ulti/help_prac_function";
+
 function GetDocument() {
   const [IndexExcel, SetIndexExcel] = useState("1");
-  const [ImgAndVocals, SetImgAndVocals] = useState(null);
-
   useEffect(() => {
     const handleFileChange = async (event) => {
       try {
         let ArrIndex;
+
         const indexText = $("#IndexExcel").text();
+
         if (indexText.includes("-")) {
           ArrIndex = transferTextToArray(indexText);
         } else {
@@ -20,6 +32,7 @@ function GetDocument() {
         }
 
         let ArrOUT = [];
+
         for (const e of ArrIndex) {
           // Note: Assuming readXlsxFile returns a promise
           const rows = await readXlsxFile(event.target.files[0], { sheet: e });
@@ -43,75 +56,99 @@ function GetDocument() {
       input.removeEventListener("change", handleFileChange);
     };
   }, []);
-
   return (
-    <div className="container-fluid row" id="CreateDiv">
-      <div style={{ display: "" }}>
-        <input type="file" id="input" />
-        <button
-          onClick={() => {
-            $("#input").val("");
-            $("#ResID").text("");
-          }}
-        >
-          Reset
-        </button>
-
-        <hr />
-
-        <p id="IndexExcel"> {IndexExcel}</p>
-        <input
-          placeholder="Nhập ds file name cần lấy"
-          onChange={(e) => {
-            SetIndexExcel(e.currentTarget.value.trim());
-          }}
-          type={"text"}
-        />
-        <hr />
-
-        {/* {showButtonNew(TransferData)} */}
-        {/* <hr />
-        {showButtonNew(TransferData2024)} */}
-
-        <button
-          onClick={() => {
-            try {
-              if (ImgAndVocals === null) {
-                SetImgAndVocals(JSON.parse($("#ResID").text()));
-              } else {
-                SetImgAndVocals(null);
-              }
-            } catch (error) {}
-          }}
-        >
-          GET TABLE IMG AND VOCALS
-        </button>
-        <hr />
-
-        {ImgAndVocals !== null ? tableDataView(ImgAndVocals, 2) : null}
-        <hr />
-        <i>Các funtion get data inside: Volce and image -vocals; img-</i>
-        <div id="ResID" style={{ padding: "35px" }}></div>
-        <div id="getInnerHtml">
+    <div style={{ display: "", padding: "5%" }} id="remodeDiv">
+      Lấy sheet: <b id="IndexExcel"> {IndexExcel}</b>
+      <input
+        placeholder="Nhập ds file name cần lấy"
+        onChange={(e) => {
+          SetIndexExcel(e.currentTarget.value.trim());
+        }}
+        type={"text"}
+      />
+      <input type="file" id="input" />
+      <button
+        onClick={() => {
+          $("#input").val("");
+          $("#ResID").text("");
+        }}
+      >
+        Xóa
+      </button>
+      <div className="row">
+        <div className="col-6">
+          {" "}
+          {showButtonNew(Button_chuyendoi_001)}
           <hr />
+          {showButtonNew(ChuyenDoi_Buoc_1)} <hr />
+          {showButtonNew(ChuyenDoi_Buoc_2)}
+        </div>
+        <div className="col-6">
+          Các nút con<div id="viewBTN"></div>
+          <div id="showID" style={{ color: "blue" }}></div>
         </div>
       </div>
+      <hr />
+      <div className="row" style={{ maxHeight: "400px", overflow: "hidden" }}>
+        <div className="col-3">
+          ResID#01
+          <div id="ResID"></div>
+        </div>
+        <div className="col-3">
+          ResID#02
+          <div id="ResID02"></div>
+        </div>
+        <div className="col-3">
+          ResID#03
+          <div id="ResID03"></div>
+        </div>
+        <div className="col-3">
+          ResID#04
+          <div id="ResID04"></div>
+        </div>
+      </div>
+      <button
+        onClick={() => {
+          try {
+            const div = document.getElementById("ResID05");
 
-      <div></div>
+            // Lấy nội dung text của div
+            const content = div.innerText;
 
-      <div id="showKQ"></div>
+            // Tạo một textarea tạm thời để sao chép nội dung
+            const tempTextArea = document.createElement("textarea");
+            tempTextArea.value = content;
+            document.body.appendChild(tempTextArea);
+            tempTextArea.select();
+            document.execCommand("copy");
+            document.body.removeChild(tempTextArea);
+
+            alert("Content copied to clipboard!");
+          } catch (error) {}
+        }}
+      >
+        COPY NỘI DUNG TABLE VỪA TẠO #ResID05
+      </button>
+      <div style={{ maxHeight: "300px", overflow: "hidden" }}>
+        <div id="ResID05"></div>
+      </div>
     </div>
   );
 }
 
 export default GetDocument;
 
-function showButton(ArrBTN) {
+function showButton(ArrBTN, color) {
   let ArrObj = Object.keys(ArrBTN);
 
   return ArrObj.map((e, i) => (
     <button
       key={i}
+      style={{
+        borderRadius: "15px",
+        borderColor: color ? color : "black",
+        color: color ? color : "black",
+      }}
       onClick={() => {
         ArrBTN[e]();
       }}
@@ -119,67 +156,6 @@ function showButton(ArrBTN) {
       {e}
     </button>
   ));
-}
-
-function tableDataView(ImgAndVocals, mode) {
-  if (mode === 2) {
-    return (
-      <table>
-        {ImgAndVocals.map((e, i) => (
-          <tr key={i}>
-            <td>{e.vocals}</td>
-            <td>{e.img}</td>
-          </tr>
-        ))}
-      </table>
-    );
-  }
-
-  try {
-    let aSets = [];
-    ImgAndVocals.forEach((e, i) => {
-      e.qsAndAw.forEach((e1) => {
-        aSets.push({ id: "A" + i, qs: e1.qs, aw: [e1.aw] });
-      });
-    });
-
-    return (
-      <>
-        {mode === 1
-          ? JSON.stringify(aSets)
-          : // <table>
-            //   {ImgAndVocals.map((e, i) =>
-            //     e.qsAndAw.map((e1, i1) => (
-            //       <tr key={i1}>
-            //         <td>{"A" + i}</td>
-            //         <td>{e1.qs}</td>
-            //         <td>{e1.aw}</td>
-            //       </tr>
-            //     ))
-            //   )}
-            // </table>
-            null}
-
-        {mode === 0 ? (
-          <table>
-            {ImgAndVocals.map((e, i) => (
-              <tr key={i}>
-                {/* <td>{e.vocals}</td>
-            <td>{e.img}</td> */}
-                <td>{e.head}</td>
-                <td>{e.subHead}</td>
-                <td>{e.storyEn}</td>
-                <td>{e.storyVn}</td>
-                <td>{JSON.stringify(e.qsAndAw)}</td>
-              </tr>
-            ))}
-          </table>
-        ) : null}
-      </>
-    );
-  } catch (error) {
-    return "Lỗi";
-  }
 }
 
 function showButtonNew(ArrBTN) {
@@ -191,7 +167,6 @@ function showButtonNew(ArrBTN) {
       key={i}
       onClick={() => {
         document.getElementById("showID").textContent = e;
-
         try {
           ArrBTN[e]();
         } catch (error) {

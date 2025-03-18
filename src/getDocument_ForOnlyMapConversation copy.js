@@ -368,18 +368,19 @@ function GetDocument() {
         <div style={{ padding: "0 10% " }}>
           {showButton(TransferData_01, "blue")}
         </div>
-        <div style={{ padding: "0 2% " }}>
-          {showButton(TransferData_f_json_to_jsonDivTable, "green")}
-        </div>
-        <select
+        {/* <div style={{ padding: "0 2% " }}>
+          {showButtonNew(TransferData_f_json_to_jsonDivTable, "green")}
+        </div> */}
+        <div id="viewBTN"></div>
+        {/* <select
           onChange={(e) => {
             SetDocumentMode(e.currentTarget.value);
           }}
         >
           <option value={"A1"}>A1</option>
           <option value={"A2"}>A2</option>
-        </select>
-        <button
+        </select> */}
+        {/* <button
           className="btn btn-primary"
           style={{ border: "6px solid purple" }}
           onClick={() => {
@@ -394,7 +395,7 @@ function GetDocument() {
           }}
         >
           GET DOCUMENT
-        </button>
+        </button> */}
         <br />
         {JSON.stringify(ObjRead)}
         <button
@@ -1066,4 +1067,57 @@ function DataTableALLInformation(arr) {
   } else {
     return <div>No data available</div>; // Fallback when no data is passed
   }
+}
+
+function showButtonNew(ArrBTN) {
+  let ArrObj = Object.keys(ArrBTN);
+
+  return ArrObj.map((e, i) => (
+    <button
+      id={e}
+      key={i}
+      onClick={() => {
+        document.getElementById("showID").textContent = e;
+
+        try {
+          ArrBTN[e]();
+        } catch (error) {
+          // Ensure that the module's default or named exports are correctly resolved
+          const moduleObject = ArrBTN[e];
+
+          // Check if moduleObject is valid and contains functions
+          if (moduleObject && typeof moduleObject === "object") {
+            // Get function names correctly from moduleObject
+            const functionNames = Object.keys(moduleObject).filter(
+              (key) => typeof moduleObject[key] === "function"
+            );
+
+            // console.log("Module Object:", moduleObject);
+            // console.log("Function Names:", functionNames);
+
+            // Find the element with id="viewBTN"
+            const viewBTN = document.getElementById("viewBTN");
+            viewBTN.textContent = "";
+            if (viewBTN) {
+              // Append buttons for each function to viewBTN
+              functionNames.forEach((funcName) => {
+                const button = document.createElement("button"); // Create button
+                button.textContent = funcName; // Set button text
+                button.onclick = moduleObject[funcName]; // Assign click handler
+                viewBTN.appendChild(button); // Append button to viewBTN
+              });
+            } else {
+              console.error('Element with id="viewBTN" not found.');
+            }
+          } else {
+            console.error(
+              "Invalid module object or no functions found in ArrBTN[e]."
+            );
+          }
+        }
+      }}
+    >
+      {e}
+    </button>
+  ));
 }
