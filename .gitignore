@@ -9,7 +9,7 @@
 /coverage
 # mp3 files in cutData
 /src/cutAudio/data/*.mp3
-
+!/src/cutAudio/data/mp3.mp3
 
 # production
 /build

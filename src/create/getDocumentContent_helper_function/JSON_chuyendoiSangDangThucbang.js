@@ -1,6 +1,6 @@
 import $ from "jquery";
 import { replace } from "react-router-dom";
-
+import peopleSets from "../dataCreate/peopleSets.json";
 function GetData() {
   let data_get_from_RESID = [];
   try {
@@ -152,6 +152,12 @@ function FN_01() {
     res07.push(JSON.parse(e));
   });
 
+  res07.forEach((e, i) => {
+    e.img = peopleSets[i % 10].img;
+    e.name = peopleSets[i % 10].name;
+    e.gender = peopleSets[i % 10].gender;
+    // e.stt = i + 1;
+  });
   createTableFromArray("ResID05", res07);
 
   $("#ResID02").text(JSON.stringify(res07));

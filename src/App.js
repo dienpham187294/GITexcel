@@ -12,6 +12,7 @@ import NewVideoModel from "./newVideoModel/NewVideoModel.js";
 import NewTableFromJson from "./getNewTableFormJSON/NewTableFromJson.js";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { isMobile } from "pixi.js";
+
 function App() {
   return (
     <Router>

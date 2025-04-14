@@ -165,7 +165,8 @@ function transformInputArray(inputArray) {
   } catch (error) {}
 
   let get_unique_listenSets_a_typeSets = extractAndConcat(charactor);
-  const ListenList = get_unique_listenSets_a_typeSets[0];
+  const ListenList = [];
+  // get_unique_listenSets_a_typeSets[0];
   const typeSets = get_unique_listenSets_a_typeSets[1];
 
   function extractAndConcat(characters) {
@@ -454,8 +455,14 @@ function transMultiSet() {
   let alladdId = [];
   let iCount_female = 0;
   let iCount_male = 0;
-  const langIDFemale = [101, 103, 105, 107];
-  const langIDMale = [102, 104, 106, 108];
+  const langIDFemale = [
+    101,
+    //  103, 105, 107
+  ];
+  const langIDMale = [
+    102,
+    //  104, 106, 108
+  ];
 
   res.forEach((e) => {
     e.charactor = e.charactor.filter((e1) => e1.gender !== null);
@@ -470,24 +477,24 @@ function transMultiSet() {
       let langid = "101";
       let index_to_random = index_total;
       if (eChar.gender === "female") {
-        langid = langIDFemale[index_to_random % 4];
+        langid = langIDFemale[index_to_random % 1];
         // iCount_female++;
       }
       if (eChar.gender === "male") {
-        langid = langIDMale[index_to_random % 4];
+        langid = langIDMale[index_to_random % 1];
         // iCount_male++;
       }
 
       if (eChar.fsp !== undefined) {
         alladdId.push({
           text: eChar.fsp,
-          audioCode: RepresentativeCode + i,
+          audioCode: RepresentativeCode + "a" + i,
           lang: langid,
         });
         eChar.fspSets = [
           {
             st: eChar.fsp,
-            id: RepresentativeCode + i,
+            id: RepresentativeCode + "a" + i,
             // lang: langid,
           },
         ];
@@ -500,12 +507,12 @@ function transMultiSet() {
             eConver.aw.forEach((eQsSentence) => {
               alladdId.push({
                 text: eQsSentence,
-                audioCode: RepresentativeCode + i,
+                audioCode: RepresentativeCode + "a" + i,
                 lang: langid,
               });
               eConver.aw01.push({
                 st: eQsSentence,
-                id: RepresentativeCode + i,
+                id: RepresentativeCode + "a" + i,
                 // lang: langid,
               });
               i++;
@@ -516,8 +523,8 @@ function transMultiSet() {
     });
   });
 
-  let UP_01 = ["E", "F"];
-  let UP_02 = ["G", "H"];
+  let UP_01 = ["Z"];
+  let UP_02 = ["X", "H"];
   res.forEach((e) => {
     e.charactor_01 = shuffleArray_inorder_of_type(e.charactor, e.typeSets);
 

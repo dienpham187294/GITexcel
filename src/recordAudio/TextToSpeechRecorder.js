@@ -6,7 +6,7 @@ function TextToSpeechRecorder() {
   //   "Xin chào, đây là một ví dụ về text to speech!"
   // );
 
-  let beginNumber = 2431;
+  let beginNumber = 0;
 
   //File {text, rate, number}
   const [jsonData, setJsonData] = useState(null);
