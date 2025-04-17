@@ -10,6 +10,8 @@ import TextToSpeechRecorder from "./recordAudio/TextToSpeechRecorder.js";
 import AudioSplitter from "./cutAudio/AudioSplitter.js";
 import NewVideoModel from "./newVideoModel/NewVideoModel.js";
 import NewTableFromJson from "./getNewTableFormJSON/NewTableFromJson.js";
+import YoutubeDiv from "./YoutubeGetLink.js";
+import YouTubePlaylist from "./YoutubePlaylist.js";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { isMobile } from "pixi.js";
 
@@ -28,6 +30,7 @@ function App() {
           <Route path="/newvideomodel" element={<NewVideoModel />} />
           <Route path="/newtable" element={<NewTableFromJson />} />
           <Route path="/cut" element={<AudioSplitter />} />
+          <Route path="/youtube" element={<YouTubePlaylist />} />
         </Routes>
       </div>
     </Router>

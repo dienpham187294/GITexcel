@@ -52,6 +52,7 @@ function unifyOutside(input) {
 function processArrayGetMap(mappingArray) {
   const input = mappingArray[0];
   let resultHD = [];
+  let resultTV = [];
   let resultTB = [];
   let resultIF = [];
   let resultOthers = [];
@@ -63,6 +64,8 @@ function processArrayGetMap(mappingArray) {
         } else if (element.includes("HD-B")) {
         } else if (element.includes("HD")) {
           resultHD.push(i);
+        } else if (element.includes("TV")) {
+          resultTV.push(i);
         } else if (element.includes("TB")) {
           resultTB.push(i);
         } else if (element.includes("IF") || element.includes("If")) {
@@ -74,7 +77,7 @@ function processArrayGetMap(mappingArray) {
     } catch (error) {}
   });
 
-  return [resultIF, resultHD, resultTB, resultOthers];
+  return [resultIF, resultHD, resultTB, resultOthers, resultTV];
 }
 
 function shuffleArray_inorder_of_type(charactor, typeSets) {
@@ -134,7 +137,7 @@ function transformInputArray(inputArray) {
 
   const mapping = processArrayGetMap(inputArray);
 
-  let res = [[], [], [], [], []];
+  let res = [[], [], [], [], [], []];
   inputArray.forEach((e) => {
     function getElements(indices) {
       return indices.map((index) => e[index]);
@@ -143,11 +146,13 @@ function transformInputArray(inputArray) {
     const resultHD = getElements(mapping[1]);
     const resultTB = getElements(mapping[2]);
     const resultOthers = getElements(mapping[3]);
+    const resultTV = getElements(mapping[4]);
 
     res[0].push(resultIF);
     res[1].push(resultHD);
     res[2].push(resultTB);
     res[3].push(resultOthers);
+    res[4].push(resultTV);
   });
 
   let IF = removeAllNullObjects(nextStepOutside(res[0]));
@@ -155,6 +160,7 @@ function transformInputArray(inputArray) {
   console.log(JSON.stringify(IF));
 
   let HD = removeAllNullObjects(nextStepOutside(res[1]));
+  let TV = removeAllNullObjects(nextStepOutside(res[4]));
   let TB = extractNonNullValuesByIndex(
     removeAllNullObjects(nextStepOutside(res[2]))
   );
@@ -257,6 +263,7 @@ function transformInputArray(inputArray) {
       IF: toOUTSeo(IF[0]),
       HD: HD,
       TB: TB,
+      TV: TV,
     },
   };
 }
