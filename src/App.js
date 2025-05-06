@@ -12,6 +12,11 @@ import NewVideoModel from "./newVideoModel/NewVideoModel.js";
 import NewTableFromJson from "./getNewTableFormJSON/NewTableFromJson.js";
 import YoutubeDiv from "./YoutubeGetLink.js";
 import YouTubePlaylist from "./YoutubePlaylist.js";
+// import VideoMerger from "./ghepMp4/GhepMp4.js";
+// import VideoMerger01 from "./ghepMp4/GhepMp4_01.js";
+// import VideoMerger02 from "./ghepMp4/GhepMp4_02.js";
+import VideoMerger03 from "./ghepMp4/GhepMp4_03.js";
+import GhiAm from "./ghiAm/ghiAm.js";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { isMobile } from "pixi.js";
 
@@ -30,6 +35,11 @@ function App() {
           <Route path="/newvideomodel" element={<NewVideoModel />} />
           <Route path="/newtable" element={<NewTableFromJson />} />
           <Route path="/cut" element={<AudioSplitter />} />
+          {/* <Route path="/merge" element={<VideoMerger />} />
+          <Route path="/merge01" element={<VideoMerger01 />} />
+          <Route path="/merge02" element={<VideoMerger02 />} />{" "} */}
+          <Route path="/merge" element={<VideoMerger03 />} />{" "}
+          <Route path="/ghiam" element={<GhiAm />} />
           <Route path="/youtube" element={<YouTubePlaylist />} />
         </Routes>
       </div>

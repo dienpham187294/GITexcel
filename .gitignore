@@ -10,6 +10,9 @@
 # mp3 files in cutData
 /src/cutAudio/data/*.mp3
 !/src/cutAudio/data/mp3.mp3
+# all mp4
+.mp4
+
 
 # production
 /build

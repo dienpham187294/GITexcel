@@ -53,6 +53,7 @@ function processArrayGetMap(mappingArray) {
   const input = mappingArray[0];
   let resultHD = [];
   let resultTV = [];
+  let resultIPA = [];
   let resultTB = [];
   let resultIF = [];
   let resultOthers = [];
@@ -66,6 +67,8 @@ function processArrayGetMap(mappingArray) {
           resultHD.push(i);
         } else if (element.includes("TV")) {
           resultTV.push(i);
+        } else if (element.includes("IP")) {
+          resultIPA.push(i);
         } else if (element.includes("TB")) {
           resultTB.push(i);
         } else if (element.includes("IF") || element.includes("If")) {
@@ -77,7 +80,7 @@ function processArrayGetMap(mappingArray) {
     } catch (error) {}
   });
 
-  return [resultIF, resultHD, resultTB, resultOthers, resultTV];
+  return [resultIF, resultHD, resultTB, resultOthers, resultTV, resultIPA];
 }
 
 function shuffleArray_inorder_of_type(charactor, typeSets) {
@@ -137,7 +140,7 @@ function transformInputArray(inputArray) {
 
   const mapping = processArrayGetMap(inputArray);
 
-  let res = [[], [], [], [], [], []];
+  let res = [[], [], [], [], [], [], []];
   inputArray.forEach((e) => {
     function getElements(indices) {
       return indices.map((index) => e[index]);
@@ -147,12 +150,13 @@ function transformInputArray(inputArray) {
     const resultTB = getElements(mapping[2]);
     const resultOthers = getElements(mapping[3]);
     const resultTV = getElements(mapping[4]);
-
+    const resultIPA = getElements(mapping[5]);
     res[0].push(resultIF);
     res[1].push(resultHD);
     res[2].push(resultTB);
     res[3].push(resultOthers);
     res[4].push(resultTV);
+    res[5].push(resultIPA);
   });
 
   let IF = removeAllNullObjects(nextStepOutside(res[0]));
@@ -161,6 +165,7 @@ function transformInputArray(inputArray) {
 
   let HD = removeAllNullObjects(nextStepOutside(res[1]));
   let TV = removeAllNullObjects(nextStepOutside(res[4]));
+  let IP = removeAllNullObjects(nextStepOutside(res[5]));
   let TB = extractNonNullValuesByIndex(
     removeAllNullObjects(nextStepOutside(res[2]))
   );
@@ -264,6 +269,7 @@ function transformInputArray(inputArray) {
       HD: HD,
       TB: TB,
       TV: TV,
+      IPA: IP,
     },
   };
 }
