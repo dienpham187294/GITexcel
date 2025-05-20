@@ -89,6 +89,14 @@ function GetDocument() {
         </div>
       </div>
       <hr />
+      <button
+        onClick={() => {
+          generateDownloadLinkFromDiv();
+        }}
+      >
+        {" "}
+        lấy link down load
+      </button>
       <div className="row" style={{ maxHeight: "400px", overflow: "hidden" }}>
         <div className="col-3">
           ResID#01
@@ -208,4 +216,41 @@ function showButtonNew(ArrBTN) {
       {e}
     </button>
   ));
+}
+
+// Hàm tải xuống dữ liệu dạng JSON
+function generateDownloadLinkFromDiv() {
+  const sourceDiv = document.getElementById("ResID");
+  const targetDiv = document.getElementById("ResID02");
+
+  if (!sourceDiv || !targetDiv) {
+    console.error("Không tìm thấy div với id 'ResID' hoặc 'ResID02'");
+    return;
+  }
+
+  try {
+    // Lấy và parse nội dung JSON từ ResID
+    const data = JSON.parse(sourceDiv.textContent || sourceDiv.innerText);
+
+    // Tạo file blob từ dữ liệu JSON
+    const jsonString = JSON.stringify(data, null, 2);
+    const blob = new Blob([jsonString], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+
+    // Tạo thẻ <a> để tải file
+    const downloadLink = document.createElement("a");
+    downloadLink.href = url;
+    downloadLink.download = "result" + $("#IndexExcel").text() + ".json";
+    downloadLink.textContent =
+      "Tải xuống kết quả JSON" + $("#IndexExcel").text();
+    downloadLink.style.display = "inline-block";
+    downloadLink.style.marginTop = "10px";
+
+    // Xóa các link cũ (nếu có) rồi thêm mới
+    targetDiv.innerHTML = "";
+    targetDiv.appendChild(downloadLink);
+  } catch (err) {
+    console.error("Không thể phân tích JSON từ nội dung của div 'ResID':", err);
+    targetDiv.textContent = "Lỗi: Dữ liệu không hợp lệ.";
+  }
 }
