@@ -18,6 +18,14 @@ import {
 
 function GetDocument() {
   const [IndexExcel, SetIndexExcel] = useState("1");
+
+  useEffect(() => {
+    // Lấy param từ URL, ví dụ: http://localhost:3000/?row=4
+    const params = new URLSearchParams(window.location.search);
+    const rowParam = params.get("row"); // sẽ ra "4"
+    document.getElementById("SODONGEXCELCANLAYID").textContent = rowParam || 4;
+  }, []);
+
   useEffect(() => {
     const handleFileChange = async (event) => {
       try {
@@ -76,19 +84,7 @@ function GetDocument() {
         Xóa
       </button>
       <br />(<b id="SODONGEXCELCANLAYID">4</b>)
-      <select
-        onChange={(e) => {
-          document.getElementById("SODONGEXCELCANLAYID").textContent =
-            e.currentTarget.value;
-        }}
-      >
-        <option value="">Số dòng excel cần lấy</option>
-        {Array.from({ length: 100 }, (_, i) => (
-          <option key={i + 1} value={i + 1}>
-            {i + 1}
-          </option>
-        ))}
-      </select>
+      <i>DÙNG params ?row= để set số dòng excel cần chọn</i>
       <div className="row">
         <div className="col-6">
           {" "}

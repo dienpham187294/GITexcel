@@ -4,6 +4,7 @@ import peopleSets from "../dataCreate/peopleSets.json";
 import * as XLSX from "xlsx";
 // import Data_hd from "./data_HD01.json";
 // import data_ZZZZA1 from "./data_ZZZZA1.json";
+
 function GetData() {
   let data_get_from_RESID = [];
   try {
