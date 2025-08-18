@@ -37,14 +37,14 @@ function VideoMerger() {
     const { ID_01, ID_02 } = videoList[n];
     const file1Url = `${process.env.PUBLIC_URL}/data/${ID_01}.mp4`;
     const file2Url = `${process.env.PUBLIC_URL}/data/${ID_02}.mp4`;
-    const outroUrl = `${process.env.PUBLIC_URL}/data/project_outro.mp4`;
+    const url01Url = `${process.env.PUBLIC_URL}/data/${ID_01}.mp4`;
 
-    setCurrentPair(`${ID_01} + ${ID_02} + outro`);
+    setCurrentPair(`${ID_01} + ${ID_02} + url01`);
     setCurrentOperation(`Bắt đầu xử lý cặp video ${n + 1}/${videoList.length}`);
     setMergeProgress(0);
     setProcessedCount(n);
 
-    let file1Data, file2Data, outroData;
+    let file1Data, file2Data, url01Data;
     let status = true;
 
     try {
@@ -68,18 +68,18 @@ function VideoMerger() {
     }
 
     try {
-      setCurrentOperation("Đang tải video outro (project_outro.mp4)...");
-      outroData = await fetchFile(outroUrl);
+      setCurrentOperation("Đang tải video url01 (url01.mp4)...");
+      url01Data = await fetchFile(url01Url);
       setMergeProgress(15);
     } catch (err) {
-      setMissingFiles((prev) => [...prev, "project_outro.mp4"]);
+      setMissingFiles((prev) => [...prev, "url01.mp4"]);
       status = false;
-      console.error("Không tìm thấy file: project_outro.mp4", err);
+      console.error("Không tìm thấy file: url01.mp4", err);
     }
 
     if (!status) {
       console.log(
-        `Bỏ qua cặp ${ID_01}+${ID_02}+outro do thiếu file, chuyển sang cặp tiếp theo`
+        `Bỏ qua cặp ${ID_01}+${ID_02}+url01 do thiếu file, chuyển sang cặp tiếp theo`
       );
       setTimeout(() => {
         mergeVideos(videoList, n + 1);
@@ -109,7 +109,7 @@ function VideoMerger() {
       // Clean up existing files
       await safeUnlink("file1.mp4");
       await safeUnlink("file2.mp4");
-      await safeUnlink("outro.mp4");
+      await safeUnlink("url01.mp4");
       await safeUnlink("temp1.mp4");
       await safeUnlink("temp2.mp4");
       await safeUnlink("temp3.mp4");
@@ -119,7 +119,6 @@ function VideoMerger() {
       // Prepare first video
       setCurrentOperation(`Đang chuẩn bị video 1 (${ID_01}.mp4)...`);
       await ffmpeg.writeFile("file1.mp4", file1Data);
-
       // Re-encode first video to ensure compatibility
       await ffmpeg.exec([
         "-i",
@@ -141,7 +140,6 @@ function VideoMerger() {
       // Prepare second video
       setCurrentOperation(`Đang chuẩn bị video 2 (${ID_02}.mp4)...`);
       await ffmpeg.writeFile("file2.mp4", file2Data);
-
       // Re-encode second video
       await ffmpeg.exec([
         "-i",
@@ -160,14 +158,13 @@ function VideoMerger() {
       ]);
       setMergeProgress(35);
 
-      // Prepare outro video
-      setCurrentOperation("Đang chuẩn bị video outro...");
-      await ffmpeg.writeFile("outro.mp4", outroData);
-
-      // Re-encode outro video
+      // Prepare url01 video
+      setCurrentOperation("Đang chuẩn bị video url01...");
+      await ffmpeg.writeFile("url01.mp4", url01Data);
+      // Re-encode url01 video
       await ffmpeg.exec([
         "-i",
-        "outro.mp4",
+        "url01.mp4",
         "-c:v",
         "libx264",
         "-crf",
@@ -218,20 +215,20 @@ function VideoMerger() {
 
       const link = document.createElement("a");
       link.href = mergedUrl;
-      link.download = `${ID_01}_${ID_02}_with_outro.mp4`;
+      link.download = `${ID_01}_${ID_02}_with_url01.mp4`;
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
 
       setCurrentOperation(
-        `Video ${ID_01}_${ID_02}_with_outro.mp4 đã được tạo thành công!`
+        `Video ${ID_01}_${ID_02}_with_url01.mp4 đã được tạo thành công!`
       );
       setMergeProgress(100);
 
       // Clean up all files
       await safeUnlink("file1.mp4");
       await safeUnlink("file2.mp4");
-      await safeUnlink("outro.mp4");
+      await safeUnlink("url01.mp4");
       await safeUnlink("temp1.mp4");
       await safeUnlink("temp2.mp4");
       await safeUnlink("temp3.mp4");
@@ -245,7 +242,6 @@ function VideoMerger() {
     } catch (err) {
       console.error("Lỗi khi merge video:", err);
       setError(`❌ Lỗi khi ghép video: ${err.message}`);
-
       // Continue with next pair even if there's an error
       setTimeout(() => {
         mergeVideos(videoList, n + 1);
@@ -265,7 +261,7 @@ function VideoMerger() {
   return (
     <div className="max-w-2xl mx-auto p-6 bg-white rounded-lg shadow-md">
       <h1 className="text-2xl font-bold text-center mb-6">
-        Merge Video Pairs + Outro
+        Merge Video Pairs + URL01
       </h1>
 
       <button
@@ -322,7 +318,7 @@ function VideoMerger() {
               className="flex justify-between py-1 border-b last:border-0"
             >
               <div>
-                {item.ID_01} + {item.ID_02} + outro
+                {item.ID_01} + {item.ID_02} + url01
               </div>
               {processing && index < processedCount && (
                 <span className="text-green-600">✓ Đã xử lý</span>

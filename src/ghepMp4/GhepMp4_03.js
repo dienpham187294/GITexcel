@@ -44,7 +44,9 @@ function VideoMerger() {
 
     const file1Url = `${process.env.PUBLIC_URL}/data/${ID_01}.mp4`;
     const file2Url = `${process.env.PUBLIC_URL}/data/${ID_02}.mp4`;
-    const outroUrl = `${process.env.PUBLIC_URL}/data/project_outro.mp4`;
+    const outroUrl = `${process.env.PUBLIC_URL}/data/${ID_01}.mp4`;
+
+    // const outroUrl = `${process.env.PUBLIC_URL}/data/project_outro.mp4`;
 
     setCurrentPair(`${ID_01} + ${ID_02} + outro`);
     setCurrentOperation(`Bắt đầu xử lý cặp video ${n + 1}/${videoList.length}`);

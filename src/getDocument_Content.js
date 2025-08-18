@@ -75,6 +75,20 @@ function GetDocument() {
       >
         Xóa
       </button>
+      <br />(<b id="SODONGEXCELCANLAYID">4</b>)
+      <select
+        onChange={(e) => {
+          document.getElementById("SODONGEXCELCANLAYID").textContent =
+            e.currentTarget.value;
+        }}
+      >
+        <option value="">Số dòng excel cần lấy</option>
+        {Array.from({ length: 100 }, (_, i) => (
+          <option key={i + 1} value={i + 1}>
+            {i + 1}
+          </option>
+        ))}
+      </select>
       <div className="row">
         <div className="col-6">
           {" "}
@@ -95,7 +109,8 @@ function GetDocument() {
         }}
       >
         {" "}
-        lấy link down load
+        Lấy link down load file JSON TH | Tạo transMutiSet (A-B) từng lần 1 và
+        bấm
       </button>
       <div className="row" style={{ maxHeight: "400px", overflow: "hidden" }}>
         <div className="col-3">

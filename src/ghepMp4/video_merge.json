@@ -1,7 +1,4097 @@
 [
   {
+    "Stt": 1,
+    "ID_02": "HD_C_01",
+    "ID_01": "HDC01",
+    "Câu hướng dẫn": "How old are you?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"How old are you?\""
+  },
+  {
+    "Stt": 2,
+    "ID_02": "HD_C_02",
+    "ID_01": "HDC02",
+    "Câu hướng dẫn": "Where are you from?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Where are you from?\""
+  },
+  {
+    "Stt": 3,
+    "ID_02": "HD_C_03",
+    "ID_01": "HDC03",
+    "Câu hướng dẫn": "What do you do?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What do you do?\""
+  },
+  {
+    "Stt": 4,
+    "ID_02": "HD_C_04",
+    "ID_01": "HDC04",
+    "Câu hướng dẫn": "What is your favorite color?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What is your favorite color?\""
+  },
+  {
+    "Stt": 5,
+    "ID_02": "HD_C_05",
+    "ID_01": "HDC05",
+    "Câu hướng dẫn": "John",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"John\""
+  },
+  {
+    "Stt": 6,
+    "ID_02": "HD_C_06",
+    "ID_01": "HDC06",
+    "Câu hướng dẫn": "David",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"David\""
+  },
+  {
+    "Stt": 7,
+    "ID_02": "HD_C_07",
+    "ID_01": "HDC07",
+    "Câu hướng dẫn": "Michael",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Michael\""
+  },
+  {
+    "Stt": 8,
+    "ID_02": "HD_C_08",
+    "ID_01": "HDC08",
+    "Câu hướng dẫn": "James",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"James\""
+  },
+  {
+    "Stt": 9,
+    "ID_02": "HD_C_09",
+    "ID_01": "HDC09",
+    "Câu hướng dẫn": "18 years old",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"18 years old\""
+  },
+  {
+    "Stt": 10,
+    "ID_02": "HD_C_10",
+    "ID_01": "HDC10",
+    "Câu hướng dẫn": "22 years old",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"22 years old\""
+  },
+  {
+    "Stt": 11,
+    "ID_02": "HD_C_11",
+    "ID_01": "HDC11",
+    "Câu hướng dẫn": "25 years old",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"25 years old\""
+  },
+  {
+    "Stt": 12,
+    "ID_02": "HD_C_12",
+    "ID_01": "HDC12",
+    "Câu hướng dẫn": "30 years old",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"30 years old\""
+  },
+  {
+    "Stt": 13,
+    "ID_02": "HD_C_13",
+    "ID_01": "HDC13",
+    "Câu hướng dẫn": "From the USA",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"From the USA\""
+  },
+  {
+    "Stt": 14,
+    "ID_02": "HD_C_14",
+    "ID_01": "HDC14",
+    "Câu hướng dẫn": "From Canada",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"From Canada\""
+  },
+  {
+    "Stt": 15,
+    "ID_02": "HD_C_15",
+    "ID_01": "HDC15",
+    "Câu hướng dẫn": "From Australia",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"From Australia\""
+  },
+  {
+    "Stt": 16,
+    "ID_02": "HD_C_16",
+    "ID_01": "HDC16",
+    "Câu hướng dẫn": "From England",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"From England\""
+  },
+  {
+    "Stt": 17,
+    "ID_02": "HD_C_17",
+    "ID_01": "HDC17",
+    "Câu hướng dẫn": "High school student",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"High school student\""
+  },
+  {
+    "Stt": 18,
+    "ID_02": "HD_C_18",
+    "ID_01": "HDC18",
+    "Câu hướng dẫn": "University student",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"University student\""
+  },
+  {
+    "Stt": 19,
+    "ID_02": "HD_C_19",
+    "ID_01": "HDC19",
+    "Câu hướng dẫn": "Office worker",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Office worker\""
+  },
+  {
+    "Stt": 20,
+    "ID_02": "HD_C_20",
+    "ID_01": "HDC20",
+    "Câu hướng dẫn": "Shop assistant",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Shop assistant\""
+  },
+  {
+    "Stt": 21,
+    "ID_02": "HD_C_21",
+    "ID_01": "HDC21",
+    "Câu hướng dẫn": "Blue",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Blue\""
+  },
+  {
+    "Stt": 22,
+    "ID_02": "HD_C_22",
+    "ID_01": "HDC22",
+    "Câu hướng dẫn": "Green",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Green\""
+  },
+  {
+    "Stt": 23,
+    "ID_02": "HD_C_23",
+    "ID_01": "HDC23",
+    "Câu hướng dẫn": "Red",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Red\""
+  },
+  {
+    "Stt": 24,
+    "ID_02": "HD_C_24",
+    "ID_01": "HDC24",
+    "Câu hướng dẫn": "Black",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Black\""
+  },
+  {
+    "Stt": 25,
+    "ID_02": "HD_C_25",
+    "ID_01": "HDC25",
+    "Câu hướng dẫn": "Who do you mean?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Who do you mean?\""
+  },
+  {
+    "Stt": 26,
+    "ID_02": "HD_C_26",
+    "ID_01": "HDC26",
+    "Câu hướng dẫn": "Tell me the topic",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Tell me the topic\""
+  },
+  {
+    "Stt": 27,
+    "ID_02": "HD_C_27",
+    "ID_01": "HDC27",
+    "Câu hướng dẫn": "Introduce yourself",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Introduce yourself\""
+  },
+  {
+    "Stt": 28,
+    "ID_02": "HD_C_28",
+    "ID_01": "HDC28",
+    "Câu hướng dẫn": "What time of day is it?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What time of day is it?\""
+  },
+  {
+    "Stt": 29,
+    "ID_02": "HD_C_29",
+    "ID_01": "HDC29",
+    "Câu hướng dẫn": "What day is today?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What day is today?\""
+  },
+  {
+    "Stt": 30,
+    "ID_02": "HD_C_30",
+    "ID_01": "HDC30",
+    "Câu hướng dẫn": "What month is it?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What month is it?\""
+  },
+  {
+    "Stt": 31,
+    "ID_02": "HD_C_31",
+    "ID_01": "HDC31",
+    "Câu hướng dẫn": "What year is it?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What year is it?\""
+  },
+  {
+    "Stt": 32,
+    "ID_02": "HD_C_32",
+    "ID_01": "HDC32",
+    "Câu hướng dẫn": "Robert",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Robert\""
+  },
+  {
+    "Stt": 33,
+    "ID_02": "HD_C_33",
+    "ID_01": "HDC33",
+    "Câu hướng dẫn": "William",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"William\""
+  },
+  {
+    "Stt": 34,
+    "ID_02": "HD_C_34",
+    "ID_01": "HDC34",
+    "Câu hướng dẫn": "Thomas",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Thomas\""
+  },
+  {
+    "Stt": 35,
+    "ID_02": "HD_C_35",
+    "ID_01": "HDC35",
+    "Câu hướng dẫn": "Daniel",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Daniel\""
+  },
+  {
+    "Stt": 36,
+    "ID_02": "HD_C_36",
+    "ID_01": "HDC36",
+    "Câu hướng dẫn": "In the morning",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"In the morning\""
+  },
+  {
+    "Stt": 37,
+    "ID_02": "HD_C_37",
+    "ID_01": "HDC37",
+    "Câu hướng dẫn": "In the afternoon",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"In the afternoon\""
+  },
+  {
+    "Stt": 38,
+    "ID_02": "HD_C_38",
+    "ID_01": "HDC38",
+    "Câu hướng dẫn": "In the evening",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"In the evening\""
+  },
+  {
+    "Stt": 39,
+    "ID_02": "HD_C_39",
+    "ID_01": "HDC39",
+    "Câu hướng dẫn": "At night",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"At night\""
+  },
+  {
+    "Stt": 40,
+    "ID_02": "HD_C_40",
+    "ID_01": "HDC40",
+    "Câu hướng dẫn": "On Monday",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"On Monday\""
+  },
+  {
+    "Stt": 41,
+    "ID_02": "HD_C_41",
+    "ID_01": "HDC41",
+    "Câu hướng dẫn": "On Friday",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"On Friday\""
+  },
+  {
+    "Stt": 42,
+    "ID_02": "HD_C_42",
+    "ID_01": "HDC42",
+    "Câu hướng dẫn": "On Sunday",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"On Sunday\""
+  },
+  {
+    "Stt": 43,
+    "ID_02": "HD_C_43",
+    "ID_01": "HDC43",
+    "Câu hướng dẫn": "On Wednesday",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"On Wednesday\""
+  },
+  {
+    "Stt": 44,
+    "ID_02": "HD_C_44",
+    "ID_01": "HDC44",
+    "Câu hướng dẫn": "In January",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"In January\""
+  },
+  {
+    "Stt": 45,
+    "ID_02": "HD_C_45",
+    "ID_01": "HDC45",
+    "Câu hướng dẫn": "In March",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"In March\""
+  },
+  {
+    "Stt": 46,
+    "ID_02": "HD_C_46",
+    "ID_01": "HDC46",
+    "Câu hướng dẫn": "In July",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"In July\""
+  },
+  {
+    "Stt": 47,
+    "ID_02": "HD_C_47",
+    "ID_01": "HDC47",
+    "Câu hướng dẫn": "In October",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"In October\""
+  },
+  {
+    "Stt": 48,
+    "ID_02": "HD_C_48",
+    "ID_01": "HDC48",
+    "Câu hướng dẫn": "In 2024",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"In 2024\""
+  },
+  {
+    "Stt": 49,
+    "ID_02": "HD_C_49",
+    "ID_01": "HDC49",
+    "Câu hướng dẫn": "In 2023",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"In 2023\""
+  },
+  {
+    "Stt": 50,
+    "ID_02": "HD_C_50",
+    "ID_01": "HDC50",
+    "Câu hướng dẫn": "In 2022",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"In 2022\""
+  },
+  {
+    "Stt": 51,
+    "ID_02": "HD_C_51",
+    "ID_01": "HDC51",
+    "Câu hướng dẫn": "In 2025",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"In 2025\""
+  },
+  {
+    "Stt": 52,
+    "ID_02": "HD_C_52",
+    "ID_01": "HDC52",
+    "Câu hướng dẫn": "Ask about time",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Ask about time\""
+  },
+  {
+    "Stt": 53,
+    "ID_02": "HD_C_53",
+    "ID_01": "HDC53",
+    "Câu hướng dẫn": "Where do you live?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Where do you live?\""
+  },
+  {
+    "Stt": 54,
+    "ID_02": "HD_C_54",
+    "ID_01": "HDC54",
+    "Câu hướng dẫn": "Do you live in a house or an apartment?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you live in a house or an apartment?\""
+  },
+  {
+    "Stt": 55,
+    "ID_02": "HD_C_55",
+    "ID_01": "HDC55",
+    "Câu hướng dẫn": "How many rooms are there?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"How many rooms are there?\""
+  },
+  {
+    "Stt": 56,
+    "ID_02": "HD_C_56",
+    "ID_01": "HDC56",
+    "Câu hướng dẫn": "Do you like your home?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you like your home?\""
+  },
+  {
+    "Stt": 57,
+    "ID_02": "HD_C_57",
+    "ID_01": "HDC57",
+    "Câu hướng dẫn": "Joseph",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Joseph\""
+  },
+  {
+    "Stt": 58,
+    "ID_02": "HD_C_58",
+    "ID_01": "HDC58",
+    "Câu hướng dẫn": "Charles",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Charles\""
+  },
+  {
+    "Stt": 59,
+    "ID_02": "HD_C_59",
+    "ID_01": "HDC59",
+    "Câu hướng dẫn": "Christopher",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Christopher\""
+  },
+  {
+    "Stt": 60,
+    "ID_02": "HD_C_60",
+    "ID_01": "HDC60",
+    "Câu hướng dẫn": "Matthew",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Matthew\""
+  },
+  {
+    "Stt": 61,
+    "ID_02": "HD_C_61",
+    "ID_01": "HDC61",
+    "Câu hướng dẫn": "In New York",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"In New York\""
+  },
+  {
+    "Stt": 62,
+    "ID_02": "HD_C_62",
+    "ID_01": "HDC62",
+    "Câu hướng dẫn": "Near the beach",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Near the beach\""
+  },
+  {
+    "Stt": 63,
+    "ID_02": "HD_C_63",
+    "ID_01": "HDC63",
+    "Câu hướng dẫn": "In the countryside",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"In the countryside\""
+  },
+  {
+    "Stt": 64,
+    "ID_02": "HD_C_64",
+    "ID_01": "HDC64",
+    "Câu hướng dẫn": "In a small town",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"In a small town\""
+  },
+  {
+    "Stt": 65,
+    "ID_02": "HD_C_65",
+    "ID_01": "HDC65",
+    "Câu hướng dẫn": "In a house",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"In a house\""
+  },
+  {
+    "Stt": 66,
+    "ID_02": "HD_C_66",
+    "ID_01": "HDC66",
+    "Câu hướng dẫn": "In an apartment",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"In an apartment\""
+  },
+  {
+    "Stt": 67,
+    "ID_02": "HD_C_67",
+    "ID_01": "HDC67",
+    "Câu hướng dẫn": "In a big house",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"In a big house\""
+  },
+  {
+    "Stt": 68,
+    "ID_02": "HD_C_68",
+    "ID_01": "HDC68",
+    "Câu hướng dẫn": "In a shared apartment",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"In a shared apartment\""
+  },
+  {
+    "Stt": 69,
+    "ID_02": "HD_C_69",
+    "ID_01": "HDC69",
+    "Câu hướng dẫn": "Three rooms",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Three rooms\""
+  },
+  {
+    "Stt": 70,
+    "ID_02": "HD_C_70",
+    "ID_01": "HDC70",
+    "Câu hướng dẫn": "Two bedrooms",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Two bedrooms\""
+  },
+  {
+    "Stt": 71,
+    "ID_02": "HD_C_71",
+    "ID_01": "HDC71",
+    "Câu hướng dẫn": "Five rooms",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Five rooms\""
+  },
+  {
+    "Stt": 72,
+    "ID_02": "HD_C-72",
+    "ID_01": "HDC-72",
+    "Câu hướng dẫn": "Four rooms",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Four rooms\""
+  },
+  {
+    "Stt": 73,
+    "ID_02": "HD_C-73",
+    "ID_01": "HDC-73",
+    "Câu hướng dẫn": "Very comfortable",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Very comfortable\""
+  },
+  {
+    "Stt": 74,
+    "ID_02": "HD_C-74",
+    "ID_01": "HDC-74",
+    "Câu hướng dẫn": "A little small",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"A little small\""
+  },
+  {
+    "Stt": 75,
+    "ID_02": "HD_C-75",
+    "ID_01": "HDC-75",
+    "Câu hướng dẫn": "Really beautiful",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Really beautiful\""
+  },
+  {
+    "Stt": 76,
+    "ID_02": "HD_C-76",
+    "ID_01": "HDC-76",
+    "Câu hướng dẫn": "Quite nice",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Quite nice\""
+  },
+  {
+    "Stt": 77,
+    "ID_02": "HD_C_77",
+    "ID_01": "HDC77",
+    "Câu hướng dẫn": "Talk about where you live",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Talk about where you live\""
+  },
+  {
+    "Stt": 78,
+    "ID_02": "HD_C_78",
+    "ID_01": "HDC78",
+    "Câu hướng dẫn": "What do you like to do in your free time?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What do you like to do in your free time?\""
+  },
+  {
+    "Stt": 79,
+    "ID_02": "HD_C_79",
+    "ID_01": "HDC79",
+    "Câu hướng dẫn": "Do you like listening to music?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you like listening to music?\""
+  },
+  {
+    "Stt": 80,
+    "ID_02": "HD_C_80",
+    "ID_01": "HDC80",
+    "Câu hướng dẫn": "What is your favorite movie?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What is your favorite movie?\""
+  },
+  {
+    "Stt": 81,
+    "ID_02": "HD_C_81",
+    "ID_01": "HDC81",
+    "Câu hướng dẫn": "Do you enjoy reading books?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you enjoy reading books?\""
+  },
+  {
+    "Stt": 82,
+    "ID_02": "HD_C_82",
+    "ID_01": "HDC82",
+    "Câu hướng dẫn": "Anthony",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Anthony\""
+  },
+  {
+    "Stt": 83,
+    "ID_02": "HD_C_83",
+    "ID_01": "HDC83",
+    "Câu hướng dẫn": "Andrew",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Andrew\""
+  },
+  {
+    "Stt": 84,
+    "ID_02": "HD_C_84",
+    "ID_01": "HDC84",
+    "Câu hướng dẫn": "Kevin",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Kevin\""
+  },
+  {
+    "Stt": 85,
+    "ID_02": "HD_C_85",
+    "ID_01": "HDC85",
+    "Câu hướng dẫn": "Brian",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Brian\""
+  },
+  {
+    "Stt": 86,
+    "ID_02": "HD_C_86",
+    "ID_01": "HDC86",
+    "Câu hướng dẫn": "Playing football with friends",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Playing football with friends\""
+  },
+  {
+    "Stt": 87,
+    "ID_02": "HD_C_87",
+    "ID_01": "HDC87",
+    "Câu hướng dẫn": "Watching TV and cooking",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Watching TV and cooking\""
+  },
+  {
+    "Stt": 88,
+    "ID_02": "HD_C_88",
+    "ID_01": "HDC88",
+    "Câu hướng dẫn": "Going to the park and cycling",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Going to the park and cycling\""
+  },
+  {
+    "Stt": 89,
+    "ID_02": "HD_C_89",
+    "ID_01": "HDC89",
+    "Câu hướng dẫn": "Playing video games",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Playing video games\""
+  },
+  {
+    "Stt": 90,
+    "ID_02": "HD_C_90",
+    "ID_01": "HDC90",
+    "Câu hướng dẫn": "Yes, very much",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, very much\""
+  },
+  {
+    "Stt": 91,
+    "ID_02": "HD_C_91",
+    "ID_01": "HDC91",
+    "Câu hướng dẫn": "Not really",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Not really\""
+  },
+  {
+    "Stt": 92,
+    "ID_02": "HD_C_92",
+    "ID_01": "HDC92",
+    "Câu hướng dẫn": "Yes, every day",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, every day\""
+  },
+  {
+    "Stt": 93,
+    "ID_02": "HD_C_93",
+    "ID_01": "HDC93",
+    "Câu hướng dẫn": "Yes, rock music is great",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, rock music is great\""
+  },
+  {
+    "Stt": 94,
+    "ID_02": "HD_C_94",
+    "ID_01": "HDC94",
+    "Câu hướng dẫn": "Spider-Man",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Spider-Man\""
+  },
+  {
+    "Stt": 95,
+    "ID_02": "HD_C_95",
+    "ID_01": "HDC95",
+    "Câu hướng dẫn": "Harry Potter",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Harry Potter\""
+  },
+  {
+    "Stt": 96,
+    "ID_02": "HD_C_96",
+    "ID_01": "HDC96",
+    "Câu hướng dẫn": "Fast & Furious",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Fast & Furious\""
+  },
+  {
+    "Stt": 97,
+    "ID_02": "HD_C_97",
+    "ID_01": "HDC97",
+    "Câu hướng dẫn": "Toy Story",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Toy Story\""
+  },
+  {
+    "Stt": 98,
+    "ID_02": "HD_C_98",
+    "ID_01": "HDC98",
+    "Câu hướng dẫn": "Sometimes at night",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sometimes at night\""
+  },
+  {
+    "Stt": 99,
+    "ID_02": "HD_C_99",
+    "ID_01": "HDC99",
+    "Câu hướng dẫn": "A little bit",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"A little bit\""
+  },
+  {
+    "Stt": 100,
+    "ID_02": "HD_C_100",
+    "ID_01": "HDC100",
+    "Câu hướng dẫn": "Only short stories",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Only short stories\""
+  },
+  {
+    "Stt": 101,
+    "ID_02": "HD_C_101",
+    "ID_01": "HDC101",
+    "Câu hướng dẫn": "Yes, fantasy books",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, fantasy books\""
+  },
+  {
+    "Stt": 102,
+    "ID_02": "HD_C_102",
+    "ID_01": "HDC102",
+    "Câu hướng dẫn": "Ask about hobbies",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Ask about hobbies\""
+  },
+  {
+    "Stt": 103,
+    "ID_02": "HD_C_103",
+    "ID_01": "HDC103",
+    "Câu hướng dẫn": "Are your parents well?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Are your parents well?\""
+  },
+  {
+    "Stt": 104,
+    "ID_02": "HD_C_104",
+    "ID_01": "HDC104",
+    "Câu hướng dẫn": "What is your brother doing now?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What is your brother doing now?\""
+  },
+  {
+    "Stt": 105,
+    "ID_02": "HD_C_105",
+    "ID_01": "HDC105",
+    "Câu hướng dẫn": "Does your family meet often?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Does your family meet often?\""
+  },
+  {
+    "Stt": 106,
+    "ID_02": "HD_C_106",
+    "ID_01": "HDC106",
+    "Câu hướng dẫn": "Do you visit your grandparents often?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you visit your grandparents often?\""
+  },
+  {
+    "Stt": 107,
+    "ID_02": "HD_C-107",
+    "ID_01": "HDC-107",
+    "Câu hướng dẫn": "Joshua",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Joshua\""
+  },
+  {
+    "Stt": 108,
+    "ID_02": "HD_C_108",
+    "ID_01": "HDC108",
+    "Câu hướng dẫn": "Mary",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Mary\""
+  },
+  {
+    "Stt": 109,
+    "ID_02": "HD_C_109",
+    "ID_01": "HDC109",
+    "Câu hướng dẫn": "Edward",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Edward\""
+  },
+  {
+    "Stt": 110,
+    "ID_02": "HD_C_110",
+    "ID_01": "HDC110",
+    "Câu hướng dẫn": "Elizabeth",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Elizabeth\""
+  },
+  {
+    "Stt": 111,
+    "ID_02": "HD_C_111",
+    "ID_01": "HDC111",
+    "Câu hướng dẫn": "Very well, not sick.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Very well, not sick.\""
+  },
+  {
+    "Stt": 112,
+    "ID_02": "HD_C_112",
+    "ID_01": "HDC112",
+    "Câu hướng dẫn": "Quite good, sometimes tired.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Quite good, sometimes tired.\""
+  },
+  {
+    "Stt": 113,
+    "ID_02": "HD_C_113",
+    "ID_01": "HDC113",
+    "Câu hướng dẫn": "Always happy, very strong.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Always happy, very strong.\""
+  },
+  {
+    "Stt": 114,
+    "ID_02": "HD_C_114",
+    "ID_01": "HDC114",
+    "Câu hướng dẫn": "Sometimes has back pain.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sometimes has back pain.\""
+  },
+  {
+    "Stt": 115,
+    "ID_02": "HD_C_115",
+    "ID_01": "HDC115",
+    "Câu hướng dẫn": "Working in a big company.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Working in a big company.\""
+  },
+  {
+    "Stt": 116,
+    "ID_02": "HD_C_116",
+    "ID_01": "HDC116",
+    "Câu hướng dẫn": "Studying at university.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Studying at university.\""
+  },
+  {
+    "Stt": 117,
+    "ID_02": "HD_C_117",
+    "ID_01": "HDC117",
+    "Câu hướng dẫn": "Running a small business.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Running a small business.\""
+  },
+  {
+    "Stt": 118,
+    "ID_02": "HD_C_118",
+    "ID_01": "HDC118",
+    "Câu hướng dẫn": "Studying abroad.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Studying abroad.\""
+  },
+  {
+    "Stt": 119,
+    "ID_02": "HD_C_119",
+    "ID_01": "HDC119",
+    "Câu hướng dẫn": "Only on weekends.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Only on weekends.\""
+  },
+  {
+    "Stt": 120,
+    "ID_02": "HD_C_120",
+    "ID_01": "HDC120",
+    "Câu hướng dẫn": "Not often.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Not often.\""
+  },
+  {
+    "Stt": 121,
+    "ID_02": "HD_C_121",
+    "ID_01": "HDC121",
+    "Câu hướng dẫn": "On special holidays.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"On special holidays.\""
+  },
+  {
+    "Stt": 122,
+    "ID_02": "HD_C_122",
+    "ID_01": "HDC122",
+    "Câu hướng dẫn": "Very rarely.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Very rarely.\""
+  },
+  {
+    "Stt": 123,
+    "ID_02": "HD_C_123",
+    "ID_01": "HDC123",
+    "Câu hướng dẫn": "Once a month.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Once a month.\""
+  },
+  {
+    "Stt": 124,
+    "ID_02": "HD_C_124",
+    "ID_01": "HDC124",
+    "Câu hướng dẫn": "Twice a year.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Twice a year.\""
+  },
+  {
+    "Stt": 125,
+    "ID_02": "HD_C_125",
+    "ID_01": "HDC125",
+    "Câu hướng dẫn": "Every weekend.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Every weekend.\""
+  },
+  {
+    "Stt": 126,
+    "ID_02": "HD_C_126",
+    "ID_01": "HDC126",
+    "Câu hướng dẫn": "Only on New Year.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Only on New Year.\""
+  },
+  {
+    "Stt": 127,
+    "ID_02": "HD_C_127",
+    "ID_01": "HDC127",
+    "Câu hướng dẫn": "Ask about family",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Ask about family\""
+  },
+  {
+    "Stt": 128,
+    "ID_02": "HD_C_128",
+    "ID_01": "HDC128",
+    "Câu hướng dẫn": "What do you eat for breakfast?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What do you eat for breakfast?\""
+  },
+  {
+    "Stt": 129,
+    "ID_02": "HD_C_129",
+    "ID_01": "HDC129",
+    "Câu hướng dẫn": "What meal is the most important?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What meal is the most important?\""
+  },
+  {
+    "Stt": 130,
+    "ID_02": "HD_C_130",
+    "ID_01": "HDC130",
+    "Câu hướng dẫn": "Who do you usually have lunch with?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Who do you usually have lunch with?\""
+  },
+  {
+    "Stt": 131,
+    "ID_02": "HD_C_131",
+    "ID_01": "HDC131",
+    "Câu hướng dẫn": "Do you often eat dinner at a restaurant?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you often eat dinner at a restaurant?\""
+  },
+  {
+    "Stt": 132,
+    "ID_02": "HD_C_132",
+    "ID_01": "HDC132",
+    "Câu hướng dẫn": "Steven",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Steven\""
+  },
+  {
+    "Stt": 133,
+    "ID_02": "HD_C_133",
+    "ID_01": "HDC133",
+    "Câu hướng dẫn": "Sarah",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sarah\""
+  },
+  {
+    "Stt": 134,
+    "ID_02": "HD_C_134",
+    "ID_01": "HDC134",
+    "Câu hướng dẫn": "George",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"George\""
+  },
+  {
+    "Stt": 135,
+    "ID_02": "HD_C_135",
+    "ID_01": "HDC135",
+    "Câu hướng dẫn": "Jessica",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Jessica\""
+  },
+  {
+    "Stt": 136,
+    "ID_02": "HD_C_136",
+    "ID_01": "HDC136",
+    "Câu hướng dẫn": "Bread and butter.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Bread and butter.\""
+  },
+  {
+    "Stt": 137,
+    "ID_02": "HD_C_137",
+    "ID_01": "HDC137",
+    "Câu hướng dẫn": "Fried eggs and toast.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Fried eggs and toast.\""
+  },
+  {
+    "Stt": 138,
+    "ID_02": "HD_C_138",
+    "ID_01": "HDC138",
+    "Câu hướng dẫn": "Rice and vegetables.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Rice and vegetables.\""
+  },
+  {
+    "Stt": 139,
+    "ID_02": "HD_C_139",
+    "ID_01": "HDC139",
+    "Câu hướng dẫn": "Cereal and milk.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Cereal and milk.\""
+  },
+  {
+    "Stt": 140,
+    "ID_02": "HD_C_140",
+    "ID_01": "HDC140",
+    "Câu hướng dẫn": "Breakfast.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Breakfast.\""
+  },
+  {
+    "Stt": 141,
+    "ID_02": "HD_C_141",
+    "ID_01": "HDC141",
+    "Câu hướng dẫn": "Lunch.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Lunch.\""
+  },
+  {
+    "Stt": 142,
+    "ID_02": "HD_C_142",
+    "ID_01": "HDC142",
+    "Câu hướng dẫn": "Dinner.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Dinner.\""
+  },
+  {
+    "Stt": 144,
+    "ID_02": "HD_C_143",
+    "ID_01": "HDC143",
+    "Câu hướng dẫn": "My best friend.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"My best friend.\""
+  },
+  {
+    "Stt": 145,
+    "ID_02": "HD_C_144",
+    "ID_01": "HDC144",
+    "Câu hướng dẫn": "My coworkers.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"My coworkers.\""
+  },
+  {
+    "Stt": 146,
+    "ID_02": "HD_C_145",
+    "ID_01": "HDC145",
+    "Câu hướng dẫn": "My classmates.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"My classmates.\""
+  },
+  {
+    "Stt": 147,
+    "ID_02": "HD_C_146",
+    "ID_01": "HDC146",
+    "Câu hướng dẫn": "My parents.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"My parents.\""
+  },
+  {
+    "Stt": 148,
+    "ID_02": "HD_C_147",
+    "ID_01": "HDC147",
+    "Câu hướng dẫn": "Only on weekends.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Only on weekends.\""
+  },
+  {
+    "Stt": 149,
+    "ID_02": "HD_C_148",
+    "ID_01": "HDC148",
+    "Câu hướng dẫn": "Sometimes with family.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sometimes with family.\""
+  },
+  {
+    "Stt": 150,
+    "ID_02": "HD_C_149",
+    "ID_01": "HDC149",
+    "Câu hướng dẫn": "Rarely, too expensive.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Rarely, too expensive.\""
+  },
+  {
+    "Stt": 151,
+    "ID_02": "HD_C_150",
+    "ID_01": "HDC150",
+    "Câu hướng dẫn": "Once a month.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Once a month.\""
+  },
+  {
+    "Stt": 152,
+    "ID_02": "HD_C_151",
+    "ID_01": "HDC151",
+    "Câu hướng dẫn": "Ask about eating habits",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Ask about eating habits\""
+  },
+  {
+    "Stt": 153,
+    "ID_02": "HD_C_152",
+    "ID_01": "HDC152",
+    "Câu hướng dẫn": "How is the weather where you live?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"How is the weather where you live?\""
+  },
+  {
+    "Stt": 154,
+    "ID_02": "HD_C_153",
+    "ID_01": "HDC153",
+    "Câu hướng dẫn": "Do you like cold or hot places?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you like cold or hot places?\""
+  },
+  {
+    "Stt": 155,
+    "ID_02": "HD_C_154",
+    "ID_01": "HDC154",
+    "Câu hướng dẫn": "What do you do on rainy days?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What do you do on rainy days?\""
+  },
+  {
+    "Stt": 156,
+    "ID_02": "HD_C_155",
+    "ID_01": "HDC155",
+    "Câu hướng dẫn": "Do you do any activities with your family on sunny days?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you do any activities with your family on sunny days?\""
+  },
+  {
+    "Stt": 157,
+    "ID_02": "HD_C_156",
+    "ID_01": "HDC156",
+    "Câu hướng dẫn": "Paul",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Paul\""
+  },
+  {
+    "Stt": 158,
+    "ID_02": "HD_C_157",
+    "ID_01": "HDC157",
+    "Câu hướng dẫn": "Emily",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Emily\""
+  },
+  {
+    "Stt": 159,
+    "ID_02": "HD_C_158",
+    "ID_01": "HDC158",
+    "Câu hướng dẫn": "Richard",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Richard\""
+  },
+  {
+    "Stt": 160,
+    "ID_02": "HD_C_159",
+    "ID_01": "HDC159",
+    "Câu hướng dẫn": "Sophia",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sophia\""
+  },
+  {
+    "Stt": 161,
+    "ID_02": "HD_C_160",
+    "ID_01": "HDC160",
+    "Câu hướng dẫn": "Very hot and sunny.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Very hot and sunny.\""
+  },
+  {
+    "Stt": 162,
+    "ID_02": "HD_C_161",
+    "ID_01": "HDC161",
+    "Câu hướng dẫn": "Sometimes rainy, sometimes sunny.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sometimes rainy, sometimes sunny.\""
+  },
+  {
+    "Stt": 163,
+    "ID_02": "HD_C_162",
+    "ID_01": "HDC162",
+    "Câu hướng dẫn": "Cold and windy.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Cold and windy.\""
+  },
+  {
+    "Stt": 164,
+    "ID_02": "HD_C_163",
+    "ID_01": "HDC163",
+    "Câu hướng dẫn": "Warm and cloudy.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Warm and cloudy.\""
+  },
+  {
+    "Stt": 165,
+    "ID_02": "HD_C_164",
+    "ID_01": "HDC164",
+    "Câu hướng dẫn": "Cold places are the best.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Cold places are the best.\""
+  },
+  {
+    "Stt": 166,
+    "ID_02": "HD_C_165",
+    "ID_01": "HDC165",
+    "Câu hướng dẫn": "Hot places are my favorite.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Hot places are my favorite.\""
+  },
+  {
+    "Stt": 167,
+    "ID_02": "HD_C_166",
+    "ID_01": "HDC166",
+    "Câu hướng dẫn": "Cold places.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Cold places.\""
+  },
+  {
+    "Stt": 168,
+    "ID_02": "HD_C_167",
+    "ID_01": "HDC167",
+    "Câu hướng dẫn": "Hot places.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Hot places.\""
+  },
+  {
+    "Stt": 169,
+    "ID_02": "HD_C_168",
+    "ID_01": "HDC168",
+    "Câu hướng dẫn": "Watch movies at home.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Watch movies at home.\""
+  },
+  {
+    "Stt": 170,
+    "ID_02": "HD_C_169",
+    "ID_01": "HDC169",
+    "Câu hướng dẫn": "Drink tea and read books.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Drink tea and read books.\""
+  },
+  {
+    "Stt": 171,
+    "ID_02": "HD_C_170",
+    "ID_01": "HDC170",
+    "Câu hướng dẫn": "Stay inside and play games.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Stay inside and play games.\""
+  },
+  {
+    "Stt": 172,
+    "ID_02": "HD_C_171",
+    "ID_01": "HDC171",
+    "Câu hướng dẫn": "Listen to music.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Listen to music.\""
+  },
+  {
+    "Stt": 173,
+    "ID_02": "HD_C_172",
+    "ID_01": "HDC172",
+    "Câu hướng dẫn": "Go to the park.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Go to the park.\""
+  },
+  {
+    "Stt": 174,
+    "ID_02": "HD-C_173",
+    "ID_01": "HD-C173",
+    "Câu hướng dẫn": "Have a picnic.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Have a picnic.\""
+  },
+  {
+    "Stt": 175,
+    "ID_02": "HD_C_174",
+    "ID_01": "HDC174",
+    "Câu hướng dẫn": "Ride bicycles together.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Ride bicycles together.\""
+  },
+  {
+    "Stt": 176,
+    "ID_02": "HD_C_175",
+    "ID_01": "HDC175",
+    "Câu hướng dẫn": "Go swimming at the beach.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Go swimming at the beach.\""
+  },
+  {
+    "Stt": 177,
+    "ID_02": "HD_C_176",
+    "ID_01": "HDC176",
+    "Câu hướng dẫn": "Ask about weather",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Ask about weather\""
+  },
+  {
+    "Stt": 178,
+    "ID_02": "HD_C_177",
+    "ID_01": "HDC177",
+    "Câu hướng dẫn": "What school do you go to?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What school do you go to?\""
+  },
+  {
+    "Stt": 179,
+    "ID_02": "HD_C_178",
+    "ID_01": "HDC178",
+    "Câu hướng dẫn": "What do you do the most at school?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What do you do the most at school?\""
+  },
+  {
+    "Stt": 180,
+    "ID_02": "HD_C_179",
+    "ID_01": "HDC179",
+    "Câu hướng dẫn": "Do you often visit your old school?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you often visit your old school?\""
+  },
+  {
+    "Stt": 181,
+    "ID_02": "HD_C_180",
+    "ID_01": "HDC180",
+    "Câu hướng dẫn": "What is your best memory at school?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What is your best memory at school?\""
+  },
+  {
+    "Stt": 182,
+    "ID_02": "HD_C_181",
+    "ID_01": "HDC181",
+    "Câu hướng dẫn": "Henry",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Henry\""
+  },
+  {
+    "Stt": 183,
+    "ID_02": "HD_C_182",
+    "ID_01": "HDC182",
+    "Câu hướng dẫn": "Olivia",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Olivia\""
+  },
+  {
+    "Stt": 184,
+    "ID_02": "HD_C_183",
+    "ID_01": "HDC183",
+    "Câu hướng dẫn": "Peter",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Peter\""
+  },
+  {
+    "Stt": 185,
+    "ID_02": "HD_C_184",
+    "ID_01": "HDC184",
+    "Câu hướng dẫn": "Emma",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Emma\""
+  },
+  {
+    "Stt": 186,
+    "ID_02": "HD_C_185",
+    "ID_01": "HDC185",
+    "Câu hướng dẫn": "Greenhill High School.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Greenhill High School.\""
+  },
+  {
+    "Stt": 187,
+    "ID_02": "HD_C_186",
+    "ID_01": "HDC186",
+    "Câu hướng dẫn": "Riverside Primary School.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Riverside Primary School.\""
+  },
+  {
+    "Stt": 188,
+    "ID_02": "HD_C_187",
+    "ID_01": "HDC187",
+    "Câu hướng dẫn": "Westwood College.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Westwood College.\""
+  },
+  {
+    "Stt": 189,
+    "ID_02": "HD_C_188",
+    "ID_01": "HDC188",
+    "Câu hướng dẫn": "Sunnydale Academy.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sunnydale Academy.\""
+  },
+  {
+    "Stt": 190,
+    "ID_02": "HD_C_189",
+    "ID_01": "HDC189",
+    "Câu hướng dẫn": "Play soccer with friends.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Play soccer with friends.\""
+  },
+  {
+    "Stt": 191,
+    "ID_02": "HD_C_190",
+    "ID_01": "HDC190",
+    "Câu hướng dẫn": "Read books in the library.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Read books in the library.\""
+  },
+  {
+    "Stt": 192,
+    "ID_02": "HD_C_191",
+    "ID_01": "HDC191",
+    "Câu hướng dẫn": "Study and do homework.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Study and do homework.\""
+  },
+  {
+    "Stt": 193,
+    "ID_02": "HD_C_192",
+    "ID_01": "HDC192",
+    "Câu hướng dẫn": "Talk with friends at lunch.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Talk with friends at lunch.\""
+  },
+  {
+    "Stt": 194,
+    "ID_02": "HD_C_193",
+    "ID_01": "HDC193",
+    "Câu hướng dẫn": "Sometimes on special events.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sometimes on special events.\""
+  },
+  {
+    "Stt": 195,
+    "ID_02": "HD_C_194",
+    "ID_01": "HDC194",
+    "Câu hướng dẫn": "Not really.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Not really.\""
+  },
+  {
+    "Stt": 196,
+    "ID_02": "HD_C_195",
+    "ID_01": "HDC195",
+    "Câu hướng dẫn": "Yes, once a year.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, once a year.\""
+  },
+  {
+    "Stt": 197,
+    "ID_02": "HD_C_196",
+    "ID_01": "HDC196",
+    "Câu hướng dẫn": "Rarely.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Rarely.\""
+  },
+  {
+    "Stt": 198,
+    "ID_02": "HD_C_197",
+    "ID_01": "HDC197",
+    "Câu hướng dẫn": "Winning a football match.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Winning a football match.\""
+  },
+  {
+    "Stt": 199,
+    "ID_02": "HD_C_198",
+    "ID_01": "HDC198",
+    "Câu hướng dẫn": "My first school performance.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"My first school performance.\""
+  },
+  {
+    "Stt": 200,
+    "ID_02": "HD_C_199",
+    "ID_01": "HDC199",
+    "Câu hướng dẫn": "Graduation day.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Graduation day.\""
+  },
+  {
+    "Stt": 201,
+    "ID_02": "HD_C_200",
+    "ID_01": "HDC200",
+    "Câu hướng dẫn": "My birthday celebration.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"My birthday celebration.\""
+  },
+  {
+    "Stt": 202,
+    "ID_02": "HD_C_201",
+    "ID_01": "HDC201",
+    "Câu hướng dẫn": "Ask about school",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Ask about school\""
+  },
+  {
+    "Stt": 203,
+    "ID_02": "HD_C_202",
+    "ID_01": "HDC202",
+    "Câu hướng dẫn": "What sport can you play?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What sport can you play?\""
+  },
+  {
+    "Stt": 204,
+    "ID_02": "HD_C_203",
+    "ID_01": "HDC203",
+    "Câu hướng dẫn": "Do you have any special talent?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you have any special talent?\""
+  },
+  {
+    "Stt": 205,
+    "ID_02": "HD_C_204",
+    "ID_01": "HDC204",
+    "Câu hướng dẫn": "What skill are you learning?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What skill are you learning?\""
+  },
+  {
+    "Stt": 206,
+    "ID_02": "HD_C_205",
+    "ID_01": "HDC205",
+    "Câu hướng dẫn": "Why do you like learning that skill?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Why do you like learning that skill?\""
+  },
+  {
+    "Stt": 207,
+    "ID_02": "HD_C_206",
+    "ID_01": "HDC206",
+    "Câu hướng dẫn": "Samuel",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Samuel\""
+  },
+  {
+    "Stt": 208,
+    "ID_02": "HD_C_207",
+    "ID_01": "HDC207",
+    "Câu hướng dẫn": "Hannah",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Hannah\""
+  },
+  {
+    "Stt": 209,
+    "ID_02": "HD_C_208",
+    "ID_01": "HDC208",
+    "Câu hướng dẫn": "Nathan",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Nathan\""
+  },
+  {
+    "Stt": 210,
+    "ID_02": "HD_C_209",
+    "ID_01": "HDC209",
+    "Câu hướng dẫn": "Isabella",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Isabella\""
+  },
+  {
+    "Stt": 211,
+    "ID_02": "HD_C_210",
+    "ID_01": "HDC210",
+    "Câu hướng dẫn": "Play basketball well.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Play basketball well.\""
+  },
+  {
+    "Stt": 212,
+    "ID_02": "HD_C_211",
+    "ID_01": "HDC211",
+    "Câu hướng dẫn": "Run very fast.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Run very fast.\""
+  },
+  {
+    "Stt": 213,
+    "ID_02": "HD_C_212",
+    "ID_01": "HDC212",
+    "Câu hướng dẫn": "Play football.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Play football.\""
+  },
+  {
+    "Stt": 214,
+    "ID_02": "HD_C_213",
+    "ID_01": "HDC213",
+    "Câu hướng dẫn": "Dance very well.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Dance very well.\""
+  },
+  {
+    "Stt": 215,
+    "ID_02": "HD_C_214",
+    "ID_01": "HDC214",
+    "Câu hướng dẫn": "Good at playing the guitar.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Good at playing the guitar.\""
+  },
+  {
+    "Stt": 216,
+    "ID_02": "HD_C_215",
+    "ID_01": "HDC215",
+    "Câu hướng dẫn": "Can sing beautifully.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Can sing beautifully.\""
+  },
+  {
+    "Stt": 217,
+    "ID_02": "HD_C_216",
+    "ID_01": "HDC216",
+    "Câu hướng dẫn": "Can solve puzzles quickly.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Can solve puzzles quickly.\""
+  },
+  {
+    "Stt": 218,
+    "ID_02": "HD_C_217",
+    "ID_01": "HDC217",
+    "Câu hướng dẫn": "Good at writing stories.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Good at writing stories.\""
+  },
+  {
+    "Stt": 219,
+    "ID_02": "HD_C_218",
+    "ID_01": "HDC218",
+    "Câu hướng dẫn": "Learning to swim.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Learning to swim.\""
+  },
+  {
+    "Stt": 220,
+    "ID_02": "HD_C_219",
+    "ID_01": "HDC219",
+    "Câu hướng dẫn": "Learning to paint.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Learning to paint.\""
+  },
+  {
+    "Stt": 221,
+    "ID_02": "HD_C_220",
+    "ID_01": "HDC220",
+    "Câu hướng dẫn": "Learning to cook.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Learning to cook.\""
+  },
+  {
+    "Stt": 222,
+    "ID_02": "HD_C_221",
+    "ID_01": "HDC221",
+    "Câu hướng dẫn": "Learning to play piano.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Learning to play piano.\""
+  },
+  {
+    "Stt": 223,
+    "ID_02": "HD_C_222",
+    "ID_01": "HDC222",
+    "Câu hướng dẫn": "Important for safety.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Important for safety.\""
+  },
+  {
+    "Stt": 224,
+    "ID_02": "HD_C_223",
+    "ID_01": "HDC223",
+    "Câu hướng dẫn": "Fun and creative.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Fun and creative.\""
+  },
+  {
+    "Stt": 225,
+    "ID_02": "HD_C_224",
+    "ID_01": "HDC224",
+    "Câu hướng dẫn": "Love making food.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Love making food.\""
+  },
+  {
+    "Stt": 226,
+    "ID_02": "HD_C_225",
+    "ID_01": "HDC225",
+    "Câu hướng dẫn": "Enjoy music.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Enjoy music.\""
+  },
+  {
+    "Stt": 227,
+    "ID_02": "HD_C_226",
+    "ID_01": "HDC226",
+    "Câu hướng dẫn": "What music do you like?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What music do you like?\""
+  },
+  {
+    "Stt": 228,
+    "ID_02": "HD_C_227",
+    "ID_01": "HDC227",
+    "Câu hướng dẫn": "How does singing help you?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"How does singing help you?\""
+  },
+  {
+    "Stt": 229,
+    "ID_02": "HD_C_228",
+    "ID_01": "HDC228",
+    "Câu hướng dẫn": "Do you learn singing?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you learn singing?\""
+  },
+  {
+    "Stt": 230,
+    "ID_02": "HD_C_229",
+    "ID_01": "HDC229",
+    "Câu hướng dẫn": "Have you sung on a stage?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Have you sung on a stage?\""
+  },
+  {
+    "Stt": 231,
+    "ID_02": "HD_C_230",
+    "ID_01": "HDC230",
+    "Câu hướng dẫn": "Grace",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Grace\""
+  },
+  {
+    "Stt": 232,
+    "ID_02": "HD_C_231",
+    "ID_01": "HDC231",
+    "Câu hướng dẫn": "Jason",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Jason\""
+  },
+  {
+    "Stt": 233,
+    "ID_02": "HD_C_232",
+    "ID_01": "HDC232",
+    "Câu hướng dẫn": "Lily",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Lily\""
+  },
+  {
+    "Stt": 234,
+    "ID_02": "HD_C_233",
+    "ID_01": "HDC233",
+    "Câu hướng dẫn": "Scott",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Scott\""
+  },
+  {
+    "Stt": 235,
+    "ID_02": "HD_C_234",
+    "ID_01": "HDC234",
+    "Câu hướng dẫn": "Pop music",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Pop music\""
+  },
+  {
+    "Stt": 236,
+    "ID_02": "HD_C_235",
+    "ID_01": "HDC235",
+    "Câu hướng dẫn": "Rock music",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Rock music\""
+  },
+  {
+    "Stt": 237,
+    "ID_02": "HD_C_236",
+    "ID_01": "HDC236",
+    "Câu hướng dẫn": "Classical music",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Classical music\""
+  },
+  {
+    "Stt": 238,
+    "ID_02": "HD_C_237",
+    "ID_01": "HDC237",
+    "Câu hướng dẫn": "Jazz music",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Jazz music\""
+  },
+  {
+    "Stt": 239,
+    "ID_02": "HD_C_238",
+    "ID_01": "HDC238",
+    "Câu hướng dẫn": "Feel happy",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Feel happy\""
+  },
+  {
+    "Stt": 240,
+    "ID_02": "HD_C_239",
+    "ID_01": "HDC239",
+    "Câu hướng dẫn": "Have fun",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Have fun\""
+  },
+  {
+    "Stt": 241,
+    "ID_02": "HD_C_240",
+    "ID_01": "HDC240",
+    "Câu hướng dẫn": "Relax",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Relax\""
+  },
+  {
+    "Stt": 242,
+    "ID_02": "HD_C_241",
+    "ID_01": "HDC241",
+    "Câu hướng dẫn": "Feel good",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Feel good\""
+  },
+  {
+    "Stt": 243,
+    "ID_02": "HD_C_242",
+    "ID_01": "HDC242",
+    "Câu hướng dẫn": "Singing lessons",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Singing lessons\""
+  },
+  {
+    "Stt": 244,
+    "ID_02": "HD_C_243",
+    "ID_01": "HDC243",
+    "Câu hướng dẫn": "No training",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"No training\""
+  },
+  {
+    "Stt": 245,
+    "ID_02": "HD_C_244",
+    "ID_01": "HDC244",
+    "Câu hướng dẫn": "Online classes",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Online classes\""
+  },
+  {
+    "Stt": 246,
+    "ID_02": "HD_C_245",
+    "ID_01": "HDC245",
+    "Câu hướng dẫn": "Practice at home",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Practice at home\""
+  },
+  {
+    "Stt": 247,
+    "ID_02": "HD_C_246",
+    "ID_01": "HDC246",
+    "Câu hướng dẫn": "School concert",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"School concert\""
+  },
+  {
+    "Stt": 248,
+    "ID_02": "HD_C_247",
+    "ID_01": "HDC247",
+    "Câu hướng dẫn": "Karaoke night",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Karaoke night\""
+  },
+  {
+    "Stt": 249,
+    "ID_02": "HD_C_248",
+    "ID_01": "HDC248",
+    "Câu hướng dẫn": "Family party",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Family party\""
+  },
+  {
+    "Stt": 250,
+    "ID_02": "HD_C_249",
+    "ID_01": "HDC249",
+    "Câu hướng dẫn": "Small coffee shop event",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Small coffee shop event\""
+  },
+  {
+    "Stt": 251,
+    "ID_02": "HD-C_250",
+    "ID_01": "HD-C250",
+    "Câu hướng dẫn": "What do you usually do in the morning?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What do you usually do in the morning?\""
+  },
+  {
+    "Stt": 252,
+    "ID_02": "HD_C_251",
+    "ID_01": "HDC251",
+    "Câu hướng dẫn": "What do you do in the afternoon?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What do you do in the afternoon?\""
+  },
+  {
+    "Stt": 253,
+    "ID_02": "HD_C_252",
+    "ID_01": "HDC252",
+    "Câu hướng dẫn": "What do you do in the evening?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What do you do in the evening?\""
+  },
+  {
+    "Stt": 254,
+    "ID_02": "HD_C_253",
+    "ID_01": "HDC253",
+    "Câu hướng dẫn": "What do you do at night?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What do you do at night?\""
+  },
+  {
+    "Stt": 255,
+    "ID_02": "HD_C_254",
+    "ID_01": "HDC254",
+    "Câu hướng dẫn": "Victoria",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Victoria\""
+  },
+  {
+    "Stt": 256,
+    "ID_02": "HD_C_255",
+    "ID_01": "HDC255",
+    "Câu hướng dẫn": "Benjamin",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Benjamin\""
+  },
+  {
+    "Stt": 257,
+    "ID_02": "HD_C_256",
+    "ID_01": "HDC256",
+    "Câu hướng dẫn": "Charlotte",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Charlotte\""
+  },
+  {
+    "Stt": 258,
+    "ID_02": "HD_C_257",
+    "ID_01": "HDC257",
+    "Câu hướng dẫn": "Jacob",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Jacob\""
+  },
+  {
+    "Stt": 259,
+    "ID_02": "HD_C_258",
+    "ID_01": "HDC258",
+    "Câu hướng dẫn": "Eating breakfast and going to school.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Eating breakfast and going to school.\""
+  },
+  {
+    "Stt": 260,
+    "ID_02": "HD_C_259",
+    "ID_01": "HDC259",
+    "Câu hướng dẫn": "Brushing teeth and eating toast.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Brushing teeth and eating toast.\""
+  },
+  {
+    "Stt": 261,
+    "ID_02": "HD_C_260",
+    "ID_01": "HDC260",
+    "Câu hướng dẫn": "Drinking milk and reading a book.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Drinking milk and reading a book.\""
+  },
+  {
+    "Stt": 262,
+    "ID_02": "HD_C_261",
+    "ID_01": "HDC261",
+    "Câu hướng dẫn": "Running in the park.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Running in the park.\""
+  },
+  {
+    "Stt": 263,
+    "ID_02": "HD_C_262",
+    "ID_01": "HDC262",
+    "Câu hướng dẫn": "Playing with friends outside.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Playing with friends outside.\""
+  },
+  {
+    "Stt": 264,
+    "ID_02": "HD_C_263",
+    "ID_01": "HDC263",
+    "Câu hướng dẫn": "Studying at school.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Studying at school.\""
+  },
+  {
+    "Stt": 265,
+    "ID_02": "HD_C_264",
+    "ID_01": "HDC264",
+    "Câu hướng dẫn": "Helping mom in the kitchen.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Helping mom in the kitchen.\""
+  },
+  {
+    "Stt": 266,
+    "ID_02": "HD_C_265",
+    "ID_01": "HDC265",
+    "Câu hướng dẫn": "Playing football with friends.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Playing football with friends.\""
+  },
+  {
+    "Stt": 267,
+    "ID_02": "HD_C_266",
+    "ID_01": "HDC266",
+    "Câu hướng dẫn": "Watching TV with family.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Watching TV with family.\""
+  },
+  {
+    "Stt": 268,
+    "ID_02": "HD_C_267",
+    "ID_01": "HDC267",
+    "Câu hướng dẫn": "Doing homework at home.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Doing homework at home.\""
+  },
+  {
+    "Stt": 269,
+    "ID_02": "HD_C_268",
+    "ID_01": "HDC268",
+    "Câu hướng dẫn": "Listening to music.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Listening to music.\""
+  },
+  {
+    "Stt": 270,
+    "ID_02": "HD_C_269",
+    "ID_01": "HDC269",
+    "Câu hướng dẫn": "Eating dinner with family.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Eating dinner with family.\""
+  },
+  {
+    "Stt": 271,
+    "ID_02": "HD_C_270",
+    "ID_01": "HDC270",
+    "Câu hướng dẫn": "Sleeping early at home.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sleeping early at home.\""
+  },
+  {
+    "Stt": 272,
+    "ID_02": "HD_C_271",
+    "ID_01": "HDC271",
+    "Câu hướng dẫn": "Sleeping in my bed.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sleeping in my bed.\""
+  },
+  {
+    "Stt": 273,
+    "ID_02": "HD_C_272",
+    "ID_01": "HDC272",
+    "Câu hướng dẫn": "Using my phone",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Using my phone\""
+  },
+  {
+    "Stt": 274,
+    "ID_02": "HD_C_273",
+    "ID_01": "HDC273",
+    "Câu hướng dẫn": "Reading a short story.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Reading a short story.\""
+  },
+  {
+    "Stt": 275,
+    "ID_02": "HD_C_274",
+    "ID_01": "HDC274",
+    "Câu hướng dẫn": "What do you usually buy?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What do you usually buy?\""
+  },
+  {
+    "Stt": 276,
+    "ID_02": "HD_C_275",
+    "ID_01": "HDC275",
+    "Câu hướng dẫn": "Where do you usually go shopping?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Where do you usually go shopping?\""
+  },
+  {
+    "Stt": 277,
+    "ID_02": "HD_C_276",
+    "ID_01": "HDC276",
+    "Câu hướng dẫn": "How do you feel about online shopping?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"How do you feel about online shopping?\""
+  },
+  {
+    "Stt": 278,
+    "ID_02": "HD_C_277",
+    "ID_01": "HDC277",
+    "Câu hướng dẫn": "Why do you think online shopping is popular?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Why do you think online shopping is popular?\""
+  },
+  {
+    "Stt": 279,
+    "ID_02": "HD_C_278",
+    "ID_01": "HDC278",
+    "Câu hướng dẫn": "Natalie",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Natalie\""
+  },
+  {
+    "Stt": 280,
+    "ID_02": "HD_C_279",
+    "ID_01": "HDC279",
+    "Câu hướng dẫn": "Nicholas",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Nicholas\""
+  },
+  {
+    "Stt": 281,
+    "ID_02": "HD_C_280",
+    "ID_01": "HDC280",
+    "Câu hướng dẫn": "Rachel",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Rachel\""
+  },
+  {
+    "Stt": 282,
+    "ID_02": "HD_C_281",
+    "ID_01": "HDC281",
+    "Câu hướng dẫn": "Ethan",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Ethan\""
+  },
+  {
+    "Stt": 283,
+    "ID_02": "HD_C_282",
+    "ID_01": "HDC282",
+    "Câu hướng dẫn": "Clothes and snacks",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Clothes and snacks\""
+  },
+  {
+    "Stt": 284,
+    "ID_02": "HD_C_283",
+    "ID_01": "HDC283",
+    "Câu hướng dẫn": "Shoes and books",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Shoes and books\""
+  },
+  {
+    "Stt": 285,
+    "ID_02": "HD_C_284",
+    "ID_01": "HDC284",
+    "Câu hướng dẫn": "Food and drinks",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Food and drinks\""
+  },
+  {
+    "Stt": 286,
+    "ID_02": "HD_C_285",
+    "ID_01": "HDC285",
+    "Câu hướng dẫn": "Toys and gifts",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Toys and gifts\""
+  },
+  {
+    "Stt": 287,
+    "ID_02": "HD_C_286",
+    "ID_01": "HDC286",
+    "Câu hướng dẫn": "The big mall",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"The big mall\""
+  },
+  {
+    "Stt": 288,
+    "ID_02": "HD_C_287",
+    "ID_01": "HDC287",
+    "Câu hướng dẫn": "The local market",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"The local market\""
+  },
+  {
+    "Stt": 289,
+    "ID_02": "HD_C_288",
+    "ID_01": "HDC288",
+    "Câu hướng dẫn": "The supermarket",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"The supermarket\""
+  },
+  {
+    "Stt": 290,
+    "ID_02": "HD_C_289",
+    "ID_01": "HDC289",
+    "Câu hướng dẫn": "The shopping center",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"The shopping center\""
+  },
+  {
+    "Stt": 291,
+    "ID_02": "HD_C_290",
+    "ID_01": "HDC290",
+    "Câu hướng dẫn": "Easy and fast",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Easy and fast\""
+  },
+  {
+    "Stt": 292,
+    "ID_02": "HD_C_291",
+    "ID_01": "HDC291",
+    "Câu hướng dẫn": "Sometimes difficult",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sometimes difficult\""
+  },
+  {
+    "Stt": 293,
+    "ID_02": "HD_C_292",
+    "ID_01": "HDC292",
+    "Câu hướng dẫn": "Good for busy people",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Good for busy people\""
+  },
+  {
+    "Stt": 294,
+    "ID_02": "HD_C_293",
+    "ID_01": "HDC293",
+    "Câu hướng dẫn": "Not always safe",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Not always safe\""
+  },
+  {
+    "Stt": 295,
+    "ID_02": "HD_C_294",
+    "ID_01": "HDC294",
+    "Câu hướng dẫn": "Many choices and good prices",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Many choices and good prices\""
+  },
+  {
+    "Stt": 296,
+    "ID_02": "HD_C_295",
+    "ID_01": "HDC295",
+    "Câu hướng dẫn": "People save time and money",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"People save time and money\""
+  },
+  {
+    "Stt": 297,
+    "ID_02": "HD_C_296",
+    "ID_01": "HDC296",
+    "Câu hướng dẫn": "It is comfortable and simple",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"It is comfortable and simple\""
+  },
+  {
+    "Stt": 298,
+    "ID_02": "HD_C_297",
+    "ID_01": "HDC297",
+    "Câu hướng dẫn": "No need to go outside",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"No need to go outside\""
+  },
+  {
+    "Stt": 299,
+    "ID_02": "HD_C_298",
+    "ID_01": "HDC298",
+    "Câu hướng dẫn": "What transport do you usually take?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What transport do you usually take?\""
+  },
+  {
+    "Stt": 300,
+    "ID_02": "HD_C_299",
+    "ID_01": "HDC299",
+    "Câu hướng dẫn": "What transport is the most convenient?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What transport is the most convenient?\""
+  },
+  {
+    "Stt": 301,
+    "ID_02": "HD_C_300",
+    "ID_01": "HDC300",
+    "Câu hướng dẫn": "What transport should people use?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What transport should people use?\""
+  },
+  {
+    "Stt": 302,
+    "ID_02": "HD_C_301",
+    "ID_01": "HDC301",
+    "Câu hướng dẫn": "Why should people use public transport?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Why should people use public transport?\""
+  },
+  {
+    "Stt": 303,
+    "ID_02": "HD_C_302",
+    "ID_01": "HDC302",
+    "Câu hướng dẫn": "Anna",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Anna\""
+  },
+  {
+    "Stt": 304,
+    "ID_02": "HD_C_303",
+    "ID_01": "HDC303",
+    "Câu hướng dẫn": "Aaron",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Aaron\""
+  },
+  {
+    "Stt": 305,
+    "ID_02": "HD_C_304",
+    "ID_01": "HDC304",
+    "Câu hướng dẫn": "Julia",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Julia\""
+  },
+  {
+    "Stt": 306,
+    "ID_02": "HD_C_305",
+    "ID_01": "HDC305",
+    "Câu hướng dẫn": "Jonathan",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Jonathan\""
+  },
+  {
+    "Stt": 307,
+    "ID_02": "HD_C_306",
+    "ID_01": "HDC306",
+    "Câu hướng dẫn": "Bus and subway.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Bus and subway.\""
+  },
+  {
+    "Stt": 308,
+    "ID_02": "HD_C_307",
+    "ID_01": "HDC307",
+    "Câu hướng dẫn": "Bicycle and car.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Bicycle and car.\""
+  },
+  {
+    "Stt": 309,
+    "ID_02": "HD_C_308",
+    "ID_01": "HDC308",
+    "Câu hướng dẫn": "Train and taxi.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Train and taxi.\""
+  },
+  {
+    "Stt": 310,
+    "ID_02": "HD_C_309",
+    "ID_01": "HDC309",
+    "Câu hướng dẫn": "Motorbike and taxi.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Motorbike and taxi.\""
+  },
+  {
+    "Stt": 311,
+    "ID_02": "HD_C_310",
+    "ID_01": "HDC310",
+    "Câu hướng dẫn": "Taxi and train.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Taxi and train.\""
+  },
+  {
+    "Stt": 312,
+    "ID_02": "HD_C_311",
+    "ID_01": "HDC311",
+    "Câu hướng dẫn": "Motorbike and car.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Motorbike and car.\""
+  },
+  {
+    "Stt": 313,
+    "ID_02": "HD_C_312",
+    "ID_01": "HDC312",
+    "Câu hướng dẫn": "Subway and bus.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Subway and bus.\""
+  },
+  {
+    "Stt": 314,
+    "ID_02": "HD_C_313",
+    "ID_01": "HDC313",
+    "Câu hướng dẫn": "Car and subway.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Car and subway.\""
+  },
+  {
+    "Stt": 315,
+    "ID_02": "HD_C_314",
+    "ID_01": "HDC314",
+    "Câu hướng dẫn": "Bicycle or bus.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Bicycle or bus.\""
+  },
+  {
+    "Stt": 316,
+    "ID_02": "HD_C_315",
+    "ID_01": "HDC315",
+    "Câu hướng dẫn": "Train or subway.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Train or subway.\""
+  },
+  {
+    "Stt": 317,
+    "ID_02": "HD_C_316",
+    "ID_01": "HDC316",
+    "Câu hướng dẫn": "Bus or bicycle.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Bus or bicycle.\""
+  },
+  {
+    "Stt": 318,
+    "ID_02": "HD_C_317",
+    "ID_01": "HDC317",
+    "Câu hướng dẫn": "Bus or train.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Bus or train.\""
+  },
+  {
+    "Stt": 319,
+    "ID_02": "HD_C_318",
+    "ID_01": "HDC318",
+    "Câu hướng dẫn": "Less traffic, clean air.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Less traffic, clean air.\""
+  },
+  {
+    "Stt": 320,
+    "ID_02": "HD_C_319",
+    "ID_01": "HDC319",
+    "Câu hướng dẫn": "Save money, no parking.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Save money, no parking.\""
+  },
+  {
+    "Stt": 321,
+    "ID_02": "HD_C_320",
+    "ID_01": "HDC320",
+    "Câu hướng dẫn": "Easy travel, no traffic jam.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Easy travel, no traffic jam.\""
+  },
+  {
+    "Stt": 322,
+    "ID_02": "HD_C_321",
+    "ID_01": "HDC321",
+    "Câu hướng dẫn": "Less pollution, more space.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Less pollution, more space.\""
+  },
+  {
+    "Stt": 323,
+    "ID_02": "HD_C_322",
+    "ID_01": "HDC322",
+    "Câu hướng dẫn": "Do you often wake up early?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you often wake up early?\""
+  },
+  {
+    "Stt": 324,
+    "ID_02": "HD_C_323",
+    "ID_01": "HDC323",
+    "Câu hướng dẫn": "How is good sleep for you?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"How is good sleep for you?\""
+  },
+  {
+    "Stt": 325,
+    "ID_02": "HD_C_324",
+    "ID_01": "HDC324",
+    "Câu hướng dẫn": "Have you ever had trouble sleeping?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Have you ever had trouble sleeping?\""
+  },
+  {
+    "Stt": 326,
+    "ID_02": "HD_C_325",
+    "ID_01": "HDC325",
+    "Câu hướng dẫn": "What do you do to sleep well?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What do you do to sleep well?\""
+  },
+  {
+    "Stt": 327,
+    "ID_02": "HD_C_326",
+    "ID_01": "HDC326",
+    "Câu hướng dẫn": "Lauren",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Lauren\""
+  },
+  {
+    "Stt": 328,
+    "ID_02": "HD_C_327",
+    "ID_01": "HDC327",
+    "Câu hướng dẫn": "Mark",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Mark\""
+  },
+  {
+    "Stt": 329,
+    "ID_02": "HD_C_328",
+    "ID_01": "HDC328",
+    "Câu hướng dẫn": "Chloe",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Chloe\""
+  },
+  {
+    "Stt": 330,
+    "ID_02": "HD_C_329",
+    "ID_01": "HDC329",
+    "Câu hướng dẫn": "Timothy",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Timothy\""
+  },
+  {
+    "Stt": 331,
+    "ID_02": "HD_C_330",
+    "ID_01": "HDC330",
+    "Câu hướng dẫn": "Wake up early every day",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Wake up early every day\""
+  },
+  {
+    "Stt": 332,
+    "ID_02": "HD_C_331",
+    "ID_01": "HDC331",
+    "Câu hướng dẫn": "Usually wake up late.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Usually wake up late.\""
+  },
+  {
+    "Stt": 333,
+    "ID_02": "HD_C_332",
+    "ID_01": "HDC332",
+    "Câu hướng dẫn": "It depends on the day.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"It depends on the day.\""
+  },
+  {
+    "Stt": 334,
+    "ID_02": "HD_C_333",
+    "ID_01": "HDC333",
+    "Câu hướng dẫn": "Only on weekdays. On weekends, I sleep in.",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Only on weekdays. On weekends, I sleep in.\""
+  },
+  {
+    "Stt": 335,
+    "ID_02": "HD_C_334",
+    "ID_01": "HDC334",
+    "Câu hướng dẫn": "Sleeping early and deeply",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sleeping early and deeply\""
+  },
+  {
+    "Stt": 336,
+    "ID_02": "HD_C_335",
+    "ID_01": "HDC335",
+    "Câu hướng dẫn": "Sleeping 8 hours",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sleeping 8 hours\""
+  },
+  {
+    "Stt": 337,
+    "ID_02": "HD_C_336",
+    "ID_01": "HDC336",
+    "Câu hướng dẫn": "Sleeping without waking up",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sleeping without waking up\""
+  },
+  {
+    "Stt": 338,
+    "ID_02": "HD_C_337",
+    "ID_01": "HDC337",
+    "Câu hướng dẫn": "Sleeping in a quiet place",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sleeping in a quiet place\""
+  },
+  {
+    "Stt": 339,
+    "ID_02": "HD_C_338",
+    "ID_01": "HDC338",
+    "Câu hướng dẫn": "Sometimes on busy days",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sometimes on busy days\""
+  },
+  {
+    "Stt": 340,
+    "ID_02": "HD_C_339",
+    "ID_01": "HDC339",
+    "Câu hướng dẫn": "Yes, when feeling stressed",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, when feeling stressed\""
+  },
+  {
+    "Stt": 341,
+    "ID_02": "HD_C_340",
+    "ID_01": "HDC340",
+    "Câu hướng dẫn": "Yes, before big exams",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, before big exams\""
+  },
+  {
+    "Stt": 342,
+    "ID_02": "HD_C_341",
+    "ID_01": "HDC341",
+    "Câu hướng dẫn": "Not often, only when sick",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Not often, only when sick\""
+  },
+  {
+    "Stt": 343,
+    "ID_02": "HD_C_342",
+    "ID_01": "HDC342",
+    "Câu hướng dẫn": "Drinking warm milk",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Drinking warm milk\""
+  },
+  {
+    "Stt": 344,
+    "ID_02": "HD_C_343",
+    "ID_01": "HDC343",
+    "Câu hướng dẫn": "Reading a book",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Reading a book\""
+  },
+  {
+    "Stt": 345,
+    "ID_02": "HD_C_344",
+    "ID_01": "HDC344",
+    "Câu hướng dẫn": "Listening to soft music",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Listening to soft music\""
+  },
+  {
+    "Stt": 346,
+    "ID_02": "HD_C_345",
+    "ID_01": "HDC345",
+    "Câu hướng dẫn": "Taking a warm shower",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Taking a warm shower\""
+  },
+  {
+    "Stt": 347,
+    "ID_02": "HD_C_346",
+    "ID_01": "HDC346",
+    "Câu hướng dẫn": "What do you do on weekends?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What do you do on weekends?\""
+  },
+  {
+    "Stt": 348,
+    "ID_02": "HD_C_347",
+    "ID_01": "HDC347",
+    "Câu hướng dẫn": "Have you ever had a picnic on the weekend?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Have you ever had a picnic on the weekend?\""
+  },
+  {
+    "Stt": 349,
+    "ID_02": "HD_C_348",
+    "ID_01": "HDC348",
+    "Câu hướng dẫn": "Who do you spend time with?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Who do you spend time with?\""
+  },
+  {
+    "Stt": 350,
+    "ID_02": "HD_C_349",
+    "ID_01": "HDC349",
+    "Câu hướng dẫn": "Do you like weekends?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you like weekends?\""
+  },
+  {
+    "Stt": 351,
     "ID_02": "HD_C_350",
     "ID_01": "HDC350",
-    "nameVideo": "Hướng dẫn ghép âm _ Alice_ Thầy cường _ HDC350"
+    "Câu hướng dẫn": "Alice",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Alice\""
+  },
+  {
+    "Stt": 352,
+    "ID_02": "HD_C_351",
+    "ID_01": "HDC351",
+    "Câu hướng dẫn": "Brandon",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Brandon\""
+  },
+  {
+    "Stt": 353,
+    "ID_02": "HD_C_352",
+    "ID_01": "HDC352",
+    "Câu hướng dẫn": "Evelyn",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Evelyn\""
+  },
+  {
+    "Stt": 354,
+    "ID_02": "HD_C_353",
+    "ID_01": "HDC353",
+    "Câu hướng dẫn": "Ryan",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Ryan\""
+  },
+  {
+    "Stt": 355,
+    "ID_02": "HD_C_354",
+    "ID_01": "HDC354",
+    "Câu hướng dẫn": "Go to the park",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Go to the park\""
+  },
+  {
+    "Stt": 356,
+    "ID_02": "HD_C_355",
+    "ID_01": "HDC355",
+    "Câu hướng dẫn": "Watch movies",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Watch movies\""
+  },
+  {
+    "Stt": 357,
+    "ID_02": "HD_C_356",
+    "ID_01": "HDC356",
+    "Câu hướng dẫn": "Play sports",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Play sports\""
+  },
+  {
+    "Stt": 358,
+    "ID_02": "HD_C_357",
+    "ID_01": "HDC357",
+    "Câu hướng dẫn": "Read books",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Read books\""
+  },
+  {
+    "Stt": 359,
+    "ID_02": "HD_C_358",
+    "ID_01": "HDC358",
+    "Câu hướng dẫn": "Yes, many times",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, many times\""
+  },
+  {
+    "Stt": 360,
+    "ID_02": "HD_C_359",
+    "ID_01": "HDC359",
+    "Câu hướng dẫn": "No, never",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"No, never\""
+  },
+  {
+    "Stt": 361,
+    "ID_02": "HD_C_360",
+    "ID_01": "HDC360",
+    "Câu hướng dẫn": "Yes, last month",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, last month\""
+  },
+  {
+    "Stt": 362,
+    "ID_02": "HD_C_361",
+    "ID_01": "HDC361",
+    "Câu hướng dẫn": "No, not yet",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"No, not yet\""
+  },
+  {
+    "Stt": 363,
+    "ID_02": "HD_C_362",
+    "ID_01": "HDC362",
+    "Câu hướng dẫn": "Family and friends",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Family and friends\""
+  },
+  {
+    "Stt": 364,
+    "ID_02": "HD_C_363",
+    "ID_01": "HDC363",
+    "Câu hướng dẫn": "Best friend",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Best friend\""
+  },
+  {
+    "Stt": 365,
+    "ID_02": "HD_C_364",
+    "ID_01": "HDC364",
+    "Câu hướng dẫn": "My brother and sister",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"My brother and sister\""
+  },
+  {
+    "Stt": 366,
+    "ID_02": "HD_C_365",
+    "ID_01": "HDC365",
+    "Câu hướng dẫn": "Parents and classmates",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Parents and classmates\""
+  },
+  {
+    "Stt": 367,
+    "ID_02": "HD_C_366",
+    "ID_01": "HDC366",
+    "Câu hướng dẫn": "Yes, very fun",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, very fun\""
+  },
+  {
+    "Stt": 368,
+    "ID_02": "HD_C-367",
+    "ID_01": "HDC-367",
+    "Câu hướng dẫn": "Yes, relaxing",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, relaxing\""
+  },
+  {
+    "Stt": 369,
+    "ID_02": "HD_C_368",
+    "ID_01": "HDC368",
+    "Câu hướng dẫn": "Yes, love weekends",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, love weekends\""
+  },
+  {
+    "Stt": 370,
+    "ID_02": "HD_C_369",
+    "ID_01": "HDC369",
+    "Câu hướng dẫn": "Yes, always good",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, always good\""
+  },
+  {
+    "Stt": 371,
+    "ID_02": "HD_C_370",
+    "ID_01": "HDC370",
+    "Câu hướng dẫn": "What pet do you have?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What pet do you have?\""
+  },
+  {
+    "Stt": 372,
+    "ID_02": "HD_C_371",
+    "ID_01": "HDC371",
+    "Câu hướng dẫn": "Why do you have a pet?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Why do you have a pet?\""
+  },
+  {
+    "Stt": 373,
+    "ID_02": "HD_C_372",
+    "ID_01": "HDC372",
+    "Câu hướng dẫn": "Who takes care of the pet with you?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Who takes care of the pet with you?\""
+  },
+  {
+    "Stt": 374,
+    "ID_02": "HD_C_373",
+    "ID_01": "HDC373",
+    "Câu hướng dẫn": "What is fun about having a pet?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What is fun about having a pet?\""
+  },
+  {
+    "Stt": 375,
+    "ID_02": "HD_C_374",
+    "ID_01": "HDC374",
+    "Câu hướng dẫn": "Daisy",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Daisy\""
+  },
+  {
+    "Stt": 376,
+    "ID_02": "HD_C_375",
+    "ID_01": "HDC375",
+    "Câu hướng dẫn": "Vincent",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Vincent\""
+  },
+  {
+    "Stt": 377,
+    "ID_02": "HD_C_376",
+    "ID_01": "HDC376",
+    "Câu hướng dẫn": "Lucy",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Lucy\""
+  },
+  {
+    "Stt": 378,
+    "ID_02": "HD_C_377",
+    "ID_01": "HDC377",
+    "Câu hướng dẫn": "Leo",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Leo\""
+  },
+  {
+    "Stt": 379,
+    "ID_02": "HD_C_378",
+    "ID_01": "HDC378",
+    "Câu hướng dẫn": "A small dog",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"A small dog\""
+  },
+  {
+    "Stt": 380,
+    "ID_02": "HD_C_379",
+    "ID_01": "HDC379",
+    "Câu hướng dẫn": "A black cat",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"A black cat\""
+  },
+  {
+    "Stt": 381,
+    "ID_02": "HD_C_380",
+    "ID_01": "HDC380",
+    "Câu hướng dẫn": "A colorful bird",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"A colorful bird\""
+  },
+  {
+    "Stt": 382,
+    "ID_02": "HD_C_381",
+    "ID_01": "HDC381",
+    "Câu hướng dẫn": "A big fish",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"A big fish\""
+  },
+  {
+    "Stt": 383,
+    "ID_02": "HD_C_382",
+    "ID_01": "HDC382",
+    "Câu hướng dẫn": "Love animals",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Love animals\""
+  },
+  {
+    "Stt": 384,
+    "ID_02": "HD_C_383",
+    "ID_01": "HDC383",
+    "Câu hướng dẫn": "Very cute",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Very cute\""
+  },
+  {
+    "Stt": 385,
+    "ID_02": "HD_C_384",
+    "ID_01": "HDC384",
+    "Câu hướng dẫn": "Beautiful and funny",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Beautiful and funny\""
+  },
+  {
+    "Stt": 386,
+    "ID_02": "HD_C_385",
+    "ID_01": "HDC385",
+    "Câu hướng dẫn": "Easy to take care of",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Easy to take care of\""
+  },
+  {
+    "Stt": 387,
+    "ID_02": "HD_C_386",
+    "ID_01": "HDC386",
+    "Câu hướng dẫn": "My sister",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"My sister\""
+  },
+  {
+    "Stt": 388,
+    "ID_02": "HD_C_387",
+    "ID_01": "HDC387",
+    "Câu hướng dẫn": "My parents",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"My parents\""
+  },
+  {
+    "Stt": 389,
+    "ID_02": "HD_C_388",
+    "ID_01": "HDC388",
+    "Câu hướng dẫn": "My best friend",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"My best friend\""
+  },
+  {
+    "Stt": 390,
+    "ID_02": "HD_C_389",
+    "ID_01": "HDC389",
+    "Câu hướng dẫn": "My little brother",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"My little brother\""
+  },
+  {
+    "Stt": 391,
+    "ID_02": "HD_C_390",
+    "ID_01": "HDC390",
+    "Câu hướng dẫn": "Playing in the park",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Playing in the park\""
+  },
+  {
+    "Stt": 392,
+    "ID_02": "HD_C_391",
+    "ID_01": "HDC391",
+    "Câu hướng dẫn": "Watching it run",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Watching it run\""
+  },
+  {
+    "Stt": 393,
+    "ID_02": "HD_C_392",
+    "ID_01": "HDC392",
+    "Câu hướng dẫn": "Teaching it to talk",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Teaching it to talk\""
+  },
+  {
+    "Stt": 394,
+    "ID_02": "HD_C_393",
+    "ID_01": "HDC393",
+    "Câu hướng dẫn": "Watching it swim",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Watching it swim\""
+  },
+  {
+    "Stt": 395,
+    "ID_02": "HD_C_394",
+    "ID_01": "HDC394",
+    "Câu hướng dẫn": "What do you like to eat at a restaurant?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What do you like to eat at a restaurant?\""
+  },
+  {
+    "Stt": 396,
+    "ID_02": "HD_C_395",
+    "ID_01": "HDC395",
+    "Câu hướng dẫn": "Do you prefer sweet or salty food?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you prefer sweet or salty food?\""
+  },
+  {
+    "Stt": 397,
+    "ID_02": "HD_C_396",
+    "ID_01": "HDC396",
+    "Câu hướng dẫn": "Where do you like to eat?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Where do you like to eat?\""
+  },
+  {
+    "Stt": 398,
+    "ID_02": "HD_C_397",
+    "ID_01": "HDC397",
+    "Câu hướng dẫn": "Do you like fast food?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you like fast food?\""
+  },
+  {
+    "Stt": 399,
+    "ID_02": "HD_C_398",
+    "ID_01": "HDC398",
+    "Câu hướng dẫn": "Stella",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Stella\""
+  },
+  {
+    "Stt": 400,
+    "ID_02": "HD_C_399",
+    "ID_01": "HDC399",
+    "Câu hướng dẫn": "Oscar",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Oscar\""
+  },
+  {
+    "Stt": 401,
+    "ID_02": "HD_C_400",
+    "ID_01": "HDC400",
+    "Câu hướng dẫn": "Madeline",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Madeline\""
+  },
+  {
+    "Stt": 402,
+    "ID_02": "HD_C_401",
+    "ID_01": "HDC401",
+    "Câu hướng dẫn": "Adam",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Adam\""
+  },
+  {
+    "Stt": 403,
+    "ID_02": "HD_C_402",
+    "ID_01": "HDC402",
+    "Câu hướng dẫn": "Grilled chicken and rice",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Grilled chicken and rice\""
+  },
+  {
+    "Stt": 404,
+    "ID_02": "HD_C_403",
+    "ID_01": "HDC403",
+    "Câu hướng dẫn": "Spaghetti with cheese",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Spaghetti with cheese\""
+  },
+  {
+    "Stt": 405,
+    "ID_02": "HD_C_404",
+    "ID_01": "HDC404",
+    "Câu hướng dẫn": "Fresh salad and soup",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Fresh salad and soup\""
+  },
+  {
+    "Stt": 406,
+    "ID_02": "HD_C_405",
+    "ID_01": "HDC405",
+    "Câu hướng dẫn": "Fried fish and potatoes",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Fried fish and potatoes\""
+  },
+  {
+    "Stt": 407,
+    "ID_02": "HD_C_406",
+    "ID_01": "HDC406",
+    "Câu hướng dẫn": "Sweet cakes",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sweet cakes\""
+  },
+  {
+    "Stt": 408,
+    "ID_02": "HD_C_407",
+    "ID_01": "HDC407",
+    "Câu hướng dẫn": "Salty snacks",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Salty snacks\""
+  },
+  {
+    "Stt": 409,
+    "ID_02": "HD_C_408",
+    "ID_01": "HDC408",
+    "Câu hướng dẫn": "Sweet ice cream",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sweet ice cream\""
+  },
+  {
+    "Stt": 410,
+    "ID_02": "HD_C_409",
+    "ID_01": "HDC409",
+    "Câu hướng dẫn": "Salty fries",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Salty fries\""
+  },
+  {
+    "Stt": 411,
+    "ID_02": "HD_C_410",
+    "ID_01": "HDC410",
+    "Câu hướng dẫn": "A small coffee",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"A small coffee\""
+  },
+  {
+    "Stt": 412,
+    "ID_02": "HD_C_411",
+    "ID_01": "HDC411",
+    "Câu hướng dẫn": "A pizza restaurant",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"A pizza restaurant\""
+  },
+  {
+    "Stt": 413,
+    "ID_02": "HD_C_412",
+    "ID_01": "HDC412",
+    "Câu hướng dẫn": "A fancy restaurant",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"A fancy restaurant\""
+  },
+  {
+    "Stt": 414,
+    "ID_02": "HD_C_413",
+    "ID_01": "HDC413",
+    "Câu hướng dẫn": "A fast food place",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"A fast food place\""
+  },
+  {
+    "Stt": 415,
+    "ID_02": "HD_C_414",
+    "ID_01": "HDC414",
+    "Câu hướng dẫn": "Yes, sometimes",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, sometimes\""
+  },
+  {
+    "Stt": 416,
+    "ID_02": "HD_C_415",
+    "ID_01": "HDC415",
+    "Câu hướng dẫn": "Yes, very much",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, very much\""
+  },
+  {
+    "Stt": 417,
+    "ID_02": "HD_C_416",
+    "ID_01": "HDC416",
+    "Câu hướng dẫn": "No, not really",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"No, not really\""
+  },
+  {
+    "Stt": 418,
+    "ID_02": "HD_C_417",
+    "ID_01": "HDC417",
+    "Câu hướng dẫn": "Yes, always good",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, always good\""
+  },
+  {
+    "Stt": 419,
+    "ID_02": "HD_C_418",
+    "ID_01": "HDC418",
+    "Câu hướng dẫn": "What sport do you like?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What sport do you like?\""
+  },
+  {
+    "Stt": 420,
+    "ID_02": "HD_C_419",
+    "ID_01": "HDC419",
+    "Câu hướng dẫn": "Do you play football?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you play football?\""
+  },
+  {
+    "Stt": 421,
+    "ID_02": "HD_C_420",
+    "ID_01": "HDC420",
+    "Câu hướng dẫn": "How often do you exercise?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"How often do you exercise?\""
+  },
+  {
+    "Stt": 422,
+    "ID_02": "HD_C_421",
+    "ID_01": "HDC421",
+    "Câu hướng dẫn": "Do you watch sports on TV?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you watch sports on TV?\""
+  },
+  {
+    "Stt": 423,
+    "ID_02": "HD_C_422",
+    "ID_01": "HDC422",
+    "Câu hướng dẫn": "Aurora",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Aurora\""
+  },
+  {
+    "Stt": 424,
+    "ID_02": "HD_C_423",
+    "ID_01": "HDC423",
+    "Câu hướng dẫn": "Gabriel",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Gabriel\""
+  },
+  {
+    "Stt": 425,
+    "ID_02": "HD_C_424",
+    "ID_01": "HDC424",
+    "Câu hướng dẫn": "Rebecca",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Rebecca\""
+  },
+  {
+    "Stt": 426,
+    "ID_02": "HD_C_425",
+    "ID_01": "HDC425",
+    "Câu hướng dẫn": "Zachary",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Zachary\""
+  },
+  {
+    "Stt": 427,
+    "ID_02": "HD_C_426",
+    "ID_01": "HDC426",
+    "Câu hướng dẫn": "Swimming and running",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Swimming and running\""
+  },
+  {
+    "Stt": 428,
+    "ID_02": "HD_C_427",
+    "ID_01": "HDC427",
+    "Câu hướng dẫn": "Basketball and tennis",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Basketball and tennis\""
+  },
+  {
+    "Stt": 429,
+    "ID_02": "HD_C_428",
+    "ID_01": "HDC428",
+    "Câu hướng dẫn": "Badminton and yoga",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Badminton and yoga\""
+  },
+  {
+    "Stt": 430,
+    "ID_02": "HD_C_429",
+    "ID_01": "HDC429",
+    "Câu hướng dẫn": "Football and cycling",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Football and cycling\""
+  },
+  {
+    "Stt": 431,
+    "ID_02": "HD_C_430",
+    "ID_01": "HDC430",
+    "Câu hướng dẫn": "No, never",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"No, never\""
+  },
+  {
+    "Stt": 432,
+    "ID_02": "HD_C_431",
+    "ID_01": "HDC431",
+    "Câu hướng dẫn": "Yes, every weekend",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, every weekend\""
+  },
+  {
+    "Stt": 433,
+    "ID_02": "HD_C_432",
+    "ID_01": "HDC432",
+    "Câu hướng dẫn": "No, not really",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"No, not really\""
+  },
+  {
+    "Stt": 434,
+    "ID_02": "HD_C_433",
+    "ID_01": "HDC433",
+    "Câu hướng dẫn": "Yes, with friends",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, with friends\""
+  },
+  {
+    "Stt": 435,
+    "ID_02": "HD_C_434",
+    "ID_01": "HDC434",
+    "Câu hướng dẫn": "Three times a week",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Three times a week\""
+  },
+  {
+    "Stt": 436,
+    "ID_02": "HD_C_435",
+    "ID_01": "HDC435",
+    "Câu hướng dẫn": "Almost every day",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Almost every day\""
+  },
+  {
+    "Stt": 437,
+    "ID_02": "HD_C_436",
+    "ID_01": "HDC436",
+    "Câu hướng dẫn": "Twice a week",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Twice a week\""
+  },
+  {
+    "Stt": 438,
+    "ID_02": "HD_C_437",
+    "ID_01": "HDC437",
+    "Câu hướng dẫn": "Once a week",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Once a week\""
+  },
+  {
+    "Stt": 439,
+    "ID_02": "HD_C_438",
+    "ID_01": "HDC438",
+    "Câu hướng dẫn": "Yes, sometimes",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, sometimes\""
+  },
+  {
+    "Stt": 440,
+    "ID_02": "HD_C_439",
+    "ID_01": "HDC439",
+    "Câu hướng dẫn": "Yes, very often",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, very often\""
+  },
+  {
+    "Stt": 441,
+    "ID_02": "HD_C_440",
+    "ID_01": "HDC440",
+    "Câu hướng dẫn": "No, not much",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"No, not much\""
+  },
+  {
+    "Stt": 442,
+    "ID_02": "HD_C_441",
+    "ID_01": "HDC441",
+    "Câu hướng dẫn": "Yes, love football games",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, love football games\""
+  },
+  {
+    "Stt": 443,
+    "ID_02": "HD_C_442",
+    "ID_01": "HDC442",
+    "Câu hướng dẫn": "Do you watch TV often?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you watch TV often?\""
+  },
+  {
+    "Stt": 444,
+    "ID_02": "HD_C_443",
+    "ID_01": "HDC443",
+    "Câu hướng dẫn": "What is your favorite show?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What is your favorite show?\""
+  },
+  {
+    "Stt": 445,
+    "ID_02": "HD_C_444",
+    "ID_01": "HDC444",
+    "Câu hướng dẫn": "How many hours do you watch TV?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"How many hours do you watch TV?\""
+  },
+  {
+    "Stt": 446,
+    "ID_02": "HD_C_445",
+    "ID_01": "HDC445",
+    "Câu hướng dẫn": "What do you do while watching TV?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What do you do while watching TV?\""
+  },
+  {
+    "Stt": 447,
+    "ID_02": "HD_C_446",
+    "ID_01": "HDC446",
+    "Câu hướng dẫn": "Eleanor",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Eleanor\""
+  },
+  {
+    "Stt": 448,
+    "ID_02": "HD_C_447",
+    "ID_01": "HDC447",
+    "Câu hướng dẫn": "Julian",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Julian\""
+  },
+  {
+    "Stt": 449,
+    "ID_02": "HD_C_448",
+    "ID_01": "HDC448",
+    "Câu hướng dẫn": "Abigail",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Abigail\""
+  },
+  {
+    "Stt": 450,
+    "ID_02": "HD_C_449",
+    "ID_01": "HDC449",
+    "Câu hướng dẫn": "Lucas",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Lucas\""
+  },
+  {
+    "Stt": 451,
+    "ID_02": "HD_C_450",
+    "ID_01": "HDC450",
+    "Câu hướng dẫn": "Yes, every evening",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, every evening\""
+  },
+  {
+    "Stt": 452,
+    "ID_02": "HD_C_451",
+    "ID_01": "HDC451",
+    "Câu hướng dẫn": "No, not much",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"No, not much\""
+  },
+  {
+    "Stt": 453,
+    "ID_02": "HD_C_452",
+    "ID_01": "HDC452",
+    "Câu hướng dẫn": "Yes, very often",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, very often\""
+  },
+  {
+    "Stt": 454,
+    "ID_02": "HD_C_453",
+    "ID_01": "HDC453",
+    "Câu hướng dẫn": "Sometimes on weekends",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sometimes on weekends\""
+  },
+  {
+    "Stt": 455,
+    "ID_02": "HD_C_454",
+    "ID_01": "HDC454",
+    "Câu hướng dẫn": "A cooking show",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"A cooking show\""
+  },
+  {
+    "Stt": 456,
+    "ID_02": "HD_C_455",
+    "ID_01": "HDC455",
+    "Câu hướng dẫn": "A sports program",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"A sports program\""
+  },
+  {
+    "Stt": 457,
+    "ID_02": "HD_C_456",
+    "ID_01": "HDC456",
+    "Câu hướng dẫn": "A cartoon series",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"A cartoon series\""
+  },
+  {
+    "Stt": 458,
+    "ID_02": "HD_C_457",
+    "ID_01": "HDC457",
+    "Câu hướng dẫn": "A music show",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"A music show\""
+  },
+  {
+    "Stt": 459,
+    "ID_02": "HD_C_458",
+    "ID_01": "HDC458",
+    "Câu hướng dẫn": "About one hour",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"About one hour\""
+  },
+  {
+    "Stt": 460,
+    "ID_02": "HD_C_459",
+    "ID_01": "HDC459",
+    "Câu hướng dẫn": "Less than one hour",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Less than one hour\""
+  },
+  {
+    "Stt": 461,
+    "ID_02": "HD_C_460",
+    "ID_01": "HDC460",
+    "Câu hướng dẫn": "Two or three hours",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Two or three hours\""
+  },
+  {
+    "Stt": 462,
+    "ID_02": "HD_C_461",
+    "ID_01": "HDC461",
+    "Câu hướng dẫn": "Around one hour",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Around one hour\""
+  },
+  {
+    "Stt": 463,
+    "ID_02": "HD_C_462",
+    "ID_01": "HDC462",
+    "Câu hướng dẫn": "Eating snacks",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Eating snacks\""
+  },
+  {
+    "Stt": 464,
+    "ID_02": "HD_C_463",
+    "ID_01": "HDC463",
+    "Câu hướng dẫn": "Checking my phone",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Checking my phone\""
+  },
+  {
+    "Stt": 465,
+    "ID_02": "HD_C_464",
+    "ID_01": "HDC464",
+    "Câu hướng dẫn": "Sitting with family",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sitting with family\""
+  },
+  {
+    "Stt": 466,
+    "ID_02": "HD_C_465",
+    "ID_01": "HDC465",
+    "Câu hướng dẫn": "Drinking tea",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Drinking tea\""
+  },
+  {
+    "Stt": 467,
+    "ID_02": "HD_C_466",
+    "ID_01": "HDC466",
+    "Câu hướng dẫn": "Do you read books often?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you read books often?\""
+  },
+  {
+    "Stt": 468,
+    "ID_02": "HD_C_467",
+    "ID_01": "HDC467",
+    "Câu hướng dẫn": "What is your favorite book?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What is your favorite book?\""
+  },
+  {
+    "Stt": 469,
+    "ID_02": "HD_C_468",
+    "ID_01": "HDC468",
+    "Câu hướng dẫn": "How often do you read?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"How often do you read?\""
+  },
+  {
+    "Stt": 470,
+    "ID_02": "HD_C_469",
+    "ID_01": "HDC469",
+    "Câu hướng dẫn": "Do you go to the library?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you go to the library?\""
+  },
+  {
+    "Stt": 471,
+    "ID_02": "HD_C_470",
+    "ID_01": "HDC470",
+    "Câu hướng dẫn": "Nicole",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Nicole\""
+  },
+  {
+    "Stt": 472,
+    "ID_02": "HD_C_471",
+    "ID_01": "HDC471",
+    "Câu hướng dẫn": "Sebastian",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sebastian\""
+  },
+  {
+    "Stt": 473,
+    "ID_02": "HD_C_472",
+    "ID_01": "HDC472",
+    "Câu hướng dẫn": "Jasmine",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Jasmine\""
+  },
+  {
+    "Stt": 474,
+    "ID_02": "HD_C_473",
+    "ID_01": "HDC473",
+    "Câu hướng dẫn": "Martin",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Martin\""
+  },
+  {
+    "Stt": 475,
+    "ID_02": "HD_C_474",
+    "ID_01": "HDC474",
+    "Câu hướng dẫn": "Yes, every night",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, every night\""
+  },
+  {
+    "Stt": 476,
+    "ID_02": "HD_C_475",
+    "ID_01": "HDC475",
+    "Câu hướng dẫn": "Sometimes on weekends",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sometimes on weekends\""
+  },
+  {
+    "Stt": 477,
+    "ID_02": "HD_C_476",
+    "ID_01": "HDC476",
+    "Câu hướng dẫn": "No, not much",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"No, not much\""
+  },
+  {
+    "Stt": 478,
+    "ID_02": "HD_C_477",
+    "ID_01": "HDC477",
+    "Câu hướng dẫn": "Yes, very often",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, very often\""
+  },
+  {
+    "Stt": 479,
+    "ID_02": "HD_C_478",
+    "ID_01": "HDC478",
+    "Câu hướng dẫn": "A fairy tale book",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"A fairy tale book\""
+  },
+  {
+    "Stt": 480,
+    "ID_02": "HD_C_479",
+    "ID_01": "HDC479",
+    "Câu hướng dẫn": "A history book",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"A history book\""
+  },
+  {
+    "Stt": 481,
+    "ID_02": "HD_C_480",
+    "ID_01": "HDC480",
+    "Câu hướng dẫn": "A comic book",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"A comic book\""
+  },
+  {
+    "Stt": 482,
+    "ID_02": "HD_C_481",
+    "ID_01": "HDC481",
+    "Câu hướng dẫn": "A science fiction book",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"A science fiction book\""
+  },
+  {
+    "Stt": 483,
+    "ID_02": "HD_C_482",
+    "ID_01": "HDC482",
+    "Câu hướng dẫn": "Almost every day",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Almost every day\""
+  },
+  {
+    "Stt": 484,
+    "ID_02": "HD_C_483",
+    "ID_01": "HDC483",
+    "Câu hướng dẫn": "Two times a week",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Two times a week\""
+  },
+  {
+    "Stt": 485,
+    "ID_02": "HD_C_484",
+    "ID_01": "HDC484",
+    "Câu hướng dẫn": "Once a month",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Once a month\""
+  },
+  {
+    "Stt": 486,
+    "ID_02": "HD_C_485",
+    "ID_01": "HDC485",
+    "Câu hướng dẫn": "Every evening",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Every evening\""
+  },
+  {
+    "Stt": 487,
+    "ID_02": "HD_C_486",
+    "ID_01": "HDC486",
+    "Câu hướng dẫn": "Yes, once a week",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, once a week\""
+  },
+  {
+    "Stt": 488,
+    "ID_02": "HD_C_487",
+    "ID_01": "HDC487",
+    "Câu hướng dẫn": "No, not really",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"No, not really\""
+  },
+  {
+    "Stt": 489,
+    "ID_02": "HD_C_488",
+    "ID_01": "HDC488",
+    "Câu hướng dẫn": "Yes, sometimes",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, sometimes\""
+  },
+  {
+    "Stt": 490,
+    "ID_02": "HD_C_489",
+    "ID_01": "HDC489",
+    "Câu hướng dẫn": "Yes, very often",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, very often\""
+  },
+  {
+    "Stt": 491,
+    "ID_02": "HD_C_490",
+    "ID_01": "HDC490",
+    "Câu hướng dẫn": "Do you like cooking?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you like cooking?\""
+  },
+  {
+    "Stt": 492,
+    "ID_02": "HD_C_491",
+    "ID_01": "HDC491",
+    "Câu hướng dẫn": "What can you cook?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What can you cook?\""
+  },
+  {
+    "Stt": 493,
+    "ID_02": "HD_C_492",
+    "ID_01": "HDC492",
+    "Câu hướng dẫn": "Do you cook every day?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you cook every day?\""
+  },
+  {
+    "Stt": 494,
+    "ID_02": "HD_C_493",
+    "ID_01": "HDC493",
+    "Câu hướng dẫn": "What is your favorite dish to cook?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What is your favorite dish to cook?\""
+  },
+  {
+    "Stt": 495,
+    "ID_02": "HD_C_494",
+    "ID_01": "HDC494",
+    "Câu hướng dẫn": "Anna",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Anna\""
+  },
+  {
+    "Stt": 496,
+    "ID_02": "HD_C_495",
+    "ID_01": "HDC495",
+    "Câu hướng dẫn": "Aaron",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Aaron\""
+  },
+  {
+    "Stt": 497,
+    "ID_02": "HD_C_496",
+    "ID_01": "HDC496",
+    "Câu hướng dẫn": "Julia",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Julia\""
+  },
+  {
+    "Stt": 498,
+    "ID_02": "HD_C_497",
+    "ID_01": "HDC497",
+    "Câu hướng dẫn": "Jonathan",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Jonathan\""
+  },
+  {
+    "Stt": 499,
+    "ID_02": "HD_C_498",
+    "ID_01": "HDC498",
+    "Câu hướng dẫn": "Yes, very much",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, very much\""
+  },
+  {
+    "Stt": 500,
+    "ID_02": "HD_C_499",
+    "ID_01": "HDC499",
+    "Câu hướng dẫn": "No, not really",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"No, not really\""
+  },
+  {
+    "Stt": 501,
+    "ID_02": "HD_C_500",
+    "ID_01": "HDC500",
+    "Câu hướng dẫn": "Yes, a little",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, a little\""
+  },
+  {
+    "Stt": 502,
+    "ID_02": "HD_C_501",
+    "ID_01": "HDC501",
+    "Câu hướng dẫn": "Yes, a lot",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, a lot\""
+  },
+  {
+    "Stt": 503,
+    "ID_02": "HD_C_502",
+    "ID_01": "HDC502",
+    "Câu hướng dẫn": "Pasta and salad",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Pasta and salad\""
+  },
+  {
+    "Stt": 504,
+    "ID_02": "HD_C_503",
+    "ID_01": "HDC503",
+    "Câu hướng dẫn": "Fried eggs and toast",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Fried eggs and toast\""
+  },
+  {
+    "Stt": 505,
+    "ID_02": "HD_C_504",
+    "ID_01": "HDC504",
+    "Câu hướng dẫn": "Rice and vegetables",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Rice and vegetables\""
+  },
+  {
+    "Stt": 506,
+    "ID_02": "HD_C_505",
+    "ID_01": "HDC505",
+    "Câu hướng dẫn": "Sandwiches and soup",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sandwiches and soup\""
+  },
+  {
+    "Stt": 507,
+    "ID_02": "HD_C_506",
+    "ID_01": "HDC506",
+    "Câu hướng dẫn": "No, only on weekends",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"No, only on weekends\""
+  },
+  {
+    "Stt": 508,
+    "ID_02": "HD_C_507",
+    "ID_01": "HDC507",
+    "Câu hướng dẫn": "No, sometimes",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"No, sometimes\""
+  },
+  {
+    "Stt": 509,
+    "ID_02": "HD_C_508",
+    "ID_01": "HDC508",
+    "Câu hướng dẫn": "Yes, almost every day",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, almost every day\""
+  },
+  {
+    "Stt": 510,
+    "ID_02": "HD_C_509",
+    "ID_01": "HDC509",
+    "Câu hướng dẫn": "Yes, every evening",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, every evening\""
+  },
+  {
+    "Stt": 511,
+    "ID_02": "HD_C_510",
+    "ID_01": "HDC510",
+    "Câu hướng dẫn": "Spaghetti with tomato sauce",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Spaghetti with tomato sauce\""
+  },
+  {
+    "Stt": 512,
+    "ID_02": "HD_C_511",
+    "ID_01": "HDC511",
+    "Câu hướng dẫn": "Scrambled eggs",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Scrambled eggs\""
+  },
+  {
+    "Stt": 513,
+    "ID_02": "HD_C_512",
+    "ID_01": "HDC512",
+    "Câu hướng dẫn": "Chicken soup",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Chicken soup\""
+  },
+  {
+    "Stt": 514,
+    "ID_02": "HD_C_513",
+    "ID_01": "HDC513",
+    "Câu hướng dẫn": "Grilled cheese sandwich",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Grilled cheese sandwich\""
+  },
+  {
+    "Stt": 515,
+    "ID_02": "HD_C_514",
+    "ID_01": "HDC514",
+    "Câu hướng dẫn": "Do you like learning English?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you like learning English?\""
+  },
+  {
+    "Stt": 516,
+    "ID_02": "HD_C_515",
+    "ID_01": "HDC515",
+    "Câu hướng dẫn": "Why do you learn English?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Why do you learn English?\""
+  },
+  {
+    "Stt": 517,
+    "ID_02": "HD_C_516",
+    "ID_01": "HDC516",
+    "Câu hướng dẫn": "Is English difficult or easy?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Is English difficult or easy?\""
+  },
+  {
+    "Stt": 518,
+    "ID_02": "HD_C_517",
+    "ID_01": "HDC517",
+    "Câu hướng dẫn": "How often do you study English?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"How often do you study English?\""
+  },
+  {
+    "Stt": 519,
+    "ID_02": "HD_C_518",
+    "ID_01": "HDC518",
+    "Câu hướng dẫn": "Mark",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Mark\""
+  },
+  {
+    "Stt": 520,
+    "ID_02": "HD_C_519",
+    "ID_01": "HDC519",
+    "Câu hướng dẫn": "Chloe",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Chloe\""
+  },
+  {
+    "Stt": 521,
+    "ID_02": "HD_C_520",
+    "ID_01": "HDC520",
+    "Câu hướng dẫn": "Timothy",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Timothy\""
+  },
+  {
+    "Stt": 522,
+    "ID_02": "HD_C_521",
+    "ID_01": "HDC521",
+    "Câu hướng dẫn": "Alice",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Alice\""
+  },
+  {
+    "Stt": 523,
+    "ID_02": "HD_C_522",
+    "ID_01": "HDC522",
+    "Câu hướng dẫn": "Yes, very much",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, very much\""
+  },
+  {
+    "Stt": 524,
+    "ID_02": "HD_C_523",
+    "ID_01": "HDC523",
+    "Câu hướng dẫn": "Yes, a lot",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, a lot\""
+  },
+  {
+    "Stt": 525,
+    "ID_02": "HD_C_524",
+    "ID_01": "HDC524",
+    "Câu hướng dẫn": "No, not really",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"No, not really\""
+  },
+  {
+    "Stt": 526,
+    "ID_02": "HD_C_525",
+    "ID_01": "HDC525",
+    "Câu hướng dẫn": "Yes, a little",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, a little\""
+  },
+  {
+    "Stt": 527,
+    "ID_02": "HD_C_526",
+    "ID_01": "HDC526",
+    "Câu hướng dẫn": "For work and travel",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"For work and travel\""
+  },
+  {
+    "Stt": 528,
+    "ID_02": "HD_C_527",
+    "ID_01": "HDC527",
+    "Câu hướng dẫn": "To talk with friends",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"To talk with friends\""
+  },
+  {
+    "Stt": 529,
+    "ID_02": "HD_C_528",
+    "ID_01": "HDC528",
+    "Câu hướng dẫn": "A school subject",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"A school subject\""
+  },
+  {
+    "Stt": 530,
+    "ID_02": "HD_C_529",
+    "ID_01": "HDC529",
+    "Câu hướng dẫn": "To watch movies",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"To watch movies\""
+  },
+  {
+    "Stt": 531,
+    "ID_02": "HD_C_530",
+    "ID_01": "HDC530",
+    "Câu hướng dẫn": "A little difficult",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"A little difficult\""
+  },
+  {
+    "Stt": 532,
+    "ID_02": "HD_C_531",
+    "ID_01": "HDC531",
+    "Câu hướng dẫn": "Easy and fun",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Easy and fun\""
+  },
+  {
+    "Stt": 533,
+    "ID_02": "HD_C_532",
+    "ID_01": "HDC532",
+    "Câu hướng dẫn": "Very difficult",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Very difficult\""
+  },
+  {
+    "Stt": 534,
+    "ID_02": "HD_C_533",
+    "ID_01": "HDC533",
+    "Câu hướng dẫn": "Sometimes difficult",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sometimes difficult\""
+  },
+  {
+    "Stt": 535,
+    "ID_02": "HD_C_534",
+    "ID_01": "HDC534",
+    "Câu hướng dẫn": "Every evening",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Every evening\""
+  },
+  {
+    "Stt": 536,
+    "ID_02": "HD_C_535",
+    "ID_01": "HDC535",
+    "Câu hướng dẫn": "Three times a week",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Three times a week\""
+  },
+  {
+    "Stt": 537,
+    "ID_02": "HD_C_536",
+    "ID_01": "HDC536",
+    "Câu hướng dẫn": "Only at school",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Only at school\""
+  },
+  {
+    "Stt": 538,
+    "ID_02": "HD_C_537",
+    "ID_01": "HDC537",
+    "Câu hướng dẫn": "Almost every day",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Almost every day\""
+  },
+  {
+    "Stt": 539,
+    "ID_02": "HD_C_538",
+    "ID_01": "HDC538",
+    "Câu hướng dẫn": "What do you do in your free time?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"What do you do in your free time?\""
+  },
+  {
+    "Stt": 540,
+    "ID_02": "HD_C_539",
+    "ID_01": "HDC539",
+    "Câu hướng dẫn": "When are you usually free?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"When are you usually free?\""
+  },
+  {
+    "Stt": 541,
+    "ID_02": "HD_C_540",
+    "ID_01": "HDC540",
+    "Câu hướng dẫn": "Who do you spend time with?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Who do you spend time with?\""
+  },
+  {
+    "Stt": 542,
+    "ID_02": "HD_C_541",
+    "ID_01": "HDC541",
+    "Câu hướng dẫn": "Do you want to go out with friends when free?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you want to go out with friends when free?\""
+  },
+  {
+    "Stt": 543,
+    "ID_02": "HD_C_542",
+    "ID_01": "HDC542",
+    "Câu hướng dẫn": "Henry",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Henry\""
+  },
+  {
+    "Stt": 544,
+    "ID_02": "HD_C_543",
+    "ID_01": "HDC543",
+    "Câu hướng dẫn": "Olivia",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Olivia\""
+  },
+  {
+    "Stt": 545,
+    "ID_02": "HD_C_544",
+    "ID_01": "HDC544",
+    "Câu hướng dẫn": "Peter",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Peter\""
+  },
+  {
+    "Stt": 546,
+    "ID_02": "HD_C_545",
+    "ID_01": "HDC545",
+    "Câu hướng dẫn": "Emma",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Emma\""
+  },
+  {
+    "Stt": 547,
+    "ID_02": "HD_C_546",
+    "ID_01": "HDC546",
+    "Câu hướng dẫn": "Play video games",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Play video games\""
+  },
+  {
+    "Stt": 548,
+    "ID_02": "HD_C_547",
+    "ID_01": "HDC547",
+    "Câu hướng dẫn": "Listen to music",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Listen to music\""
+  },
+  {
+    "Stt": 549,
+    "ID_02": "HD_C_548",
+    "ID_01": "HDC548",
+    "Câu hướng dẫn": "Watch movies",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Watch movies\""
+  },
+  {
+    "Stt": 550,
+    "ID_02": "HD_C_549",
+    "ID_01": "HDC549",
+    "Câu hướng dẫn": "Read books",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Read books\""
+  },
+  {
+    "Stt": 551,
+    "ID_02": "HD_C_550",
+    "ID_01": "HDC550",
+    "Câu hướng dẫn": "In the evening",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"In the evening\""
+  },
+  {
+    "Stt": 552,
+    "ID_02": "HD_C_551",
+    "ID_01": "HDC551",
+    "Câu hướng dẫn": "On weekends",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"On weekends\""
+  },
+  {
+    "Stt": 553,
+    "ID_02": "HD_C_552",
+    "ID_01": "HDC552",
+    "Câu hướng dẫn": "After school",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"After school\""
+  },
+  {
+    "Stt": 554,
+    "ID_02": "HD_C_553",
+    "ID_01": "HDC553",
+    "Câu hướng dẫn": "In the afternoon",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"In the afternoon\""
+  },
+  {
+    "Stt": 555,
+    "ID_02": "HD_C_554",
+    "ID_01": "HDC554",
+    "Câu hướng dẫn": "Best friend",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Best friend\""
+  },
+  {
+    "Stt": 556,
+    "ID_02": "HD_C_555",
+    "ID_01": "HDC555",
+    "Câu hướng dẫn": "Sister",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sister\""
+  },
+  {
+    "Stt": 557,
+    "ID_02": "HD_C_556",
+    "ID_01": "HDC556",
+    "Câu hướng dẫn": "Classmates",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Classmates\""
+  },
+  {
+    "Stt": 558,
+    "ID_02": "HD_C_557",
+    "ID_01": "HDC557",
+    "Câu hướng dẫn": "Nobody, alone",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Nobody, alone\""
+  },
+  {
+    "Stt": 559,
+    "ID_02": "HD_C_558",
+    "ID_01": "HDC558",
+    "Câu hướng dẫn": "Yes, very much",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, very much\""
+  },
+  {
+    "Stt": 560,
+    "ID_02": "HD_C_559",
+    "ID_01": "HDC559",
+    "Câu hướng dẫn": "Sometimes",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Sometimes\""
+  },
+  {
+    "Stt": 561,
+    "ID_02": "HD_C_560",
+    "ID_01": "HDC560",
+    "Câu hướng dẫn": "Yes, a lot",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, a lot\""
+  },
+  {
+    "Stt": 562,
+    "ID_02": "HD_C_561",
+    "ID_01": "HDC561",
+    "Câu hướng dẫn": "No, not really",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"No, not really\""
+  },
+  {
+    "Stt": 563,
+    "ID_02": "HD_C_562",
+    "ID_01": "HDC562",
+    "Câu hướng dẫn": "Where do you want to travel?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Where do you want to travel?\""
+  },
+  {
+    "Stt": 564,
+    "ID_02": "HD_C_563",
+    "ID_01": "HDC563",
+    "Câu hướng dẫn": "Do you like the beach or the mountains?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you like the beach or the mountains?\""
+  },
+  {
+    "Stt": 565,
+    "ID_02": "HD_C_564",
+    "ID_01": "HDC564",
+    "Câu hướng dẫn": "Have you ever been to another country?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Have you ever been to another country?\""
+  },
+  {
+    "Stt": 566,
+    "ID_02": "HD_C_565",
+    "ID_01": "HDC565",
+    "Câu hướng dẫn": "Do you prefer summer or winter holidays?",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Do you prefer summer or winter holidays?\""
+  },
+  {
+    "Stt": 567,
+    "ID_02": "HD_C_566",
+    "ID_01": "HDC566",
+    "Câu hướng dẫn": "Benjamin",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Benjamin\""
+  },
+  {
+    "Stt": 568,
+    "ID_02": "HD_C_567",
+    "ID_01": "HDC567",
+    "Câu hướng dẫn": "Charlotte",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Charlotte\""
+  },
+  {
+    "Stt": 569,
+    "ID_02": "HD_C_568",
+    "ID_01": "HDC568",
+    "Câu hướng dẫn": "Jacob",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Jacob\""
+  },
+  {
+    "Stt": 570,
+    "ID_02": "HD_C_569",
+    "ID_01": "HDC569",
+    "Câu hướng dẫn": "Natalie",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Natalie\""
+  },
+  {
+    "Stt": 571,
+    "ID_02": "HD_C_570",
+    "ID_01": "HDC570",
+    "Câu hướng dẫn": "Japan, for the food",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Japan, for the food\""
+  },
+  {
+    "Stt": 572,
+    "ID_02": "HD_C_571",
+    "ID_01": "HDC571",
+    "Câu hướng dẫn": "France, for the culture",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"France, for the culture\""
+  },
+  {
+    "Stt": 573,
+    "ID_02": "HD_C_572",
+    "ID_01": "HDC572",
+    "Câu hướng dẫn": "Australia, to see animals",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Australia, to see animals\""
+  },
+  {
+    "Stt": 574,
+    "ID_02": "HD_C_573",
+    "ID_01": "HDC573",
+    "Câu hướng dẫn": "Canada, for nature",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Canada, for nature\""
+  },
+  {
+    "Stt": 575,
+    "ID_02": "HD_C_574",
+    "ID_01": "HDC574",
+    "Câu hướng dẫn": "Beach, love swimming",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Beach, love swimming\""
+  },
+  {
+    "Stt": 576,
+    "ID_02": "HD_C_575",
+    "ID_01": "HDC575",
+    "Câu hướng dẫn": "Mountains, like hiking",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Mountains, like hiking\""
+  },
+  {
+    "Stt": 577,
+    "ID_02": "HD_C_576",
+    "ID_01": "HDC576",
+    "Câu hướng dẫn": "Beach, love the waves",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Beach, love the waves\""
+  },
+  {
+    "Stt": 578,
+    "ID_02": "HD_C_577",
+    "ID_01": "HDC577",
+    "Câu hướng dẫn": "Mountains, enjoy the view",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Mountains, enjoy the view\""
+  },
+  {
+    "Stt": 579,
+    "ID_02": "HD_C_578",
+    "ID_01": "HDC578",
+    "Câu hướng dẫn": "No, never",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"No, never\""
+  },
+  {
+    "Stt": 580,
+    "ID_02": "HD_C_579",
+    "ID_01": "HDC579",
+    "Câu hướng dẫn": "Yes, to Italy",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, to Italy\""
+  },
+  {
+    "Stt": 581,
+    "ID_02": "HD_C_580",
+    "ID_01": "HDC580",
+    "Câu hướng dẫn": "No, only my country",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"No, only my country\""
+  },
+  {
+    "Stt": 582,
+    "ID_02": "HD_C_581",
+    "ID_01": "HDC581",
+    "Câu hướng dẫn": "Yes, to Spain",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Yes, to Spain\""
+  },
+  {
+    "Stt": 583,
+    "ID_02": "HD_C_582",
+    "ID_01": "HDC582",
+    "Câu hướng dẫn": "Summer, love the sun",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Summer, love the sun\""
+  },
+  {
+    "Stt": 584,
+    "ID_02": "HD_C_583",
+    "ID_01": "HDC583",
+    "Câu hướng dẫn": "Winter, like the snow",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Winter, like the snow\""
+  },
+  {
+    "Stt": 585,
+    "ID_02": "HD_C_584",
+    "ID_01": "HDC584",
+    "Câu hướng dẫn": "Summer, enjoy the warm weather",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Summer, enjoy the warm weather\""
+  },
+  {
+    "Stt": 586,
+    "ID_02": "HD_C_585",
+    "ID_01": "HDC585",
+    "Câu hướng dẫn": "Winter, like cold weather",
+    "nameVideo": "Hướng dẫn ghép âm tiếng Anh: \"Winter, like cold weather\""
   }
 ]

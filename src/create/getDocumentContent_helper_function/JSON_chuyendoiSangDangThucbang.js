@@ -327,13 +327,17 @@ function FN_A1(id) {
 function FN_ZZZZA1() {
   // Assuming GetData() fetches your data
   const data = GetData()[1];
-
+  //THAYDOI/CHANGE
+  let SODONGEXCELCANLAY = 12;
+  try {
+    SODONGEXCELCANLAY = parseInt($("#SODONGEXCELCANLAYID").text());
+  } catch (error) {}
   let data_xuly_01 = [];
 
   // Iterate through the data array in chunks of 4 elements
-  for (let i = 0; i < data.length; i += 4) {
+  for (let i = 0; i < data.length; i += SODONGEXCELCANLAY) {
     // Slice out 4 elements from the data array starting at index i
-    let chunk = data.slice(i, i + 4);
+    let chunk = data.slice(i, i + SODONGEXCELCANLAY);
 
     // Merge the 4 arrays into one array
     let mergedArray = [].concat(...chunk);
