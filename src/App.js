@@ -12,6 +12,8 @@ import NewVideoModel from "./newVideoModel/NewVideoModel.js";
 import NewTableFromJson from "./getNewTableFormJSON/NewTableFromJson.js";
 import YoutubeDiv from "./YoutubeGetLink.js";
 import YouTubePlaylist from "./YoutubePlaylist.js";
+import VideoTiktokGhepAm from "./quayvideoTiktok/quayvideoTiktokGhepAm.js";
+import LayIPASort from "./layIPASort/layIPASort.js";
 // import VideoMerger from "./ghepMp4/GhepMp4.js";
 // import VideoMerger01 from "./ghepMp4/GhepMp4_01.js";
 // import VideoMerger02 from "./ghepMp4/GhepMp4_02.js";
@@ -41,6 +43,8 @@ function App() {
           <Route path="/merge" element={<VideoMerger03 />} />{" "}
           <Route path="/ghiam" element={<GhiAm />} />
           <Route path="/youtube" element={<YouTubePlaylist />} />
+          <Route path="/tiktok" element={<VideoTiktokGhepAm />} />
+          <Route path="/ipasort" element={<LayIPASort />} />
         </Routes>
       </div>
     </Router>

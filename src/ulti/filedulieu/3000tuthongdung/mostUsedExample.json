@@ -1,0 +1,5002 @@
+[
+    {
+        "Example": "Will you be my friend?",
+        "IpaEx": "wɪl juː biː maɪ frɛnd?",
+        "MeanEx": "Bạn sẽ là bạn của tôi chứ?"
+    },
+    {
+        "Example": "You and I will always be friends.",
+        "IpaEx": "juː ænd aɪ wɪl ˈɔːlweɪz biː frɛndz.",
+        "MeanEx": "Bạn và tôi sẽ luôn là bạn của nhau."
+    },
+    {
+        "Example": "Today is the first of November.",
+        "IpaEx": "təˈdeɪ ɪz ðə fɜːst ɒv nəʊˈvɛmbə.",
+        "MeanEx": "Hôm nay là ngày đầu tiên của tháng mười một."
+    },
+    {
+        "Example": "I saw a bear today.",
+        "IpaEx": "aɪ sɔː ə beə təˈdeɪ.",
+        "MeanEx": "Tôi đã nhìn thấy một con gấu hôm nay."
+    },
+    {
+        "Example": "She is in her room.",
+        "IpaEx": "ʃiː ɪz ɪn hɜː ruːm.",
+        "MeanEx": "Cô ấy đang ở trong phòng của mình."
+    },
+    {
+        "Example": "Let’s go to the park.",
+        "IpaEx": "lɛts gəʊ tuː ðə pɑːk.",
+        "MeanEx": "Chúng ta hãy đi đến công viên."
+    },
+    {
+        "Example": "I have a few questions.",
+        "IpaEx": "aɪ hæv ə fjuː ˈkwɛsʧənz.",
+        "MeanEx": "Tôi có một vài câu hỏi."
+    },
+    {
+        "Example": "I like her too.",
+        "IpaEx": "aɪ laɪk hɜː tuː.",
+        "MeanEx": "Tôi cũng thích cô ấy."
+    },
+    {
+        "Example": "It is sunny outside.",
+        "IpaEx": "ɪt ɪz ˈsʌni ˌaʊtˈsaɪd.",
+        "MeanEx": "Ngoài trời đang nắng."
+    },
+    {
+        "Example": "I really like it here.",
+        "IpaEx": "aɪ ˈrɪəli laɪk ɪt hɪə.",
+        "MeanEx": "Tôi thực sự thích nó ở đây."
+    },
+    {
+        "Example": "That door is open.",
+        "IpaEx": "ðæt dɔːr ɪz ˈəʊpən.",
+        "MeanEx": "Cánh cửa đó đang mở."
+    },
+    {
+        "Example": "This letter is for you.",
+        "IpaEx": "ðɪs ˈlɛtər ɪz fɔː juː.",
+        "MeanEx": "Bức thư này là dành cho bạn."
+    },
+    {
+        "Example": "You are really nice.",
+        "IpaEx": "juː ɑː ˈrɪəli naɪs.",
+        "MeanEx": "Bạn thực sự tốt."
+    },
+    {
+        "Example": "He is my brother.",
+        "IpaEx": "hiː ɪz maɪ ˈbrʌðə.",
+        "MeanEx": "Anh ấy là anh trai tôi."
+    },
+    {
+        "Example": "I want to go with you.",
+        "IpaEx": "aɪ wɒnt tuː gəʊ wɪð juː.",
+        "MeanEx": "Tôi muốn đi cùng bạn."
+    },
+    {
+        "Example": "I watch movies on my iPad.",
+        "IpaEx": "aɪ wɒʧ ˈmuːviz ɒn maɪ ˈaɪˌpæd.",
+        "MeanEx": "Tôi xem phim trên iPad của mình."
+    },
+    {
+        "Example": "What will you do now?",
+        "IpaEx": "wɒt wɪl juː duː naʊ?",
+        "MeanEx": "Bạn sẽ làm gì bây giờ?"
+    },
+    {
+        "Example": "Can I say something?",
+        "IpaEx": "kæn aɪ seɪ ˈsʌmθɪŋ?",
+        "MeanEx": "Tôi nói một tí được không?"
+    },
+    {
+        "Example": "This is my favorite cookie.",
+        "IpaEx": "ðɪs ɪz maɪ ˈfeɪvərɪt ˈkʊki.",
+        "MeanEx": "Đây là cookie yêu thích của tôi."
+    },
+    {
+        "Example": "They are here!",
+        "IpaEx": "ðeɪ ɑː hɪə!",
+        "MeanEx": "Họ ở đây!"
+    },
+    {
+        "Example": "Can you pick me up at the mall?",
+        "IpaEx": "kæn juː pɪk miː ʌp æt ðə mɔːl?",
+        "MeanEx": "Bạn có thể đón tôi ở trung tâm mua sắm được không?"
+    },
+    {
+        "Example": "I’m sorry but she’s away.",
+        "IpaEx": "aɪm ˈsɒri bʌt ʃiːz əˈweɪ.",
+        "MeanEx": "Tôi xin lỗi nhưng cô ấy đi vắng."
+    },
+    {
+        "Example": "We are going to watch a movie.",
+        "IpaEx": "wiː ɑː ˈgəʊɪŋ tuː wɒʧ ə ˈmuːvi.",
+        "MeanEx": "Chúng ta sẽ xem một bộ phim."
+    },
+    {
+        "Example": "This is his box.",
+        "IpaEx": "ðɪs ɪz hɪz bɒks.",
+        "MeanEx": "Đây là hộp của anh ấy."
+    },
+    {
+        "Example": "This card came from my cousin.",
+        "IpaEx": "ðɪs kɑːd keɪm frɒm maɪ ˈkʌzn.",
+        "MeanEx": "Thẻ này đến từ anh họ của tôi."
+    },
+    {
+        "Example": "That’s a really cool trick!",
+        "IpaEx": "ðæts ə ˈrɪəli kuːl trɪk!",
+        "MeanEx": "Đó là một thủ thuật thực sự thú vị!"
+    },
+    {
+        "Example": "That’s not what I want.",
+        "IpaEx": "ðæts nɒt wɒt aɪ wɒnt.",
+        "MeanEx": "Đó không phải là điều tôi muốn."
+    },
+    {
+        "Example": "I can’t open it.",
+        "IpaEx": "aɪ kɑːnt ˈəʊpən ɪt.",
+        "MeanEx": "Tôi không thể mở nó."
+    },
+    {
+        "Example": "I won’t open it.",
+        "IpaEx": "aɪ wəʊnt ˈəʊpən ɪt.",
+        "MeanEx": "Tôi sẽ không mở nó."
+    },
+    {
+        "Example": "Will you come by and see me?",
+        "IpaEx": "wɪl juː kʌm baɪ ænd siː miː?",
+        "MeanEx": "Bạn sẽ đến và gặp tôi?"
+    },
+    {
+        "Example": "She is very happy.",
+        "IpaEx": "ʃiː ɪz ˈvɛri ˈhæpi.",
+        "MeanEx": "Cô ấy rất hạnh phúc."
+    },
+    {
+        "Example": "Do you like blue or yellow?",
+        "IpaEx": "duː juː laɪk bluː ɔː ˈjɛləʊ?",
+        "MeanEx": "Bạn thích màu xanh hay màu vàng?"
+    },
+    {
+        "Example": "Her role as an English teacher is very important.",
+        "IpaEx": "hɜː rəʊl æz ən ˈɪŋglɪʃ ˈtiːʧər ɪz ˈvɛri ɪmˈpɔːtənt.",
+        "MeanEx": "Vai trò của một giáo viên tiếng Anh là rất quan trọng."
+    },
+    {
+        "Example": "What are you thinking of?",
+        "IpaEx": "wɒt ɑː juː ˈθɪŋkɪŋ ɒv?",
+        "MeanEx": "Bạn đang nghĩ về cái gì vậy?"
+    },
+    {
+        "Example": "I want to go there.",
+        "IpaEx": "aɪ wɒnt tuː gəʊ ðeə.",
+        "MeanEx": "Tôi muốn đi đến đó."
+    },
+    {
+        "Example": "This is their house.",
+        "IpaEx": "ðɪs ɪz ðeə haʊs.",
+        "MeanEx": "Đây là nhà của họ."
+    },
+    {
+        "Example": "What can I do for you?",
+        "IpaEx": "wɒt kæn aɪ duː fɔː juː?",
+        "MeanEx": "Tôi có thể làm gì cho bạn?"
+    },
+    {
+        "Example": "Who can help me?",
+        "IpaEx": "huː kæn hɛlp miː?",
+        "MeanEx": "Ai có thể giúp tôi?"
+    },
+    {
+        "Example": "Can you get me my eyeglasses?",
+        "IpaEx": "kæn juː gɛt miː maɪ ˈaɪglɑːsɪz?",
+        "MeanEx": "Bạn có thể lấy cho tôi kính mắt của tôi được không?"
+    },
+    {
+        "Example": "What if I fail?",
+        "IpaEx": "wɒt ɪf aɪ feɪl?",
+        "MeanEx": "Nếu tôi thất bại thì sao?"
+    },
+    {
+        "Example": "Would you help me out?",
+        "IpaEx": "wʊd juː hɛlp miː aʊt?",
+        "MeanEx": "Bạn có thể giúp tôi ra ngoài?"
+    },
+    {
+        "Example": "I have her book.",
+        "IpaEx": "aɪ hæv hɜː bʊk.",
+        "MeanEx": "Tôi có cuốn sách của cô ấy."
+    },
+    {
+        "Example": "All my favorite books are on this shelf.",
+        "IpaEx": "ɔːl maɪ ˈfeɪvərɪt bʊks ɑːr ɒn ðɪs ʃɛlf.",
+        "MeanEx": "Tất cả những cuốn sách yêu thích của tôi đều có trên kệ này."
+    },
+    {
+        "Example": "My mom is coming to visit.",
+        "IpaEx": "maɪ mɒm ɪz ˈkʌmɪŋ tuː ˈvɪzɪt.",
+        "MeanEx": "Mẹ tôi sắp đến thăm."
+    },
+    {
+        "Example": "Can we make our projects together?",
+        "IpaEx": "kæn wiː meɪk ˈaʊə ˈprɒʤɛkts təˈgɛðə?",
+        "MeanEx": "Chúng ta có thể thực hiện các dự án của chúng ta cùng nhau không?"
+    },
+    {
+        "Example": "What is this movie about?",
+        "IpaEx": "wɒt ɪz ðɪs ˈmuːvi əˈbaʊt?",
+        "MeanEx": "Phim này nói về cái gì?"
+    },
+    {
+        "Example": "Do you know where this place is?",
+        "IpaEx": "duː juː nəʊ weə ðɪs pleɪs ɪz?",
+        "MeanEx": "Bạn có biết nơi này là ở đâu không?"
+    },
+    {
+        "Example": "I will help you find that place.",
+        "IpaEx": "aɪ wɪl hɛlp juː faɪnd ðæt pleɪs.",
+        "MeanEx": "Tôi sẽ giúp bạn tìm ra nơi đó."
+    },
+    {
+        "Example": "As soon as she’s here, I’ll talk to her.",
+        "IpaEx": "æz suːn æz ʃiːz hɪə, aɪl tɔːk tuː hɜː.",
+        "MeanEx": "Ngay khi cô ấy ở đây, tôi sẽ nói chuyện với cô ấy."
+    },
+    {
+        "Example": "I live up in the mountains.",
+        "IpaEx": "aɪ lɪv ʌp ɪn ðə ˈmaʊntɪnz.",
+        "MeanEx": "Tôi sống trên núi."
+    },
+    {
+        "Example": "She is one of my English teachers.",
+        "IpaEx": "ʃiː ɪz wʌn ɒv maɪ ˈɪŋglɪʃ ˈtiːʧəz.",
+        "MeanEx": "Cô ấy là một trong những giáo viên tiếng Anh của tôi."
+    },
+    {
+        "Example": "There was a time I liked to play golf.",
+        "IpaEx": "ðeə wɒz ə taɪm aɪ laɪkt tuː pleɪ gɒlf.",
+        "MeanEx": "Có một thời gian tôi thích chơi gôn."
+    },
+    {
+        "Example": "There are so many things I want to learn.",
+        "IpaEx": "ðeər ɑː səʊ ˈmɛni θɪŋz aɪ wɒnt tuː lɜːn.",
+        "MeanEx": "Có rất nhiều điều tôi muốn học."
+    },
+    {
+        "Example": "This is the year I’m finally going to learn English.",
+        "IpaEx": "ðɪs ɪz ðə jɪər aɪm ˈfaɪnəli ˈgəʊɪŋ tuː lɜːn ˈɪŋglɪʃ.",
+        "MeanEx": "Đây là năm cuối cùng tôi sẽ học tiếng Anh."
+    },
+    {
+        "Example": "I am so sorry.",
+        "IpaEx": "aɪ æm səʊ ˈsɒri.",
+        "MeanEx": "Tôi rât tiêc."
+    },
+    {
+        "Example": "I think I need to lie down.",
+        "IpaEx": "aɪ θɪŋk aɪ niːd tuː laɪ daʊn.",
+        "MeanEx": "Tôi nghĩ tôi cần phải nằm xuống."
+    },
+    {
+        "Example": "When will I see you again?",
+        "IpaEx": "wɛn wɪl aɪ siː juː əˈgɛn?",
+        "MeanEx": "Chưng nao chung ta gặp lại nhau?"
+    },
+    {
+        "Example": "Which of these slippers is yours?",
+        "IpaEx": "wɪʧ ɒv ðiːz ˈslɪpəz ɪz jɔːz?",
+        "MeanEx": "Đôi dép nào trong số này là của bạn?"
+    },
+    {
+        "Example": "Please give this to them.",
+        "IpaEx": "pliːz gɪv ðɪs tuː ðɛm.",
+        "MeanEx": "Hãy đưa cái này cho họ."
+    },
+    {
+        "Example": "Please give them some of the apples I brought home.",
+        "IpaEx": "pliːz gɪv ðɛm sʌm ɒv ði ˈæplz aɪ brɔːt həʊm.",
+        "MeanEx": "Làm ơn cho họ một số táo mà tôi đã mang về nhà."
+    },
+    {
+        "Example": "Can you give me some apples?",
+        "IpaEx": "kæn juː gɪv miː sʌm ˈæplz?",
+        "MeanEx": "Bạn có thể cho tôi một ít táo được không?"
+    },
+    {
+        "Example": "There are so many people at the mall today.",
+        "IpaEx": "ðeər ɑː səʊ ˈmɛni ˈpiːpl æt ðə mɔːl təˈdeɪ.",
+        "MeanEx": "Hôm nay có rất nhiều người ở trung tâm mua sắm."
+    },
+    {
+        "Example": "Please take home some of these apples",
+        "IpaEx": "pliːz teɪk həʊm sʌm ɒv ðiːz ˈæplz",
+        "MeanEx": "Hãy mang về nhà một số táo này"
+    },
+    {
+        "Example": "Please throw the trash out.",
+        "IpaEx": "pliːz θrəʊ ðə træʃ aʊt.",
+        "MeanEx": "Hãy ném thùng rác ra ngoài."
+    },
+    {
+        "Example": "My puppy ran into the woods.",
+        "IpaEx": "maɪ ˈpʌpi ræn ˈɪntuː ðə wʊdz.",
+        "MeanEx": "Con chó con của tôi chạy vào rừng."
+    },
+    {
+        "Example": "Just close your eyes.",
+        "IpaEx": "ʤʌst kləʊs jɔːr aɪz.",
+        "MeanEx": "Chỉ cần nhắm mắt lại."
+    },
+    {
+        "Example": "Did you see that?",
+        "IpaEx": "dɪd juː siː ðæt?",
+        "MeanEx": "Bạn có thấy điều đó không?"
+    },
+    {
+        "Example": "I heard him singing earlier.",
+        "IpaEx": "aɪ hɜːd hɪm ˈsɪŋɪŋ ˈɜːlɪə.",
+        "MeanEx": "Tôi đã nghe anh ấy hát trước đó."
+    },
+    {
+        "Example": "Your mom is here.",
+        "IpaEx": "jɔː mɒm ɪz hɪə.",
+        "MeanEx": "Mẹ của bạn đang ở đây."
+    },
+    {
+        "Example": "Can your mom and dad come to the party?",
+        "IpaEx": "kæn jɔː mɒm ænd dæd kʌm tuː ðə ˈpɑːti?",
+        "MeanEx": "Bố mẹ bạn có thể đến dự tiệc không?"
+    },
+    {
+        "Example": "Could you help me with my project?",
+        "IpaEx": "kʊd juː hɛlp miː wɪð maɪ ˈprɒʤɛkt?",
+        "MeanEx": "Bạn có thể giúp tôi với dự án của tôi?"
+    },
+    {
+        "Example": "I want to watch this now.",
+        "IpaEx": "aɪ wɒnt tuː wɒʧ ðɪs naʊ.",
+        "MeanEx": "Tôi muốn xem cái này ngay bây giờ."
+    },
+    {
+        "Example": "I like this cake better than the other one you showed me.",
+        "IpaEx": "aɪ laɪk ðɪs keɪk ˈbɛtə ðæn ði ˈʌðə wʌn juː ʃəʊd miː.",
+        "MeanEx": "Tôi thích cái bánh này hơn cái khác mà bạn đã cho tôi xem."
+    },
+    {
+        "Example": "I like this bag better than the other one you showed me.",
+        "IpaEx": "aɪ laɪk ðɪs bæg ˈbɛtə ðæn ði ˈʌðə wʌn juː ʃəʊd miː.",
+        "MeanEx": "Tôi thích cái túi này hơn cái kia mà bạn đã cho tôi xem."
+    },
+    {
+        "Example": "I like these shoes better than the other ones you showed me.",
+        "IpaEx": "aɪ laɪk ðiːz ʃuːz ˈbɛtə ðæn ði ˈʌðə wʌnz juː ʃəʊd miː.",
+        "MeanEx": "Tôi thích đôi giày này hơn những đôi khác mà bạn đã cho tôi xem."
+    },
+    {
+        "Example": "How do I turn this on?",
+        "IpaEx": "haʊ duː aɪ tɜːn ðɪs ɒn?",
+        "MeanEx": "Làm cách nào để bật tính năng này?"
+    },
+    {
+        "Example": "We had breakfast and then we went to church.",
+        "IpaEx": "wiː hæd ˈbrɛkfəst ænd ðɛn wiː wɛnt tuː ʧɜːʧ.",
+        "MeanEx": "Chúng tôi ăn sáng và sau đó chúng tôi đến nhà thờ."
+    },
+    {
+        "Example": "I need to read its manual.",
+        "IpaEx": "aɪ niːd tuː riːd ɪts ˈmænjʊəl.",
+        "MeanEx": "Tôi cần đọc hướng dẫn sử dụng của nó."
+    },
+    {
+        "Example": "This is our home now.",
+        "IpaEx": "ðɪs ɪz ˈaʊə həʊm naʊ.",
+        "MeanEx": "Đây là nhà của chúng tôi bây giờ."
+    },
+    {
+        "Example": "Two cheeseburgers, please.",
+        "IpaEx": "tuː ˈʧiːzˌbɜːgəz, pliːz.",
+        "MeanEx": "Làm ơn cho hai cái bánh mì kẹp thịt."
+    },
+    {
+        "Example": "Can I have some more milkshakes?",
+        "IpaEx": "kæn aɪ hæv sʌm mɔː ˈmɪlkʃeɪks?",
+        "MeanEx": "Tôi có thể có thêm một ít sữa lắc được không?"
+    },
+    {
+        "Example": "Do you like these ribbons?",
+        "IpaEx": "duː juː laɪk ðiːz ˈrɪbənz?",
+        "MeanEx": "Bạn có thích những dải ruy băng này không?"
+    },
+    {
+        "Example": "Do you want these ribbons?",
+        "IpaEx": "duː juː wɒnt ðiːz ˈrɪbənz?",
+        "MeanEx": "Bạn có muốn những dải ruy băng này không?"
+    },
+    {
+        "Example": "Can you look this way?",
+        "IpaEx": "kæn juː lʊk ðɪs weɪ?",
+        "MeanEx": "Bạn có thể nhìn theo hướng này?"
+    },
+    {
+        "Example": "Please look this way.",
+        "IpaEx": "pliːz lʊk ðɪs weɪ.",
+        "MeanEx": "Hãy nhìn theo hướng này."
+    },
+    {
+        "Example": "She was my very first teacher.",
+        "IpaEx": "ʃiː wɒz maɪ ˈvɛri fɜːst ˈtiːʧə.",
+        "MeanEx": "Cô ấy là giáo viên đầu tiên của tôi."
+    },
+    {
+        "Example": "She was also my best friend.",
+        "IpaEx": "ʃiː wɒz ˈɔːlsəʊ maɪ bɛst frɛnd.",
+        "MeanEx": "Cô ấy cũng là bạn thân nhất của tôi."
+    },
+    {
+        "Example": "I have new shoes.",
+        "IpaEx": "aɪ hæv njuː ʃuːz.",
+        "MeanEx": "Tôi có đôi giày mới."
+    },
+    {
+        "Example": "I am crying because I’m sad.",
+        "IpaEx": "aɪ æm ˈkraɪɪŋ bɪˈkɒz aɪm sæd.",
+        "MeanEx": "Tôi đang khóc vì tôi buồn."
+    },
+    {
+        "Example": "Today is national friendship day.",
+        "IpaEx": "təˈdeɪ ɪz ˈnæʃənl ˈfrɛndʃɪp deɪ.",
+        "MeanEx": "Hôm nay là ngày quốc gia hữu nghị."
+    },
+    {
+        "Example": "I have more stickers at home.",
+        "IpaEx": "aɪ hæv mɔː ˈstɪkəz æt həʊm.",
+        "MeanEx": "Tôi có nhiều nhãn dán hơn ở nhà."
+    },
+    {
+        "Example": "How do I use this?",
+        "IpaEx": "haʊ duː aɪ juːz ðɪs?",
+        "MeanEx": "Làm cách nào để sử dụng cái này?"
+    },
+    {
+        "Example": "There’s no electricity now.",
+        "IpaEx": "ðeəz nəʊ ɪlɛkˈtrɪsɪti naʊ.",
+        "MeanEx": "Hiện không có điện."
+    },
+    {
+        "Example": "There’s a man outside looking for you.",
+        "IpaEx": "ðeəz ə mæn ˌaʊtˈsaɪd ˈlʊkɪŋ fɔː juː.",
+        "MeanEx": "Có một người đàn ông bên ngoài đang tìm bạn."
+    },
+    {
+        "Example": "Where can I find rare furniture?",
+        "IpaEx": "weə kæn aɪ faɪnd reə ˈfɜːnɪʧə?",
+        "MeanEx": "Tôi có thể tìm đồ nội thất quý hiếm ở đâu?"
+    },
+    {
+        "Example": "My mom is here.",
+        "IpaEx": "maɪ mɒm ɪz hɪə.",
+        "MeanEx": "Mẹ tôi ở đây."
+    },
+    {
+        "Example": "One thing led to another.",
+        "IpaEx": "wʌn θɪŋ lɛd tuː əˈnʌðə.",
+        "MeanEx": "Điều này dẫn đến điều khác."
+    },
+    {
+        "Example": "Give her these pearls.",
+        "IpaEx": "gɪv hɜː ðiːz pɜːlz.",
+        "MeanEx": "Hãy tặng cô ấy những viên ngọc trai này."
+    },
+    {
+        "Example": "We shared many dreams together.",
+        "IpaEx": "wiː ʃeəd ˈmɛni driːmz təˈgɛðə.",
+        "MeanEx": "Chúng tôi đã chia sẻ nhiều ước mơ cùng nhau."
+    },
+    {
+        "Example": "You know me so well.",
+        "IpaEx": "juː nəʊ miː səʊ wɛl.",
+        "MeanEx": "Bạn biết tôi rất rõ."
+    },
+    {
+        "Example": "You are my only friend here.",
+        "IpaEx": "juː ɑː maɪ ˈəʊnli frɛnd hɪə.",
+        "MeanEx": "Bạn là người bạn duy nhất của tôi ở đây."
+    },
+    {
+        "Example": "Those boots belong to my friend.",
+        "IpaEx": "ðəʊz buːts bɪˈlɒŋ tuː maɪ frɛnd.",
+        "MeanEx": "Đôi ủng đó là của bạn tôi."
+    },
+    {
+        "Example": "Can you tell me which way to go?",
+        "IpaEx": "kæn juː tɛl miː wɪʧ weɪ tuː gəʊ?",
+        "MeanEx": "Bạn có thể cho tôi biết con đường nào để đi?"
+    },
+    {
+        "Example": "She’s the one he’s been waiting for.",
+        "IpaEx": "ʃiːz ðə wʌn hiːz biːn ˈweɪtɪŋ fɔː.",
+        "MeanEx": "Cô ấy là người anh ấy đang chờ đợi."
+    },
+    {
+        "Example": "I’m very upset right now.",
+        "IpaEx": "aɪm ˈvɛri ʌpˈsɛt raɪt naʊ.",
+        "MeanEx": "Tôi rất khó chịu ngay bây giờ."
+    },
+    {
+        "Example": "Her grandmother is sick.",
+        "IpaEx": "hɜː ˈgrænˌmʌðər ɪz sɪk.",
+        "MeanEx": "Bà của cô ấy bị ốm."
+    },
+    {
+        "Example": "She can’t even stand on her own.",
+        "IpaEx": "ʃiː kɑːnt ˈiːvən stænd ɒn hɜːr əʊn.",
+        "MeanEx": "Cô ấy thậm chí không thể tự đứng vững."
+    },
+    {
+        "Example": "I’ll be right back.",
+        "IpaEx": "aɪl biː raɪt bæk.",
+        "MeanEx": "Tôi sẽ trở lại ngay."
+    },
+    {
+        "Example": "Have you had any luck on your research?",
+        "IpaEx": "hæv juː hæd ˈɛni lʌk ɒn jɔː rɪˈsɜːʧ?",
+        "MeanEx": "Bạn đã gặp may mắn nào về nghiên cứu của mình chưa?"
+    },
+    {
+        "Example": "You’re a good person.",
+        "IpaEx": "jʊər ə gʊd ˈpɜːsn.",
+        "MeanEx": "Bạn là một người tốt."
+    },
+    {
+        "Example": "That woman looks so polished.",
+        "IpaEx": "ðæt ˈwʊmən lʊks səʊ ˈpɒlɪʃt.",
+        "MeanEx": "Người phụ nữ đó trông thật bóng bẩy."
+    },
+    {
+        "Example": "Your faith will see you through tough times.",
+        "IpaEx": "jɔː feɪθ wɪl siː juː θruː tʌf taɪmz.",
+        "MeanEx": "Niềm tin của bạn sẽ nhìn thấy bạn vượt qua thời gian khó khăn."
+    },
+    {
+        "Example": "Do you want to go with us?",
+        "IpaEx": "duː juː wɒnt tuː gəʊ wɪð ʌs?",
+        "MeanEx": "Bạn có muốn đi với chúng tôi không?"
+    },
+    {
+        "Example": "This is the best day of my life.",
+        "IpaEx": "ðɪs ɪz ðə bɛst deɪ ɒv maɪ laɪf.",
+        "MeanEx": "Đây là ngày tuyệt vời nhất trong cuộc đời tôi."
+    },
+    {
+        "Example": "I just saw a child cross the street by herself.",
+        "IpaEx": "aɪ ʤʌst sɔː ə ʧaɪld krɒs ðə striːt baɪ hɜːˈsɛlf.",
+        "MeanEx": "Tôi vừa nhìn thấy một đứa trẻ băng qua đường một mình."
+    },
+    {
+        "Example": "Did you go there?",
+        "IpaEx": "dɪd juː gəʊ ðeə?",
+        "MeanEx": "Bạn đã đến đó chưa?"
+    },
+    {
+        "Example": "I have to go to work.",
+        "IpaEx": "aɪ hæv tuː gəʊ tuː wɜːk.",
+        "MeanEx": "Tôi phải đi làm đây."
+    },
+    {
+        "Example": "Let’s go down.",
+        "IpaEx": "lɛts gəʊ daʊn.",
+        "MeanEx": "Nào chúng ta cùng đi xuống."
+    },
+    {
+        "Example": "You may take your seats.",
+        "IpaEx": "juː meɪ teɪk jɔː siːts.",
+        "MeanEx": "Bạn có thể lấy chỗ ngồi của mình."
+    },
+    {
+        "Example": "Let’s have dinner after work.",
+        "IpaEx": "lɛts hæv ˈdɪnər ˈɑːftə wɜːk.",
+        "MeanEx": "Hãy ăn tối sau khi làm việc."
+    },
+    {
+        "Example": "Should I buy this dress?",
+        "IpaEx": "ʃʊd aɪ baɪ ðɪs drɛs?",
+        "MeanEx": "Tôi có nên mua chiếc váy này không?"
+    },
+    {
+        "Example": "Call me when you get home, okay?",
+        "IpaEx": "kɔːl miː wɛn juː gɛt həʊm, ˈəʊˈkeɪ?",
+        "MeanEx": "Gọi cho tôi khi bạn về nhà, được không?"
+    },
+    {
+        "Example": "I want to travel and see the world.",
+        "IpaEx": "aɪ wɒnt tuː ˈtrævl ænd siː ðə wɜːld.",
+        "MeanEx": "Tôi muốn đi du lịch và ngắm nhìn thế giới."
+    },
+    {
+        "Example": "I can’t wait for this day to be over.",
+        "IpaEx": "aɪ kɑːnt weɪt fɔː ðɪs deɪ tuː biː ˈəʊvə.",
+        "MeanEx": "Tôi không thể đợi ngày này kết thúc."
+    },
+    {
+        "Example": "My cousin goes to school here.",
+        "IpaEx": "maɪ ˈkʌzn gəʊz tuː skuːl hɪə.",
+        "MeanEx": "Em họ tôi đi học ở đây."
+    },
+    {
+        "Example": "I still think you should go.",
+        "IpaEx": "aɪ stɪl θɪŋk juː ʃʊd gəʊ.",
+        "MeanEx": "Tôi vẫn nghĩ bạn nên đi."
+    },
+    {
+        "Example": "Can you try to be nicer to him?",
+        "IpaEx": "kæn juː traɪ tuː biː ˈnaɪsə tuː hɪm?",
+        "MeanEx": "Bạn có thể cố gắng đối xử tốt hơn với anh ấy không?"
+    },
+    {
+        "Example": "What’s in that box?",
+        "IpaEx": "wɒts ɪn ðæt bɒks?",
+        "MeanEx": "Cái gì trong hộp đó?"
+    },
+    {
+        "Example": "As soon as I get home, I'm going to start watching that series.",
+        "IpaEx": "æz suːn æz aɪ gɛt həʊm, aɪm ˈgəʊɪŋ tuː stɑːt ˈwɒʧɪŋ ðæt ˈsɪəriːz.",
+        "MeanEx": "Ngay sau khi về nhà, tôi sẽ bắt đầu xem bộ truyện đó."
+    },
+    {
+        "Example": "This is my last slice of cake, I promise!",
+        "IpaEx": "ðɪs ɪz maɪ lɑːst slaɪs ɒv keɪk, aɪ ˈprɒmɪs!",
+        "MeanEx": "Đây là miếng bánh cuối cùng của tôi, tôi hứa!"
+    },
+    {
+        "Example": "Can you ask the waiter to bring us some wine?",
+        "IpaEx": "kæn juː ɑːsk ðə ˈweɪtə tuː brɪŋ ʌs sʌm waɪn?",
+        "MeanEx": "Bạn có thể yêu cầu người phục vụ mang rượu cho chúng tôi không?"
+    },
+    {
+        "Example": "I need some wine tonight!",
+        "IpaEx": "aɪ niːd sʌm waɪn təˈnaɪt!",
+        "MeanEx": "Tôi cần một ít rượu vang tối nay!"
+    },
+    {
+        "Example": "I need some wine, too!",
+        "IpaEx": "aɪ niːd sʌm waɪn, tuː!",
+        "MeanEx": "Tôi cũng cần một chút rượu!"
+    },
+    {
+        "Example": "I feel so tired, I just need to relax and unwind.",
+        "IpaEx": "aɪ fiːl səʊ ˈtaɪəd, aɪ ʤʌst niːd tuː rɪˈlæks ænd ʌnˈwaɪnd.",
+        "MeanEx": "Tôi cảm thấy rất mệt mỏi, tôi chỉ cần thư giãn và xả hơi."
+    },
+    {
+        "Example": "I have three sisters.",
+        "IpaEx": "aɪ hæv θriː ˈsɪstəz.",
+        "MeanEx": "Tôi có ba chị em gái."
+    },
+    {
+        "Example": "When was the last time you saw them?",
+        "IpaEx": "wɛn wɒz ðə lɑːst taɪm juː sɔː ðɛm?",
+        "MeanEx": "Lần cuối cùng bạn nhìn thấy chúng là khi nào?"
+    },
+    {
+        "Example": "Check out the state of that shed, it’s falling apart.",
+        "IpaEx": "ʧɛk aʊt ðə steɪt ɒv ðæt ʃɛd, ɪts ˈfɔːlɪŋ əˈpɑːt.",
+        "MeanEx": "Kiểm tra tình trạng của cái nhà kho đó, nó đang đổ nát."
+    },
+    {
+        "Example": "I’m never going to drink wine again.",
+        "IpaEx": "aɪm ˈnɛvə ˈgəʊɪŋ tuː drɪŋk waɪn əˈgɛn.",
+        "MeanEx": "Tôi sẽ không bao giờ uống rượu nữa."
+    },
+    {
+        "Example": "Over the years we’ve become really close.",
+        "IpaEx": "ˈəʊvə ðə jɪəz wiːv bɪˈkʌm ˈrɪəli kləʊs.",
+        "MeanEx": "Qua nhiều năm, chúng tôi đã trở nên thực sự thân thiết."
+    },
+    {
+        "Example": "This is just between you and me.",
+        "IpaEx": "ðɪs ɪz ʤʌst bɪˈtwiːn juː ænd miː.",
+        "MeanEx": "Đây chỉ là giữa bạn và tôi."
+    },
+    {
+        "Example": "Give me a high five!",
+        "IpaEx": "gɪv miː ə haɪ faɪv!",
+        "MeanEx": "Cho tôi một điểm cao!"
+    },
+    {
+        "Example": "I really like your painting!",
+        "IpaEx": "aɪ ˈrɪəli laɪk jɔː ˈpeɪntɪŋ!",
+        "MeanEx": "Tôi thực sự thích bức tranh của bạn!"
+    },
+    {
+        "Example": "I have something for you.",
+        "IpaEx": "aɪ hæv ˈsʌmθɪŋ fɔː juː.",
+        "MeanEx": "Tôi có thứ này cho bạn."
+    },
+    {
+        "Example": "She’s the most beautiful girl I’ve ever seen.",
+        "IpaEx": "ʃiːz ðə məʊst ˈbjuːtəfʊl gɜːl aɪv ˈɛvə siːn.",
+        "MeanEx": "Cô ấy là cô gái xinh đẹp nhất mà tôi từng thấy."
+    },
+    {
+        "Example": "I’ll have another glass of wine, please.",
+        "IpaEx": "aɪl hæv əˈnʌðə glɑːs ɒv waɪn, pliːz.",
+        "MeanEx": "Vui lòng cho tôi một ly rượu khác."
+    },
+    {
+        "Example": "I love you guys so much.",
+        "IpaEx": "aɪ lʌv juː gaɪz səʊ mʌʧ.",
+        "MeanEx": "Tôi yêu các bạn rất nhiều."
+    },
+    {
+        "Example": "You are like family to me.",
+        "IpaEx": "juː ɑː laɪk ˈfæmɪli tuː miː.",
+        "MeanEx": "Bạn như một gia đình đối với tôi."
+    },
+    {
+        "Example": "I want to get my own place.",
+        "IpaEx": "aɪ wɒnt tuː gɛt maɪ əʊn pleɪs.",
+        "MeanEx": "Tôi muốn có được vị trí của riêng mình."
+    },
+    {
+        "Example": "Get out of my room.",
+        "IpaEx": "gɛt aʊt ɒv maɪ ruːm.",
+        "MeanEx": "Ra khỏi phòng tôi."
+    },
+    {
+        "Example": "I want you to leave.",
+        "IpaEx": "aɪ wɒnt juː tuː liːv.",
+        "MeanEx": "Tôi muốn bạn rời đi."
+    },
+    {
+        "Example": "Please put down that book and listen to me.",
+        "IpaEx": "pliːz pʊt daʊn ðæt bʊk ænd ˈlɪsn tuː miː.",
+        "MeanEx": "Hãy đặt cuốn sách đó xuống và lắng nghe tôi."
+    },
+    {
+        "Example": "I feel so old!",
+        "IpaEx": "aɪ fiːl səʊ əʊld!",
+        "MeanEx": "Tôi cảm thấy thật già!"
+    },
+    {
+        "Example": "I can wait for you here while you shop.",
+        "IpaEx": "aɪ kæn weɪt fɔː juː hɪə waɪl juː ʃɒp.",
+        "MeanEx": "Tôi có thể đợi bạn ở đây trong khi bạn mua sắm."
+    },
+    {
+        "Example": "I didn’t mean to sound so angry.",
+        "IpaEx": "aɪ dɪdnt miːn tuː saʊnd səʊ ˈæŋgri.",
+        "MeanEx": "Tôi không cố ý tỏ ra tức giận như vậy."
+    },
+    {
+        "Example": "Can you turn on the lights?",
+        "IpaEx": "kæn juː tɜːn ɒn ðə laɪts?",
+        "MeanEx": "Bạn có thể bật đèn lên không?"
+    },
+    {
+        "Example": "Can we keep the lights on tonight?",
+        "IpaEx": "kæn wiː kiːp ðə laɪts ɒn təˈnaɪt?",
+        "MeanEx": "Chúng ta có thể để đèn sáng tối nay không?"
+    },
+    {
+        "Example": "I’ve always been a diligent student.",
+        "IpaEx": "aɪv ˈɔːlweɪz biːn ə ˈdɪlɪʤənt ˈstjuːdənt.",
+        "MeanEx": "Tôi luôn là một học sinh siêng năng."
+    },
+    {
+        "Example": "This is why I don’t go out anymore.",
+        "IpaEx": "ðɪs ɪz waɪ aɪ dəʊnt gəʊ aʊt ˌɛniˈmɔː.",
+        "MeanEx": "Đây là lý do tại sao tôi không ra ngoài nữa."
+    },
+    {
+        "Example": "Why won’t you let him know how you feel?",
+        "IpaEx": "waɪ wəʊnt juː lɛt hɪm nəʊ haʊ juː fiːl?",
+        "MeanEx": "Tại sao bạn không cho anh ấy biết cảm giác của bạn?"
+    },
+    {
+        "Example": "This ice cream place is great for families with kids!",
+        "IpaEx": "ðɪs aɪs kriːm pleɪs ɪz greɪt fɔː ˈfæmɪliz wɪð kɪdz!",
+        "MeanEx": "Địa điểm ăn kem này là tuyệt vời cho các gia đình có trẻ em!"
+    },
+    {
+        "Example": "Hey, we’re wearing the same shirt!",
+        "IpaEx": "heɪ, wɪə ˈweərɪŋ ðə seɪm ʃɜːt!",
+        "MeanEx": "Này, chúng ta đang mặc cùng một chiếc áo!"
+    },
+    {
+        "Example": "I have this big crush on Brad Pitt.",
+        "IpaEx": "aɪ hæv ðɪs bɪg krʌʃ ɒn bræd pɪt.",
+        "MeanEx": "Tôi rất thích Brad Pitt."
+    },
+    {
+        "Example": "The group sitting across our table is so noisy.",
+        "IpaEx": "ðə gruːp ˈsɪtɪŋ əˈkrɒs ˈaʊə ˈteɪbl ɪz səʊ ˈnɔɪzi.",
+        "MeanEx": "Nhóm ngồi đối diện bàn của chúng tôi rất ồn ào."
+    },
+    {
+        "Example": "Where do I begin with this huge project?",
+        "IpaEx": "weə duː aɪ bɪˈgɪn wɪð ðɪs hjuːʤ ˈprɒʤɛkt?",
+        "MeanEx": "Tôi bắt đầu từ đâu với dự án khổng lồ này?"
+    },
+    {
+        "Example": "She may seem quiet, but she’s really outgoing once you get to know her.",
+        "IpaEx": "ʃiː meɪ siːm ˈkwaɪət, bʌt ʃiːz ˈrɪəli aʊtˈgəʊɪŋ wʌns juː gɛt tuː nəʊ hɜː.",
+        "MeanEx": "Cô ấy có vẻ trầm lặng, nhưng cô ấy thực sự hướng ngoại khi bạn làm quen với cô ấy."
+    },
+    {
+        "Example": "Japan is such a beautiful country!",
+        "IpaEx": "ʤəˈpæn ɪz sʌʧ ə ˈbjuːtəfʊl ˈkʌntri!",
+        "MeanEx": "Nhật Bản là một đất nước xinh đẹp!"
+    },
+    {
+        "Example": "I need help with my math homework.",
+        "IpaEx": "aɪ niːd hɛlp wɪð maɪ mæθ ˈhəʊmˌwɜːk.",
+        "MeanEx": "Tôi cần giúp đỡ với bài tập về nhà toán học của tôi."
+    },
+    {
+        "Example": "Can we talk in private?",
+        "IpaEx": "kæn wiː tɔːk ɪn ˈpraɪvɪt?",
+        "MeanEx": "Chúng ta có thể nói chuyện riêng không?"
+    },
+    {
+        "Example": "Where were you last night?",
+        "IpaEx": "weə wɜː juː lɑːst naɪt?",
+        "MeanEx": "Bạn đã ở đâu tối qua?"
+    },
+    {
+        "Example": "If only I could turn back time.",
+        "IpaEx": "ɪf ˈəʊnli aɪ kʊd tɜːn bæk taɪm.",
+        "MeanEx": "Giá như tôi có thể quay ngược thời gian."
+    },
+    {
+        "Example": "The problem is we think we have plenty of time.",
+        "IpaEx": "ðə ˈprɒbləm ɪz wiː θɪŋk wiː hæv ˈplɛnti ɒv taɪm.",
+        "MeanEx": "Vấn đề là chúng tôi nghĩ rằng chúng tôi còn nhiều thời gian."
+    },
+    {
+        "Example": "Every person has his own big goal to fulfill.",
+        "IpaEx": "ˈɛvri ˈpɜːsn hæz hɪz əʊn bɪg gəʊl tuː fʊlˈfɪl.",
+        "MeanEx": "Mỗi người đều có mục tiêu lớn của riêng mình để hoàn thành."
+    },
+    {
+        "Example": "This is great to start learning the English language.",
+        "IpaEx": "ðɪs ɪz greɪt tuː stɑːt ˈlɜːnɪŋ ði ˈɪŋglɪʃ ˈlæŋgwɪʤ.",
+        "MeanEx": "Đây là điều tuyệt vời để bắt đầu học tiếng Anh."
+    },
+    {
+        "Example": "Don’t let go of my hand.",
+        "IpaEx": "dəʊnt lɛt gəʊ ɒv maɪ hænd.",
+        "MeanEx": "Đừng buông tay tôi."
+    },
+    {
+        "Example": "This might actually work.",
+        "IpaEx": "ðɪs maɪt ˈækʧʊəli wɜːk.",
+        "MeanEx": "Điều này thực sự có thể hoạt động."
+    },
+    {
+        "Example": "The American culture is so dynamic.",
+        "IpaEx": "ði əˈmɛrɪkən ˈkʌlʧər ɪz səʊ daɪˈnæmɪk.",
+        "MeanEx": "Văn hóa Mỹ rất năng động."
+    },
+    {
+        "Example": "Can you show me how to use this vacuum cleaner?",
+        "IpaEx": "kæn juː ʃəʊ miː haʊ tuː juːz ðɪs ˈvækjʊəm ˈkliːnə?",
+        "MeanEx": "Bạn có thể chỉ cho tôi cách sử dụng máy hút bụi này không?"
+    },
+    {
+        "Example": "This is my favorite part of the movie!",
+        "IpaEx": "ðɪs ɪz maɪ ˈfeɪvərɪt pɑːt ɒv ðə ˈmuːvi!",
+        "MeanEx": "Đây là phần yêu thích của tôi trong bộ phim!"
+    },
+    {
+        "Example": "What is the story about?",
+        "IpaEx": "wɒt ɪz ðə ˈstɔːri əˈbaʊt?",
+        "MeanEx": "Câu chuyện nói về điều gì?"
+    },
+    {
+        "Example": "I am so against domestic abuse!",
+        "IpaEx": "aɪ æm səʊ əˈgɛnst dəʊˈmɛstɪk əˈbjuːs!",
+        "MeanEx": "Tôi rất chống lại sự lạm dụng trong gia đình!"
+    },
+    {
+        "Example": "This place is wonderful!",
+        "IpaEx": "ðɪs pleɪs ɪz ˈwʌndəfʊl!",
+        "MeanEx": "Nơi này thật tuyệt vời!"
+    },
+    {
+        "Example": "She kept saying this over and over again.",
+        "IpaEx": "ʃiː kɛpt ˈseɪɪŋ ðɪs ˈəʊvər ænd ˈəʊvər əˈgɛn.",
+        "MeanEx": "Cô ấy cứ nói đi nói lại điều này."
+    },
+    {
+        "Example": "He is such an annoying person.",
+        "IpaEx": "hiː ɪz sʌʧ ən əˈnɔɪɪŋ ˈpɜːsn.",
+        "MeanEx": "Anh ta đúng là một kẻ khó chịu."
+    },
+    {
+        "Example": "Can we play that game again?",
+        "IpaEx": "kæn wiː pleɪ ðæt geɪm əˈgɛn?",
+        "MeanEx": "Chúng ta có thể chơi lại trò chơi đó không?"
+    },
+    {
+        "Example": "Just a few more errands and I'm done!",
+        "IpaEx": "ʤʌst ə fjuː mɔːr ˈɛrəndz ænd aɪm dʌn!",
+        "MeanEx": "Chỉ cần một vài việc lặt vặt nữa là xong!"
+    },
+    {
+        "Example": "What an interesting case you are working on now!",
+        "IpaEx": "wɒt ən ˈɪntrɪstɪŋ keɪs juː ɑː ˈwɜːkɪŋ ɒn naʊ!",
+        "MeanEx": "Thật là một trường hợp thú vị mà bạn đang làm!"
+    },
+    {
+        "Example": "That’s the most interesting story I’ve ever heard.",
+        "IpaEx": "ðæts ðə məʊst ˈɪntrɪstɪŋ ˈstɔːri aɪv ˈɛvə hɜːd.",
+        "MeanEx": "Đó là câu chuyện thú vị nhất mà tôi từng nghe."
+    },
+    {
+        "Example": "I had a rough week.",
+        "IpaEx": "aɪ hæd ə rʌf wiːk.",
+        "MeanEx": "Tôi đã có một tuần khó khăn."
+    },
+    {
+        "Example": "Will you keep me company?",
+        "IpaEx": "wɪl juː kiːp miː ˈkʌmpəni?",
+        "MeanEx": "Bạn sẽ tiếp tục bầu bạn với tôi chứ?"
+    },
+    {
+        "Example": "Where are we going?",
+        "IpaEx": "weər ɑː wiː ˈgəʊɪŋ?",
+        "MeanEx": "Chúng ta đang đi đâu vậy?"
+    },
+    {
+        "Example": "What’s wrong with the airport’s system?",
+        "IpaEx": "wɒts rɒŋ wɪð ði ˈeəpɔːts ˈsɪstɪm?",
+        "MeanEx": "Có vấn đề gì với hệ thống của sân bay?"
+    },
+    {
+        "Example": "Can you give each of them an apple?",
+        "IpaEx": "kæn juː gɪv iːʧ ɒv ðɛm ən ˈæpl?",
+        "MeanEx": "Bạn có thể cho mỗi người trong số họ một quả táo?"
+    },
+    {
+        "Example": "I’m right this time.",
+        "IpaEx": "aɪm raɪt ðɪs taɪm.",
+        "MeanEx": "Tôi đúng lúc này."
+    },
+    {
+        "Example": "This community program for teens is really helpful.",
+        "IpaEx": "ðɪs kəˈmjuːnɪti ˈprəʊgræm fɔː tiːnz ɪz ˈrɪəli ˈhɛlpfʊl.",
+        "MeanEx": "Chương trình cộng đồng dành cho thanh thiếu niên này thực sự hữu ích."
+    },
+    {
+        "Example": "Did you hear that?",
+        "IpaEx": "dɪd juː hɪə ðæt?",
+        "MeanEx": "Bạn có nghe thấy điều đó không?"
+    },
+    {
+        "Example": "I’m so sleepy.",
+        "IpaEx": "aɪm səʊ ˈsliːpi.",
+        "MeanEx": "Tôi rất buồn ngủ."
+    },
+    {
+        "Example": "I have a question for you.",
+        "IpaEx": "aɪ hæv ə ˈkwɛsʧən fɔː juː.",
+        "MeanEx": "Tôi có một câu hỏi dành cho bạn."
+    },
+    {
+        "Example": "During the session, I saw him fall asleep.",
+        "IpaEx": "ˈdjʊərɪŋ ðə ˈsɛʃən, aɪ sɔː hɪm fɔːl əˈsliːp.",
+        "MeanEx": "Trong suốt buổi học, tôi thấy anh ấy ngủ thiếp đi."
+    },
+    {
+        "Example": "I have to work this weekend.",
+        "IpaEx": "aɪ hæv tuː wɜːk ðɪs ˈwiːkˈɛnd.",
+        "MeanEx": "Tôi phải làm việc vào cuối tuần này."
+    },
+    {
+        "Example": "We can play soccer next weekend instead.",
+        "IpaEx": "wiː kæn pleɪ ˈsɒkə nɛkst ˈwiːkˈɛnd ɪnˈstɛd.",
+        "MeanEx": "Thay vào đó, chúng ta có thể chơi bóng đá vào cuối tuần tới."
+    },
+    {
+        "Example": "I hope the government does something about the poverty in this country.",
+        "IpaEx": "aɪ həʊp ðə ˈgʌvnmənt dʌz ˈsʌmθɪŋ əˈbaʊt ðə ˈpɒvəti ɪn ðɪs ˈkʌntri.",
+        "MeanEx": "Tôi hy vọng chính phủ làm điều gì đó để giải quyết tình trạng nghèo đói ở đất nước này."
+    },
+    {
+        "Example": "If you see a bear here, run for your life.",
+        "IpaEx": "ɪf juː siː ə beə hɪə, rʌn fɔː jɔː laɪf.",
+        "MeanEx": "Nếu bạn nhìn thấy một con gấu ở đây, hãy chạy lấy mạng sống của bạn."
+    },
+    {
+        "Example": "I have a small favor to ask you.",
+        "IpaEx": "aɪ hæv ə smɔːl ˈfeɪvə tuː ɑːsk juː.",
+        "MeanEx": "Tôi có một ân huệ nhỏ muốn hỏi bạn."
+    },
+    {
+        "Example": "I have a number of favors to ask you.",
+        "IpaEx": "aɪ hæv ə ˈnʌmbər ɒv ˈfeɪvəz tuː ɑːsk juː.",
+        "MeanEx": "Tôi có một số đặc ân để hỏi bạn."
+    },
+    {
+        "Example": "Please turn off the television.",
+        "IpaEx": "pliːz tɜːn ɒf ðə ˈtɛlɪˌvɪʒən.",
+        "MeanEx": "Vui lòng tắt tivi."
+    },
+    {
+        "Example": "I always bring pepper spray with me.",
+        "IpaEx": "aɪ ˈɔːlweɪz brɪŋ ˈpɛpə spreɪ wɪð miː.",
+        "MeanEx": "Tôi luôn mang theo bình xịt hơi cay bên mình."
+    },
+    {
+        "Example": "Let’s move on to the next tourist spot.",
+        "IpaEx": "lɛts muːv ɒn tuː ðə nɛkst ˈtʊərɪst spɒt.",
+        "MeanEx": "Hãy chuyển sang điểm du lịch tiếp theo."
+    },
+    {
+        "Example": "I really like you.",
+        "IpaEx": "aɪ ˈrɪəli laɪk juː.",
+        "MeanEx": "Tôi thực sự thích bạn."
+    },
+    {
+        "Example": "The night is young.",
+        "IpaEx": "ðə naɪt ɪz jʌŋ.",
+        "MeanEx": "Đêm vẫn còn sớm."
+    },
+    {
+        "Example": "I’m going to live like there’s no tomorrow.",
+        "IpaEx": "aɪm ˈgəʊɪŋ tuː lɪv laɪk ðeəz nəʊ təˈmɒrəʊ.",
+        "MeanEx": "Tôi sẽ sống như không có ngày mai."
+    },
+    {
+        "Example": "Mr. Morris is here.",
+        "IpaEx": "Mr. ˈmɒrɪs ɪz hɪə.",
+        "MeanEx": "Ông Morris đang ở đây."
+    },
+    {
+        "Example": "You have a point.",
+        "IpaEx": "juː hæv ə pɔɪnt.",
+        "MeanEx": "Bạn có lý."
+    },
+    {
+        "Example": "I believe in you.",
+        "IpaEx": "aɪ bɪˈliːv ɪn juː.",
+        "MeanEx": "Tôi tin bạn."
+    },
+    {
+        "Example": "Just hold my hand.",
+        "IpaEx": "ʤʌst həʊld maɪ hænd.",
+        "MeanEx": "Chỉ cần nắm tay tôi."
+    },
+    {
+        "Example": "I’m going to see you today.",
+        "IpaEx": "aɪm ˈgəʊɪŋ tuː siː juː təˈdeɪ.",
+        "MeanEx": "Tôi sẽ gặp bạn hôm nay."
+    },
+    {
+        "Example": "Please bring a pen.",
+        "IpaEx": "pliːz brɪŋ ə pɛn.",
+        "MeanEx": "Vui lòng mang theo bút."
+    },
+    {
+        "Example": "What will happen if you don’t submit your report on time?",
+        "IpaEx": "wɒt wɪl ˈhæpən ɪf juː dəʊnt səbˈmɪt jɔː rɪˈpɔːt ɒn taɪm?",
+        "MeanEx": "Điều gì sẽ xảy ra nếu bạn không gửi báo cáo đúng hạn?"
+    },
+    {
+        "Example": "This is the next best thing.",
+        "IpaEx": "ðɪs ɪz ðə nɛkst bɛst θɪŋ.",
+        "MeanEx": "Đây là điều tốt nhất tiếp theo."
+    },
+    {
+        "Example": "I can’t live without my phone.",
+        "IpaEx": "aɪ kɑːnt lɪv wɪˈðaʊt maɪ fəʊn.",
+        "MeanEx": "Tôi không thể sống mà không có điện thoại của mình."
+    },
+    {
+        "Example": "Before I go to bed I always wash my face.",
+        "IpaEx": "bɪˈfɔːr aɪ gəʊ tuː bɛd aɪ ˈɔːlweɪz wɒʃ maɪ feɪs.",
+        "MeanEx": "Trước khi đi ngủ, tôi luôn rửa mặt."
+    },
+    {
+        "Example": "There’s a large amount of data online about that topic.",
+        "IpaEx": "ðeəz ə lɑːʤ əˈmaʊnt ɒv ˈdeɪtə ˈɒnˌlaɪn əˈbaʊt ðæt ˈtɒpɪk.",
+        "MeanEx": "Có một lượng lớn dữ liệu trực tuyến về chủ đề đó."
+    },
+    {
+        "Example": "That’s all I know about dinosaurs.",
+        "IpaEx": "ðæts ɔːl aɪ nəʊ əˈbaʊt ˈdaɪnəʊsɔːz.",
+        "MeanEx": "Đó là tất cả những gì tôi biết về khủng long."
+    },
+    {
+        "Example": "I have a million questions about this book.",
+        "IpaEx": "aɪ hæv ə ˈmɪljən ˈkwɛsʧənz əˈbaʊt ðɪs bʊk.",
+        "MeanEx": "Tôi có một triệu câu hỏi về cuốn sách này."
+    },
+    {
+        "Example": "We must watch this movie together.",
+        "IpaEx": "wiː mʌst wɒʧ ðɪs ˈmuːvi təˈgɛðə.",
+        "MeanEx": "Chúng ta phải xem bộ phim này cùng nhau."
+    },
+    {
+        "Example": "Can we go home now?",
+        "IpaEx": "kæn wiː gəʊ həʊm naʊ?",
+        "MeanEx": "Chúng ta có thể về nhà bây giờ không?"
+    },
+    {
+        "Example": "I hid it under my bed.",
+        "IpaEx": "aɪ hɪd ɪt ˈʌndə maɪ bɛd.",
+        "MeanEx": "Tôi đã giấu nó dưới gầm giường của mình."
+    },
+    {
+        "Example": "I filled the tub with water.",
+        "IpaEx": "aɪ fɪld ðə tʌb wɪð ˈwɔːtə.",
+        "MeanEx": "Tôi đổ đầy nước vào bồn tắm."
+    },
+    {
+        "Example": "His room is at the end of the corridor.",
+        "IpaEx": "hɪz ruːm ɪz æt ði ɛnd ɒv ðə ˈkɒrɪdɔː.",
+        "MeanEx": "Phòng của anh ấy ở cuối hành lang."
+    },
+    {
+        "Example": "Can you write me a prescription for this?",
+        "IpaEx": "kæn juː raɪt miː ə prɪsˈkrɪpʃən fɔː ðɪs?",
+        "MeanEx": "Bạn có thể viết cho tôi một đơn thuốc cho điều này?"
+    },
+    {
+        "Example": "His mother is a very lovely woman.",
+        "IpaEx": "hɪz ˈmʌðər ɪz ə ˈvɛri ˈlʌvli ˈwʊmən.",
+        "MeanEx": "Mẹ anh là một người phụ nữ rất đáng yêu."
+    },
+    {
+        "Example": "This area of this house needs to be fixed.",
+        "IpaEx": "ðɪs ˈeərɪə ɒv ðɪs haʊs niːdz tuː biː fɪkst.",
+        "MeanEx": "Diện tích của ngôi nhà này cần được sửa lại."
+    },
+    {
+        "Example": "That virus has become a national concern.",
+        "IpaEx": "ðæt ˈvaɪərəs hæz bɪˈkʌm ə ˈnæʃənl kənˈsɜːn.",
+        "MeanEx": "Virus đó đã trở thành mối quan tâm của quốc gia."
+    },
+    {
+        "Example": "She needs money to buy her medicine.",
+        "IpaEx": "ʃiː niːdz ˈmʌni tuː baɪ hɜː ˈmɛdsɪn.",
+        "MeanEx": "Cô ấy cần tiền để mua thuốc cho mình."
+    },
+    {
+        "Example": "She shared her story to the media.",
+        "IpaEx": "ʃiː ʃeəd hɜː ˈstɔːri tuː ðə ˈmiːdiə.",
+        "MeanEx": "Cô đã chia sẻ câu chuyện của mình với giới truyền thông."
+    },
+    {
+        "Example": "She is so young and so hopeful.",
+        "IpaEx": "ʃiː ɪz səʊ jʌŋ ænd səʊ ˈhəʊpfʊl.",
+        "MeanEx": "Cô ấy còn quá trẻ và rất hy vọng."
+    },
+    {
+        "Example": "It’s a fact: shopping can improve your mood.",
+        "IpaEx": "ɪts ə fækt: ˈʃɒpɪŋ kæn ɪmˈpruːv jɔː muːd.",
+        "MeanEx": "Đó là một thực tế: mua sắm có thể cải thiện tâm trạng của bạn."
+    },
+    {
+        "Example": "It’s that time of the month!",
+        "IpaEx": "ɪts ðæt taɪm ɒv ðə mʌnθ!",
+        "MeanEx": "Vào thời gian đó của tháng!"
+    },
+    {
+        "Example": "Just because she’s different, it doesn’t mean she’s bad.",
+        "IpaEx": "ʤʌst bɪˈkɒz ʃiːz ˈdɪfrənt, ɪt dʌznt miːn ʃiːz bæd.",
+        "MeanEx": "Chỉ vì cô ấy khác biệt, không có nghĩa là cô ấy xấu."
+    },
+    {
+        "Example": "You have a lot of explaining to do.",
+        "IpaEx": "juː hæv ə lɒt ɒv ɪksˈpleɪnɪŋ tuː duː.",
+        "MeanEx": "Bạn có rất nhiều giải thích để làm."
+    },
+    {
+        "Example": "Turn right when you reach the corner.",
+        "IpaEx": "tɜːn raɪt wɛn juː riːʧ ðə ˈkɔːnə.",
+        "MeanEx": "Rẽ phải khi bạn đến góc."
+    },
+    {
+        "Example": "Let’s study our English lessons together.",
+        "IpaEx": "lɛts ˈstʌdi ˈaʊər ˈɪŋglɪʃ ˈlɛsnz təˈgɛðə.",
+        "MeanEx": "Chúng ta hãy cùng nhau nghiên cứu các bài học tiếng Anh của chúng ta."
+    },
+    {
+        "Example": "Can I borrow your English book?",
+        "IpaEx": "kæn aɪ ˈbɒrəʊ jɔːr ˈɪŋglɪʃ bʊk?",
+        "MeanEx": "Tôi có thể mượn sách tiếng Anh của bạn không?"
+    },
+    {
+        "Example": "She has pink eye.",
+        "IpaEx": "ʃiː hæz pɪŋk aɪ.",
+        "MeanEx": "Cô ấy có mắt màu hồng."
+    },
+    {
+        "Example": "I love my job.",
+        "IpaEx": "aɪ lʌv maɪ ʤɒb.",
+        "MeanEx": "Tôi yêu công việc của mình."
+    },
+    {
+        "Example": "Describe yourself in one word.",
+        "IpaEx": "dɪsˈkraɪb jɔːˈsɛlf ɪn wʌn wɜːd.",
+        "MeanEx": "Mô tả bản thân bằng một từ."
+    },
+    {
+        "Example": "Though you are angry now, I’m sure you will forget about this later.",
+        "IpaEx": "ðəʊ juː ɑːr ˈæŋgri naʊ, aɪm ʃʊə juː wɪl fəˈgɛt əˈbaʊt ðɪs ˈleɪtə.",
+        "MeanEx": "Dù bây giờ bạn đang tức giận nhưng tôi chắc chắn rằng bạn sẽ quên chuyện này sau này."
+    },
+    {
+        "Example": "His business is thriving.",
+        "IpaEx": "hɪz ˈbɪznɪs ɪz ˈθraɪvɪŋ.",
+        "MeanEx": "Công việc kinh doanh của anh ấy đang phát đạt."
+    },
+    {
+        "Example": "This is not an issue for me.",
+        "IpaEx": "ðɪs ɪz nɒt ən ˈɪʃuː fɔː miː.",
+        "MeanEx": "Đây không phải là một vấn đề đối với tôi."
+    },
+    {
+        "Example": "Whose side are you on, anyway?",
+        "IpaEx": "huːz saɪd ɑː juː ɒn, ˈɛnɪweɪ?",
+        "MeanEx": "Dù sao thì bạn cũng đứng về phía ai?"
+    },
+    {
+        "Example": "Always be kind, even to strangers.",
+        "IpaEx": "ˈɔːlweɪz biː kaɪnd, ˈiːvən tuː ˈstreɪnʤəz.",
+        "MeanEx": "Hãy luôn tử tế, ngay cả với người lạ."
+    },
+    {
+        "Example": "There are four seasons in a year.",
+        "IpaEx": "ðeər ɑː fɔː ˈsiːznz ɪn ə jɪə.",
+        "MeanEx": "Có bốn mùa trong một năm."
+    },
+    {
+        "Example": "Let’s head back, it’s freezing out here.",
+        "IpaEx": "lɛts hɛd bæk, ɪts ˈfriːzɪŋ aʊt hɪə.",
+        "MeanEx": "Quay đầu lại, ở đây đang đóng băng."
+    },
+    {
+        "Example": "We’ve gone too far and now we’re lost.",
+        "IpaEx": "wiːv gɒn tuː fɑːr ænd naʊ wɪə lɒst.",
+        "MeanEx": "Chúng ta đã đi quá xa và giờ chúng ta lạc lối."
+    },
+    {
+        "Example": "She has long, black hair.",
+        "IpaEx": "ʃiː hæz lɒŋ, blæk heə.",
+        "MeanEx": "Cô ấy có mái tóc đen dài."
+    },
+    {
+        "Example": "She has long, brown hair.",
+        "IpaEx": "ʃiː hæz lɒŋ, braʊn heə.",
+        "MeanEx": "Cô ấy có mái tóc dài và màu nâu."
+    },
+    {
+        "Example": "They both love chocolate ice cream.",
+        "IpaEx": "ðeɪ bəʊθ lʌv ˈʧɒkəlɪt aɪs kriːm.",
+        "MeanEx": "Cả hai đều thích kem sô cô la."
+    },
+    {
+        "Example": "I have two little boys with me now.",
+        "IpaEx": "aɪ hæv tuː ˈlɪtl bɔɪz wɪð miː naʊ.",
+        "MeanEx": "Bây giờ tôi có hai cậu con trai nhỏ."
+    },
+    {
+        "Example": "The house is so quiet without you.",
+        "IpaEx": "ðə haʊs ɪz səʊ ˈkwaɪət wɪˈðaʊt juː.",
+        "MeanEx": "Ngôi nhà thật yên tĩnh khi không có anh."
+    },
+    {
+        "Example": "I hope you say yes.",
+        "IpaEx": "aɪ həʊp juː seɪ jɛs.",
+        "MeanEx": "Tôi hy vọng bạn nói có."
+    },
+    {
+        "Example": "After all this time, he has finally learned to love.",
+        "IpaEx": "ˈɑːftər ɔːl ðɪs taɪm, hiː hæz ˈfaɪnəli lɜːnt tuː lʌv.",
+        "MeanEx": "Sau ngần ấy thời gian, cuối cùng anh ấy cũng đã học được cách yêu."
+    },
+    {
+        "Example": "Ever since his mom died, he has been cranky and angry at the world.",
+        "IpaEx": "ˈɛvə sɪns hɪz mɒm daɪd, hiː hæz biːn ˈkræŋki ænd ˈæŋgri æt ðə wɜːld.",
+        "MeanEx": "Kể từ khi mẹ anh mất, anh luôn cáu kỉnh và giận dữ với thế giới."
+    },
+    {
+        "Example": "That was such a long time ago.",
+        "IpaEx": "ðæt wɒz sʌʧ ə lɒŋ taɪm əˈgəʊ.",
+        "MeanEx": "Đó là một thời gian dài trước đây."
+    },
+    {
+        "Example": "Please provide me with a list of your services.",
+        "IpaEx": "pliːz prəˈvaɪd miː wɪð ə lɪst ɒv jɔː ˈsɜːvɪsɪz.",
+        "MeanEx": "Vui lòng cung cấp cho tôi danh sách các dịch vụ của bạn."
+    },
+    {
+        "Example": "Do you have a specific dental service to treat this?",
+        "IpaEx": "duː juː hæv ə spɪˈsɪfɪk ˈdɛntl ˈsɜːvɪs tuː triːt ðɪs?",
+        "MeanEx": "Bạn có một dịch vụ nha khoa cụ thể để điều trị điều này?"
+    },
+    {
+        "Example": "We went around the block.",
+        "IpaEx": "wiː wɛnt əˈraʊnd ðə blɒk.",
+        "MeanEx": "Chúng tôi đã đi xung quanh khu nhà."
+    },
+    {
+        "Example": "You’re a good friend.",
+        "IpaEx": "jʊər ə gʊd frɛnd.",
+        "MeanEx": "Bạn là một người bạn tốt."
+    },
+    {
+        "Example": "You’re important to me.",
+        "IpaEx": "jʊər ɪmˈpɔːtənt tuː miː.",
+        "MeanEx": "Bạn quan trọng đôi vơi tôi."
+    },
+    {
+        "Example": "My father is so important to me.",
+        "IpaEx": "maɪ ˈfɑːðər ɪz səʊ ɪmˈpɔːtənt tuː miː.",
+        "MeanEx": "Cha tôi rất quan trọng đối với tôi."
+    },
+    {
+        "Example": "Let’s sit outside together.",
+        "IpaEx": "lɛts sɪt ˌaʊtˈsaɪd təˈgɛðə.",
+        "MeanEx": "Hãy ngồi bên ngoài cùng nhau."
+    },
+    {
+        "Example": "He’s away right now.",
+        "IpaEx": "hiːz əˈweɪ raɪt naʊ.",
+        "MeanEx": "Anh ấy đi ngay bây giờ."
+    },
+    {
+        "Example": "Until when will you be away?",
+        "IpaEx": "ənˈtɪl wɛn wɪl juː biː əˈweɪ?",
+        "MeanEx": "Cho đến khi nào bạn sẽ đi xa?"
+    },
+    {
+        "Example": "With great power comes great responsibility.",
+        "IpaEx": "wɪð greɪt ˈpaʊə kʌmz greɪt rɪsˌpɒnsəˈbɪlɪti.",
+        "MeanEx": "Với sức mạnh lớn đến trách nhiệm lớn."
+    },
+    {
+        "Example": "I’ve been checking his temperature every hour.",
+        "IpaEx": "aɪv biːn ˈʧɛkɪŋ hɪz ˈtɛmprɪʧər ˈɛvri ˈaʊə.",
+        "MeanEx": "Tôi đã kiểm tra nhiệt độ của anh ấy hàng giờ."
+    },
+    {
+        "Example": "Let’s play a game.",
+        "IpaEx": "lɛts pleɪ ə geɪm.",
+        "MeanEx": "Chúng ta hãy chơi một trò chơi."
+    },
+    {
+        "Example": "I buy from his bakery as often as I can.",
+        "IpaEx": "aɪ baɪ frɒm hɪz ˈbeɪkəri æz ˈɒf(ə)n æz aɪ kæn.",
+        "MeanEx": "Tôi mua từ tiệm bánh của anh ấy thường xuyên nhất có thể."
+    },
+    {
+        "Example": "He’s not yet home.",
+        "IpaEx": "hiːz nɒt jɛt həʊm.",
+        "MeanEx": "Anh ấy vẫn chưa về nhà."
+    },
+    {
+        "Example": "There’s a long line at the grocery cashier.",
+        "IpaEx": "ðeəz ə lɒŋ laɪn æt ðə ˈgrəʊsəri kæˈʃɪə.",
+        "MeanEx": "Có một hàng dài ở quầy thu ngân tạp hóa."
+    },
+    {
+        "Example": "I stay away from political discussions.",
+        "IpaEx": "aɪ steɪ əˈweɪ frɒm pəˈlɪtɪkəl dɪsˈkʌʃənz.",
+        "MeanEx": "Tôi tránh xa các cuộc thảo luận chính trị."
+    },
+    {
+        "Example": "It’s the end of an era.",
+        "IpaEx": "ɪts ði ɛnd ɒv ən ˈɪərə.",
+        "MeanEx": "Đó là sự kết thúc của một kỷ nguyên."
+    },
+    {
+        "Example": "Among all my pets, he’s my most favorite.",
+        "IpaEx": "əˈmʌŋ ɔːl maɪ pɛts, hiːz maɪ məʊst ˈfeɪvərɪt.",
+        "MeanEx": "Trong số tất cả các vật nuôi của tôi, nó là con vật yêu thích nhất của tôi."
+    },
+    {
+        "Example": "Have you ever tried this cake?",
+        "IpaEx": "hæv juː ˈɛvə traɪd ðɪs keɪk?",
+        "MeanEx": "Bạn đã từng thử món bánh này chưa?"
+    },
+    {
+        "Example": "Can you stand still for a minute?",
+        "IpaEx": "kæn juː stænd stɪl fɔːr ə ˈmɪnɪt?",
+        "MeanEx": "Bạn có thể đứng yên trong một phút không?"
+    },
+    {
+        "Example": "What you did was so bad.",
+        "IpaEx": "wɒt juː dɪd wɒz səʊ bæd.",
+        "MeanEx": "Những gì bạn đã làm thật tồi tệ."
+    },
+    {
+        "Example": "I can’t lose you.",
+        "IpaEx": "aɪ kɑːnt luːz juː.",
+        "MeanEx": "Tôi không thể để mất bạn."
+    },
+    {
+        "Example": "I want to buy this bag, however, I need to save up for it first.",
+        "IpaEx": "aɪ wɒnt tuː baɪ ðɪs bæg, haʊˈɛvə, aɪ niːd tuː seɪv ʌp fɔːr ɪt fɜːst.",
+        "MeanEx": "Tôi muốn mua chiếc túi này, tuy nhiên, trước tiên tôi cần phải tiết kiệm cho nó."
+    },
+    {
+        "Example": "She’s a member of the babysitter’s club.",
+        "IpaEx": "ʃiːz ə ˈmɛmbər ɒv ðə ˈbeɪbɪˌsɪtəz klʌb.",
+        "MeanEx": "Cô ấy là thành viên của câu lạc bộ người trông trẻ."
+    },
+    {
+        "Example": "Let’s pay for our groceries.",
+        "IpaEx": "lɛts peɪ fɔːr ˈaʊə ˈgrəʊsəriz.",
+        "MeanEx": "Hãy trả tiền cho cửa hàng tạp hóa của chúng tôi."
+    },
+    {
+        "Example": "There’s a law against jay-walking.",
+        "IpaEx": "ðeəz ə lɔː əˈgɛnst ʤeɪ-ˈwɔːkɪŋ.",
+        "MeanEx": "Có luật chống đi bộ đường dài."
+    },
+    {
+        "Example": "I want you to meet my aunt.",
+        "IpaEx": "aɪ wɒnt juː tuː miːt maɪ ɑːnt.",
+        "MeanEx": "Tôi muốn bạn gặp dì của tôi."
+    },
+    {
+        "Example": "Let’s go inside my car.",
+        "IpaEx": "lɛts gəʊ ɪnˈsaɪd maɪ kɑː.",
+        "MeanEx": "Vào trong xe của tôi."
+    },
+    {
+        "Example": "This is the city that never sleeps.",
+        "IpaEx": "ðɪs ɪz ðə ˈsɪti ðæt ˈnɛvə sliːps.",
+        "MeanEx": "Đây là thành phố không bao giờ ngủ."
+    },
+    {
+        "Example": "I’m almost done with my report.",
+        "IpaEx": "aɪm ˈɔːlməʊst dʌn wɪð maɪ rɪˈpɔːt.",
+        "MeanEx": "Tôi sắp hoàn thành báo cáo của mình."
+    },
+    {
+        "Example": "Did you remember to include the summary in your report?",
+        "IpaEx": "dɪd juː rɪˈmɛmbə tuː ɪnˈkluːd ðə ˈsʌməri ɪn jɔː rɪˈpɔːt?",
+        "MeanEx": "Bạn có nhớ đưa phần tóm tắt vào báo cáo của mình không?"
+    },
+    {
+        "Example": "Can we continue working tomorrow?",
+        "IpaEx": "kæn wiː kənˈtɪnju(ː) ˈwɜːkɪŋ təˈmɒrəʊ?",
+        "MeanEx": "Chúng ta có thể tiếp tục làm việc vào ngày mai không?"
+    },
+    {
+        "Example": "Great, let me set an appointment for you.",
+        "IpaEx": "greɪt, lɛt miː sɛt ən əˈpɔɪntmənt fɔː juː.",
+        "MeanEx": "Tuyệt vời, hãy để tôi đặt một cuộc hẹn cho bạn."
+    },
+    {
+        "Example": "I’ll finish it later.",
+        "IpaEx": "aɪl ˈfɪnɪʃ ɪt ˈleɪtə.",
+        "MeanEx": "Tôi sẽ hoàn thành nó sau."
+    },
+    {
+        "Example": "Our community is very tight-knit.",
+        "IpaEx": "ˈaʊə kəˈmjuːnɪti ɪz ˈvɛri taɪt-nɪt.",
+        "MeanEx": "Cộng đồng của chúng tôi rất chặt chẽ."
+    },
+    {
+        "Example": "There’s so much to learn in the English language.",
+        "IpaEx": "ðeəz səʊ mʌʧ tuː lɜːn ɪn ði ˈɪŋglɪʃ ˈlæŋgwɪʤ.",
+        "MeanEx": "Có quá nhiều thứ để học bằng tiếng Anh."
+    },
+    {
+        "Example": "What’s your name?",
+        "IpaEx": "wɒts jɔː neɪm?",
+        "MeanEx": "Bạn tên là gì?"
+    },
+    {
+        "Example": "I can give you five reasons why you need to watch that video.",
+        "IpaEx": "aɪ kæn gɪv juː faɪv ˈriːznz waɪ juː niːd tuː wɒʧ ðæt ˈvɪdɪəʊ.",
+        "MeanEx": "Tôi có thể cung cấp cho bạn năm lý do tại sao bạn cần xem video đó."
+    },
+    {
+        "Example": "I once had a puppy named bark.",
+        "IpaEx": "aɪ wʌns hæd ə ˈpʌpi neɪmd bɑːk.",
+        "MeanEx": "Tôi đã từng có một con chó con tên là sủa."
+    },
+    {
+        "Example": "I love my white sneakers.",
+        "IpaEx": "aɪ lʌv maɪ waɪt ˈsniːkəz.",
+        "MeanEx": "Tôi yêu đôi giày thể thao màu trắng của mình."
+    },
+    {
+        "Example": "She’s the least productive among all the employees.",
+        "IpaEx": "ʃiːz ðə liːst prəˈdʌktɪv əˈmʌŋ ɔːl ði ˌɛmplɔɪˈiːz.",
+        "MeanEx": "Cô ấy là người kém năng suất nhất trong số tất cả các nhân viên."
+    },
+    {
+        "Example": "She was our class president back in high school.",
+        "IpaEx": "ʃiː wɒz ˈaʊə klɑːs ˈprɛzɪdənt bæk ɪn haɪ skuːl.",
+        "MeanEx": "Cô ấy là lớp trưởng của chúng tôi hồi trung học."
+    },
+    {
+        "Example": "I’d love to learn more about the English language.",
+        "IpaEx": "aɪd lʌv tuː lɜːn mɔːr əˈbaʊt ði ˈɪŋglɪʃ ˈlæŋgwɪʤ.",
+        "MeanEx": "Tôi muốn tìm hiểu thêm về ngôn ngữ tiếng Anh."
+    },
+    {
+        "Example": "What is her real name?",
+        "IpaEx": "wɒt ɪz hɜː rɪəl neɪm?",
+        "MeanEx": "Tên thật của cô ấy là gì?"
+    },
+    {
+        "Example": "What can we change so that things will get better?",
+        "IpaEx": "wɒt kæn wiː ʧeɪnʤ səʊ ðæt θɪŋz wɪl gɛt ˈbɛtə?",
+        "MeanEx": "Chúng ta có thể thay đổi điều gì để mọi thứ trở nên tốt đẹp hơn?"
+    },
+    {
+        "Example": "They hired a team to do the design of their new office.",
+        "IpaEx": "ðeɪ ˈhaɪəd ə tiːm tuː duː ðə dɪˈzaɪn ɒv ðeə njuː ˈɒfɪs.",
+        "MeanEx": "Họ đã thuê một nhóm để thiết kế văn phòng mới của họ."
+    },
+    {
+        "Example": "She’s laughing every minute of every day.",
+        "IpaEx": "ʃiːz ˈlɑːfɪŋ ˈɛvri ˈmɪnɪt ɒv ˈɛvri deɪ.",
+        "MeanEx": "Cô ấy đang cười mỗi phút mỗi ngày."
+    },
+    {
+        "Example": "This is the best potato salad I've ever tasted.",
+        "IpaEx": "ðɪs ɪz ðə bɛst pəˈteɪtəʊ ˈsæləd aɪv ˈɛvə ˈteɪstɪd.",
+        "MeanEx": "Đây là món salad khoai tây ngon nhất mà tôi từng được nếm."
+    },
+    {
+        "Example": "I have several old clothes I need to donate.",
+        "IpaEx": "aɪ hæv ˈsɛvrəl əʊld kləʊðz aɪ niːd tuː dəʊˈneɪt.",
+        "MeanEx": "Tôi có vài bộ quần áo cũ cần quyên góp."
+    },
+    {
+        "Example": "It was your idea to go to the beach, remember?",
+        "IpaEx": "ɪt wɒz jɔːr aɪˈdɪə tuː gəʊ tuː ðə biːʧ, rɪˈmɛmbə?",
+        "MeanEx": "Đó là ý tưởng của bạn để đi đến bãi biển, nhớ không?"
+    },
+    {
+        "Example": "I loved that toy when I was a kid.",
+        "IpaEx": "aɪ lʌvd ðæt tɔɪ wɛn aɪ wɒz ə kɪd.",
+        "MeanEx": "Tôi thích món đồ chơi đó khi tôi còn nhỏ."
+    },
+    {
+        "Example": "She worked out hard to achieve a toned body.",
+        "IpaEx": "ʃiː wɜːkt aʊt hɑːd tuː əˈʧiːv ə təʊnd ˈbɒdi.",
+        "MeanEx": "Cô tập luyện chăm chỉ để có được thân hình săn chắc."
+    },
+    {
+        "Example": "This is the information I need.",
+        "IpaEx": "ðɪs ɪz ði ˌɪnfəˈmeɪʃən aɪ niːd.",
+        "MeanEx": "Đây là thông tin tôi cần."
+    },
+    {
+        "Example": "There’s nothing we can do now.",
+        "IpaEx": "ðeəz ˈnʌθɪŋ wiː kæn duː naʊ.",
+        "MeanEx": "Chúng tôi không thể làm gì bây giờ."
+    },
+    {
+        "Example": "Three years ago, I visited Japan for the first time.",
+        "IpaEx": "θriː jɪəz əˈgəʊ, aɪ ˈvɪzɪtɪd ʤəˈpæn fɔː ðə fɜːst taɪm.",
+        "MeanEx": "Ba năm trước, tôi đến thăm Nhật Bản lần đầu tiên."
+    },
+    {
+        "Example": "You’re right, I want to go back there.",
+        "IpaEx": "jʊə raɪt, aɪ wɒnt tuː gəʊ bæk ðeə.",
+        "MeanEx": "Bạn nói đúng, tôi muốn quay lại đó."
+    },
+    {
+        "Example": "Just lead the way and I'll follow.",
+        "IpaEx": "ʤʌst liːd ðə weɪ ænd aɪl ˈfɒləʊ.",
+        "MeanEx": "Chỉ cần dẫn đường và tôi sẽ theo sau."
+    },
+    {
+        "Example": "I feel awkward in these social gatherings.",
+        "IpaEx": "aɪ fiːl ˈɔːkwəd ɪn ðiːz ˈsəʊʃəl ˈgæðərɪŋz.",
+        "MeanEx": "Tôi cảm thấy khó xử trong những cuộc gặp gỡ xã hội này."
+    },
+    {
+        "Example": "I understand how you feel.",
+        "IpaEx": "aɪ ˌʌndəˈstænd haʊ juː fiːl.",
+        "MeanEx": "Tôi hiểu bạn cảm thấy thế nào."
+    },
+    {
+        "Example": "Whether in big groups or small groups, I always feel a little shy at first.",
+        "IpaEx": "ˈwɛðər ɪn bɪg gruːps ɔː smɔːl gruːps, aɪ ˈɔːlweɪz fiːl ə ˈlɪtl ʃaɪ æt fɜːst.",
+        "MeanEx": "Dù ở nhóm lớn hay nhóm nhỏ, ban đầu tôi luôn cảm thấy hơi ngại."
+    },
+    {
+        "Example": "Looking back, I knew I was always an introvert.",
+        "IpaEx": "ˈlʊkɪŋ bæk, aɪ njuː aɪ wɒz ˈɔːlweɪz ən ˈɪntrəʊˌvɜːt.",
+        "MeanEx": "Nhìn lại, tôi biết mình luôn là người hướng nội."
+    },
+    {
+        "Example": "Let’s watch the sunset on the horizon.",
+        "IpaEx": "lɛts wɒʧ ðə ˈsʌnsɛt ɒn ðə həˈraɪzn.",
+        "MeanEx": "Hãy cùng ngắm hoàng hôn trên đường chân trời."
+    },
+    {
+        "Example": "They’re together now.",
+        "IpaEx": "ðeə təˈgɛðə naʊ.",
+        "MeanEx": "Bây giờ họ đang ở bên nhau."
+    },
+    {
+        "Example": "I’ll follow you home.",
+        "IpaEx": "aɪl ˈfɒləʊ juː həʊm.",
+        "MeanEx": "Tôi sẽ theo bạn về nhà."
+    },
+    {
+        "Example": "You’ll always have me around.",
+        "IpaEx": "juːl ˈɔːlweɪz hæv miː əˈraʊnd.",
+        "MeanEx": "Bạn sẽ luôn có tôi bên cạnh."
+    },
+    {
+        "Example": "Every parent is trying hard and doing their best.",
+        "IpaEx": "ˈɛvri ˈpeərənt ɪz ˈtraɪɪŋ hɑːd ænd ˈdu(ː)ɪŋ ðeə bɛst.",
+        "MeanEx": "Cha mẹ nào cũng cố gắng và nỗ lực hết mình."
+    },
+    {
+        "Example": "You are only allowed to go out today.",
+        "IpaEx": "juː ɑːr ˈəʊnli əˈlaʊd tuː gəʊ aʊt təˈdeɪ.",
+        "MeanEx": "Bạn chỉ được phép ra ngoài ngày hôm nay."
+    },
+    {
+        "Example": "Please stop that.",
+        "IpaEx": "pliːz stɒp ðæt.",
+        "MeanEx": "Hãy dừng lại đó."
+    },
+    {
+        "Example": "Why is your face so red?",
+        "IpaEx": "waɪ ɪz jɔː feɪs səʊ rɛd?",
+        "MeanEx": "Sao mặt cậu đỏ thế này?"
+    },
+    {
+        "Example": "You can ask me for anything.",
+        "IpaEx": "juː kæn ɑːsk miː fɔːr ˈɛnɪθɪŋ.",
+        "MeanEx": "Bạn có thể yêu cầu tôi bất cứ điều gì."
+    },
+    {
+        "Example": "Did you create that presentation? It was so good.",
+        "IpaEx": "dɪd juː kri(ː)ˈeɪt ðæt ˌprɛzɛnˈteɪʃən? ɪt wɒz səʊ gʊd.",
+        "MeanEx": "Bạn đã tạo bản trình bày đó? Nó rất tốt."
+    },
+    {
+        "Example": "This is public property.",
+        "IpaEx": "ðɪs ɪz ˈpʌblɪk ˈprɒpəti.",
+        "MeanEx": "Đây là tài sản công cộng."
+    },
+    {
+        "Example": "I already asked him to resend his report.",
+        "IpaEx": "aɪ ɔːlˈrɛdi ɑːskt hɪm tuː ˌriːˈsɛnd hɪz rɪˈpɔːt.",
+        "MeanEx": "Tôi đã yêu cầu anh ta gửi lại báo cáo của mình."
+    },
+    {
+        "Example": "Could you speak a little louder?",
+        "IpaEx": "kʊd juː spiːk ə ˈlɪtl ˈlaʊdə?",
+        "MeanEx": "Bạn có thể nói to hơn một chút được không?"
+    },
+    {
+        "Example": "The others haven’t arrived yet.",
+        "IpaEx": "ði ˈʌðəz hævnt əˈraɪvd jɛt.",
+        "MeanEx": "Những người khác vẫn chưa đến."
+    },
+    {
+        "Example": "I read somewhere that this house is haunted.",
+        "IpaEx": "aɪ riːd ˈsʌmweə ðæt ðɪs haʊs ɪz ˈhɔːntɪd.",
+        "MeanEx": "Tôi đọc ở đâu đó rằng ngôi nhà này bị ma ám."
+    },
+    {
+        "Example": "What level are you in that game?",
+        "IpaEx": "wɒt ˈlɛvl ɑː juː ɪn ðæt geɪm?",
+        "MeanEx": "Bạn đang ở cấp độ nào trong trò chơi đó?"
+    },
+    {
+        "Example": "Do you allow your kids to play outside the house?",
+        "IpaEx": "duː juː əˈlaʊ jɔː kɪdz tuː pleɪ ˌaʊtˈsaɪd ðə haʊs?",
+        "MeanEx": "Bạn có cho phép con bạn chơi bên ngoài nhà không?"
+    },
+    {
+        "Example": "Is it okay if we add a bit of sugar to the tea?",
+        "IpaEx": "ɪz ɪt ˈəʊˈkeɪ ɪf wiː æd ə bɪt ɒv ˈʃʊgə tuː ðə tiː?",
+        "MeanEx": "Nếu chúng ta thêm một chút đường vào trà thì có được không?"
+    },
+    {
+        "Example": "Welcome to my office.",
+        "IpaEx": "ˈwɛlkəm tuː maɪ ˈɒfɪs.",
+        "MeanEx": "Chào mừng đến với văn phòng của tôi."
+    },
+    {
+        "Example": "How much did you spend on your last shopping spree?",
+        "IpaEx": "haʊ mʌʧ dɪd juː spɛnd ɒn jɔː lɑːst ˈʃɒpɪŋ spriː?",
+        "MeanEx": "Bạn đã chi bao nhiêu cho lần mua sắm cuối cùng của mình?"
+    },
+    {
+        "Example": "You left the door open.",
+        "IpaEx": "juː lɛft ðə dɔːr ˈəʊpən.",
+        "MeanEx": "Bạn đã để cửa mở."
+    },
+    {
+        "Example": "You must take good care of your health.",
+        "IpaEx": "juː mʌst teɪk gʊd keər ɒv jɔː hɛlθ.",
+        "MeanEx": "Bạn phải chăm sóc sức khỏe của mình thật tốt."
+    },
+    {
+        "Example": "You are a good person.",
+        "IpaEx": "juː ɑːr ə gʊd ˈpɜːsn.",
+        "MeanEx": "Bạn là một người tốt."
+    },
+    {
+        "Example": "This is my work of art.",
+        "IpaEx": "ðɪs ɪz maɪ wɜːk ɒv ɑːt.",
+        "MeanEx": "Đây là tác phẩm nghệ thuật của tôi."
+    },
+    {
+        "Example": "Are you sure you want to do this alone?",
+        "IpaEx": "ɑː juː ʃʊə juː wɒnt tuː duː ðɪs əˈləʊn?",
+        "MeanEx": "Bạn có chắc chắn muốn làm điều này một mình?"
+    },
+    {
+        "Example": "You are such a brave little boy.",
+        "IpaEx": "juː ɑː sʌʧ ə breɪv ˈlɪtl bɔɪ.",
+        "MeanEx": "Con quả là một cậu bé dũng cảm."
+    },
+    {
+        "Example": "The war has finally ended.",
+        "IpaEx": "ðə wɔː hæz ˈfaɪnəli ˈɛndɪd.",
+        "MeanEx": "Cuộc chiến cuối cùng đã kết thúc."
+    },
+    {
+        "Example": "She is my history professor.",
+        "IpaEx": "ʃiː ɪz maɪ ˈhɪstəri prəˈfɛsə.",
+        "MeanEx": "Cô ấy là giáo sư lịch sử của tôi."
+    },
+    {
+        "Example": "Are you going to her party tonight?",
+        "IpaEx": "ɑː juː ˈgəʊɪŋ tuː hɜː ˈpɑːti təˈnaɪt?",
+        "MeanEx": "Bạn có đi đến bữa tiệc của cô ấy tối nay?"
+    },
+    {
+        "Example": "We support everyone within our small community.",
+        "IpaEx": "wiː səˈpɔːt ˈɛvrɪwʌn wɪˈðɪn ˈaʊə smɔːl kəˈmjuːnɪti.",
+        "MeanEx": "Chúng tôi hỗ trợ tất cả mọi người trong cộng đồng nhỏ của chúng tôi."
+    },
+    {
+        "Example": "We want everyone to grow and thrive in their careers.",
+        "IpaEx": "wiː wɒnt ˈɛvrɪwʌn tuː grəʊ ænd θraɪv ɪn ðeə kəˈrɪəz.",
+        "MeanEx": "Chúng tôi muốn tất cả mọi người đều phát triển và thành công trong sự nghiệp của họ."
+    },
+    {
+        "Example": "The result of this outreach program is amazing.",
+        "IpaEx": "ðə rɪˈzʌlt ɒv ðɪs ˈaʊtriːʧ ˈprəʊgræm ɪz əˈmeɪzɪŋ.",
+        "MeanEx": "Kết quả của chương trình tiếp cận cộng đồng này thật tuyệt vời."
+    },
+    {
+        "Example": "Are you open to teaching on weekends?",
+        "IpaEx": "ɑː juː ˈəʊpən tuː ˈtiːʧɪŋ ɒn ˈwiːkˈɛndz?",
+        "MeanEx": "Bạn có mở cửa dạy học vào cuối tuần không?"
+    },
+    {
+        "Example": "Where can we change her diaper?",
+        "IpaEx": "weə kæn wiː ʧeɪnʤ hɜː ˈdaɪəpə?",
+        "MeanEx": "Chúng tôi có thể thay tã cho cô ấy ở đâu?"
+    },
+    {
+        "Example": "It’s such a beautiful morning!",
+        "IpaEx": "ɪts sʌʧ ə ˈbjuːtəfʊl ˈmɔːnɪŋ!",
+        "MeanEx": "Đó là một buổi sáng đẹp trời!"
+    },
+    {
+        "Example": "Come take a walk with me.",
+        "IpaEx": "kʌm teɪk ə wɔːk wɪð miː.",
+        "MeanEx": "Hãy đi dạo với tôi."
+    },
+    {
+        "Example": "You are the reason I came home.",
+        "IpaEx": "juː ɑː ðə ˈriːzn aɪ keɪm həʊm.",
+        "MeanEx": "Bạn là lý do tôi trở về nhà."
+    },
+    {
+        "Example": "Her blood pressure has gotten really low.",
+        "IpaEx": "hɜː blʌd ˈprɛʃə hæz ˈgɒtn ˈrɪəli ləʊ.",
+        "MeanEx": "Huyết áp của cô ấy đã xuống rất thấp."
+    },
+    {
+        "Example": "We can win this match if we work together.",
+        "IpaEx": "wiː kæn wɪn ðɪs mæʧ ɪf wiː wɜːk təˈgɛðə.",
+        "MeanEx": "Chúng tôi có thể giành chiến thắng trong trận đấu này nếu chúng tôi làm việc cùng nhau."
+    },
+    {
+        "Example": "How is your research going?",
+        "IpaEx": "haʊ ɪz jɔː rɪˈsɜːʧ ˈgəʊɪŋ?",
+        "MeanEx": "Tiến trình nghiên cứu của bạn như thế nào?"
+    },
+    {
+        "Example": "That girl is in my class.",
+        "IpaEx": "ðæt gɜːl ɪz ɪn maɪ klɑːs.",
+        "MeanEx": "Cô gái đó học cùng lớp với tôi."
+    },
+    {
+        "Example": "I’ve seen that guy in school before.",
+        "IpaEx": "aɪv siːn ðæt gaɪ ɪn skuːl bɪˈfɔː.",
+        "MeanEx": "Tôi đã từng gặp anh chàng đó trong trường học trước đây."
+    },
+    {
+        "Example": "I come to work so early every day.",
+        "IpaEx": "aɪ kʌm tuː wɜːk səʊ ˈɜːli ˈɛvri deɪ.",
+        "MeanEx": "Tôi đến làm việc sớm như vậy mỗi ngày."
+    },
+    {
+        "Example": "Let’s buy some food, I’m hungry!",
+        "IpaEx": "lɛts baɪ sʌm fuːd, aɪm ˈhʌŋgri!",
+        "MeanEx": "Mua đồ ăn đi, tôi đói rồi!"
+    },
+    {
+        "Example": "Can I talk to you before you go home?",
+        "IpaEx": "kæn aɪ tɔːk tuː juː bɪˈfɔː juː gəʊ həʊm?",
+        "MeanEx": "Tôi có thể nói chuyện với bạn trước khi bạn về nhà không?"
+    },
+    {
+        "Example": "The moment she walked into the room, her puppy started to jump and dance again.",
+        "IpaEx": "ðə ˈməʊmənt ʃiː wɔːkt ˈɪntuː ðə ruːm, hɜː ˈpʌpi ˈstɑːtɪd tuː ʤʌmp ænd dɑːns əˈgɛn.",
+        "MeanEx": "Lúc cô bước vào phòng, con chó con của cô lại bắt đầu nhảy và nhảy."
+    },
+    {
+        "Example": "He cooked this turkey himself.",
+        "IpaEx": "hiː kʊkt ðɪs ˈtɜːki hɪmˈsɛlf.",
+        "MeanEx": "Anh ấy đã tự tay nấu món gà tây này."
+    },
+    {
+        "Example": "I am loving the cold night air here.",
+        "IpaEx": "aɪ æm ˈlʌvɪŋ ðə kəʊld naɪt eə hɪə.",
+        "MeanEx": "Tôi yêu cái không khí lạnh về đêm ở đây."
+    },
+    {
+        "Example": "You are the best teacher ever.",
+        "IpaEx": "juː ɑː ðə bɛst ˈtiːʧər ˈɛvə.",
+        "MeanEx": "Bạn là người giáo viên tốt nhất từ ​​trước đến nay."
+    },
+    {
+        "Example": "Don’t force him to play with other kids.",
+        "IpaEx": "dəʊnt fɔːs hɪm tuː pleɪ wɪð ˈʌðə kɪdz.",
+        "MeanEx": "Đừng ép anh ấy chơi với những đứa trẻ khác."
+    },
+    {
+        "Example": "Can I offer you a ride home?",
+        "IpaEx": "kæn aɪ ˈɒfə juː ə raɪd həʊm?",
+        "MeanEx": "Tôi có thể cho bạn một chuyến xe về nhà không?"
+    },
+    {
+        "Example": "Boys, that’s enough playing for today.",
+        "IpaEx": "bɔɪz, ðæts ɪˈnʌf ˈpleɪɪŋ fɔː təˈdeɪ.",
+        "MeanEx": "Các chàng trai, chơi như vậy là đủ cho ngày hôm nay."
+    },
+    {
+        "Example": "You both need to change into your sleep clothes now.",
+        "IpaEx": "juː bəʊθ niːd tuː ʧeɪnʤ ˈɪntuː jɔː sliːp kləʊðz naʊ.",
+        "MeanEx": "Cả hai bạn cần thay quần áo đi ngủ ngay bây giờ."
+    },
+    {
+        "Example": "I just want you to get the best education.",
+        "IpaEx": "aɪ ʤʌst wɒnt juː tuː gɛt ðə bɛst ˌɛdju(ː)ˈkeɪʃən.",
+        "MeanEx": "Tôi chỉ muốn con có được một nền giáo dục tốt nhất."
+    },
+    {
+        "Example": "Your dog ran across the park.",
+        "IpaEx": "jɔː dɒg ræn əˈkrɒs ðə pɑːk.",
+        "MeanEx": "Con chó của bạn chạy ngang qua công viên."
+    },
+    {
+        "Example": "Although she felt tired, she still couldn’t sleep.",
+        "IpaEx": "ɔːlˈðəʊ ʃiː fɛlt ˈtaɪəd, ʃiː stɪl ˈkʊdnt sliːp.",
+        "MeanEx": "Mặc dù cảm thấy mệt mỏi nhưng cô vẫn không thể ngủ được."
+    },
+    {
+        "Example": "Do you think she will still remember me after ten years?",
+        "IpaEx": "duː juː θɪŋk ʃiː wɪl stɪl rɪˈmɛmbə miː ˈɑːftə tɛn jɪəz?",
+        "MeanEx": "Bạn có nghĩ rằng cô ấy sẽ vẫn nhớ đến tôi sau mười năm?"
+    },
+    {
+        "Example": "Her foot got caught in one of the ropes.",
+        "IpaEx": "hɜː fʊt gɒt kɔːt ɪn wʌn ɒv ðə rəʊps.",
+        "MeanEx": "Chân cô ấy vướng vào một trong những sợi dây."
+    },
+    {
+        "Example": "This is the second time she got late this month.",
+        "IpaEx": "ðɪs ɪz ðə ˈsɛkənd taɪm ʃiː gɒt leɪt ðɪs mʌnθ.",
+        "MeanEx": "Đây là lần thứ hai cô ấy bị trễ kinh trong tháng này."
+    },
+    {
+        "Example": "There’s a boy in her class who keeps pulling her hair.",
+        "IpaEx": "ðeəz ə bɔɪ ɪn hɜː klɑːs huː kiːps ˈpʊlɪŋ hɜː heə.",
+        "MeanEx": "Có một cậu bé trong lớp của cô ấy liên tục kéo tóc cô ấy."
+    },
+    {
+        "Example": "Maybe we can have ice cream for dessert.",
+        "IpaEx": "ˈmeɪbiː wiː kæn hæv aɪs kriːm fɔː dɪˈzɜːt.",
+        "MeanEx": "Có lẽ chúng ta có thể ăn kem để tráng miệng."
+    },
+    {
+        "Example": "He took a step toward her.",
+        "IpaEx": "hiː tʊk ə stɛp təˈwɔːd hɜː.",
+        "MeanEx": "Anh tiến một bước về phía cô."
+    },
+    {
+        "Example": "Will you be able to send me your report today?",
+        "IpaEx": "wɪl juː biː ˈeɪbl tuː sɛnd miː jɔː rɪˈpɔːt təˈdeɪ?",
+        "MeanEx": "Bạn sẽ có thể gửi cho tôi báo cáo của bạn ngày hôm nay?"
+    },
+    {
+        "Example": "What is the average marrying age these days?",
+        "IpaEx": "wɒt ɪz ði ˈævərɪʤ ˈmæriɪŋ eɪʤ ðiːz deɪz?",
+        "MeanEx": "Tuổi kết hôn trung bình những ngày này là bao nhiêu?"
+    },
+    {
+        "Example": "The cat ran off with the dog.",
+        "IpaEx": "ðə kæt ræn ɒf wɪð ðə dɒg.",
+        "MeanEx": "Con mèo bỏ chạy với con chó."
+    },
+    {
+        "Example": "They have a generous return policy.",
+        "IpaEx": "ðeɪ hæv ə ˈʤɛnərəs rɪˈtɜːn ˈpɒlɪsi.",
+        "MeanEx": "Họ có một chính sách hoàn trả hào phóng."
+    },
+    {
+        "Example": "Everything is on sale.",
+        "IpaEx": "ˈɛvrɪθɪŋ ɪz ɒn seɪl.",
+        "MeanEx": "Tất cả mọi thứ đều được bán."
+    },
+    {
+        "Example": "I love what you’re wearing!",
+        "IpaEx": "aɪ lʌv wɒt jʊə ˈweərɪŋ!",
+        "MeanEx": "Tôi thích những gì bạn đang mặc!"
+    },
+    {
+        "Example": "Wait, give me time to process everything you’re telling me.",
+        "IpaEx": "weɪt, gɪv miː taɪm tuː ˈprəʊsɛs ˈɛvrɪθɪŋ jʊə ˈtɛlɪŋ miː.",
+        "MeanEx": "Chờ đã, cho tôi thời gian để xử lý mọi thứ bạn đang nói với tôi."
+    },
+    {
+        "Example": "I love music.",
+        "IpaEx": "aɪ lʌv ˈmjuːzɪk.",
+        "MeanEx": "Tôi yêu âm nhạc."
+    },
+    {
+        "Example": "Around 20 people attended, including bob and beth.",
+        "IpaEx": "əˈraʊnd 20 ˈpiːpl əˈtɛndɪd, ɪnˈkluːdɪŋ bɒb ænd bɛθ.",
+        "MeanEx": "Khoảng 20 người đã tham dự, bao gồm cả bob và beth."
+    },
+    {
+        "Example": "I hope you consider my project proposal.",
+        "IpaEx": "aɪ həʊp juː kənˈsɪdə maɪ ˈprɒʤɛkt prəˈpəʊzəl.",
+        "MeanEx": "Tôi hy vọng bạn xem xét đề xuất dự án của tôi."
+    },
+    {
+        "Example": "How did that appear out of nowhere?",
+        "IpaEx": "haʊ dɪd ðæt əˈpɪər aʊt ɒv ˈnəʊweə?",
+        "MeanEx": "Làm thế nào mà điều đó xuất hiện từ hư không?"
+    },
+    {
+        "Example": "I’m actually just heading out.",
+        "IpaEx": "aɪm ˈækʧʊəli ʤʌst ˈhɛdɪŋ aʊt.",
+        "MeanEx": "Tôi thực sự chỉ đang đi ra ngoài."
+    },
+    {
+        "Example": "I’m going to buy these shoes.",
+        "IpaEx": "aɪm ˈgəʊɪŋ tuː baɪ ðiːz ʃuːz.",
+        "MeanEx": "Tôi sẽ mua đôi giày này."
+    },
+    {
+        "Example": "He’s probably still asleep.",
+        "IpaEx": "hiːz ˈprɒbəbli stɪl əˈsliːp.",
+        "MeanEx": "Anh ấy có lẽ vẫn đang ngủ."
+    },
+    {
+        "Example": "Give him a break, he is only human.",
+        "IpaEx": "gɪv hɪm ə breɪk, hiː ɪz ˈəʊnli ˈhjuːmən.",
+        "MeanEx": "Hãy cho anh ta nghỉ ngơi, anh ta chỉ là con người."
+    },
+    {
+        "Example": "Is it alright if you wait for a few minutes?",
+        "IpaEx": "ɪz ɪt ɔːlˈraɪt ɪf juː weɪt fɔːr ə fjuː ˈmɪnɪts?",
+        "MeanEx": "Có ổn không nếu bạn đợi trong vài phút?"
+    },
+    {
+        "Example": "This blow dryer has served me well for years.",
+        "IpaEx": "ðɪs bləʊ ˈdraɪə hæz sɜːvd miː wɛl fɔː jɪəz.",
+        "MeanEx": "Máy sấy thổi này đã phục vụ tôi tốt trong nhiều năm."
+    },
+    {
+        "Example": "Let’s visit the Sunday market.",
+        "IpaEx": "lɛts ˈvɪzɪt ðə ˈsʌndeɪ ˈmɑːkɪt.",
+        "MeanEx": "Hãy đến thăm chợ Chủ nhật."
+    },
+    {
+        "Example": "I don’t want my cat to die, let’s take him to the vet, please.",
+        "IpaEx": "aɪ dəʊnt wɒnt maɪ kæt tuː daɪ, lɛts teɪk hɪm tuː ðə vɛt, pliːz.",
+        "MeanEx": "Tôi không muốn con mèo của mình chết, hãy đưa nó đến bác sĩ thú y, làm ơn."
+    },
+    {
+        "Example": "Please send the package to my address.",
+        "IpaEx": "pliːz sɛnd ðə ˈpækɪʤ tuː maɪ əˈdrɛs.",
+        "MeanEx": "Vui lòng gửi gói hàng đến địa chỉ của tôi."
+    },
+    {
+        "Example": "You can’t expect much from their poor service.",
+        "IpaEx": "juː kɑːnt ɪksˈpɛkt mʌʧ frɒm ðeə pʊə ˈsɜːvɪs.",
+        "MeanEx": "Bạn không thể mong đợi nhiều từ dịch vụ kém của họ."
+    },
+    {
+        "Example": "I can’t wait to go home!",
+        "IpaEx": "aɪ kɑːnt weɪt tuː gəʊ həʊm!",
+        "MeanEx": "Tôi nóng lòng muốn về nhà!"
+    },
+    {
+        "Example": "I did sense that something was not okay.",
+        "IpaEx": "aɪ dɪd sɛns ðæt ˈsʌmθɪŋ wɒz nɒt ˈəʊˈkeɪ.",
+        "MeanEx": "Tôi đã cảm thấy rằng có điều gì đó không ổn."
+    },
+    {
+        "Example": "He is going to build his dream house.",
+        "IpaEx": "hiː ɪz ˈgəʊɪŋ tuː bɪld hɪz driːm haʊs.",
+        "MeanEx": "Anh ấy sẽ xây ngôi nhà mơ ước của mình."
+    },
+    {
+        "Example": "You can stay with me for a few weeks.",
+        "IpaEx": "juː kæn steɪ wɪð miː fɔːr ə fjuː wiːks.",
+        "MeanEx": "Bạn có thể ở với tôi trong một vài tuần."
+    },
+    {
+        "Example": "Be careful, you might fall.",
+        "IpaEx": "biː ˈkeəfʊl, juː maɪt fɔːl.",
+        "MeanEx": "Hãy cẩn thận, bạn có thể bị ngã."
+    },
+    {
+        "Example": "Oh no, I left my phone at home!",
+        "IpaEx": "əʊ nəʊ, aɪ lɛft maɪ fəʊn æt həʊm!",
+        "MeanEx": "Ồ không, tôi để quên điện thoại ở nhà!"
+    },
+    {
+        "Example": "We have to act as one nation.",
+        "IpaEx": "wiː hæv tuː ækt æz wʌn ˈneɪʃən.",
+        "MeanEx": "Chúng ta phải hành động như một quốc gia."
+    },
+    {
+        "Example": "What’s your plan this time?",
+        "IpaEx": "wɒts jɔː plæn ðɪs taɪm?",
+        "MeanEx": "Kế hoạch của bạn lần này là gì?"
+    },
+    {
+        "Example": "Don’t cut your hair.",
+        "IpaEx": "dəʊnt kʌt jɔː heə.",
+        "MeanEx": "Đừng cắt tóc của bạn."
+    },
+    {
+        "Example": "We met in college.",
+        "IpaEx": "wiː mɛt ɪn ˈkɒlɪʤ.",
+        "MeanEx": "Chúng tôi gặp nhau ở trường đại học."
+    },
+    {
+        "Example": "Music is an interest of mine.",
+        "IpaEx": "ˈmjuːzɪk ɪz ən ˈɪntrɪst ɒv maɪn.",
+        "MeanEx": "Âm nhạc là một sở thích của tôi."
+    },
+    {
+        "Example": "Death is such a heavy topic for me.",
+        "IpaEx": "dɛθ ɪz sʌʧ ə ˈhɛvi ˈtɒpɪk fɔː miː.",
+        "MeanEx": "Cái chết là một chủ đề nặng nề đối với tôi."
+    },
+    {
+        "Example": "What course did you take up in college?",
+        "IpaEx": "wɒt kɔːs dɪd juː teɪk ʌp ɪn ˈkɒlɪʤ?",
+        "MeanEx": "Bạn đã học khóa học gì ở trường đại học?"
+    },
+    {
+        "Example": "Is there someone who can go with you?",
+        "IpaEx": "ɪz ðeə ˈsʌmwʌn huː kæn gəʊ wɪð juː?",
+        "MeanEx": "Có ai đó có thể đi cùng bạn không?"
+    },
+    {
+        "Example": "What an exciting experience!",
+        "IpaEx": "wɒt ən ɪkˈsaɪtɪŋ ɪksˈpɪərɪəns!",
+        "MeanEx": "Thật là một trải nghiệm thú vị!"
+    },
+    {
+        "Example": "I’m scared to check what’s behind that door.",
+        "IpaEx": "aɪm skeəd tuː ʧɛk wɒts bɪˈhaɪnd ðæt dɔː.",
+        "MeanEx": "Tôi sợ hãi khi kiểm tra xem có gì đằng sau cánh cửa đó."
+    },
+    {
+        "Example": "I can’t reach him, he won’t answer his phone.",
+        "IpaEx": "aɪ kɑːnt riːʧ hɪm, hiː wəʊnt ˈɑːnsə hɪz fəʊn.",
+        "MeanEx": "Tôi không thể liên lạc với anh ấy, anh ấy sẽ không trả lời điện thoại của mình."
+    },
+    {
+        "Example": "This is a local business.",
+        "IpaEx": "ðɪs ɪz ə ˈləʊkəl ˈbɪznɪs.",
+        "MeanEx": "Đây là một doanh nghiệp địa phương."
+    },
+    {
+        "Example": "Smoking can kill you.",
+        "IpaEx": "ˈsməʊkɪŋ kæn kɪl juː.",
+        "MeanEx": "Hút thuốc có thể giết chết bạn."
+    },
+    {
+        "Example": "I have six books about psychology.",
+        "IpaEx": "aɪ hæv sɪks bʊks əˈbaʊt saɪˈkɒləʤi.",
+        "MeanEx": "Tôi có sáu cuốn sách về tâm lý học."
+    },
+    {
+        "Example": "These remain on the top shelf.",
+        "IpaEx": "ðiːz rɪˈmeɪn ɒn ðə tɒp ʃɛlf.",
+        "MeanEx": "Những thứ này vẫn còn trên kệ trên cùng."
+    },
+    {
+        "Example": "Wow, the effect of that mascara is great!",
+        "IpaEx": "waʊ, ði ɪˈfɛkt ɒv ðæt mæsˈkɑːrə ɪz greɪt!",
+        "MeanEx": "Chà, tác dụng của cây mascara đó thật tuyệt!"
+    },
+    {
+        "Example": "Can I use your phone?",
+        "IpaEx": "kæn aɪ juːz jɔː fəʊn?",
+        "MeanEx": "Tôi có thể dùng điện thoại của bạn được không?"
+    },
+    {
+        "Example": "Yeah, he did call me earlier.",
+        "IpaEx": "jeə, hiː dɪd kɔːl miː ˈɜːlɪə.",
+        "MeanEx": "Phải, anh ấy đã gọi cho tôi trước đó."
+    },
+    {
+        "Example": "He did suggest that to me.",
+        "IpaEx": "hiː dɪd səˈʤɛst ðæt tuː miː.",
+        "MeanEx": "Anh ấy đã gợi ý điều đó cho tôi."
+    },
+    {
+        "Example": "We were in the same English class.",
+        "IpaEx": "wiː wɜːr ɪn ðə seɪm ˈɪŋglɪʃ klɑːs.",
+        "MeanEx": "Chúng tôi học cùng lớp tiếng Anh."
+    },
+    {
+        "Example": "Where’s the remote control?",
+        "IpaEx": "weəz ðə rɪˈməʊt kənˈtrəʊl?",
+        "MeanEx": "Điều khiển từ xa ở đâu?"
+    },
+    {
+        "Example": "It’s so challenging to discipline kids these days.",
+        "IpaEx": "ɪts səʊ ˈʧælɪnʤɪŋ tuː ˈdɪsɪplɪn kɪdz ðiːz deɪz.",
+        "MeanEx": "Ngày nay, thật khó để kỷ luật trẻ em."
+    },
+    {
+        "Example": "I don’t care about what you think.",
+        "IpaEx": "aɪ dəʊnt keər əˈbaʊt wɒt juː θɪŋk.",
+        "MeanEx": "Tôi không quan tâm đến những gì bạn nghĩ."
+    },
+    {
+        "Example": "Perhaps we can arrive at a compromise.",
+        "IpaEx": "pəˈhæps wiː kæn əˈraɪv æt ə ˈkɒmprəmaɪz.",
+        "MeanEx": "Có lẽ chúng ta có thể đi đến một thỏa hiệp."
+    },
+    {
+        "Example": "There’s a little bird outside my window.",
+        "IpaEx": "ðeəz ə ˈlɪtl bɜːd ˌaʊtˈsaɪd maɪ ˈwɪndəʊ.",
+        "MeanEx": "Có một con chim nhỏ bên ngoài cửa sổ của tôi."
+    },
+    {
+        "Example": "I am running late for my doctor’s appointment.",
+        "IpaEx": "aɪ æm ˈrʌnɪŋ leɪt fɔː maɪ ˈdɒktəz əˈpɔɪntmənt.",
+        "MeanEx": "Tôi đang đến trễ cuộc hẹn với bác sĩ của mình."
+    },
+    {
+        "Example": "That test was so hard.",
+        "IpaEx": "ðæt tɛst wɒz səʊ hɑːd.",
+        "MeanEx": "Bài kiểm tra đó thật khó."
+    },
+    {
+        "Example": "He’s over there, by the soccer field.",
+        "IpaEx": "hiːz ˈəʊvə ðeə, baɪ ðə ˈsɒkə fiːld.",
+        "MeanEx": "Anh ấy ở đằng kia, cạnh sân bóng."
+    },
+    {
+        "Example": "Is anyone else coming?",
+        "IpaEx": "ɪz ˈɛnɪwʌn ɛls ˈkʌmɪŋ?",
+        "MeanEx": "Có ai khác đến không?"
+    },
+    {
+        "Example": "Can we pass by the grocery store?",
+        "IpaEx": "kæn wiː pɑːs baɪ ðə ˈgrəʊsəri stɔː?",
+        "MeanEx": "Chúng ta có thể đi ngang qua cửa hàng tạp hóa không?"
+    },
+    {
+        "Example": "She was my former housemate.",
+        "IpaEx": "ʃiː wɒz maɪ ˈfɔːmə ˈhaʊsmeɪt.",
+        "MeanEx": "Cô ấy là bạn cùng nhà cũ của tôi."
+    },
+    {
+        "Example": "We can sell your old couch online.",
+        "IpaEx": "wiː kæn sɛl jɔːr əʊld kaʊʧ ˈɒnˌlaɪn.",
+        "MeanEx": "Chúng tôi có thể bán đi văng cũ của bạn trực tuyến."
+    },
+    {
+        "Example": "It’s a major issue for the project.",
+        "IpaEx": "ɪts ə ˈmeɪʤər ˈɪʃuː fɔː ðə ˈprɒʤɛkt.",
+        "MeanEx": "Đó là một vấn đề lớn của dự án."
+    },
+    {
+        "Example": "Sometimes I forget to turn off the porch lights.",
+        "IpaEx": "ˈsʌmtaɪmz aɪ fəˈgɛt tuː tɜːn ɒf ðə pɔːʧ laɪts.",
+        "MeanEx": "Đôi khi tôi quên tắt đèn ngoài hiên."
+    },
+    {
+        "Example": "They’ll require you to show your i.d.",
+        "IpaEx": "ðeɪl rɪˈkwaɪə juː tuː ʃəʊ jɔːr aɪ.diː.",
+        "MeanEx": "Họ sẽ yêu cầu bạn xuất trình i.d."
+    },
+    {
+        "Example": "Can I tag along your road trip?",
+        "IpaEx": "kæn aɪ tæg əˈlɒŋ jɔː rəʊd trɪp?",
+        "MeanEx": "Tôi có thể gắn thẻ dọc theo chuyến đi của bạn không?"
+    },
+    {
+        "Example": "This news development is really interesting.",
+        "IpaEx": "ðɪs njuːz dɪˈvɛləpmənt ɪz ˈrɪəli ˈɪntrɪstɪŋ.",
+        "MeanEx": "Diễn biến tin tức này thực sự thú vị."
+    },
+    {
+        "Example": "They can take care of themselves.",
+        "IpaEx": "ðeɪ kæn teɪk keər ɒv ðəmˈsɛlvz.",
+        "MeanEx": "Họ có thể tự chăm sóc bản thân."
+    },
+    {
+        "Example": "I read her report and it was great!",
+        "IpaEx": "aɪ riːd hɜː rɪˈpɔːt ænd ɪt wɒz greɪt!",
+        "MeanEx": "Tôi đã đọc báo cáo của cô ấy và nó thật tuyệt!"
+    },
+    {
+        "Example": "She’s going to play the role of Elsa.",
+        "IpaEx": "ʃiːz ˈgəʊɪŋ tuː pleɪ ðə rəʊl ɒv Elsa.",
+        "MeanEx": "Cô ấy sẽ đóng vai Elsa."
+    },
+    {
+        "Example": "Your singing has gotten so much better!",
+        "IpaEx": "jɔː ˈsɪŋɪŋ hæz ˈgɒtn səʊ mʌʧ ˈbɛtə!",
+        "MeanEx": "Ca hát của bạn đã trở nên tốt hơn rất nhiều!"
+    },
+    {
+        "Example": "Some countries are facing an economic crisis.",
+        "IpaEx": "sʌm ˈkʌntriz ɑː ˈfeɪsɪŋ ən ˌiːkəˈnɒmɪk ˈkraɪsɪs.",
+        "MeanEx": "Một số quốc gia đang phải đối mặt với khủng hoảng kinh tế."
+    },
+    {
+        "Example": "The government must make an effort to solve this.",
+        "IpaEx": "ðə ˈgʌvnmənt mʌst meɪk ən ˈɛfət tuː sɒlv ðɪs.",
+        "MeanEx": "Chính phủ phải nỗ lực để giải quyết việc này."
+    },
+    {
+        "Example": "His grades have gone up.",
+        "IpaEx": "hɪz greɪdz hæv gɒn ʌp.",
+        "MeanEx": "Điểm của anh ấy đã tăng lên."
+    },
+    {
+        "Example": "Please decide where to eat.",
+        "IpaEx": "pliːz dɪˈsaɪd weə tuː iːt.",
+        "MeanEx": "Hãy quyết định nơi để ăn."
+    },
+    {
+        "Example": "How would you rate the hotel’s service?",
+        "IpaEx": "haʊ wʊd juː reɪt ðə həʊˈtɛlz ˈsɜːvɪs?",
+        "MeanEx": "Bạn đánh giá dịch vụ của khách sạn như thế nào?"
+    },
+    {
+        "Example": "They have strong customer service here!",
+        "IpaEx": "ðeɪ hæv strɒŋ ˈkʌstəmə ˈsɜːvɪs hɪə!",
+        "MeanEx": "Họ có dịch vụ khách hàng mạnh mẽ ở đây!"
+    },
+    {
+        "Example": "Maybe it’s possible to change their bathroom amenities.",
+        "IpaEx": "ˈmeɪbiː ɪts ˈpɒsəbl tuː ʧeɪnʤ ðeə ˈbɑːθru(ː)m əˈmiːnɪtiz.",
+        "MeanEx": "Có lẽ có thể thay đổi đồ vệ sinh cá nhân của họ."
+    },
+    {
+        "Example": "My heart is so full.",
+        "IpaEx": "maɪ hɑːt ɪz səʊ fʊl.",
+        "MeanEx": "Trái tim tôi thật đầy ắp."
+    },
+    {
+        "Example": "She got the patent for the drug she has created to cure cancer.",
+        "IpaEx": "ʃiː gɒt ðə ˈpeɪtənt fɔː ðə drʌg ʃiː hæz kri(ː)ˈeɪtɪd tuː kjʊə ˈkænsə.",
+        "MeanEx": "Cô đã nhận được bằng sáng chế cho loại thuốc mà cô đã tạo ra để chữa bệnh ung thư."
+    },
+    {
+        "Example": "Can you show me how to solve this puzzle?",
+        "IpaEx": "kæn juː ʃəʊ miː haʊ tuː sɒlv ðɪs ˈpʌzl?",
+        "MeanEx": "Bạn có thể chỉ cho tôi làm thế nào để giải quyết câu đố này?"
+    },
+    {
+        "Example": "You are a wonderful leader.",
+        "IpaEx": "juː ɑːr ə ˈwʌndəfʊl ˈliːdə.",
+        "MeanEx": "Bạn là một nhà lãnh đạo tuyệt vời."
+    },
+    {
+        "Example": "Watch her face light up when you mention his name.",
+        "IpaEx": "wɒʧ hɜː feɪs laɪt ʌp wɛn juː ˈmɛnʃən hɪz neɪm.",
+        "MeanEx": "Nhìn khuôn mặt cô ấy sáng lên khi bạn nhắc đến tên anh ấy."
+    },
+    {
+        "Example": "Hearing his mom’s voice is all he needs right now.",
+        "IpaEx": "ˈhɪərɪŋ hɪz mɒmz vɔɪs ɪz ɔːl hiː niːdz raɪt naʊ.",
+        "MeanEx": "Nghe thấy giọng nói của mẹ là tất cả những gì anh ấy cần ngay bây giờ."
+    },
+    {
+        "Example": "My wife is away for the weekend.",
+        "IpaEx": "maɪ waɪf ɪz əˈweɪ fɔː ðə ˈwiːkˈɛnd.",
+        "MeanEx": "Cuối tuần vợ tôi đi vắng."
+    },
+    {
+        "Example": "I have the whole house to myself.",
+        "IpaEx": "aɪ hæv ðə həʊl haʊs tuː maɪˈsɛlf.",
+        "MeanEx": "Tôi có toàn bộ ngôi nhà cho riêng mình."
+    },
+    {
+        "Example": "The police have questioned him about the incident.",
+        "IpaEx": "ðə pəˈliːs hæv ˈkwɛsʧənd hɪm əˈbaʊt ði ˈɪnsɪdənt.",
+        "MeanEx": "Cảnh sát đã thẩm vấn anh ta về vụ việc."
+    },
+    {
+        "Example": "This relaxation technique really eases my mind.",
+        "IpaEx": "ðɪs ˌriːlækˈseɪʃən tɛkˈniːk ˈrɪəli ˈiːzɪz maɪ maɪnd.",
+        "MeanEx": "Kỹ thuật thư giãn này thực sự giúp tôi xoa dịu tâm trí."
+    },
+    {
+        "Example": "I can finally move out from my old apartment.",
+        "IpaEx": "aɪ kæn ˈfaɪnəli muːv aʊt frɒm maɪ əʊld əˈpɑːtmənt.",
+        "MeanEx": "Cuối cùng thì tôi cũng có thể dọn ra khỏi căn hộ cũ của mình."
+    },
+    {
+        "Example": "My baby niece likes to pull my hair.",
+        "IpaEx": "maɪ ˈbeɪbi niːs laɪks tuː pʊl maɪ heə.",
+        "MeanEx": "Đứa cháu gái nhỏ của tôi thích kéo tóc của tôi."
+    },
+    {
+        "Example": "I give her tickles in return.",
+        "IpaEx": "aɪ gɪv hɜː ˈtɪklz ɪn rɪˈtɜːn.",
+        "MeanEx": "Tôi trả lại cho cô ấy sự nhột nhạt."
+    },
+    {
+        "Example": "The best things in life are free.",
+        "IpaEx": "ðə bɛst θɪŋz ɪn laɪf ɑː friː.",
+        "MeanEx": "Những điều tốt nhất trong cuộc sống là miễn phí."
+    },
+    {
+        "Example": "His dad is in the military.",
+        "IpaEx": "hɪz dæd ɪz ɪn ðə ˈmɪlɪtəri.",
+        "MeanEx": "Bố anh ấy đang trong quân đội."
+    },
+    {
+        "Example": "This is the price you pay for lying.",
+        "IpaEx": "ðɪs ɪz ðə praɪs juː peɪ fɔː ˈlaɪɪŋ.",
+        "MeanEx": "Đây là cái giá mà bạn phải trả cho việc nói dối."
+    },
+    {
+        "Example": "Did you report this to the police?",
+        "IpaEx": "dɪd juː rɪˈpɔːt ðɪs tuː ðə pəˈliːs?",
+        "MeanEx": "Bạn đã báo cáo điều này với cảnh sát?"
+    },
+    {
+        "Example": "I am praying for less stress this coming new year.",
+        "IpaEx": "aɪ æm ˈpreɪɪŋ fɔː lɛs strɛs ðɪs ˈkʌmɪŋ njuː jɪə.",
+        "MeanEx": "Tôi đang cầu nguyện cho năm mới sắp tới bớt căng thẳng hơn."
+    },
+    {
+        "Example": "According to the weather report, it’s going to rain today.",
+        "IpaEx": "əˈkɔːdɪŋ tuː ðə ˈwɛðə rɪˈpɔːt, ɪts ˈgəʊɪŋ tuː reɪn təˈdeɪ.",
+        "MeanEx": "Theo bản tin thời tiết, hôm nay trời sẽ mưa."
+    },
+    {
+        "Example": "This is a big decision for me.",
+        "IpaEx": "ðɪs ɪz ə bɪg dɪˈsɪʒən fɔː miː.",
+        "MeanEx": "Đây là một quyết định lớn đối với tôi."
+    },
+    {
+        "Example": "I’ll explain everything later, I promise.",
+        "IpaEx": "aɪl ɪksˈpleɪn ˈɛvrɪθɪŋ ˈleɪtə, aɪ ˈprɒmɪs.",
+        "MeanEx": "Tôi sẽ giải thích mọi thứ sau, tôi hứa."
+    },
+    {
+        "Example": "His son is so cute!",
+        "IpaEx": "hɪz sʌn ɪz səʊ kjuːt!",
+        "MeanEx": "Con trai của anh ấy thật đáng yêu!"
+    },
+    {
+        "Example": "I hope I’ll have a son one day.",
+        "IpaEx": "aɪ həʊp aɪl hæv ə sʌn wʌn deɪ.",
+        "MeanEx": "Tôi hy vọng một ngày nào đó tôi sẽ có một cậu con trai."
+    },
+    {
+        "Example": "Even if they’ve broken up, they still remain friends.",
+        "IpaEx": "ˈiːvən ɪf ðeɪv ˈbrəʊkən ʌp, ðeɪ stɪl rɪˈmeɪn frɛndz.",
+        "MeanEx": "Ngay cả khi đã chia tay, họ vẫn là bạn của nhau."
+    },
+    {
+        "Example": "That rash could develop into something more serious.",
+        "IpaEx": "ðæt ræʃ kʊd dɪˈvɛləp ˈɪntuː ˈsʌmθɪŋ mɔː ˈsɪərɪəs.",
+        "MeanEx": "Phát ban đó có thể phát triển thành một cái gì đó nghiêm trọng hơn."
+    },
+    {
+        "Example": "This view is amazing!",
+        "IpaEx": "ðɪs vjuː ɪz əˈmeɪzɪŋ!",
+        "MeanEx": "Quan điểm này là tuyệt vời!"
+    },
+    {
+        "Example": "They’ve taken their relationship to the next level.",
+        "IpaEx": "ðeɪv ˈteɪkən ðeə rɪˈleɪʃənʃɪp tuː ðə nɛkst ˈlɛvl.",
+        "MeanEx": "Họ đã đưa mối quan hệ của mình lên một tầm cao mới."
+    },
+    {
+        "Example": "Can you carry my bag for me?",
+        "IpaEx": "kæn juː ˈkæri maɪ bæg fɔː miː?",
+        "MeanEx": "Bạn có thể xách cặp cho tôi được không?"
+    },
+    {
+        "Example": "This town is extremely quiet.",
+        "IpaEx": "ðɪs taʊn ɪz ɪksˈtriːmli ˈkwaɪət.",
+        "MeanEx": "Thị trấn này cực kỳ yên tĩnh."
+    },
+    {
+        "Example": "There’s a road that leads to the edge of the woods.",
+        "IpaEx": "ðeəz ə rəʊd ðæt liːdz tuː ði ɛʤ ɒv ðə wʊdz.",
+        "MeanEx": "Có một con đường dẫn đến bìa rừng."
+    },
+    {
+        "Example": "You can’t drive there, you need to walk.",
+        "IpaEx": "juː kɑːnt draɪv ðeə, juː niːd tuː wɔːk.",
+        "MeanEx": "Bạn không thể lái xe đến đó, bạn cần phải đi bộ."
+    },
+    {
+        "Example": "He broke his arm during practice.",
+        "IpaEx": "hiː brəʊk hɪz ɑːm ˈdjʊərɪŋ ˈpræktɪs.",
+        "MeanEx": "Anh ấy bị gãy tay trong lúc tập luyện."
+    },
+    {
+        "Example": "It’s true, I’m leaving the company.",
+        "IpaEx": "ɪts truː, aɪm ˈliːvɪŋ ðə ˈkʌmpəni.",
+        "MeanEx": "Đúng là tôi sắp rời công ty."
+    },
+    {
+        "Example": "Animal abuse is now a federal felony!",
+        "IpaEx": "ˈænɪməl əˈbjuːs ɪz naʊ ə ˈfɛdərəl ˈfɛləni!",
+        "MeanEx": "Ngược đãi động vật hiện là một trọng tội liên bang!"
+    },
+    {
+        "Example": "Don’t break the law.",
+        "IpaEx": "dəʊnt breɪk ðə lɔː.",
+        "MeanEx": "Đừng vi phạm pháp luật."
+    },
+    {
+        "Example": "You better learn how to follow rules.",
+        "IpaEx": "juː ˈbɛtə lɜːn haʊ tuː ˈfɒləʊ ruːlz.",
+        "MeanEx": "Tốt hơn bạn nên học cách tuân theo các quy tắc."
+    },
+    {
+        "Example": "What’s the difference between happiness and contentment?",
+        "IpaEx": "wɒts ðə ˈdɪfrəns bɪˈtwiːn ˈhæpɪnɪs ænd kənˈtɛntmənt?",
+        "MeanEx": "Sự khác biệt giữa hạnh phúc và mãn nguyện là gì?"
+    },
+    {
+        "Example": "I forgot to thank her for the pie she sent us.",
+        "IpaEx": "aɪ fəˈgɒt tuː θæŋk hɜː fɔː ðə paɪ ʃiː sɛnt ʌs.",
+        "MeanEx": "Tôi quên cảm ơn cô ấy vì chiếc bánh mà cô ấy đã gửi cho chúng tôi."
+    },
+    {
+        "Example": "Did you receive the pie I sent you?",
+        "IpaEx": "dɪd juː rɪˈsiːv ðə paɪ aɪ sɛnt juː?",
+        "MeanEx": "Bạn đã nhận được cái bánh mà tôi đã gửi cho bạn chưa?"
+    },
+    {
+        "Example": "I value our friendship so much.",
+        "IpaEx": "aɪ ˈvæljuː ˈaʊə ˈfrɛndʃɪp səʊ mʌʧ.",
+        "MeanEx": "Tôi coi trọng tình bạn của chúng tôi rất nhiều."
+    },
+    {
+        "Example": "Their brand has gone international!",
+        "IpaEx": "ðeə brænd hæz gɒn ˌɪntə(ː)ˈnæʃənl!",
+        "MeanEx": "Thương hiệu của họ đã vươn ra quốc tế!"
+    },
+    {
+        "Example": "This building is so tall!",
+        "IpaEx": "ðɪs ˈbɪldɪŋ ɪz səʊ tɔːl!",
+        "MeanEx": "Tòa nhà này cao quá!"
+    },
+    {
+        "Example": "Your next action is going to be critical.",
+        "IpaEx": "jɔː nɛkst ˈækʃ(ə)n ɪz ˈgəʊɪŋ tuː biː ˈkrɪtɪkəl.",
+        "MeanEx": "Hành động tiếp theo của bạn sẽ rất quan trọng."
+    },
+    {
+        "Example": "My workload is so full now.",
+        "IpaEx": "maɪ ˈwɜːkˌləʊd ɪz səʊ fʊl naʊ.",
+        "MeanEx": "Hiện tại khối lượng công việc của tôi quá đầy."
+    },
+    {
+        "Example": "A great leader is a great model of how to do things.",
+        "IpaEx": "ə greɪt ˈliːdər ɪz ə greɪt ˈmɒdl ɒv haʊ tuː duː θɪŋz.",
+        "MeanEx": "Một nhà lãnh đạo tuyệt vời là một hình mẫu tuyệt vời về cách làm mọi việc."
+    },
+    {
+        "Example": "He wants to join the soccer team.",
+        "IpaEx": "hiː wɒnts tuː ʤɔɪn ðə ˈsɒkə tiːm.",
+        "MeanEx": "Anh ấy muốn tham gia đội bóng đá."
+    },
+    {
+        "Example": "Christmas is my favorite season!",
+        "IpaEx": "ˈkrɪsməs ɪz maɪ ˈfeɪvərɪt ˈsiːzn!",
+        "MeanEx": "Giáng sinh là mùa yêu thích của tôi!"
+    },
+    {
+        "Example": "Their society is holding a fundraiser.",
+        "IpaEx": "ðeə səˈsaɪəti ɪz ˈhəʊldɪŋ ə ˈfʌndˌreɪzə.",
+        "MeanEx": "Xã hội của họ đang tổ chức một buổi gây quỹ."
+    },
+    {
+        "Example": "I’m going home because my mom needs me.",
+        "IpaEx": "aɪm ˈgəʊɪŋ həʊm bɪˈkɒz maɪ mɒm niːdz miː.",
+        "MeanEx": "Tôi về nhà vì mẹ tôi cần tôi."
+    },
+    {
+        "Example": "How much is the current income tax?",
+        "IpaEx": "haʊ mʌʧ ɪz ðə ˈkʌrənt ˈɪnkʌm tæks?",
+        "MeanEx": "Thuế thu nhập hiện tại là bao nhiêu?"
+    },
+    {
+        "Example": "The director yelled ‘cut!'",
+        "IpaEx": "ðə dɪˈrɛktə jɛld kʌt!'",
+        "MeanEx": "Đạo diễn hét lên ‘cắt!’"
+    },
+    {
+        "Example": "I’m too early for my appointment.",
+        "IpaEx": "aɪm tuː ˈɜːli fɔː maɪ əˈpɔɪntmənt.",
+        "MeanEx": "Tôi còn quá sớm cho cuộc hẹn của mình."
+    },
+    {
+        "Example": "Please position your hand properly when drawing.",
+        "IpaEx": "pliːz pəˈzɪʃən jɔː hænd ˈprɒpəli wɛn ˈdrɔːɪŋ.",
+        "MeanEx": "Hãy đặt tay đúng vị trí khi vẽ."
+    },
+    {
+        "Example": "That basketball player is cute.",
+        "IpaEx": "ðæt ˈbɑːskɪtˌbɔːl ˈpleɪər ɪz kjuːt.",
+        "MeanEx": "Cầu thủ bóng rổ đó thật dễ thương."
+    },
+    {
+        "Example": "I agree! He is cute!",
+        "IpaEx": "aɪ əˈgriː! hiː ɪz kjuːt!",
+        "MeanEx": "Tôi đồng ý! Anh ấy thật dễ thương!"
+    },
+    {
+        "Example": "I especially like his blue eyes.",
+        "IpaEx": "aɪ ɪsˈpɛʃəli laɪk hɪz bluː aɪz.",
+        "MeanEx": "Tôi đặc biệt thích đôi mắt xanh của anh ấy."
+    },
+    {
+        "Example": "Can we record the minutes of this meeting, please?",
+        "IpaEx": "kæn wiː ˈrɛkɔːd ðə ˈmɪnɪts ɒv ðɪs ˈmiːtɪŋ, pliːz?",
+        "MeanEx": "Chúng tôi có thể ghi lại biên bản cuộc họp này được không?"
+    },
+    {
+        "Example": "Did you pick a color theme already?",
+        "IpaEx": "dɪd juː pɪk ə ˈkʌlə θiːm ɔːlˈrɛdi?",
+        "MeanEx": "Bạn đã chọn một chủ đề màu sắc chưa?"
+    },
+    {
+        "Example": "Is that what you’re going to wear for the party?",
+        "IpaEx": "ɪz ðæt wɒt jʊə ˈgəʊɪŋ tuː weə fɔː ðə ˈpɑːti?",
+        "MeanEx": "Đó có phải là những gì bạn sẽ mặc cho bữa tiệc không?"
+    },
+    {
+        "Example": "You can use a special paper for your invitations.",
+        "IpaEx": "juː kæn juːz ə ˈspɛʃəl ˈpeɪpə fɔː jɔːr ˌɪnvɪˈteɪʃənz.",
+        "MeanEx": "Bạn có thể sử dụng một loại giấy đặc biệt cho lời mời của mình."
+    },
+    {
+        "Example": "Some special papers are even scented!",
+        "IpaEx": "sʌm ˈspɛʃəl ˈpeɪpəz ɑːr ˈiːvən ˈsɛntɪd!",
+        "MeanEx": "Một số loại giấy đặc biệt thậm chí còn có mùi thơm!"
+    },
+    {
+        "Example": "Please leave some space to write down your phone number.",
+        "IpaEx": "pliːz liːv sʌm speɪs tuː raɪt daʊn jɔː fəʊn ˈnʌmbə.",
+        "MeanEx": "Vui lòng để lại một số khoảng trống để viết số điện thoại của bạn."
+    },
+    {
+        "Example": "The ground is shaking.",
+        "IpaEx": "ðə graʊnd ɪz ˈʃeɪkɪŋ.",
+        "MeanEx": "Mặt đất đang rung chuyển."
+    },
+    {
+        "Example": "A new island was formed after that big earthquake.",
+        "IpaEx": "ə njuː ˈaɪlənd wɒz fɔːmd ˈɑːftə ðæt bɪg ˈɜːθkweɪk.",
+        "MeanEx": "Một hòn đảo mới được hình thành sau trận động đất lớn đó."
+    },
+    {
+        "Example": "I need your support for this project.",
+        "IpaEx": "aɪ niːd jɔː səˈpɔːt fɔː ðɪs ˈprɒʤɛkt.",
+        "MeanEx": "Tôi cần sự hỗ trợ của bạn cho dự án này."
+    },
+    {
+        "Example": "We’re holding a big event tonight.",
+        "IpaEx": "wɪə ˈhəʊldɪŋ ə bɪg ɪˈvɛnt təˈnaɪt.",
+        "MeanEx": "Chúng tôi sẽ tổ chức một sự kiện lớn vào tối nay."
+    },
+    {
+        "Example": "Our official wedding photos are out!",
+        "IpaEx": "ˈaʊər əˈfɪʃəl ˈwɛdɪŋ ˈfəʊtəʊz ɑːr aʊt!",
+        "MeanEx": "Hình ảnh đám cưới chính thức của chúng tôi đã ra mắt!"
+    },
+    {
+        "Example": "Whose umbrella is this?",
+        "IpaEx": "huːz ʌmˈbrɛlə ɪz ðɪs?",
+        "MeanEx": "Cái ô này của ai vậy?"
+    },
+    {
+        "Example": "What does it matter anyway?",
+        "IpaEx": "wɒt dʌz ɪt ˈmætər ˈɛnɪweɪ?",
+        "MeanEx": "Nó có vấn đề gì không?"
+    },
+    {
+        "Example": "Everyone thinks I stole that file.",
+        "IpaEx": "ˈɛvrɪwʌn θɪŋks aɪ stəʊl ðæt faɪl.",
+        "MeanEx": "Mọi người đều nghĩ rằng tôi đã đánh cắp tập tin đó."
+    },
+    {
+        "Example": "I hate being the center of attention.",
+        "IpaEx": "aɪ heɪt ˈbiːɪŋ ðə ˈsɛntər ɒv əˈtɛnʃ(ə)n.",
+        "MeanEx": "Tôi ghét trở thành trung tâm của sự chú ý."
+    },
+    {
+        "Example": "The couple is on their honeymoon now.",
+        "IpaEx": "ðə ˈkʌpl ɪz ɒn ðeə ˈhʌnɪmuːn naʊ.",
+        "MeanEx": "Hiện cặp đôi đang đi hưởng tuần trăng mật."
+    },
+    {
+        "Example": "This site is so big!",
+        "IpaEx": "ðɪs saɪt ɪz səʊ bɪg!",
+        "MeanEx": "Trang web này rất lớn!"
+    },
+    {
+        "Example": "It’s the end of an era.",
+        "IpaEx": "ɪts ði ɛnd ɒv ən ˈɪərə.",
+        "MeanEx": "Đó là sự kết thúc của một kỷ nguyên."
+    },
+    {
+        "Example": "This project file is due tomorrow.",
+        "IpaEx": "ðɪs ˈprɒʤɛkt faɪl ɪz djuː təˈmɒrəʊ.",
+        "MeanEx": "Hồ sơ dự án này sẽ đến hạn vào ngày mai."
+    },
+    {
+        "Example": "He hit the burglar with a bat.",
+        "IpaEx": "hiː hɪt ðə ˈbɜːglə wɪð ə bæt.",
+        "MeanEx": "Anh ta dùng gậy đánh tên trộm."
+    },
+    {
+        "Example": "All moms are their child’s home base.",
+        "IpaEx": "ɔːl mɒmz ɑː ðeə ʧaɪldz həʊm beɪs.",
+        "MeanEx": "Tất cả các bà mẹ đều là cơ sở ở nhà của con họ."
+    },
+    {
+        "Example": "What musical activity can you suggest for my toddler?",
+        "IpaEx": "wɒt ˈmjuːzɪkəl ækˈtɪvɪti kæn juː səˈʤɛst fɔː maɪ ˈtɒdlə?",
+        "MeanEx": "Bạn có thể gợi ý hoạt động âm nhạc nào cho con tôi?"
+    },
+    {
+        "Example": "My son can draw a star!",
+        "IpaEx": "maɪ sʌn kæn drɔː ə stɑː!",
+        "MeanEx": "Con trai tôi có thể vẽ một ngôi sao!"
+    },
+    {
+        "Example": "I saw him draw it while he was writing on the table.",
+        "IpaEx": "aɪ sɔː hɪm drɔː ɪt waɪl hiː wɒz ˈraɪtɪŋ ɒn ðə ˈteɪbl.",
+        "MeanEx": "Tôi thấy anh ấy vẽ nó khi anh ấy đang viết trên bàn."
+    },
+    {
+        "Example": "I need to enroll him to a good preschool.",
+        "IpaEx": "aɪ niːd tuː ɪnˈrəʊl hɪm tuː ə gʊd ˌpriːˈskuːl.",
+        "MeanEx": "Tôi cần ghi danh cho cháu vào một trường mầm non tốt."
+    },
+    {
+        "Example": "There’s a basketball court near our house.",
+        "IpaEx": "ðeəz ə ˈbɑːskɪtˌbɔːl kɔːt nɪər ˈaʊə haʊs.",
+        "MeanEx": "Có một sân bóng rổ gần nhà của chúng tôi."
+    },
+    {
+        "Example": "Fresh farm produce is the best.",
+        "IpaEx": "frɛʃ fɑːm ˈprɒdjuːs ɪz ðə bɛst.",
+        "MeanEx": "Nông sản tươi là tốt nhất."
+    },
+    {
+        "Example": "I could eat that all day.",
+        "IpaEx": "aɪ kʊd iːt ðæt ɔːl deɪ.",
+        "MeanEx": "Tôi có thể ăn cái đó cả ngày."
+    },
+    {
+        "Example": "My sister is dating an American.",
+        "IpaEx": "maɪ ˈsɪstər ɪz ˈdeɪtɪŋ ən əˈmɛrɪkən.",
+        "MeanEx": "Em gái tôi đang hẹn hò với một người Mỹ."
+    },
+    {
+        "Example": "I love to teach English lessons.",
+        "IpaEx": "aɪ lʌv tuː tiːʧ ˈɪŋglɪʃ ˈlɛsnz.",
+        "MeanEx": "Tôi thích dạy các bài học tiếng Anh."
+    },
+    {
+        "Example": "Could you buy me some cooking oil at the store?",
+        "IpaEx": "kʊd juː baɪ miː sʌm ˈkʊkɪŋ ɔɪl æt ðə stɔː?",
+        "MeanEx": "Bạn có thể mua cho tôi một ít dầu ăn ở cửa hàng được không?"
+    },
+    {
+        "Example": "Just half a liter, please.",
+        "IpaEx": "ʤʌst hɑːf ə ˈliːtə, pliːz.",
+        "MeanEx": "Vui lòng chỉ nửa lít."
+    },
+    {
+        "Example": "The situation is getting out of hand.",
+        "IpaEx": "ðə ˌsɪtjʊˈeɪʃən ɪz ˈgɛtɪŋ aʊt ɒv hænd.",
+        "MeanEx": "Tình hình đang vượt quá tầm kiểm soát."
+    },
+    {
+        "Example": "I thought you said this was going to be easy?",
+        "IpaEx": "aɪ θɔːt juː sɛd ðɪs wɒz ˈgəʊɪŋ tuː biː ˈiːzi?",
+        "MeanEx": "Tôi nghĩ bạn nói điều này sẽ dễ dàng?"
+    },
+    {
+        "Example": "The cost of fuel has increased!",
+        "IpaEx": "ðə kɒst ɒv fjʊəl hæz ɪnˈkriːst!",
+        "MeanEx": "Chi phí nhiên liệu đã tăng lên!"
+    },
+    {
+        "Example": "The fuel industry is hiking prices.",
+        "IpaEx": "ðə fjʊəl ˈɪndəstri ɪz ˈhaɪkɪŋ ˈpraɪsɪz.",
+        "MeanEx": "Ngành công nghiệp nhiên liệu đang tăng giá."
+    },
+    {
+        "Example": "Will our government figure out how to fix this problem?",
+        "IpaEx": "wɪl ˈaʊə ˈgʌvnmənt ˈfɪgər aʊt haʊ tuː fɪks ðɪs ˈprɒbləm?",
+        "MeanEx": "Liệu chính phủ của chúng ta có tìm ra cách khắc phục vấn đề này không?"
+    },
+    {
+        "Example": "I can’t bear to face this horrendous traffic again and again.",
+        "IpaEx": "aɪ kɑːnt beə tuː feɪs ðɪs hɒˈrɛndəs ˈtræfɪk əˈgɛn ænd əˈgɛn.",
+        "MeanEx": "Tôi không thể chịu nổi khi phải đối mặt với giao thông khủng khiếp này lặp đi lặp lại."
+    },
+    {
+        "Example": "Let’s cross the street.",
+        "IpaEx": "lɛts krɒs ðə striːt.",
+        "MeanEx": "Hãy băng qua đường."
+    },
+    {
+        "Example": "There’s an image of him stored inside my mind.",
+        "IpaEx": "ðeəz ən ˈɪmɪʤ ɒv hɪm stɔːd ɪnˈsaɪd maɪ maɪnd.",
+        "MeanEx": "Có một hình ảnh về anh ấy được lưu giữ trong tâm trí tôi."
+    },
+    {
+        "Example": "The bike itself is pretty awesome.",
+        "IpaEx": "ðə baɪk ɪtˈsɛlf ɪz ˈprɪti ˈɔːsəm.",
+        "MeanEx": "Bản thân chiếc xe đạp là khá tuyệt vời."
+    },
+    {
+        "Example": "Plus, it has a phone holder.",
+        "IpaEx": "plʌs, ɪt hæz ə fəʊn ˈhəʊldə.",
+        "MeanEx": "Thêm vào đó, nó có một giá đỡ điện thoại."
+    },
+    {
+        "Example": "I either walk or commute to work.",
+        "IpaEx": "aɪ ˈaɪðə wɔːk ɔː kəˈmjuːt tuː wɜːk.",
+        "MeanEx": "Tôi đi bộ hoặc đi làm."
+    },
+    {
+        "Example": "How can we simplify this data?",
+        "IpaEx": "haʊ kæn wiː ˈsɪmplɪfaɪ ðɪs ˈdeɪtə?",
+        "MeanEx": "Làm thế nào chúng ta có thể đơn giản hóa dữ liệu này?"
+    },
+    {
+        "Example": "Could you cover for me during emergencies?",
+        "IpaEx": "kʊd juː ˈkʌvə fɔː miː ˈdjʊərɪŋ ɪˈmɜːʤənsiz?",
+        "MeanEx": "Bạn có thể che chở cho tôi trong những trường hợp khẩn cấp không?"
+    },
+    {
+        "Example": "I’m quite satisfied with their work.",
+        "IpaEx": "aɪm kwaɪt ˈsætɪsfaɪd wɪð ðeə wɜːk.",
+        "MeanEx": "Tôi khá hài lòng với công việc của họ."
+    },
+    {
+        "Example": "Picture this: a lake, a cabin, and lots of peace and quiet.",
+        "IpaEx": "ˈpɪkʧə ðɪs: ə leɪk, ə ˈkæbɪn, ænd lɒts ɒv piːs ænd ˈkwaɪət.",
+        "MeanEx": "Hãy hình dung thế này: một cái hồ, một căn nhà gỗ, và rất nhiều sự yên bình và tĩnh lặng."
+    },
+    {
+        "Example": "That picture is so clear inside my head.",
+        "IpaEx": "ðæt ˈpɪkʧər ɪz səʊ klɪər ɪnˈsaɪd maɪ hɛd.",
+        "MeanEx": "Hình ảnh đó rất rõ ràng trong đầu tôi."
+    },
+    {
+        "Example": "Let’s practice our dance number.",
+        "IpaEx": "lɛts ˈpræktɪs ˈaʊə dɑːns ˈnʌmbə.",
+        "MeanEx": "Hãy thực hành số nhảy của chúng ta."
+    },
+    {
+        "Example": "That’s a piece of cake!",
+        "IpaEx": "ðæts ə piːs ɒv keɪk!",
+        "MeanEx": "Đó là một miếng bánh!"
+    },
+    {
+        "Example": "Their plane is going to land soon.",
+        "IpaEx": "ðeə pleɪn ɪz ˈgəʊɪŋ tuː lænd suːn.",
+        "MeanEx": "Máy bay của họ sẽ sớm hạ cánh."
+    },
+    {
+        "Example": "This is her most recent social media post.",
+        "IpaEx": "ðɪs ɪz hɜː məʊst ˈriːsnt ˈsəʊʃəl ˈmiːdiə pəʊst.",
+        "MeanEx": "Đây là bài đăng trên mạng xã hội gần đây nhất của cô ấy."
+    },
+    {
+        "Example": "Describe yourself in one word.",
+        "IpaEx": "dɪsˈkraɪb jɔːˈsɛlf ɪn wʌn wɜːd.",
+        "MeanEx": "Mô tả bản thân bằng một từ."
+    },
+    {
+        "Example": "This is my favorite product in their new line of cosmetics.",
+        "IpaEx": "ðɪs ɪz maɪ ˈfeɪvərɪt ˈprɒdʌkt ɪn ðeə njuː laɪn ɒv kɒzˈmɛtɪks.",
+        "MeanEx": "Đây là sản phẩm yêu thích của tôi trong dòng mỹ phẩm mới của họ."
+    },
+    {
+        "Example": "The doctor is in.",
+        "IpaEx": "ðə ˈdɒktər ɪz ɪn.",
+        "MeanEx": "Các bác sĩ đang ở trong."
+    },
+    {
+        "Example": "Can you post this up on the wall?",
+        "IpaEx": "kæn juː pəʊst ðɪs ʌp ɒn ðə wɔːl?",
+        "MeanEx": "Bạn có thể đăng cái này lên tường được không?"
+    },
+    {
+        "Example": "The patient is in so much pain now.",
+        "IpaEx": "ðə ˈpeɪʃənt ɪz ɪn səʊ mʌʧ peɪn naʊ.",
+        "MeanEx": "Hiện bệnh nhân rất đau."
+    },
+    {
+        "Example": "She’s a factory worker.",
+        "IpaEx": "ʃiːz ə ˈfæktəri ˈwɜːkə.",
+        "MeanEx": "Cô ấy là một công nhân nhà máy."
+    },
+    {
+        "Example": "I saw that on the news.",
+        "IpaEx": "aɪ sɔː ðæt ɒn ðə njuːz.",
+        "MeanEx": "Tôi đã thấy điều đó trên tin tức."
+    },
+    {
+        "Example": "I have to pass this English test.",
+        "IpaEx": "aɪ hæv tuː pɑːs ðɪs ˈɪŋglɪʃ tɛst.",
+        "MeanEx": "Tôi phải vượt qua bài kiểm tra tiếng Anh này."
+    },
+    {
+        "Example": "Let’s watch a movie later.",
+        "IpaEx": "lɛts wɒʧ ə ˈmuːvi ˈleɪtə.",
+        "MeanEx": "Hãy xem phim sau."
+    },
+    {
+        "Example": "There’s a certain kind of magic in the air now.",
+        "IpaEx": "ðeəz ə ˈsɜːtn kaɪnd ɒv ˈmæʤɪk ɪn ði eə naʊ.",
+        "MeanEx": "Hiện giờ có một loại ma thuật nào đó đang bay trong không khí."
+    },
+    {
+        "Example": "Santa lives up north.",
+        "IpaEx": "ˈsæntə lɪvz ʌp nɔːθ.",
+        "MeanEx": "Ông già Noel sống ở phía bắc."
+    },
+    {
+        "Example": "I love Christmas!",
+        "IpaEx": "aɪ lʌv ˈkrɪsməs!",
+        "MeanEx": "Tôi yêu Giáng sinh!"
+    },
+    {
+        "Example": "This letter is very personal.",
+        "IpaEx": "ðɪs ˈlɛtər ɪz ˈvɛri ˈpɜːsnl.",
+        "MeanEx": "Bức thư này rất cá nhân."
+    },
+    {
+        "Example": "Why did you open and read it?",
+        "IpaEx": "waɪ dɪd juː ˈəʊpən ænd riːd ɪt?",
+        "MeanEx": "Tại sao bạn mở và đọc nó?"
+    },
+    {
+        "Example": "Will you support him?",
+        "IpaEx": "wɪl juː səˈpɔːt hɪm?",
+        "MeanEx": "Bạn sẽ ủng hộ anh ấy chứ?"
+    },
+    {
+        "Example": "I simply won’t tolerate bad behavior.",
+        "IpaEx": "aɪ ˈsɪmpli wəʊnt ˈtɒləreɪt bæd bɪˈheɪvjə.",
+        "MeanEx": "Tôi chỉ đơn giản là sẽ không dung thứ cho hành vi xấu."
+    },
+    {
+        "Example": "This is the third time you’ve lied to me.",
+        "IpaEx": "ðɪs ɪz ðə θɜːd taɪm juːv laɪd tuː miː.",
+        "MeanEx": "Đây là lần thứ ba bạn nói dối tôi."
+    },
+    {
+        "Example": "Write about the advantages of technology.",
+        "IpaEx": "raɪt əˈbaʊt ði ədˈvɑːntɪʤɪz ɒv tɛkˈnɒləʤi.",
+        "MeanEx": "Viết về những lợi thế của công nghệ."
+    },
+    {
+        "Example": "Let’s catch up soon, please!",
+        "IpaEx": "lɛts kæʧ ʌp suːn, pliːz!",
+        "MeanEx": "Hãy bắt kịp sớm, vui lòng!"
+    },
+    {
+        "Example": "Watch your step.",
+        "IpaEx": "wɒʧ jɔː stɛp.",
+        "MeanEx": "Theo dõi bước đi của bạn."
+    },
+    {
+        "Example": "Her baby is so adorable.",
+        "IpaEx": "hɜː ˈbeɪbi ɪz səʊ əˈdɔːrəbl.",
+        "MeanEx": "Em bé của cô ấy thật đáng yêu."
+    },
+    {
+        "Example": "Can you turn on the computer, please?",
+        "IpaEx": "kæn juː tɜːn ɒn ðə kəmˈpjuːtə, pliːz?",
+        "MeanEx": "Bạn có thể bật máy tính lên được không?"
+    },
+    {
+        "Example": "You need to type in your password.",
+        "IpaEx": "juː niːd tuː taɪp ɪn jɔː ˈpɑːswɜːd.",
+        "MeanEx": "Bạn cần nhập mật khẩu của mình."
+    },
+    {
+        "Example": "Can I have your attention, please?",
+        "IpaEx": "kæn aɪ hæv jɔːr əˈtɛnʃ(ə)n, pliːz?",
+        "MeanEx": "Tôi có thể để ý bạn được không?"
+    },
+    {
+        "Example": "Can you draw this for me?",
+        "IpaEx": "kæn juː drɔː ðɪs fɔː miː?",
+        "MeanEx": "Bạn có thể vẽ cái này cho tôi được không?"
+    },
+    {
+        "Example": "That film is absolutely mind-blowing.",
+        "IpaEx": "ðæt fɪlm ɪz ˈæbsəluːtli maɪnd-ˈbləʊɪŋ.",
+        "MeanEx": "Đó là bộ phim hoàn toàn tuyệt vời."
+    },
+    {
+        "Example": "He is a Republican candidate.",
+        "IpaEx": "hiː ɪz ə rɪˈpʌblɪkən ˈkændɪˌdeɪt.",
+        "MeanEx": "Anh ấy là một ứng cử viên của Đảng Cộng hòa."
+    },
+    {
+        "Example": "That tree has been there for generations.",
+        "IpaEx": "ðæt triː hæz biːn ðeə fɔː ˌʤɛnəˈreɪʃənz.",
+        "MeanEx": "Cây đó đã có từ bao đời nay."
+    },
+    {
+        "Example": "You are my source of strength.",
+        "IpaEx": "juː ɑː maɪ sɔːs ɒv strɛŋθ.",
+        "MeanEx": "Bạn là nguồn sức mạnh của tôi."
+    },
+    {
+        "Example": "I’ll wear a red dress tonight.",
+        "IpaEx": "aɪl weər ə rɛd drɛs təˈnaɪt.",
+        "MeanEx": "Tôi sẽ mặc một chiếc váy đỏ tối nay."
+    },
+    {
+        "Example": "He nearly died in that accident!",
+        "IpaEx": "hiː ˈnɪəli daɪd ɪn ðæt ˈæksɪdənt!",
+        "MeanEx": "Anh ấy suýt chết trong vụ tai nạn đó!"
+    },
+    {
+        "Example": "Their organization is doing great things for street kids.",
+        "IpaEx": "ðeər ˌɔːgənaɪˈzeɪʃən ɪz ˈdu(ː)ɪŋ greɪt θɪŋz fɔː striːt kɪdz.",
+        "MeanEx": "Tổ chức của họ đang làm những điều tuyệt vời cho trẻ em đường phố."
+    },
+    {
+        "Example": "Let me choose a color.",
+        "IpaEx": "lɛt miː ʧuːz ə ˈkʌlə.",
+        "MeanEx": "Hãy để tôi chọn một màu."
+    },
+    {
+        "Example": "We have to see the cause and effect of this experiment.",
+        "IpaEx": "wiː hæv tuː siː ðə kɔːz ænd ɪˈfɛkt ɒv ðɪs ɪksˈpɛrɪmənt.",
+        "MeanEx": "Chúng ta phải xem nguyên nhân và kết quả của cuộc thử nghiệm này."
+    },
+    {
+        "Example": "I’ll cut my hair short for a change.",
+        "IpaEx": "aɪl kʌt maɪ heə ʃɔːt fɔːr ə ʧeɪnʤ.",
+        "MeanEx": "Tôi sẽ cắt tóc ngắn để thay đổi."
+    },
+    {
+        "Example": "Can you look at the items I bought?",
+        "IpaEx": "kæn juː lʊk æt ði ˈaɪtəmz aɪ bɔːt?",
+        "MeanEx": "Bạn có thể nhìn vào những món đồ tôi đã mua không?"
+    },
+    {
+        "Example": "What is the point of all this?",
+        "IpaEx": "wɒt ɪz ðə pɔɪnt ɒv ɔːl ðɪs?",
+        "MeanEx": "tất cả những thứ này có nghĩa gì?"
+    },
+    {
+        "Example": "We’re living in the 21st century, mary.",
+        "IpaEx": "wɪə ˈlɪvɪŋ ɪn ðiː 21st ˈsɛnʧʊri, ˈmeəri.",
+        "MeanEx": "Chúng ta đang sống trong thế kỷ 21, thưa bà."
+    },
+    {
+        "Example": "The evidence clearly shows that he is guilty.",
+        "IpaEx": "ði ˈɛvɪdəns ˈklɪəli ʃəʊz ðæt hiː ɪz ˈgɪlti.",
+        "MeanEx": "Bằng chứng rõ ràng cho thấy anh ta có tội."
+    },
+    {
+        "Example": "I’ll buy window curtains next week.",
+        "IpaEx": "aɪl baɪ ˈwɪndəʊ ˈkɜːtnz nɛkst wiːk.",
+        "MeanEx": "Tôi sẽ mua rèm cửa sổ vào tuần tới."
+    },
+    {
+        "Example": "Sometimes, life can be difficult.",
+        "IpaEx": "ˈsʌmtaɪmz, laɪf kæn biː ˈdɪfɪkəlt.",
+        "MeanEx": "Đôi khi, cuộc sống có thể khó khăn."
+    },
+    {
+        "Example": "You have to listen to your teacher.",
+        "IpaEx": "juː hæv tuː ˈlɪsn tuː jɔː ˈtiːʧə.",
+        "MeanEx": "Bạn phải nghe giáo viên của bạn."
+    },
+    {
+        "Example": "I will launch my course soon.",
+        "IpaEx": "aɪ wɪl lɔːnʧ maɪ kɔːs suːn.",
+        "MeanEx": "Tôi sẽ bắt đầu khóa học của tôi sớm."
+    },
+    {
+        "Example": "I hope they understand our culture better.",
+        "IpaEx": "aɪ həʊp ðeɪ ˌʌndəˈstænd ˈaʊə ˈkʌlʧə ˈbɛtə.",
+        "MeanEx": "Tôi hy vọng họ hiểu văn hóa của chúng tôi hơn."
+    },
+    {
+        "Example": "My target is to have 1 billion dollars in my account by the end of the year.",
+        "IpaEx": "maɪ ˈtɑːgɪt ɪz tuː hæv 1 ˈbɪljən ˈdɒləz ɪn maɪ əˈkaʊnt baɪ ði ɛnd ɒv ðə jɪə.",
+        "MeanEx": "Mục tiêu của tôi là có 1 tỷ đô la trong tài khoản của mình vào cuối năm."
+    },
+    {
+        "Example": "Is there any chance that you can do this for me?",
+        "IpaEx": "ɪz ðeər ˈɛni ʧɑːns ðæt juː kæn duː ðɪs fɔː miː?",
+        "MeanEx": "Có bất kỳ cơ hội nào mà bạn có thể làm điều này cho tôi?"
+    },
+    {
+        "Example": "My brother always has my back.",
+        "IpaEx": "maɪ ˈbrʌðər ˈɔːlweɪz hæz maɪ bæk.",
+        "MeanEx": "Anh trai tôi luôn luôn có tôi sau lưng."
+    },
+    {
+        "Example": "now put that energy into walking.",
+        "IpaEx": "naʊ pʊt ðæt ˈɛnəʤi ˈɪntuː ˈwɔːkɪŋ.",
+        "MeanEx": "bây giờ hãy đặt năng lượng đó vào việc đi bộ."
+    },
+    {
+        "Example": "They covered a period of twenty years.",
+        "IpaEx": "ðeɪ ˈkʌvəd ə ˈpɪərɪəd ɒv ˈtwɛnti jɪəz.",
+        "MeanEx": "Chúng được bảo hiểm trong khoảng thời gian hai mươi năm."
+    },
+    {
+        "Example": "Have seen my course already?",
+        "IpaEx": "hæv siːn maɪ kɔːs ɔːlˈrɛdi?",
+        "MeanEx": "Đã xem khóa học của tôi rồi chứ?"
+    },
+    {
+        "Example": "I’ll go to the beach in summer.",
+        "IpaEx": "aɪl gəʊ tuː ðə biːʧ ɪn ˈsʌmə.",
+        "MeanEx": "Tôi sẽ đi biển vào mùa hè."
+    },
+    {
+        "Example": "Sometimes, less is more.",
+        "IpaEx": "ˈsʌmtaɪmz, lɛs ɪz mɔː.",
+        "MeanEx": "Đôi khi ít lại hơn."
+    },
+    {
+        "Example": "I just realize that I have a meeting today.",
+        "IpaEx": "aɪ ʤʌst ˈrɪəlaɪz ðæt aɪ hæv ə ˈmiːtɪŋ təˈdeɪ.",
+        "MeanEx": "Tôi chỉ nhận ra rằng tôi có một cuộc họp hôm nay."
+    },
+    {
+        "Example": "I have a hundred dollars that I can lend you.",
+        "IpaEx": "aɪ hæv ə ˈhʌndrəd ˈdɒləz ðæt aɪ kæn lɛnd juː.",
+        "MeanEx": "Tôi có một trăm đô la mà tôi có thể cho bạn vay."
+    },
+    {
+        "Example": "I am available to work on your project.",
+        "IpaEx": "aɪ æm əˈveɪləbl tuː wɜːk ɒn jɔː ˈprɒʤɛkt.",
+        "MeanEx": "Tôi sẵn sàng làm việc trong dự án của bạn."
+    },
+    {
+        "Example": "Plant a seed.",
+        "IpaEx": "plɑːnt ə siːd.",
+        "MeanEx": "Trồng một hạt giống."
+    },
+    {
+        "Example": "It was likely a deer trail.",
+        "IpaEx": "ɪt wɒz ˈlaɪkli ə dɪə treɪl.",
+        "MeanEx": "Đó có thể là một con đường mòn của hươu."
+    },
+    {
+        "Example": "It was the perfect opportunity to test her theory.",
+        "IpaEx": "ɪt wɒz ðə ˈpɜːfɪkt ˌɒpəˈtjuːnɪti tuː tɛst hɜː ˈθɪəri.",
+        "MeanEx": "Đó là cơ hội hoàn hảo để kiểm tra lý thuyết của cô ấy."
+    },
+    {
+        "Example": "I’m sure there’s a Latin term for it.",
+        "IpaEx": "aɪm ʃʊə ðeəz ə ˈlætɪn tɜːm fɔːr ɪt.",
+        "MeanEx": "Tôi chắc chắn rằng có một thuật ngữ Latinh cho nó."
+    },
+    {
+        "Example": "It was just a short stay at the hotel.",
+        "IpaEx": "ɪt wɒz ʤʌst ə ʃɔːt steɪ æt ðə həʊˈtɛl.",
+        "MeanEx": "Đó chỉ là một kỳ nghỉ ngắn hạn tại khách sạn."
+    },
+    {
+        "Example": "I already passed my letter of intent.",
+        "IpaEx": "aɪ ɔːlˈrɛdi pɑːst maɪ ˈlɛtər ɒv ɪnˈtɛnt.",
+        "MeanEx": "Tôi đã thông qua ý định thư của mình."
+    },
+    {
+        "Example": "Do you know the condition I am in?",
+        "IpaEx": "duː juː nəʊ ðə kənˈdɪʃən aɪ æm ɪn?",
+        "MeanEx": "Bạn có biết tình trạng của tôi không?"
+    },
+    {
+        "Example": "I have no choice.",
+        "IpaEx": "aɪ hæv nəʊ ʧɔɪs.",
+        "MeanEx": "Tôi không có lựa chọn."
+    },
+    {
+        "Example": "Let’s meet out at the meeting place.",
+        "IpaEx": "lɛts miːt aʊt æt ðə ˈmiːtɪŋ pleɪs.",
+        "MeanEx": "Gặp nhau ở điểm hẹn."
+    },
+    {
+        "Example": "I am a single parent.",
+        "IpaEx": "aɪ æm ə ˈsɪŋgl ˈpeərənt.",
+        "MeanEx": "Tôi là một phụ huynh đơn thân."
+    },
+    {
+        "Example": "It’s the rule of the law.",
+        "IpaEx": "ɪts ðə ruːl ɒv ðə lɔː.",
+        "MeanEx": "Đó là quy định của luật."
+    },
+    {
+        "Example": "My daughter knows how to read now.",
+        "IpaEx": "maɪ ˈdɔːtə nəʊz haʊ tuː riːd naʊ.",
+        "MeanEx": "Con gái tôi biết đọc bây giờ."
+    },
+    {
+        "Example": "I will take this up with the administration.",
+        "IpaEx": "aɪ wɪl teɪk ðɪs ʌp wɪð ði ədˌmɪnɪsˈtreɪʃ(ə)n.",
+        "MeanEx": "Tôi sẽ giải quyết vấn đề này với chính quyền."
+    },
+    {
+        "Example": "I am headed south.",
+        "IpaEx": "aɪ æm ˈhɛdɪd saʊθ.",
+        "MeanEx": "Tôi đang đi về hướng nam."
+    },
+    {
+        "Example": "My husband just bought me a ring for my birthday.",
+        "IpaEx": "maɪ ˈhʌzbənd ʤʌst bɔːt miː ə rɪŋ fɔː maɪ ˈbɜːθdeɪ.",
+        "MeanEx": "Chồng tôi vừa mua cho tôi một chiếc nhẫn nhân ngày sinh nhật của tôi."
+    },
+    {
+        "Example": "It will be debated in the congress.",
+        "IpaEx": "ɪt wɪl biː dɪˈbeɪtɪd ɪn ðə ˈkɒŋgrɛs.",
+        "MeanEx": "Nó sẽ được tranh luận trong đại hội."
+    },
+    {
+        "Example": "She is our floor manager.",
+        "IpaEx": "ʃiː ɪz ˈaʊə flɔː ˈmænɪʤə.",
+        "MeanEx": "Cô ấy là quản lý tầng của chúng tôi."
+    },
+    {
+        "Example": "I handled their election campaign.",
+        "IpaEx": "aɪ ˈhændld ðeər ɪˈlɛkʃən kæmˈpeɪn.",
+        "MeanEx": "Tôi đã xử lý chiến dịch tranh cử của họ."
+    },
+    {
+        "Example": "She had nothing material to report.",
+        "IpaEx": "ʃiː hæd ˈnʌθɪŋ məˈtɪərɪəl tuː rɪˈpɔːt.",
+        "MeanEx": "Cô không có tài liệu gì để báo cáo."
+    },
+    {
+        "Example": "The population of the nearest big city was growing.",
+        "IpaEx": "ðə ˌpɒpjʊˈleɪʃən ɒv ðə ˈnɪərɪst bɪg ˈsɪti wɒz ˈgrəʊɪŋ.",
+        "MeanEx": "Dân số của thành phố lớn gần nhất đang tăng lên."
+    },
+    {
+        "Example": "I wish you well.",
+        "IpaEx": "aɪ wɪʃ juː wɛl.",
+        "MeanEx": "Tôi cầu chúc bạn khỏe mạnh."
+    },
+    {
+        "Example": "I am going to call the bank.",
+        "IpaEx": "aɪ æm ˈgəʊɪŋ tuː kɔːl ðə bæŋk.",
+        "MeanEx": "Tôi sẽ gọi cho ngân hàng."
+    },
+    {
+        "Example": "The economy is booming.",
+        "IpaEx": "ði i(ː)ˈkɒnəmi ɪz ˈbuːmɪŋ.",
+        "MeanEx": "Nền kinh tế đang phát triển vượt bậc."
+    },
+    {
+        "Example": "She needs medical assistance.",
+        "IpaEx": "ʃiː niːdz ˈmɛdɪkəl əˈsɪstəns.",
+        "MeanEx": "Cô ấy cần hỗ trợ y tế."
+    },
+    {
+        "Example": "I’ll take her to the nearest hospital.",
+        "IpaEx": "aɪl teɪk hɜː tuː ðə ˈnɪərɪst ˈhɒspɪtl.",
+        "MeanEx": "Tôi sẽ đưa cô ấy đến bệnh viện gần nhất."
+    },
+    {
+        "Example": "I saw you in church last Sunday.",
+        "IpaEx": "aɪ sɔː juː ɪn ʧɜːʧ lɑːst ˈsʌndeɪ.",
+        "MeanEx": "Tôi đã nhìn thấy bạn trong nhà thờ vào Chủ nhật tuần trước."
+    },
+    {
+        "Example": "Please close the door.",
+        "IpaEx": "pliːz kləʊs ðə dɔː.",
+        "MeanEx": "Hãy đóng cửa lại."
+    },
+    {
+        "Example": "There are a thousand reasons to learn English!",
+        "IpaEx": "ðeər ɑːr ə ˈθaʊzənd ˈriːznz tuː lɜːn ˈɪŋglɪʃ!",
+        "MeanEx": "Có hàng ngàn lý do để học tiếng Anh!"
+    },
+    {
+        "Example": "Taking a risk can be rewarding.",
+        "IpaEx": "ˈteɪkɪŋ ə rɪsk kæn biː rɪˈwɔːdɪŋ.",
+        "MeanEx": "Chấp nhận rủi ro có thể được thưởng."
+    },
+    {
+        "Example": "What is your current address?",
+        "IpaEx": "wɒt ɪz jɔː ˈkʌrənt əˈdrɛs?",
+        "MeanEx": "Địa chỉ hiện tại của bạn là gì?"
+    },
+    {
+        "Example": "Make sure your smoke alarm works in case of fire.",
+        "IpaEx": "meɪk ʃʊə jɔː sməʊk əˈlɑːm wɜːks ɪn keɪs ɒv ˈfaɪə.",
+        "MeanEx": "Đảm bảo rằng thiết bị báo động khói của bạn hoạt động trong trường hợp hỏa hoạn."
+    },
+    {
+        "Example": "The future is full of hope.",
+        "IpaEx": "ðə ˈfjuːʧər ɪz fʊl ɒv həʊp.",
+        "MeanEx": "Tương lai đầy hy vọng."
+    },
+    {
+        "Example": "That is the wrong answer.",
+        "IpaEx": "ðæt ɪz ðə rɒŋ ˈɑːnsə.",
+        "MeanEx": "Đó là câu trả lời sai."
+    },
+    {
+        "Example": "We need to involve the police.",
+        "IpaEx": "wiː niːd tuː ɪnˈvɒlv ðə pəˈliːs.",
+        "MeanEx": "Chúng ta cần có sự tham gia của cảnh sát."
+    },
+    {
+        "Example": "What is your defense or reason you did this?",
+        "IpaEx": "wɒt ɪz jɔː dɪˈfɛns ɔː ˈriːzn juː dɪd ðɪs?",
+        "MeanEx": "Biện hộ của bạn là gì hoặc lý do bạn làm điều này là gì?"
+    },
+    {
+        "Example": "Does anyone know the answer?",
+        "IpaEx": "dʌz ˈɛnɪwʌn nəʊ ði ˈɑːnsə?",
+        "MeanEx": "Có ai biết câu trả lời không?"
+    },
+    {
+        "Example": "Let’s increase your test score.",
+        "IpaEx": "lɛts ˈɪnkriːs jɔː tɛst skɔː.",
+        "MeanEx": "Hãy tăng điểm bài kiểm tra của bạn."
+    },
+    {
+        "Example": "Some apartment buildings have security.",
+        "IpaEx": "sʌm əˈpɑːtmənt ˈbɪldɪŋz hæv sɪˈkjʊərɪti.",
+        "MeanEx": "Một số khu chung cư có bảo vệ."
+    },
+    {
+        "Example": "I need to go to the bank to withdraw some money.",
+        "IpaEx": "aɪ niːd tuː gəʊ tuː ðə bæŋk tuː wɪðˈdrɔː sʌm ˈmʌni.",
+        "MeanEx": "Tôi cần đến ngân hàng để rút một số tiền."
+    },
+    {
+        "Example": "I can clean up by myself.",
+        "IpaEx": "aɪ kæn kliːn ʌp baɪ maɪˈsɛlf.",
+        "MeanEx": "Tôi có thể tự dọn dẹp."
+    },
+    {
+        "Example": "I can certainly help clean up.",
+        "IpaEx": "aɪ kæn ˈsɜːtnli hɛlp kliːn ʌp.",
+        "MeanEx": "Tôi chắc chắn có thể giúp dọn dẹp."
+    },
+    {
+        "Example": "If you drive west, you will arrive in California.",
+        "IpaEx": "ɪf juː draɪv wɛst, juː wɪl əˈraɪv ɪn ˌkæləˈfɔːniə.",
+        "MeanEx": "Nếu bạn lái xe về phía Tây, bạn sẽ đến California."
+    },
+    {
+        "Example": "My favorite sport is soccer.",
+        "IpaEx": "maɪ ˈfeɪvərɪt spɔːt ɪz ˈsɒkə.",
+        "MeanEx": "Môn thể thao yêu thích của tôi là bóng đá."
+    },
+    {
+        "Example": "Can you see the board?",
+        "IpaEx": "kæn juː siː ðə bɔːd?",
+        "MeanEx": "Bạn có thể nhìn thấy bảng?"
+    },
+    {
+        "Example": "Seek and you will find.",
+        "IpaEx": "siːk ænd juː wɪl faɪnd.",
+        "MeanEx": "Tìm kiếm và bạn sẽ tìm thấy."
+    },
+    {
+        "Example": "Lobster is $20 per pound.",
+        "IpaEx": "ˈlɒbstər ɪz $20 pɜː paʊnd.",
+        "MeanEx": "Tôm hùm là $ 20 một pound."
+    },
+    {
+        "Example": "My favorite subject is English!",
+        "IpaEx": "maɪ ˈfeɪvərɪt ˈsʌbʤɪkt ɪz ˈɪŋglɪʃ!",
+        "MeanEx": "Môn tôi yêu thích là tiếng Anh!"
+    },
+    {
+        "Example": "Where can I find a police officer?",
+        "IpaEx": "weə kæn aɪ faɪnd ə pəˈliːs ˈɒfɪsə?",
+        "MeanEx": "Tôi có thể tìm cảnh sát ở đâu?"
+    },
+    {
+        "Example": "This is a private party.",
+        "IpaEx": "ðɪs ɪz ə ˈpraɪvɪt ˈpɑːti.",
+        "MeanEx": "Đây là một bữa tiệc riêng tư."
+    },
+    {
+        "Example": "Let’s take a 15-minute rest.",
+        "IpaEx": "lɛts teɪk eɪ 15-ˈmɪnɪt rɛst.",
+        "MeanEx": "Hãy nghỉ ngơi trong 15 phút."
+    },
+    {
+        "Example": "This dog’s behavior is excellent.",
+        "IpaEx": "ðɪs dɒgz bɪˈheɪvjər ɪz ˈɛksələnt.",
+        "MeanEx": "Hành vi của con chó này là tuyệt vời."
+    },
+    {
+        "Example": "A used car can be a good deal.",
+        "IpaEx": "ə juːzd kɑː kæn biː ə gʊd diːl.",
+        "MeanEx": "Một chiếc xe đã qua sử dụng có thể là một việc tốt."
+    },
+    {
+        "Example": "Your performance can be affected by your sleep.",
+        "IpaEx": "jɔː pəˈfɔːməns kæn biː əˈfɛktɪd baɪ jɔː sliːp.",
+        "MeanEx": "Hiệu suất của bạn có thể bị ảnh hưởng bởi giấc ngủ của bạn."
+    },
+    {
+        "Example": "I don’t want to fight with you.",
+        "IpaEx": "aɪ dəʊnt wɒnt tuː faɪt wɪð juː.",
+        "MeanEx": "Tôi không muốn chiến đấu với bạn."
+    },
+    {
+        "Example": "Throw me the ball!",
+        "IpaEx": "θrəʊ miː ðə bɔːl!",
+        "MeanEx": "Ném bóng cho tôi!"
+    },
+    {
+        "Example": "You are a top student.",
+        "IpaEx": "juː ɑːr ə tɒp ˈstjuːdənt.",
+        "MeanEx": "Bạn là một sinh viên hàng đầu."
+    },
+    {
+        "Example": "Let’s finish reading this quickly.",
+        "IpaEx": "lɛts ˈfɪnɪʃ ˈriːdɪŋ ðɪs ˈkwɪkli.",
+        "MeanEx": "Hãy nhanh chóng kết thúc việc đọc này."
+    },
+    {
+        "Example": "In the past, my English was not as good as it is today.",
+        "IpaEx": "ɪn ðə pɑːst, maɪ ˈɪŋglɪʃ wɒz nɒt æz gʊd æz ɪt ɪz təˈdeɪ.",
+        "MeanEx": "Trước đây, tiếng Anh của tôi không được như ngày nay."
+    },
+    {
+        "Example": "My goal is to speak English fluently.",
+        "IpaEx": "maɪ gəʊl ɪz tuː spiːk ˈɪŋglɪʃ ˈflu(ː)əntli.",
+        "MeanEx": "Mục tiêu của tôi là nói tiếng Anh trôi chảy."
+    },
+    {
+        "Example": "My second goal is to increase my confidence.",
+        "IpaEx": "maɪ ˈsɛkənd gəʊl ɪz tuː ˈɪnkriːs maɪ ˈkɒnfɪdəns.",
+        "MeanEx": "Mục tiêu thứ hai của tôi là tăng cường sự tự tin của mình."
+    },
+    {
+        "Example": "I go to bed around 10 pm.",
+        "IpaEx": "aɪ gəʊ tuː bɛd əˈraʊnd 10 pm.",
+        "MeanEx": "Tôi đi ngủ khoảng 10 giờ tối."
+    },
+    {
+        "Example": "I would like to order a book.",
+        "IpaEx": "aɪ wʊd laɪk tuː ˈɔːdər ə bʊk.",
+        "MeanEx": "Tôi muốn đặt một cuốn sách."
+    },
+    {
+        "Example": "The author of this series is world-famous.",
+        "IpaEx": "ði ˈɔːθər ɒv ðɪs ˈsɪəriːz ɪz wɜːld-ˈfeɪməs.",
+        "MeanEx": "Tác giả của bộ truyện này nổi tiếng thế giới."
+    },
+    {
+        "Example": "I need to fill (up) my gas tank.",
+        "IpaEx": "aɪ niːd tuː fɪl (ʌp) maɪ gæs tæŋk.",
+        "MeanEx": "Tôi cần đổ (đầy) bình xăng của mình."
+    },
+    {
+        "Example": "I represent my family.",
+        "IpaEx": "aɪ ˌrɛprɪˈzɛnt maɪ ˈfæmɪli.",
+        "MeanEx": "Tôi đại diện cho gia đình tôi."
+    },
+    {
+        "Example": "Turn off your phone and the tv and focus on your studies!",
+        "IpaEx": "tɜːn ɒf jɔː fəʊn ænd ðə ˌtiːˈviː ænd ˈfəʊkəs ɒn jɔː ˈstʌdiz!",
+        "MeanEx": "Tắt điện thoại và TV và tập trung vào việc học của bạn!"
+    },
+    {
+        "Example": "It’s great having foreign friends.",
+        "IpaEx": "ɪts greɪt ˈhævɪŋ ˈfɒrɪn frɛndz.",
+        "MeanEx": "Thật tuyệt khi có những người bạn nước ngoài."
+    },
+    {
+        "Example": "Please don’t drop the eggs!",
+        "IpaEx": "pliːz dəʊnt drɒp ði ɛgz!",
+        "MeanEx": "Xin đừng làm rơi trứng!"
+    },
+    {
+        "Example": "Let’s make a plan.",
+        "IpaEx": "lɛts meɪk ə plæn.",
+        "MeanEx": "Hãy lập kế hoạch."
+    },
+    {
+        "Example": "The hospital needs people to give blood.",
+        "IpaEx": "ðə ˈhɒspɪtl niːdz ˈpiːpl tuː gɪv blʌd.",
+        "MeanEx": "Bệnh viện cần người cho máu."
+    },
+    {
+        "Example": "Once upon a time, a princess lived in a castle.",
+        "IpaEx": "wʌns əˈpɒn ə taɪm, ə prɪnˈsɛs lɪvd ɪn ə ˈkɑːsl.",
+        "MeanEx": "Ngày xưa, một công chúa sống trong một lâu đài."
+    },
+    {
+        "Example": "Let’s contract an agency to help with marketing.",
+        "IpaEx": "lɛts ˈkɒntrækt ən ˈeɪʤənsi tuː hɛlp wɪð ˈmɑːkɪtɪŋ.",
+        "MeanEx": "Hãy ký hợp đồng với một đại lý để giúp tiếp thị."
+    },
+    {
+        "Example": "The door says ‘push,’ not ‘pull.'",
+        "IpaEx": "ðə dɔː sɛz pʊʃ,’ nɒt pʊl.'",
+        "MeanEx": "Cánh cửa nói \"đẩy\", không phải \"kéo\"."
+    },
+    {
+        "Example": "I love walking in nature!",
+        "IpaEx": "aɪ lʌv ˈwɔːkɪŋ ɪn ˈneɪʧə!",
+        "MeanEx": "Tôi thích đi dạo trong thiên nhiên!"
+    },
+    {
+        "Example": "My favorite color is blue.",
+        "IpaEx": "maɪ ˈfeɪvərɪt ˈkʌlər ɪz bluː.",
+        "MeanEx": "Màu sắc yêu thích của tôi là màu xanh."
+    },
+    {
+        "Example": "‘No’ is one of the shortest complete sentences.",
+        "IpaEx": "nəʊ ɪz wʌn ɒv ðə ˈʃɔːtɪst kəmˈpliːt ˈsɛntənsɪz.",
+        "MeanEx": "‘No’ là một trong những câu hoàn chỉnh ngắn nhất."
+    },
+    {
+        "Example": "I cleaned the bathroom most recently, so I think it’s your turn this time.",
+        "IpaEx": "aɪ kliːnd ðə ˈbɑːθru(ː)m məʊst ˈriːsntli, səʊ aɪ θɪŋk ɪts jɔː tɜːn ðɪs taɪm.",
+        "MeanEx": "Tôi đã dọn dẹp phòng tắm gần đây nhất, vì vậy tôi nghĩ lần này đến lượt bạn."
+    },
+    {
+        "Example": "I’m going to the store to buy some bread.",
+        "IpaEx": "aɪm ˈgəʊɪŋ tuː ðə stɔː tuː baɪ sʌm brɛd.",
+        "MeanEx": "Tôi đang đi đến cửa hàng để mua một ít bánh mì."
+    },
+    {
+        "Example": "Reduce, reuse, and recycle are the ways to help the environment.",
+        "IpaEx": "rɪˈdjuːs, riːˈjuːz, ænd ˌriːˈsaɪkl ɑː ðə weɪz tuː hɛlp ði ɪnˈvaɪərənmənt.",
+        "MeanEx": "Giảm thiểu, tái sử dụng và tái chế là những cách để giúp ích cho môi trường."
+    },
+    {
+        "Example": "I like the sound of wind chimes.",
+        "IpaEx": "aɪ laɪk ðə saʊnd ɒv wɪnd ʧaɪmz.",
+        "MeanEx": "Tôi thích âm thanh của chuông gió."
+    },
+    {
+        "Example": "Please take notes during the lesson.",
+        "IpaEx": "pliːz teɪk nəʊts ˈdjʊərɪŋ ðə ˈlɛsn.",
+        "MeanEx": "Hãy ghi chép lại trong buổi học."
+    },
+    {
+        "Example": "I feel fine.",
+        "IpaEx": "aɪ fiːl faɪn.",
+        "MeanEx": "Tôi cảm thấy ổn."
+    },
+    {
+        "Example": "Before the movie, let’s buy popcorn!",
+        "IpaEx": "bɪˈfɔː ðə ˈmuːvi, lɛts baɪ ˈpɒpkɔːn!",
+        "MeanEx": "Trước khi xem phim, hãy mua bắp rang bơ!"
+    },
+    {
+        "Example": "Near, far, wherever you are, I do believe that the heart goes on.",
+        "IpaEx": "nɪə, fɑː, weərˈɛvə juː ɑː, aɪ duː bɪˈliːv ðæt ðə hɑːt gəʊz ɒn.",
+        "MeanEx": "Gần, xa, dù bạn ở đâu, tôi tin rằng trái tim luôn hướng về."
+    },
+    {
+        "Example": "The environmental movement is an international movement.",
+        "IpaEx": "ði ɪnˌvaɪərənˈmɛntl ˈmuːvmənt ɪz ən ˌɪntə(ː)ˈnæʃənl ˈmuːvmənt.",
+        "MeanEx": "Phong trào môi trường là một phong trào quốc tế."
+    },
+    {
+        "Example": "Please turn to page 62.",
+        "IpaEx": "pliːz tɜːn tuː peɪʤ 62.",
+        "MeanEx": "Vui lòng chuyển sang trang 62."
+    },
+    {
+        "Example": "You can enter the building on the left.",
+        "IpaEx": "juː kæn ˈɛntə ðə ˈbɪldɪŋ ɒn ðə lɛft.",
+        "MeanEx": "Bạn có thể vào tòa nhà bên trái."
+    },
+    {
+        "Example": "Let me share my idea.",
+        "IpaEx": "lɛt miː ʃeə maɪ aɪˈdɪə.",
+        "MeanEx": "Hãy để tôi chia sẻ ý tưởng của tôi."
+    },
+    {
+        "Example": "Ice cream has more calories than water.",
+        "IpaEx": "aɪs kriːm hæz mɔː ˈkæləriz ðæn ˈwɔːtə.",
+        "MeanEx": "Kem có nhiều calo hơn nước."
+    },
+    {
+        "Example": "Most people can find something in common with each other.",
+        "IpaEx": "məʊst ˈpiːpl kæn faɪnd ˈsʌmθɪŋ ɪn ˈkɒmən wɪð iːʧ ˈʌðə.",
+        "MeanEx": "Hầu hết mọi người đều có thể tìm thấy điểm chung với nhau."
+    },
+    {
+        "Example": "We had a poor harvest this year because it was so dry.",
+        "IpaEx": "wiː hæd ə pʊə ˈhɑːvɪst ðɪs jɪə bɪˈkɒz ɪt wɒz səʊ draɪ.",
+        "MeanEx": "Chúng tôi đã có một vụ thu hoạch kém năm nay vì nó quá khô hạn."
+    },
+    {
+        "Example": "If this pen doesn’t work, try the other one.",
+        "IpaEx": "ɪf ðɪs pɛn dʌznt wɜːk, traɪ ði ˈʌðə wʌn.",
+        "MeanEx": "Nếu bút này không hoạt động, hãy thử bút khác."
+    },
+    {
+        "Example": "This cleaner is natural, there aren’t any chemicals in it.",
+        "IpaEx": "ðɪs ˈkliːnər ɪz ˈnæʧrəl, ðeər ɑːnt ˈɛni ˈkɛmɪkəlz ɪn ɪt.",
+        "MeanEx": "Chất tẩy rửa này là tự nhiên, không có bất kỳ hóa chất nào trong đó."
+    },
+    {
+        "Example": "We watched the car race on tv.",
+        "IpaEx": "wiː wɒʧt ðə kɑː reɪs ɒn ˌtiːˈviː.",
+        "MeanEx": "Chúng tôi đã xem cuộc đua ô tô trên TV."
+    },
+    {
+        "Example": "Thank you for your concern, but I'm fine.",
+        "IpaEx": "θæŋk juː fɔː jɔː kənˈsɜːn, bʌt aɪm faɪn.",
+        "MeanEx": "Cảm ơn vì sự quan tâm của bạn, nhưng tôi không sao."
+    },
+    {
+        "Example": "What is your favorite tv series?",
+        "IpaEx": "wɒt ɪz jɔː ˈfeɪvərɪt ˌtiːˈviː ˈsɪəriːz?",
+        "MeanEx": "Các chương trình TV mà bạn yêu thích?"
+    },
+    {
+        "Example": "His job earns a significant amount of money.",
+        "IpaEx": "hɪz ʤɒb ɜːnz ə sɪgˈnɪfɪkənt əˈmaʊnt ɒv ˈmʌni.",
+        "MeanEx": "Công việc của anh ấy kiếm được một số tiền đáng kể."
+    },
+    {
+        "Example": "These earrings don’t match, but they are similar.",
+        "IpaEx": "ðiːz ˈɪəˌrɪŋz dəʊnt mæʧ, bʌt ðeɪ ɑː ˈsɪmɪlə.",
+        "MeanEx": "Đôi bông tai này không giống nhau, nhưng chúng tương tự nhau."
+    },
+    {
+        "Example": "Don’t touch the stove, it’s still hot.",
+        "IpaEx": "dəʊnt tʌʧ ðə stəʊv, ɪts stɪl hɒt.",
+        "MeanEx": "Đừng chạm vào bếp, bếp vẫn còn nóng."
+    },
+    {
+        "Example": "Learning a new language is fun.",
+        "IpaEx": "ˈlɜːnɪŋ ə njuː ˈlæŋgwɪʤ ɪz fʌn.",
+        "MeanEx": "Học một ngôn ngữ mới rất thú vị."
+    },
+    {
+        "Example": "Put a flower in each vase.",
+        "IpaEx": "pʊt ə ˈflaʊər ɪn iːʧ vɑːz.",
+        "MeanEx": "Cắm một bông hoa vào mỗi bình."
+    },
+    {
+        "Example": "I usually shop at the corner store.",
+        "IpaEx": "aɪ ˈjuːʒʊəli ʃɒp æt ðə ˈkɔːnə stɔː.",
+        "MeanEx": "Tôi thường mua sắm ở cửa hàng góc."
+    },
+    {
+        "Example": "I didn’t expect his response to come so soon.",
+        "IpaEx": "aɪ dɪdnt ɪksˈpɛkt hɪz rɪsˈpɒns tuː kʌm səʊ suːn.",
+        "MeanEx": "Tôi không mong đợi phản hồi của anh ấy đến sớm như vậy."
+    },
+    {
+        "Example": "My phone is dead, let me charge it.",
+        "IpaEx": "maɪ fəʊn ɪz dɛd, lɛt miː ʧɑːʤ ɪt.",
+        "MeanEx": "Điện thoại của tôi đã chết, để tôi sạc nó."
+    },
+    {
+        "Example": "The sun will rise at 7:00 a.m.",
+        "IpaEx": "ðə sʌn wɪl raɪz æt 7:00 eɪ.ɛm.",
+        "MeanEx": "Mặt trời sẽ mọc lúc 7:00 sáng."
+    },
+    {
+        "Example": "What kind of animal is that?",
+        "IpaEx": "wɒt kaɪnd ɒv ˈænɪməl ɪz ðæt?",
+        "MeanEx": "Đó là loại động vật gì?"
+    },
+    {
+        "Example": "Heredity is a factor in your overall health.",
+        "IpaEx": "hɪˈrɛdɪti ɪz ə ˈfæktər ɪn jɔːr ˈəʊvərɔːl hɛlθ.",
+        "MeanEx": "Di truyền là một yếu tố ảnh hưởng đến sức khỏe tổng thể của bạn."
+    },
+    {
+        "Example": "I’ve lived in this city for over a decade.",
+        "IpaEx": "aɪv lɪvd ɪn ðɪs ˈsɪti fɔːr ˈəʊvər ə ˈdɛkeɪd.",
+        "MeanEx": "Tôi đã sống ở thành phố này hơn một thập kỷ."
+    },
+    {
+        "Example": "Did you read that newspaper article?",
+        "IpaEx": "dɪd juː riːd ðæt ˈnjuːzˌpeɪpər ˈɑːtɪkl?",
+        "MeanEx": "Bạn đã đọc bài báo đó?"
+    },
+    {
+        "Example": "He wants to shoot arrows at the target.",
+        "IpaEx": "hiː wɒnts tuː ʃuːt ˈærəʊz æt ðə ˈtɑːgɪt.",
+        "MeanEx": "Anh ta muốn bắn tên vào mục tiêu."
+    },
+    {
+        "Example": "Drive east for three miles.",
+        "IpaEx": "draɪv iːst fɔː θriː maɪlz.",
+        "MeanEx": "Lái xe về phía đông ba dặm."
+    },
+    {
+        "Example": "I save all my cans for recycling.",
+        "IpaEx": "aɪ seɪv ɔːl maɪ kænz fɔː ˌriːˈsaɪklɪŋ.",
+        "MeanEx": "Tôi tiết kiệm tất cả các lon của tôi để tái chế."
+    },
+    {
+        "Example": "There are seven slices of pie left.",
+        "IpaEx": "ðeər ɑː ˈsɛvn ˈslaɪsɪz ɒv paɪ lɛft.",
+        "MeanEx": "Còn lại bảy lát bánh."
+    },
+    {
+        "Example": "Taylor swift is a recording artist.",
+        "IpaEx": "ˈteɪlə swɪft ɪz ə rɪˈkɔːdɪŋ ˈɑːtɪst.",
+        "MeanEx": "Taylor swift là một nghệ sĩ thu âm."
+    },
+    {
+        "Example": "I wish that mosquito would go away.",
+        "IpaEx": "aɪ wɪʃ ðæt məsˈkiːtəʊ wʊd gəʊ əˈweɪ.",
+        "MeanEx": "Tôi ước rằng con muỗi đó sẽ biến mất."
+    },
+    {
+        "Example": "He painted a colorful street scene.",
+        "IpaEx": "hiː ˈpeɪntɪd ə ˈkʌləf(ə)l striːt siːn.",
+        "MeanEx": "Anh ấy đã vẽ nên một khung cảnh đường phố đầy màu sắc."
+    },
+    {
+        "Example": "That shop has a good stock of postcards.",
+        "IpaEx": "ðæt ʃɒp hæz ə gʊd stɒk ɒv ˈpəʊstkɑːdz.",
+        "MeanEx": "Cửa hàng đó có một kho bưu thiếp tốt."
+    },
+    {
+        "Example": "Retail sale is a good career for some people.",
+        "IpaEx": "ˈriːteɪl seɪl ɪz ə gʊd kəˈrɪə fɔː sʌm ˈpiːpl.",
+        "MeanEx": "Bán lẻ là một nghề nghiệp tốt đối với một số người."
+    },
+    {
+        "Example": "Despite the rain, we will still have the picnic.",
+        "IpaEx": "dɪsˈpaɪt ðə reɪn, wiː wɪl stɪl hæv ðə ˈpɪknɪk.",
+        "MeanEx": "Mặc dù trời mưa, chúng tôi vẫn sẽ có buổi dã ngoại."
+    },
+    {
+        "Example": "There is good shopping in central London.",
+        "IpaEx": "ðeər ɪz gʊd ˈʃɒpɪŋ ɪn ˈsɛntrəl ˈlʌndən.",
+        "MeanEx": "Có khu mua sắm tốt ở trung tâm London."
+    },
+    {
+        "Example": "That recipe takes eight cups of flour.",
+        "IpaEx": "ðæt ˈrɛsɪpi teɪks eɪt kʌps ɒv ˈflaʊə.",
+        "MeanEx": "Công thức đó cần tám cốc bột."
+    },
+    {
+        "Example": "We haven’t had any problems thus far.",
+        "IpaEx": "wiː hævnt hæd ˈɛni ˈprɒbləmz ðʌs fɑː.",
+        "MeanEx": "Cho đến nay, chúng tôi chưa gặp bất kỳ vấn đề nào."
+    },
+    {
+        "Example": "I will propose a treatment plan for your injury.",
+        "IpaEx": "aɪ wɪl prəˈpəʊz ə ˈtriːtmənt plæn fɔː jɔːr ˈɪnʤəri.",
+        "MeanEx": "Tôi sẽ đề xuất một kế hoạch điều trị cho vết thương của bạn."
+    },
+    {
+        "Example": "The town is just beyond those mountains.",
+        "IpaEx": "ðə taʊn ɪz ʤʌst bɪˈjɒnd ðəʊz ˈmaʊntɪnz.",
+        "MeanEx": "Thị trấn nằm ngay bên ngoài những ngọn núi đó."
+    },
+    {
+        "Example": "Kittens make me happy.",
+        "IpaEx": "ˈkɪtnz meɪk miː ˈhæpi.",
+        "MeanEx": "Mèo con làm tôi hạnh phúc."
+    },
+    {
+        "Example": "Use exactly one teaspoon of salt in that recipe.",
+        "IpaEx": "juːz ɪgˈzæktli wʌn ˈtiːˌspuːn ɒv sɒlt ɪn ðæt ˈrɛsɪpi.",
+        "MeanEx": "Sử dụng chính xác một thìa cà phê muối trong công thức đó."
+    },
+    {
+        "Example": "A coat will protect you from the cold weather.",
+        "IpaEx": "ə kəʊt wɪl prəˈtɛkt juː frɒm ðə kəʊld ˈwɛðə.",
+        "MeanEx": "Một chiếc áo khoác sẽ bảo vệ bạn khỏi thời tiết lạnh giá."
+    },
+    {
+        "Example": "The cat slowly approached the bird.",
+        "IpaEx": "ðə kæt ˈsləʊli əˈprəʊʧt ðə bɜːd.",
+        "MeanEx": "Con mèo từ từ đến gần con chim."
+    },
+    {
+        "Example": "Teach your children not to lie.",
+        "IpaEx": "tiːʧ jɔː ˈʧɪldrən nɒt tuː laɪ.",
+        "MeanEx": "Dạy con bạn không nói dối."
+    },
+    {
+        "Example": "What size is that shirt?",
+        "IpaEx": "wɒt saɪz ɪz ðæt ʃɜːt?",
+        "MeanEx": "Cái áo đó cỡ bao nhiêu?"
+    },
+    {
+        "Example": "Do you think a dog is a good pet?",
+        "IpaEx": "duː juː θɪŋk ə dɒg ɪz ə gʊd pɛt?",
+        "MeanEx": "Bạn có nghĩ rằng một con chó là một con vật cưng tốt?"
+    },
+    {
+        "Example": "I have a savings fund for college.",
+        "IpaEx": "aɪ hæv ə ˈseɪvɪŋz fʌnd fɔː ˈkɒlɪʤ.",
+        "MeanEx": "Tôi có một quỹ tiết kiệm cho việc học đại học."
+    },
+    {
+        "Example": "She is so serious, she never laughs.",
+        "IpaEx": "ʃiː ɪz səʊ ˈsɪərɪəs, ʃiː ˈnɛvə lɑːfs.",
+        "MeanEx": "Cô ấy rất nghiêm túc, cô ấy không bao giờ cười."
+    },
+    {
+        "Example": "Strange things occur in that empty house.",
+        "IpaEx": "streɪnʤ θɪŋz əˈkɜːr ɪn ðæt ˈɛmpti haʊs.",
+        "MeanEx": "Những điều kỳ lạ xảy ra trong ngôi nhà trống rỗng đó."
+    },
+    {
+        "Example": "That issue has been discussed in the media.",
+        "IpaEx": "ðæt ˈɪʃuː hæz biːn dɪsˈkʌst ɪn ðə ˈmiːdiə.",
+        "MeanEx": "Vấn đề đó đã được thảo luận trên các phương tiện truyền thông."
+    },
+    {
+        "Example": "Are you ready to leave for work?",
+        "IpaEx": "ɑː juː ˈrɛdi tuː liːv fɔː wɜːk?",
+        "MeanEx": "Bạn đã sẵn sàng đi làm chưa?"
+    },
+    {
+        "Example": "That store needs a bigger sign.",
+        "IpaEx": "ðæt stɔː niːdz ə ˈbɪgə saɪn.",
+        "MeanEx": "Cửa hàng đó cần một bảng hiệu lớn hơn."
+    },
+    {
+        "Example": "I’ll have to give it some thought.",
+        "IpaEx": "aɪl hæv tuː gɪv ɪt sʌm θɔːt.",
+        "MeanEx": "Tôi sẽ phải suy nghĩ về nó."
+    },
+    {
+        "Example": "I made a list of things to do.",
+        "IpaEx": "aɪ meɪd ə lɪst ɒv θɪŋz tuː duː.",
+        "MeanEx": "Tôi đã lập một danh sách những việc cần làm."
+    },
+    {
+        "Example": "You can buy an individual or group membership.",
+        "IpaEx": "juː kæn baɪ ən ˌɪndɪˈvɪdjʊəl ɔː gruːp ˈmɛmbəʃɪp.",
+        "MeanEx": "Bạn có thể mua một thành viên cá nhân hoặc nhóm."
+    },
+    {
+        "Example": "The appliance comes with simple instructions.",
+        "IpaEx": "ði əˈplaɪəns kʌmz wɪð ˈsɪmpl ɪnˈstrʌkʃənz.",
+        "MeanEx": "Thiết bị đi kèm với các hướng dẫn đơn giản."
+    },
+    {
+        "Example": "I paid a little more for quality shoes.",
+        "IpaEx": "aɪ peɪd ə ˈlɪtl mɔː fɔː ˈkwɒlɪti ʃuːz.",
+        "MeanEx": "Tôi đã trả nhiều hơn một chút cho những đôi giày chất lượng."
+    },
+    {
+        "Example": "There is no pressure to finish right now.",
+        "IpaEx": "ðeər ɪz nəʊ ˈprɛʃə tuː ˈfɪnɪʃ raɪt naʊ.",
+        "MeanEx": "Không có áp lực để hoàn thành ngay bây giờ."
+    },
+    {
+        "Example": "Will you accept my credit card?",
+        "IpaEx": "wɪl juː əkˈsɛpt maɪ ˈkrɛdɪt kɑːd?",
+        "MeanEx": "Bạn sẽ chấp nhận thẻ tín dụng của tôi chứ?"
+    },
+    {
+        "Example": "Give me your answer by noon tomorrow.",
+        "IpaEx": "gɪv miː jɔːr ˈɑːnsə baɪ nuːn təˈmɒrəʊ.",
+        "MeanEx": "Hãy cho tôi câu trả lời của bạn vào trưa mai."
+    },
+    {
+        "Example": "That test was very hard.",
+        "IpaEx": "ðæt tɛst wɒz ˈvɛri hɑːd.",
+        "MeanEx": "Bài kiểm tra đó rất khó."
+    },
+    {
+        "Example": "The library has many online resources.",
+        "IpaEx": "ðə ˈlaɪbrəri hæz ˈmɛni ˈɒnˌlaɪn rɪˈsɔːsɪz.",
+        "MeanEx": "Thư viện có nhiều tài nguyên trực tuyến."
+    },
+    {
+        "Example": "I can’t identify that plant.",
+        "IpaEx": "aɪ kɑːnt aɪˈdɛntɪfaɪ ðæt plɑːnt.",
+        "MeanEx": "Tôi không thể xác định được loại cây đó."
+    },
+    {
+        "Example": "The door is on your left as you approach.",
+        "IpaEx": "ðə dɔːr ɪz ɒn jɔː lɛft æz juː əˈprəʊʧ.",
+        "MeanEx": "Cánh cửa ở bên trái khi bạn đến gần."
+    },
+    {
+        "Example": "We’ll have a staff meeting after lunch.",
+        "IpaEx": "wiːl hæv ə stɑːf ˈmiːtɪŋ ˈɑːftə lʌnʧ.",
+        "MeanEx": "Chúng ta sẽ có một cuộc họp nhân viên sau bữa trưa."
+    },
+    {
+        "Example": "Eye color is genetically determined.",
+        "IpaEx": "aɪ ˈkʌlər ɪz ʤɪˈnɛtɪk(ə)li dɪˈtɜːmɪnd.",
+        "MeanEx": "Màu mắt được xác định về mặt di truyền."
+    },
+    {
+        "Example": "I’ll prepare breakfast tomorrow.",
+        "IpaEx": "aɪl prɪˈpeə ˈbrɛkfəst təˈmɒrəʊ.",
+        "MeanEx": "Tôi sẽ chuẩn bị bữa sáng vào ngày mai."
+    },
+    {
+        "Example": "Face masks help prevent disease.",
+        "IpaEx": "feɪs mɑːsks hɛlp prɪˈvɛnt dɪˈziːz.",
+        "MeanEx": "Mặt nạ giúp ngăn ngừa bệnh tật."
+    },
+    {
+        "Example": "Choose whatever flavor you like the best.",
+        "IpaEx": "ʧuːz wɒtˈɛvə ˈfleɪvə juː laɪk ðə bɛst.",
+        "MeanEx": "Chọn bất kỳ hương vị nào bạn thích nhất."
+    },
+    {
+        "Example": "Failure is the back door to success.",
+        "IpaEx": "ˈfeɪljər ɪz ðə bæk dɔː tuː səkˈsɛs.",
+        "MeanEx": "Thất bại là cửa sau của thành công."
+    },
+    {
+        "Example": "It’s not a good idea to argue with your boss.",
+        "IpaEx": "ɪts nɒt ə gʊd aɪˈdɪə tuː ˈɑːgjuː wɪð jɔː bɒs.",
+        "MeanEx": "Tranh luận với sếp của bạn không phải là một ý kiến ​​hay."
+    },
+    {
+        "Example": "Would you like a cup of coffee?",
+        "IpaEx": "wʊd juː laɪk ə kʌp ɒv ˈkɒfi?",
+        "MeanEx": "Bạn muốn có một tách cà phê?"
+    },
+    {
+        "Example": "It’s not particularly hot outside, just warm.",
+        "IpaEx": "ɪts nɒt pəˈtɪkjʊləli hɒt ˌaʊtˈsaɪd, ʤʌst wɔːm.",
+        "MeanEx": "Bên ngoài trời không quá nóng, chỉ ấm."
+    },
+    {
+        "Example": "It takes a large amount of food to feed an elephant.",
+        "IpaEx": "ɪt teɪks ə lɑːʤ əˈmaʊnt ɒv fuːd tuː fiːd ən ˈɛlɪfənt.",
+        "MeanEx": "Cần một lượng lớn thức ăn để nuôi một con voi."
+    },
+    {
+        "Example": "He has the ability to explain things well.",
+        "IpaEx": "hiː hæz ði əˈbɪlɪti tuː ɪksˈpleɪn θɪŋz wɛl.",
+        "MeanEx": "Anh ấy có khả năng giải thích mọi thứ tốt."
+    },
+    {
+        "Example": "There are five people on staff here.",
+        "IpaEx": "ðeər ɑː faɪv ˈpiːpl ɒn stɑːf hɪə.",
+        "MeanEx": "Có năm người trong nhân viên ở đây."
+    },
+    {
+        "Example": "Do you recognize the person in this photo?",
+        "IpaEx": "duː juː ˈrɛkəgnaɪz ðə ˈpɜːsn ɪn ðɪs ˈfəʊtəʊ?",
+        "MeanEx": "Bạn có nhận ra người trong bức ảnh này không?"
+    },
+    {
+        "Example": "Her reply indicated that she understood.",
+        "IpaEx": "hɜː rɪˈplaɪ ˈɪndɪkeɪtɪd ðæt ʃiː ˌʌndəˈstʊd.",
+        "MeanEx": "Câu trả lời của cô ấy cho thấy rằng cô ấy đã hiểu."
+    },
+    {
+        "Example": "You can trust people of good character.",
+        "IpaEx": "juː kæn trʌst ˈpiːpl ɒv gʊd ˈkærɪktə.",
+        "MeanEx": "Bạn có thể tin tưởng những người có đức tính tốt."
+    },
+    {
+        "Example": "The company has seen strong growth this quarter.",
+        "IpaEx": "ðə ˈkʌmpəni hæz siːn strɒŋ grəʊθ ðɪs ˈkwɔːtə.",
+        "MeanEx": "Công ty đã tăng trưởng mạnh mẽ trong quý này."
+    },
+    {
+        "Example": "The farmer suffered heavy losses after the storm.",
+        "IpaEx": "ðə ˈfɑːmə ˈsʌfəd ˈhɛvi ˈlɒsɪz ˈɑːftə ðə stɔːm.",
+        "MeanEx": "Người nông dân thiệt hại nặng nề sau bão."
+    },
+    {
+        "Example": "Set the oven to 300 degrees.",
+        "IpaEx": "sɛt ði ˈʌvn tuː 300 dɪˈgriːz.",
+        "MeanEx": "Đặt lò ở 300 độ."
+    },
+    {
+        "Example": "I wonder if the bulls will win the game.",
+        "IpaEx": "aɪ ˈwʌndər ɪf ðə bʊlz wɪl wɪn ðə geɪm.",
+        "MeanEx": "Tôi tự hỏi liệu những con bò đực sẽ giành chiến thắng trong trò chơi."
+    },
+    {
+        "Example": "The army will attack at dawn.",
+        "IpaEx": "ði ˈɑːmi wɪl əˈtæk æt dɔːn.",
+        "MeanEx": "Quân đội sẽ tấn công vào lúc bình minh."
+    },
+    {
+        "Example": "She bought herself a new coat.",
+        "IpaEx": "ʃiː bɔːt hɜːˈsɛlf ə njuː kəʊt.",
+        "MeanEx": "Cô đã mua cho mình một chiếc áo khoác mới."
+    },
+    {
+        "Example": "What internet services are in your region?",
+        "IpaEx": "wɒt ˈɪntəˌnɛt ˈsɜːvɪsɪz ɑːr ɪn jɔː ˈriːʤən?",
+        "MeanEx": "Những dịch vụ internet nào có trong khu vực của bạn?"
+    },
+    {
+        "Example": "I don’t watch much television.",
+        "IpaEx": "aɪ dəʊnt wɒʧ mʌʧ ˈtɛlɪˌvɪʒən.",
+        "MeanEx": "Tôi không xem tivi nhiều."
+    },
+    {
+        "Example": "I packed my dishes in a strong box.",
+        "IpaEx": "aɪ pækt maɪ ˈdɪʃɪz ɪn ə strɒŋ bɒks.",
+        "MeanEx": "Tôi đóng gói các món ăn của mình trong một chiếc hộp chắc chắn."
+    },
+    {
+        "Example": "There is a good movie on tv tonight.",
+        "IpaEx": "ðeər ɪz ə gʊd ˈmuːvi ɒn ˌtiːˈviː təˈnaɪt.",
+        "MeanEx": "Có một bộ phim hay trên tv tối nay."
+    },
+    {
+        "Example": "The company will pay for your training.",
+        "IpaEx": "ðə ˈkʌmpəni wɪl peɪ fɔː jɔː ˈtreɪnɪŋ.",
+        "MeanEx": "Công ty sẽ trả tiền cho việc đào tạo của bạn."
+    },
+    {
+        "Example": "That is a pretty dress.",
+        "IpaEx": "ðæt ɪz ə ˈprɪti drɛs.",
+        "MeanEx": "Đó là một chiếc váy đẹp."
+    },
+    {
+        "Example": "The stock market traded lower today.",
+        "IpaEx": "ðə stɒk ˈmɑːkɪt ˈtreɪdɪd ˈləʊə təˈdeɪ.",
+        "MeanEx": "Thị trường chứng khoán hôm nay giao dịch thấp hơn."
+    },
+    {
+        "Example": "I got a good deal at the store.",
+        "IpaEx": "aɪ gɒt ə gʊd diːl æt ðə stɔː.",
+        "MeanEx": "Tôi có một thỏa thuận tốt ở cửa hàng."
+    },
+    {
+        "Example": "Who do you think will win the election?",
+        "IpaEx": "huː duː juː θɪŋk wɪl wɪn ði ɪˈlɛkʃən?",
+        "MeanEx": "Bạn nghĩ ai sẽ thắng cuộc bầu cử?"
+    },
+    {
+        "Example": "Everybody likes ice cream.",
+        "IpaEx": "ˈɛvrɪbɒdi laɪks aɪs kriːm.",
+        "MeanEx": "Mọi người đều thích kem."
+    },
+    {
+        "Example": "Keep a physical distance of six feet.",
+        "IpaEx": "kiːp ə ˈfɪzɪkəl ˈdɪstəns ɒv sɪks fiːt.",
+        "MeanEx": "Giữ khoảng cách vật lý là 6 feet."
+    },
+    {
+        "Example": "Lay the baby in her crib, please.",
+        "IpaEx": "leɪ ðə ˈbeɪbi ɪn hɜː krɪb, pliːz.",
+        "MeanEx": "Làm ơn đặt đứa bé vào cũi của cô ấy."
+    },
+    {
+        "Example": "My general impression of the restaurant was good.",
+        "IpaEx": "maɪ ˈʤɛnərəl ɪmˈprɛʃən ɒv ðə ˈrɛstrɒnt wɒz gʊd.",
+        "MeanEx": "Ấn tượng chung của tôi về nhà hàng là tốt."
+    },
+    {
+        "Example": "I have a good feeling about this.",
+        "IpaEx": "aɪ hæv ə gʊd ˈfiːlɪŋ əˈbaʊt ðɪs.",
+        "MeanEx": "Tôi có một cảm giác tốt về điều này."
+    },
+    {
+        "Example": "The standard fee is $10.00.",
+        "IpaEx": "ðə ˈstændəd fiː ɪz $10.00.",
+        "MeanEx": "Phí tiêu chuẩn là $ 10,00."
+    },
+    {
+        "Example": "The electrician will send me a bill.",
+        "IpaEx": "ði ɪlɛkˈtrɪʃən wɪl sɛnd miː ə bɪl.",
+        "MeanEx": "Thợ điện sẽ gửi hóa đơn cho tôi."
+    },
+    {
+        "Example": "You have a text message on your phone.",
+        "IpaEx": "juː hæv ə tɛkst ˈmɛsɪʤ ɒn jɔː fəʊn.",
+        "MeanEx": "Bạn có một tin nhắn văn bản trên điện thoại của mình."
+    },
+    {
+        "Example": "I fail to see what is so funny about that.",
+        "IpaEx": "aɪ feɪl tuː siː wɒt ɪz səʊ ˈfʌni əˈbaʊt ðæt.",
+        "MeanEx": "Tôi không hiểu điều đó có gì buồn cười."
+    },
+    {
+        "Example": "The cat goes outside sometimes.",
+        "IpaEx": "ðə kæt gəʊz ˌaʊtˈsaɪd ˈsʌmtaɪmz.",
+        "MeanEx": "Đôi khi con mèo đi ra ngoài."
+    },
+    {
+        "Example": "When will your plane arrive?",
+        "IpaEx": "wɛn wɪl jɔː pleɪn əˈraɪv?",
+        "MeanEx": "Khi nào máy bay của bạn sẽ đến nơi?"
+    },
+    {
+        "Example": "I’ll give you my analysis when I’ve seen everything.",
+        "IpaEx": "aɪl gɪv juː maɪ əˈnæləsɪs wɛn aɪv siːn ˈɛvrɪθɪŋ.",
+        "MeanEx": "Tôi sẽ cung cấp cho bạn phân tích của tôi khi tôi đã nhìn thấy mọi thứ."
+    },
+    {
+        "Example": "There are many health benefits to quinoa.",
+        "IpaEx": "ðeər ɑː ˈmɛni hɛlθ ˈbɛnɪfɪts tuː ˈkiːnwɑː.",
+        "MeanEx": "Hạt quinoa có rất nhiều lợi ích cho sức khỏe."
+    },
+    {
+        "Example": "What’s your name?",
+        "IpaEx": "wɒts jɔː neɪm?",
+        "MeanEx": "Bạn tên là gì?"
+    },
+    {
+        "Example": "Do you know the sex of your baby yet?",
+        "IpaEx": "duː juː nəʊ ðə sɛks ɒv jɔː ˈbeɪbi jɛt?",
+        "MeanEx": "Bạn đã biết giới tính của con mình chưa?"
+    },
+    {
+        "Example": "Move the car forward a few feet.",
+        "IpaEx": "muːv ðə kɑː ˈfɔːwəd ə fjuː fiːt.",
+        "MeanEx": "Di chuyển xe về phía trước một vài bước chân."
+    },
+    {
+        "Example": "My lawyer helped me write a will.",
+        "IpaEx": "maɪ ˈlɔːjə hɛlpt miː raɪt ə wɪl.",
+        "MeanEx": "Luật sư đã giúp tôi viết di chúc."
+    },
+    {
+        "Example": "If everyone is present, the meeting can begin.",
+        "IpaEx": "ɪf ˈɛvrɪwʌn ɪz ˈprɛznt, ðə ˈmiːtɪŋ kæn bɪˈgɪn.",
+        "MeanEx": "Nếu tất cả mọi người đều có mặt, cuộc họp có thể bắt đầu."
+    },
+    {
+        "Example": "What section of the stadium are you sitting in?",
+        "IpaEx": "wɒt ˈsɛkʃən ɒv ðə ˈsteɪdiəm ɑː juː ˈsɪtɪŋ ɪn?",
+        "MeanEx": "Bạn đang ngồi ở khu vực nào của sân vận động?"
+    },
+    {
+        "Example": "Environmental issues are in the news.",
+        "IpaEx": "ɪnˌvaɪərənˈmɛntl ˈɪʃuːz ɑːr ɪn ðə njuːz.",
+        "MeanEx": "Các vấn đề môi trường đang được đưa tin."
+    },
+    {
+        "Example": "Glass is much heavier than plastic.",
+        "IpaEx": "glɑːs ɪz mʌʧ ˈhɛvɪə ðæn ˈplæstɪk.",
+        "MeanEx": "Thủy tinh nặng hơn nhiều so với nhựa."
+    },
+    {
+        "Example": "Could you answer a question for me?",
+        "IpaEx": "kʊd juː ˈɑːnsər ə ˈkwɛsʧən fɔː miː?",
+        "MeanEx": "Bạn có thể trả lời một câu hỏi cho tôi?"
+    },
+    {
+        "Example": "His best skill is woodworking.",
+        "IpaEx": "hɪz bɛst skɪl ɪz ˈwʊdwɜːkɪŋ.",
+        "MeanEx": "Kỹ năng tốt nhất của anh ấy là chế biến gỗ."
+    },
+    {
+        "Example": "My sister lives close to me.",
+        "IpaEx": "maɪ ˈsɪstə lɪvz kləʊs tuː miː.",
+        "MeanEx": "Em gái tôi sống gần tôi."
+    },
+    {
+        "Example": "The movie starts at 7:30 pm.",
+        "IpaEx": "ðə ˈmuːvi stɑːts æt 7:30 pm.",
+        "MeanEx": "Phim bắt đầu lúc 7:30 tối."
+    },
+    {
+        "Example": "Dr. Smith is my favorite professor.",
+        "IpaEx": "Dr. smɪθ ɪz maɪ ˈfeɪvərɪt prəˈfɛsə.",
+        "MeanEx": "Tiến sĩ Smith là giáo sư yêu thích của tôi."
+    },
+    {
+        "Example": "The mining operation employs thousands of people.",
+        "IpaEx": "ðə ˈmaɪnɪŋ ˌɒpəˈreɪʃən ɪmˈplɔɪz ˈθaʊzəndz ɒv ˈpiːpl.",
+        "MeanEx": "Hoạt động khai thác sử dụng hàng nghìn người."
+    },
+    {
+        "Example": "I keep my accounts at my financial institution.",
+        "IpaEx": "aɪ kiːp maɪ əˈkaʊnts æt maɪ faɪˈnænʃəl ˌɪnstɪˈtjuːʃən.",
+        "MeanEx": "Tôi giữ tài khoản của mình tại tổ chức tài chính của mình."
+    },
+    {
+        "Example": "The police fight crime.",
+        "IpaEx": "ðə pəˈliːs faɪt kraɪm.",
+        "MeanEx": "Cảnh sát chống tội phạm."
+    },
+    {
+        "Example": "A caterpillar is the larval stage of a butterfly.",
+        "IpaEx": "ə ˈkætəpɪlər ɪz ðə ˈlɑːvəl steɪʤ ɒv ə ˈbʌtəflaɪ.",
+        "MeanEx": "Sâu bướm là giai đoạn ấu trùng của bướm."
+    },
+    {
+        "Example": "Would it be ok to eat out tonight?",
+        "IpaEx": "wʊd ɪt biː ˈəʊˈkeɪ tuː iːt aʊt təˈnaɪt?",
+        "MeanEx": "Tối nay đi ăn ngoài có được không?"
+    },
+    {
+        "Example": "We should compare cars before we buy one.",
+        "IpaEx": "wiː ʃʊd kəmˈpeə kɑːz bɪˈfɔː wiː baɪ wʌn.",
+        "MeanEx": "Chúng ta nên so sánh những chiếc xe trước khi mua một chiếc."
+    },
+    {
+        "Example": "City authorities make the local laws.",
+        "IpaEx": "ˈsɪti ɔːˈθɒrɪtiz meɪk ðə ˈləʊkəl lɔːz.",
+        "MeanEx": "Chính quyền thành phố thực hiện luật pháp địa phương."
+    },
+    {
+        "Example": "I miss you, when will I see you again?",
+        "IpaEx": "aɪ mɪs juː, wɛn wɪl aɪ siː juː əˈgɛn?",
+        "MeanEx": "Em nhớ anh, khi nào gặp lại anh?"
+    },
+    {
+        "Example": "We need to design a new logo.",
+        "IpaEx": "wiː niːd tuː dɪˈzaɪn ə njuː ˈləʊgəʊ.",
+        "MeanEx": "Chúng tôi cần thiết kế một logo mới."
+    },
+    {
+        "Example": "Let’s sort these beads according to color.",
+        "IpaEx": "lɛts sɔːt ðiːz biːdz əˈkɔːdɪŋ tuː ˈkʌlə.",
+        "MeanEx": "Hãy phân loại các hạt này theo màu sắc."
+    },
+    {
+        "Example": "I only have one cat.",
+        "IpaEx": "aɪ ˈəʊnli hæv wʌn kæt.",
+        "MeanEx": "Tôi chỉ có một con mèo."
+    },
+    {
+        "Example": "I’ll act on your information today.",
+        "IpaEx": "aɪl ækt ɒn jɔːr ˌɪnfəˈmeɪʃən təˈdeɪ.",
+        "MeanEx": "Tôi sẽ hành động dựa trên thông tin của bạn hôm nay."
+    },
+    {
+        "Example": "The baby counted her ten toes.",
+        "IpaEx": "ðə ˈbeɪbi ˈkaʊntɪd hɜː tɛn təʊz.",
+        "MeanEx": "Em bé đã đếm được mười ngón chân của mẹ."
+    },
+    {
+        "Example": "Do you have the knowledge to fix that?",
+        "IpaEx": "duː juː hæv ðə ˈnɒlɪʤ tuː fɪks ðæt?",
+        "MeanEx": "Bạn có kiến ​​thức để khắc phục điều đó?"
+    },
+    {
+        "Example": "Gun ownership is a controversial topic.",
+        "IpaEx": "gʌn ˈəʊnəʃɪp ɪz ə ˌkɒntrəˈvɜːʃəl ˈtɒpɪk.",
+        "MeanEx": "Quyền sở hữu súng là một chủ đề gây tranh cãi."
+    },
+    {
+        "Example": "There is a train station close to my house.",
+        "IpaEx": "ðeər ɪz ə treɪn ˈsteɪʃən kləʊs tuː maɪ haʊs.",
+        "MeanEx": "Có một ga xe lửa gần nhà tôi."
+    },
+    {
+        "Example": "My favorite color is blue.",
+        "IpaEx": "maɪ ˈfeɪvərɪt ˈkʌlər ɪz bluː.",
+        "MeanEx": "Màu sắc yêu thích của tôi là màu xanh."
+    },
+    {
+        "Example": "After the accident, I was in a state of shock.",
+        "IpaEx": "ˈɑːftə ði ˈæksɪdənt, aɪ wɒz ɪn ə steɪt ɒv ʃɒk.",
+        "MeanEx": "Sau khi vụ tai nạn xảy ra, tôi bị sốc."
+    },
+    {
+        "Example": "Our new corporate strategy is written here.",
+        "IpaEx": "ˈaʊə njuː ˈkɔːpərɪt ˈstrætɪʤi ɪz ˈrɪtn hɪə.",
+        "MeanEx": "Chiến lược công ty mới của chúng tôi được viết ở đây."
+    },
+    {
+        "Example": "I prefer little cars.",
+        "IpaEx": "aɪ priˈfɜː ˈlɪtl kɑːz.",
+        "MeanEx": "Tôi thích những chiếc xe nhỏ hơn."
+    },
+    {
+        "Example": "The instructions were clearly written.",
+        "IpaEx": "ði ɪnˈstrʌkʃənz wɜː ˈklɪəli ˈrɪtn.",
+        "MeanEx": "Các hướng dẫn đã được viết rõ ràng."
+    },
+    {
+        "Example": "We’ll discuss that at the meeting.",
+        "IpaEx": "wiːl dɪsˈkʌs ðæt æt ðə ˈmiːtɪŋ.",
+        "MeanEx": "Chúng ta sẽ thảo luận điều đó tại cuộc họp."
+    },
+    {
+        "Example": "Your mother does indeed have hearing loss.",
+        "IpaEx": "jɔː ˈmʌðə dʌz ɪnˈdiːd hæv ˈhɪərɪŋ lɒs.",
+        "MeanEx": "Mẹ của bạn thực sự bị mất thính giác."
+    },
+    {
+        "Example": "It takes a lot of force to open that door.",
+        "IpaEx": "ɪt teɪks ə lɒt ɒv fɔːs tuː ˈəʊpən ðæt dɔː.",
+        "MeanEx": "Cần rất nhiều lực để mở cánh cửa đó."
+    },
+    {
+        "Example": "Please tell me the truth.",
+        "IpaEx": "pliːz tɛl miː ðə truːθ.",
+        "MeanEx": "Làm ơn hãy nói tôi biết sự thật."
+    },
+    {
+        "Example": "That’s a beautiful song.",
+        "IpaEx": "ðæts ə ˈbjuːtəfʊl sɒŋ.",
+        "MeanEx": "Đó là một bài hát hay."
+    },
+    {
+        "Example": "I need an example of that grammar point, please.",
+        "IpaEx": "aɪ niːd ən ɪgˈzɑːmpl ɒv ðæt ˈgræmə pɔɪnt, pliːz.",
+        "MeanEx": "Tôi cần một ví dụ về điểm ngữ pháp đó, làm ơn."
+    },
+    {
+        "Example": "Does Australia have a democratic government?",
+        "IpaEx": "dʌz ɒˈstreɪliːə hæv ə ˌdɛməˈkrætɪk ˈgʌvnmənt?",
+        "MeanEx": "Úc có chính phủ dân chủ không?"
+    },
+    {
+        "Example": "Please check my work to be sure it’s correct.",
+        "IpaEx": "pliːz ʧɛk maɪ wɜːk tuː biː ʃʊər ɪts kəˈrɛkt.",
+        "MeanEx": "Vui lòng kiểm tra công việc của tôi để chắc chắn rằng nó chính xác."
+    },
+    {
+        "Example": "We live in a healthy environment.",
+        "IpaEx": "wiː lɪv ɪn ə ˈhɛlθi ɪnˈvaɪərənmənt.",
+        "MeanEx": "Chúng ta đang sống trong một môi trường lành mạnh."
+    },
+    {
+        "Example": "The boy broke his leg.",
+        "IpaEx": "ðə bɔɪ brəʊk hɪz lɛg.",
+        "MeanEx": "Cậu bé bị gãy chân."
+    },
+    {
+        "Example": "Turn on the light, it’s dark in here.",
+        "IpaEx": "tɜːn ɒn ðə laɪt, ɪts dɑːk ɪn hɪə.",
+        "MeanEx": "Bật đèn lên, trong này tối."
+    },
+    {
+        "Example": "Masks must be worn in public places.",
+        "IpaEx": "mɑːsks mʌst biː wɔːn ɪn ˈpʌblɪk ˈpleɪsɪz.",
+        "MeanEx": "Ở những nơi công cộng phải đeo khẩu trang."
+    },
+    {
+        "Example": "That rug comes in various shades of gray.",
+        "IpaEx": "ðæt rʌg kʌmz ɪn ˈveərɪəs ʃeɪdz ɒv greɪ.",
+        "MeanEx": "Tấm thảm đó có nhiều màu xám khác nhau."
+    },
+    {
+        "Example": "Would you rather have a hamburger than a hot dog?",
+        "IpaEx": "wʊd juː ˈrɑːðə hæv ə ˈhæmbɜːgə ðæn ə hɒt dɒg?",
+        "MeanEx": "Bạn muốn ăn một chiếc bánh hamburger hơn là một chiếc xúc xích?"
+    },
+    {
+        "Example": "That movie always makes me laugh.",
+        "IpaEx": "ðæt ˈmuːvi ˈɔːlweɪz meɪks miː lɑːf.",
+        "MeanEx": "Bộ phim đó luôn khiến tôi cười."
+    },
+    {
+        "Example": "If you don’t know, just guess.",
+        "IpaEx": "ɪf juː dəʊnt nəʊ, ʤʌst gɛs.",
+        "MeanEx": "Nếu bạn không biết, chỉ cần đoán."
+    },
+    {
+        "Example": "The company’s executives are paid well.",
+        "IpaEx": "ðə ˈkʌmpəniz ɪgˈzɛkjʊtɪvz ɑː peɪd wɛl.",
+        "MeanEx": "Các giám đốc điều hành của công ty được trả lương cao."
+    },
+    {
+        "Example": "Set the glass on the table, please.",
+        "IpaEx": "sɛt ðə glɑːs ɒn ðə ˈteɪbl, pliːz.",
+        "MeanEx": "Làm ơn đặt cái ly lên bàn."
+    },
+    {
+        "Example": "He needs to study for the test.",
+        "IpaEx": "hiː niːdz tuː ˈstʌdi fɔː ðə tɛst.",
+        "MeanEx": "Anh ấy cần phải học cho bài kiểm tra."
+    },
+    {
+        "Example": "The employee proved his worth.",
+        "IpaEx": "ði ˌɛmplɔɪˈiː pruːvd hɪz wɜːθ.",
+        "MeanEx": "Nhân viên đã chứng minh giá trị của mình."
+    },
+    {
+        "Example": "Please hang your coat on the hook.",
+        "IpaEx": "pliːz hæŋ jɔː kəʊt ɒn ðə hʊk.",
+        "MeanEx": "Hãy treo áo khoác của bạn trên móc."
+    },
+    {
+        "Example": "He ate the entire meal in 10 minutes.",
+        "IpaEx": "hiː ɛt ði ɪnˈtaɪə miːl ɪn 10 ˈmɪnɪts.",
+        "MeanEx": "Anh ấy đã ăn toàn bộ bữa ăn trong 10 phút."
+    },
+    {
+        "Example": "There are decorative rocks in the garden.",
+        "IpaEx": "ðeər ɑː ˈdɛkərətɪv rɒks ɪn ðə ˈgɑːdn.",
+        "MeanEx": "Có đá trang trí trong vườn."
+    },
+    {
+        "Example": "The windows don’t open by design.",
+        "IpaEx": "ðə ˈwɪndəʊz dəʊnt ˈəʊpən baɪ dɪˈzaɪn.",
+        "MeanEx": "Các cửa sổ không mở theo thiết kế."
+    },
+    {
+        "Example": "Have you had enough coffee?",
+        "IpaEx": "hæv juː hæd ɪˈnʌf ˈkɒfi?",
+        "MeanEx": "Bạn đã uống đủ cà phê chưa?"
+    },
+    {
+        "Example": "Don’t forget to stop at the store.",
+        "IpaEx": "dəʊnt fəˈgɛt tuː stɒp æt ðə stɔː.",
+        "MeanEx": "Đừng quên dừng lại ở cửa hàng."
+    },
+    {
+        "Example": "She hasn’t eaten since yesterday.",
+        "IpaEx": "ʃiː ˈhæznt ˈiːtn sɪns ˈjɛstədeɪ.",
+        "MeanEx": "Cô ấy đã không ăn kể từ hôm qua."
+    },
+    {
+        "Example": "I made an insurance claim for my car accident.",
+        "IpaEx": "aɪ meɪd ən ɪnˈʃʊərəns kleɪm fɔː maɪ kɑːr ˈæksɪdənt.",
+        "MeanEx": "Tôi đã yêu cầu bảo hiểm cho tai nạn xe hơi của tôi."
+    },
+    {
+        "Example": "Leave me a note if you’re going to be late.",
+        "IpaEx": "liːv miː ə nəʊt ɪf jʊə ˈgəʊɪŋ tuː biː leɪt.",
+        "MeanEx": "Hãy để lại lời nhắn cho tôi nếu bạn đến muộn."
+    },
+    {
+        "Example": "Remove the cookies from the oven.",
+        "IpaEx": "rɪˈmuːv ðə ˈkʊkiz frɒm ði ˈʌvn.",
+        "MeanEx": "Lấy cookie ra khỏi lò."
+    },
+    {
+        "Example": "The manager will look at your application.",
+        "IpaEx": "ðə ˈmænɪʤə wɪl lʊk æt jɔːr ˌæplɪˈkeɪʃ(ə)n.",
+        "MeanEx": "Người quản lý sẽ xem xét đơn đăng ký của bạn."
+    },
+    {
+        "Example": "Could you help me move this table?",
+        "IpaEx": "kʊd juː hɛlp miː muːv ðɪs ˈteɪbl?",
+        "MeanEx": "Bạn có thể giúp tôi di chuyển cái bàn này được không?"
+    },
+    {
+        "Example": "Close the door, please.",
+        "IpaEx": "kləʊs ðə dɔː, pliːz.",
+        "MeanEx": "Xin hãy đóng cửa lại."
+    },
+    {
+        "Example": "The dog did not make a sound.",
+        "IpaEx": "ðə dɒg dɪd nɒt meɪk ə saʊnd.",
+        "MeanEx": "Con chó không phát ra tiếng động."
+    },
+    {
+        "Example": "I enjoy soda.",
+        "IpaEx": "aɪ ɪnˈʤɔɪ ˈsəʊdə.",
+        "MeanEx": "Tôi thích soda."
+    },
+    {
+        "Example": "Band is the name of our internet network.",
+        "IpaEx": "bænd ɪz ðə neɪm ɒv ˈaʊər ˈɪntəˌnɛt ˈnɛtwɜːk.",
+        "MeanEx": "Band là tên của mạng internet của chúng tôi."
+    },
+    {
+        "Example": "The legal documents need to be signed.",
+        "IpaEx": "ðə ˈliːgəl ˈdɒkjʊmənts niːd tuː biː saɪnd.",
+        "MeanEx": "Các văn bản pháp lý cần phải được ký kết."
+    },
+    {
+        "Example": "She is very religious, she attends church weekly.",
+        "IpaEx": "ʃiː ɪz ˈvɛri rɪˈlɪʤəs, ʃiː əˈtɛndz ʧɜːʧ ˈwiːkli.",
+        "MeanEx": "Cô ấy rất sùng đạo, cô ấy đến nhà thờ hàng tuần."
+    },
+    {
+        "Example": "My feet are cold.",
+        "IpaEx": "maɪ fiːt ɑː kəʊld.",
+        "MeanEx": "Chân của tôi lạnh."
+    },
+    {
+        "Example": "Please fill out this application form.",
+        "IpaEx": "pliːz fɪl aʊt ðɪs ˌæplɪˈkeɪʃ(ə)n fɔːm.",
+        "MeanEx": "Vui lòng điền vào mẫu đơn đăng ký này."
+    },
+    {
+        "Example": "The divorce was final last month.",
+        "IpaEx": "ðə dɪˈvɔːs wɒz ˈfaɪnl lɑːst mʌnθ.",
+        "MeanEx": "Cuộc ly hôn là cuối cùng vào tháng trước."
+    },
+    {
+        "Example": "The main problem is a lack of money.",
+        "IpaEx": "ðə meɪn ˈprɒbləm ɪz ə læk ɒv ˈmʌni.",
+        "MeanEx": "Vấn đề chính là thiếu tiền."
+    },
+    {
+        "Example": "He studies health science at the university.",
+        "IpaEx": "hiː ˈstʌdiz hɛlθ ˈsaɪəns æt ðə ˌjuːnɪˈvɜːsɪti.",
+        "MeanEx": "Anh ấy nghiên cứu khoa học sức khỏe tại trường đại học."
+    },
+    {
+        "Example": "The grass is green.",
+        "IpaEx": "ðə grɑːs ɪz griːn.",
+        "MeanEx": "Cỏ xanh."
+    },
+    {
+        "Example": "He has a good memory.",
+        "IpaEx": "hiː hæz ə gʊd ˈmɛməri.",
+        "MeanEx": "Anh ấy có một trí nhớ tốt."
+    },
+    {
+        "Example": "They sent me a card for my birthday.",
+        "IpaEx": "ðeɪ sɛnt miː ə kɑːd fɔː maɪ ˈbɜːθdeɪ.",
+        "MeanEx": "Họ đã gửi cho tôi một tấm thiệp cho ngày sinh nhật của tôi."
+    },
+    {
+        "Example": "Look on the shelf above the sink.",
+        "IpaEx": "lʊk ɒn ðə ʃɛlf əˈbʌv ðə sɪŋk.",
+        "MeanEx": "Nhìn trên kệ phía trên bồn rửa."
+    },
+    {
+        "Example": "That’s a comfortable seat.",
+        "IpaEx": "ðæts ə ˈkʌmf(ə)təbl siːt.",
+        "MeanEx": "Đó là một chỗ ngồi thoải mái."
+    },
+    {
+        "Example": "Your body is made of millions of cells.",
+        "IpaEx": "jɔː ˈbɒdi ɪz meɪd ɒv ˈmɪljənz ɒv sɛlz.",
+        "MeanEx": "Cơ thể của bạn được tạo ra từ hàng triệu tế bào."
+    },
+    {
+        "Example": "They established their business in 1942.",
+        "IpaEx": "ðeɪ ɪsˈtæblɪʃt ðeə ˈbɪznɪs ɪn 1942.",
+        "MeanEx": "Họ thành lập doanh nghiệp của mình vào năm 1942."
+    },
+    {
+        "Example": "That’s a very nice car.",
+        "IpaEx": "ðæts ə ˈvɛri naɪs kɑː.",
+        "MeanEx": "Đó là một chiếc xe rất đẹp."
+    },
+    {
+        "Example": "They are employing her on a trial basis.",
+        "IpaEx": "ðeɪ ɑːr ɪmˈplɔɪɪŋ hɜːr ɒn ə ˈtraɪəl ˈbeɪsɪs.",
+        "MeanEx": "Họ đang tuyển dụng cô ấy trên cơ sở thử việc."
+    },
+    {
+        "Example": "Matt is an IT expert.",
+        "IpaEx": "mæt ɪz ən ɪt ˈɛkspɜːt.",
+        "MeanEx": "Matt là một chuyên gia CNTT."
+    },
+    {
+        "Example": "Did you see that movie?",
+        "IpaEx": "dɪd juː siː ðæt ˈmuːvi?",
+        "MeanEx": "Bạn đã xem bộ phim đó chưa?"
+    },
+    {
+        "Example": "Spring is the most beautiful season.",
+        "IpaEx": "sprɪŋ ɪz ðə məʊst ˈbjuːtəfʊl ˈsiːzn.",
+        "MeanEx": "Mùa xuân là mùa đẹp nhất."
+    },
+    {
+        "Example": "Her ‘no was very firm, she won’t change her mind.",
+        "IpaEx": "hɜː nəʊ wɒz ˈvɛri fɜːm, ʃiː wəʊnt ʧeɪnʤ hɜː maɪnd.",
+        "MeanEx": "Cô ấy nói \"không rất chắc chắn, cô ấy sẽ không thay đổi ý định của mình.\""
+    },
+    {
+        "Example": "The democrats control the senate.",
+        "IpaEx": "ðə ˈdɛməkræts kənˈtrəʊl ðə ˈsɛnɪt.",
+        "MeanEx": "Những người dân chủ kiểm soát thượng viện."
+    },
+    {
+        "Example": "I listen to the radio in the car.",
+        "IpaEx": "aɪ ˈlɪsn tuː ðə ˈreɪdɪəʊ ɪn ðə kɑː.",
+        "MeanEx": "Tôi nghe radio trong xe hơi."
+    },
+    {
+        "Example": "We visited the museum today.",
+        "IpaEx": "wiː ˈvɪzɪtɪd ðə mju(ː)ˈzɪəm təˈdeɪ.",
+        "MeanEx": "Chúng tôi đã đến thăm viện bảo tàng ngày hôm nay."
+    },
+    {
+        "Example": "That store has good management.",
+        "IpaEx": "ðæt stɔː hæz gʊd ˈmænɪʤmənt.",
+        "MeanEx": "Cửa hàng đó có quản lý tốt."
+    },
+    {
+        "Example": "She cares for her mother at home.",
+        "IpaEx": "ʃiː keəz fɔː hɜː ˈmʌðər æt həʊm.",
+        "MeanEx": "Cô ấy chăm sóc cho mẹ cô ấy ở nhà."
+    },
+    {
+        "Example": "You should avoid poison ivy.",
+        "IpaEx": "juː ʃʊd əˈvɔɪd ˈpɔɪzn ˈaɪvi.",
+        "MeanEx": "Bạn nên tránh cây thường xuân độc."
+    },
+    {
+        "Example": "Can you imagine if pigs could fly?",
+        "IpaEx": "kæn juː ɪˈmæʤɪn ɪf pɪgz kʊd flaɪ?",
+        "MeanEx": "Bạn có thể tưởng tượng nếu lợn có thể bay?"
+    },
+    {
+        "Example": "Would you like to go out tonight?",
+        "IpaEx": "wʊd juː laɪk tuː gəʊ aʊt təˈnaɪt?",
+        "MeanEx": "Bạn có muốn đi chơi tối nay không?"
+    },
+    {
+        "Example": "That truck is huge!",
+        "IpaEx": "ðæt trʌk ɪz hjuːʤ!",
+        "MeanEx": "Xe tải đó rất lớn!"
+    },
+    {
+        "Example": "He threw the ball to the dog.",
+        "IpaEx": "hiː θruː ðə bɔːl tuː ðə dɒg.",
+        "MeanEx": "Anh ta ném quả bóng cho con chó."
+    },
+    {
+        "Example": "I said ‘no,’ please don’t ask again.",
+        "IpaEx": "aɪ sɛd nəʊ,’ pliːz dəʊnt ɑːsk əˈgɛn.",
+        "MeanEx": "Tôi đã nói \"không\", vui lòng không hỏi lại."
+    },
+    {
+        "Example": "Close the window, please.",
+        "IpaEx": "kləʊs ðə ˈwɪndəʊ, pliːz.",
+        "MeanEx": "Vui lòng đóng cửa sổ."
+    },
+    {
+        "Example": "Did you finish your homework?",
+        "IpaEx": "dɪd juː ˈfɪnɪʃ jɔː ˈhəʊmˌwɜːk?",
+        "MeanEx": "Bạn đã hoàn thành bài tập về nhà chưa?"
+    },
+    {
+        "Example": "Do you give yourself a haircut?",
+        "IpaEx": "duː juː gɪv jɔːˈsɛlf ə ˈheəkʌt?",
+        "MeanEx": "Bạn có cho mình một mái tóc cắt?"
+    },
+    {
+        "Example": "He talks a lot.",
+        "IpaEx": "hiː tɔːks ə lɒt.",
+        "MeanEx": "Anh ấy nói rất nhiều."
+    },
+    {
+        "Example": "In theory, that’s a good plan.",
+        "IpaEx": "ɪn ˈθɪəri, ðæts ə gʊd plæn.",
+        "MeanEx": "Về lý thuyết, đó là một kế hoạch tốt."
+    },
+    {
+        "Example": "The drought had a big impact on the crops.",
+        "IpaEx": "ðə draʊt hæd ə bɪg ˈɪmpækt ɒn ðə krɒps.",
+        "MeanEx": "Hạn hán đã ảnh hưởng lớn đến mùa màng."
+    },
+    {
+        "Example": "He hasn’t responded to my text yet.",
+        "IpaEx": "hiː ˈhæznt rɪsˈpɒndɪd tuː maɪ tɛkst jɛt.",
+        "MeanEx": "Anh ấy chưa trả lời tin nhắn của tôi."
+    },
+    {
+        "Example": "The police chief gave a statement to the media.",
+        "IpaEx": "ðə pəˈliːs ʧiːf geɪv ə ˈsteɪtmənt tuː ðə ˈmiːdiə.",
+        "MeanEx": "Cảnh sát trưởng đã đưa ra một tuyên bố với giới truyền thông."
+    },
+    {
+        "Example": "Exercise helps you maintain a healthy weight.",
+        "IpaEx": "ˈɛksəsaɪz hɛlps juː meɪnˈteɪn ə ˈhɛlθi weɪt.",
+        "MeanEx": "Tập thể dục giúp bạn duy trì cân nặng hợp lý."
+    },
+    {
+        "Example": "I need to charge my phone.",
+        "IpaEx": "aɪ niːd tuː ʧɑːʤ maɪ fəʊn.",
+        "MeanEx": "Tôi cần sạc điện thoại của mình."
+    },
+    {
+        "Example": "That’s a popular restaurant.",
+        "IpaEx": "ðæts ə ˈpɒpjʊlə ˈrɛstrɒnt.",
+        "MeanEx": "Đó là một nhà hàng bình dân."
+    },
+    {
+        "Example": "They serve traditional Italian food there.",
+        "IpaEx": "ðeɪ sɜːv trəˈdɪʃənl ɪˈtæliən fuːd ðeə.",
+        "MeanEx": "Họ phục vụ các món ăn truyền thống của Ý ở đó."
+    },
+    {
+        "Example": "Jump onto the boat and we’ll go fishing.",
+        "IpaEx": "ʤʌmp ˈɒntʊ ðə bəʊt ænd wiːl gəʊ ˈfɪʃɪŋ.",
+        "MeanEx": "Nhảy lên thuyền và chúng ta sẽ đi câu cá."
+    },
+    {
+        "Example": "Washing off the dirt revealed the boy’s skinned knee.",
+        "IpaEx": "ˈwɒʃɪŋ ɒf ðə dɜːt rɪˈviːld ðə bɔɪz skɪnd niː.",
+        "MeanEx": "Rửa sạch bụi bẩn để lộ đầu gối bị lột da của cậu bé."
+    },
+    {
+        "Example": "What direction is the city from here?",
+        "IpaEx": "wɒt dɪˈrɛkʃən ɪz ðə ˈsɪti frɒm hɪə?",
+        "MeanEx": "Thành phố từ đây đi theo hướng nào?"
+    },
+    {
+        "Example": "No weapons are allowed in government buildings.",
+        "IpaEx": "nəʊ ˈwɛpənz ɑːr əˈlaʊd ɪn ˈgʌvnmənt ˈbɪldɪŋz.",
+        "MeanEx": "Không có vũ khí nào được phép sử dụng trong các tòa nhà chính phủ."
+    },
+    {
+        "Example": "That store only has three employees.",
+        "IpaEx": "ðæt stɔːr ˈəʊnli hæz θriː ˌɛmplɔɪˈiːz.",
+        "MeanEx": "Cửa hàng đó chỉ có ba nhân viên."
+    },
+    {
+        "Example": "There is cultural significance to those old ruins.",
+        "IpaEx": "ðeər ɪz ˈkʌlʧərəl sɪgˈnɪfɪkəns tuː ðəʊz əʊld rʊɪnz.",
+        "MeanEx": "Có ý nghĩa văn hóa đối với những tàn tích cũ."
+    },
+    {
+        "Example": "The carton contains a dozen eggs.",
+        "IpaEx": "ðə ˈkɑːtən kənˈteɪnz ə ˈdʌzn ɛgz.",
+        "MeanEx": "Thùng carton chứa một tá trứng."
+    },
+    {
+        "Example": "World leaders gathered for peace talks.",
+        "IpaEx": "wɜːld ˈliːdəz ˈgæðəd fɔː piːs tɔːks.",
+        "MeanEx": "Các nhà lãnh đạo thế giới tụ họp để đàm phán hòa bình."
+    },
+    {
+        "Example": "My head hurts.",
+        "IpaEx": "maɪ hɛd hɜːts.",
+        "MeanEx": "Đầu tôi đau."
+    },
+    {
+        "Example": "Keep control of the car.",
+        "IpaEx": "kiːp kənˈtrəʊl ɒv ðə kɑː.",
+        "MeanEx": "Giữ quyền kiểm soát xe."
+    },
+    {
+        "Example": "The glass has a heavy base so it won’t fall over.",
+        "IpaEx": "ðə glɑːs hæz ə ˈhɛvi beɪs səʊ ɪt wəʊnt fɔːl ˈəʊvə.",
+        "MeanEx": "Kính có đế nặng nên sẽ không bị đổ."
+    },
+    {
+        "Example": "I have chest pain.",
+        "IpaEx": "aɪ hæv ʧɛst peɪn.",
+        "MeanEx": "Tôi bị đau ngực."
+    },
+    {
+        "Example": "Maria applied for the job.",
+        "IpaEx": "məˈriːə əˈplaɪd fɔː ðə ʤɒb.",
+        "MeanEx": "Maria đã nộp đơn xin việc."
+    },
+    {
+        "Example": "The children play at the park.",
+        "IpaEx": "ðə ˈʧɪldrən pleɪ æt ðə pɑːk.",
+        "MeanEx": "Những đứa trẻ chơi ở công viên."
+    },
+    {
+        "Example": "Measure twice, cut once.",
+        "IpaEx": "ˈmɛʒə twaɪs, kʌt wʌns.",
+        "MeanEx": "Đo hai lần cắt một lần."
+    },
+    {
+        "Example": "The doorway was very wide.",
+        "IpaEx": "ðə ˈdɔːweɪ wɒz ˈvɛri waɪd.",
+        "MeanEx": "Ô cửa rất rộng."
+    },
+    {
+        "Example": "Don’t shake the can of soda.",
+        "IpaEx": "dəʊnt ʃeɪk ðə kæn ɒv ˈsəʊdə.",
+        "MeanEx": "Đừng lắc lon nước ngọt."
+    },
+    {
+        "Example": "We can fly to France next year.",
+        "IpaEx": "wiː kæn flaɪ tuː ˈfrɑːns nɛkst jɪə.",
+        "MeanEx": "Chúng tôi có thể bay đến Pháp vào năm tới."
+    },
+    {
+        "Example": "My job interview went well.",
+        "IpaEx": "maɪ ʤɒb ˈɪntəvjuː wɛnt wɛl.",
+        "MeanEx": "Buổi phỏng vấn xin việc của tôi diễn ra tốt đẹp."
+    },
+    {
+        "Example": "Did you manage to find the keys?",
+        "IpaEx": "dɪd juː ˈmænɪʤ tuː faɪnd ðə kiːz?",
+        "MeanEx": "Bạn đã quản lý để tìm thấy các chìa khóa?"
+    },
+    {
+        "Example": "The table has six matching chairs.",
+        "IpaEx": "ðə ˈteɪbl hæz sɪks ˈmæʧɪŋ ʧeəz.",
+        "MeanEx": "Bàn có sáu ghế phù hợp."
+    },
+    {
+        "Example": "I don’t enjoy eating fish.",
+        "IpaEx": "aɪ dəʊnt ɪnˈʤɔɪ ˈiːtɪŋ fɪʃ.",
+        "MeanEx": "Tôi không thích ăn cá."
+    },
+    {
+        "Example": "That particular style looks good on you.",
+        "IpaEx": "ðæt pəˈtɪkjʊlə staɪl lʊks gʊd ɒn juː.",
+        "MeanEx": "Phong cách cụ thể đó trông phù hợp với bạn."
+    },
+    {
+        "Example": "I use the camera on my phone.",
+        "IpaEx": "aɪ juːz ðə ˈkæmərə ɒn maɪ fəʊn.",
+        "MeanEx": "Tôi sử dụng máy ảnh trên điện thoại của mình."
+    },
+    {
+        "Example": "The building’s structure is solid.",
+        "IpaEx": "ðə ˈbɪldɪŋz ˈstrʌkʧər ɪz ˈsɒlɪd.",
+        "MeanEx": "Cấu trúc của tòa nhà chắc chắn."
+    },
+    {
+        "Example": "Mitch is very active in politics.",
+        "IpaEx": "Mitch ɪz ˈvɛri ˈæktɪv ɪn ˈpɒlɪtɪks.",
+        "MeanEx": "Mitch rất tích cực trong lĩnh vực chính trị."
+    },
+    {
+        "Example": "The singer will perform tonight.",
+        "IpaEx": "ðə ˈsɪŋə wɪl pəˈfɔːm təˈnaɪt.",
+        "MeanEx": "Ca sĩ sẽ biểu diễn vào tối nay."
+    },
+    {
+        "Example": "It rained a little bit last night.",
+        "IpaEx": "ɪt reɪnd ə ˈlɪtl bɪt lɑːst naɪt.",
+        "MeanEx": "Đêm qua trời có mưa một chút."
+    },
+    {
+        "Example": "Keep track of your pet’s weight.",
+        "IpaEx": "kiːp træk ɒv jɔː pɛts weɪt.",
+        "MeanEx": "Theo dõi cân nặng của thú cưng."
+    },
+    {
+        "Example": "The storm came up suddenly.",
+        "IpaEx": "ðə stɔːm keɪm ʌp ˈsʌdnli.",
+        "MeanEx": "Cơn bão nổi lên bất ngờ."
+    },
+    {
+        "Example": "You’ll discover treasures at that thrift store.",
+        "IpaEx": "juːl dɪsˈkʌvə ˈtrɛʒəz æt ðæt θrɪft stɔː.",
+        "MeanEx": "Bạn sẽ khám phá các kho báu tại cửa hàng tiết kiệm đó."
+    },
+    {
+        "Example": "There are ten candidates for the position.",
+        "IpaEx": "ðeər ɑː tɛn ˈkændɪˌdeɪts fɔː ðə pəˈzɪʃən.",
+        "MeanEx": "Có mười ứng cử viên cho vị trí này."
+    },
+    {
+        "Example": "The flag flies on the top of that building.",
+        "IpaEx": "ðə flæg flaɪz ɒn ðə tɒp ɒv ðæt ˈbɪldɪŋ.",
+        "MeanEx": "Lá cờ bay trên đỉnh của tòa nhà đó."
+    },
+    {
+        "Example": "Factory production has improved over the summer.",
+        "IpaEx": "ˈfæktəri prəˈdʌkʃən hæz ɪmˈpruːvd ˈəʊvə ðə ˈsʌmə.",
+        "MeanEx": "Sản xuất của nhà máy đã được cải thiện trong mùa hè."
+    },
+    {
+        "Example": "Give yourself a treat for a job well done.",
+        "IpaEx": "gɪv jɔːˈsɛlf ə triːt fɔːr ə ʤɒb wɛl dʌn.",
+        "MeanEx": "Hãy tự thưởng cho mình một công việc được hoàn thành tốt."
+    },
+    {
+        "Example": "We are taking a trip to Florida in January.",
+        "IpaEx": "wiː ɑː ˈteɪkɪŋ ə trɪp tuː ˈflɒrɪdə ɪn ˈʤænjʊəri.",
+        "MeanEx": "Chúng tôi sẽ có một chuyến đi đến Florida vào tháng Giêng."
+    },
+    {
+        "Example": "I’m staying home this evening.",
+        "IpaEx": "aɪm ˈsteɪɪŋ həʊm ðɪs ˈiːvnɪŋ.",
+        "MeanEx": "Tôi sẽ ở nhà tối nay."
+    },
+    {
+        "Example": "My bank account will affect how much I can buy.",
+        "IpaEx": "maɪ bæŋk əˈkaʊnt wɪl əˈfɛkt haʊ mʌʧ aɪ kæn baɪ.",
+        "MeanEx": "Tài khoản ngân hàng của tôi sẽ ảnh hưởng đến số tiền tôi có thể mua."
+    },
+    {
+        "Example": "The cat stays inside.",
+        "IpaEx": "ðə kæt steɪz ɪnˈsaɪd.",
+        "MeanEx": "Con mèo ở trong nhà."
+    },
+    {
+        "Example": "There will be expert presenters at the conference.",
+        "IpaEx": "ðeə wɪl biː ˈɛkspɜːt prɪˈzɛntəz æt ðə ˈkɒnfərəns.",
+        "MeanEx": "Sẽ có các chuyên gia trình bày tại hội nghị."
+    },
+    {
+        "Example": "A foot is a unit of measure.",
+        "IpaEx": "ə fʊt ɪz ə ˈjuːnɪt ɒv ˈmɛʒə.",
+        "MeanEx": "Chân là một đơn vị đo lường."
+    },
+    {
+        "Example": "Those are the best glasses to buy.",
+        "IpaEx": "ðəʊz ɑː ðə bɛst ˈglɑːsɪz tuː baɪ.",
+        "MeanEx": "Đó là những chiếc kính tốt nhất để mua."
+    },
+    {
+        "Example": "My dress is out of style.",
+        "IpaEx": "maɪ drɛs ɪz aʊt ɒv staɪl.",
+        "MeanEx": "Chiếc váy của tôi đã lỗi mốt."
+    },
+    {
+        "Example": "Adults pay full price, but children are free.",
+        "IpaEx": "ˈædʌlts peɪ fʊl praɪs, bʌt ˈʧɪldrən ɑː friː.",
+        "MeanEx": "Người lớn phải trả giá đầy đủ, nhưng trẻ em được miễn phí."
+    },
+    {
+        "Example": "Don’t worry about tomorrow.",
+        "IpaEx": "dəʊnt ˈwʌri əˈbaʊt təˈmɒrəʊ.",
+        "MeanEx": "Đừng lo lắng về ngày mai."
+    },
+    {
+        "Example": "My doctor offered me a range of options.",
+        "IpaEx": "maɪ ˈdɒktər ˈɒfəd miː ə reɪnʤ ɒv ˈɒpʃənz.",
+        "MeanEx": "Bác sĩ của tôi đã đưa ra cho tôi một loạt các lựa chọn."
+    },
+    {
+        "Example": "Can you mention me in your story?",
+        "IpaEx": "kæn juː ˈmɛnʃən miː ɪn jɔː ˈstɔːri?",
+        "MeanEx": "Bạn có thể nhắc đến tôi trong câu chuyện của bạn không?"
+    },
+    {
+        "Example": "Rather than focusing on the bad things, let’s be grateful for the good things.",
+        "IpaEx": "ˈrɑːðə ðæn ˈfəʊkəsɪŋ ɒn ðə bæd θɪŋz, lɛts biː ˈgreɪtfʊl fɔː ðə gʊd θɪŋz.",
+        "MeanEx": "Thay vì tập trung vào những điều tồi tệ, chúng ta hãy biết ơn những điều tốt đẹp."
+    },
+    {
+        "Example": "I don’t want to move far from my family.",
+        "IpaEx": "aɪ dəʊnt wɒnt tuː muːv fɑː frɒm maɪ ˈfæmɪli.",
+        "MeanEx": "Tôi không muốn xa gia đình."
+    },
+    {
+        "Example": "That poem about life is deep.",
+        "IpaEx": "ðæt ˈpəʊɪm əˈbaʊt laɪf ɪz diːp.",
+        "MeanEx": "Bài thơ về cuộc đời ấy thật sâu sắc."
+    },
+    {
+        "Example": "Please face front.",
+        "IpaEx": "pliːz feɪs frʌnt.",
+        "MeanEx": "Hãy quay mặt về phía trước."
+    },
+    {
+        "Example": "Please do not stand so close to the edge of the cliff.",
+        "IpaEx": "pliːz duː nɒt stænd səʊ kləʊs tuː ði ɛʤ ɒv ðə klɪf.",
+        "MeanEx": "Xin đừng đứng sát mép vách đá."
+    },
+    {
+        "Example": "These potato chips are in an individual serving size package.",
+        "IpaEx": "ðiːz pəˈteɪtəʊ ʧɪps ɑːr ɪn ən ˌɪndɪˈvɪdjʊəl ˈsɜːvɪŋ saɪz ˈpækɪʤ.",
+        "MeanEx": "Những miếng khoai tây chiên này nằm trong một gói kích thước khẩu phần riêng lẻ."
+    },
+    {
+        "Example": "Could you be more specific?",
+        "IpaEx": "kʊd juː biː mɔː spɪˈsɪfɪk?",
+        "MeanEx": "Bạn có thể đặc sắc hơn không?"
+    },
+    {
+        "Example": "You are a good writer.",
+        "IpaEx": "juː ɑːr ə gʊd ˈraɪtə.",
+        "MeanEx": "Bạn là một nhà văn giỏi."
+    },
+    {
+        "Example": "Stay out of trouble.",
+        "IpaEx": "steɪ aʊt ɒv ˈtrʌbl.",
+        "MeanEx": "Tránh xa rắc rối."
+    },
+    {
+        "Example": "It is necessary to sleep.",
+        "IpaEx": "ɪt ɪz ˈnɛsɪsəri tuː sliːp.",
+        "MeanEx": "Nó là cần thiết để ngủ."
+    },
+    {
+        "Example": "Throughout my life, I have always enjoyed reading.",
+        "IpaEx": "θru(ː)ˈaʊt maɪ laɪf, aɪ hæv ˈɔːlweɪz ɪnˈʤɔɪd ˈriːdɪŋ.",
+        "MeanEx": "Trong suốt cuộc đời mình, tôi luôn thích đọc sách."
+    },
+    {
+        "Example": "I challenge you to do better.",
+        "IpaEx": "aɪ ˈʧælɪnʤ juː tuː duː ˈbɛtə.",
+        "MeanEx": "Tôi thách thức bạn làm tốt hơn."
+    },
+    {
+        "Example": "Do you have any fears?",
+        "IpaEx": "duː juː hæv ˈɛni fɪəz?",
+        "MeanEx": "Bạn có sợ hãi gì không?"
+    },
+    {
+        "Example": "You do not have to shoulder all the work on your own.",
+        "IpaEx": "juː duː nɒt hæv tuː ˈʃəʊldər ɔːl ðə wɜːk ɒn jɔːr əʊn.",
+        "MeanEx": "Bạn không nhất thiết phải tự mình gánh vác mọi công việc."
+    },
+    {
+        "Example": "Have you attended any institution of higher learning?",
+        "IpaEx": "hæv juː əˈtɛndɪd ˈɛni ˌɪnstɪˈtjuːʃən ɒv ˈhaɪə ˈlɜːnɪŋ?",
+        "MeanEx": "Bạn đã tham dự bất kỳ cơ sở giáo dục đại học nào chưa?"
+    },
+    {
+        "Example": "I am a middle child with one older brother and one younger sister.",
+        "IpaEx": "aɪ æm ə ˈmɪdl ʧaɪld wɪð wʌn ˈəʊldə ˈbrʌðər ænd wʌn ˈjʌŋə ˈsɪstə.",
+        "MeanEx": "Tôi là con giữa với một anh trai và một em gái."
+    },
+    {
+        "Example": "I want to sail the seven seas.",
+        "IpaEx": "aɪ wɒnt tuː seɪl ðə ˈsɛvn siːz.",
+        "MeanEx": "Tôi muốn chèo thuyền bảy biển."
+    },
+    {
+        "Example": "I have a dream.",
+        "IpaEx": "aɪ hæv ə driːm.",
+        "MeanEx": "Tôi có một giấc mơ."
+    },
+    {
+        "Example": "A bar is a place where alcohol is served.",
+        "IpaEx": "ə bɑːr ɪz ə pleɪs weər ˈælkəhɒl ɪz sɜːvd.",
+        "MeanEx": "Quầy bar là nơi phục vụ rượu."
+    },
+    {
+        "Example": "You are beautiful.",
+        "IpaEx": "juː ɑː ˈbjuːtəfʊl.",
+        "MeanEx": "Bạn thật đẹp."
+    },
+    {
+        "Example": "Do you own property, like a house?",
+        "IpaEx": "duː juː əʊn ˈprɒpəti, laɪk ə haʊs?",
+        "MeanEx": "Bạn có sở hữu tài sản, chẳng hạn như một ngôi nhà?"
+    },
+    {
+        "Example": "Instead of eating cake, I will have fruit.",
+        "IpaEx": "ɪnˈstɛd ɒv ˈiːtɪŋ keɪk, aɪ wɪl hæv fruːt.",
+        "MeanEx": "Thay vì ăn bánh, tôi sẽ có trái cây."
+    },
+    {
+        "Example": "I am always looking for ways to improve.",
+        "IpaEx": "aɪ æm ˈɔːlweɪz ˈlʊkɪŋ fɔː weɪz tuː ɪmˈpruːv.",
+        "MeanEx": "Tôi luôn tìm cách để cải thiện."
+    },
+    {
+        "Example": "When I moved, I realized I have a lot of stuff!",
+        "IpaEx": "wɛn aɪ muːvd, aɪ ˈrɪəlaɪzd aɪ hæv ə lɒt ɒv stʌf!",
+        "MeanEx": "Khi tôi chuyển đi, tôi nhận ra rằng tôi có rất nhiều thứ!"
+    },
+    {
+        "Example": "I claim to be a fast reader, but actually, I am average.",
+        "IpaEx": "aɪ kleɪm tuː biː ə fɑːst ˈriːdə, bʌt ˈækʧʊəli, aɪ æm ˈævərɪʤ.",
+        "MeanEx": "Tôi tự nhận là một người đọc nhanh, nhưng thực ra, tôi ở mức trung bình."
+    }
+]

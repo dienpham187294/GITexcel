@@ -1,0 +1,5002 @@
+[
+    {
+        "Word": "Be",
+        "Ipa": "biː",
+        "Mean": "Là"
+    },
+    {
+        "Word": "And",
+        "Ipa": "ænd",
+        "Mean": "Và"
+    },
+    {
+        "Word": "Of",
+        "Ipa": "ɒv",
+        "Mean": "Của"
+    },
+    {
+        "Word": "A",
+        "Ipa": "eɪ",
+        "Mean": "Một"
+    },
+    {
+        "Word": "In",
+        "Ipa": "ɪn",
+        "Mean": "Trong"
+    },
+    {
+        "Word": "To",
+        "Ipa": "tuː",
+        "Mean": "Đến"
+    },
+    {
+        "Word": "Have",
+        "Ipa": "hæv",
+        "Mean": "Có"
+    },
+    {
+        "Word": "Too",
+        "Ipa": "tuː",
+        "Mean": "Quá"
+    },
+    {
+        "Word": "It",
+        "Ipa": "ɪt",
+        "Mean": "Nó"
+    },
+    {
+        "Word": "I",
+        "Ipa": "aɪ",
+        "Mean": "Tôi"
+    },
+    {
+        "Word": "That",
+        "Ipa": "ðæt",
+        "Mean": "Điều đó"
+    },
+    {
+        "Word": "For",
+        "Ipa": "fɔː",
+        "Mean": "Vì"
+    },
+    {
+        "Word": "You",
+        "Ipa": "juː",
+        "Mean": "Bạn"
+    },
+    {
+        "Word": "He",
+        "Ipa": "hiː",
+        "Mean": "Anh ta"
+    },
+    {
+        "Word": "With",
+        "Ipa": "wɪð",
+        "Mean": "Với"
+    },
+    {
+        "Word": "On",
+        "Ipa": "ɒn",
+        "Mean": "Trên"
+    },
+    {
+        "Word": "Do",
+        "Ipa": "duː",
+        "Mean": "Làm"
+    },
+    {
+        "Word": "Say",
+        "Ipa": "seɪ",
+        "Mean": "Nói"
+    },
+    {
+        "Word": "This",
+        "Ipa": "ðɪs",
+        "Mean": "Cái này"
+    },
+    {
+        "Word": "They",
+        "Ipa": "ðeɪ",
+        "Mean": "Họ"
+    },
+    {
+        "Word": "At",
+        "Ipa": "æt",
+        "Mean": "Tại"
+    },
+    {
+        "Word": "But",
+        "Ipa": "bʌt",
+        "Mean": "Nhưng"
+    },
+    {
+        "Word": "We",
+        "Ipa": "wiː",
+        "Mean": "chúng tôi"
+    },
+    {
+        "Word": "His",
+        "Ipa": "hɪz",
+        "Mean": "Của anh ấy"
+    },
+    {
+        "Word": "From",
+        "Ipa": "frɒm",
+        "Mean": "Từ"
+    },
+    {
+        "Word": "That",
+        "Ipa": "ðæt",
+        "Mean": "Điều đó"
+    },
+    {
+        "Word": "Not",
+        "Ipa": "nɒt",
+        "Mean": "Không"
+    },
+    {
+        "Word": "Can’t",
+        "Ipa": "kɑːnt",
+        "Mean": "Không thể"
+    },
+    {
+        "Word": "Won’t",
+        "Ipa": "wəʊnt",
+        "Mean": "Sẽ không"
+    },
+    {
+        "Word": "By",
+        "Ipa": "baɪ",
+        "Mean": "Qua"
+    },
+    {
+        "Word": "She",
+        "Ipa": "ʃiː",
+        "Mean": "Bà ấy"
+    },
+    {
+        "Word": "Or",
+        "Ipa": "ɔː",
+        "Mean": "Hoặc"
+    },
+    {
+        "Word": "As",
+        "Ipa": "æz",
+        "Mean": "Như"
+    },
+    {
+        "Word": "What",
+        "Ipa": "wɒt",
+        "Mean": "Gì"
+    },
+    {
+        "Word": "Go",
+        "Ipa": "gəʊ",
+        "Mean": "Đi"
+    },
+    {
+        "Word": "Their",
+        "Ipa": "ðeə",
+        "Mean": "Của chúng"
+    },
+    {
+        "Word": "Can",
+        "Ipa": "kæn",
+        "Mean": "Có thể"
+    },
+    {
+        "Word": "Who",
+        "Ipa": "huː",
+        "Mean": "Ai"
+    },
+    {
+        "Word": "Get",
+        "Ipa": "gɛt",
+        "Mean": "Mắc phải"
+    },
+    {
+        "Word": "If",
+        "Ipa": "ɪf",
+        "Mean": "Nếu"
+    },
+    {
+        "Word": "Would",
+        "Ipa": "wʊd",
+        "Mean": "Sẽ"
+    },
+    {
+        "Word": "Her",
+        "Ipa": "hɜː",
+        "Mean": "Bà ấy"
+    },
+    {
+        "Word": "All",
+        "Ipa": "ɔːl",
+        "Mean": "Tất cả các"
+    },
+    {
+        "Word": "My",
+        "Ipa": "maɪ",
+        "Mean": "Của tôi"
+    },
+    {
+        "Word": "Make",
+        "Ipa": "meɪk",
+        "Mean": "Làm"
+    },
+    {
+        "Word": "About",
+        "Ipa": "əˈbaʊt",
+        "Mean": "Về"
+    },
+    {
+        "Word": "Know",
+        "Ipa": "nəʊ",
+        "Mean": "Biết rôi"
+    },
+    {
+        "Word": "Will",
+        "Ipa": "wɪl",
+        "Mean": "Sẽ"
+    },
+    {
+        "Word": "As",
+        "Ipa": "æz",
+        "Mean": "Như"
+    },
+    {
+        "Word": "Up",
+        "Ipa": "ʌp",
+        "Mean": "Hướng lên"
+    },
+    {
+        "Word": "One",
+        "Ipa": "wʌn",
+        "Mean": "Một"
+    },
+    {
+        "Word": "Time",
+        "Ipa": "taɪm",
+        "Mean": "Thời gian"
+    },
+    {
+        "Word": "There",
+        "Ipa": "ðeə",
+        "Mean": "Ở đó"
+    },
+    {
+        "Word": "Year",
+        "Ipa": "jɪə",
+        "Mean": "Năm"
+    },
+    {
+        "Word": "So",
+        "Ipa": "səʊ",
+        "Mean": "Cho nên"
+    },
+    {
+        "Word": "Think",
+        "Ipa": "θɪŋk",
+        "Mean": "Nghĩ"
+    },
+    {
+        "Word": "When",
+        "Ipa": "wɛn",
+        "Mean": "Khi nào"
+    },
+    {
+        "Word": "Which",
+        "Ipa": "wɪʧ",
+        "Mean": "Cái mà"
+    },
+    {
+        "Word": "Them",
+        "Ipa": "ðɛm",
+        "Mean": "Họ"
+    },
+    {
+        "Word": "Some",
+        "Ipa": "sʌm",
+        "Mean": "Một vài"
+    },
+    {
+        "Word": "Me",
+        "Ipa": "miː",
+        "Mean": "Tôi"
+    },
+    {
+        "Word": "People",
+        "Ipa": "ˈpiːpl",
+        "Mean": "Mọi người"
+    },
+    {
+        "Word": "Take",
+        "Ipa": "teɪk",
+        "Mean": "Lấy"
+    },
+    {
+        "Word": "Out",
+        "Ipa": "aʊt",
+        "Mean": "Ngoài"
+    },
+    {
+        "Word": "Into",
+        "Ipa": "ˈɪntuː",
+        "Mean": "Vào trong"
+    },
+    {
+        "Word": "Just",
+        "Ipa": "ʤʌst",
+        "Mean": "Chỉ cần"
+    },
+    {
+        "Word": "See",
+        "Ipa": "siː",
+        "Mean": "Xem"
+    },
+    {
+        "Word": "Him",
+        "Ipa": "hɪm",
+        "Mean": "Anh ta"
+    },
+    {
+        "Word": "Your",
+        "Ipa": "jɔː",
+        "Mean": "Của bạn"
+    },
+    {
+        "Word": "Come",
+        "Ipa": "kʌm",
+        "Mean": "Đến"
+    },
+    {
+        "Word": "Could",
+        "Ipa": "kʊd",
+        "Mean": "Có thể"
+    },
+    {
+        "Word": "Now",
+        "Ipa": "naʊ",
+        "Mean": "Bây giờ"
+    },
+    {
+        "Word": "Than",
+        "Ipa": "ðæn",
+        "Mean": "Hơn"
+    },
+    {
+        "Word": "Like",
+        "Ipa": "laɪk",
+        "Mean": "Như"
+    },
+    {
+        "Word": "Other",
+        "Ipa": "ˈʌðə",
+        "Mean": "Khác"
+    },
+    {
+        "Word": "How",
+        "Ipa": "haʊ",
+        "Mean": "Thế nào"
+    },
+    {
+        "Word": "Then",
+        "Ipa": "ðɛn",
+        "Mean": "sau đó"
+    },
+    {
+        "Word": "Its",
+        "Ipa": "ɪts",
+        "Mean": "Của nó"
+    },
+    {
+        "Word": "Our",
+        "Ipa": "ˈaʊə",
+        "Mean": "Của chúng ta"
+    },
+    {
+        "Word": "Two",
+        "Ipa": "tuː",
+        "Mean": "Hai"
+    },
+    {
+        "Word": "More",
+        "Ipa": "mɔː",
+        "Mean": "Hơn"
+    },
+    {
+        "Word": "These",
+        "Ipa": "ðiːz",
+        "Mean": "Này"
+    },
+    {
+        "Word": "Want",
+        "Ipa": "wɒnt",
+        "Mean": "Muốn"
+    },
+    {
+        "Word": "Way",
+        "Ipa": "weɪ",
+        "Mean": "Đường"
+    },
+    {
+        "Word": "Look",
+        "Ipa": "lʊk",
+        "Mean": "Nhìn"
+    },
+    {
+        "Word": "First",
+        "Ipa": "fɜːst",
+        "Mean": "Ngày thứ nhất"
+    },
+    {
+        "Word": "Also",
+        "Ipa": "ˈɔːlsəʊ",
+        "Mean": "Cũng thế"
+    },
+    {
+        "Word": "New",
+        "Ipa": "njuː",
+        "Mean": "Mới mẻ"
+    },
+    {
+        "Word": "Because",
+        "Ipa": "bɪˈkɒz",
+        "Mean": "Tại vì"
+    },
+    {
+        "Word": "Day",
+        "Ipa": "deɪ",
+        "Mean": "Ngày"
+    },
+    {
+        "Word": "More",
+        "Ipa": "mɔː",
+        "Mean": "Hơn"
+    },
+    {
+        "Word": "Use",
+        "Ipa": "juːz",
+        "Mean": "Sử dụng"
+    },
+    {
+        "Word": "No",
+        "Ipa": "nəʊ",
+        "Mean": "Không"
+    },
+    {
+        "Word": "Man",
+        "Ipa": "mæn",
+        "Mean": "Người đàn ông"
+    },
+    {
+        "Word": "Find",
+        "Ipa": "faɪnd",
+        "Mean": "Tìm thấy"
+    },
+    {
+        "Word": "Here",
+        "Ipa": "hɪə",
+        "Mean": "Đây"
+    },
+    {
+        "Word": "Thing",
+        "Ipa": "θɪŋ",
+        "Mean": "Điều"
+    },
+    {
+        "Word": "Give",
+        "Ipa": "gɪv",
+        "Mean": "Cho"
+    },
+    {
+        "Word": "Many",
+        "Ipa": "ˈmɛni",
+        "Mean": "Nhiều"
+    },
+    {
+        "Word": "Well",
+        "Ipa": "wɛl",
+        "Mean": "Tốt"
+    },
+    {
+        "Word": "Only",
+        "Ipa": "ˈəʊnli",
+        "Mean": "Chỉ còn"
+    },
+    {
+        "Word": "Those",
+        "Ipa": "ðəʊz",
+        "Mean": "Những thứ kia"
+    },
+    {
+        "Word": "Tell",
+        "Ipa": "tɛl",
+        "Mean": "Noi"
+    },
+    {
+        "Word": "One",
+        "Ipa": "wʌn",
+        "Mean": "Một"
+    },
+    {
+        "Word": "Very",
+        "Ipa": "ˈvɛri",
+        "Mean": "Hết sức"
+    },
+    {
+        "Word": "Her",
+        "Ipa": "hɜː",
+        "Mean": "Bà ấy"
+    },
+    {
+        "Word": "Even",
+        "Ipa": "ˈiːvən",
+        "Mean": "Thậm chí"
+    },
+    {
+        "Word": "Back",
+        "Ipa": "bæk",
+        "Mean": "Mặt sau"
+    },
+    {
+        "Word": "Any",
+        "Ipa": "ˈɛni",
+        "Mean": "Không tí nào"
+    },
+    {
+        "Word": "Good",
+        "Ipa": "gʊd",
+        "Mean": "Tốt"
+    },
+    {
+        "Word": "Woman",
+        "Ipa": "ˈwʊmən",
+        "Mean": "Người đàn bà"
+    },
+    {
+        "Word": "Through",
+        "Ipa": "θruː",
+        "Mean": "Bởi vì"
+    },
+    {
+        "Word": "Us",
+        "Ipa": "ʌs",
+        "Mean": "Chúng ta"
+    },
+    {
+        "Word": "Life",
+        "Ipa": "laɪf",
+        "Mean": "Sự sống"
+    },
+    {
+        "Word": "Child",
+        "Ipa": "ʧaɪld",
+        "Mean": "Đứa trẻ"
+    },
+    {
+        "Word": "There",
+        "Ipa": "ðeə",
+        "Mean": "Ở đó"
+    },
+    {
+        "Word": "Work",
+        "Ipa": "wɜːk",
+        "Mean": "Công việc"
+    },
+    {
+        "Word": "Down",
+        "Ipa": "daʊn",
+        "Mean": "Xuống"
+    },
+    {
+        "Word": "May",
+        "Ipa": "meɪ",
+        "Mean": "Có thể"
+    },
+    {
+        "Word": "After",
+        "Ipa": "ˈɑːftə",
+        "Mean": "Sau"
+    },
+    {
+        "Word": "Should",
+        "Ipa": "ʃʊd",
+        "Mean": "Nên"
+    },
+    {
+        "Word": "Call",
+        "Ipa": "kɔːl",
+        "Mean": "Gọi điện"
+    },
+    {
+        "Word": "World",
+        "Ipa": "wɜːld",
+        "Mean": "Thế giới"
+    },
+    {
+        "Word": "Over",
+        "Ipa": "ˈəʊvə",
+        "Mean": "Kết thúc"
+    },
+    {
+        "Word": "School",
+        "Ipa": "skuːl",
+        "Mean": "Trường học"
+    },
+    {
+        "Word": "Still",
+        "Ipa": "stɪl",
+        "Mean": "Vẫn"
+    },
+    {
+        "Word": "Try",
+        "Ipa": "traɪ",
+        "Mean": "Thử"
+    },
+    {
+        "Word": "In",
+        "Ipa": "ɪn",
+        "Mean": "Trong"
+    },
+    {
+        "Word": "As",
+        "Ipa": "æz",
+        "Mean": "Như"
+    },
+    {
+        "Word": "Last",
+        "Ipa": "lɑːst",
+        "Mean": "Cuối"
+    },
+    {
+        "Word": "Ask",
+        "Ipa": "ɑːsk",
+        "Mean": "Hỏi"
+    },
+    {
+        "Word": "Need",
+        "Ipa": "niːd",
+        "Mean": "Nhu cầu"
+    },
+    {
+        "Word": "Too",
+        "Ipa": "tuː",
+        "Mean": "Quá"
+    },
+    {
+        "Word": "Feel",
+        "Ipa": "fiːl",
+        "Mean": "Cảm xúc"
+    },
+    {
+        "Word": "Three",
+        "Ipa": "θriː",
+        "Mean": "Số ba"
+    },
+    {
+        "Word": "When",
+        "Ipa": "wɛn",
+        "Mean": "Khi nào"
+    },
+    {
+        "Word": "State",
+        "Ipa": "steɪt",
+        "Mean": "Trạng thái"
+    },
+    {
+        "Word": "Never",
+        "Ipa": "ˈnɛvə",
+        "Mean": "Không bao giờ"
+    },
+    {
+        "Word": "Become",
+        "Ipa": "bɪˈkʌm",
+        "Mean": "Trở nên"
+    },
+    {
+        "Word": "Between",
+        "Ipa": "bɪˈtwiːn",
+        "Mean": "Ở giữa"
+    },
+    {
+        "Word": "High",
+        "Ipa": "haɪ",
+        "Mean": "Cao"
+    },
+    {
+        "Word": "Really",
+        "Ipa": "ˈrɪəli",
+        "Mean": "Thật sự"
+    },
+    {
+        "Word": "Something",
+        "Ipa": "ˈsʌmθɪŋ",
+        "Mean": "Thứ gì đó"
+    },
+    {
+        "Word": "Most",
+        "Ipa": "məʊst",
+        "Mean": "Hầu hết"
+    },
+    {
+        "Word": "Another",
+        "Ipa": "əˈnʌðə",
+        "Mean": "Nữa"
+    },
+    {
+        "Word": "Much",
+        "Ipa": "mʌʧ",
+        "Mean": "Nhiều"
+    },
+    {
+        "Word": "Family",
+        "Ipa": "ˈfæmɪli",
+        "Mean": "Gia đình"
+    },
+    {
+        "Word": "Own",
+        "Ipa": "əʊn",
+        "Mean": "Sở hữu"
+    },
+    {
+        "Word": "Out",
+        "Ipa": "aʊt",
+        "Mean": "Ngoài"
+    },
+    {
+        "Word": "Leave",
+        "Ipa": "liːv",
+        "Mean": "Rời bỏ"
+    },
+    {
+        "Word": "Put",
+        "Ipa": "pʊt",
+        "Mean": "Đặt"
+    },
+    {
+        "Word": "Old",
+        "Ipa": "əʊld",
+        "Mean": "Cũ"
+    },
+    {
+        "Word": "While",
+        "Ipa": "waɪl",
+        "Mean": "Trong khi"
+    },
+    {
+        "Word": "Mean",
+        "Ipa": "miːn",
+        "Mean": "Nghĩa là"
+    },
+    {
+        "Word": "On",
+        "Ipa": "ɒn",
+        "Mean": "Trên"
+    },
+    {
+        "Word": "Keep",
+        "Ipa": "kiːp",
+        "Mean": "Giữ"
+    },
+    {
+        "Word": "Student",
+        "Ipa": "ˈstjuːdənt",
+        "Mean": "Sinh viên"
+    },
+    {
+        "Word": "Why",
+        "Ipa": "waɪ",
+        "Mean": "Tại sao"
+    },
+    {
+        "Word": "Let",
+        "Ipa": "lɛt",
+        "Mean": "Cho phép"
+    },
+    {
+        "Word": "Great",
+        "Ipa": "greɪt",
+        "Mean": "Tuyệt quá"
+    },
+    {
+        "Word": "Same",
+        "Ipa": "seɪm",
+        "Mean": "Giống nhau"
+    },
+    {
+        "Word": "Big",
+        "Ipa": "bɪg",
+        "Mean": "To lớn"
+    },
+    {
+        "Word": "Group",
+        "Ipa": "gruːp",
+        "Mean": "Tập đoàn"
+    },
+    {
+        "Word": "Begin",
+        "Ipa": "bɪˈgɪn",
+        "Mean": "Bắt đầu"
+    },
+    {
+        "Word": "Seem",
+        "Ipa": "siːm",
+        "Mean": "Có vẻ"
+    },
+    {
+        "Word": "Country",
+        "Ipa": "ˈkʌntri",
+        "Mean": "Quốc gia"
+    },
+    {
+        "Word": "Help",
+        "Ipa": "hɛlp",
+        "Mean": "Giúp đỡ"
+    },
+    {
+        "Word": "Talk",
+        "Ipa": "tɔːk",
+        "Mean": "Nói chuyện"
+    },
+    {
+        "Word": "Where",
+        "Ipa": "weə",
+        "Mean": "Ở đâu"
+    },
+    {
+        "Word": "Turn",
+        "Ipa": "tɜːn",
+        "Mean": "Xoay"
+    },
+    {
+        "Word": "Problem",
+        "Ipa": "ˈprɒbləm",
+        "Mean": "Vấn đề"
+    },
+    {
+        "Word": "Every",
+        "Ipa": "ˈɛvri",
+        "Mean": "Mỗi"
+    },
+    {
+        "Word": "Start",
+        "Ipa": "stɑːt",
+        "Mean": "Khởi đầu"
+    },
+    {
+        "Word": "Hand",
+        "Ipa": "hænd",
+        "Mean": "Tay"
+    },
+    {
+        "Word": "Might",
+        "Ipa": "maɪt",
+        "Mean": "Có thể"
+    },
+    {
+        "Word": "American",
+        "Ipa": "əˈmɛrɪkən",
+        "Mean": "Người Mỹ"
+    },
+    {
+        "Word": "Show",
+        "Ipa": "ʃəʊ",
+        "Mean": "Thể hiện"
+    },
+    {
+        "Word": "Part",
+        "Ipa": "pɑːt",
+        "Mean": "Phần"
+    },
+    {
+        "Word": "About",
+        "Ipa": "əˈbaʊt",
+        "Mean": "Về"
+    },
+    {
+        "Word": "Against",
+        "Ipa": "əˈgɛnst",
+        "Mean": "Chống lại"
+    },
+    {
+        "Word": "Place",
+        "Ipa": "pleɪs",
+        "Mean": "Nơi"
+    },
+    {
+        "Word": "Over",
+        "Ipa": "ˈəʊvə",
+        "Mean": "Kết thúc"
+    },
+    {
+        "Word": "Such",
+        "Ipa": "sʌʧ",
+        "Mean": "Như là"
+    },
+    {
+        "Word": "Again",
+        "Ipa": "əˈgɛn",
+        "Mean": "Lần nữa"
+    },
+    {
+        "Word": "Few",
+        "Ipa": "fjuː",
+        "Mean": "Một vài"
+    },
+    {
+        "Word": "Case",
+        "Ipa": "keɪs",
+        "Mean": "Trường hợp"
+    },
+    {
+        "Word": "Most",
+        "Ipa": "məʊst",
+        "Mean": "Hầu hết"
+    },
+    {
+        "Word": "Week",
+        "Ipa": "wiːk",
+        "Mean": "Tuần"
+    },
+    {
+        "Word": "Company",
+        "Ipa": "ˈkʌmpəni",
+        "Mean": "Công ty"
+    },
+    {
+        "Word": "Where",
+        "Ipa": "weə",
+        "Mean": "Ở đâu"
+    },
+    {
+        "Word": "System",
+        "Ipa": "ˈsɪstɪm",
+        "Mean": "Hệ thống"
+    },
+    {
+        "Word": "Each",
+        "Ipa": "iːʧ",
+        "Mean": "Mỗi"
+    },
+    {
+        "Word": "Right",
+        "Ipa": "raɪt",
+        "Mean": "Đúng"
+    },
+    {
+        "Word": "Program",
+        "Ipa": "ˈprəʊgræm",
+        "Mean": "Chương trình"
+    },
+    {
+        "Word": "Hear",
+        "Ipa": "hɪə",
+        "Mean": "Nghe"
+    },
+    {
+        "Word": "So",
+        "Ipa": "səʊ",
+        "Mean": "Cho nên"
+    },
+    {
+        "Word": "Question",
+        "Ipa": "ˈkwɛsʧən",
+        "Mean": "Câu hỏi"
+    },
+    {
+        "Word": "During",
+        "Ipa": "ˈdjʊərɪŋ",
+        "Mean": "Suốt trong"
+    },
+    {
+        "Word": "Work",
+        "Ipa": "wɜːk",
+        "Mean": "Công việc"
+    },
+    {
+        "Word": "Play",
+        "Ipa": "pleɪ",
+        "Mean": "Chơi"
+    },
+    {
+        "Word": "Government",
+        "Ipa": "ˈgʌvnmənt",
+        "Mean": "Chính quyền"
+    },
+    {
+        "Word": "Run",
+        "Ipa": "rʌn",
+        "Mean": "Chạy"
+    },
+    {
+        "Word": "Small",
+        "Ipa": "smɔːl",
+        "Mean": "Nhỏ"
+    },
+    {
+        "Word": "Number",
+        "Ipa": "ˈnʌmbə",
+        "Mean": "Con số"
+    },
+    {
+        "Word": "Off",
+        "Ipa": "ɒf",
+        "Mean": "Tắt"
+    },
+    {
+        "Word": "Always",
+        "Ipa": "ˈɔːlweɪz",
+        "Mean": "Luôn luôn"
+    },
+    {
+        "Word": "Move",
+        "Ipa": "muːv",
+        "Mean": "Di chuyển"
+    },
+    {
+        "Word": "Like",
+        "Ipa": "laɪk",
+        "Mean": "Như"
+    },
+    {
+        "Word": "Night",
+        "Ipa": "naɪt",
+        "Mean": "Đêm"
+    },
+    {
+        "Word": "Live",
+        "Ipa": "lɪv",
+        "Mean": "Sống"
+    },
+    {
+        "Word": "Mr.",
+        "Ipa": "Mr.",
+        "Mean": "Ông."
+    },
+    {
+        "Word": "Point",
+        "Ipa": "pɔɪnt",
+        "Mean": "Chỉ"
+    },
+    {
+        "Word": "Believe",
+        "Ipa": "bɪˈliːv",
+        "Mean": "Tin rằng"
+    },
+    {
+        "Word": "Hold",
+        "Ipa": "həʊld",
+        "Mean": "Tổ chức"
+    },
+    {
+        "Word": "Today",
+        "Ipa": "təˈdeɪ",
+        "Mean": "Hôm nay"
+    },
+    {
+        "Word": "Bring",
+        "Ipa": "brɪŋ",
+        "Mean": "Mang đến"
+    },
+    {
+        "Word": "Happen",
+        "Ipa": "ˈhæpən",
+        "Mean": "Xảy ra"
+    },
+    {
+        "Word": "Next",
+        "Ipa": "nɛkst",
+        "Mean": "Kế tiếp"
+    },
+    {
+        "Word": "Without",
+        "Ipa": "wɪˈðaʊt",
+        "Mean": "Không có"
+    },
+    {
+        "Word": "Before",
+        "Ipa": "bɪˈfɔː",
+        "Mean": "Trước"
+    },
+    {
+        "Word": "Large",
+        "Ipa": "lɑːʤ",
+        "Mean": "Lớn"
+    },
+    {
+        "Word": "All",
+        "Ipa": "ɔːl",
+        "Mean": "Tất cả các"
+    },
+    {
+        "Word": "Million",
+        "Ipa": "ˈmɪljən",
+        "Mean": "Triệu"
+    },
+    {
+        "Word": "Must",
+        "Ipa": "mʌst",
+        "Mean": "Cần phải"
+    },
+    {
+        "Word": "Home",
+        "Ipa": "həʊm",
+        "Mean": "Nhà"
+    },
+    {
+        "Word": "Under",
+        "Ipa": "ˈʌndə",
+        "Mean": "Ở dưới"
+    },
+    {
+        "Word": "Water",
+        "Ipa": "ˈwɔːtə",
+        "Mean": "Nước"
+    },
+    {
+        "Word": "Room",
+        "Ipa": "ruːm",
+        "Mean": "Phòng"
+    },
+    {
+        "Word": "Write",
+        "Ipa": "raɪt",
+        "Mean": "Viết"
+    },
+    {
+        "Word": "Mother",
+        "Ipa": "ˈmʌðə",
+        "Mean": "Mẹ"
+    },
+    {
+        "Word": "Area",
+        "Ipa": "ˈeərɪə",
+        "Mean": "Khu vực"
+    },
+    {
+        "Word": "National",
+        "Ipa": "ˈnæʃənl",
+        "Mean": "Quốc gia"
+    },
+    {
+        "Word": "Money",
+        "Ipa": "ˈmʌni",
+        "Mean": "Tiền bạc"
+    },
+    {
+        "Word": "Story",
+        "Ipa": "ˈstɔːri",
+        "Mean": "Câu chuyện"
+    },
+    {
+        "Word": "Young",
+        "Ipa": "jʌŋ",
+        "Mean": "Trẻ"
+    },
+    {
+        "Word": "Fact",
+        "Ipa": "fækt",
+        "Mean": "Thực tế"
+    },
+    {
+        "Word": "Month",
+        "Ipa": "mʌnθ",
+        "Mean": "Tháng"
+    },
+    {
+        "Word": "Different",
+        "Ipa": "ˈdɪfrənt",
+        "Mean": "Khác nhau"
+    },
+    {
+        "Word": "Lot",
+        "Ipa": "lɒt",
+        "Mean": "Rất nhiều"
+    },
+    {
+        "Word": "Right",
+        "Ipa": "raɪt",
+        "Mean": "Đúng"
+    },
+    {
+        "Word": "Study",
+        "Ipa": "ˈstʌdi",
+        "Mean": "Học"
+    },
+    {
+        "Word": "Book",
+        "Ipa": "bʊk",
+        "Mean": "Sách"
+    },
+    {
+        "Word": "Eye",
+        "Ipa": "aɪ",
+        "Mean": "Con mắt"
+    },
+    {
+        "Word": "Job",
+        "Ipa": "ʤɒb",
+        "Mean": "Công việc"
+    },
+    {
+        "Word": "Word",
+        "Ipa": "wɜːd",
+        "Mean": "Từ"
+    },
+    {
+        "Word": "Though",
+        "Ipa": "ðəʊ",
+        "Mean": "Tuy nhiên"
+    },
+    {
+        "Word": "Business",
+        "Ipa": "ˈbɪznɪs",
+        "Mean": "Kinh doanh"
+    },
+    {
+        "Word": "Issue",
+        "Ipa": "ˈɪʃuː",
+        "Mean": "Phát hành"
+    },
+    {
+        "Word": "Side",
+        "Ipa": "saɪd",
+        "Mean": "Bên"
+    },
+    {
+        "Word": "Kind",
+        "Ipa": "kaɪnd",
+        "Mean": "Tốt bụng"
+    },
+    {
+        "Word": "Four",
+        "Ipa": "fɔː",
+        "Mean": "Bốn"
+    },
+    {
+        "Word": "Head",
+        "Ipa": "hɛd",
+        "Mean": "Đầu"
+    },
+    {
+        "Word": "Far",
+        "Ipa": "fɑː",
+        "Mean": "Xa"
+    },
+    {
+        "Word": "Black",
+        "Ipa": "blæk",
+        "Mean": "Đen"
+    },
+    {
+        "Word": "Long",
+        "Ipa": "lɒŋ",
+        "Mean": "Dài"
+    },
+    {
+        "Word": "Both",
+        "Ipa": "bəʊθ",
+        "Mean": "Cả hai"
+    },
+    {
+        "Word": "Little",
+        "Ipa": "ˈlɪtl",
+        "Mean": "Nhỏ bé"
+    },
+    {
+        "Word": "House",
+        "Ipa": "haʊs",
+        "Mean": "Căn nhà"
+    },
+    {
+        "Word": "Yes",
+        "Ipa": "jɛs",
+        "Mean": "Đúng"
+    },
+    {
+        "Word": "After",
+        "Ipa": "ˈɑːftə",
+        "Mean": "Sau"
+    },
+    {
+        "Word": "Since",
+        "Ipa": "sɪns",
+        "Mean": "Từ"
+    },
+    {
+        "Word": "Long",
+        "Ipa": "lɒŋ",
+        "Mean": "Dài"
+    },
+    {
+        "Word": "Provide",
+        "Ipa": "prəˈvaɪd",
+        "Mean": "Cung cấp"
+    },
+    {
+        "Word": "Service",
+        "Ipa": "ˈsɜːvɪs",
+        "Mean": "Dịch vụ"
+    },
+    {
+        "Word": "Around",
+        "Ipa": "əˈraʊnd",
+        "Mean": "Vòng quanh"
+    },
+    {
+        "Word": "Friend",
+        "Ipa": "frɛnd",
+        "Mean": "Bạn bè"
+    },
+    {
+        "Word": "Important",
+        "Ipa": "ɪmˈpɔːtənt",
+        "Mean": "Quan trọng"
+    },
+    {
+        "Word": "Father",
+        "Ipa": "ˈfɑːðə",
+        "Mean": "Cha"
+    },
+    {
+        "Word": "Sit",
+        "Ipa": "sɪt",
+        "Mean": "Ngồi"
+    },
+    {
+        "Word": "Away",
+        "Ipa": "əˈweɪ",
+        "Mean": "Xa"
+    },
+    {
+        "Word": "Until",
+        "Ipa": "ənˈtɪl",
+        "Mean": "Cho đến khi"
+    },
+    {
+        "Word": "Power",
+        "Ipa": "ˈpaʊə",
+        "Mean": "Quyền lực"
+    },
+    {
+        "Word": "Hour",
+        "Ipa": "ˈaʊə",
+        "Mean": "Giờ"
+    },
+    {
+        "Word": "Game",
+        "Ipa": "geɪm",
+        "Mean": "Trò chơi"
+    },
+    {
+        "Word": "Often",
+        "Ipa": "ˈɒf(ə)n",
+        "Mean": "Thường"
+    },
+    {
+        "Word": "Yet",
+        "Ipa": "jɛt",
+        "Mean": "Chưa"
+    },
+    {
+        "Word": "Line",
+        "Ipa": "laɪn",
+        "Mean": "Đường kẻ"
+    },
+    {
+        "Word": "Political",
+        "Ipa": "pəˈlɪtɪkəl",
+        "Mean": "Chính trị"
+    },
+    {
+        "Word": "End",
+        "Ipa": "ɛnd",
+        "Mean": "Chấm dứt"
+    },
+    {
+        "Word": "Among",
+        "Ipa": "əˈmʌŋ",
+        "Mean": "Ở giữa"
+    },
+    {
+        "Word": "Ever",
+        "Ipa": "ˈɛvə",
+        "Mean": "Bao giờ"
+    },
+    {
+        "Word": "Stand",
+        "Ipa": "stænd",
+        "Mean": "Đứng"
+    },
+    {
+        "Word": "Bad",
+        "Ipa": "bæd",
+        "Mean": "Tồi tệ"
+    },
+    {
+        "Word": "Lose",
+        "Ipa": "luːz",
+        "Mean": "Mất"
+    },
+    {
+        "Word": "However",
+        "Ipa": "haʊˈɛvə",
+        "Mean": "Tuy nhiên"
+    },
+    {
+        "Word": "Member",
+        "Ipa": "ˈmɛmbə",
+        "Mean": "Thành viên"
+    },
+    {
+        "Word": "Pay",
+        "Ipa": "peɪ",
+        "Mean": "Chi trả"
+    },
+    {
+        "Word": "Law",
+        "Ipa": "lɔː",
+        "Mean": "Pháp luật"
+    },
+    {
+        "Word": "Meet",
+        "Ipa": "miːt",
+        "Mean": "Gặp"
+    },
+    {
+        "Word": "Car",
+        "Ipa": "kɑː",
+        "Mean": "Xe ô tô"
+    },
+    {
+        "Word": "City",
+        "Ipa": "ˈsɪti",
+        "Mean": "Thành phố"
+    },
+    {
+        "Word": "Almost",
+        "Ipa": "ˈɔːlməʊst",
+        "Mean": "Gần như"
+    },
+    {
+        "Word": "Include",
+        "Ipa": "ɪnˈkluːd",
+        "Mean": "Bao gồm"
+    },
+    {
+        "Word": "Continue",
+        "Ipa": "kənˈtɪnju(ː)",
+        "Mean": "Còn nữa"
+    },
+    {
+        "Word": "Set",
+        "Ipa": "sɛt",
+        "Mean": "Đặt"
+    },
+    {
+        "Word": "Later",
+        "Ipa": "ˈleɪtə",
+        "Mean": "Một lát sau"
+    },
+    {
+        "Word": "Community",
+        "Ipa": "kəˈmjuːnɪti",
+        "Mean": "Cộng đồng"
+    },
+    {
+        "Word": "Much",
+        "Ipa": "mʌʧ",
+        "Mean": "Nhiều"
+    },
+    {
+        "Word": "Name",
+        "Ipa": "neɪm",
+        "Mean": "Tên"
+    },
+    {
+        "Word": "Five",
+        "Ipa": "faɪv",
+        "Mean": "Năm"
+    },
+    {
+        "Word": "Once",
+        "Ipa": "wʌns",
+        "Mean": "Một lần"
+    },
+    {
+        "Word": "White",
+        "Ipa": "waɪt",
+        "Mean": "Trắng"
+    },
+    {
+        "Word": "Least",
+        "Ipa": "liːst",
+        "Mean": "Ít nhất"
+    },
+    {
+        "Word": "President",
+        "Ipa": "ˈprɛzɪdənt",
+        "Mean": "Chủ tịch"
+    },
+    {
+        "Word": "Learn",
+        "Ipa": "lɜːn",
+        "Mean": "Học"
+    },
+    {
+        "Word": "Real",
+        "Ipa": "rɪəl",
+        "Mean": "Thực tế"
+    },
+    {
+        "Word": "Change",
+        "Ipa": "ʧeɪnʤ",
+        "Mean": "Thay đổi"
+    },
+    {
+        "Word": "Team",
+        "Ipa": "tiːm",
+        "Mean": "Đội"
+    },
+    {
+        "Word": "Minute",
+        "Ipa": "ˈmɪnɪt",
+        "Mean": "Phút"
+    },
+    {
+        "Word": "Best",
+        "Ipa": "bɛst",
+        "Mean": "Tốt nhất"
+    },
+    {
+        "Word": "Several",
+        "Ipa": "ˈsɛvrəl",
+        "Mean": "Một số"
+    },
+    {
+        "Word": "Idea",
+        "Ipa": "aɪˈdɪə",
+        "Mean": "Ý tưởng"
+    },
+    {
+        "Word": "Kid",
+        "Ipa": "kɪd",
+        "Mean": "Đứa trẻ"
+    },
+    {
+        "Word": "Body",
+        "Ipa": "ˈbɒdi",
+        "Mean": "Thân hình"
+    },
+    {
+        "Word": "Information",
+        "Ipa": "ˌɪnfəˈmeɪʃən",
+        "Mean": "Thông tin"
+    },
+    {
+        "Word": "Nothing",
+        "Ipa": "ˈnʌθɪŋ",
+        "Mean": "Không"
+    },
+    {
+        "Word": "Ago",
+        "Ipa": "əˈgəʊ",
+        "Mean": "Trước kia"
+    },
+    {
+        "Word": "Right",
+        "Ipa": "raɪt",
+        "Mean": "Đúng"
+    },
+    {
+        "Word": "Lead",
+        "Ipa": "liːd",
+        "Mean": "Chì"
+    },
+    {
+        "Word": "Social",
+        "Ipa": "ˈsəʊʃəl",
+        "Mean": "Xã hội"
+    },
+    {
+        "Word": "Understand",
+        "Ipa": "ˌʌndəˈstænd",
+        "Mean": "Hiểu không"
+    },
+    {
+        "Word": "Whether",
+        "Ipa": "ˈwɛðə",
+        "Mean": "Liệu"
+    },
+    {
+        "Word": "Back",
+        "Ipa": "bæk",
+        "Mean": "Mặt sau"
+    },
+    {
+        "Word": "Watch",
+        "Ipa": "wɒʧ",
+        "Mean": "Sự canh gác"
+    },
+    {
+        "Word": "Together",
+        "Ipa": "təˈgɛðə",
+        "Mean": "Cùng với nhau"
+    },
+    {
+        "Word": "Follow",
+        "Ipa": "ˈfɒləʊ",
+        "Mean": "Theo dõi"
+    },
+    {
+        "Word": "Around",
+        "Ipa": "əˈraʊnd",
+        "Mean": "Vòng quanh"
+    },
+    {
+        "Word": "Parent",
+        "Ipa": "ˈpeərənt",
+        "Mean": "Cha mẹ"
+    },
+    {
+        "Word": "Only",
+        "Ipa": "ˈəʊnli",
+        "Mean": "Chỉ còn"
+    },
+    {
+        "Word": "Stop",
+        "Ipa": "stɒp",
+        "Mean": "Ngừng lại"
+    },
+    {
+        "Word": "Face",
+        "Ipa": "feɪs",
+        "Mean": "Đối mặt"
+    },
+    {
+        "Word": "Anything",
+        "Ipa": "ˈɛnɪθɪŋ",
+        "Mean": "Bất cứ điều gì"
+    },
+    {
+        "Word": "Create",
+        "Ipa": "kri(ː)ˈeɪt",
+        "Mean": "Tạo ra"
+    },
+    {
+        "Word": "Public",
+        "Ipa": "ˈpʌblɪk",
+        "Mean": "Công cộng"
+    },
+    {
+        "Word": "Already",
+        "Ipa": "ɔːlˈrɛdi",
+        "Mean": "Đã sẵn sàng"
+    },
+    {
+        "Word": "Speak",
+        "Ipa": "spiːk",
+        "Mean": "Nói"
+    },
+    {
+        "Word": "Others",
+        "Ipa": "ˈʌðəz",
+        "Mean": "Khác"
+    },
+    {
+        "Word": "Read",
+        "Ipa": "riːd",
+        "Mean": "Đọc"
+    },
+    {
+        "Word": "Level",
+        "Ipa": "ˈlɛvl",
+        "Mean": "Cấp độ"
+    },
+    {
+        "Word": "Allow",
+        "Ipa": "əˈlaʊ",
+        "Mean": "Cho phép"
+    },
+    {
+        "Word": "Add",
+        "Ipa": "æd",
+        "Mean": "Thêm vào"
+    },
+    {
+        "Word": "Office",
+        "Ipa": "ˈɒfɪs",
+        "Mean": "Văn phòng"
+    },
+    {
+        "Word": "Spend",
+        "Ipa": "spɛnd",
+        "Mean": "Tiêu"
+    },
+    {
+        "Word": "Door",
+        "Ipa": "dɔː",
+        "Mean": "Cửa"
+    },
+    {
+        "Word": "Health",
+        "Ipa": "hɛlθ",
+        "Mean": "Sức khỏe"
+    },
+    {
+        "Word": "Person",
+        "Ipa": "ˈpɜːsn",
+        "Mean": "Người"
+    },
+    {
+        "Word": "Art",
+        "Ipa": "ɑːt",
+        "Mean": "Mỹ thuật"
+    },
+    {
+        "Word": "Sure",
+        "Ipa": "ʃʊə",
+        "Mean": "Đảm bảo"
+    },
+    {
+        "Word": "Such",
+        "Ipa": "sʌʧ",
+        "Mean": "Như là"
+    },
+    {
+        "Word": "War",
+        "Ipa": "wɔː",
+        "Mean": "Chiến tranh"
+    },
+    {
+        "Word": "History",
+        "Ipa": "ˈhɪstəri",
+        "Mean": "Môn lịch sử"
+    },
+    {
+        "Word": "Party",
+        "Ipa": "ˈpɑːti",
+        "Mean": "Buổi tiệc"
+    },
+    {
+        "Word": "Within",
+        "Ipa": "wɪˈðɪn",
+        "Mean": "Ở trong"
+    },
+    {
+        "Word": "Grow",
+        "Ipa": "grəʊ",
+        "Mean": "Lớn lên"
+    },
+    {
+        "Word": "Result",
+        "Ipa": "rɪˈzʌlt",
+        "Mean": "Kết quả"
+    },
+    {
+        "Word": "Open",
+        "Ipa": "ˈəʊpən",
+        "Mean": "Mở"
+    },
+    {
+        "Word": "Change",
+        "Ipa": "ʧeɪnʤ",
+        "Mean": "Thay đổi"
+    },
+    {
+        "Word": "Morning",
+        "Ipa": "ˈmɔːnɪŋ",
+        "Mean": "Buổi sáng"
+    },
+    {
+        "Word": "Walk",
+        "Ipa": "wɔːk",
+        "Mean": "Đi bộ"
+    },
+    {
+        "Word": "Reason",
+        "Ipa": "ˈriːzn",
+        "Mean": "Lý do"
+    },
+    {
+        "Word": "Low",
+        "Ipa": "ləʊ",
+        "Mean": "Thấp"
+    },
+    {
+        "Word": "Win",
+        "Ipa": "wɪn",
+        "Mean": "Thắng lợi"
+    },
+    {
+        "Word": "Research",
+        "Ipa": "rɪˈsɜːʧ",
+        "Mean": "Tìm kiếm"
+    },
+    {
+        "Word": "Girl",
+        "Ipa": "gɜːl",
+        "Mean": "Cô gái"
+    },
+    {
+        "Word": "Guy",
+        "Ipa": "gaɪ",
+        "Mean": "Chàng trai"
+    },
+    {
+        "Word": "Early",
+        "Ipa": "ˈɜːli",
+        "Mean": "Sớm"
+    },
+    {
+        "Word": "Food",
+        "Ipa": "fuːd",
+        "Mean": "Món ăn"
+    },
+    {
+        "Word": "Before",
+        "Ipa": "bɪˈfɔː",
+        "Mean": "Trước"
+    },
+    {
+        "Word": "Moment",
+        "Ipa": "ˈməʊmənt",
+        "Mean": "Khoảng khăc"
+    },
+    {
+        "Word": "Himself",
+        "Ipa": "hɪmˈsɛlf",
+        "Mean": "Bản thân anh ấy"
+    },
+    {
+        "Word": "Air",
+        "Ipa": "eə",
+        "Mean": "Hàng không"
+    },
+    {
+        "Word": "Teacher",
+        "Ipa": "ˈtiːʧə",
+        "Mean": "Cô giáo"
+    },
+    {
+        "Word": "Force",
+        "Ipa": "fɔːs",
+        "Mean": "Lực lượng"
+    },
+    {
+        "Word": "Offer",
+        "Ipa": "ˈɒfə",
+        "Mean": "Phục vụ"
+    },
+    {
+        "Word": "Enough",
+        "Ipa": "ɪˈnʌf",
+        "Mean": "Đầy đủ"
+    },
+    {
+        "Word": "Both",
+        "Ipa": "bəʊθ",
+        "Mean": "Cả hai"
+    },
+    {
+        "Word": "Education",
+        "Ipa": "ˌɛdju(ː)ˈkeɪʃən",
+        "Mean": "Giáo dục"
+    },
+    {
+        "Word": "Across",
+        "Ipa": "əˈkrɒs",
+        "Mean": "Băng qua"
+    },
+    {
+        "Word": "Although",
+        "Ipa": "ɔːlˈðəʊ",
+        "Mean": "Mặc du"
+    },
+    {
+        "Word": "Remember",
+        "Ipa": "rɪˈmɛmbə",
+        "Mean": "Nhớ lại"
+    },
+    {
+        "Word": "Foot",
+        "Ipa": "fʊt",
+        "Mean": "Bàn Chân"
+    },
+    {
+        "Word": "Second",
+        "Ipa": "ˈsɛkənd",
+        "Mean": "Thứ hai"
+    },
+    {
+        "Word": "Boy",
+        "Ipa": "bɔɪ",
+        "Mean": "Cậu bé"
+    },
+    {
+        "Word": "Maybe",
+        "Ipa": "ˈmeɪbiː",
+        "Mean": "Có lẽ"
+    },
+    {
+        "Word": "Toward",
+        "Ipa": "təˈwɔːd",
+        "Mean": "Theo hướng"
+    },
+    {
+        "Word": "Able",
+        "Ipa": "ˈeɪbl",
+        "Mean": "Có thể"
+    },
+    {
+        "Word": "Age",
+        "Ipa": "eɪʤ",
+        "Mean": "Già đi"
+    },
+    {
+        "Word": "Off",
+        "Ipa": "ɒf",
+        "Mean": "Tắt"
+    },
+    {
+        "Word": "Policy",
+        "Ipa": "ˈpɒlɪsi",
+        "Mean": "Chính sách"
+    },
+    {
+        "Word": "Everything",
+        "Ipa": "ˈɛvrɪθɪŋ",
+        "Mean": "Mọi điều"
+    },
+    {
+        "Word": "Love",
+        "Ipa": "lʌv",
+        "Mean": "Yêu và quý"
+    },
+    {
+        "Word": "Process",
+        "Ipa": "ˈprəʊsɛs",
+        "Mean": "Tiến trình"
+    },
+    {
+        "Word": "Music",
+        "Ipa": "ˈmjuːzɪk",
+        "Mean": "Âm nhạc"
+    },
+    {
+        "Word": "Including",
+        "Ipa": "ɪnˈkluːdɪŋ",
+        "Mean": "Kể cả"
+    },
+    {
+        "Word": "Consider",
+        "Ipa": "kənˈsɪdə",
+        "Mean": "Coi như"
+    },
+    {
+        "Word": "Appear",
+        "Ipa": "əˈpɪə",
+        "Mean": "Hiện ra"
+    },
+    {
+        "Word": "Actually",
+        "Ipa": "ˈækʧʊəli",
+        "Mean": "Thực ra"
+    },
+    {
+        "Word": "Buy",
+        "Ipa": "baɪ",
+        "Mean": "Mua"
+    },
+    {
+        "Word": "Probably",
+        "Ipa": "ˈprɒbəbli",
+        "Mean": "Có thể"
+    },
+    {
+        "Word": "Human",
+        "Ipa": "ˈhjuːmən",
+        "Mean": "Nhân loại"
+    },
+    {
+        "Word": "Wait",
+        "Ipa": "weɪt",
+        "Mean": "Đợi đã"
+    },
+    {
+        "Word": "Serve",
+        "Ipa": "sɜːv",
+        "Mean": "Giao banh"
+    },
+    {
+        "Word": "Market",
+        "Ipa": "ˈmɑːkɪt",
+        "Mean": "Thị trường"
+    },
+    {
+        "Word": "Die",
+        "Ipa": "daɪ",
+        "Mean": "Chết"
+    },
+    {
+        "Word": "Send",
+        "Ipa": "sɛnd",
+        "Mean": "Gửi"
+    },
+    {
+        "Word": "Expect",
+        "Ipa": "ɪksˈpɛkt",
+        "Mean": "Chờ đợi"
+    },
+    {
+        "Word": "Home",
+        "Ipa": "həʊm",
+        "Mean": "Nhà"
+    },
+    {
+        "Word": "Sense",
+        "Ipa": "sɛns",
+        "Mean": "Giác quan"
+    },
+    {
+        "Word": "Build",
+        "Ipa": "bɪld",
+        "Mean": "Xây dựng"
+    },
+    {
+        "Word": "Stay",
+        "Ipa": "steɪ",
+        "Mean": "Ở lại"
+    },
+    {
+        "Word": "Fall",
+        "Ipa": "fɔːl",
+        "Mean": "Mùa thu"
+    },
+    {
+        "Word": "Oh",
+        "Ipa": "əʊ",
+        "Mean": "Ồ"
+    },
+    {
+        "Word": "Nation",
+        "Ipa": "ˈneɪʃən",
+        "Mean": "Dân tộc"
+    },
+    {
+        "Word": "Plan",
+        "Ipa": "plæn",
+        "Mean": "Kế hoạch"
+    },
+    {
+        "Word": "Cut",
+        "Ipa": "kʌt",
+        "Mean": "Cắt"
+    },
+    {
+        "Word": "College",
+        "Ipa": "ˈkɒlɪʤ",
+        "Mean": "Trường đại học"
+    },
+    {
+        "Word": "Interest",
+        "Ipa": "ˈɪntrɪst",
+        "Mean": "Quan tâm"
+    },
+    {
+        "Word": "Death",
+        "Ipa": "dɛθ",
+        "Mean": "Cái chết"
+    },
+    {
+        "Word": "Course",
+        "Ipa": "kɔːs",
+        "Mean": "Khóa học"
+    },
+    {
+        "Word": "Someone",
+        "Ipa": "ˈsʌmwʌn",
+        "Mean": "Người nào"
+    },
+    {
+        "Word": "Experience",
+        "Ipa": "ɪksˈpɪərɪəns",
+        "Mean": "Trải qua"
+    },
+    {
+        "Word": "Behind",
+        "Ipa": "bɪˈhaɪnd",
+        "Mean": "Phía sau"
+    },
+    {
+        "Word": "Reach",
+        "Ipa": "riːʧ",
+        "Mean": "Với tới"
+    },
+    {
+        "Word": "Local",
+        "Ipa": "ˈləʊkəl",
+        "Mean": "Địa phương"
+    },
+    {
+        "Word": "Kill",
+        "Ipa": "kɪl",
+        "Mean": "Giết"
+    },
+    {
+        "Word": "Six",
+        "Ipa": "sɪks",
+        "Mean": "Sáu"
+    },
+    {
+        "Word": "Remain",
+        "Ipa": "rɪˈmeɪn",
+        "Mean": "Duy trì"
+    },
+    {
+        "Word": "Effect",
+        "Ipa": "ɪˈfɛkt",
+        "Mean": "Hiệu ứng"
+    },
+    {
+        "Word": "Use",
+        "Ipa": "juːz",
+        "Mean": "Sử dụng"
+    },
+    {
+        "Word": "Yeah",
+        "Ipa": "jeə",
+        "Mean": "Ừ"
+    },
+    {
+        "Word": "Suggest",
+        "Ipa": "səˈʤɛst",
+        "Mean": "Đề xuất"
+    },
+    {
+        "Word": "Class",
+        "Ipa": "klɑːs",
+        "Mean": "Lớp"
+    },
+    {
+        "Word": "Control",
+        "Ipa": "kənˈtrəʊl",
+        "Mean": "Điều khiển"
+    },
+    {
+        "Word": "Raise",
+        "Ipa": "reɪz",
+        "Mean": "Nâng lên"
+    },
+    {
+        "Word": "Care",
+        "Ipa": "keə",
+        "Mean": "Quan tâm"
+    },
+    {
+        "Word": "Perhaps",
+        "Ipa": "pəˈhæps",
+        "Mean": "Có lẽ"
+    },
+    {
+        "Word": "Little",
+        "Ipa": "ˈlɪtl",
+        "Mean": "Nhỏ bé"
+    },
+    {
+        "Word": "Late",
+        "Ipa": "leɪt",
+        "Mean": "Muộn"
+    },
+    {
+        "Word": "Hard",
+        "Ipa": "hɑːd",
+        "Mean": "Cứng"
+    },
+    {
+        "Word": "Field",
+        "Ipa": "fiːld",
+        "Mean": "Đồng ruộng"
+    },
+    {
+        "Word": "Else",
+        "Ipa": "ɛls",
+        "Mean": "Khác"
+    },
+    {
+        "Word": "Pass",
+        "Ipa": "pɑːs",
+        "Mean": "Đi qua"
+    },
+    {
+        "Word": "Former",
+        "Ipa": "ˈfɔːmə",
+        "Mean": "Trước đây"
+    },
+    {
+        "Word": "Sell",
+        "Ipa": "sɛl",
+        "Mean": "Bán"
+    },
+    {
+        "Word": "Major",
+        "Ipa": "ˈmeɪʤə",
+        "Mean": "Lớn lao"
+    },
+    {
+        "Word": "Sometimes",
+        "Ipa": "ˈsʌmtaɪmz",
+        "Mean": "Đôi khi"
+    },
+    {
+        "Word": "Require",
+        "Ipa": "rɪˈkwaɪə",
+        "Mean": "Yêu cầu"
+    },
+    {
+        "Word": "Along",
+        "Ipa": "əˈlɒŋ",
+        "Mean": "Dọc theo"
+    },
+    {
+        "Word": "Development",
+        "Ipa": "dɪˈvɛləpmənt",
+        "Mean": "Sự phát triển"
+    },
+    {
+        "Word": "Themselves",
+        "Ipa": "ðəmˈsɛlvz",
+        "Mean": "Chúng tôi"
+    },
+    {
+        "Word": "Report",
+        "Ipa": "rɪˈpɔːt",
+        "Mean": "Báo cáo"
+    },
+    {
+        "Word": "Role",
+        "Ipa": "rəʊl",
+        "Mean": "Vai diễn"
+    },
+    {
+        "Word": "Better",
+        "Ipa": "ˈbɛtə",
+        "Mean": "Tốt hơn"
+    },
+    {
+        "Word": "Economic",
+        "Ipa": "ˌiːkəˈnɒmɪk",
+        "Mean": "Thuộc kinh tế"
+    },
+    {
+        "Word": "Effort",
+        "Ipa": "ˈɛfət",
+        "Mean": "Cố gắng"
+    },
+    {
+        "Word": "Up",
+        "Ipa": "ʌp",
+        "Mean": "Hướng lên"
+    },
+    {
+        "Word": "Decide",
+        "Ipa": "dɪˈsaɪd",
+        "Mean": "Quyết định"
+    },
+    {
+        "Word": "Rate",
+        "Ipa": "reɪt",
+        "Mean": "Tỷ lệ"
+    },
+    {
+        "Word": "Strong",
+        "Ipa": "strɒŋ",
+        "Mean": "Mạnh"
+    },
+    {
+        "Word": "Possible",
+        "Ipa": "ˈpɒsəbl",
+        "Mean": "Có thể được"
+    },
+    {
+        "Word": "Heart",
+        "Ipa": "hɑːt",
+        "Mean": "Quả tim"
+    },
+    {
+        "Word": "Drug",
+        "Ipa": "drʌg",
+        "Mean": "Thuốc"
+    },
+    {
+        "Word": "Show",
+        "Ipa": "ʃəʊ",
+        "Mean": "Thể hiện"
+    },
+    {
+        "Word": "Leader",
+        "Ipa": "ˈliːdə",
+        "Mean": "Lãnh đạo"
+    },
+    {
+        "Word": "Light",
+        "Ipa": "laɪt",
+        "Mean": "Nhẹ"
+    },
+    {
+        "Word": "Voice",
+        "Ipa": "vɔɪs",
+        "Mean": "Tiếng nói"
+    },
+    {
+        "Word": "Wife",
+        "Ipa": "waɪf",
+        "Mean": "Người vợ"
+    },
+    {
+        "Word": "Whole",
+        "Ipa": "həʊl",
+        "Mean": "Trọn"
+    },
+    {
+        "Word": "Police",
+        "Ipa": "pəˈliːs",
+        "Mean": "Cảnh sát viên"
+    },
+    {
+        "Word": "Mind",
+        "Ipa": "maɪnd",
+        "Mean": "Quan tâm"
+    },
+    {
+        "Word": "Finally",
+        "Ipa": "ˈfaɪnəli",
+        "Mean": "Cuối cùng"
+    },
+    {
+        "Word": "Pull",
+        "Ipa": "pʊl",
+        "Mean": "Sự lôi kéo"
+    },
+    {
+        "Word": "Return",
+        "Ipa": "rɪˈtɜːn",
+        "Mean": "Trở về"
+    },
+    {
+        "Word": "Free",
+        "Ipa": "friː",
+        "Mean": "Miễn phí"
+    },
+    {
+        "Word": "Military",
+        "Ipa": "ˈmɪlɪtəri",
+        "Mean": "Quân đội"
+    },
+    {
+        "Word": "Price",
+        "Ipa": "praɪs",
+        "Mean": "Giá"
+    },
+    {
+        "Word": "Report",
+        "Ipa": "rɪˈpɔːt",
+        "Mean": "Báo cáo"
+    },
+    {
+        "Word": "Less",
+        "Ipa": "lɛs",
+        "Mean": "Ít hơn"
+    },
+    {
+        "Word": "According",
+        "Ipa": "əˈkɔːdɪŋ",
+        "Mean": "Theo"
+    },
+    {
+        "Word": "Decision",
+        "Ipa": "dɪˈsɪʒən",
+        "Mean": "Quyết định"
+    },
+    {
+        "Word": "Explain",
+        "Ipa": "ɪksˈpleɪn",
+        "Mean": "Giải thích"
+    },
+    {
+        "Word": "Son",
+        "Ipa": "sʌn",
+        "Mean": "Con trai"
+    },
+    {
+        "Word": "Hope",
+        "Ipa": "həʊp",
+        "Mean": "Mong"
+    },
+    {
+        "Word": "Even",
+        "Ipa": "ˈiːvən",
+        "Mean": "Thậm chí"
+    },
+    {
+        "Word": "Develop",
+        "Ipa": "dɪˈvɛləp",
+        "Mean": "Phát triển, xây dựng"
+    },
+    {
+        "Word": "View",
+        "Ipa": "vjuː",
+        "Mean": "Lượt xem"
+    },
+    {
+        "Word": "Relationship",
+        "Ipa": "rɪˈleɪʃənʃɪp",
+        "Mean": "Mối quan hệ"
+    },
+    {
+        "Word": "Carry",
+        "Ipa": "ˈkæri",
+        "Mean": "Mang"
+    },
+    {
+        "Word": "Town",
+        "Ipa": "taʊn",
+        "Mean": "Thành phố"
+    },
+    {
+        "Word": "Road",
+        "Ipa": "rəʊd",
+        "Mean": "Đường"
+    },
+    {
+        "Word": "Drive",
+        "Ipa": "draɪv",
+        "Mean": "Lái xe"
+    },
+    {
+        "Word": "Arm",
+        "Ipa": "ɑːm",
+        "Mean": "Cánh tay"
+    },
+    {
+        "Word": "True",
+        "Ipa": "truː",
+        "Mean": "ĐÚNG VẬY"
+    },
+    {
+        "Word": "Federal",
+        "Ipa": "ˈfɛdərəl",
+        "Mean": "Liên bang"
+    },
+    {
+        "Word": "Break",
+        "Ipa": "breɪk",
+        "Mean": "Phá vỡ"
+    },
+    {
+        "Word": "Better",
+        "Ipa": "ˈbɛtə",
+        "Mean": "Tốt hơn"
+    },
+    {
+        "Word": "Difference",
+        "Ipa": "ˈdɪfrəns",
+        "Mean": "Sự khác biệt"
+    },
+    {
+        "Word": "Thank",
+        "Ipa": "θæŋk",
+        "Mean": "Cám ơn"
+    },
+    {
+        "Word": "Receive",
+        "Ipa": "rɪˈsiːv",
+        "Mean": "Nhận"
+    },
+    {
+        "Word": "Value",
+        "Ipa": "ˈvæljuː",
+        "Mean": "Giá trị"
+    },
+    {
+        "Word": "International",
+        "Ipa": "ˌɪntə(ː)ˈnæʃənl",
+        "Mean": "Quốc tế"
+    },
+    {
+        "Word": "Building",
+        "Ipa": "ˈbɪldɪŋ",
+        "Mean": "Xây dựng"
+    },
+    {
+        "Word": "Action",
+        "Ipa": "ˈækʃ(ə)n",
+        "Mean": "Hoạt động"
+    },
+    {
+        "Word": "Full",
+        "Ipa": "fʊl",
+        "Mean": "Đầy"
+    },
+    {
+        "Word": "Model",
+        "Ipa": "ˈmɒdl",
+        "Mean": "Mô hình"
+    },
+    {
+        "Word": "Join",
+        "Ipa": "ʤɔɪn",
+        "Mean": "Tham gia"
+    },
+    {
+        "Word": "Season",
+        "Ipa": "ˈsiːzn",
+        "Mean": "Mùa"
+    },
+    {
+        "Word": "Society",
+        "Ipa": "səˈsaɪəti",
+        "Mean": "Xã hội"
+    },
+    {
+        "Word": "Because",
+        "Ipa": "bɪˈkɒz",
+        "Mean": "Tại vì"
+    },
+    {
+        "Word": "Tax",
+        "Ipa": "tæks",
+        "Mean": "Thuế"
+    },
+    {
+        "Word": "Director",
+        "Ipa": "dɪˈrɛktə",
+        "Mean": "Giám đốc"
+    },
+    {
+        "Word": "Early",
+        "Ipa": "ˈɜːli",
+        "Mean": "Sớm"
+    },
+    {
+        "Word": "Position",
+        "Ipa": "pəˈzɪʃən",
+        "Mean": "Chức vụ"
+    },
+    {
+        "Word": "Player",
+        "Ipa": "ˈpleɪə",
+        "Mean": "Người chơi"
+    },
+    {
+        "Word": "Agree",
+        "Ipa": "əˈgriː",
+        "Mean": "Đồng ý"
+    },
+    {
+        "Word": "Especially",
+        "Ipa": "ɪsˈpɛʃəli",
+        "Mean": "Đặc biệt"
+    },
+    {
+        "Word": "Record",
+        "Ipa": "ˈrɛkɔːd",
+        "Mean": "Ghi lại"
+    },
+    {
+        "Word": "Pick",
+        "Ipa": "pɪk",
+        "Mean": "Nhặt"
+    },
+    {
+        "Word": "Wear",
+        "Ipa": "weə",
+        "Mean": "Mặc"
+    },
+    {
+        "Word": "Paper",
+        "Ipa": "ˈpeɪpə",
+        "Mean": "Giấy"
+    },
+    {
+        "Word": "Special",
+        "Ipa": "ˈspɛʃəl",
+        "Mean": "Đặc biệt"
+    },
+    {
+        "Word": "Space",
+        "Ipa": "speɪs",
+        "Mean": "Khoảng trống"
+    },
+    {
+        "Word": "Ground",
+        "Ipa": "graʊnd",
+        "Mean": "Đất"
+    },
+    {
+        "Word": "Form",
+        "Ipa": "fɔːm",
+        "Mean": "Biểu mẫu"
+    },
+    {
+        "Word": "Support",
+        "Ipa": "səˈpɔːt",
+        "Mean": "Ủng hộ"
+    },
+    {
+        "Word": "Event",
+        "Ipa": "ɪˈvɛnt",
+        "Mean": "Biến cố"
+    },
+    {
+        "Word": "Official",
+        "Ipa": "əˈfɪʃəl",
+        "Mean": "Chính thức"
+    },
+    {
+        "Word": "Whose",
+        "Ipa": "huːz",
+        "Mean": "Ai"
+    },
+    {
+        "Word": "Matter",
+        "Ipa": "ˈmætə",
+        "Mean": "Quan trọng"
+    },
+    {
+        "Word": "Everyone",
+        "Ipa": "ˈɛvrɪwʌn",
+        "Mean": "Tất cả mọi người"
+    },
+    {
+        "Word": "Center",
+        "Ipa": "ˈsɛntə",
+        "Mean": "Trung tâm"
+    },
+    {
+        "Word": "Couple",
+        "Ipa": "ˈkʌpl",
+        "Mean": "Cặp đôi"
+    },
+    {
+        "Word": "Site",
+        "Ipa": "saɪt",
+        "Mean": "Địa điểm"
+    },
+    {
+        "Word": "End",
+        "Ipa": "ɛnd",
+        "Mean": "Chấm dứt"
+    },
+    {
+        "Word": "Project",
+        "Ipa": "ˈprɒʤɛkt",
+        "Mean": "Dự định"
+    },
+    {
+        "Word": "Hit",
+        "Ipa": "hɪt",
+        "Mean": "Đánh"
+    },
+    {
+        "Word": "Base",
+        "Ipa": "beɪs",
+        "Mean": "Căn cứ"
+    },
+    {
+        "Word": "Activity",
+        "Ipa": "ækˈtɪvɪti",
+        "Mean": "Hoạt động"
+    },
+    {
+        "Word": "Star",
+        "Ipa": "stɑː",
+        "Mean": "Ngôi sao"
+    },
+    {
+        "Word": "Table",
+        "Ipa": "ˈteɪbl",
+        "Mean": "Bàn"
+    },
+    {
+        "Word": "Need",
+        "Ipa": "niːd",
+        "Mean": "Nhu cầu"
+    },
+    {
+        "Word": "Court",
+        "Ipa": "kɔːt",
+        "Mean": "Tòa án"
+    },
+    {
+        "Word": "Produce",
+        "Ipa": "ˈprɒdjuːs",
+        "Mean": "Sản xuất"
+    },
+    {
+        "Word": "Eat",
+        "Ipa": "iːt",
+        "Mean": "Ăn"
+    },
+    {
+        "Word": "American",
+        "Ipa": "əˈmɛrɪkən",
+        "Mean": "Người Mỹ"
+    },
+    {
+        "Word": "Teach",
+        "Ipa": "tiːʧ",
+        "Mean": "Dạy bảo"
+    },
+    {
+        "Word": "Oil",
+        "Ipa": "ɔɪl",
+        "Mean": "Dầu"
+    },
+    {
+        "Word": "Half",
+        "Ipa": "hɑːf",
+        "Mean": "Một nửa"
+    },
+    {
+        "Word": "Situation",
+        "Ipa": "ˌsɪtjʊˈeɪʃən",
+        "Mean": "Tình huống"
+    },
+    {
+        "Word": "Easy",
+        "Ipa": "ˈiːzi",
+        "Mean": "Dễ dàng"
+    },
+    {
+        "Word": "Cost",
+        "Ipa": "kɒst",
+        "Mean": "Phí tổn"
+    },
+    {
+        "Word": "Industry",
+        "Ipa": "ˈɪndəstri",
+        "Mean": "Ngành công nghiệp"
+    },
+    {
+        "Word": "Figure",
+        "Ipa": "ˈfɪgə",
+        "Mean": "Nhân vật"
+    },
+    {
+        "Word": "Face",
+        "Ipa": "feɪs",
+        "Mean": "Đối mặt"
+    },
+    {
+        "Word": "Street",
+        "Ipa": "striːt",
+        "Mean": "Đường phố"
+    },
+    {
+        "Word": "Image",
+        "Ipa": "ˈɪmɪʤ",
+        "Mean": "Hình ảnh"
+    },
+    {
+        "Word": "Itself",
+        "Ipa": "ɪtˈsɛlf",
+        "Mean": "Chinh no"
+    },
+    {
+        "Word": "Phone",
+        "Ipa": "fəʊn",
+        "Mean": "Điện thoại"
+    },
+    {
+        "Word": "Either",
+        "Ipa": "ˈaɪðə",
+        "Mean": "Hoặc"
+    },
+    {
+        "Word": "Data",
+        "Ipa": "ˈdeɪtə",
+        "Mean": "Dữ liệu"
+    },
+    {
+        "Word": "Cover",
+        "Ipa": "ˈkʌvə",
+        "Mean": "Che"
+    },
+    {
+        "Word": "Quite",
+        "Ipa": "kwaɪt",
+        "Mean": "Khá"
+    },
+    {
+        "Word": "Picture",
+        "Ipa": "ˈpɪkʧə",
+        "Mean": "Bức ảnh"
+    },
+    {
+        "Word": "Clear",
+        "Ipa": "klɪə",
+        "Mean": "Thông thoáng"
+    },
+    {
+        "Word": "Practice",
+        "Ipa": "ˈpræktɪs",
+        "Mean": "Luyện tập"
+    },
+    {
+        "Word": "Piece",
+        "Ipa": "piːs",
+        "Mean": "Cái, miếng"
+    },
+    {
+        "Word": "Land",
+        "Ipa": "lænd",
+        "Mean": "Đất"
+    },
+    {
+        "Word": "Recent",
+        "Ipa": "ˈriːsnt",
+        "Mean": "Gần đây"
+    },
+    {
+        "Word": "Describe",
+        "Ipa": "dɪsˈkraɪb",
+        "Mean": "Diễn tả"
+    },
+    {
+        "Word": "Product",
+        "Ipa": "ˈprɒdʌkt",
+        "Mean": "Sản phẩm"
+    },
+    {
+        "Word": "Doctor",
+        "Ipa": "ˈdɒktə",
+        "Mean": "Bác sĩ"
+    },
+    {
+        "Word": "Wall",
+        "Ipa": "wɔːl",
+        "Mean": "Tường"
+    },
+    {
+        "Word": "Patient",
+        "Ipa": "ˈpeɪʃənt",
+        "Mean": "Kiên nhẫn"
+    },
+    {
+        "Word": "Worker",
+        "Ipa": "ˈwɜːkə",
+        "Mean": "Người làm việc"
+    },
+    {
+        "Word": "News",
+        "Ipa": "njuːz",
+        "Mean": "Tin tức"
+    },
+    {
+        "Word": "Test",
+        "Ipa": "tɛst",
+        "Mean": "Thử nghiệm"
+    },
+    {
+        "Word": "Movie",
+        "Ipa": "ˈmuːvi",
+        "Mean": "Bộ phim"
+    },
+    {
+        "Word": "Certain",
+        "Ipa": "ˈsɜːtn",
+        "Mean": "Chắc chắn"
+    },
+    {
+        "Word": "North",
+        "Ipa": "nɔːθ",
+        "Mean": "Phía bắc"
+    },
+    {
+        "Word": "Love",
+        "Ipa": "lʌv",
+        "Mean": "Yêu và quý"
+    },
+    {
+        "Word": "Personal",
+        "Ipa": "ˈpɜːsnl",
+        "Mean": "Riêng tư"
+    },
+    {
+        "Word": "Open",
+        "Ipa": "ˈəʊpən",
+        "Mean": "Mở"
+    },
+    {
+        "Word": "Support",
+        "Ipa": "səˈpɔːt",
+        "Mean": "Ủng hộ"
+    },
+    {
+        "Word": "Simply",
+        "Ipa": "ˈsɪmpli",
+        "Mean": "Đơn giản"
+    },
+    {
+        "Word": "Third",
+        "Ipa": "θɜːd",
+        "Mean": "Ngày thứ ba"
+    },
+    {
+        "Word": "Technology",
+        "Ipa": "tɛkˈnɒləʤi",
+        "Mean": "Công nghệ"
+    },
+    {
+        "Word": "Catch",
+        "Ipa": "kæʧ",
+        "Mean": "Nắm lấy"
+    },
+    {
+        "Word": "Step",
+        "Ipa": "stɛp",
+        "Mean": "Bước chân"
+    },
+    {
+        "Word": "Baby",
+        "Ipa": "ˈbeɪbi",
+        "Mean": "Đứa bé"
+    },
+    {
+        "Word": "Computer",
+        "Ipa": "kəmˈpjuːtə",
+        "Mean": "Máy vi tính"
+    },
+    {
+        "Word": "Type",
+        "Ipa": "taɪp",
+        "Mean": "Gõ phím"
+    },
+    {
+        "Word": "Attention",
+        "Ipa": "əˈtɛnʃ(ə)n",
+        "Mean": "Chú ý"
+    },
+    {
+        "Word": "Draw",
+        "Ipa": "drɔː",
+        "Mean": "Vẽ tranh"
+    },
+    {
+        "Word": "Film",
+        "Ipa": "fɪlm",
+        "Mean": "Phim ảnh"
+    },
+    {
+        "Word": "Republican",
+        "Ipa": "rɪˈpʌblɪkən",
+        "Mean": "Đảng cộng hòa"
+    },
+    {
+        "Word": "Tree",
+        "Ipa": "triː",
+        "Mean": "Cây"
+    },
+    {
+        "Word": "Source",
+        "Ipa": "sɔːs",
+        "Mean": "Nguồn"
+    },
+    {
+        "Word": "Red",
+        "Ipa": "rɛd",
+        "Mean": "Màu đỏ"
+    },
+    {
+        "Word": "Nearly",
+        "Ipa": "ˈnɪəli",
+        "Mean": "Gần như"
+    },
+    {
+        "Word": "Organization",
+        "Ipa": "ˌɔːgənaɪˈzeɪʃən",
+        "Mean": "Cơ quan"
+    },
+    {
+        "Word": "Choose",
+        "Ipa": "ʧuːz",
+        "Mean": "Chọn"
+    },
+    {
+        "Word": "Cause",
+        "Ipa": "kɔːz",
+        "Mean": "Nguyên nhân"
+    },
+    {
+        "Word": "Hair",
+        "Ipa": "heə",
+        "Mean": "Tóc"
+    },
+    {
+        "Word": "Look",
+        "Ipa": "lʊk",
+        "Mean": "Nhìn"
+    },
+    {
+        "Word": "Point",
+        "Ipa": "pɔɪnt",
+        "Mean": "Chỉ"
+    },
+    {
+        "Word": "Century",
+        "Ipa": "ˈsɛnʧʊri",
+        "Mean": "Thế kỷ"
+    },
+    {
+        "Word": "Evidence",
+        "Ipa": "ˈɛvɪdəns",
+        "Mean": "Bằng chứng"
+    },
+    {
+        "Word": "Window",
+        "Ipa": "ˈwɪndəʊ",
+        "Mean": "Cửa sổ"
+    },
+    {
+        "Word": "Difficult",
+        "Ipa": "ˈdɪfɪkəlt",
+        "Mean": "Khó"
+    },
+    {
+        "Word": "Listen",
+        "Ipa": "ˈlɪsn",
+        "Mean": "Nghe"
+    },
+    {
+        "Word": "Soon",
+        "Ipa": "suːn",
+        "Mean": "Sớm"
+    },
+    {
+        "Word": "Culture",
+        "Ipa": "ˈkʌlʧə",
+        "Mean": "Văn hóa"
+    },
+    {
+        "Word": "Billion",
+        "Ipa": "ˈbɪljən",
+        "Mean": "Tỷ"
+    },
+    {
+        "Word": "Chance",
+        "Ipa": "ʧɑːns",
+        "Mean": "Cơ hội"
+    },
+    {
+        "Word": "Brother",
+        "Ipa": "ˈbrʌðə",
+        "Mean": "Anh trai"
+    },
+    {
+        "Word": "Energy",
+        "Ipa": "ˈɛnəʤi",
+        "Mean": "Năng lượng"
+    },
+    {
+        "Word": "Period",
+        "Ipa": "ˈpɪərɪəd",
+        "Mean": "Giai đoạn = Stage"
+    },
+    {
+        "Word": "Course",
+        "Ipa": "kɔːs",
+        "Mean": "Khóa học"
+    },
+    {
+        "Word": "Summer",
+        "Ipa": "ˈsʌmə",
+        "Mean": "Mùa hè"
+    },
+    {
+        "Word": "Less",
+        "Ipa": "lɛs",
+        "Mean": "Ít hơn"
+    },
+    {
+        "Word": "Realize",
+        "Ipa": "ˈrɪəlaɪz",
+        "Mean": "Nhận ra"
+    },
+    {
+        "Word": "Hundred",
+        "Ipa": "ˈhʌndrəd",
+        "Mean": "Trăm"
+    },
+    {
+        "Word": "Available",
+        "Ipa": "əˈveɪləbl",
+        "Mean": "Có sẵn"
+    },
+    {
+        "Word": "Plant",
+        "Ipa": "plɑːnt",
+        "Mean": "Thực vật"
+    },
+    {
+        "Word": "Likely",
+        "Ipa": "ˈlaɪkli",
+        "Mean": "Rất có thể"
+    },
+    {
+        "Word": "Opportunity",
+        "Ipa": "ˌɒpəˈtjuːnɪti",
+        "Mean": "Cơ hội"
+    },
+    {
+        "Word": "Term",
+        "Ipa": "tɜːm",
+        "Mean": "Kỳ hạn"
+    },
+    {
+        "Word": "Short",
+        "Ipa": "ʃɔːt",
+        "Mean": "Ngắn"
+    },
+    {
+        "Word": "Letter",
+        "Ipa": "ˈlɛtə",
+        "Mean": "Lá thư"
+    },
+    {
+        "Word": "Condition",
+        "Ipa": "kənˈdɪʃən",
+        "Mean": "Điều kiện"
+    },
+    {
+        "Word": "Choice",
+        "Ipa": "ʧɔɪs",
+        "Mean": "Sự lựa chọn"
+    },
+    {
+        "Word": "Place",
+        "Ipa": "pleɪs",
+        "Mean": "Nơi"
+    },
+    {
+        "Word": "Single",
+        "Ipa": "ˈsɪŋgl",
+        "Mean": "Đơn"
+    },
+    {
+        "Word": "Rule",
+        "Ipa": "ruːl",
+        "Mean": "Luật lệ"
+    },
+    {
+        "Word": "Daughter",
+        "Ipa": "ˈdɔːtə",
+        "Mean": "Con gái"
+    },
+    {
+        "Word": "Administration",
+        "Ipa": "ədˌmɪnɪsˈtreɪʃ(ə)n",
+        "Mean": "Sự quản lý"
+    },
+    {
+        "Word": "South",
+        "Ipa": "saʊθ",
+        "Mean": "Phía nam"
+    },
+    {
+        "Word": "Husband",
+        "Ipa": "ˈhʌzbənd",
+        "Mean": "Chồng"
+    },
+    {
+        "Word": "Congress",
+        "Ipa": "ˈkɒŋgrɛs",
+        "Mean": "Hội nghị"
+    },
+    {
+        "Word": "Floor",
+        "Ipa": "flɔː",
+        "Mean": "Sàn nhà"
+    },
+    {
+        "Word": "Campaign",
+        "Ipa": "kæmˈpeɪn",
+        "Mean": "Chiến dịch"
+    },
+    {
+        "Word": "Material",
+        "Ipa": "məˈtɪərɪəl",
+        "Mean": "Vật chất"
+    },
+    {
+        "Word": "Population",
+        "Ipa": "ˌpɒpjʊˈleɪʃən",
+        "Mean": "Dân số"
+    },
+    {
+        "Word": "Well",
+        "Ipa": "wɛl",
+        "Mean": "Tốt"
+    },
+    {
+        "Word": "Call",
+        "Ipa": "kɔːl",
+        "Mean": "Gọi điện"
+    },
+    {
+        "Word": "Economy",
+        "Ipa": "i(ː)ˈkɒnəmi",
+        "Mean": "Nên kinh tế"
+    },
+    {
+        "Word": "Medical",
+        "Ipa": "ˈmɛdɪkəl",
+        "Mean": "Thuộc về y học"
+    },
+    {
+        "Word": "Hospital",
+        "Ipa": "ˈhɒspɪtl",
+        "Mean": "Bệnh viện"
+    },
+    {
+        "Word": "Church",
+        "Ipa": "ʧɜːʧ",
+        "Mean": "Nhà thờ"
+    },
+    {
+        "Word": "Close",
+        "Ipa": "kləʊs",
+        "Mean": "Đóng"
+    },
+    {
+        "Word": "Thousand",
+        "Ipa": "ˈθaʊzənd",
+        "Mean": "Ngàn"
+    },
+    {
+        "Word": "Risk",
+        "Ipa": "rɪsk",
+        "Mean": "Rủi ro"
+    },
+    {
+        "Word": "Current",
+        "Ipa": "ˈkʌrənt",
+        "Mean": "Hiện hành"
+    },
+    {
+        "Word": "Fire",
+        "Ipa": "ˈfaɪə",
+        "Mean": "Ngọn lửa"
+    },
+    {
+        "Word": "Future",
+        "Ipa": "ˈfjuːʧə",
+        "Mean": "Tương lai"
+    },
+    {
+        "Word": "Wrong",
+        "Ipa": "rɒŋ",
+        "Mean": "Sai"
+    },
+    {
+        "Word": "Involve",
+        "Ipa": "ɪnˈvɒlv",
+        "Mean": "Liên quan"
+    },
+    {
+        "Word": "Defense",
+        "Ipa": "dɪˈfɛns",
+        "Mean": "Phòng thủ"
+    },
+    {
+        "Word": "Anyone",
+        "Ipa": "ˈɛnɪwʌn",
+        "Mean": "Bất cứ ai"
+    },
+    {
+        "Word": "Increase",
+        "Ipa": "ˈɪnkriːs",
+        "Mean": "Tăng lên"
+    },
+    {
+        "Word": "Security",
+        "Ipa": "sɪˈkjʊərɪti",
+        "Mean": "Bảo vệ"
+    },
+    {
+        "Word": "Bank",
+        "Ipa": "bæŋk",
+        "Mean": "Ngân hàng"
+    },
+    {
+        "Word": "Myself",
+        "Ipa": "maɪˈsɛlf",
+        "Mean": "Riêng tôi"
+    },
+    {
+        "Word": "Certainly",
+        "Ipa": "ˈsɜːtnli",
+        "Mean": "Chắc chắn"
+    },
+    {
+        "Word": "West",
+        "Ipa": "wɛst",
+        "Mean": "hướng Tây"
+    },
+    {
+        "Word": "Sport",
+        "Ipa": "spɔːt",
+        "Mean": "Thể thao"
+    },
+    {
+        "Word": "Board",
+        "Ipa": "bɔːd",
+        "Mean": "Tấm ván"
+    },
+    {
+        "Word": "Seek",
+        "Ipa": "siːk",
+        "Mean": "Tìm kiếm"
+    },
+    {
+        "Word": "Per",
+        "Ipa": "pɜː",
+        "Mean": "Mỗi"
+    },
+    {
+        "Word": "Subject",
+        "Ipa": "ˈsʌbʤɪkt",
+        "Mean": "Môn học"
+    },
+    {
+        "Word": "Officer",
+        "Ipa": "ˈɒfɪsə",
+        "Mean": "Nhân viên văn phòng"
+    },
+    {
+        "Word": "Private",
+        "Ipa": "ˈpraɪvɪt",
+        "Mean": "Riêng tư"
+    },
+    {
+        "Word": "Rest",
+        "Ipa": "rɛst",
+        "Mean": "Nghỉ ngơi"
+    },
+    {
+        "Word": "Behavior",
+        "Ipa": "bɪˈheɪvjə",
+        "Mean": "Hành vi"
+    },
+    {
+        "Word": "Deal",
+        "Ipa": "diːl",
+        "Mean": "Đối mặt"
+    },
+    {
+        "Word": "Performance",
+        "Ipa": "pəˈfɔːməns",
+        "Mean": "Màn biểu diễn"
+    },
+    {
+        "Word": "Fight",
+        "Ipa": "faɪt",
+        "Mean": "Đánh nhau"
+    },
+    {
+        "Word": "Throw",
+        "Ipa": "θrəʊ",
+        "Mean": "Ném"
+    },
+    {
+        "Word": "Top",
+        "Ipa": "tɒp",
+        "Mean": "Đứng đầu"
+    },
+    {
+        "Word": "Quickly",
+        "Ipa": "ˈkwɪkli",
+        "Mean": "Nhanh chóng"
+    },
+    {
+        "Word": "Past",
+        "Ipa": "pɑːst",
+        "Mean": "Quá khứ"
+    },
+    {
+        "Word": "Goal",
+        "Ipa": "gəʊl",
+        "Mean": "Ghi bàn"
+    },
+    {
+        "Word": "Second",
+        "Ipa": "ˈsɛkənd",
+        "Mean": "Thứ hai"
+    },
+    {
+        "Word": "Bed",
+        "Ipa": "bɛd",
+        "Mean": "Giường"
+    },
+    {
+        "Word": "Order",
+        "Ipa": "ˈɔːdə",
+        "Mean": "Gọi món"
+    },
+    {
+        "Word": "Author",
+        "Ipa": "ˈɔːθə",
+        "Mean": "Tác giả"
+    },
+    {
+        "Word": "Fill",
+        "Ipa": "fɪl",
+        "Mean": "Lấp đầy"
+    },
+    {
+        "Word": "Represent",
+        "Ipa": "ˌrɛprɪˈzɛnt",
+        "Mean": "Đại diện"
+    },
+    {
+        "Word": "Focus",
+        "Ipa": "ˈfəʊkəs",
+        "Mean": "Tập trung"
+    },
+    {
+        "Word": "Foreign",
+        "Ipa": "ˈfɒrɪn",
+        "Mean": "Ngoại quốc"
+    },
+    {
+        "Word": "Drop",
+        "Ipa": "drɒp",
+        "Mean": "Làm rơi"
+    },
+    {
+        "Word": "Plan",
+        "Ipa": "plæn",
+        "Mean": "Kế hoạch"
+    },
+    {
+        "Word": "Blood",
+        "Ipa": "blʌd",
+        "Mean": "Máu"
+    },
+    {
+        "Word": "Upon",
+        "Ipa": "əˈpɒn",
+        "Mean": "Trên"
+    },
+    {
+        "Word": "Agency",
+        "Ipa": "ˈeɪʤənsi",
+        "Mean": "Hãng"
+    },
+    {
+        "Word": "Push",
+        "Ipa": "pʊʃ",
+        "Mean": "Xô"
+    },
+    {
+        "Word": "Nature",
+        "Ipa": "ˈneɪʧə",
+        "Mean": "Thiên nhiên"
+    },
+    {
+        "Word": "Color",
+        "Ipa": "ˈkʌlə",
+        "Mean": "Màu sắc"
+    },
+    {
+        "Word": "No",
+        "Ipa": "nəʊ",
+        "Mean": "Không"
+    },
+    {
+        "Word": "Recently",
+        "Ipa": "ˈriːsntli",
+        "Mean": "Mới đây"
+    },
+    {
+        "Word": "Store",
+        "Ipa": "stɔː",
+        "Mean": "Cửa hàng"
+    },
+    {
+        "Word": "Reduce",
+        "Ipa": "rɪˈdjuːs",
+        "Mean": "Giảm"
+    },
+    {
+        "Word": "Sound",
+        "Ipa": "saʊnd",
+        "Mean": "Âm thanh"
+    },
+    {
+        "Word": "Note",
+        "Ipa": "nəʊt",
+        "Mean": "Ghi chú"
+    },
+    {
+        "Word": "Fine",
+        "Ipa": "faɪn",
+        "Mean": "Tốt"
+    },
+    {
+        "Word": "Before",
+        "Ipa": "bɪˈfɔː",
+        "Mean": "Trước"
+    },
+    {
+        "Word": "Near",
+        "Ipa": "nɪə",
+        "Mean": "Gần"
+    },
+    {
+        "Word": "Movement",
+        "Ipa": "ˈmuːvmənt",
+        "Mean": "Sự chuyển động"
+    },
+    {
+        "Word": "Page",
+        "Ipa": "peɪʤ",
+        "Mean": "Trang"
+    },
+    {
+        "Word": "Enter",
+        "Ipa": "ˈɛntə",
+        "Mean": "đi vào"
+    },
+    {
+        "Word": "Share",
+        "Ipa": "ʃeə",
+        "Mean": "Đăng lại"
+    },
+    {
+        "Word": "Than",
+        "Ipa": "ðæn",
+        "Mean": "Hơn"
+    },
+    {
+        "Word": "Common",
+        "Ipa": "ˈkɒmən",
+        "Mean": "Phổ thông"
+    },
+    {
+        "Word": "Poor",
+        "Ipa": "pʊə",
+        "Mean": "Nghèo"
+    },
+    {
+        "Word": "Other",
+        "Ipa": "ˈʌðə",
+        "Mean": "Khác"
+    },
+    {
+        "Word": "Natural",
+        "Ipa": "ˈnæʧrəl",
+        "Mean": "Thiên nhiên"
+    },
+    {
+        "Word": "Race",
+        "Ipa": "reɪs",
+        "Mean": "Cuộc đua"
+    },
+    {
+        "Word": "Concern",
+        "Ipa": "kənˈsɜːn",
+        "Mean": "Bận tâm"
+    },
+    {
+        "Word": "Series",
+        "Ipa": "ˈsɪəriːz",
+        "Mean": "Hàng loạt"
+    },
+    {
+        "Word": "Significant",
+        "Ipa": "sɪgˈnɪfɪkənt",
+        "Mean": "Có ý nghĩa"
+    },
+    {
+        "Word": "Similar",
+        "Ipa": "ˈsɪmɪlə",
+        "Mean": "Giống"
+    },
+    {
+        "Word": "Hot",
+        "Ipa": "hɒt",
+        "Mean": "Nóng"
+    },
+    {
+        "Word": "Language",
+        "Ipa": "ˈlæŋgwɪʤ",
+        "Mean": "Ngôn ngữ"
+    },
+    {
+        "Word": "Each",
+        "Ipa": "iːʧ",
+        "Mean": "Mỗi"
+    },
+    {
+        "Word": "Usually",
+        "Ipa": "ˈjuːʒʊəli",
+        "Mean": "Thông thường"
+    },
+    {
+        "Word": "Response",
+        "Ipa": "rɪsˈpɒns",
+        "Mean": "Phản ứng"
+    },
+    {
+        "Word": "Dead",
+        "Ipa": "dɛd",
+        "Mean": "Đã chết"
+    },
+    {
+        "Word": "Rise",
+        "Ipa": "raɪz",
+        "Mean": "Trỗi dậy"
+    },
+    {
+        "Word": "Animal",
+        "Ipa": "ˈænɪməl",
+        "Mean": "Động vật"
+    },
+    {
+        "Word": "Factor",
+        "Ipa": "ˈfæktə",
+        "Mean": "Nhân tố"
+    },
+    {
+        "Word": "Decade",
+        "Ipa": "ˈdɛkeɪd",
+        "Mean": "Thập kỷ"
+    },
+    {
+        "Word": "Article",
+        "Ipa": "ˈɑːtɪkl",
+        "Mean": "Điều"
+    },
+    {
+        "Word": "Shoot",
+        "Ipa": "ʃuːt",
+        "Mean": "Bắn"
+    },
+    {
+        "Word": "East",
+        "Ipa": "iːst",
+        "Mean": "Phía đông"
+    },
+    {
+        "Word": "Save",
+        "Ipa": "seɪv",
+        "Mean": "Cứu"
+    },
+    {
+        "Word": "Seven",
+        "Ipa": "ˈsɛvn",
+        "Mean": "Bảy"
+    },
+    {
+        "Word": "Artist",
+        "Ipa": "ˈɑːtɪst",
+        "Mean": "Họa sĩ"
+    },
+    {
+        "Word": "Away",
+        "Ipa": "əˈweɪ",
+        "Mean": "Xa"
+    },
+    {
+        "Word": "Scene",
+        "Ipa": "siːn",
+        "Mean": "Bối cảnh"
+    },
+    {
+        "Word": "Stock",
+        "Ipa": "stɒk",
+        "Mean": "cổ phần"
+    },
+    {
+        "Word": "Career",
+        "Ipa": "kəˈrɪə",
+        "Mean": "Sự nghiệp"
+    },
+    {
+        "Word": "Despite",
+        "Ipa": "dɪsˈpaɪt",
+        "Mean": "Cho dù"
+    },
+    {
+        "Word": "Central",
+        "Ipa": "ˈsɛntrəl",
+        "Mean": "Trung tâm"
+    },
+    {
+        "Word": "Eight",
+        "Ipa": "eɪt",
+        "Mean": "Tám"
+    },
+    {
+        "Word": "Thus",
+        "Ipa": "ðʌs",
+        "Mean": "Như vậy"
+    },
+    {
+        "Word": "Treatment",
+        "Ipa": "ˈtriːtmənt",
+        "Mean": "Sự đối xử"
+    },
+    {
+        "Word": "Beyond",
+        "Ipa": "bɪˈjɒnd",
+        "Mean": "Ngoài"
+    },
+    {
+        "Word": "Happy",
+        "Ipa": "ˈhæpi",
+        "Mean": "Sung sướng"
+    },
+    {
+        "Word": "Exactly",
+        "Ipa": "ɪgˈzæktli",
+        "Mean": "Một cách chính xác"
+    },
+    {
+        "Word": "Protect",
+        "Ipa": "prəˈtɛkt",
+        "Mean": "Bảo vệ"
+    },
+    {
+        "Word": "Approach",
+        "Ipa": "əˈprəʊʧ",
+        "Mean": "Cách tiếp cận"
+    },
+    {
+        "Word": "Lie",
+        "Ipa": "laɪ",
+        "Mean": "Nói dối"
+    },
+    {
+        "Word": "Size",
+        "Ipa": "saɪz",
+        "Mean": "Kích thước"
+    },
+    {
+        "Word": "Dog",
+        "Ipa": "dɒg",
+        "Mean": "Chú chó"
+    },
+    {
+        "Word": "Fund",
+        "Ipa": "fʌnd",
+        "Mean": "Quỹ"
+    },
+    {
+        "Word": "Serious",
+        "Ipa": "ˈsɪərɪəs",
+        "Mean": "Nghiêm trọng"
+    },
+    {
+        "Word": "Occur",
+        "Ipa": "əˈkɜː",
+        "Mean": "Xảy ra"
+    },
+    {
+        "Word": "Media",
+        "Ipa": "ˈmiːdiə",
+        "Mean": "Phương tiện truyền thông"
+    },
+    {
+        "Word": "Ready",
+        "Ipa": "ˈrɛdi",
+        "Mean": "Sẵn sàng"
+    },
+    {
+        "Word": "Sign",
+        "Ipa": "saɪn",
+        "Mean": "Ký tên"
+    },
+    {
+        "Word": "Thought",
+        "Ipa": "θɔːt",
+        "Mean": "Nghĩ"
+    },
+    {
+        "Word": "List",
+        "Ipa": "lɪst",
+        "Mean": "Danh sách"
+    },
+    {
+        "Word": "Individual",
+        "Ipa": "ˌɪndɪˈvɪdjʊəl",
+        "Mean": "Cá nhân"
+    },
+    {
+        "Word": "Simple",
+        "Ipa": "ˈsɪmpl",
+        "Mean": "Giản dị"
+    },
+    {
+        "Word": "Quality",
+        "Ipa": "ˈkwɒlɪti",
+        "Mean": "Phẩm chất"
+    },
+    {
+        "Word": "Pressure",
+        "Ipa": "ˈprɛʃə",
+        "Mean": "Sức ép"
+    },
+    {
+        "Word": "Accept",
+        "Ipa": "əkˈsɛpt",
+        "Mean": "Chấp nhận"
+    },
+    {
+        "Word": "Answer",
+        "Ipa": "ˈɑːnsə",
+        "Mean": "Trả lời"
+    },
+    {
+        "Word": "Hard",
+        "Ipa": "hɑːd",
+        "Mean": "Cứng"
+    },
+    {
+        "Word": "Resource",
+        "Ipa": "rɪˈsɔːs",
+        "Mean": "Nguồn"
+    },
+    {
+        "Word": "Identify",
+        "Ipa": "aɪˈdɛntɪfaɪ",
+        "Mean": "Nhận dạng"
+    },
+    {
+        "Word": "Left",
+        "Ipa": "lɛft",
+        "Mean": "Trái"
+    },
+    {
+        "Word": "Meeting",
+        "Ipa": "ˈmiːtɪŋ",
+        "Mean": "Gặp gỡ"
+    },
+    {
+        "Word": "Determine",
+        "Ipa": "dɪˈtɜːmɪn",
+        "Mean": "Quyết tâm"
+    },
+    {
+        "Word": "Prepare",
+        "Ipa": "prɪˈpeə",
+        "Mean": "Chuẩn bị"
+    },
+    {
+        "Word": "Disease",
+        "Ipa": "dɪˈziːz",
+        "Mean": "Căn bệnh"
+    },
+    {
+        "Word": "Whatever",
+        "Ipa": "wɒtˈɛvə",
+        "Mean": "Sao cũng được"
+    },
+    {
+        "Word": "Success",
+        "Ipa": "səkˈsɛs",
+        "Mean": "Sự thành công"
+    },
+    {
+        "Word": "Argue",
+        "Ipa": "ˈɑːgjuː",
+        "Mean": "Tranh cãi"
+    },
+    {
+        "Word": "Cup",
+        "Ipa": "kʌp",
+        "Mean": "Tách"
+    },
+    {
+        "Word": "Particularly",
+        "Ipa": "pəˈtɪkjʊləli",
+        "Mean": "Cụ thể"
+    },
+    {
+        "Word": "Amount",
+        "Ipa": "əˈmaʊnt",
+        "Mean": "Số lượng"
+    },
+    {
+        "Word": "Ability",
+        "Ipa": "əˈbɪlɪti",
+        "Mean": "Có khả năng"
+    },
+    {
+        "Word": "Staff",
+        "Ipa": "stɑːf",
+        "Mean": "Nhân viên"
+    },
+    {
+        "Word": "Recognize",
+        "Ipa": "ˈrɛkəgnaɪz",
+        "Mean": "Nhận ra"
+    },
+    {
+        "Word": "Indicate",
+        "Ipa": "ˈɪndɪkeɪt",
+        "Mean": "Biểu thị"
+    },
+    {
+        "Word": "Character",
+        "Ipa": "ˈkærɪktə",
+        "Mean": "Tính cách"
+    },
+    {
+        "Word": "Growth",
+        "Ipa": "grəʊθ",
+        "Mean": "Sự phát triển"
+    },
+    {
+        "Word": "Loss",
+        "Ipa": "lɒs",
+        "Mean": "Sự mất mát"
+    },
+    {
+        "Word": "Degree",
+        "Ipa": "dɪˈgriː",
+        "Mean": "Bằng"
+    },
+    {
+        "Word": "Wonder",
+        "Ipa": "ˈwʌndə",
+        "Mean": "Kinh ngạc"
+    },
+    {
+        "Word": "Attack",
+        "Ipa": "əˈtæk",
+        "Mean": "Tấn công"
+    },
+    {
+        "Word": "Herself",
+        "Ipa": "hɜːˈsɛlf",
+        "Mean": "Chính cô ấy"
+    },
+    {
+        "Word": "Region",
+        "Ipa": "ˈriːʤən",
+        "Mean": "Vùng đất"
+    },
+    {
+        "Word": "Television",
+        "Ipa": "ˈtɛlɪˌvɪʒən",
+        "Mean": "Tivi"
+    },
+    {
+        "Word": "Box",
+        "Ipa": "bɒks",
+        "Mean": "Hộp"
+    },
+    {
+        "Word": "Tv",
+        "Ipa": "ˌtiːˈviː",
+        "Mean": "TV"
+    },
+    {
+        "Word": "Training",
+        "Ipa": "ˈtreɪnɪŋ",
+        "Mean": "Tập huấn"
+    },
+    {
+        "Word": "Pretty",
+        "Ipa": "ˈprɪti",
+        "Mean": "Khá"
+    },
+    {
+        "Word": "Trade",
+        "Ipa": "treɪd",
+        "Mean": "Buôn bán"
+    },
+    {
+        "Word": "Deal",
+        "Ipa": "diːl",
+        "Mean": "Đối mặt"
+    },
+    {
+        "Word": "Election",
+        "Ipa": "ɪˈlɛkʃən",
+        "Mean": "Cuộc bầu cử"
+    },
+    {
+        "Word": "Everybody",
+        "Ipa": "ˈɛvrɪbɒdi",
+        "Mean": "Mọi người"
+    },
+    {
+        "Word": "Physical",
+        "Ipa": "ˈfɪzɪkəl",
+        "Mean": "Vật lý"
+    },
+    {
+        "Word": "Lay",
+        "Ipa": "leɪ",
+        "Mean": "Đặt nằm"
+    },
+    {
+        "Word": "General",
+        "Ipa": "ˈʤɛnərəl",
+        "Mean": "Chung"
+    },
+    {
+        "Word": "Feeling",
+        "Ipa": "ˈfiːlɪŋ",
+        "Mean": "Cảm giác"
+    },
+    {
+        "Word": "Standard",
+        "Ipa": "ˈstændəd",
+        "Mean": "Tiêu chuẩn"
+    },
+    {
+        "Word": "Bill",
+        "Ipa": "bɪl",
+        "Mean": "Hóa đơn thanh toán"
+    },
+    {
+        "Word": "Message",
+        "Ipa": "ˈmɛsɪʤ",
+        "Mean": "Tin nhắn"
+    },
+    {
+        "Word": "Fail",
+        "Ipa": "feɪl",
+        "Mean": "Thất bại"
+    },
+    {
+        "Word": "Outside",
+        "Ipa": "ˌaʊtˈsaɪd",
+        "Mean": "Ở ngoài"
+    },
+    {
+        "Word": "Arrive",
+        "Ipa": "əˈraɪv",
+        "Mean": "Đến nơi"
+    },
+    {
+        "Word": "Analysis",
+        "Ipa": "əˈnæləsɪs",
+        "Mean": "Phân tích"
+    },
+    {
+        "Word": "Benefit",
+        "Ipa": "ˈbɛnɪfɪt",
+        "Mean": "Ích lợi"
+    },
+    {
+        "Word": "Name",
+        "Ipa": "neɪm",
+        "Mean": "Tên"
+    },
+    {
+        "Word": "Sex",
+        "Ipa": "sɛks",
+        "Mean": "Tình dục, giới tính"
+    },
+    {
+        "Word": "Forward",
+        "Ipa": "ˈfɔːwəd",
+        "Mean": "Phía trước"
+    },
+    {
+        "Word": "Lawyer",
+        "Ipa": "ˈlɔːjə",
+        "Mean": "Luật sư"
+    },
+    {
+        "Word": "Present",
+        "Ipa": "ˈprɛznt",
+        "Mean": "Hiện nay"
+    },
+    {
+        "Word": "Section",
+        "Ipa": "ˈsɛkʃən",
+        "Mean": "Tiết diện"
+    },
+    {
+        "Word": "Environmental",
+        "Ipa": "ɪnˌvaɪərənˈmɛntl",
+        "Mean": "Thuộc về môi trường"
+    },
+    {
+        "Word": "Glass",
+        "Ipa": "glɑːs",
+        "Mean": "Cốc thủy tinh"
+    },
+    {
+        "Word": "Answer",
+        "Ipa": "ˈɑːnsə",
+        "Mean": "Trả lời"
+    },
+    {
+        "Word": "Skill",
+        "Ipa": "skɪl",
+        "Mean": "Kỹ năng"
+    },
+    {
+        "Word": "Sister",
+        "Ipa": "ˈsɪstə",
+        "Mean": "Chị gái"
+    },
+    {
+        "Word": "Pm",
+        "Ipa": "Pm",
+        "Mean": "Buổi chiều"
+    },
+    {
+        "Word": "Professor",
+        "Ipa": "prəˈfɛsə",
+        "Mean": "Giáo sư"
+    },
+    {
+        "Word": "Operation",
+        "Ipa": "ˌɒpəˈreɪʃən",
+        "Mean": "Hoạt động"
+    },
+    {
+        "Word": "Financial",
+        "Ipa": "faɪˈnænʃəl",
+        "Mean": "Tài chính"
+    },
+    {
+        "Word": "Crime",
+        "Ipa": "kraɪm",
+        "Mean": "Tội ác"
+    },
+    {
+        "Word": "Stage",
+        "Ipa": "steɪʤ",
+        "Mean": "Sân khấu"
+    },
+    {
+        "Word": "Ok",
+        "Ipa": "ˈəʊˈkeɪ",
+        "Mean": "Được"
+    },
+    {
+        "Word": "Compare",
+        "Ipa": "kəmˈpeə",
+        "Mean": "So sánh"
+    },
+    {
+        "Word": "Authority",
+        "Ipa": "ɔːˈθɒrɪti",
+        "Mean": "Chính quyền"
+    },
+    {
+        "Word": "Miss",
+        "Ipa": "mɪs",
+        "Mean": "Cô"
+    },
+    {
+        "Word": "Design",
+        "Ipa": "dɪˈzaɪn",
+        "Mean": "Thiết kế"
+    },
+    {
+        "Word": "Sort",
+        "Ipa": "sɔːt",
+        "Mean": "Loại"
+    },
+    {
+        "Word": "One",
+        "Ipa": "wʌn",
+        "Mean": "Một"
+    },
+    {
+        "Word": "Act",
+        "Ipa": "ækt",
+        "Mean": "Hành động"
+    },
+    {
+        "Word": "Ten",
+        "Ipa": "tɛn",
+        "Mean": "Mười"
+    },
+    {
+        "Word": "Knowledge",
+        "Ipa": "ˈnɒlɪʤ",
+        "Mean": "Kiến thức"
+    },
+    {
+        "Word": "Gun",
+        "Ipa": "gʌn",
+        "Mean": "Súng"
+    },
+    {
+        "Word": "Station",
+        "Ipa": "ˈsteɪʃən",
+        "Mean": "Ga tàu"
+    },
+    {
+        "Word": "Blue",
+        "Ipa": "bluː",
+        "Mean": "Màu xanh da trời"
+    },
+    {
+        "Word": "State",
+        "Ipa": "steɪt",
+        "Mean": "Trạng thái"
+    },
+    {
+        "Word": "Strategy",
+        "Ipa": "ˈstrætɪʤi",
+        "Mean": "Chiến lược"
+    },
+    {
+        "Word": "Little",
+        "Ipa": "ˈlɪtl",
+        "Mean": "Nhỏ bé"
+    },
+    {
+        "Word": "Clearly",
+        "Ipa": "ˈklɪəli",
+        "Mean": "Thông suốt"
+    },
+    {
+        "Word": "Discuss",
+        "Ipa": "dɪsˈkʌs",
+        "Mean": "Bàn luận"
+    },
+    {
+        "Word": "Indeed",
+        "Ipa": "ɪnˈdiːd",
+        "Mean": "Thật"
+    },
+    {
+        "Word": "Force",
+        "Ipa": "fɔːs",
+        "Mean": "Lực lượng"
+    },
+    {
+        "Word": "Truth",
+        "Ipa": "truːθ",
+        "Mean": "Sự thật"
+    },
+    {
+        "Word": "Song",
+        "Ipa": "sɒŋ",
+        "Mean": "Bài hát"
+    },
+    {
+        "Word": "Example",
+        "Ipa": "ɪgˈzɑːmpl",
+        "Mean": "Ví dụ"
+    },
+    {
+        "Word": "Democratic",
+        "Ipa": "ˌdɛməˈkrætɪk",
+        "Mean": "Dân chủ"
+    },
+    {
+        "Word": "Check",
+        "Ipa": "ʧɛk",
+        "Mean": "Kiểm tra"
+    },
+    {
+        "Word": "Environment",
+        "Ipa": "ɪnˈvaɪərənmənt",
+        "Mean": "Môi trường"
+    },
+    {
+        "Word": "Leg",
+        "Ipa": "lɛg",
+        "Mean": "Chân"
+    },
+    {
+        "Word": "Dark",
+        "Ipa": "dɑːk",
+        "Mean": "Tối"
+    },
+    {
+        "Word": "Public",
+        "Ipa": "ˈpʌblɪk",
+        "Mean": "Công cộng"
+    },
+    {
+        "Word": "Various",
+        "Ipa": "ˈveərɪəs",
+        "Mean": "Đa dạng"
+    },
+    {
+        "Word": "Rather",
+        "Ipa": "ˈrɑːðə",
+        "Mean": "Hơn là"
+    },
+    {
+        "Word": "Laugh",
+        "Ipa": "lɑːf",
+        "Mean": "Cười"
+    },
+    {
+        "Word": "Guess",
+        "Ipa": "gɛs",
+        "Mean": "Đoán"
+    },
+    {
+        "Word": "Executive",
+        "Ipa": "ɪgˈzɛkjʊtɪv",
+        "Mean": "Điều hành"
+    },
+    {
+        "Word": "Set",
+        "Ipa": "sɛt",
+        "Mean": "Đặt"
+    },
+    {
+        "Word": "Study",
+        "Ipa": "ˈstʌdi",
+        "Mean": "Học"
+    },
+    {
+        "Word": "Prove",
+        "Ipa": "pruːv",
+        "Mean": "Chứng tỏ"
+    },
+    {
+        "Word": "Hang",
+        "Ipa": "hæŋ",
+        "Mean": "Hang"
+    },
+    {
+        "Word": "Entire",
+        "Ipa": "ɪnˈtaɪə",
+        "Mean": "Toàn bộ"
+    },
+    {
+        "Word": "Rock",
+        "Ipa": "rɒk",
+        "Mean": "Đá"
+    },
+    {
+        "Word": "Design",
+        "Ipa": "dɪˈzaɪn",
+        "Mean": "Thiết kế"
+    },
+    {
+        "Word": "Enough",
+        "Ipa": "ɪˈnʌf",
+        "Mean": "Đầy đủ"
+    },
+    {
+        "Word": "Forget",
+        "Ipa": "fəˈgɛt",
+        "Mean": "Quên đi"
+    },
+    {
+        "Word": "Since",
+        "Ipa": "sɪns",
+        "Mean": "Từ"
+    },
+    {
+        "Word": "Claim",
+        "Ipa": "kleɪm",
+        "Mean": "Yêu cầu"
+    },
+    {
+        "Word": "Note",
+        "Ipa": "nəʊt",
+        "Mean": "Ghi chú"
+    },
+    {
+        "Word": "Remove",
+        "Ipa": "rɪˈmuːv",
+        "Mean": "Tẩy"
+    },
+    {
+        "Word": "Manager",
+        "Ipa": "ˈmænɪʤə",
+        "Mean": "Người quản lý"
+    },
+    {
+        "Word": "Help",
+        "Ipa": "hɛlp",
+        "Mean": "Giúp đỡ"
+    },
+    {
+        "Word": "Close",
+        "Ipa": "kləʊs",
+        "Mean": "Đóng"
+    },
+    {
+        "Word": "Sound",
+        "Ipa": "saʊnd",
+        "Mean": "Âm thanh"
+    },
+    {
+        "Word": "Enjoy",
+        "Ipa": "ɪnˈʤɔɪ",
+        "Mean": "Vui thích"
+    },
+    {
+        "Word": "Network",
+        "Ipa": "ˈnɛtwɜːk",
+        "Mean": "Mạng"
+    },
+    {
+        "Word": "Legal",
+        "Ipa": "ˈliːgəl",
+        "Mean": "Hợp pháp"
+    },
+    {
+        "Word": "Religious",
+        "Ipa": "rɪˈlɪʤəs",
+        "Mean": "Tôn giáo"
+    },
+    {
+        "Word": "Cold",
+        "Ipa": "kəʊld",
+        "Mean": "Lạnh lẽo"
+    },
+    {
+        "Word": "Form",
+        "Ipa": "fɔːm",
+        "Mean": "Biểu mẫu"
+    },
+    {
+        "Word": "Final",
+        "Ipa": "ˈfaɪnl",
+        "Mean": "Cuối cùng"
+    },
+    {
+        "Word": "Main",
+        "Ipa": "meɪn",
+        "Mean": "Chủ yếu"
+    },
+    {
+        "Word": "Science",
+        "Ipa": "ˈsaɪəns",
+        "Mean": "Khoa học"
+    },
+    {
+        "Word": "Green",
+        "Ipa": "griːn",
+        "Mean": "Màu xanh lá"
+    },
+    {
+        "Word": "Memory",
+        "Ipa": "ˈmɛməri",
+        "Mean": "Ký ức"
+    },
+    {
+        "Word": "Card",
+        "Ipa": "kɑːd",
+        "Mean": "Thẻ"
+    },
+    {
+        "Word": "Above",
+        "Ipa": "əˈbʌv",
+        "Mean": "Bên trên"
+    },
+    {
+        "Word": "Seat",
+        "Ipa": "siːt",
+        "Mean": "Ghế ngồi"
+    },
+    {
+        "Word": "Cell",
+        "Ipa": "sɛl",
+        "Mean": "Tủ"
+    },
+    {
+        "Word": "Establish",
+        "Ipa": "ɪsˈtæblɪʃ",
+        "Mean": "Thành lập"
+    },
+    {
+        "Word": "Nice",
+        "Ipa": "naɪs",
+        "Mean": "Tốt đẹp"
+    },
+    {
+        "Word": "Trial",
+        "Ipa": "ˈtraɪəl",
+        "Mean": "Sự thử nghiệm"
+    },
+    {
+        "Word": "Expert",
+        "Ipa": "ˈɛkspɜːt",
+        "Mean": "Chuyên gia"
+    },
+    {
+        "Word": "That",
+        "Ipa": "ðæt",
+        "Mean": "Điều đó"
+    },
+    {
+        "Word": "Spring",
+        "Ipa": "sprɪŋ",
+        "Mean": "Mùa xuân"
+    },
+    {
+        "Word": "Firm",
+        "Ipa": "fɜːm",
+        "Mean": "Chắc chắn"
+    },
+    {
+        "Word": "Democrat",
+        "Ipa": "ˈdɛməkræt",
+        "Mean": "Đảng viên dân chủ"
+    },
+    {
+        "Word": "Radio",
+        "Ipa": "ˈreɪdɪəʊ",
+        "Mean": "Đài"
+    },
+    {
+        "Word": "Visit",
+        "Ipa": "ˈvɪzɪt",
+        "Mean": "Chuyến thăm"
+    },
+    {
+        "Word": "Management",
+        "Ipa": "ˈmænɪʤmənt",
+        "Mean": "Ban quản lý"
+    },
+    {
+        "Word": "Care",
+        "Ipa": "keə",
+        "Mean": "Quan tâm"
+    },
+    {
+        "Word": "Avoid",
+        "Ipa": "əˈvɔɪd",
+        "Mean": "Ngăn ngừa"
+    },
+    {
+        "Word": "Imagine",
+        "Ipa": "ɪˈmæʤɪn",
+        "Mean": "Tưởng tượng"
+    },
+    {
+        "Word": "Tonight",
+        "Ipa": "təˈnaɪt",
+        "Mean": "Tối nay"
+    },
+    {
+        "Word": "Huge",
+        "Ipa": "hjuːʤ",
+        "Mean": "Khổng lồ"
+    },
+    {
+        "Word": "Ball",
+        "Ipa": "bɔːl",
+        "Mean": "Trái bóng"
+    },
+    {
+        "Word": "No",
+        "Ipa": "nəʊ",
+        "Mean": "Không"
+    },
+    {
+        "Word": "Close",
+        "Ipa": "kləʊs",
+        "Mean": "Đóng"
+    },
+    {
+        "Word": "Finish",
+        "Ipa": "ˈfɪnɪʃ",
+        "Mean": "Hoàn thành"
+    },
+    {
+        "Word": "Yourself",
+        "Ipa": "jɔːˈsɛlf",
+        "Mean": "Bản thân bạn"
+    },
+    {
+        "Word": "Talk",
+        "Ipa": "tɔːk",
+        "Mean": "Nói chuyện"
+    },
+    {
+        "Word": "Theory",
+        "Ipa": "ˈθɪəri",
+        "Mean": "Học thuyết"
+    },
+    {
+        "Word": "Impact",
+        "Ipa": "ˈɪmpækt",
+        "Mean": "Va chạm"
+    },
+    {
+        "Word": "Respond",
+        "Ipa": "rɪsˈpɒnd",
+        "Mean": "Trả lời"
+    },
+    {
+        "Word": "Statement",
+        "Ipa": "ˈsteɪtmənt",
+        "Mean": "Tuyên bố"
+    },
+    {
+        "Word": "Maintain",
+        "Ipa": "meɪnˈteɪn",
+        "Mean": "Duy trì"
+    },
+    {
+        "Word": "Charge",
+        "Ipa": "ʧɑːʤ",
+        "Mean": "Thù lao"
+    },
+    {
+        "Word": "Popular",
+        "Ipa": "ˈpɒpjʊlə",
+        "Mean": "Phổ biến"
+    },
+    {
+        "Word": "Traditional",
+        "Ipa": "trəˈdɪʃənl",
+        "Mean": "Truyên thông"
+    },
+    {
+        "Word": "Onto",
+        "Ipa": "ˈɒntʊ",
+        "Mean": "Trên"
+    },
+    {
+        "Word": "Reveal",
+        "Ipa": "rɪˈviːl",
+        "Mean": "Bộc lộ"
+    },
+    {
+        "Word": "Direction",
+        "Ipa": "dɪˈrɛkʃən",
+        "Mean": "Chiều hướng"
+    },
+    {
+        "Word": "Weapon",
+        "Ipa": "ˈwɛpən",
+        "Mean": "Vũ khí"
+    },
+    {
+        "Word": "Employee",
+        "Ipa": "ˌɛmplɔɪˈiː",
+        "Mean": "Nhân viên"
+    },
+    {
+        "Word": "Cultural",
+        "Ipa": "ˈkʌlʧərəl",
+        "Mean": "Thuộc văn hóa"
+    },
+    {
+        "Word": "Contain",
+        "Ipa": "kənˈteɪn",
+        "Mean": "Bao gồm"
+    },
+    {
+        "Word": "Peace",
+        "Ipa": "piːs",
+        "Mean": "Sự thanh bình"
+    },
+    {
+        "Word": "Head",
+        "Ipa": "hɛd",
+        "Mean": "Đầu"
+    },
+    {
+        "Word": "Control",
+        "Ipa": "kənˈtrəʊl",
+        "Mean": "Điều khiển"
+    },
+    {
+        "Word": "Base",
+        "Ipa": "beɪs",
+        "Mean": "Căn cứ"
+    },
+    {
+        "Word": "Pain",
+        "Ipa": "peɪn",
+        "Mean": "Đau đớn"
+    },
+    {
+        "Word": "Apply",
+        "Ipa": "əˈplaɪ",
+        "Mean": "Nộp đơn"
+    },
+    {
+        "Word": "Play",
+        "Ipa": "pleɪ",
+        "Mean": "Chơi"
+    },
+    {
+        "Word": "Measure",
+        "Ipa": "ˈmɛʒə",
+        "Mean": "Đo lường"
+    },
+    {
+        "Word": "Wide",
+        "Ipa": "waɪd",
+        "Mean": "Rộng"
+    },
+    {
+        "Word": "Shake",
+        "Ipa": "ʃeɪk",
+        "Mean": "Rung chuyển"
+    },
+    {
+        "Word": "Fly",
+        "Ipa": "flaɪ",
+        "Mean": "Ruồi"
+    },
+    {
+        "Word": "Interview",
+        "Ipa": "ˈɪntəvjuː",
+        "Mean": "Buổi phỏng vấn"
+    },
+    {
+        "Word": "Manage",
+        "Ipa": "ˈmænɪʤ",
+        "Mean": "Quản lý"
+    },
+    {
+        "Word": "Chair",
+        "Ipa": "ʧeə",
+        "Mean": "Cái ghế"
+    },
+    {
+        "Word": "Fish",
+        "Ipa": "fɪʃ",
+        "Mean": "Cá"
+    },
+    {
+        "Word": "Particular",
+        "Ipa": "pəˈtɪkjʊlə",
+        "Mean": "Riêng"
+    },
+    {
+        "Word": "Camera",
+        "Ipa": "ˈkæmərə",
+        "Mean": "Máy ảnh"
+    },
+    {
+        "Word": "Structure",
+        "Ipa": "ˈstrʌkʧə",
+        "Mean": "Cấu trúc"
+    },
+    {
+        "Word": "Politics",
+        "Ipa": "ˈpɒlɪtɪks",
+        "Mean": "Chính trị"
+    },
+    {
+        "Word": "Perform",
+        "Ipa": "pəˈfɔːm",
+        "Mean": "Trình diễn"
+    },
+    {
+        "Word": "Bit",
+        "Ipa": "bɪt",
+        "Mean": "Chút"
+    },
+    {
+        "Word": "Weight",
+        "Ipa": "weɪt",
+        "Mean": "Cân nặng"
+    },
+    {
+        "Word": "Suddenly",
+        "Ipa": "ˈsʌdnli",
+        "Mean": "Đột ngột"
+    },
+    {
+        "Word": "Discover",
+        "Ipa": "dɪsˈkʌvə",
+        "Mean": "Phát hiện"
+    },
+    {
+        "Word": "Candidate",
+        "Ipa": "ˈkændɪˌdeɪt",
+        "Mean": "Ứng viên"
+    },
+    {
+        "Word": "Top",
+        "Ipa": "tɒp",
+        "Mean": "Đứng đầu"
+    },
+    {
+        "Word": "Production",
+        "Ipa": "prəˈdʌkʃən",
+        "Mean": "Sản lượng"
+    },
+    {
+        "Word": "Treat",
+        "Ipa": "triːt",
+        "Mean": "Đãi"
+    },
+    {
+        "Word": "Trip",
+        "Ipa": "trɪp",
+        "Mean": "Chuyến đi chơi"
+    },
+    {
+        "Word": "Evening",
+        "Ipa": "ˈiːvnɪŋ",
+        "Mean": "Tối"
+    },
+    {
+        "Word": "Affect",
+        "Ipa": "əˈfɛkt",
+        "Mean": "Ảnh hưởng"
+    },
+    {
+        "Word": "Inside",
+        "Ipa": "ɪnˈsaɪd",
+        "Mean": "Phía trong"
+    },
+    {
+        "Word": "Conference",
+        "Ipa": "ˈkɒnfərəns",
+        "Mean": "Hội nghị"
+    },
+    {
+        "Word": "Unit",
+        "Ipa": "ˈjuːnɪt",
+        "Mean": "Đơn vị"
+    },
+    {
+        "Word": "Best",
+        "Ipa": "bɛst",
+        "Mean": "Tốt nhất"
+    },
+    {
+        "Word": "Style",
+        "Ipa": "staɪl",
+        "Mean": "Phong cách"
+    },
+    {
+        "Word": "Adult",
+        "Ipa": "ˈædʌlt",
+        "Mean": "Người lớn"
+    },
+    {
+        "Word": "Worry",
+        "Ipa": "ˈwʌri",
+        "Mean": "Lo lắng"
+    },
+    {
+        "Word": "Range",
+        "Ipa": "reɪnʤ",
+        "Mean": "Phạm vi"
+    },
+    {
+        "Word": "Mention",
+        "Ipa": "ˈmɛnʃən",
+        "Mean": "Đề cập đến"
+    },
+    {
+        "Word": "Rather",
+        "Ipa": "ˈrɑːðə",
+        "Mean": "Hơn là"
+    },
+    {
+        "Word": "Far",
+        "Ipa": "fɑː",
+        "Mean": "Xa"
+    },
+    {
+        "Word": "Deep",
+        "Ipa": "diːp",
+        "Mean": "Sâu"
+    },
+    {
+        "Word": "Front",
+        "Ipa": "frʌnt",
+        "Mean": "Đằng trước"
+    },
+    {
+        "Word": "Edge",
+        "Ipa": "ɛʤ",
+        "Mean": "Cạnh"
+    },
+    {
+        "Word": "Individual",
+        "Ipa": "ˌɪndɪˈvɪdjʊəl",
+        "Mean": "Cá nhân"
+    },
+    {
+        "Word": "Specific",
+        "Ipa": "spɪˈsɪfɪk",
+        "Mean": "Cụ thể"
+    },
+    {
+        "Word": "Writer",
+        "Ipa": "ˈraɪtə",
+        "Mean": "nhà văn"
+    },
+    {
+        "Word": "Trouble",
+        "Ipa": "ˈtrʌbl",
+        "Mean": "Sự chịu khó"
+    },
+    {
+        "Word": "Necessary",
+        "Ipa": "ˈnɛsɪsəri",
+        "Mean": "Cần thiết"
+    },
+    {
+        "Word": "Throughout",
+        "Ipa": "θru(ː)ˈaʊt",
+        "Mean": "Xuyên suốt"
+    },
+    {
+        "Word": "Challenge",
+        "Ipa": "ˈʧælɪnʤ",
+        "Mean": "Thách đấu"
+    },
+    {
+        "Word": "Fear",
+        "Ipa": "fɪə",
+        "Mean": "Nỗi sợ"
+    },
+    {
+        "Word": "Shoulder",
+        "Ipa": "ˈʃəʊldə",
+        "Mean": "Vai"
+    },
+    {
+        "Word": "Institution",
+        "Ipa": "ˌɪnstɪˈtjuːʃən",
+        "Mean": "Tổ chức"
+    },
+    {
+        "Word": "Middle",
+        "Ipa": "ˈmɪdl",
+        "Mean": "Ở giữa"
+    },
+    {
+        "Word": "Sea",
+        "Ipa": "siː",
+        "Mean": "Biển"
+    },
+    {
+        "Word": "Dream",
+        "Ipa": "driːm",
+        "Mean": "Mơ ước"
+    },
+    {
+        "Word": "Bar",
+        "Ipa": "bɑː",
+        "Mean": "Quán ba"
+    },
+    {
+        "Word": "Beautiful",
+        "Ipa": "ˈbjuːtəfʊl",
+        "Mean": "Xinh đẹp"
+    },
+    {
+        "Word": "Property",
+        "Ipa": "ˈprɒpəti",
+        "Mean": "Bất động sản"
+    },
+    {
+        "Word": "Instead",
+        "Ipa": "ɪnˈstɛd",
+        "Mean": "Thay thế"
+    },
+    {
+        "Word": "Improve",
+        "Ipa": "ɪmˈpruːv",
+        "Mean": "Cải thiện"
+    },
+    {
+        "Word": "Stuff",
+        "Ipa": "stʌf",
+        "Mean": "Chuyện"
+    },
+    {
+        "Word": "Claim",
+        "Ipa": "kleɪm",
+        "Mean": "Yêu cầu"
+    }
+]

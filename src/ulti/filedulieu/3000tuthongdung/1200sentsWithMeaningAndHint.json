@@ -1,0 +1,5867 @@
+[
+    {
+        "Words": "I am a student at the Massachusetts Institute of Technology",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt ðə ˌmæsəˈʧuːsɪts ˈɪnstɪtjuːt ɒv tɛkˈnɒləʤi",
+        "Meaning": "Tôi là sinh viên của Học viện Công nghệ Massachusetts"
+    },
+    {
+        "Words": "I am a student at Harvard University",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt ˈhɑːvəd ˌjuːnɪˈvɜːsɪti",
+        "Meaning": "Tôi là sinh viên trường đại học Harvard"
+    },
+    {
+        "Words": "I am a student at Stanford University",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt ˈstænfəd ˌjuːnɪˈvɜːsɪti",
+        "Meaning": "Tôi là sinh viên tại đại học Stanford"
+    },
+    {
+        "Words": "I am a student at Cornell University",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt Cornell ˌjuːnɪˈvɜːsɪti",
+        "Meaning": "Tôi là sinh viên tại đại học Cornell"
+    },
+    {
+        "Words": "I am a student at the University of California, Berkeley",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv ˌkæləˈfɔːniə, ˈbɜːkli",
+        "Meaning": "Tôi là sinh viên Đại học California, Berkeley"
+    },
+    {
+        "Words": "I am a student at Columbia University in the City of New York",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt kəˈlʌmbɪə ˌjuːnɪˈvɜːsɪti ɪn ðə ˈsɪti ɒv njuː jɔːk",
+        "Meaning": "Tôi là sinh viên Đại học Columbia ở Thành phố New York"
+    },
+    {
+        "Words": "I am a student at the University of Michigan",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv ˈmɪʃəgən",
+        "Meaning": "Tôi là sinh viên trường đại học Michigan"
+    },
+    {
+        "Words": "I am a student at the University of Washington",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv ˈwɒʃɪŋtən",
+        "Meaning": "Tôi là sinh viên trường đại học Washington"
+    },
+    {
+        "Words": "I am a student at the University of Pennsylvania",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv ˌpɛnsɪlˈveɪnɪə",
+        "Meaning": "Tôi là sinh viên trường đại học Pennsylvania"
+    },
+    {
+        "Words": "I am a student at the University of Minnesota-Twin Cities",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv ˌmɪnɪˈsəʊtə-twɪn ˈsɪtiz",
+        "Meaning": "Tôi là sinh viên của Đại học Minnesota-Twin Cities"
+    },
+    {
+        "Words": "I am a student at Yale University",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt jeɪl ˌjuːnɪˈvɜːsɪti",
+        "Meaning": "Tôi là sinh viên trường đại học Yale"
+    },
+    {
+        "Words": "I am a student at the University of California, Los Angeles",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv ˌkæləˈfɔːniə, Los ˈeɪnʤəlz",
+        "Meaning": "Tôi là sinh viên Đại học California, Los Angeles"
+    },
+    {
+        "Words": "I am a student at Johns Hopkins University",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt ʤɒnz ˈhɒpkɪnz ˌjuːnɪˈvɜːsɪti",
+        "Meaning": "Tôi là sinh viên tại Đại học Johns Hopkins"
+    },
+    {
+        "Words": "I am a student at The University of Texas at Austin",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv ˈtɛksəs æt ˈɔːstɪn",
+        "Meaning": "Tôi là sinh viên Đại học Texas ở Austin"
+    },
+    {
+        "Words": "I am a student at New York University",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt njuː jɔːk ˌjuːnɪˈvɜːsɪti",
+        "Meaning": "Tôi là sinh viên trường đại học New York"
+    },
+    {
+        "Words": "I am a student at the University of Wisconsin-Madison",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv wɪsˈkɒnsən-ˈmædɪs(ə)n",
+        "Meaning": "Tôi là sinh viên tại Đại học Wisconsin-Madison"
+    },
+    {
+        "Words": "I am a student at Purdue University",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt Purdue ˌjuːnɪˈvɜːsɪti",
+        "Meaning": "Tôi là sinh viên trường đại học Purdue"
+    },
+    {
+        "Words": "I am a student at Penn State University",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt pɛn steɪt ˌjuːnɪˈvɜːsɪti",
+        "Meaning": "Tôi là sinh viên tại Đại học bang Penn"
+    },
+    {
+        "Words": "I am a student at Princeton University",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt ˈprɪnstən ˌjuːnɪˈvɜːsɪti",
+        "Meaning": "Tôi là sinh viên trường đại học Princeton"
+    },
+    {
+        "Words": "I am a student at Carnegie Mellon University",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt ˈkɑːnəgi Mellon ˌjuːnɪˈvɜːsɪti",
+        "Meaning": "Tôi là sinh viên của Đại học Carnegie Mellon"
+    },
+    {
+        "Words": "I am a student at the University of Southern California",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv ˈsʌðən ˌkæləˈfɔːniə",
+        "Meaning": "Tôi là sinh viên của Đại học Nam California"
+    },
+    {
+        "Words": "I am a student at the University of Chicago",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv ʃɪˈkɑːgəʊ",
+        "Meaning": "Tôi là sinh viên trường đại học Chicago"
+    },
+    {
+        "Words": "I am a student at Arizona State University",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt ˌærɪˈzəʊnə steɪt ˌjuːnɪˈvɜːsɪti",
+        "Meaning": "Tôi là sinh viên tại Đại học Bang Arizona"
+    },
+    {
+        "Words": "I am a student at the University of Florida",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv ˈflɒrɪdə",
+        "Meaning": "Tôi là sinh viên trường đại học Florida"
+    },
+    {
+        "Words": "I am a student at Michigan State University",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt ˈmɪʃəgən steɪt ˌjuːnɪˈvɜːsɪti",
+        "Meaning": "Tôi là sinh viên trường đại học bang Michigan"
+    },
+    {
+        "Words": "I am a student at the University of California, San Diego",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv ˌkæləˈfɔːniə, sæn ˈdjɛgəʊ",
+        "Meaning": "Tôi là sinh viên Đại học California, San Diego"
+    },
+    {
+        "Words": "I am a student at the University of Illinois at Urbana-Champaign",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv ˌɪlɪˈnɔɪ æt Urbana-ˈʧæmpeɪn",
+        "Meaning": "Tôi là sinh viên tại Đại học Illinois tại Urbana-Champaign"
+    },
+    {
+        "Words": "I am a student at the University of North Carolina at Chapel Hill",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv nɔːθ kærəˈlaɪnə æt ˈʃæpəl hɪl",
+        "Meaning": "Tôi là sinh viên của Đại học Bắc Carolina tại Chapel Hill"
+    },
+    {
+        "Words": "I am a student at Duke University",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt djuːk ˌjuːnɪˈvɜːsɪti",
+        "Meaning": "Tôi là sinh viên tại đại học Duke"
+    },
+    {
+        "Words": "I am a student at Northwestern University",
+        "IPA": "aɪ æm ə ˈstjuːdənt æt ˌnɔːθˈwɛstən ˌjuːnɪˈvɜːsɪti",
+        "Meaning": "Tôi là sinh viên trường đại học Northwestern"
+    },
+    {
+        "Words": "My major is Agribusiness Operations",
+        "IPA": "maɪ ˈmeɪʤər ɪz Agribusiness ˌɒpəˈreɪʃənz",
+        "Meaning": "Chuyên ngành của tôi là Hoạt động kinh doanh nông nghiệp"
+    },
+    {
+        "Words": "My major is Agricultural Business & Management",
+        "IPA": "maɪ ˈmeɪʤər ɪz ˌægrɪˈkʌlʧərəl ˈbɪznɪs & ˈmænɪʤmənt",
+        "Meaning": "Chuyên ngành của tôi là Quản lý & Kinh doanh Nông nghiệp"
+    },
+    {
+        "Words": "My major is Agricultural Economics",
+        "IPA": "maɪ ˈmeɪʤər ɪz ˌægrɪˈkʌlʧərəl ˌiːkəˈnɒmɪks",
+        "Meaning": "Chuyên ngành của tôi là Kinh tế Nông nghiệp"
+    },
+    {
+        "Words": "My major is Agricultural Mechanization",
+        "IPA": "maɪ ˈmeɪʤər ɪz ˌægrɪˈkʌlʧərəl ˌmɛkənaɪˈzeɪʃən",
+        "Meaning": "Chuyên ngành của tôi là Cơ giới hóa nông nghiệp"
+    },
+    {
+        "Words": "My major is Agricultural Production",
+        "IPA": "maɪ ˈmeɪʤər ɪz ˌægrɪˈkʌlʧərəl prəˈdʌkʃən",
+        "Meaning": "Chuyên ngành của tôi là Sản xuất Nông nghiệp"
+    },
+    {
+        "Words": "My major is Agronomy & Crop Science",
+        "IPA": "maɪ ˈmeɪʤər ɪz əˈgrɒnəmi & krɒp ˈsaɪəns",
+        "Meaning": "Chuyên ngành của tôi là Nông học & Khoa học cây trồng"
+    },
+    {
+        "Words": "My major is Animal Sciences",
+        "IPA": "maɪ ˈmeɪʤər ɪz ˈænɪməl ˈsaɪənsɪz",
+        "Meaning": "Chuyên ngành của tôi là Khoa học Động vật"
+    },
+    {
+        "Words": "My major is Food Sciences & Technology",
+        "IPA": "maɪ ˈmeɪʤər ɪz fuːd ˈsaɪənsɪz & tɛkˈnɒləʤi",
+        "Meaning": "Chuyên ngành của tôi là Khoa học & Công nghệ Thực phẩm"
+    },
+    {
+        "Words": "My major is Horticulture Operations & Management",
+        "IPA": "maɪ ˈmeɪʤər ɪz ˈhɔːtɪkʌlʧər ˌɒpəˈreɪʃənz & ˈmænɪʤmənt",
+        "Meaning": "Chuyên ngành của tôi là Quản lý & Điều hành Trồng trọt"
+    },
+    {
+        "Words": "My major is Horticulture Science",
+        "IPA": "maɪ ˈmeɪʤər ɪz ˈhɔːtɪkʌlʧə ˈsaɪəns",
+        "Meaning": "Chuyên ngành của tôi là Khoa học Làm vườn"
+    },
+    {
+        "Words": "My major is Natural Resources Conservation",
+        "IPA": "maɪ ˈmeɪʤər ɪz ˈnæʧrəl rɪˈsɔːsɪz ˌkɒnsə(ː)ˈveɪʃən",
+        "Meaning": "Chuyên ngành của tôi là Bảo tồn tài nguyên thiên nhiên"
+    },
+    {
+        "Words": "My major is Environmental Science",
+        "IPA": "maɪ ˈmeɪʤər ɪz ɪnˌvaɪərənˈmɛntl ˈsaɪəns",
+        "Meaning": "Chuyên ngành của tôi là Khoa học Môi trường"
+    },
+    {
+        "Words": "My major is Forestry",
+        "IPA": "maɪ ˈmeɪʤər ɪz ˈfɒrɪstri",
+        "Meaning": "Chuyên ngành của tôi là Lâm nghiệp"
+    },
+    {
+        "Words": "My major is Natural Resources Management",
+        "IPA": "maɪ ˈmeɪʤər ɪz ˈnæʧrəl rɪˈsɔːsɪz ˈmænɪʤmənt",
+        "Meaning": "Chuyên ngành của tôi là Quản lý tài nguyên thiên nhiên"
+    },
+    {
+        "Words": "My major is Wildlife & Wildlands Management",
+        "IPA": "maɪ ˈmeɪʤər ɪz ˈwaɪldlaɪf & Wildlands ˈmænɪʤmənt",
+        "Meaning": "Chuyên ngành của tôi là Quản lý động vật hoang dã & các vùng đất hoang dã"
+    },
+    {
+        "Words": "My major is Architectural Environmental Design",
+        "IPA": "maɪ ˈmeɪʤər ɪz ˌɑːkɪˈtɛkʧərəl ɪnˌvaɪərənˈmɛntl dɪˈzaɪn",
+        "Meaning": "Chuyên ngành của tôi là Thiết kế Môi trường Kiến trúc"
+    },
+    {
+        "Words": "My major is Urban and Regional Planning",
+        "IPA": "maɪ ˈmeɪʤər ɪz ˈɜːbən ænd ˈriːʤənl ˈplænɪŋ",
+        "Meaning": "Chuyên ngành của tôi là Quy hoạch đô thị và khu vực"
+    },
+    {
+        "Words": "My major is Interior Architecture",
+        "IPA": "maɪ ˈmeɪʤər ɪz ɪnˈtɪərɪər ˈɑːkɪtɛkʧə",
+        "Meaning": "Chuyên ngành của tôi là Kiến trúc nội thất"
+    },
+    {
+        "Words": "My major is Landscape Architecture",
+        "IPA": "maɪ ˈmeɪʤər ɪz ˈlænskeɪp ˈɑːkɪtɛkʧə",
+        "Meaning": "Chuyên ngành của tôi là Kiến trúc cảnh quan"
+    },
+    {
+        "Words": "My major is Asian Area Studies",
+        "IPA": "maɪ ˈmeɪʤər ɪz ˈeɪʃ(ə)n ˈeərɪə ˈstʌdiz",
+        "Meaning": "Chuyên ngành của tôi là Nghiên cứu Khu vực Châu Á"
+    },
+    {
+        "Words": "My major is European Area Studies",
+        "IPA": "maɪ ˈmeɪʤər ɪz ˌjʊərəˈpi(ː)ən ˈeərɪə ˈstʌdiz",
+        "Meaning": "Chuyên ngành của tôi là Nghiên cứu Khu vực Châu Âu"
+    },
+    {
+        "Words": "My major is Latin American Area Studies",
+        "IPA": "maɪ ˈmeɪʤər ɪz ˈlætɪn əˈmɛrɪkən ˈeərɪə ˈstʌdiz",
+        "Meaning": "Chuyên ngành của tôi là Nghiên cứu Khu vực Mỹ Latinh"
+    },
+    {
+        "Words": "My major is North American Area Studies",
+        "IPA": "maɪ ˈmeɪʤər ɪz nɔːθ əˈmɛrɪkən ˈeərɪə ˈstʌdiz",
+        "Meaning": "Chuyên ngành của tôi là Nghiên cứu Khu vực Bắc Mỹ"
+    },
+    {
+        "Words": "My major is Ethnic & Minority Studies",
+        "IPA": "maɪ ˈmeɪʤər ɪz ˈɛθnɪk & maɪˈnɒrɪti ˈstʌdiz",
+        "Meaning": "Chuyên ngành của tôi là Nghiên cứu Dân tộc & thiểu số"
+    },
+    {
+        "Words": "My major is African American Studies",
+        "IPA": "maɪ ˈmeɪʤər ɪz ˈæfrɪkən əˈmɛrɪkən ˈstʌdiz",
+        "Meaning": "Chuyên ngành của tôi là Nghiên cứu người Mỹ gốc Phi"
+    },
+    {
+        "Words": "My major is Native American Studies",
+        "IPA": "maɪ ˈmeɪʤər ɪz ˈneɪtɪv əˈmɛrɪkən ˈstʌdiz",
+        "Meaning": "Chuyên ngành của tôi là Nghiên cứu về người Mỹ bản địa"
+    },
+    {
+        "Words": "My major is Chicano Studies",
+        "IPA": "maɪ ˈmeɪʤər ɪz Chicano ˈstʌdiz",
+        "Meaning": "Chuyên ngành của tôi là Nghiên cứu Chicano"
+    },
+    {
+        "Words": "My major is Women’s Studies",
+        "IPA": "maɪ ˈmeɪʤər ɪz ˈwɪmɪnz ˈstʌdiz",
+        "Meaning": "Chuyên ngành của tôi là Nghiên cứu về Phụ nữ"
+    },
+    {
+        "Words": "My major is Liberal Arts & General Studies",
+        "IPA": "maɪ ˈmeɪʤər ɪz ˈlɪbərəl ɑːts & ˈʤɛnərəl ˈstʌdiz",
+        "Meaning": "Chuyên ngành của tôi là Nghệ thuật Tự do & Nghiên cứu Tổng quát"
+    },
+    {
+        "Words": "My major is Library Science",
+        "IPA": "maɪ ˈmeɪʤər ɪz ˈlaɪbrəri ˈsaɪəns",
+        "Meaning": "Chuyên ngành của tôi là Khoa học Thư viện"
+    },
+    {
+        "Words": "My favorite drink is Catalan.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz ˈkætələn .",
+        "Meaning": "Thức uống yêu thích của tôi là Catalan."
+    },
+    {
+        "Words": "My favorite drink is ale.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz eɪl.",
+        "Meaning": "Thức uống yêu thích của tôi là bia."
+    },
+    {
+        "Words": "My favorite drink is Americano.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz Americano.",
+        "Meaning": "Thức uống yêu thích của tôi là Americano."
+    },
+    {
+        "Words": "My favorite drink is an aperitif.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz ən əˈpɛrɪtɪf.",
+        "Meaning": "Thức uống yêu thích của tôi là rượu khai vị."
+    },
+    {
+        "Words": "My favorite drink is beer.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz bɪə.",
+        "Meaning": "Thức uống yêu thích của tôi là bia."
+    },
+    {
+        "Words": "My favorite drink is black tea.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz blæk tiː.",
+        "Meaning": "Thức uống yêu thích của tôi là trà đen."
+    },
+    {
+        "Words": "My favorite drink is brandy.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz ˈbrændi.",
+        "Meaning": "Thức uống yêu thích của tôi là rượu mạnh."
+    },
+    {
+        "Words": "My favorite drink is bubble tea.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz ˈbʌbl tiː.",
+        "Meaning": "Thức uống yêu thích của tôi là trà bong bóng."
+    },
+    {
+        "Words": "My favorite drink is cappuccino.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz ˌkæpʊˈʧiːnəʊ.",
+        "Meaning": "Thức uống yêu thích của tôi là cappuccino."
+    },
+    {
+        "Words": "My favorite drink is cider.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz ˈsaɪdə.",
+        "Meaning": "Thức uống yêu thích của tôi là rượu táo."
+    },
+    {
+        "Words": "My favorite drink is cocktail.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz ˈkɒkteɪl.",
+        "Meaning": "Thức uống yêu thích của tôi là cocktail."
+    },
+    {
+        "Words": "My favorite drink is coffee.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz ˈkɒfi.",
+        "Meaning": "Thức uống yêu thích của tôi là cà phê."
+    },
+    {
+        "Words": "My favorite drink is cola.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz ˈkəʊlə.",
+        "Meaning": "Thức uống yêu thích của tôi là cola."
+    },
+    {
+        "Words": "My favorite drink is champagne.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz ʃæmˈpeɪn.",
+        "Meaning": "Thức uống yêu thích của tôi là sâm panh."
+    },
+    {
+        "Words": "My favorite drink is decaf coffee.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz ˈdiːkæf ˈkɒfi.",
+        "Meaning": "Thức uống yêu thích của tôi là cà phê decaf."
+    },
+    {
+        "Words": "My favorite drink is egg coffee.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz ɛg ˈkɒfi.",
+        "Meaning": "Thức uống yêu thích của tôi là cà phê trứng."
+    },
+    {
+        "Words": "My favorite drink is espresso.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz ɛˈsprɛsəʊ.",
+        "Meaning": "Thức uống yêu thích của tôi là cà phê espresso."
+    },
+    {
+        "Words": "My favorite drink is fruit tea.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz fruːt tiː.",
+        "Meaning": "Thức uống yêu thích của tôi là trà trái cây."
+    },
+    {
+        "Words": "My favorite drink is green tea.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz griːn tiː.",
+        "Meaning": "Thức uống yêu thích của tôi là trà xanh."
+    },
+    {
+        "Words": "My favorite drink is gin.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz ʤɪn.",
+        "Meaning": "Thức uống yêu thích của tôi là gin."
+    },
+    {
+        "Words": "My favorite drink is herbal tea.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz ˈhɜːbəl tiː.",
+        "Meaning": "Thức uống yêu thích của tôi là trà thảo mộc."
+    },
+    {
+        "Words": "My favorite drink is hot chocolate.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz hɒt ˈʧɒkəlɪt.",
+        "Meaning": "Thức uống yêu thích của tôi là sô cô la nóng."
+    },
+    {
+        "Words": "My favorite drink is iced tea.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz aɪst tiː.",
+        "Meaning": "Thức uống yêu thích của tôi là trà đá."
+    },
+    {
+        "Words": "My favorite drink is juice.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz ʤuːs.",
+        "Meaning": "Thức uống yêu thích của tôi là nước trái cây."
+    },
+    {
+        "Words": "My favorite drink is lager.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz ˈlɑːgə.",
+        "Meaning": "Thức uống yêu thích của tôi là rượu bia."
+    },
+    {
+        "Words": "My favorite drink is a latte.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz ə ˈlæteɪ.",
+        "Meaning": "Thức uống yêu thích của tôi là một ly latte."
+    },
+    {
+        "Words": "My favorite drink is lemonade.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz ˌlɛməˈneɪd.",
+        "Meaning": "Thức uống yêu thích của tôi là nước chanh."
+    },
+    {
+        "Words": "My favorite drink is lime cordial.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz laɪm ˈkɔːdiəl.",
+        "Meaning": "Thức uống yêu thích của tôi là nước cốt chanh."
+    },
+    {
+        "Words": "My favorite drink is a liqueur.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz ə lɪˈkjʊə.",
+        "Meaning": "Thức uống yêu thích của tôi là rượu mùi."
+    },
+    {
+        "Words": "My favorite drink is macchiato.",
+        "IPA": "maɪ ˈfeɪvərɪt drɪŋk ɪz macchiato.",
+        "Meaning": "Thức uống yêu thích của tôi là macchiato."
+    },
+    {
+        "Words": "I like Action movies.",
+        "IPA": "aɪ laɪk ˈækʃ(ə)n ˈmuːviz.",
+        "Meaning": "Tôi thich phim hanh động."
+    },
+    {
+        "Words": "I like an Adventure movies.",
+        "IPA": "aɪ laɪk ən ədˈvɛnʧə ˈmuːviz.",
+        "Meaning": "Tôi thích một bộ phim phiêu lưu."
+    },
+    {
+        "Words": "I like Cartoon.",
+        "IPA": "aɪ laɪk kɑːˈtuːn.",
+        "Meaning": "Tôi thích Phim hoạt hình."
+    },
+    {
+        "Words": "I like Comedy.",
+        "IPA": "aɪ laɪk ˈkɒmɪdi.",
+        "Meaning": "Tôi thích phim hài."
+    },
+    {
+        "Words": "I like Crime & Gangster Films.",
+        "IPA": "aɪ laɪk kraɪm & ˈgæŋstə fɪlmz.",
+        "Meaning": "Tôi thích Phim Tội phạm & Xã hội đen."
+    },
+    {
+        "Words": "I like documentaries.",
+        "IPA": "aɪ laɪk ˌdɒkjʊˈmɛntəriz.",
+        "Meaning": "Tôi thích phim tài liệu."
+    },
+    {
+        "Words": "I like Drama movies.",
+        "IPA": "aɪ laɪk ˈdrɑːmə ˈmuːviz.",
+        "Meaning": "Tôi thích phim chính kịch."
+    },
+    {
+        "Words": "I like Family movies.",
+        "IPA": "aɪ laɪk ˈfæmɪli ˈmuːviz.",
+        "Meaning": "Tôi thích phim Gia đình."
+    },
+    {
+        "Words": "I like Historical films.",
+        "IPA": "aɪ laɪk hɪsˈtɒrɪkəl fɪlmz.",
+        "Meaning": "Tôi thích phim Lịch sử."
+    },
+    {
+        "Words": "I like a Horror movies.",
+        "IPA": "aɪ laɪk ə ˈhɒrə ˈmuːviz.",
+        "Meaning": "Tôi thích một bộ phim kinh dị."
+    },
+    {
+        "Words": "I like Musical movies.",
+        "IPA": "aɪ laɪk ˈmjuːzɪkəl ˈmuːviz.",
+        "Meaning": "Tôi thích phim ca nhạc."
+    },
+    {
+        "Words": "I like Romance movies.",
+        "IPA": "aɪ laɪk rəʊˈmæns ˈmuːviz.",
+        "Meaning": "Tôi thích phim Lãng mạn."
+    },
+    {
+        "Words": "I like science fiction movies.",
+        "IPA": "aɪ laɪk ˈsaɪəns ˈfɪkʃən ˈmuːviz.",
+        "Meaning": "Tôi thích phim khoa học viễn tưởng."
+    },
+    {
+        "Words": "I like the Sitcom movie.",
+        "IPA": "aɪ laɪk ðə ˈsɪtˌkɒm ˈmuːvi.",
+        "Meaning": "Tôi thích phim Sitcom."
+    },
+    {
+        "Words": "I like the Tragedy movie.",
+        "IPA": "aɪ laɪk ðə ˈtræʤɪdi ˈmuːvi.",
+        "Meaning": "Tôi thích bộ phim Bi kịch."
+    },
+    {
+        "Words": "I like War Films.",
+        "IPA": "aɪ laɪk wɔː fɪlmz.",
+        "Meaning": "Tôi thích Phim Chiến tranh."
+    },
+    {
+        "Words": "I like Westerns Films.",
+        "IPA": "aɪ laɪk ˈwɛstənz fɪlmz.",
+        "Meaning": "Tôi thích phim về miền Tây."
+    },
+    {
+        "Words": "I like detective films.",
+        "IPA": "aɪ laɪk dɪˈtɛktɪv fɪlmz.",
+        "Meaning": "Tôi thích phim trinh thám."
+    },
+    {
+        "Words": "I like thriller films.",
+        "IPA": "aɪ laɪk ˈθrɪlə fɪlmz.",
+        "Meaning": "Tôi thích những bộ phim kinh dị."
+    },
+    {
+        "Words": "I like magic films.",
+        "IPA": "aɪ laɪk ˈmæʤɪk fɪlmz.",
+        "Meaning": "Tôi thích những bộ phim ma thuật."
+    },
+    {
+        "Words": "I am going to go camping",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː gəʊ ˈkæmpɪŋ",
+        "Meaning": "Tôi sẽ đi cắm trại"
+    },
+    {
+        "Words": "I am going to go fishing",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː gəʊ ˈfɪʃɪŋ",
+        "Meaning": "Tôi sẽ đi câu cá"
+    },
+    {
+        "Words": "I am going to have a picnic",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː hæv ə ˈpɪknɪk",
+        "Meaning": "Tôi sắp có một buổi dã ngoại"
+    },
+    {
+        "Words": "I am going to visit my grandparents",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ˈvɪzɪt maɪ ˈgrænˌpeərənts",
+        "Meaning": "Tôi sẽ đi thăm ông bà của tôi"
+    },
+    {
+        "Words": "I am going to fly a kite",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː flaɪ ə kaɪt",
+        "Meaning": "Tôi sẽ thả diều"
+    },
+    {
+        "Words": "I am going to go to the park",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː gəʊ tuː ðə pɑːk",
+        "Meaning": "Tôi sẽ đi đến công viên"
+    },
+    {
+        "Words": "I am going to go climbing",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː gəʊ ˈklaɪmɪŋ",
+        "Meaning": "Tôi sẽ đi leo núi"
+    },
+    {
+        "Words": "I am going to go swimming",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː gəʊ ˈswɪmɪŋ",
+        "Meaning": "Tôi sẽ đi bơi"
+    },
+    {
+        "Words": "I am going to go to the beach",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː gəʊ tuː ðə biːʧ",
+        "Meaning": "Tôi sẽ đi đến bãi biển"
+    },
+    {
+        "Words": "I am going to go to the zoo",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː gəʊ tuː ðə zuː",
+        "Meaning": "Tôi sẽ đi đến sở thú"
+    },
+    {
+        "Words": "I am going to do the garden",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː duː ðə ˈgɑːdn",
+        "Meaning": "Tôi sẽ làm vườn"
+    },
+    {
+        "Words": "I am going to go cycling",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː gəʊ ˈsaɪklɪŋ",
+        "Meaning": "Tôi sẽ đi xe đạp"
+    },
+    {
+        "Words": "I am going to run in the park",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː rʌn ɪn ðə pɑːk",
+        "Meaning": "Tôi sẽ chạy trong công viên"
+    },
+    {
+        "Words": "I am going to go to the water park",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː gəʊ tuː ðə ˈwɔːtə pɑːk",
+        "Meaning": "Tôi sẽ đi đến công viên nước"
+    },
+    {
+        "Words": "I am going to go surfing",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː gəʊ ˈsɜːfɪŋ",
+        "Meaning": "Tôi sẽ đi lướt sóng"
+    },
+    {
+        "Words": "I am going to go jogging around the lakeside",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː gəʊ ˈʤɒgɪŋ əˈraʊnd ðə ˈleɪkˌsaɪd",
+        "Meaning": "Tôi sẽ chạy bộ quanh bờ hồ"
+    },
+    {
+        "Words": "I am going to play football",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː pleɪ ˈfʊtbɔːl",
+        "Meaning": "tôi đang chuẩn bị đi đá bóng"
+    },
+    {
+        "Words": "I am going to play soccer",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː pleɪ ˈsɒkə",
+        "Meaning": "Tôi sẽ chơi bóng đá"
+    },
+    {
+        "Words": "I am going to play badminton",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː pleɪ ˈbædmɪntən",
+        "Meaning": "Tôi sẽ chơi cầu lông"
+    },
+    {
+        "Words": "I am going to play golf",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː pleɪ gɒlf",
+        "Meaning": "Tôi sẽ chơi gôn"
+    },
+    {
+        "Words": "I am going to play volleyball",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː pleɪ ˈvɒlɪˌbɔːl",
+        "Meaning": "Tôi sẽ chơi bóng chuyền"
+    },
+    {
+        "Words": "I am going to play tennis",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː pleɪ ˈtɛnɪs",
+        "Meaning": "tôi sẽ chơi ten-nít"
+    },
+    {
+        "Words": "I am going to play basketball",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː pleɪ ˈbɑːskɪtˌbɔːl",
+        "Meaning": "Tôi sẽ chơi bóng rổ"
+    },
+    {
+        "Words": "I am going to go sailing",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː gəʊ ˈseɪlɪŋ",
+        "Meaning": "Tôi sẽ đi chèo thuyền"
+    },
+    {
+        "Words": "I am going to play baseball",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː pleɪ ˈbeɪsbɔːl",
+        "Meaning": "Tôi sẽ chơi bóng chày"
+    },
+    {
+        "Words": "I am going to do archery",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː duː ˈɑːʧəri",
+        "Meaning": "Tôi sẽ bắn cung"
+    },
+    {
+        "Words": "I am going to play table tennis",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː pleɪ ˈteɪbl ˈtɛnɪs",
+        "Meaning": "Tôi sẽ chơi bóng bàn"
+    },
+    {
+        "Words": "I am going to do scuba diving",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː duː ˈskuːbə ˈdaɪvɪŋ",
+        "Meaning": "Tôi sẽ lặn biển"
+    },
+    {
+        "Words": "I am going to do water skiing",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː duː ˈwɔːtə ˈskiːɪŋ",
+        "Meaning": "Tôi sẽ trượt nước"
+    },
+    {
+        "Words": "I am going to do rollerblading",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː duː ˈrəʊləˌbleɪdɪŋ",
+        "Meaning": "Tôi sẽ trượt patin"
+    },
+    {
+        "Words": "The weather is sunny.",
+        "IPA": "ðə ˈwɛðər ɪz ˈsʌni.",
+        "Meaning": "Trời nắng đẹp."
+    },
+    {
+        "Words": "The weather is rainy.",
+        "IPA": "ðə ˈwɛðər ɪz ˈreɪni.",
+        "Meaning": "Trời đang mưa."
+    },
+    {
+        "Words": "The weather is starting to rain.",
+        "IPA": "ðə ˈwɛðər ɪz ˈstɑːtɪŋ tuː reɪn.",
+        "Meaning": "Thời tiết đang bắt đầu mưa."
+    },
+    {
+        "Words": "The weather is stopped raining.",
+        "IPA": "ðə ˈwɛðər ɪz stɒpt ˈreɪnɪŋ.",
+        "Meaning": "Trời tạnh mưa."
+    },
+    {
+        "Words": "The weather is fine.",
+        "IPA": "ðə ˈwɛðər ɪz faɪn.",
+        "Meaning": "Thời tiết vẫn ổn."
+    },
+    {
+        "Words": "The weather is sun's shining.",
+        "IPA": "ðə ˈwɛðər ɪz sʌnz ˈʃaɪnɪŋ.",
+        "Meaning": "Thời tiết đang nắng."
+    },
+    {
+        "Words": "The weather is not a cloud in the sky.",
+        "IPA": "ðə ˈwɛðər ɪz nɒt ə klaʊd ɪn ðə skaɪ.",
+        "Meaning": "Thời tiết không phải là một đám mây trên bầu trời."
+    },
+    {
+        "Words": "The weather is overcast.",
+        "IPA": "ðə ˈwɛðər ɪz ˈəʊvəkɑːst.",
+        "Meaning": "Thời tiết u ám."
+    },
+    {
+        "Words": "The weather is clearing up.",
+        "IPA": "ðə ˈwɛðər ɪz ˈklɪərɪŋ ʌp.",
+        "Meaning": "Thời tiết đang tốt lên."
+    },
+    {
+        "Words": "The weather is the wind's dropped.",
+        "IPA": "ðə ˈwɛðər ɪz ðə wɪndz drɒpt.",
+        "Meaning": "Thời tiết là gió rơi."
+    },
+    {
+        "Words": "The weather is lightning.",
+        "IPA": "ðə ˈwɛðər ɪz ˈlaɪtnɪŋ.",
+        "Meaning": "Thời tiết như chớp."
+    },
+    {
+        "Words": "The weather is cloudy.",
+        "IPA": "ðə ˈwɛðər ɪz ˈklaʊdi.",
+        "Meaning": "Trời nhiều mây."
+    },
+    {
+        "Words": "The weather is pouring with rain.",
+        "IPA": "ðə ˈwɛðər ɪz ˈpɔːrɪŋ wɪð reɪn.",
+        "Meaning": "Trời đang mưa tầm tã."
+    },
+    {
+        "Words": "The weather is baking hot.",
+        "IPA": "ðə ˈwɛðər ɪz ˈbeɪkɪŋ hɒt.",
+        "Meaning": "Thời tiết đang nướng nóng."
+    },
+    {
+        "Words": "The weather is below freezing.",
+        "IPA": "ðə ˈwɛðər ɪz bɪˈləʊ ˈfriːzɪŋ.",
+        "Meaning": "Thời tiết dưới mức đóng băng."
+    },
+    {
+        "Words": "The weather is miserable.",
+        "IPA": "ðə ˈwɛðər ɪz ˈmɪzərəbl.",
+        "Meaning": "Thời tiết thật khốn khổ."
+    },
+    {
+        "Words": "The weather is raining cats and dogs.",
+        "IPA": "ðə ˈwɛðər ɪz ˈreɪnɪŋ kæts ænd dɒgz.",
+        "Meaning": "Trời mưa chó mèo."
+    },
+    {
+        "Words": "The weather is not a very nice day.",
+        "IPA": "ðə ˈwɛðər ɪz nɒt ə ˈvɛri naɪs deɪ.",
+        "Meaning": "Thời tiết không phải là một ngày tốt đẹp."
+    },
+    {
+        "Words": "The weather is a strong wind.",
+        "IPA": "ðə ˈwɛðər ɪz ə strɒŋ wɪnd.",
+        "Meaning": "Thời tiết là một cơn gió mạnh."
+    },
+    {
+        "Words": "The weather is windy outside.",
+        "IPA": "ðə ˈwɛðər ɪz ˈwɪndi ˌaʊtˈsaɪd.",
+        "Meaning": "Ngoài trời đang lộng gió."
+    },
+    {
+        "Words": "The weather is snowing.",
+        "IPA": "ðə ˈwɛðər ɪz ˈsnəʊɪŋ.",
+        "Meaning": "Thời tiết đang có tuyết."
+    },
+    {
+        "Words": "The weather is warm.",
+        "IPA": "ðə ˈwɛðər ɪz wɔːm.",
+        "Meaning": "Thời tiết ấm áp."
+    },
+    {
+        "Words": "The weather is cold today.",
+        "IPA": "ðə ˈwɛðər ɪz kəʊld təˈdeɪ.",
+        "Meaning": "Trời hôm nay se lạnh."
+    },
+    {
+        "Words": "The weather is hot.",
+        "IPA": "ðə ˈwɛðər ɪz hɒt.",
+        "Meaning": "Thời tiết nóng."
+    },
+    {
+        "Words": "The weather is foggy.",
+        "IPA": "ðə ˈwɛðər ɪz ˈfɒgi.",
+        "Meaning": "Trời có sương mù."
+    },
+    {
+        "Words": "The weather is humid and wet.",
+        "IPA": "ðə ˈwɛðər ɪz ˈhjuːmɪd ænd wɛt.",
+        "Meaning": "Thời tiết ẩm ướt."
+    },
+    {
+        "Words": "The weather is the gale.",
+        "IPA": "ðə ˈwɛðər ɪz ðə geɪl.",
+        "Meaning": "Thời tiết là gió."
+    },
+    {
+        "Words": "The weather is a breeze.",
+        "IPA": "ðə ˈwɛðər ɪz ə briːz.",
+        "Meaning": "Thời tiết là một làn gió."
+    },
+    {
+        "Words": "The weather is mild.",
+        "IPA": "ðə ˈwɛðər ɪz maɪld.",
+        "Meaning": "Thời tiết rất nhẹ."
+    },
+    {
+        "Words": "The weather is chilly.",
+        "IPA": "ðə ˈwɛðər ɪz ˈʧɪli.",
+        "Meaning": "Thời tiết se lạnh."
+    },
+    {
+        "Words": "Words",
+        "IPA": "IPA",
+        "Meaning": "Meaning"
+    },
+    {
+        "Words": "I watch a movie called The Glorias: A Life On The Road",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld ðə ˈglɔːrɪəz: ə laɪf ɒn ðə rəʊd",
+        "Meaning": "Tôi xem một bộ phim tên là The Glorias: A Life On The Road"
+    },
+    {
+        "Words": "I watch a movie called Always Be My Maybe",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld ˈɔːlweɪz biː maɪ ˈmeɪbiː",
+        "Meaning": "Tôi xem một bộ phim có tên Luôn là có thể của tôi"
+    },
+    {
+        "Words": "I watch a movie called The Boy Who Harnessed The Wind",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld ðə bɔɪ huː ˈhɑːnɪst ðə wɪnd",
+        "Meaning": "Tôi xem một bộ phim tên là The Boy Who Harnessed The Wind"
+    },
+    {
+        "Words": "I watch a movie called Charlie’s Angels",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld ˈʧɑːliz ˈeɪnʤəlz",
+        "Meaning": "Tôi xem một bộ phim tên là Những thiên thần của Charlie"
+    },
+    {
+        "Words": "I watch a movie called Flarksy",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld Flarksy",
+        "Meaning": "Tôi xem một bộ phim tên là Flarksy"
+    },
+    {
+        "Words": "I watch a movie called Late Night",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld leɪt naɪt",
+        "Meaning": "Tôi xem một bộ phim có tên là Đêm khuya"
+    },
+    {
+        "Words": "I watch a movie called Fonzo",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld Fonzo",
+        "Meaning": "Tôi xem một bộ phim tên là Fonzo"
+    },
+    {
+        "Words": "I watch a movie called Sound Of Metal",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld saʊnd ɒv ˈmɛtl",
+        "Meaning": "Tôi xem một bộ phim tên là Sound Of Metal"
+    },
+    {
+        "Words": "I watch a movie called Little Joe",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld ˈlɪtl ˈʤəʊ",
+        "Meaning": "Tôi xem một bộ phim tên là Little Joe"
+    },
+    {
+        "Words": "I watch a movie called Resistance",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld rɪˈzɪstəns",
+        "Meaning": "Tôi xem một bộ phim có tên là Kháng chiến"
+    },
+    {
+        "Words": "I watch a movie called The Rhythm Section",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld ðə ˈrɪðəm ˈsɛkʃən",
+        "Meaning": "Tôi xem một bộ phim tên là The Rhythm Section"
+    },
+    {
+        "Words": "I watch a movie called Missing Link",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld ˈmɪsɪŋ lɪŋk",
+        "Meaning": "Tôi xem một bộ phim tên là Liên kết thiếu"
+    },
+    {
+        "Words": "I watch a movie called Native Son",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld ˈneɪtɪv sʌn",
+        "Meaning": "Tôi xem một bộ phim tên là Native Son"
+    },
+    {
+        "Words": "I watch a movie called The Addams Family",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld ði Addams ˈfæmɪli",
+        "Meaning": "Tôi xem một bộ phim có tên Gia đình Addams"
+    },
+    {
+        "Words": "I watch a movie called MIB",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld ɛm-aɪ-biː",
+        "Meaning": "Tôi xem một bộ phim tên là MIB"
+    },
+    {
+        "Words": "I watch a movie called The Parts You Lose",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld ðə pɑːts juː luːz",
+        "Meaning": "Tôi xem một bộ phim tên là The Parts You Lose"
+    },
+    {
+        "Words": "I watch a movie called Going Places",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld ˈgəʊɪŋ ˈpleɪsɪz",
+        "Meaning": "Tôi xem một bộ phim có tên là Đi Địa điểm"
+    },
+    {
+        "Words": "I watch a movie called Untitled Danny Boyle",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld ˌʌnˈtaɪtld ˈdæni bɔɪl",
+        "Meaning": "Tôi xem một bộ phim có tên Danny Boyle không có tiêu đề"
+    },
+    {
+        "Words": "I watch a movie called The Kid Who Would Be King",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld ðə kɪd huː wʊd biː kɪŋ",
+        "Meaning": "Tôi xem một bộ phim tên là The Kid Who Will Be King"
+    },
+    {
+        "Words": "I watch a movie called Roads",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld rəʊdz",
+        "Meaning": "Tôi xem một bộ phim tên là Roads"
+    },
+    {
+        "Words": "I watch a movie called The Many Saints Of Newark",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld ðə ˈmɛni seɪnts ɒv Newark",
+        "Meaning": "Tôi xem một bộ phim tên là The Many Saints Of Newark"
+    },
+    {
+        "Words": "I watch a movie called My Zoe",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld maɪ ˈzəʊi",
+        "Meaning": "Tôi xem một bộ phim tên là My Zoe"
+    },
+    {
+        "Words": "I watch a movie called The Cradle",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld ðə ˈkreɪdl",
+        "Meaning": "Tôi xem một bộ phim tên là Cái nôi"
+    },
+    {
+        "Words": "I watch a movie called Limited Partners",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld ˈlɪmɪtɪd ˈpɑːtnəz",
+        "Meaning": "Tôi xem một bộ phim có tên là Đối tác hữu hạn"
+    },
+    {
+        "Words": "I watch a movie called Chaos Walking",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld ˈkeɪɒs ˈwɔːkɪŋ",
+        "Meaning": "Tôi xem một bộ phim tên là Chaos Walking"
+    },
+    {
+        "Words": "I watch a movie called Gemini Man",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld ˈʤɛmɪnaɪ mæn",
+        "Meaning": "Tôi xem một bộ phim tên là Gemini Man"
+    },
+    {
+        "Words": "I watch a movie called Downhill",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld ˌdaʊnˈhɪl",
+        "Meaning": "Tôi xem một bộ phim có tên là Downhill"
+    },
+    {
+        "Words": "I watch a movie called Domino",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld ˈdɒmɪnəʊ",
+        "Meaning": "Tôi xem một bộ phim tên là Domino"
+    },
+    {
+        "Words": "I watch a movie called Benedetta",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld Benedetta",
+        "Meaning": "Tôi xem một bộ phim tên là Benedetta"
+    },
+    {
+        "Words": "I watch a movie called Everything Everywhere All At Once",
+        "IPA": "aɪ wɒʧ ə ˈmuːvi kɔːld ˈɛvrɪθɪŋ ˈɛvrɪweər ɔːl æt wʌns",
+        "Meaning": "Tôi xem một bộ phim có tên Mọi thứ mọi nơi mọi lúc"
+    },
+    {
+        "Words": "It’s one of the best I’ve ever seen.",
+        "IPA": "ɪts wʌn ɒv ðə bɛst aɪv ˈɛvə siːn.",
+        "Meaning": "Đó là một trong những điều tốt nhất mà tôi từng thấy."
+    },
+    {
+        "Words": "I liked it very much.",
+        "IPA": "aɪ laɪkt ɪt ˈvɛri mʌʧ.",
+        "Meaning": "Tôi thích nó rất nhiều."
+    },
+    {
+        "Words": "I found it enjoyable.",
+        "IPA": "aɪ faʊnd ɪt ɪnˈʤɔɪəbl.",
+        "Meaning": "Tôi thấy nó thú vị."
+    },
+    {
+        "Words": "It was very good.",
+        "IPA": "ɪt wɒz ˈvɛri gʊd.",
+        "Meaning": "Nó là rất tốt."
+    },
+    {
+        "Words": "It was fantastic.",
+        "IPA": "ɪt wɒz fænˈtæstɪk.",
+        "Meaning": "Nó rất tuyệt vời."
+    },
+    {
+        "Words": "It wasn't bad.",
+        "IPA": "ɪt wɒznt bæd.",
+        "Meaning": "Nó không tệ."
+    },
+    {
+        "Words": "It was boring",
+        "IPA": "ɪt wɒz ˈbɔːrɪŋ",
+        "Meaning": "Nó đã nhàm chán"
+    },
+    {
+        "Words": "It was terrible.",
+        "IPA": "ɪt wɒz ˈtɛrəbl.",
+        "Meaning": "Điều đó thật tồi tệ."
+    },
+    {
+        "Words": "It’s one of the best I’ve ever seen.",
+        "IPA": "ɪts wʌn ɒv ðə bɛst aɪv ˈɛvə siːn.",
+        "Meaning": "Đó là một trong những điều tốt nhất mà tôi từng thấy."
+    },
+    {
+        "Words": "I liked it very much.",
+        "IPA": "aɪ laɪkt ɪt ˈvɛri mʌʧ.",
+        "Meaning": "Tôi thích nó rất nhiều."
+    },
+    {
+        "Words": "I found it enjoyable.",
+        "IPA": "aɪ faʊnd ɪt ɪnˈʤɔɪəbl.",
+        "Meaning": "Tôi thấy nó thú vị."
+    },
+    {
+        "Words": "It was very good.",
+        "IPA": "ɪt wɒz ˈvɛri gʊd.",
+        "Meaning": "Nó là rất tốt."
+    },
+    {
+        "Words": "It was fantastic.",
+        "IPA": "ɪt wɒz fænˈtæstɪk.",
+        "Meaning": "Nó rất tuyệt vời."
+    },
+    {
+        "Words": "It wasn't bad.",
+        "IPA": "ɪt wɒznt bæd.",
+        "Meaning": "Nó không tệ."
+    },
+    {
+        "Words": "It was boring",
+        "IPA": "ɪt wɒz ˈbɔːrɪŋ",
+        "Meaning": "Nó đã nhàm chán"
+    },
+    {
+        "Words": "It was terrible.",
+        "IPA": "ɪt wɒz ˈtɛrəbl.",
+        "Meaning": "Điều đó thật tồi tệ."
+    },
+    {
+        "Words": "Next Monday.",
+        "IPA": "nɛkst ˈmʌndeɪ.",
+        "Meaning": "Vào thứ Hai tới."
+    },
+    {
+        "Words": "Next Tuesday.",
+        "IPA": "nɛkst ˈtjuːzdeɪ.",
+        "Meaning": "Vào thứ Ba tới."
+    },
+    {
+        "Words": "Next Wednesday.",
+        "IPA": "nɛkst ˈwɛnzdeɪ.",
+        "Meaning": "Vào thứ Tư tới."
+    },
+    {
+        "Words": "Next Thursday.",
+        "IPA": "nɛkst ˈθɜːzdeɪ.",
+        "Meaning": "Vào thứ Năm tới."
+    },
+    {
+        "Words": "Next Friday.",
+        "IPA": "nɛkst ˈfraɪdeɪ.",
+        "Meaning": "Vào thứ sáu tới."
+    },
+    {
+        "Words": "Next Saturday.",
+        "IPA": "nɛkst ˈsætədeɪ.",
+        "Meaning": "Vào thứ bảy tới."
+    },
+    {
+        "Words": "Next Sunday.",
+        "IPA": "nɛkst ˈsʌndeɪ.",
+        "Meaning": "Vào chủ nhật tới."
+    },
+    {
+        "Words": "Tomorrow morning.",
+        "IPA": "təˈmɒrəʊ ˈmɔːnɪŋ.",
+        "Meaning": "Vào sáng mai."
+    },
+    {
+        "Words": "Tomorrow night.",
+        "IPA": "təˈmɒrəʊ naɪt.",
+        "Meaning": "Vào đêm mai."
+    },
+    {
+        "Words": "In the next 6 days.",
+        "IPA": "ɪn ðə nɛkst 6 deɪz.",
+        "Meaning": "Vào 6 ngày tiếp theo."
+    },
+    {
+        "Words": "On April 4.",
+        "IPA": "ɒn ˈeɪprəl 4.",
+        "Meaning": "Vào ngày 4 tháng Tư."
+    },
+    {
+        "Words": "On March 24.",
+        "IPA": "ɒn mɑːʧ 24.",
+        "Meaning": "Vào ngày 24 tháng Ba."
+    },
+    {
+        "Words": "On the day after tomorrow.",
+        "IPA": "ɒn ðə deɪ ˈɑːftə təˈmɒrəʊ.",
+        "Meaning": "Vào ngày mốt."
+    },
+    {
+        "Words": "On April 17, 18.",
+        "IPA": "ɒn ˈeɪprəl 17, 18.",
+        "Meaning": "Vào ngày 17 tháng 4 năm 18."
+    },
+    {
+        "Words": "On tonight.",
+        "IPA": "ɒn təˈnaɪt.",
+        "Meaning": "Vào tối nay."
+    },
+    {
+        "Words": "On this afternoon.",
+        "IPA": "ɒn ðɪs ˈɑːftəˈnuːn.",
+        "Meaning": "Vào chiều nay."
+    },
+    {
+        "Words": "On January 10.",
+        "IPA": "ɒn ˈʤænjʊəri 10.",
+        "Meaning": "Vào ngày 10 tháng Giêng."
+    },
+    {
+        "Words": "On June 5.",
+        "IPA": "ɒn ʤuːn 5.",
+        "Meaning": "Vào ngày 5 tháng Sáu."
+    },
+    {
+        "Words": "On this evening.",
+        "IPA": "ɒn ðɪs ˈiːvnɪŋ.",
+        "Meaning": "Vào buổi tối hôm nay."
+    },
+    {
+        "Words": "On September 9.",
+        "IPA": "ɒn sɛpˈtɛmbə 9.",
+        "Meaning": "Vào ngày 9 tháng 9."
+    },
+    {
+        "Words": "On April 30.",
+        "IPA": "ɒn ˈeɪprəl 30.",
+        "Meaning": "Vào ngày 30 tháng Tư."
+    },
+    {
+        "Words": "On May 2.",
+        "IPA": "ɒn meɪ 2.",
+        "Meaning": "Vào ngày 2 tháng Năm."
+    },
+    {
+        "Words": "On January 28.",
+        "IPA": "ɒn ˈʤænjʊəri 28.",
+        "Meaning": "Vào ngày 28 tháng Giêng."
+    },
+    {
+        "Words": "On May 1, 2, 3. Three days.",
+        "IPA": "ɒn meɪ 1, 2, 3. θriː deɪz.",
+        "Meaning": "Vào ngày 1, 2, 3 tháng 5. Ba ngày."
+    },
+    {
+        "Words": "On July 27.",
+        "IPA": "ɒn ʤu(ː)ˈlaɪ 27.",
+        "Meaning": "Vào ngày 27 tháng 7."
+    },
+    {
+        "Words": "On June 28.",
+        "IPA": "ɒn ʤuːn 28.",
+        "Meaning": "Vào ngày 28 tháng 6."
+    },
+    {
+        "Words": "On December 23, 24.",
+        "IPA": "ɒn dɪˈsɛmbə 23, 24.",
+        "Meaning": "Vào ngày 23, 24 tháng Mười Hai."
+    },
+    {
+        "Words": "On April 29.",
+        "IPA": "ɒn ˈeɪprəl 29.",
+        "Meaning": "Vào ngày 29 tháng Tư."
+    },
+    {
+        "Words": "On March 10.",
+        "IPA": "ɒn mɑːʧ 10.",
+        "Meaning": "Vào ngày 10 tháng Ba."
+    },
+    {
+        "Words": "On January 14.",
+        "IPA": "ɒn ˈʤænjʊəri 14.",
+        "Meaning": "Vào ngày 14 tháng Giêng."
+    },
+    {
+        "Words": "I would like a single room with a sea view.",
+        "IPA": "aɪ wʊd laɪk ə ˈsɪŋgl ruːm wɪð ə siː vjuː.",
+        "Meaning": "Tôi muốn có một đơn phòng nhìn ra biển."
+    },
+    {
+        "Words": "I would like a single room with a garden view.",
+        "IPA": "aɪ wʊd laɪk ə ˈsɪŋgl ruːm wɪð ə ˈgɑːdn vjuː.",
+        "Meaning": "Tôi muốn có một đơn phòng nhìn ra vườn."
+    },
+    {
+        "Words": "I would like a single room with a mountain view.",
+        "IPA": "aɪ wʊd laɪk ə ˈsɪŋgl ruːm wɪð ə ˈmaʊntɪn vjuː.",
+        "Meaning": "Tôi muốn có một phòng đơn nhìn ra núi."
+    },
+    {
+        "Words": "I would like a single room with a bathtub.",
+        "IPA": "aɪ wʊd laɪk ə ˈsɪŋgl ruːm wɪð ə ˈbɑːθtʌb.",
+        "Meaning": "Tôi muốn một đơn phòng có bồn tắm."
+    },
+    {
+        "Words": "I would like a double bedroom.",
+        "IPA": "aɪ wʊd laɪk ə ˈdʌbl ˈbɛdru(ː)m.",
+        "Meaning": "Tôi muốn có một phòng ngủ đôi."
+    },
+    {
+        "Words": "I would like a deluxe room with a sea view on the high floor.",
+        "IPA": "aɪ wʊd laɪk ə dɪˈlʌks ruːm wɪð ə siː vjuː ɒn ðə haɪ flɔː.",
+        "Meaning": "Tôi muốn có một phòng deluxe nhìn ra biển trên tầng cao."
+    },
+    {
+        "Words": "I would like a twin bedroom.",
+        "IPA": "aɪ wʊd laɪk ə twɪn ˈbɛdru(ː)m.",
+        "Meaning": "Tôi muốn có một phòng ngủ 2 đơn."
+    },
+    {
+        "Words": "I would like a Queen sized bedroom.",
+        "IPA": "aɪ wʊd laɪk ə kwiːn saɪzd ˈbɛdru(ː)m.",
+        "Meaning": "Tôi muốn có một phòng ngủ cỡ Queen."
+    },
+    {
+        "Words": "I would like a double bedroom and a balcony.",
+        "IPA": "aɪ wʊd laɪk ə ˈdʌbl ˈbɛdru(ː)m ænd ə ˈbælkəni.",
+        "Meaning": "Tôi muốn có một phòng ngủ kép và một ban công."
+    },
+    {
+        "Words": "I would like a single room on the high floor.",
+        "IPA": "aɪ wʊd laɪk ə ˈsɪŋgl ruːm ɒn ðə haɪ flɔː.",
+        "Meaning": "Tôi muốn có một đơn phòng trên tầng cao."
+    },
+    {
+        "Words": "I would like a double room with a city view.",
+        "IPA": "aɪ wʊd laɪk ə ˈdʌbl ruːm wɪð ə ˈsɪti vjuː.",
+        "Meaning": "Tôi muốn có một phòng đôi với tầm nhìn ra quang cảnh thành phố."
+    },
+    {
+        "Words": "I would like a single room with a lake view.",
+        "IPA": "aɪ wʊd laɪk ə ˈsɪŋgl ruːm wɪð ə leɪk vjuː.",
+        "Meaning": "Tôi muốn một đơn phòng nhìn ra hồ."
+    },
+    {
+        "Words": "I would like a double room with a sea view.",
+        "IPA": "aɪ wʊd laɪk ə ˈdʌbl ruːm wɪð ə siː vjuː.",
+        "Meaning": "Tôi muốn có một phòng đôi nhìn ra biển."
+    },
+    {
+        "Words": "I would like a connecting room.",
+        "IPA": "aɪ wʊd laɪk ə kəˈnɛktɪŋ ruːm.",
+        "Meaning": "Tôi muốn có một phòng thông nhau."
+    },
+    {
+        "Words": "I would like a quiet room for 2 people.",
+        "IPA": "aɪ wʊd laɪk ə ˈkwaɪət ruːm fɔː 2 ˈpiːpl.",
+        "Meaning": "Tôi muốn có một phòng yên tĩnh cho 2 người."
+    },
+    {
+        "Words": "I would like a ventilated room with 2 beds.",
+        "IPA": "aɪ wʊd laɪk ə ˈvɛntɪleɪtɪd ruːm wɪð 2 bɛdz.",
+        "Meaning": "Tôi muốn có một phòng thông gió với 2 người sống."
+    },
+    {
+        "Words": "I would like a deluxe room in the French style.",
+        "IPA": "aɪ wʊd laɪk ə dɪˈlʌks ruːm ɪn ðə frɛnʧ staɪl.",
+        "Meaning": "Tôi muốn có một phòng sang trọng theo phong cách Pháp."
+    },
+    {
+        "Words": "I would like a single room with a heater.",
+        "IPA": "aɪ wʊd laɪk ə ˈsɪŋgl ruːm wɪð ə ˈhiːtə.",
+        "Meaning": "Tôi muốn có một đơn phòng có lò nướng."
+    },
+    {
+        "Words": "I would like a room with a lake view for 2 people.",
+        "IPA": "aɪ wʊd laɪk ə ruːm wɪð ə leɪk vjuː fɔː 2 ˈpiːpl.",
+        "Meaning": "Tôi muốn một phòng có tầm nhìn ra hồ cho 2 người."
+    },
+    {
+        "Words": "I would like a room with a sea view for 3 people.",
+        "IPA": "aɪ wʊd laɪk ə ruːm wɪð ə siː vjuː fɔː 3 ˈpiːpl.",
+        "Meaning": "Tôi muốn một phòng nhìn ra biển cho 3 người."
+    },
+    {
+        "Words": "I would like a room with a mountain view for 2 people.",
+        "IPA": "aɪ wʊd laɪk ə ruːm wɪð ə ˈmaʊntɪn vjuː fɔː 2 ˈpiːpl.",
+        "Meaning": "Tôi muốn một phòng nhìn ra núi cho 2 người."
+    },
+    {
+        "Words": "I would like a room with a city view for 2 people and 2 children.",
+        "IPA": "aɪ wʊd laɪk ə ruːm wɪð ə ˈsɪti vjuː fɔː 2 ˈpiːpl ænd 2 ˈʧɪldrən.",
+        "Meaning": "Tôi muốn một phòng có tầm nhìn ra thành phố cho 2 người và 2 trẻ em."
+    },
+    {
+        "Words": "I would like adjoining rooms.",
+        "IPA": "aɪ wʊd laɪk əˈʤɔɪnɪŋ ruːmz.",
+        "Meaning": "Tôi muốn các phòng liền kề."
+    },
+    {
+        "Words": "I would like a triple room.",
+        "IPA": "aɪ wʊd laɪk ə ˈtrɪpl ruːm.",
+        "Meaning": "Tôi muốn có một phòng ba người."
+    },
+    {
+        "Words": "I would like a deluxe triple room.",
+        "IPA": "aɪ wʊd laɪk ə dɪˈlʌks ˈtrɪpl ruːm.",
+        "Meaning": "Tôi muốn có một phòng ba người sang trọng."
+    },
+    {
+        "Words": "I would like a room with a king-size bed.",
+        "IPA": "aɪ wʊd laɪk ə ruːm wɪð ə ˈkɪŋsaɪz bɛd.",
+        "Meaning": "Tôi muốn một căn phòng có King size."
+    },
+    {
+        "Words": "I would like two double rooms.",
+        "IPA": "aɪ wʊd laɪk tuː ˈdʌbl ruːmz.",
+        "Meaning": "Tôi muốn có hai phòng đôi."
+    },
+    {
+        "Words": "I would like a single with breakfast.",
+        "IPA": "aɪ wʊd laɪk ə ˈsɪŋgl wɪð ˈbrɛkfəst.",
+        "Meaning": "Tôi muốn một đơn đĩa với bữa sáng."
+    },
+    {
+        "Words": "I would like a honeymoon suite with a sea view.",
+        "IPA": "aɪ wʊd laɪk ə ˈhʌnɪmuːn swiːt wɪð ə siː vjuː.",
+        "Meaning": "Tôi muốn có một bộ trăng mật với tầm nhìn ra biển."
+    },
+    {
+        "Words": "I would like a double bed with a kitchenette.",
+        "IPA": "aɪ wʊd laɪk ə ˈdʌbl bɛd wɪð ə ˌkɪʧɪˈnɛt.",
+        "Meaning": "Tôi muốn có một đôi với bếp nhỏ."
+    },
+    {
+        "Words": "I am looking for a T-shirt.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə ˈtiːʃɜːt.",
+        "Meaning": "Tôi đang tìm một chiếc áo phông."
+    },
+    {
+        "Words": "I am looking for an evening dress.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ən ˈiːvnɪŋ drɛs.",
+        "Meaning": "Tôi đang tìm kiếm một chiếc váy dạ hội."
+    },
+    {
+        "Words": "I am looking for a  denims jacket.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə ˈdɛnɪmz ˈʤækɪt.",
+        "Meaning": "Tôi đang tìm một chiếc áo khoác từ chối."
+    },
+    {
+        "Words": "I am looking for a miniskirt.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə ˈmɪnɪskɜːt.",
+        "Meaning": "Tôi đang tìm một chiếc váy ngắn."
+    },
+    {
+        "Words": "I am looking for a three-piece suit.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə ˈθriːpiːs sjuːt.",
+        "Meaning": "Tôi đang tìm một bộ đồ bà ba."
+    },
+    {
+        "Words": "I am looking for a training suit.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə ˈtreɪnɪŋ sjuːt.",
+        "Meaning": "Tôi đang tìm một bộ đồ tập."
+    },
+    {
+        "Words": "I am looking for a wool dress.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə wʊl drɛs.",
+        "Meaning": "Tôi đang tìm kiếm một chiếc váy len."
+    },
+    {
+        "Words": "I am looking for a maxi dress.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə ˈmæksi drɛs.",
+        "Meaning": "Tôi đang tìm một chiếc váy maxi."
+    },
+    {
+        "Words": "I am looking for a pleated skirt and a blouse.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə ˈpliːtɪd skɜːt ænd ə blaʊz.",
+        "Meaning": "Tôi đang tìm một chiếc váy xếp ly và một chiếc áo cánh."
+    },
+    {
+        "Words": "I am looking for a blazer.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə ˈbleɪzə.",
+        "Meaning": "Tôi đang tìm một chiếc áo khoác nỉ."
+    },
+    {
+        "Words": "I am looking for a leather jacket.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə ˈlɛðə ˈʤækɪt.",
+        "Meaning": "Tôi đang tìm một chiếc áo khoác da."
+    },
+    {
+        "Words": "I am looking for a pair of trousers.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə peər ɒv ˈtraʊzəz.",
+        "Meaning": "Tôi đang tìm một chiếc quần dài."
+    },
+    {
+        "Words": "I am looking for a polo shirt with two shorts.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə ˈpəʊləʊ ʃɜːt wɪð tuː ʃɔːts.",
+        "Meaning": "Tôi đang tìm một chiếc áo sơ mi polo với hai chiếc quần đùi."
+    },
+    {
+        "Words": "I am looking for a pinafore dress.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə ˈpɪnəfɔː drɛs.",
+        "Meaning": "Tôi đang tìm kiếm một chiếc váy ngắn."
+    },
+    {
+        "Words": "I am looking for a dressing gown.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə ˈdrɛsɪŋ gaʊn.",
+        "Meaning": "Tôi đang tìm kiếm một chiếc áo choàng."
+    },
+    {
+        "Words": "I am looking for a pair of jeans.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə peər ɒv ʤiːnz.",
+        "Meaning": "Tôi đang tìm một chiếc quần jean."
+    },
+    {
+        "Words": "I am looking for a overcoat.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə ˈəʊvəkəʊt.",
+        "Meaning": "Tôi đang tìm một chiếc áo khoác."
+    },
+    {
+        "Words": "I am looking for two shirts.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔː tuː ʃɜːts.",
+        "Meaning": "Tôi đang tìm kiếm hai chiếc áo sơ mi."
+    },
+    {
+        "Words": "I am looking for a slacks.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə slæks.",
+        "Meaning": "Tôi đang tìm kiếm một chiếc quần lót."
+    },
+    {
+        "Words": "I am looking for a pinafore dress.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə ˈpɪnəfɔː drɛs.",
+        "Meaning": "Tôi đang tìm kiếm một chiếc váy ngắn."
+    },
+    {
+        "Words": "I am looking for a cardigan.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə ˈkɑːdɪgən.",
+        "Meaning": "Tôi đang tìm kiếm một chiếc áo nịt."
+    },
+    {
+        "Words": "I am looking for a sweater and a T-shirt.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə ˈswɛtər ænd ə ˈtiːʃɜːt.",
+        "Meaning": "Tôi đang tìm một chiếc áo len và một chiếc áo phông."
+    },
+    {
+        "Words": "I am looking for a swimming trunks.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə ˈswɪmɪŋ trʌŋks.",
+        "Meaning": "Tôi đang tìm một chiếc quần bơi."
+    },
+    {
+        "Words": "I am looking for a undershirt.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə ˈʌndəʃɜːt.",
+        "Meaning": "Tôi đang tìm một chiếc áo lót."
+    },
+    {
+        "Words": "I am looking for a sheepskin coat.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə ˈʃiːpskɪn kəʊt.",
+        "Meaning": "Tôi đang tìm một chiếc áo khoác da cừu."
+    },
+    {
+        "Words": "I am looking for a blouse.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə blaʊz.",
+        "Meaning": "Tôi đang tìm kiếm một chiếc áo cánh."
+    },
+    {
+        "Words": "I am looking for a overcoat.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə ˈəʊvəkəʊt.",
+        "Meaning": "Tôi đang tìm một chiếc áo khoác."
+    },
+    {
+        "Words": "I am looking for a tight leggings.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə taɪt ˈlɛgɪŋz.",
+        "Meaning": "Tôi đang tìm kiếm một chiếc quần tất bó sát."
+    },
+    {
+        "Words": "I am looking for a sundress.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə ˈsʌndrɛs.",
+        "Meaning": "Tôi đang tìm một cô gái mặc quần áo."
+    },
+    {
+        "Words": "I am looking for a culottes.",
+        "IPA": "aɪ æm ˈlʊkɪŋ fɔːr ə kʊˈlɒts.",
+        "Meaning": "Tôi đang tìm kiếm một chiếc quần culottes."
+    },
+    {
+        "Words": "I like black",
+        "IPA": "aɪ laɪk blæk",
+        "Meaning": "Tôi thích màu đen"
+    },
+    {
+        "Words": "I like the smoke grey color",
+        "IPA": "aɪ laɪk ðə sməʊk greɪ ˈkʌlə",
+        "Meaning": "Tôi thích màu xám khói"
+    },
+    {
+        "Words": "I like brown",
+        "IPA": "aɪ laɪk braʊn",
+        "Meaning": "Tôi thích màu nâu"
+    },
+    {
+        "Words": "I like tawny",
+        "IPA": "aɪ laɪk ˈtɔːni",
+        "Meaning": "Tôi thích màu nâu đỏ"
+    },
+    {
+        "Words": "I like umber",
+        "IPA": "aɪ laɪk ˈʌmbə",
+        "Meaning": "Tôi thích umber"
+    },
+    {
+        "Words": "I like gaudy",
+        "IPA": "aɪ laɪk ˈgɔːdi",
+        "Meaning": "Tôi thích lòe loẹt"
+    },
+    {
+        "Words": "I like green",
+        "IPA": "aɪ laɪk griːn",
+        "Meaning": "tôi thích màu xanh"
+    },
+    {
+        "Words": "I like bright green",
+        "IPA": "aɪ laɪk braɪt griːn",
+        "Meaning": "Tôi thích màu xanh lá cây tươi sáng"
+    },
+    {
+        "Words": "I like lime",
+        "IPA": "aɪ laɪk laɪm",
+        "Meaning": "Tôi thích vôi"
+    },
+    {
+        "Words": "I like blue",
+        "IPA": "aɪ laɪk bluː",
+        "Meaning": "tôi thích màu xanh"
+    },
+    {
+        "Words": "I like peacock blue",
+        "IPA": "aɪ laɪk ˈpiːkɒk bluː",
+        "Meaning": "Tôi thích màu xanh da trời"
+    },
+    {
+        "Words": "I like salmon",
+        "IPA": "aɪ laɪk ˈsæmən",
+        "Meaning": "Tôi thích cá hồi"
+    },
+    {
+        "Words": "I like pink and red",
+        "IPA": "aɪ laɪk pɪŋk ænd rɛd",
+        "Meaning": "Tôi thích màu hồng và màu đỏ"
+    },
+    {
+        "Words": "I like orchid",
+        "IPA": "aɪ laɪk ˈɔːkɪd",
+        "Meaning": "Tôi thích phong lan"
+    },
+    {
+        "Words": "I like ruby",
+        "IPA": "aɪ laɪk ˈruːbi",
+        "Meaning": "Tôi thích ruby"
+    },
+    {
+        "Words": "I like deep red",
+        "IPA": "aɪ laɪk diːp rɛd",
+        "Meaning": "Tôi thích màu đỏ đậm"
+    },
+    {
+        "Words": "I like violet",
+        "IPA": "aɪ laɪk ˈvaɪəlɪt",
+        "Meaning": "Tôi thích màu tím"
+    },
+    {
+        "Words": "I like white",
+        "IPA": "aɪ laɪk waɪt",
+        "Meaning": "Tôi thích màu trắng"
+    },
+    {
+        "Words": "I like orange",
+        "IPA": "aɪ laɪk ˈɒrɪnʤ",
+        "Meaning": "Tôi thích màu cam"
+    },
+    {
+        "Words": "I like yellow",
+        "IPA": "aɪ laɪk ˈjɛləʊ",
+        "Meaning": "Tôi thích màu vàng"
+    },
+    {
+        "Words": "I like pale yellow",
+        "IPA": "aɪ laɪk peɪl ˈjɛləʊ",
+        "Meaning": "Tôi thích màu vàng nhạt"
+    },
+    {
+        "Words": "I like bronze",
+        "IPA": "aɪ laɪk brɒnz",
+        "Meaning": "Tôi thích đồ đồng"
+    },
+    {
+        "Words": "I like ochre",
+        "IPA": "aɪ laɪk ˈəʊkə",
+        "Meaning": "Tôi thích đất son"
+    },
+    {
+        "Words": "I like dark green",
+        "IPA": "aɪ laɪk dɑːk griːn",
+        "Meaning": "Tôi thích màu xanh lá cây đậm"
+    },
+    {
+        "Words": "I like beige",
+        "IPA": "aɪ laɪk beɪʒ",
+        "Meaning": "Tôi thích màu be"
+    },
+    {
+        "Words": "I like grey",
+        "IPA": "aɪ laɪk greɪ",
+        "Meaning": "Tôi thích màu xám"
+    },
+    {
+        "Words": "I like mint",
+        "IPA": "aɪ laɪk mɪnt",
+        "Meaning": "Tôi thích bạc hà"
+    },
+    {
+        "Words": "I like red and orange",
+        "IPA": "aɪ laɪk rɛd ænd ˈɒrɪnʤ",
+        "Meaning": "Tôi thích màu đỏ và cam"
+    },
+    {
+        "Words": "I like plum",
+        "IPA": "aɪ laɪk plʌm",
+        "Meaning": "Tôi thích mận"
+    },
+    {
+        "Words": "I like purple",
+        "IPA": "aɪ laɪk ˈpɜːpl",
+        "Meaning": "tôi thích màu tím"
+    },
+    {
+        "Words": "I really enjoy going out to eat",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈgəʊɪŋ aʊt tuː iːt",
+        "Meaning": "Tôi thực sự thích đi ăn"
+    },
+    {
+        "Words": "I really enjoy playing chess",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈpleɪɪŋ ʧɛs",
+        "Meaning": "Tôi thực sự thích chơi cờ"
+    },
+    {
+        "Words": "I really enjoy walking",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈwɔːkɪŋ",
+        "Meaning": "Tôi thực sự thích đi bộ"
+    },
+    {
+        "Words": "I really enjoy jogging",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈʤɒgɪŋ",
+        "Meaning": "Tôi thực sự thích chạy bộ"
+    },
+    {
+        "Words": "I really enjoy watching TV shows",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈwɒʧɪŋ ˌtiːˈviː ʃəʊz",
+        "Meaning": "Tôi thực sự thích xem các chương trình truyền hình"
+    },
+    {
+        "Words": "I really enjoy swimming",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈswɪmɪŋ",
+        "Meaning": "Tôi thực sự thích bơi lội"
+    },
+    {
+        "Words": "I really enjoy traveling",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈtrævlɪŋ",
+        "Meaning": "Tôi thực sự thích đi du lịch"
+    },
+    {
+        "Words": "I really enjoy fishing",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈfɪʃɪŋ",
+        "Meaning": "Tôi thực sự thích câu cá"
+    },
+    {
+        "Words": "I really enjoy doing some housework",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈdu(ː)ɪŋ sʌm ˈhaʊswɜːk",
+        "Meaning": "Tôi thực sự thích làm một số việc nhà"
+    },
+    {
+        "Words": "I really enjoy doing some yard work",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈdu(ː)ɪŋ sʌm jɑːd wɜːk",
+        "Meaning": "Tôi thực sự thích làm một số công việc sân"
+    },
+    {
+        "Words": "I really enjoy taking a road trip",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈteɪkɪŋ ə rəʊd trɪp",
+        "Meaning": "Tôi thực sự thích tham gia một chuyến đi đường bộ"
+    },
+    {
+        "Words": "I really enjoy getting together with friends",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈgɛtɪŋ təˈgɛðə wɪð frɛndz",
+        "Meaning": "Tôi thực sự thích tụ tập với bạn bè"
+    },
+    {
+        "Words": "I really enjoy having a house party",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈhævɪŋ ə haʊs ˈpɑːti",
+        "Meaning": "Tôi thực sự thích có một bữa tiệc tại nhà"
+    },
+    {
+        "Words": "I really enjoy shopping",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈʃɒpɪŋ",
+        "Meaning": "Tôi thực sự thích mua sắm"
+    },
+    {
+        "Words": "I really enjoy going to church",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈgəʊɪŋ tuː ʧɜːʧ",
+        "Meaning": "Tôi thực sự thích đi nhà thờ"
+    },
+    {
+        "Words": "I really enjoy spending time with my family",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈspɛndɪŋ taɪm wɪð maɪ ˈfæmɪli",
+        "Meaning": "Tôi thực sự thích dành thời gian cho gia đình của mình"
+    },
+    {
+        "Words": "I really enjoy cooking",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈkʊkɪŋ",
+        "Meaning": "Tôi thực sự thích nấu ăn"
+    },
+    {
+        "Words": "I really enjoy clubbing",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈklʌbɪŋ",
+        "Meaning": "Tôi thực sự thích câu lạc bộ"
+    },
+    {
+        "Words": "I really enjoy learning foreign languages",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈlɜːnɪŋ ˈfɒrɪn ˈlæŋgwɪʤɪz",
+        "Meaning": "Tôi thực sự thích học ngoại ngữ"
+    },
+    {
+        "Words": "I really enjoy going to the cinema",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈgəʊɪŋ tuː ðə ˈsɪnəmə",
+        "Meaning": "Tôi thực sự thích đi xem phim"
+    },
+    {
+        "Words": "I really enjoy learning English",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈlɜːnɪŋ ˈɪŋglɪʃ",
+        "Meaning": "Tôi thực sự thích học tiếng anh"
+    },
+    {
+        "Words": "I really enjoy listening to music",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ˈmjuːzɪk",
+        "Meaning": "Tôi thực sự thích nghe nhạc"
+    },
+    {
+        "Words": "I really enjoy chilling out at home",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈʧɪlɪŋ aʊt æt həʊm",
+        "Meaning": "Tôi thực sự thích thư giãn ở nhà"
+    },
+    {
+        "Words": "I really enjoy playing chess",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈpleɪɪŋ ʧɛs",
+        "Meaning": "Tôi thực sự thích chơi cờ"
+    },
+    {
+        "Words": "I really enjoy going to the temple",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈgəʊɪŋ tuː ðə ˈtɛmpl",
+        "Meaning": "Tôi thực sự thích đi chùa"
+    },
+    {
+        "Words": "I really enjoy doing the yoga",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈdu(ː)ɪŋ ðə ˈjəʊgə",
+        "Meaning": "Tôi thực sự thích tập yoga"
+    },
+    {
+        "Words": "I really enjoy playing games with my friends",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈpleɪɪŋ geɪmz wɪð maɪ frɛndz",
+        "Meaning": "Tôi thực sự thích chơi trò chơi với bạn bè của mình"
+    },
+    {
+        "Words": "I really enjoy playing sports",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈpleɪɪŋ spɔːts",
+        "Meaning": "Tôi thực sự thích chơi thể thao"
+    },
+    {
+        "Words": "I really enjoy playing tennis",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈpleɪɪŋ ˈtɛnɪs",
+        "Meaning": "Tôi thực sự thích chơi quần vợt"
+    },
+    {
+        "Words": "I really enjoy reading books",
+        "IPA": "aɪ ˈrɪəli ɪnˈʤɔɪ ˈriːdɪŋ bʊks",
+        "Meaning": "Tôi thực sự thích đọc sách"
+    },
+    {
+        "Words": "I spend time on it every day",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt ˈɛvri deɪ",
+        "Meaning": "Tôi dành thời gian cho nó mỗi ngày"
+    },
+    {
+        "Words": "I spend time on it every afternoon",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt ˈɛvri ˈɑːftəˈnuːn",
+        "Meaning": "Tôi dành thời gian cho nó vào mỗi buổi chiều"
+    },
+    {
+        "Words": "I spend time on it every morning",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt ˈɛvri ˈmɔːnɪŋ",
+        "Meaning": "Tôi dành thời gian cho nó mỗi sáng"
+    },
+    {
+        "Words": "I spend time on it every evening",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt ˈɛvri ˈiːvnɪŋ",
+        "Meaning": "Tôi dành thời gian cho nó vào mỗi buổi tối"
+    },
+    {
+        "Words": "I spend time on it every week",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt ˈɛvri wiːk",
+        "Meaning": "Tôi dành thời gian cho nó mỗi tuần"
+    },
+    {
+        "Words": "I spend time on it once a week",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt wʌns ə wiːk",
+        "Meaning": "Tôi dành thời gian cho nó mỗi tuần một lần"
+    },
+    {
+        "Words": "I spend time on it twice a week",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt twaɪs ə wiːk",
+        "Meaning": "Tôi dành thời gian cho nó hai lần một tuần"
+    },
+    {
+        "Words": "I spend time on it on Mondays",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt ɒn ˈmʌndeɪz",
+        "Meaning": "Tôi dành thời gian cho nó vào thứ Hai"
+    },
+    {
+        "Words": "I spend time on it on Tuesdays",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt ɒn ˈtjuːzdeɪz",
+        "Meaning": "Tôi dành thời gian cho nó vào các ngày Thứ Ba"
+    },
+    {
+        "Words": "I spend time on it on Wednesdays",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt ɒn ˈwɛnzdeɪz",
+        "Meaning": "Tôi dành thời gian cho nó vào các ngày thứ Tư"
+    },
+    {
+        "Words": "I spend time on it on Thursdays",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt ɒn ˈθɜːzdeɪz",
+        "Meaning": "Tôi dành thời gian cho nó vào thứ Năm"
+    },
+    {
+        "Words": "I spend time on it on Fridays",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt ɒn ˈfraɪdeɪz",
+        "Meaning": "Tôi dành thời gian cho nó vào thứ Sáu"
+    },
+    {
+        "Words": "I spend time on it every Saturday",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt ˈɛvri ˈsætədeɪ",
+        "Meaning": "Tôi dành thời gian cho nó vào thứ bảy hàng tuần"
+    },
+    {
+        "Words": "I spend time on it on Sundays",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt ɒn ˈsʌndeɪz",
+        "Meaning": "Tôi dành thời gian cho nó vào chủ nhật"
+    },
+    {
+        "Words": "I spend time on it every weekend",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt ˈɛvri ˈwiːkˈɛnd",
+        "Meaning": "Tôi dành thời gian cho nó vào mỗi cuối tuần"
+    },
+    {
+        "Words": "I spend time on it at the weekend",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt æt ðə ˈwiːkˈɛnd",
+        "Meaning": "Tôi dành thời gian cho nó vào cuối tuần"
+    },
+    {
+        "Words": "I spend time on it twice a month",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt twaɪs ə mʌnθ",
+        "Meaning": "Tôi dành thời gian cho nó hai lần một tháng"
+    },
+    {
+        "Words": "I spend time on it every month",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt ˈɛvri mʌnθ",
+        "Meaning": "Tôi dành thời gian cho nó mỗi tháng"
+    },
+    {
+        "Words": "I spend time on it 5 times a week",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt 5 taɪmz ə wiːk",
+        "Meaning": "Tôi dành thời gian cho nó 5 lần một tuần"
+    },
+    {
+        "Words": "I spend time on it 6 times a month",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt 6 taɪmz ə mʌnθ",
+        "Meaning": "Tôi dành thời gian cho nó 6 lần một tháng"
+    },
+    {
+        "Words": "I spend time on it twice a day",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt twaɪs ə deɪ",
+        "Meaning": "Tôi dành thời gian cho nó hai lần một ngày"
+    },
+    {
+        "Words": "I spend time on it usually",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt ˈjuːʒʊəli",
+        "Meaning": "Tôi thường dành thời gian cho nó"
+    },
+    {
+        "Words": "I spend time on it sometimes",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt ˈsʌmtaɪmz",
+        "Meaning": "Đôi khi tôi dành thời gian cho nó"
+    },
+    {
+        "Words": "I spend time on it all the time",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt ɔːl ðə taɪm",
+        "Meaning": "Tôi dành thời gian cho nó mọi lúc"
+    },
+    {
+        "Words": "I spend time on it twice a day",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt twaɪs ə deɪ",
+        "Meaning": "Tôi dành thời gian cho nó hai lần một ngày"
+    },
+    {
+        "Words": "I spend time on it 3 times a day",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt 3 taɪmz ə deɪ",
+        "Meaning": "Tôi dành thời gian cho nó 3 lần một ngày"
+    },
+    {
+        "Words": "I spend time on it on Saturday afternoons",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt ɒn ˈsætədeɪ ˈɑːftəˈnuːnz",
+        "Meaning": "Tôi dành thời gian cho nó vào các buổi chiều thứ bảy"
+    },
+    {
+        "Words": "I spend time on it on Sundays morning",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt ɒn ˈsʌndeɪz ˈmɔːnɪŋ",
+        "Meaning": "Tôi dành thời gian cho nó vào sáng Chủ nhật"
+    },
+    {
+        "Words": "I spend time on it on Mondays morning",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt ɒn ˈmʌndeɪz ˈmɔːnɪŋ",
+        "Meaning": "Tôi dành thời gian cho nó vào sáng thứ Hai"
+    },
+    {
+        "Words": "I spend time on it on Tuesdays afternoons",
+        "IPA": "aɪ spɛnd taɪm ɒn ɪt ɒn ˈtjuːzdeɪz ˈɑːftəˈnuːnz",
+        "Meaning": "Tôi dành thời gian cho nó vào các buổi chiều thứ Ba"
+    },
+    {
+        "Words": "That would be Denmark",
+        "IPA": "ðæt wʊd biː ˈdɛnmɑːk",
+        "Meaning": "Đó sẽ là Đan Mạch"
+    },
+    {
+        "Words": "That would be England",
+        "IPA": "ðæt wʊd biː ˈɪŋglənd",
+        "Meaning": "Đó sẽ là nước Anh"
+    },
+    {
+        "Words": "That would be Estonia",
+        "IPA": "ðæt wʊd biː ɛsˈtəʊnɪə",
+        "Meaning": "Đó sẽ là Estonia"
+    },
+    {
+        "Words": "That would be Finland",
+        "IPA": "ðæt wʊd biː ˈfɪnlənd",
+        "Meaning": "Đó sẽ là Phần Lan"
+    },
+    {
+        "Words": "That would be Iceland",
+        "IPA": "ðæt wʊd biː ˈaɪslənd",
+        "Meaning": "Đó sẽ là Iceland"
+    },
+    {
+        "Words": "That would be Ireland",
+        "IPA": "ðæt wʊd biː ˈaɪələnd",
+        "Meaning": "Đó sẽ là Ireland"
+    },
+    {
+        "Words": "That would be Latvia",
+        "IPA": "ðæt wʊd biː ˈlætvɪə",
+        "Meaning": "Đó sẽ là Latvia"
+    },
+    {
+        "Words": "That would be Lithuania",
+        "IPA": "ðæt wʊd biː ˌlɪθjʊˈeɪnɪə",
+        "Meaning": "Đó sẽ là Lithuania"
+    },
+    {
+        "Words": "That would be Northern Ireland",
+        "IPA": "ðæt wʊd biː ˈnɔːðən ˈaɪələnd",
+        "Meaning": "Đó sẽ là Bắc Ireland"
+    },
+    {
+        "Words": "That would be Norway",
+        "IPA": "ðæt wʊd biː ˈnɔːweɪ",
+        "Meaning": "Đó sẽ là Na Uy"
+    },
+    {
+        "Words": "That would be Scotland",
+        "IPA": "ðæt wʊd biː ˈskɒtlənd",
+        "Meaning": "Đó sẽ là Scotland"
+    },
+    {
+        "Words": "That would be Sweden",
+        "IPA": "ðæt wʊd biː ˈswɪdən",
+        "Meaning": "Đó sẽ là Thụy Điển"
+    },
+    {
+        "Words": "That would be the United Kingdom",
+        "IPA": "ðæt wʊd biː ðə jʊˈnaɪtɪd ˈkɪŋdəm",
+        "Meaning": "Đó sẽ là Vương quốc Anh"
+    },
+    {
+        "Words": "That would be Wales",
+        "IPA": "ðæt wʊd biː weɪlz",
+        "Meaning": "Đó sẽ là xứ Wales"
+    },
+    {
+        "Words": "That would be Belarus",
+        "IPA": "ðæt wʊd biː ˈbɛlərʊs",
+        "Meaning": "Đó sẽ là Belarus"
+    },
+    {
+        "Words": "That would be Bulgaria",
+        "IPA": "ðæt wʊd biː bʌlˈgeərɪə",
+        "Meaning": "Đó sẽ là Bulgaria"
+    },
+    {
+        "Words": "That would be the Czech Republic",
+        "IPA": "ðæt wʊd biː ðə ʧɛk rɪˈpʌblɪk",
+        "Meaning": "Đó sẽ là Cộng hòa Séc"
+    },
+    {
+        "Words": "That would be Hungary",
+        "IPA": "ðæt wʊd biː ˈhʌŋgəri",
+        "Meaning": "Đó sẽ là Hungary"
+    },
+    {
+        "Words": "That would be Poland",
+        "IPA": "ðæt wʊd biː ˈpəʊlənd",
+        "Meaning": "Đó sẽ là Ba Lan"
+    },
+    {
+        "Words": "That would be Romania",
+        "IPA": "ðæt wʊd biː rəʊˈmeɪnɪə",
+        "Meaning": "Đó sẽ là Romania"
+    },
+    {
+        "Words": "That would be Russia",
+        "IPA": "ðæt wʊd biː ˈrʌʃə",
+        "Meaning": "Đó sẽ là Nga"
+    },
+    {
+        "Words": "That would be Slovakia",
+        "IPA": "ðæt wʊd biː sləʊˈvækɪə",
+        "Meaning": "Đó sẽ là Slovakia"
+    },
+    {
+        "Words": "That would be Ukraine",
+        "IPA": "ðæt wʊd biː juːˈkreɪn",
+        "Meaning": "Đó sẽ là Ukraine"
+    },
+    {
+        "Words": "That would be Canada",
+        "IPA": "ðæt wʊd biː ˈkænədə",
+        "Meaning": "Đó sẽ là Canada"
+    },
+    {
+        "Words": "That would be Mexico",
+        "IPA": "ðæt wʊd biː ˈmɛksɪkəʊ",
+        "Meaning": "Đó sẽ là Mexico"
+    },
+    {
+        "Words": "That would be the United States",
+        "IPA": "ðæt wʊd biː ðə jʊˈnaɪtɪd steɪts",
+        "Meaning": "Đó sẽ là Hoa Kỳ"
+    },
+    {
+        "Words": "That would be Chile",
+        "IPA": "ðæt wʊd biː ˈʧɪliː",
+        "Meaning": "Đó sẽ là Chile"
+    },
+    {
+        "Words": "That would be Colombia",
+        "IPA": "ðæt wʊd biː kəˈlʌmbɪə",
+        "Meaning": "Đó sẽ là Colombia"
+    },
+    {
+        "Words": "That would be Ecuador",
+        "IPA": "ðæt wʊd biː ˈɛkwədɔː",
+        "Meaning": "Đó sẽ là Ecuador"
+    },
+    {
+        "Words": "That would be Paraguay",
+        "IPA": "ðæt wʊd biː ˈpærəgwaɪ",
+        "Meaning": "Đó sẽ là Paraguay"
+    },
+    {
+        "Words": "I often take a lot of photos",
+        "IPA": "aɪ ˈɒf(ə)n teɪk ə lɒt ɒv ˈfəʊtəʊz",
+        "Meaning": "Tôi thường chụp rất nhiều ảnh"
+    },
+    {
+        "Words": "I often eat seafood",
+        "IPA": "aɪ ˈɒf(ə)n iːt ˈsiːfuːd",
+        "Meaning": "Tôi thường ăn hải sản"
+    },
+    {
+        "Words": "I often go backpacking",
+        "IPA": "aɪ ˈɒf(ə)n gəʊ ˈbækˌpækɪŋ",
+        "Meaning": "Tôi thường đi ba lô"
+    },
+    {
+        "Words": "I often go camping in the forest",
+        "IPA": "aɪ ˈɒf(ə)n gəʊ ˈkæmpɪŋ ɪn ðə ˈfɒrɪst",
+        "Meaning": "Tôi thường đi cắm trại trong rừng"
+    },
+    {
+        "Words": "I often go hitchhiking",
+        "IPA": "aɪ ˈɒf(ə)n gəʊ ˈhɪʧˌhaɪkɪŋ",
+        "Meaning": "Tôi thường đi nhờ xe"
+    },
+    {
+        "Words": "I often go climbing",
+        "IPA": "aɪ ˈɒf(ə)n gəʊ ˈklaɪmɪŋ",
+        "Meaning": "Tôi thường đi leo núi"
+    },
+    {
+        "Words": "I often go sightseeing",
+        "IPA": "aɪ ˈɒf(ə)n gəʊ ˈsaɪtˌsiːɪŋ",
+        "Meaning": "Tôi thường đi tham quan"
+    },
+    {
+        "Words": "I often do sailing",
+        "IPA": "aɪ ˈɒf(ə)n duː ˈseɪlɪŋ",
+        "Meaning": "Tôi thường chèo thuyền"
+    },
+    {
+        "Words": "I often go surfing",
+        "IPA": "aɪ ˈɒf(ə)n gəʊ ˈsɜːfɪŋ",
+        "Meaning": "Tôi thường đi lướt sóng"
+    },
+    {
+        "Words": "I often go scuba diving",
+        "IPA": "aɪ ˈɒf(ə)n gəʊ ˈskuːbə ˈdaɪvɪŋ",
+        "Meaning": "Tôi thường đi lặn biển"
+    },
+    {
+        "Words": "I often try the local foods",
+        "IPA": "aɪ ˈɒf(ə)n traɪ ðə ˈləʊkəl fuːdz",
+        "Meaning": "Tôi thường thử các món ăn địa phương"
+    },
+    {
+        "Words": "I often go waterskiing",
+        "IPA": "aɪ ˈɒf(ə)n gəʊ ˈwɔːtəˌskiːɪŋ",
+        "Meaning": "Tôi thường đi trượt nước"
+    },
+    {
+        "Words": "I often go cycling to see the city",
+        "IPA": "aɪ ˈɒf(ə)n gəʊ ˈsaɪklɪŋ tuː siː ðə ˈsɪti",
+        "Meaning": "Tôi thường đi xe đạp để ngắm nhìn thành phố"
+    },
+    {
+        "Words": "I often visit historical sites",
+        "IPA": "aɪ ˈɒf(ə)n ˈvɪzɪt hɪsˈtɒrɪkəl saɪts",
+        "Meaning": "Tôi thường đến thăm các di tích lịch sử"
+    },
+    {
+        "Words": "I often visit famous places there",
+        "IPA": "aɪ ˈɒf(ə)n ˈvɪzɪt ˈfeɪməs ˈpleɪsɪz ðeə",
+        "Meaning": "Tôi thường đến thăm những địa điểm nổi tiếng ở đó"
+    },
+    {
+        "Words": "I often watch ethnic music program",
+        "IPA": "aɪ ˈɒf(ə)n wɒʧ ˈɛθnɪk ˈmjuːzɪk ˈprəʊgræm",
+        "Meaning": "Tôi thường xem chương trình ca nhạc dân tộc"
+    },
+    {
+        "Words": "I often join and learn about local cultural activities",
+        "IPA": "aɪ ˈɒf(ə)n ʤɔɪn ænd lɜːn əˈbaʊt ˈləʊkəl ˈkʌlʧərəl ækˈtɪvɪtiz",
+        "Meaning": "Tôi thường tham gia và tìm hiểu các hoạt động văn hóa của địa phương"
+    },
+    {
+        "Words": "I often see the sunrise on the sea",
+        "IPA": "aɪ ˈɒf(ə)n siː ðə ˈsʌnraɪz ɒn ðə siː",
+        "Meaning": "Tôi thường nhìn thấy mặt trời mọc trên biển"
+    },
+    {
+        "Words": "I often see the sunset on the sea",
+        "IPA": "aɪ ˈɒf(ə)n siː ðə ˈsʌnsɛt ɒn ðə siː",
+        "Meaning": "Tôi thường nhìn thấy hoàng hôn trên biển"
+    },
+    {
+        "Words": "I often talk a lot with the locals",
+        "IPA": "aɪ ˈɒf(ə)n tɔːk ə lɒt wɪð ðə ˈləʊkəlz",
+        "Meaning": "Tôi thường nói chuyện rất nhiều với người dân địa phương"
+    },
+    {
+        "Words": "I often learn the language of the natives",
+        "IPA": "aɪ ˈɒf(ə)n lɜːn ðə ˈlæŋgwɪʤ ɒv ðə ˈneɪtɪvz",
+        "Meaning": "Tôi thường học ngôn ngữ của người bản xứ"
+    },
+    {
+        "Words": "I often walking",
+        "IPA": "aɪ ˈɒf(ə)n ˈwɔːkɪŋ",
+        "Meaning": "Tôi thường đi bộ"
+    },
+    {
+        "Words": "I often go to the floating market",
+        "IPA": "aɪ ˈɒf(ə)n gəʊ tuː ðə ˈfləʊtɪŋ ˈmɑːkɪt",
+        "Meaning": "Tôi thường đi chợ nổi"
+    },
+    {
+        "Words": "I often visit the museum",
+        "IPA": "aɪ ˈɒf(ə)n ˈvɪzɪt ðə mju(ː)ˈzɪəm",
+        "Meaning": "Tôi thường đến thăm viện bảo tàng"
+    },
+    {
+        "Words": "I often watch a Water Puppet show",
+        "IPA": "aɪ ˈɒf(ə)n wɒʧ ə ˈwɔːtə ˈpʌpɪt ʃəʊ",
+        "Meaning": "Tôi thường xem một buổi biểu diễn Múa rối nước"
+    },
+    {
+        "Words": "I often try to stay at a local's house",
+        "IPA": "aɪ ˈɒf(ə)n traɪ tuː steɪ æt ə ˈləʊkəlz haʊs",
+        "Meaning": "Tôi thường cố gắng ở nhà một người dân địa phương"
+    },
+    {
+        "Words": "I often go to the beach",
+        "IPA": "aɪ ˈɒf(ə)n gəʊ tuː ðə biːʧ",
+        "Meaning": "Tôi thường đi biển"
+    },
+    {
+        "Words": "I often eat street food",
+        "IPA": "aɪ ˈɒf(ə)n iːt striːt fuːd",
+        "Meaning": "Tôi thường ăn thức ăn đường phố"
+    },
+    {
+        "Words": "I often cloud hunting",
+        "IPA": "aɪ ˈɒf(ə)n klaʊd ˈhʌntɪŋ",
+        "Meaning": "Tôi thường săn mây"
+    },
+    {
+        "Words": "I often see the city street by cyclo",
+        "IPA": "aɪ ˈɒf(ə)n siː ðə ˈsɪti striːt baɪ cyclo",
+        "Meaning": "Tôi thường ngắm phố phường bằng xích lô"
+    },
+    {
+        "Words": "I am going to the museum.",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə mju(ː)ˈzɪəm.",
+        "Meaning": "Tôi đang đi đến viện bảo tàng."
+    },
+    {
+        "Words": "I am going to the post office.",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə pəʊst ˈɒfɪs.",
+        "Meaning": "Tôi đang đi đến bưu điện."
+    },
+    {
+        "Words": "I am going to the bookshop.",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə ˈbʊkʃɒp.",
+        "Meaning": "Tôi đang đi đến hiệu sách."
+    },
+    {
+        "Words": "I am going to the church.",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə ʧɜːʧ.",
+        "Meaning": "Tôi đang đi đến nhà thờ."
+    },
+    {
+        "Words": "I am going to the cinema",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə ˈsɪnəmə",
+        "Meaning": "Tôi đang đi đến rạp chiếu phim"
+    },
+    {
+        "Words": "I am going to the court",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə kɔːt",
+        "Meaning": "Tôi sẽ đến tòa án"
+    },
+    {
+        "Words": "I am going to the cemetery",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə ˈsɛmɪtri",
+        "Meaning": "Tôi đang đi đến nghĩa trang"
+    },
+    {
+        "Words": "I am going to the concert hall",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə ˈkɒnsə(ː)t hɔːl",
+        "Meaning": "Tôi đang đi đến phòng hòa nhạc"
+    },
+    {
+        "Words": "I am going to the bakery",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə ˈbeɪkəri",
+        "Meaning": "Tôi đang đi đến tiệm bánh"
+    },
+    {
+        "Words": "I am going to the health  center",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə hɛlθ ˈsɛntə",
+        "Meaning": "Tôi đang đi đến trung tâm y tế"
+    },
+    {
+        "Words": "I am going to the library",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə ˈlaɪbrəri",
+        "Meaning": "Tôi đang đi đến thư viện"
+    },
+    {
+        "Words": "I am going to the florist",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə ˈflɒrɪst",
+        "Meaning": "Tôi đang đi đến cửa hàng bán hoa"
+    },
+    {
+        "Words": "I am going to the market",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə ˈmɑːkɪt",
+        "Meaning": "Tôi đang đi chợ"
+    },
+    {
+        "Words": "I am going to the gift shop",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə gɪft ʃɒp",
+        "Meaning": "Tôi đang đi đến cửa hàng quà tặng"
+    },
+    {
+        "Words": "I am going to the pharmacy",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə ˈfɑːməsi",
+        "Meaning": "Tôi đang đi đến hiệu thuốc"
+    },
+    {
+        "Words": "I am going to the market",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə ˈmɑːkɪt",
+        "Meaning": "Tôi đang đi chợ"
+    },
+    {
+        "Words": "I am going to the park",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə pɑːk",
+        "Meaning": "Tôi đang đi đến công viên"
+    },
+    {
+        "Words": "I am going to the pagoda",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə pəˈgəʊdə",
+        "Meaning": "Tôi đang đi đến chùa"
+    },
+    {
+        "Words": "I am going to the shoe shop",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə ʃuː ʃɒp",
+        "Meaning": "Tôi đang đi đến cửa hàng giày"
+    },
+    {
+        "Words": "I am going to the theater",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə ˈθɪətə",
+        "Meaning": "Tôi đang đi đến nhà hát"
+    },
+    {
+        "Words": "I am going to the temple",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə ˈtɛmpl",
+        "Meaning": "Tôi đang đi đến chùa"
+    },
+    {
+        "Words": "I am going to the supermarket",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə ˈsjuːpəˌmɑːkɪt",
+        "Meaning": "Tôi đang đi đến siêu thị"
+    },
+    {
+        "Words": "I am going to the stadium",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə ˈsteɪdiəm",
+        "Meaning": "Tôi đang đi đến sân vận động"
+    },
+    {
+        "Words": "I am going to the swimming pool",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə ˈswɪmɪŋ puːl",
+        "Meaning": "Tôi đang đi đến bể bơi"
+    },
+    {
+        "Words": "I am going to the zoo",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə zuː",
+        "Meaning": "Tôi đang đi đến sở thú"
+    },
+    {
+        "Words": "I am going to the toy shop",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə tɔɪ ʃɒp",
+        "Meaning": "Tôi đang đi đến cửa hàng đồ chơi"
+    },
+    {
+        "Words": "I am going to the train station",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə treɪn ˈsteɪʃən",
+        "Meaning": "Tôi đang đi đến ga xe lửa"
+    },
+    {
+        "Words": "I am going to the stationery store",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə ˈsteɪʃnəri stɔː",
+        "Meaning": "Tôi đang đi đến cửa hàng văn phòng phẩm"
+    },
+    {
+        "Words": "I am going to the restaurant",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə ˈrɛstrɒnt",
+        "Meaning": "tôi đang đến nhà hàng đó"
+    },
+    {
+        "Words": "I am going to the pubs",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː ðə pʌbz",
+        "Meaning": "Tôi đang đi đến quán rượu"
+    },
+    {
+        "Words": "I'm going with my friends.",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ frɛndz.",
+        "Meaning": "Tôi đang đi với bạn bè của tôi."
+    },
+    {
+        "Words": "I'm going with my sister.",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ˈsɪstə.",
+        "Meaning": "Tôi đi với em gái tôi."
+    },
+    {
+        "Words": "I'm going with my brother",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ˈbrʌðə",
+        "Meaning": "Tôi đang đi với anh trai tôi"
+    },
+    {
+        "Words": "I'm going with my mother",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ˈmʌðə",
+        "Meaning": "Tôi đang đi với mẹ tôi"
+    },
+    {
+        "Words": "I'm going with my aunt",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ɑːnt",
+        "Meaning": "Tôi đang đi với dì của tôi"
+    },
+    {
+        "Words": "I'm going with my uncle",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ˈʌŋkl",
+        "Meaning": "Tôi đang đi với chú của tôi"
+    },
+    {
+        "Words": "I'm going with my teacher",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ˈtiːʧə",
+        "Meaning": "Tôi đang đi với giáo viên của tôi"
+    },
+    {
+        "Words": "I'm going with my student",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ˈstjuːdənt",
+        "Meaning": "Tôi đang đi với học sinh của tôi"
+    },
+    {
+        "Words": "I'm going with my cousin",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ˈkʌzn",
+        "Meaning": "Tôi đang đi với anh họ của tôi"
+    },
+    {
+        "Words": "I'm going with my son",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ sʌn",
+        "Meaning": "Tôi đi với con trai tôi"
+    },
+    {
+        "Words": "I'm going with my daughter",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ˈdɔːtə",
+        "Meaning": "Tôi đi với con gái tôi"
+    },
+    {
+        "Words": "I'm going with my grandfather",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ˈgrændˌfɑːðə",
+        "Meaning": "Tôi đang đi với ông tôi"
+    },
+    {
+        "Words": "I'm going with my grandmother",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ˈgrænˌmʌðə",
+        "Meaning": "Tôi đang đi với bà tôi"
+    },
+    {
+        "Words": "I'm going with my parents",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ˈpeərənts",
+        "Meaning": "Tôi đang đi với bố mẹ tôi"
+    },
+    {
+        "Words": "I'm going with my family",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ˈfæmɪli",
+        "Meaning": "Tôi đang đi với gia đình của tôi"
+    },
+    {
+        "Words": "I'm going with my children",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ˈʧɪldrən",
+        "Meaning": "Tôi đang đi với các con của tôi"
+    },
+    {
+        "Words": "I'm going with my wife",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ waɪf",
+        "Meaning": "Tôi đang đi với vợ tôi"
+    },
+    {
+        "Words": "I'm going with my husband",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ˈhʌzbənd",
+        "Meaning": "Tôi đang đi với chồng tôi"
+    },
+    {
+        "Words": "I'm going with my niece",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ niːs",
+        "Meaning": "Tôi đang đi với cháu gái của tôi"
+    },
+    {
+        "Words": "I'm going with my nephew",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ˈnɛvju(ː)",
+        "Meaning": "Tôi đang đi với cháu trai của tôi"
+    },
+    {
+        "Words": "I'm going with my grandson",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ˈgrænsʌn",
+        "Meaning": "Tôi đang đi với cháu trai của tôi"
+    },
+    {
+        "Words": "I'm going with my siblings",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ˈsɪblɪŋz",
+        "Meaning": "Tôi đang đi với anh chị em của tôi"
+    },
+    {
+        "Words": "I'm going with my sister-in-law",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ˈsɪstərɪnlɔː",
+        "Meaning": "Tôi đang đi với chị dâu của tôi"
+    },
+    {
+        "Words": "I'm going with my daughter-i-law",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ˈdɔːtər-aɪ-lɔː",
+        "Meaning": "Tôi đi với con dâu của tôi"
+    },
+    {
+        "Words": "I'm going with my mother-in-law",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ˈmʌðərɪnlɔː",
+        "Meaning": "Tôi đang đi với mẹ chồng tôi"
+    },
+    {
+        "Words": "I'm going with my father-in-law",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ˈfɑːðərɪnlɔː",
+        "Meaning": "Tôi đang đi với bố vợ tôi"
+    },
+    {
+        "Words": "I'm going with my granddaughter",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ˈgrænˌdɔːtə",
+        "Meaning": "Tôi đang đi với cháu gái của tôi"
+    },
+    {
+        "Words": "I'm going with my boyfriend",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ˈbɔɪˌfrɛnd",
+        "Meaning": "Tôi đang đi với bạn trai của tôi"
+    },
+    {
+        "Words": "I'm going with my girlfriend",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ˈgɜːlˌfrɛnd",
+        "Meaning": "Tôi đang đi với bạn gái của tôi"
+    },
+    {
+        "Words": "I'm going with my relatives",
+        "IPA": "aɪm ˈgəʊɪŋ wɪð maɪ ˈrɛlətɪvz",
+        "Meaning": "Tôi đang đi với người thân của tôi"
+    },
+    {
+        "Words": "I'd recommend Buffet restaurant",
+        "IPA": "aɪd ˌrɛkəˈmɛnd ˈbʌfɪt ˈrɛstrɒnt",
+        "Meaning": "Tôi muốn giới thiệu nhà hàng Buffet"
+    },
+    {
+        "Words": "I'd recommend Cafeteria",
+        "IPA": "aɪd ˌrɛkəˈmɛnd ˌkæfɪˈtɪərɪə",
+        "Meaning": "Tôi muốn giới thiệu quán cà phê"
+    },
+    {
+        "Words": "I'd recommend Fast food restaurant",
+        "IPA": "aɪd ˌrɛkəˈmɛnd fɑːst fuːd ˈrɛstrɒnt",
+        "Meaning": "Tôi muốn giới thiệu nhà hàng thức ăn nhanh"
+    },
+    {
+        "Words": "I'd recommend a Fine dining restaurant",
+        "IPA": "aɪd ˌrɛkəˈmɛnd ə faɪn ˈdaɪnɪŋ ˈrɛstrɒnt",
+        "Meaning": "Tôi muốn giới thiệu một nhà hàng ăn uống cao cấp"
+    },
+    {
+        "Words": "I'd recommend an Ethnic restaurant",
+        "IPA": "aɪd ˌrɛkəˈmɛnd ən ˈɛθnɪk ˈrɛstrɒnt",
+        "Meaning": "Tôi muốn giới thiệu một nhà hàng Dân tộc"
+    },
+    {
+        "Words": "I'd recommend a Hot pot restaurant",
+        "IPA": "aɪd ˌrɛkəˈmɛnd ə hɒt pɒt ˈrɛstrɒnt",
+        "Meaning": "Tôi muốn giới thiệu một nhà hàng lẩu"
+    },
+    {
+        "Words": "I'd recommend a Japanese restaurant",
+        "IPA": "aɪd ˌrɛkəˈmɛnd ə ˌʤæpəˈniːz ˈrɛstrɒnt",
+        "Meaning": "Tôi muốn giới thiệu một nhà hàng Nhật Bản"
+    },
+    {
+        "Words": "I'd recommend a Korean restaurant",
+        "IPA": "aɪd ˌrɛkəˈmɛnd ə kəˈriːən ˈrɛstrɒnt",
+        "Meaning": "Tôi muốn giới thiệu một nhà hàng Hàn Quốc"
+    },
+    {
+        "Words": "I'd recommend Thai restaurant",
+        "IPA": "aɪd ˌrɛkəˈmɛnd taɪ ˈrɛstrɒnt",
+        "Meaning": "Tôi muốn giới thiệu nhà hàng Thái"
+    },
+    {
+        "Words": "I'd recommend Seafood restaurant",
+        "IPA": "aɪd ˌrɛkəˈmɛnd ˈsiːfuːd ˈrɛstrɒnt",
+        "Meaning": "Tôi muốn giới thiệu nhà hàng hải sản"
+    },
+    {
+        "Words": "I'd recommend the new Chinese place",
+        "IPA": "aɪd ˌrɛkəˈmɛnd ðə njuː ˌʧaɪˈniːz pleɪs",
+        "Meaning": "Tôi muốn giới thiệu địa điểm Trung Quốc mới"
+    },
+    {
+        "Words": "I'd recommend the Vietnam restaurant",
+        "IPA": "aɪd ˌrɛkəˈmɛnd ðə ˌvjɛtˈnɑːm ˈrɛstrɒnt",
+        "Meaning": "Tôi muốn giới thiệu nhà hàng Việt Nam"
+    },
+    {
+        "Words": "I'd recommend the India restaurant",
+        "IPA": "aɪd ˌrɛkəˈmɛnd ði ˈɪndɪə ˈrɛstrɒnt",
+        "Meaning": "Tôi muốn giới thiệu nhà hàng Ấn Độ"
+    },
+    {
+        "Words": "I'd recommend Buffet restaurant",
+        "IPA": "aɪd ˌrɛkəˈmɛnd ˈbʌfɪt ˈrɛstrɒnt",
+        "Meaning": "Tôi muốn giới thiệu nhà hàng Buffet"
+    },
+    {
+        "Words": "I'd recommend Cafeteria",
+        "IPA": "aɪd ˌrɛkəˈmɛnd ˌkæfɪˈtɪərɪə",
+        "Meaning": "Tôi muốn giới thiệu quán cà phê"
+    },
+    {
+        "Words": "I'd recommend Fast food restaurant",
+        "IPA": "aɪd ˌrɛkəˈmɛnd fɑːst fuːd ˈrɛstrɒnt",
+        "Meaning": "Tôi muốn giới thiệu nhà hàng thức ăn nhanh"
+    },
+    {
+        "Words": "I'd recommend a Fine dining restaurant",
+        "IPA": "aɪd ˌrɛkəˈmɛnd ə faɪn ˈdaɪnɪŋ ˈrɛstrɒnt",
+        "Meaning": "Tôi muốn giới thiệu một nhà hàng ăn uống cao cấp"
+    },
+    {
+        "Words": "I'd recommend an Ethnic restaurant",
+        "IPA": "aɪd ˌrɛkəˈmɛnd ən ˈɛθnɪk ˈrɛstrɒnt",
+        "Meaning": "Tôi muốn giới thiệu một nhà hàng Dân tộc"
+    },
+    {
+        "Words": "I'd recommend a Hot pot restaurant",
+        "IPA": "aɪd ˌrɛkəˈmɛnd ə hɒt pɒt ˈrɛstrɒnt",
+        "Meaning": "Tôi muốn giới thiệu một nhà hàng lẩu"
+    },
+    {
+        "Words": "I'd recommend a Japanese restaurant",
+        "IPA": "aɪd ˌrɛkəˈmɛnd ə ˌʤæpəˈniːz ˈrɛstrɒnt",
+        "Meaning": "Tôi muốn giới thiệu một nhà hàng Nhật Bản"
+    },
+    {
+        "Words": "I'd recommend a Korean restaurant",
+        "IPA": "aɪd ˌrɛkəˈmɛnd ə kəˈriːən ˈrɛstrɒnt",
+        "Meaning": "Tôi muốn giới thiệu một nhà hàng Hàn Quốc"
+    },
+    {
+        "Words": "I'd recommend Thai restaurant",
+        "IPA": "aɪd ˌrɛkəˈmɛnd taɪ ˈrɛstrɒnt",
+        "Meaning": "Tôi muốn giới thiệu nhà hàng Thái"
+    },
+    {
+        "Words": "I'd recommend Seafood restaurant",
+        "IPA": "aɪd ˌrɛkəˈmɛnd ˈsiːfuːd ˈrɛstrɒnt",
+        "Meaning": "Tôi muốn giới thiệu nhà hàng hải sản"
+    },
+    {
+        "Words": "I'd recommend the new Chinese place",
+        "IPA": "aɪd ˌrɛkəˈmɛnd ðə njuː ˌʧaɪˈniːz pleɪs",
+        "Meaning": "Tôi muốn giới thiệu địa điểm Trung Quốc mới"
+    },
+    {
+        "Words": "I'd recommend the Vietnam restaurant",
+        "IPA": "aɪd ˌrɛkəˈmɛnd ðə ˌvjɛtˈnɑːm ˈrɛstrɒnt",
+        "Meaning": "Tôi muốn giới thiệu nhà hàng Việt Nam"
+    },
+    {
+        "Words": "I'd recommend the India restaurant",
+        "IPA": "aɪd ˌrɛkəˈmɛnd ði ˈɪndɪə ˈrɛstrɒnt",
+        "Meaning": "Tôi muốn giới thiệu nhà hàng Ấn Độ"
+    },
+    {
+        "Words": "I'd recommend Buffet restaurant",
+        "IPA": "aɪd ˌrɛkəˈmɛnd ˈbʌfɪt ˈrɛstrɒnt",
+        "Meaning": "Tôi muốn giới thiệu nhà hàng Buffet"
+    },
+    {
+        "Words": "I'd recommend Cafeteria",
+        "IPA": "aɪd ˌrɛkəˈmɛnd ˌkæfɪˈtɪərɪə",
+        "Meaning": "Tôi muốn giới thiệu quán cà phê"
+    },
+    {
+        "Words": "I'd recommend Fast food restaurant",
+        "IPA": "aɪd ˌrɛkəˈmɛnd fɑːst fuːd ˈrɛstrɒnt",
+        "Meaning": "Tôi muốn giới thiệu nhà hàng thức ăn nhanh"
+    },
+    {
+        "Words": "I'd recommend a Fine dining restaurant",
+        "IPA": "aɪd ˌrɛkəˈmɛnd ə faɪn ˈdaɪnɪŋ ˈrɛstrɒnt",
+        "Meaning": "Tôi muốn giới thiệu một nhà hàng ăn uống cao cấp"
+    },
+    {
+        "Words": "It's reasonable",
+        "IPA": "ɪts ˈriːznəbl",
+        "Meaning": "Nó hợp lý"
+    },
+    {
+        "Words": "It's not too expensive",
+        "IPA": "ɪts nɒt tuː ɪksˈpɛnsɪv",
+        "Meaning": "Nó không quá đắt"
+    },
+    {
+        "Words": "It's economical",
+        "IPA": "ɪts ˌiːkəˈnɒmɪkəl",
+        "Meaning": "Nó tiết kiệm"
+    },
+    {
+        "Words": "It's fair",
+        "IPA": "ɪts feə",
+        "Meaning": "Nó công bằng"
+    },
+    {
+        "Words": "It's dirt cheap",
+        "IPA": "ɪts dɜːt ʧiːp",
+        "Meaning": "Nó rẻ mạt"
+    },
+    {
+        "Words": "It's a snip",
+        "IPA": "ɪts ə snɪp",
+        "Meaning": "Đó là một mảnh ghép"
+    },
+    {
+        "Words": "It's steal",
+        "IPA": "ɪts stiːl",
+        "Meaning": "Nó ăn cắp"
+    },
+    {
+        "Words": "It's cheap to run",
+        "IPA": "ɪts ʧiːp tuː rʌn",
+        "Meaning": "Nó rẻ để chạy"
+    },
+    {
+        "Words": "It's dear",
+        "IPA": "ɪts dɪə",
+        "Meaning": "Nó thân yêu"
+    },
+    {
+        "Words": "It's extortionate",
+        "IPA": "ɪts ɪksˈtɔːʃnɪt",
+        "Meaning": "Nó không tương xứng"
+    },
+    {
+        "Words": "It's too high",
+        "IPA": "ɪts tuː haɪ",
+        "Meaning": "Nó quá cao"
+    },
+    {
+        "Words": "It's pricey",
+        "IPA": "ɪts ˈpraɪsi",
+        "Meaning": "Nó đắt tiền"
+    },
+    {
+        "Words": "It's dear",
+        "IPA": "ɪts dɪə",
+        "Meaning": "Nó thân yêu"
+    },
+    {
+        "Words": "It's prohibitive",
+        "IPA": "ɪts prəˈhɪbɪtɪv",
+        "Meaning": "Nó bị cấm"
+    },
+    {
+        "Words": "It's expensive",
+        "IPA": "ɪts ɪksˈpɛnsɪv",
+        "Meaning": "Nó đắt"
+    },
+    {
+        "Words": "It's for sale",
+        "IPA": "ɪts fɔː seɪl",
+        "Meaning": "Nó được bán"
+    },
+    {
+        "Words": "It's a real bargain",
+        "IPA": "ɪts ə rɪəl ˈbɑːgɪn",
+        "Meaning": "Đó là một món hời thực sự"
+    },
+    {
+        "Words": "It's affordable",
+        "IPA": "ɪts əˈfɔːdəbl",
+        "Meaning": "Giá cả phải chăng"
+    },
+    {
+        "Words": "It's reasonable",
+        "IPA": "ɪts ˈriːznəbl",
+        "Meaning": "Nó hợp lý"
+    },
+    {
+        "Words": "It's not too expensive",
+        "IPA": "ɪts nɒt tuː ɪksˈpɛnsɪv",
+        "Meaning": "Nó không quá đắt"
+    },
+    {
+        "Words": "It's economical",
+        "IPA": "ɪts ˌiːkəˈnɒmɪkəl",
+        "Meaning": "Nó tiết kiệm"
+    },
+    {
+        "Words": "It's fair",
+        "IPA": "ɪts feə",
+        "Meaning": "Nó công bằng"
+    },
+    {
+        "Words": "It's dirt cheap",
+        "IPA": "ɪts dɜːt ʧiːp",
+        "Meaning": "Nó rẻ mạt"
+    },
+    {
+        "Words": "It's a snip",
+        "IPA": "ɪts ə snɪp",
+        "Meaning": "Đó là một mảnh ghép"
+    },
+    {
+        "Words": "It's steal",
+        "IPA": "ɪts stiːl",
+        "Meaning": "Nó ăn cắp"
+    },
+    {
+        "Words": "It's cheap to run",
+        "IPA": "ɪts ʧiːp tuː rʌn",
+        "Meaning": "Nó rẻ để chạy"
+    },
+    {
+        "Words": "It's dear",
+        "IPA": "ɪts dɪə",
+        "Meaning": "Nó thân yêu"
+    },
+    {
+        "Words": "It's extortionate",
+        "IPA": "ɪts ɪksˈtɔːʃnɪt",
+        "Meaning": "Nó không tương xứng"
+    },
+    {
+        "Words": "It's too high",
+        "IPA": "ɪts tuː haɪ",
+        "Meaning": "Nó quá cao"
+    },
+    {
+        "Words": "It's pricey",
+        "IPA": "ɪts ˈpraɪsi",
+        "Meaning": "Nó đắt tiền"
+    },
+    {
+        "Words": "This is Grilled fish",
+        "IPA": "ðɪs ɪz grɪld fɪʃ",
+        "Meaning": "Đây là cá nướng"
+    },
+    {
+        "Words": "This is Fried Crayfish with cauliflower",
+        "IPA": "ðɪs ɪz fraɪd ˈkreɪfɪʃ wɪð ˈkɒlɪflaʊə",
+        "Meaning": "Đây là Tôm càng xào súp lơ"
+    },
+    {
+        "Words": "This is Fried Crayfish with mushroom",
+        "IPA": "ðɪs ɪz fraɪd ˈkreɪfɪʃ wɪð ˈmʌʃrʊm",
+        "Meaning": "Đây là Tôm càng xào nấm"
+    },
+    {
+        "Words": "This is Grilled Lobster with citronella & garlic",
+        "IPA": "ðɪs ɪz grɪld ˈlɒbstə wɪð citronella & ˈgɑːlɪk",
+        "Meaning": "Đây là Tôm hùm nướng sả tỏi"
+    },
+    {
+        "Words": "This is a Hot pot of Lobster",
+        "IPA": "ðɪs ɪz ə hɒt pɒt ɒv ˈlɒbstə",
+        "Meaning": "Đây là món Lẩu Tôm Hùm"
+    },
+    {
+        "Words": "This is Seafood and vegetables on rice",
+        "IPA": "ðɪs ɪz ˈsiːfuːd ænd ˈvɛʤtəb(ə)lz ɒn raɪs",
+        "Meaning": "Đây là hải sản và rau trên cơm"
+    },
+    {
+        "Words": "This is a Seafood soup",
+        "IPA": "ðɪs ɪz ə ˈsiːfuːd suːp",
+        "Meaning": "Đây là món súp hải sản"
+    },
+    {
+        "Words": "This is Peanuts dived in salt",
+        "IPA": "ðɪs ɪz ˈpiːnʌts daɪvd ɪn sɒlt",
+        "Meaning": "Đây là Đậu phộng ngâm muối"
+    },
+    {
+        "Words": "This is a Kimchi dish",
+        "IPA": "ðɪs ɪz ə Kimchi dɪʃ",
+        "Meaning": "Đây là món Kimchi"
+    },
+    {
+        "Words": "This is Fresh Shellfish soup",
+        "IPA": "ðɪs ɪz frɛʃ ˈʃɛlfɪʃ suːp",
+        "Meaning": "Đây là súp Sò tươi"
+    },
+    {
+        "Words": "This is Eel soup",
+        "IPA": "ðɪs ɪz iːl suːp",
+        "Meaning": "Đây là súp lươn"
+    },
+    {
+        "Words": "This is Crab soup",
+        "IPA": "ðɪs ɪz kræb suːp",
+        "Meaning": "Đây là súp cua"
+    },
+    {
+        "Words": "This is Chicken & com soup",
+        "IPA": "ðɪs ɪz ˈʧɪkɪn & kɒm suːp",
+        "Meaning": "Đây là súp gà & com"
+    },
+    {
+        "Words": "This is Beef soup",
+        "IPA": "ðɪs ɪz biːf suːp",
+        "Meaning": "Đây là súp thịt bò"
+    },
+    {
+        "Words": "This is Beef dipped in hot sauce",
+        "IPA": "ðɪs ɪz biːf dɪpt ɪn hɒt sɔːs",
+        "Meaning": "Đây là Bò nhúng sốt"
+    },
+    {
+        "Words": "This is a Beef dish served with fried potato",
+        "IPA": "ðɪs ɪz ə biːf dɪʃ sɜːvd wɪð fraɪd pəˈteɪtəʊ",
+        "Meaning": "Đây là món Bò ăn kèm với khoai tây chiên"
+    },
+    {
+        "Words": "This is a Beef dish",
+        "IPA": "ðɪs ɪz ə biːf dɪʃ",
+        "Meaning": "Đây là món Bò"
+    },
+    {
+        "Words": "This is Beef steak",
+        "IPA": "ðɪs ɪz biːf steɪk",
+        "Meaning": "Đây là bít tết bò"
+    },
+    {
+        "Words": "This is Beef",
+        "IPA": "ðɪs ɪz biːf",
+        "Meaning": "Đây là thịt bò"
+    },
+    {
+        "Words": "This is Fried Beef with garlic celery",
+        "IPA": "ðɪs ɪz fraɪd biːf wɪð ˈgɑːlɪk ˈsɛləri",
+        "Meaning": "Đây là Bò xào tỏi cần tây"
+    },
+    {
+        "Words": "This is Grilled Beef with chili & citronella",
+        "IPA": "ðɪs ɪz grɪld biːf wɪð ˈʧɪli & citronella",
+        "Meaning": "Đây là Bò nướng sả ớt"
+    },
+    {
+        "Words": "This is Rolled minced Beef dipped in hot sauce",
+        "IPA": "ðɪs ɪz rəʊld mɪnst biːf dɪpt ɪn hɒt sɔːs",
+        "Meaning": "Đây là Bò bằm cuộn sốt"
+    },
+    {
+        "Words": "This is Thailand style fried Beef",
+        "IPA": "ðɪs ɪz ˈtaɪlænd staɪl fraɪd biːf",
+        "Meaning": "Đây là món bò rán kiểu Thái Lan"
+    },
+    {
+        "Words": "This is a Meat dumpling",
+        "IPA": "ðɪs ɪz ə miːt ˈdʌmplɪŋ",
+        "Meaning": "Đây là bánh bao nhân thịt"
+    },
+    {
+        "Words": "This is Minced meat wonton",
+        "IPA": "ðɪs ɪz mɪnst miːt wonton",
+        "Meaning": "Đây là hoành thánh thịt băm"
+    },
+    {
+        "Words": "This is Noodles with onion oil sauce",
+        "IPA": "ðɪs ɪz ˈnuːdlz wɪð ˈʌnjən ɔɪl sɔːs",
+        "Meaning": "Đây là Mì sốt dầu hành"
+    },
+    {
+        "Words": "This is Soy bean soup with young pork ribs",
+        "IPA": "ðɪs ɪz sɔɪ biːn suːp wɪð jʌŋ pɔːk rɪbz",
+        "Meaning": "Đây là canh đậu tương sườn non"
+    },
+    {
+        "Words": "This is Spicy and sour soup",
+        "IPA": "ðɪs ɪz ˈspaɪsi ænd ˈsaʊə suːp",
+        "Meaning": "Đây là món canh chua cay"
+    },
+    {
+        "Words": "This is Tofu with soy sauce",
+        "IPA": "ðɪs ɪz ˈtəʊfuː wɪð sɔɪ sɔːs",
+        "Meaning": "Đây là Đậu phụ sốt xì dầu"
+    },
+    {
+        "Words": "This is Tomato soup cooked with eggs",
+        "IPA": "ðɪs ɪz təˈmɑːtəʊ suːp kʊkt wɪð ɛgz",
+        "Meaning": "Đây là món canh cà chua nấu trứng"
+    },
+    {
+        "Words": "This is a fork",
+        "IPA": "ðɪs ɪz ə fɔːk",
+        "Meaning": "Đây là một cái nĩa"
+    },
+    {
+        "Words": "This is a spoon",
+        "IPA": "ðɪs ɪz ə spuːn",
+        "Meaning": "Đây là một cái thìa"
+    },
+    {
+        "Words": "This is a bowl",
+        "IPA": "ðɪs ɪz ə bəʊl",
+        "Meaning": "Đây là một cái bát"
+    },
+    {
+        "Words": "This is a teaspoon",
+        "IPA": "ðɪs ɪz ə ˈtiːˌspuːn",
+        "Meaning": "Đây là một thìa cà phê"
+    },
+    {
+        "Words": "This is a tray",
+        "IPA": "ðɪs ɪz ə treɪ",
+        "Meaning": "Đây là một cái khay"
+    },
+    {
+        "Words": "This is a grater",
+        "IPA": "ðɪs ɪz ə ˈgreɪtə",
+        "Meaning": "Đây là một cái vắt"
+    },
+    {
+        "Words": "This is kitchen foil",
+        "IPA": "ðɪs ɪz ˈkɪʧɪn fɔɪl",
+        "Meaning": "Đây là giấy bạc nhà bếp"
+    },
+    {
+        "Words": "This is a mixing bowl",
+        "IPA": "ðɪs ɪz ə ˈmɪksɪŋ bəʊl",
+        "Meaning": "Đây là một cái bát trộn"
+    },
+    {
+        "Words": "This is a pot",
+        "IPA": "ðɪs ɪz ə pɒt",
+        "Meaning": "Đây là một cái chậu"
+    },
+    {
+        "Words": "This is a whisk",
+        "IPA": "ðɪs ɪz ə wɪsk",
+        "Meaning": "Đây là một cái máy đánh trứng"
+    },
+    {
+        "Words": "This is a tongs",
+        "IPA": "ðɪs ɪz ə tɒŋz",
+        "Meaning": "Đây là một cái kẹp"
+    },
+    {
+        "Words": "This is a tin opener",
+        "IPA": "ðɪs ɪz ə tɪn ˈəʊpnə",
+        "Meaning": "Đây là một dụng cụ mở thiếc"
+    },
+    {
+        "Words": "This is a grill",
+        "IPA": "ðɪs ɪz ə grɪl",
+        "Meaning": "Đây là một món nướng"
+    },
+    {
+        "Words": "This is a frying pan",
+        "IPA": "ðɪs ɪz ə ˈfraɪɪŋ pæn",
+        "Meaning": "Đây là một cái chảo"
+    },
+    {
+        "Words": "This is a kitchen roll",
+        "IPA": "ðɪs ɪz ə ˈkɪʧɪn rəʊl",
+        "Meaning": "Đây là một cuộn bếp"
+    },
+    {
+        "Words": "This is a knife",
+        "IPA": "ðɪs ɪz ə naɪf",
+        "Meaning": "Đây là một con dao"
+    },
+    {
+        "Words": "This is a pot holder",
+        "IPA": "ðɪs ɪz ə pɒt ˈhəʊldə",
+        "Meaning": "Đây là một giá đỡ nồi"
+    },
+    {
+        "Words": "This is a cup",
+        "IPA": "ðɪs ɪz ə kʌp",
+        "Meaning": "Đây là một cái cốc"
+    },
+    {
+        "Words": "This is a crockery",
+        "IPA": "ðɪs ɪz ə ˈkrɒkəri",
+        "Meaning": "Đây là một đồ sành sứ"
+    },
+    {
+        "Words": "This is an oven cloth",
+        "IPA": "ðɪs ɪz ən ˈʌvn klɒθ",
+        "Meaning": "Đây là vải dùng trong lò nướng"
+    },
+    {
+        "Words": "This is a peeler",
+        "IPA": "ðɪs ɪz ə ˈpiːlə",
+        "Meaning": "Đây là một máy bóc vỏ"
+    },
+    {
+        "Words": "This is a saucepan",
+        "IPA": "ðɪs ɪz ə ˈsɔːspən",
+        "Meaning": "Đây là một cái chảo"
+    },
+    {
+        "Words": "This is a kitchen scales",
+        "IPA": "ðɪs ɪz ə ˈkɪʧɪn skeɪlz",
+        "Meaning": "Đây là một chiếc cân nhà bếp"
+    },
+    {
+        "Words": "This is a plate",
+        "IPA": "ðɪs ɪz ə pleɪt",
+        "Meaning": "Đây là một cái đĩa"
+    },
+    {
+        "Words": "This is a wooden spoon",
+        "IPA": "ðɪs ɪz ə ˈwʊdn spuːn",
+        "Meaning": "Đây là một cái thìa gỗ"
+    },
+    {
+        "Words": "This is an apron",
+        "IPA": "ðɪs ɪz ən ˈeɪprən",
+        "Meaning": "Đây là tạp dề"
+    },
+    {
+        "Words": "This is a burner",
+        "IPA": "ðɪs ɪz ə ˈbɜːnə",
+        "Meaning": "Đây là một ổ ghi"
+    },
+    {
+        "Words": "This is a colander",
+        "IPA": "ðɪs ɪz ə ˈkʌləndə",
+        "Meaning": "Đây là một cái chao"
+    },
+    {
+        "Words": "This is a sieve",
+        "IPA": "ðɪs ɪz ə sɪv",
+        "Meaning": "Đây là một cái sàng"
+    },
+    {
+        "Words": "This is a carving knife",
+        "IPA": "ðɪs ɪz ə ˈkɑːvɪŋ naɪf",
+        "Meaning": "Đây là một con dao khắc"
+    },
+    {
+        "Words": "I need to buy cabbage",
+        "IPA": "aɪ niːd tuː baɪ ˈkæbɪʤ",
+        "Meaning": "Tôi cần mua bắp cải"
+    },
+    {
+        "Words": "I need to buy broccoli",
+        "IPA": "aɪ niːd tuː baɪ ˈbrɒkəli",
+        "Meaning": "Tôi cần mua bông cải xanh"
+    },
+    {
+        "Words": "I need to buy green onion",
+        "IPA": "aɪ niːd tuː baɪ griːn ˈʌnjən",
+        "Meaning": "Tôi cần mua hành lá"
+    },
+    {
+        "Words": "I need to buy knotgrass",
+        "IPA": "aɪ niːd tuː baɪ ˈnɒtgrɑːs",
+        "Meaning": "Tôi cần mua cây cói"
+    },
+    {
+        "Words": "I need to buy asparagus",
+        "IPA": "aɪ niːd tuː baɪ əsˈpærəgəs",
+        "Meaning": "Tôi cần mua măng tây"
+    },
+    {
+        "Words": "I need to buy seaweed",
+        "IPA": "aɪ niːd tuː baɪ ˈsiːwiːd",
+        "Meaning": "Tôi cần mua rong biển"
+    },
+    {
+        "Words": "I need to buy white turnip",
+        "IPA": "aɪ niːd tuː baɪ waɪt ˈtɜːnɪp",
+        "Meaning": "Tôi cần mua củ cải trắng"
+    },
+    {
+        "Words": "I need to buy a loofah",
+        "IPA": "aɪ niːd tuː baɪ ə ˈluːfɑː",
+        "Meaning": "Tôi cần mua một cái xơ mướp"
+    },
+    {
+        "Words": "I need to buy spinach",
+        "IPA": "aɪ niːd tuː baɪ ˈspɪnɪʤ",
+        "Meaning": "Tôi cần mua rau chân vịt"
+    },
+    {
+        "Words": "I need to buy bean sprouts",
+        "IPA": "aɪ niːd tuː baɪ biːn spraʊts",
+        "Meaning": "Tôi cần mua giá đỗ"
+    },
+    {
+        "Words": "I need to buy coriander",
+        "IPA": "aɪ niːd tuː baɪ ˌkɒrɪˈændə",
+        "Meaning": "Tôi cần mua rau mùi"
+    },
+    {
+        "Words": "I need to buy fennel",
+        "IPA": "aɪ niːd tuː baɪ ˈfɛnl",
+        "Meaning": "Tôi cần mua thì là"
+    },
+    {
+        "Words": "I need to buy kohlrabi",
+        "IPA": "aɪ niːd tuː baɪ ˈkəʊlˈrɑːbi",
+        "Meaning": "Tôi cần mua su hào"
+    },
+    {
+        "Words": "I need to buy onion",
+        "IPA": "aɪ niːd tuː baɪ ˈʌnjən",
+        "Meaning": "Tôi cần mua hành tây"
+    },
+    {
+        "Words": "I need to buy radish",
+        "IPA": "aɪ niːd tuː baɪ ˈrædɪʃ",
+        "Meaning": "Tôi cần mua củ cải"
+    },
+    {
+        "Words": "I need to buy carrot",
+        "IPA": "aɪ niːd tuː baɪ ˈkærət",
+        "Meaning": "Tôi cần mua cà rốt"
+    },
+    {
+        "Words": "I need to buy eggplant",
+        "IPA": "aɪ niːd tuː baɪ ˈɛgˌplɑːnt",
+        "Meaning": "Tôi cần mua cà tím"
+    },
+    {
+        "Words": "I need to buy white fungus",
+        "IPA": "aɪ niːd tuː baɪ waɪt ˈfʌŋgəs",
+        "Meaning": "Tôi cần mua nấm trắng"
+    },
+    {
+        "Words": "I need to buy cucumber",
+        "IPA": "aɪ niːd tuː baɪ ˈkjuːkʌmbə",
+        "Meaning": "Tôi cần mua dưa chuột"
+    },
+    {
+        "Words": "I need to buy marrow",
+        "IPA": "aɪ niːd tuː baɪ ˈmærəʊ",
+        "Meaning": "Tôi cần mua tủy"
+    },
+    {
+        "Words": "I need to buy corn",
+        "IPA": "aɪ niːd tuː baɪ kɔːn",
+        "Meaning": "Tôi cần mua ngô"
+    },
+    {
+        "Words": "I need to buy a bell pepper",
+        "IPA": "aɪ niːd tuː baɪ ə bɛl ˈpɛpə",
+        "Meaning": "Tôi cần mua một quả ớt chuông"
+    },
+    {
+        "Words": "I need to buy tomato",
+        "IPA": "aɪ niːd tuː baɪ təˈmɑːtəʊ",
+        "Meaning": "Tôi cần mua cà chua"
+    },
+    {
+        "Words": "I need to buy ginger",
+        "IPA": "aɪ niːd tuː baɪ ˈʤɪnʤə",
+        "Meaning": "Tôi cần mua gừng"
+    },
+    {
+        "Words": "I need to buy straw mushrooms",
+        "IPA": "aɪ niːd tuː baɪ strɔː ˈmʌʃrʊmz",
+        "Meaning": "Tôi cần mua nấm rơm"
+    },
+    {
+        "Words": "I need to buy mushroom",
+        "IPA": "aɪ niːd tuː baɪ ˈmʌʃrʊm",
+        "Meaning": "Tôi cần mua nấm"
+    },
+    {
+        "Words": "I need to buy black fungus",
+        "IPA": "aɪ niːd tuː baɪ blæk ˈfʌŋgəs",
+        "Meaning": "Tôi cần mua nấm đen"
+    },
+    {
+        "Words": "I need to buy a lemon",
+        "IPA": "aɪ niːd tuː baɪ ə ˈlɛmən",
+        "Meaning": "Tôi cần mua một quả chanh"
+    },
+    {
+        "Words": "I need to buy hot pepper",
+        "IPA": "aɪ niːd tuː baɪ hɒt ˈpɛpə",
+        "Meaning": "Tôi cần mua ớt hiểm"
+    },
+    {
+        "Words": "I need to buy sweet potato",
+        "IPA": "aɪ niːd tuː baɪ swiːt pəˈteɪtəʊ",
+        "Meaning": "Tôi cần mua khoai lang"
+    },
+    {
+        "Words": "I would like $40",
+        "IPA": "aɪ wʊd laɪk $40",
+        "Meaning": "Tôi muốn $ 40"
+    },
+    {
+        "Words": "I would like 5 kilograms",
+        "IPA": "aɪ wʊd laɪk 5 ˈkɪləʊgræmz",
+        "Meaning": "Tôi muốn 5 kg"
+    },
+    {
+        "Words": "I would like 3 bunch",
+        "IPA": "aɪ wʊd laɪk 3 bʌnʧ",
+        "Meaning": "Tôi muốn 3 bó"
+    },
+    {
+        "Words": "I would like one bag",
+        "IPA": "aɪ wʊd laɪk wʌn bæg",
+        "Meaning": "Tôi muốn một cái túi"
+    },
+    {
+        "Words": "I would like a pack",
+        "IPA": "aɪ wʊd laɪk ə pæk",
+        "Meaning": "Tôi muốn một gói"
+    },
+    {
+        "Words": "I would like $15",
+        "IPA": "aɪ wʊd laɪk $15",
+        "Meaning": "Tôi muốn $ 15"
+    },
+    {
+        "Words": "I would like half a kilogram",
+        "IPA": "aɪ wʊd laɪk hɑːf ə ˈkɪləʊgræm",
+        "Meaning": "Tôi muốn nửa kg"
+    },
+    {
+        "Words": "I would like two and a half kilograms",
+        "IPA": "aɪ wʊd laɪk tuː ænd ə hɑːf ˈkɪləʊgræmz",
+        "Meaning": "Tôi muốn hai ký rưỡi"
+    },
+    {
+        "Words": "I would like one and a half kilograms",
+        "IPA": "aɪ wʊd laɪk wʌn ænd ə hɑːf ˈkɪləʊgræmz",
+        "Meaning": "Tôi muốn một kg rưỡi"
+    },
+    {
+        "Words": "I would like a half kilograms",
+        "IPA": "aɪ wʊd laɪk ə hɑːf ˈkɪləʊgræmz",
+        "Meaning": "Tôi muốn nửa kg"
+    },
+    {
+        "Words": "I would like 15 pounds",
+        "IPA": "aɪ wʊd laɪk 15 paʊndz",
+        "Meaning": "Tôi muốn 15 bảng Anh"
+    },
+    {
+        "Words": "I would like a bundle",
+        "IPA": "aɪ wʊd laɪk ə ˈbʌndl",
+        "Meaning": "Tôi muốn một gói"
+    },
+    {
+        "Words": "I would like $60",
+        "IPA": "aɪ wʊd laɪk $60",
+        "Meaning": "Tôi muốn $ 60"
+    },
+    {
+        "Words": "I would like $12",
+        "IPA": "aɪ wʊd laɪk $12",
+        "Meaning": "Tôi muốn $ 12"
+    },
+    {
+        "Words": "I would like 4 bunches",
+        "IPA": "aɪ wʊd laɪk 4 ˈbʌnʧɪz",
+        "Meaning": "Tôi muốn 4 bó"
+    },
+    {
+        "Words": "I would like $41",
+        "IPA": "aɪ wʊd laɪk $41",
+        "Meaning": "Tôi muốn $ 41"
+    },
+    {
+        "Words": "I would like 6 kilograms",
+        "IPA": "aɪ wʊd laɪk 6 ˈkɪləʊgræmz",
+        "Meaning": "Tôi muốn 6 kg"
+    },
+    {
+        "Words": "I would like 3 bunch",
+        "IPA": "aɪ wʊd laɪk 3 bʌnʧ",
+        "Meaning": "Tôi muốn 3 bó"
+    },
+    {
+        "Words": "I would like one bag",
+        "IPA": "aɪ wʊd laɪk wʌn bæg",
+        "Meaning": "Tôi muốn một cái túi"
+    },
+    {
+        "Words": "I would like a pack",
+        "IPA": "aɪ wʊd laɪk ə pæk",
+        "Meaning": "Tôi muốn một gói"
+    },
+    {
+        "Words": "I would like $16",
+        "IPA": "aɪ wʊd laɪk $16",
+        "Meaning": "Tôi muốn $ 16"
+    },
+    {
+        "Words": "I would like half a kilogram",
+        "IPA": "aɪ wʊd laɪk hɑːf ə ˈkɪləʊgræm",
+        "Meaning": "Tôi muốn nửa kg"
+    },
+    {
+        "Words": "I would like two and a half kilograms",
+        "IPA": "aɪ wʊd laɪk tuː ænd ə hɑːf ˈkɪləʊgræmz",
+        "Meaning": "Tôi muốn hai ký rưỡi"
+    },
+    {
+        "Words": "I would like one and a half kilograms",
+        "IPA": "aɪ wʊd laɪk wʌn ænd ə hɑːf ˈkɪləʊgræmz",
+        "Meaning": "Tôi muốn một kg rưỡi"
+    },
+    {
+        "Words": "I would like a half kilograms",
+        "IPA": "aɪ wʊd laɪk ə hɑːf ˈkɪləʊgræmz",
+        "Meaning": "Tôi muốn nửa kg"
+    },
+    {
+        "Words": "I would like 16 pounds",
+        "IPA": "aɪ wʊd laɪk 16 paʊndz",
+        "Meaning": "Tôi muốn 16 bảng Anh"
+    },
+    {
+        "Words": "I would like a bundle",
+        "IPA": "aɪ wʊd laɪk ə ˈbʌndl",
+        "Meaning": "Tôi muốn một gói"
+    },
+    {
+        "Words": "I would like $36",
+        "IPA": "aɪ wʊd laɪk $36",
+        "Meaning": "Tôi muốn $ 36"
+    },
+    {
+        "Words": "I would like $84",
+        "IPA": "aɪ wʊd laɪk $84",
+        "Meaning": "Tôi muốn $ 84"
+    },
+    {
+        "Words": "I would like 5 bunches",
+        "IPA": "aɪ wʊd laɪk 5 ˈbʌnʧɪz",
+        "Meaning": "Tôi muốn 5 bó"
+    },
+    {
+        "Words": "I want to go to the museum.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ðə mju(ː)ˈzɪəm.",
+        "Meaning": "Tôi muốn đến viện bảo tàng."
+    },
+    {
+        "Words": "I want to go to the railway station.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ðə ˈreɪlweɪ ˈsteɪʃən.",
+        "Meaning": "Tôi muốn đến nhà ga."
+    },
+    {
+        "Words": "I want to go to the park.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ðə pɑːk.",
+        "Meaning": "Tôi muốn đi đến công viên."
+    },
+    {
+        "Words": "I want to go to the bank.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ðə bæŋk.",
+        "Meaning": "Tôi muốn đến ngân hàng."
+    },
+    {
+        "Words": "I want to go to the post office.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ðə pəʊst ˈɒfɪs.",
+        "Meaning": "Tôi muốn đến bưu điện."
+    },
+    {
+        "Words": "I want to go to the market.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ðə ˈmɑːkɪt.",
+        "Meaning": "Tôi muốn đi chợ."
+    },
+    {
+        "Words": "I want to go to Lon Don hospital.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː Lon dɒn ˈhɒspɪtl.",
+        "Meaning": "Tôi muốn đến bệnh viện Lon Don."
+    },
+    {
+        "Words": "I want to go to the supermarket.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ðə ˈsjuːpəˌmɑːkɪt.",
+        "Meaning": "Tôi muốn đi siêu thị."
+    },
+    {
+        "Words": "I want to go to the movie theater.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ðə ˈmuːvi ˈθɪətə.",
+        "Meaning": "Tôi muốn đến rạp chiếu phim."
+    },
+    {
+        "Words": "I want to go to the cathedral.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ðə kəˈθiːdrəl.",
+        "Meaning": "Tôi muốn đến nhà thờ lớn."
+    },
+    {
+        "Words": "I want to go to the skate park.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ðə skeɪt pɑːk.",
+        "Meaning": "Tôi muốn đến công viên trượt băng."
+    },
+    {
+        "Words": "I want to go to the concert hall.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ðə ˈkɒnsə(ː)t hɔːl.",
+        "Meaning": "Tôi muốn đến phòng hòa nhạc."
+    },
+    {
+        "Words": "I want to go to the cemetery.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ðə ˈsɛmɪtri.",
+        "Meaning": "Tôi muốn đến nghĩa trang."
+    },
+    {
+        "Words": "I want to go to the swimming pool.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ðə ˈswɪmɪŋ puːl.",
+        "Meaning": "Tôi muốn đi đến bể bơi."
+    },
+    {
+        "Words": "I want to go to a delicatessen.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ə ˌdɛlɪkəˈtɛsn.",
+        "Meaning": "Tôi muốn đến một tiệm ăn ngon."
+    },
+    {
+        "Words": "I want to go to a car showroom.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ə kɑː ˈʃəʊrʊm.",
+        "Meaning": "Tôi muốn đến một phòng trưng bày xe hơi."
+    },
+    {
+        "Words": "I want to go to the bus stop.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ðə bʌs stɒp.",
+        "Meaning": "Tôi muốn đến bến xe buýt."
+    },
+    {
+        "Words": "I want to go to the mosque.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ðə mɒsk.",
+        "Meaning": "Tôi muốn đến nhà thờ Hồi giáo."
+    },
+    {
+        "Words": "I want to go to the zoo.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ðə zuː.",
+        "Meaning": "Tôi muốn đi đến sở thú."
+    },
+    {
+        "Words": "I want to go to the police station.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ðə pəˈliːs ˈsteɪʃən.",
+        "Meaning": "Tôi muốn đến đồn cảnh sát."
+    },
+    {
+        "Words": "I want to go to the petrol station.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ðə ˈpɛtrəl ˈsteɪʃən.",
+        "Meaning": "Tôi muốn đi đến trạm xăng."
+    },
+    {
+        "Words": "I want to go to a dress shop.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ə drɛs ʃɒp.",
+        "Meaning": "Tôi muốn đi đến một cửa hàng váy."
+    },
+    {
+        "Words": "I want to go to the grocery store.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ðə ˈgrəʊsəri stɔː.",
+        "Meaning": "Tôi muốn đi đến cửa hàng tạp hóa."
+    },
+    {
+        "Words": "I want to go to the bookstore.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ðə ˈbʊkstɔː.",
+        "Meaning": "Tôi muốn đi đến hiệu sách."
+    },
+    {
+        "Words": "I want to go to the shopping center.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ðə ˈʃɒpɪŋ ˈsɛntə.",
+        "Meaning": "Tôi muốn đến trung tâm mua sắm."
+    },
+    {
+        "Words": "I want to go to a restaurant.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ə ˈrɛstrɒnt.",
+        "Meaning": "Tôi muốn đi đến một nhà hàng."
+    },
+    {
+        "Words": "I want to go to the temple.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ðə ˈtɛmpl.",
+        "Meaning": "Tôi muốn đến chùa."
+    },
+    {
+        "Words": "I want to go to the square.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ðə skweə.",
+        "Meaning": "Tôi muốn đến quảng trường."
+    },
+    {
+        "Words": "I want to go to the train station.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ðə treɪn ˈsteɪʃən.",
+        "Meaning": "Tôi muốn đến ga xe lửa."
+    },
+    {
+        "Words": "I want to go to the garage.",
+        "IPA": "aɪ wɒnt tuː gəʊ tuː ðə ˈgærɑːʒ.",
+        "Meaning": "Tôi muốn đến nhà để xe."
+    },
+    {
+        "Words": "Go straight ahead about 50 meters.",
+        "IPA": "gəʊ streɪt əˈhɛd əˈbaʊt 50 ˈmiːtəz.",
+        "Meaning": "Đi thẳng về phía trước khoảng 50 mét."
+    },
+    {
+        "Words": "Go down this street, then turn right at the second crossing.",
+        "IPA": "gəʊ daʊn ðɪs striːt, ðɛn tɜːn raɪt æt ðə ˈsɛkənd ˈkrɒsɪŋ.",
+        "Meaning": "Đi xuống con phố này, sau đó rẽ phải ở ngã tư thứ hai."
+    },
+    {
+        "Words": "It’s about one hundred meters from here.",
+        "IPA": "ɪts əˈbaʊt wʌn ˈhʌndrəd ˈmiːtəz frɒm hɪə.",
+        "Meaning": "Nó cách đây khoảng một trăm mét."
+    },
+    {
+        "Words": "Go down this road and turn left at the first crossing.",
+        "IPA": "gəʊ daʊn ðɪs rəʊd ænd tɜːn lɛft æt ðə fɜːst ˈkrɒsɪŋ.",
+        "Meaning": "Đi xuống con đường này và rẽ trái ở chỗ băng qua đường đầu tiên."
+    },
+    {
+        "Words": "Walk on for about two hundred meters and it’ll be on your left.",
+        "IPA": "wɔːk ɒn fɔːr əˈbaʊt tuː ˈhʌndrəd ˈmiːtəz ænd ˈɪtl biː ɒn jɔː lɛft.",
+        "Meaning": "Đi bộ khoảng hai trăm mét và nó sẽ ở bên trái của bạn."
+    },
+    {
+        "Words": "Go straight ahead to the second crossing, then turn right. You can see it on your right-hand side.",
+        "IPA": "gəʊ streɪt əˈhɛd tuː ðə ˈsɛkənd ˈkrɒsɪŋ, ðɛn tɜːn raɪt. juː kæn siː ɪt ɒn jɔː raɪt-hænd saɪd.",
+        "Meaning": "Đi thẳng tới chỗ băng qua đường thứ hai, sau đó rẽ phải. Bạn có thể nhìn thấy nó ở phía bên tay phải của bạn."
+    },
+    {
+        "Words": "Turn right and go straight ahead 200 meters then ask someone else when you get there.",
+        "IPA": "tɜːn raɪt ænd gəʊ streɪt əˈhɛd 200 ˈmiːtəz ðɛn ɑːsk ˈsʌmwʌn ɛls wɛn juː gɛt ðeə.",
+        "Meaning": "Rẽ phải và đi thẳng về phía trước 200 m, sau đó hỏi người khác khi bạn đến nơi."
+    },
+    {
+        "Words": "Go straight and turn right. You can see it there.",
+        "IPA": "gəʊ streɪt ænd tɜːn raɪt. juː kæn siː ɪt ðeə.",
+        "Meaning": "Đi thẳng và rẽ phải. Bạn có thể thấy nó ở đó."
+    },
+    {
+        "Words": "Go ahead then turn left, your destination will be on the right.",
+        "IPA": "gəʊ əˈhɛd ðɛn tɜːn lɛft, jɔː ˌdɛstɪˈneɪʃən wɪl biː ɒn ðə raɪt.",
+        "Meaning": "Đi tiếp rồi rẽ trái, điểm đến của bạn sẽ ở bên phải."
+    },
+    {
+        "Words": "Take the first right turn after you see it.",
+        "IPA": "teɪk ðə fɜːst raɪt tɜːn ˈɑːftə juː siː ɪt.",
+        "Meaning": "Rẽ phải đầu tiên sau khi bạn nhìn thấy nó."
+    },
+    {
+        "Words": "Walking along the river until you reach it.",
+        "IPA": "ˈwɔːkɪŋ əˈlɒŋ ðə ˈrɪvər ənˈtɪl juː riːʧ ɪt.",
+        "Meaning": "Đi bộ dọc theo sông cho đến khi bạn đến được nó."
+    },
+    {
+        "Words": "Turn left at the roundabout into ABC Road. Go down ABC Road. Your destination is on the right.",
+        "IPA": "tɜːn lɛft æt ðə ˈraʊndəbaʊt ˈɪntuː ˈeɪbiːˈsiː rəʊd. gəʊ daʊn ˈeɪbiːˈsiː rəʊd. jɔː ˌdɛstɪˈneɪʃən ɪz ɒn ðə raɪt.",
+        "Meaning": "Rẽ trái tại bùng binh vào Đường ABC. Đi xuống đường ABC. Điểm đến của bạn ở bên phải."
+    },
+    {
+        "Words": "Take this road. It is opposite the lake.",
+        "IPA": "teɪk ðɪs rəʊd. ɪt ɪz ˈɒpəzɪt ðə leɪk.",
+        "Meaning": "Đi con đường này. Nó nằm đối diện với hồ."
+    },
+    {
+        "Words": "Keep going for another 100 meters, turn right, it is beside the library.",
+        "IPA": "kiːp ˈgəʊɪŋ fɔːr əˈnʌðə 100 ˈmiːtəz, tɜːn raɪt, ɪt ɪz bɪˈsaɪd ðə ˈlaɪbrəri.",
+        "Meaning": "Đi tiếp 100 mét nữa, rẽ phải, nó ở bên cạnh thư viện."
+    },
+    {
+        "Words": "Straight ahead of you.",
+        "IPA": "streɪt əˈhɛd ɒv juː.",
+        "Meaning": "Ngay trước mắt."
+    },
+    {
+        "Words": "About a mile from here. Go straight ahead then ask someone else.",
+        "IPA": "əˈbaʊt ə maɪl frɒm hɪə. gəʊ streɪt əˈhɛd ðɛn ɑːsk ˈsʌmwʌn ɛls.",
+        "Meaning": "Khoảng một dặm từ đây. Đi thẳng về phía trước sau đó hỏi người khác."
+    },
+    {
+        "Words": "First, walk straight to the end of the road. Then make a left turn, and walk along the South street. When you see a crossroad, you will see the bank across the street.",
+        "IPA": "fɜːst, wɔːk streɪt tuː ði ɛnd ɒv ðə rəʊd. ðɛn meɪk ə lɛft tɜːn, ænd wɔːk əˈlɒŋ ðə saʊθ striːt. wɛn juː siː ə ˈkrɒsˌrəʊd, juː wɪl siː ðə bæŋk əˈkrɒs ðə striːt.",
+        "Meaning": "Đầu tiên, hãy đi thẳng đến cuối con đường. Sau đó, rẽ trái và đi bộ dọc theo đường Nam. Khi bạn nhìn thấy một ngã tư, bạn sẽ thấy ngân hàng bên kia đường."
+    },
+    {
+        "Words": "I'm sorry. I have no idea",
+        "IPA": "aɪm ˈsɒri. aɪ hæv nəʊ aɪˈdɪə",
+        "Meaning": "Tôi xin lỗi. tôi không có ý kiến"
+    },
+    {
+        "Words": "Take the second exit at the roundabout.",
+        "IPA": "teɪk ðə ˈsɛkənd ˈɛksɪt æt ðə ˈraʊndəbaʊt.",
+        "Meaning": "Đi theo lối ra thứ hai tại bùng binh."
+    },
+    {
+        "Words": "Turn right at the T-junction.",
+        "IPA": "tɜːn raɪt æt ðə tiː-ˈʤʌŋkʃən.",
+        "Meaning": "Rẽ phải tại ngã ba."
+    },
+    {
+        "Words": "Follow the signs for the town center.",
+        "IPA": "ˈfɒləʊ ðə saɪnz fɔː ðə taʊn ˈsɛntə.",
+        "Meaning": "Đi theo các bảng chỉ dẫn đến trung tâm thị trấn."
+    },
+    {
+        "Words": "At the first cross-road, turn to the left.",
+        "IPA": "æt ðə fɜːst ˈkrɒsrəʊd, tɜːn tuː ðə lɛft.",
+        "Meaning": "Tại đường giao nhau thứ nhất, hãy rẽ trái."
+    },
+    {
+        "Words": "Continue straight on past some traffic lights, and turn left at the end of the road.",
+        "IPA": "kənˈtɪnju(ː) streɪt ɒn pɑːst sʌm ˈtræfɪk laɪts, ænd tɜːn lɛft æt ði ɛnd ɒv ðə rəʊd.",
+        "Meaning": "Tiếp tục đi thẳng qua một số đèn giao thông và rẽ trái ở cuối đường."
+    },
+    {
+        "Words": "Go straight ahead. It's next to the toy shop.",
+        "IPA": "gəʊ streɪt əˈhɛd. ɪts nɛkst tuː ðə tɔɪ ʃɒp.",
+        "Meaning": "Đi thẳng. Nó bên cạnh cửa hàng đồ chơi."
+    },
+    {
+        "Words": "Take the first left, it's near the bookstore.",
+        "IPA": "teɪk ðə fɜːst lɛft, ɪts nɪə ðə ˈbʊkstɔː.",
+        "Meaning": "Rẽ trái đầu tiên, nó gần hiệu sách."
+    },
+    {
+        "Words": "Follow the signs for the town center.",
+        "IPA": "ˈfɒləʊ ðə saɪnz fɔː ðə taʊn ˈsɛntə.",
+        "Meaning": "Đi theo các bảng chỉ dẫn đến trung tâm thị trấn."
+    },
+    {
+        "Words": "At the first cross-road, turn to the left.",
+        "IPA": "æt ðə fɜːst ˈkrɒsrəʊd, tɜːn tuː ðə lɛft.",
+        "Meaning": "Tại đường giao nhau thứ nhất, hãy rẽ trái."
+    },
+    {
+        "Words": "Continue straight on past some traffic lights, and turn left at the end of the road.",
+        "IPA": "kənˈtɪnju(ː) streɪt ɒn pɑːst sʌm ˈtræfɪk laɪts, ænd tɜːn lɛft æt ði ɛnd ɒv ðə rəʊd.",
+        "Meaning": "Tiếp tục đi thẳng qua một số đèn giao thông và rẽ trái ở cuối đường."
+    },
+    {
+        "Words": "Go straight ahead. It's next to the toy shop.",
+        "IPA": "gəʊ streɪt əˈhɛd. ɪts nɛkst tuː ðə tɔɪ ʃɒp.",
+        "Meaning": "Đi thẳng. Nó bên cạnh cửa hàng đồ chơi."
+    },
+    {
+        "Words": "Take the first left, it's near the bookstore.",
+        "IPA": "teɪk ðə fɜːst lɛft, ɪts nɪə ðə ˈbʊkstɔː.",
+        "Meaning": "Rẽ trái đầu tiên, nó gần hiệu sách."
+    },
+    {
+        "Words": "I’d like a new style",
+        "IPA": "aɪd laɪk ə njuː staɪl",
+        "Meaning": "Tôi muốn một phong cách mới"
+    },
+    {
+        "Words": "I’d like my bangs just to cover my eyebrows",
+        "IPA": "aɪd laɪk maɪ bæŋz ʤʌst tuː ˈkʌvə maɪ ˈaɪbraʊz",
+        "Meaning": "Tôi muốn tóc mái chỉ để che đi lông mày của mình"
+    },
+    {
+        "Words": "I’d like to get a fringe.",
+        "IPA": "aɪd laɪk tuː gɛt ə frɪnʤ.",
+        "Meaning": "Tôi muốn có một đường viền."
+    },
+    {
+        "Words": "I’d like loose waves.",
+        "IPA": "aɪd laɪk luːs weɪvz.",
+        "Meaning": "Tôi thích những làn sóng lỏng lẻo."
+    },
+    {
+        "Words": "I’d like some highlights in my hair.",
+        "IPA": "aɪd laɪk sʌm ˈhaɪˌlaɪts ɪn maɪ heə.",
+        "Meaning": "Tôi muốn một số điểm nổi bật trên tóc của mình."
+    },
+    {
+        "Words": "I’d like a haircut",
+        "IPA": "aɪd laɪk ə ˈheəkʌt",
+        "Meaning": "Tôi muốn cắt tóc"
+    },
+    {
+        "Words": "I’d like to trim it up a little",
+        "IPA": "aɪd laɪk tuː trɪm ɪt ʌp ə ˈlɪtl",
+        "Meaning": "Tôi muốn cắt bớt nó một chút"
+    },
+    {
+        "Words": "I’d like my hair to be shoulder length.",
+        "IPA": "aɪd laɪk maɪ heə tuː biː ˈʃəʊldə lɛŋθ.",
+        "Meaning": "Tôi muốn tóc mình dài đến ngang vai."
+    },
+    {
+        "Words": "I’d like to cut it very short",
+        "IPA": "aɪd laɪk tuː kʌt ɪt ˈvɛri ʃɔːt",
+        "Meaning": "Tôi muốn cắt nó thật ngắn"
+    },
+    {
+        "Words": "I’d like part of my hair in the middle",
+        "IPA": "aɪd laɪk pɑːt ɒv maɪ heər ɪn ðə ˈmɪdl",
+        "Meaning": "Tôi thích một phần tóc ở giữa"
+    },
+    {
+        "Words": "I’d like to try a new hairstyle.",
+        "IPA": "aɪd laɪk tuː traɪ ə njuː ˈheəˌstaɪl.",
+        "Meaning": "Tôi muốn thử một kiểu tóc mới."
+    },
+    {
+        "Words": "I’d like short hair",
+        "IPA": "aɪd laɪk ʃɔːt heə",
+        "Meaning": "Tôi thích tóc ngắn"
+    },
+    {
+        "Words": "I’d like to get a fringe.",
+        "IPA": "aɪd laɪk tuː gɛt ə frɪnʤ.",
+        "Meaning": "Tôi muốn có một đường viền."
+    },
+    {
+        "Words": "I’d like to get a gentle perm.",
+        "IPA": "aɪd laɪk tuː gɛt ə ˈʤɛntl pɜːm.",
+        "Meaning": "Tôi muốn có được một sự uốn nắn nhẹ nhàng."
+    },
+    {
+        "Words": "I’d like a strong perm.",
+        "IPA": "aɪd laɪk ə strɒŋ pɜːm.",
+        "Meaning": "Tôi muốn một sự cố gắng mạnh mẽ."
+    },
+    {
+        "Words": "I’d like to color my hair.",
+        "IPA": "aɪd laɪk tuː ˈkʌlə maɪ heə.",
+        "Meaning": "Tôi muốn nhuộm tóc."
+    },
+    {
+        "Words": "I’d like to dye my hair",
+        "IPA": "aɪd laɪk tuː daɪ maɪ heə",
+        "Meaning": "Tôi muốn nhuộm tóc"
+    },
+    {
+        "Words": "I’d like to dye just the roots.",
+        "IPA": "aɪd laɪk tuː daɪ ʤʌst ðə ruːts.",
+        "Meaning": "Tôi chỉ muốn nhuộm phần chân tóc."
+    },
+    {
+        "Words": "I’d like to color my hair a dark brown.",
+        "IPA": "aɪd laɪk tuː ˈkʌlə maɪ heər ə dɑːk braʊn.",
+        "Meaning": "Tôi muốn nhuộm tóc màu nâu sẫm."
+    },
+    {
+        "Words": "I’d like hair spray",
+        "IPA": "aɪd laɪk heə spreɪ",
+        "Meaning": "Tôi thích keo xịt tóc"
+    },
+    {
+        "Words": "I’d like to bleach my hair once.",
+        "IPA": "aɪd laɪk tuː bliːʧ maɪ heə wʌns.",
+        "Meaning": "Tôi muốn tẩy tóc một lần."
+    },
+    {
+        "Words": "I’d like to grade one.",
+        "IPA": "aɪd laɪk tuː greɪd wʌn.",
+        "Meaning": "Tôi muốn lớp một."
+    },
+    {
+        "Words": "I’d like to grade two",
+        "IPA": "aɪd laɪk tuː greɪd tuː",
+        "Meaning": "Tôi muốn học lớp hai"
+    },
+    {
+        "Words": "I’d like to grade three",
+        "IPA": "aɪd laɪk tuː greɪd θriː",
+        "Meaning": "Tôi muốn học lớp ba"
+    },
+    {
+        "Words": "I’d like to be completely shaven",
+        "IPA": "aɪd laɪk tuː biː kəmˈpliːtli ˈʃeɪvn",
+        "Meaning": "Tôi muốn được cạo râu hoàn toàn"
+    },
+    {
+        "Words": "I’d like it colored",
+        "IPA": "aɪd laɪk ɪt ˈkʌləd",
+        "Meaning": "Tôi muốn nó có màu"
+    },
+    {
+        "Words": "I’d like some highlights in my hair.",
+        "IPA": "aɪd laɪk sʌm ˈhaɪˌlaɪts ɪn maɪ heə.",
+        "Meaning": "Tôi muốn một số điểm nổi bật trên tóc của mình."
+    },
+    {
+        "Words": "I’d like a fringe",
+        "IPA": "aɪd laɪk ə frɪnʤ",
+        "Meaning": "Tôi thích một cái rìa"
+    },
+    {
+        "Words": "I’d like to square at the back",
+        "IPA": "aɪd laɪk tuː skweər æt ðə bæk",
+        "Meaning": "Tôi muốn hình vuông ở phía sau"
+    },
+    {
+        "Words": "I’d like tapered at the back",
+        "IPA": "aɪd laɪk ˈteɪpəd æt ðə bæk",
+        "Meaning": "Tôi muốn thon gọn ở phía sau"
+    },
+    {
+        "Words": "It is about 60 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 60 ˈdɒləz",
+        "Meaning": "Đó là khoảng 60 đô la"
+    },
+    {
+        "Words": "It is about 70 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 70 ˈdɒləz",
+        "Meaning": "Nó là khoảng 70 đô la"
+    },
+    {
+        "Words": "It is about 40 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 40 ˈdɒləz",
+        "Meaning": "Nó là khoảng 40 đô la"
+    },
+    {
+        "Words": "It is about 90 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 90 ˈdɒləz",
+        "Meaning": "Đó là khoảng 90 đô la"
+    },
+    {
+        "Words": "It is about 10 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 10 ˈdɒləz",
+        "Meaning": "Nó là khoảng 10 đô la"
+    },
+    {
+        "Words": "It is about 20 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 20 ˈdɒləz",
+        "Meaning": "Nó là khoảng 20 đô la"
+    },
+    {
+        "Words": "It is about 40 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 40 ˈdɒləz",
+        "Meaning": "Nó là khoảng 40 đô la"
+    },
+    {
+        "Words": "It is about 40 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 40 ˈdɒləz",
+        "Meaning": "Nó là khoảng 40 đô la"
+    },
+    {
+        "Words": "It is about 25 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 25 ˈdɒləz",
+        "Meaning": "Nó là khoảng 25 đô la"
+    },
+    {
+        "Words": "It is about 75 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 75 ˈdɒləz",
+        "Meaning": "Nó là khoảng 75 đô la"
+    },
+    {
+        "Words": "It is about 45 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 45 ˈdɒləz",
+        "Meaning": "Nó là khoảng 45 đô la"
+    },
+    {
+        "Words": "It is about 15 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 15 ˈdɒləz",
+        "Meaning": "Nó là khoảng 15 đô la"
+    },
+    {
+        "Words": "It is about 65 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 65 ˈdɒləz",
+        "Meaning": "Nó là khoảng 65 đô la"
+    },
+    {
+        "Words": "It is about 45 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 45 ˈdɒləz",
+        "Meaning": "Nó là khoảng 45 đô la"
+    },
+    {
+        "Words": "It is about 120 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 120 ˈdɒləz",
+        "Meaning": "Đó là khoảng 120 đô la"
+    },
+    {
+        "Words": "It is about 110 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 110 ˈdɒləz",
+        "Meaning": "Nó là khoảng 110 đô la"
+    },
+    {
+        "Words": "It is about 65 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 65 ˈdɒləz",
+        "Meaning": "Nó là khoảng 65 đô la"
+    },
+    {
+        "Words": "It is about 77 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 77 ˈdɒləz",
+        "Meaning": "Nó là khoảng 77 đô la"
+    },
+    {
+        "Words": "It is about 74 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 74 ˈdɒləz",
+        "Meaning": "Nó là khoảng 74 đô la"
+    },
+    {
+        "Words": "It is about 79 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 79 ˈdɒləz",
+        "Meaning": "Nó là khoảng 79 đô la"
+    },
+    {
+        "Words": "It is about 140 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 140 ˈdɒləz",
+        "Meaning": "Đó là khoảng 140 đô la"
+    },
+    {
+        "Words": "It is about 41 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 41 ˈdɒləz",
+        "Meaning": "Nó là khoảng 41 đô la"
+    },
+    {
+        "Words": "It is about 42 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 42 ˈdɒləz",
+        "Meaning": "Nó là khoảng 42 đô la"
+    },
+    {
+        "Words": "It is about 43 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 43 ˈdɒləz",
+        "Meaning": "Nó là khoảng 43 đô la"
+    },
+    {
+        "Words": "It is about 44 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 44 ˈdɒləz",
+        "Meaning": "Nó là khoảng 44 đô la"
+    },
+    {
+        "Words": "It is about 54 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 54 ˈdɒləz",
+        "Meaning": "Nó là khoảng 54 đô la"
+    },
+    {
+        "Words": "It is about 42 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 42 ˈdɒləz",
+        "Meaning": "Nó là khoảng 42 đô la"
+    },
+    {
+        "Words": "It is about 47 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 47 ˈdɒləz",
+        "Meaning": "Nó là khoảng 47 đô la"
+    },
+    {
+        "Words": "It is about 44 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 44 ˈdɒləz",
+        "Meaning": "Nó là khoảng 44 đô la"
+    },
+    {
+        "Words": "It is about 49 dollars",
+        "IPA": "ɪt ɪz əˈbaʊt 49 ˈdɒləz",
+        "Meaning": "Nó là khoảng 49 đô la"
+    },
+    {
+        "Words": "I enjoy listening to Rock",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː rɒk",
+        "Meaning": "Tôi thích nghe nhạc Rock"
+    },
+    {
+        "Words": "I enjoy listening to R&B (rhythm and blues)",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ɑː&biː (ˈrɪðəm ænd bluːz)",
+        "Meaning": "Tôi thích nghe R & B (nhịp điệu và nhạc blues)"
+    },
+    {
+        "Words": "I enjoy listening to Jazz",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ʤæz",
+        "Meaning": "Tôi thích nghe nhạc Jazz"
+    },
+    {
+        "Words": "I enjoy listening to Blues",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː bluːz",
+        "Meaning": "Tôi thích nghe Blues"
+    },
+    {
+        "Words": "I enjoy listening to Pop",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː pɒp",
+        "Meaning": "Tôi thích nghe nhạc Pop"
+    },
+    {
+        "Words": "I enjoy listening to Rock",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː rɒk",
+        "Meaning": "Tôi thích nghe nhạc Rock"
+    },
+    {
+        "Words": "I enjoy listening to Heavy metal",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ˈhɛvi ˈmɛtl",
+        "Meaning": "Tôi thích nghe nhạc Heavy Metal"
+    },
+    {
+        "Words": "I enjoy listening to Hip-hop",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː hɪp-hɒp",
+        "Meaning": "Tôi thích nghe nhạc Hip-hop"
+    },
+    {
+        "Words": "I enjoy listening to Classical music",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ˈklæsɪkəl ˈmjuːzɪk",
+        "Meaning": "Tôi thích nghe nhạc cổ điển"
+    },
+    {
+        "Words": "I enjoy listening to Electronic dance music (EDM)",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ɪlɛkˈtrɒnɪk dɑːns ˈmjuːzɪk (iː-diː-ɛm)",
+        "Meaning": "Tôi thích nghe nhạc khiêu vũ điện tử (EDM)"
+    },
+    {
+        "Words": "I enjoy listening to all kinds of music, expect Rock",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ɔːl kaɪndz ɒv ˈmjuːzɪk, ɪksˈpɛkt rɒk",
+        "Meaning": "Tôi thích nghe tất cả các loại nhạc, mong đợi Rock"
+    },
+    {
+        "Words": "I enjoy listening to Folk",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː fəʊk",
+        "Meaning": "Tôi thích nghe Dân gian"
+    },
+    {
+        "Words": "I enjoy listening to easy listening",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ˈiːzi ˈlɪsnɪŋ",
+        "Meaning": "Tôi thích nghe nhạc dễ nghe"
+    },
+    {
+        "Words": "I enjoy listening to Rap",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ræp",
+        "Meaning": "Tôi thích nghe Rap"
+    },
+    {
+        "Words": "I enjoy listening to Opera",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ˈɒpərə",
+        "Meaning": "Tôi thích nghe Opera"
+    },
+    {
+        "Words": "I enjoy listening to Techno",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ˈtɛknəʊ",
+        "Meaning": "Tôi thích nghe Techno"
+    },
+    {
+        "Words": "I enjoy listening to Latin",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ˈlætɪn",
+        "Meaning": "Tôi thích nghe tiếng Latinh"
+    },
+    {
+        "Words": "I enjoy listening to Country",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ˈkʌntri",
+        "Meaning": "Tôi thích nghe Country"
+    },
+    {
+        "Words": "I enjoy listening to Reggae",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ˈrɛgeɪ",
+        "Meaning": "Tôi thích nghe Reggae"
+    },
+    {
+        "Words": "I enjoy listening to Dance music",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː dɑːns ˈmjuːzɪk",
+        "Meaning": "Tôi thích nghe nhạc Dance"
+    },
+    {
+        "Words": "I enjoy listening to Acoustic",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː əˈkuːstɪk",
+        "Meaning": "Tôi thích nghe Acoustic"
+    },
+    {
+        "Words": "I enjoy listening to Symphony",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ˈsɪmfəni",
+        "Meaning": "Tôi thích nghe nhạc giao hưởng"
+    },
+    {
+        "Words": "I enjoy listening to the Theme song",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ðə θiːm sɒŋ",
+        "Meaning": "Tôi thích nghe bài hát Chủ đề"
+    },
+    {
+        "Words": "I enjoy listening to Lullaby",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ˈlʌləbaɪ",
+        "Meaning": "Tôi thích nghe bài hát ru"
+    },
+    {
+        "Words": "I enjoy listening to Hymn",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː hɪm",
+        "Meaning": "Tôi thích nghe Thánh ca"
+    },
+    {
+        "Words": "I enjoy listening to Bolero",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː bəˈleərəʊ",
+        "Meaning": "Tôi thích nghe nhạc Bolero"
+    },
+    {
+        "Words": "I play Piano",
+        "IPA": "aɪ pleɪ pɪˈænəʊ",
+        "Meaning": "Tôi chơi piano"
+    },
+    {
+        "Words": "I play Guitar",
+        "IPA": "aɪ pleɪ gɪˈtɑː",
+        "Meaning": "Tôi chơi guitar"
+    },
+    {
+        "Words": "I play Saxophone",
+        "IPA": "aɪ pleɪ ˈsæksəfəʊn",
+        "Meaning": "Tôi chơi Saxophone"
+    },
+    {
+        "Words": "I play Violin",
+        "IPA": "aɪ pleɪ ˌvaɪəˈlɪn",
+        "Meaning": "Tôi chơi Violin"
+    },
+    {
+        "Words": "I play Flute",
+        "IPA": "aɪ pleɪ fluːt",
+        "Meaning": "Tôi chơi sáo"
+    },
+    {
+        "Words": "I play Drums",
+        "IPA": "aɪ pleɪ drʌmz",
+        "Meaning": "Tôi chơi những cái trống"
+    },
+    {
+        "Words": "I play Cello",
+        "IPA": "aɪ pleɪ ˈʧɛləʊ",
+        "Meaning": "Tôi chơi Cello"
+    },
+    {
+        "Words": "I play Clarinet",
+        "IPA": "aɪ pleɪ ˌklærɪˈnɛt",
+        "Meaning": "Tôi chơi Clarinet"
+    },
+    {
+        "Words": "I play Harp",
+        "IPA": "aɪ pleɪ hɑːp",
+        "Meaning": "Tôi chơi đàn hạc"
+    },
+    {
+        "Words": "I play Harmonica",
+        "IPA": "aɪ pleɪ hɑːˈmɒnɪkə",
+        "Meaning": "Tôi chơi Harmonica"
+    },
+    {
+        "Words": "I play Organ",
+        "IPA": "aɪ pleɪ ˈɔːgən",
+        "Meaning": "Tôi chơi đàn Organ"
+    },
+    {
+        "Words": "I play Ukulele",
+        "IPA": "aɪ pleɪ ˌjuːkəˈleɪli",
+        "Meaning": "Tôi chơi đàn ukulele"
+    },
+    {
+        "Words": "I play Xylophone",
+        "IPA": "aɪ pleɪ ˈzaɪləfəʊn",
+        "Meaning": "Tôi chơi Xylophone"
+    },
+    {
+        "Words": "I play Tuba",
+        "IPA": "aɪ pleɪ ˈtjuːbə",
+        "Meaning": "Tôi chơi Tuba"
+    },
+    {
+        "Words": "I play Tambourine",
+        "IPA": "aɪ pleɪ ˌtæmbəˈriːn",
+        "Meaning": "Tôi chơi Tambourine"
+    },
+    {
+        "Words": "I play Banjo",
+        "IPA": "aɪ pleɪ ˈbænʤəʊ",
+        "Meaning": "Tôi chơi Banjo"
+    },
+    {
+        "Words": "I play Trumpet",
+        "IPA": "aɪ pleɪ ˈtrʌmpɪt",
+        "Meaning": "Tôi chơi Trumpet"
+    },
+    {
+        "Words": "I play Electronic guitar",
+        "IPA": "aɪ pleɪ ɪlɛkˈtrɒnɪk gɪˈtɑː",
+        "Meaning": "Tôi chơi guitar điện tử"
+    },
+    {
+        "Words": "I play Bagpipes",
+        "IPA": "aɪ pleɪ ˈbægpaɪps",
+        "Meaning": "Tôi chơi Bagpipes"
+    },
+    {
+        "Words": "I play Classical guitar",
+        "IPA": "aɪ pleɪ ˈklæsɪkəl gɪˈtɑː",
+        "Meaning": "Tôi chơi guitar cổ điển"
+    },
+    {
+        "Words": "I play Violin",
+        "IPA": "aɪ pleɪ ˌvaɪəˈlɪn",
+        "Meaning": "Tôi chơi Violin"
+    },
+    {
+        "Words": "I play Accordion",
+        "IPA": "aɪ pleɪ əˈkɔːdiən",
+        "Meaning": "Tôi chơi Accordion"
+    },
+    {
+        "Words": "I play Tuba",
+        "IPA": "aɪ pleɪ ˈtjuːbə",
+        "Meaning": "Tôi chơi Tuba"
+    },
+    {
+        "Words": "I play Tambourine",
+        "IPA": "aɪ pleɪ ˌtæmbəˈriːn",
+        "Meaning": "Tôi chơi Tambourine"
+    },
+    {
+        "Words": "I play Banjo",
+        "IPA": "aɪ pleɪ ˈbænʤəʊ",
+        "Meaning": "Tôi chơi Banjo"
+    },
+    {
+        "Words": "I play Trumpet",
+        "IPA": "aɪ pleɪ ˈtrʌmpɪt",
+        "Meaning": "Tôi chơi Trumpet"
+    },
+    {
+        "Words": "I play Electronic guitar",
+        "IPA": "aɪ pleɪ ɪlɛkˈtrɒnɪk gɪˈtɑː",
+        "Meaning": "Tôi chơi guitar điện tử"
+    },
+    {
+        "Words": "I play Bagpipes",
+        "IPA": "aɪ pleɪ ˈbægpaɪps",
+        "Meaning": "Tôi chơi Bagpipes"
+    },
+    {
+        "Words": "I play Classical guitar",
+        "IPA": "aɪ pleɪ ˈklæsɪkəl gɪˈtɑː",
+        "Meaning": "Tôi chơi guitar cổ điển"
+    },
+    {
+        "Words": "I play Violin",
+        "IPA": "aɪ pleɪ ˌvaɪəˈlɪn",
+        "Meaning": "Tôi chơi Violin"
+    },
+    {
+        "Words": "I used to exchange some money",
+        "IPA": "aɪ juːzd tuː ɪksˈʧeɪnʤ sʌm ˈmʌni",
+        "Meaning": "Tôi đã từng đổi một số tiền"
+    },
+    {
+        "Words": "I used to open an account",
+        "IPA": "aɪ juːzd tuː ˈəʊpən ən əˈkaʊnt",
+        "Meaning": "Tôi đã từng mở một tài khoản"
+    },
+    {
+        "Words": "I used to close my bank account",
+        "IPA": "aɪ juːzd tuː kləʊs maɪ bæŋk əˈkaʊnt",
+        "Meaning": "Tôi đã từng đóng tài khoản ngân hàng của mình"
+    },
+    {
+        "Words": "I used to send some money",
+        "IPA": "aɪ juːzd tuː sɛnd sʌm ˈmʌni",
+        "Meaning": "Tôi đã từng gửi một số tiền"
+    },
+    {
+        "Words": "I used to exchange the password of my account",
+        "IPA": "aɪ juːzd tuː ɪksˈʧeɪnʤ ðə ˈpɑːswɜːd ɒv maɪ əˈkaʊnt",
+        "Meaning": "Tôi đã sử dụng để trao đổi mật khẩu của tài khoản của mình"
+    },
+    {
+        "Words": "I used to withdraw money from my account",
+        "IPA": "aɪ juːzd tuː wɪðˈdrɔː ˈmʌni frɒm maɪ əˈkaʊnt",
+        "Meaning": "Tôi đã từng rút tiền từ tài khoản của mình"
+    },
+    {
+        "Words": "I used to transfer some money from my savings account",
+        "IPA": "aɪ juːzd tuː ˈtrænsfə(ː) sʌm ˈmʌni frɒm maɪ ˈseɪvɪŋz əˈkaʊnt",
+        "Meaning": "Tôi đã từng chuyển một số tiền từ tài khoản tiết kiệm của mình"
+    },
+    {
+        "Words": "I used to make a deposit",
+        "IPA": "aɪ juːzd tuː meɪk ə dɪˈpɒzɪt",
+        "Meaning": "Tôi đã từng đặt cọc"
+    },
+    {
+        "Words": "I used to check and take over",
+        "IPA": "aɪ juːzd tuː ʧɛk ænd teɪk ˈəʊvə",
+        "Meaning": "Tôi đã từng kiểm tra và tiếp quản"
+    },
+    {
+        "Words": "I used to receive my passbook",
+        "IPA": "aɪ juːzd tuː rɪˈsiːv maɪ ˈpɑːsbʊk",
+        "Meaning": "Tôi đã từng nhận được sổ tiết kiệm của mình"
+    },
+    {
+        "Words": "I used to check my password",
+        "IPA": "aɪ juːzd tuː ʧɛk maɪ ˈpɑːswɜːd",
+        "Meaning": "Tôi đã từng kiểm tra mật khẩu của mình"
+    },
+    {
+        "Words": "I used to receive a statement",
+        "IPA": "aɪ juːzd tuː rɪˈsiːv ə ˈsteɪtmənt",
+        "Meaning": "Tôi đã từng nhận được một tuyên bố"
+    },
+    {
+        "Words": "I used to make a withdrawal",
+        "IPA": "aɪ juːzd tuː meɪk ə wɪðˈdrɔːəl",
+        "Meaning": "Tôi đã từng rút tiền"
+    },
+    {
+        "Words": "I used to take out a loan",
+        "IPA": "aɪ juːzd tuː teɪk aʊt ə ləʊn",
+        "Meaning": "Tôi đã từng đi vay"
+    },
+    {
+        "Words": "I used to deposit a cheque",
+        "IPA": "aɪ juːzd tuː dɪˈpɒzɪt ə ʧɛk",
+        "Meaning": "Tôi đã từng gửi séc"
+    },
+    {
+        "Words": "I used to cash a cheque",
+        "IPA": "aɪ juːzd tuː kæʃ ə ʧɛk",
+        "Meaning": "Tôi đã từng dùng séc rút tiền"
+    },
+    {
+        "Words": "I used to write a cheque",
+        "IPA": "aɪ juːzd tuː raɪt ə ʧɛk",
+        "Meaning": "Tôi đã từng viết séc"
+    },
+    {
+        "Words": "I used to apply for a credit card",
+        "IPA": "aɪ juːzd tuː əˈplaɪ fɔːr ə ˈkrɛdɪt kɑːd",
+        "Meaning": "Tôi đã từng đăng ký một thẻ tín dụng"
+    },
+    {
+        "Words": "I used to pay bills",
+        "IPA": "aɪ juːzd tuː peɪ bɪlz",
+        "Meaning": "Tôi đã từng thanh toán các hóa đơn"
+    },
+    {
+        "Words": "I used to open a current account",
+        "IPA": "aɪ juːzd tuː ˈəʊpən ə ˈkʌrənt əˈkaʊnt",
+        "Meaning": "Tôi đã từng mở một tài khoản hiện tại"
+    },
+    {
+        "Words": "I used to know my balance",
+        "IPA": "aɪ juːzd tuː nəʊ maɪ ˈbæləns",
+        "Meaning": "Tôi đã từng biết số dư của mình"
+    },
+    {
+        "Words": "I used to know the monthly interest rate",
+        "IPA": "aɪ juːzd tuː nəʊ ðə ˈmʌnθli ˈɪntrɪst reɪt",
+        "Meaning": "Tôi đã từng biết lãi suất hàng tháng"
+    },
+    {
+        "Words": "I used to activate the Internet banking service",
+        "IPA": "aɪ juːzd tuː ˈæktɪveɪt ði ˈɪntəˌnɛt ˈbæŋkɪŋ ˈsɜːvɪs",
+        "Meaning": "Tôi đã sử dụng để kích hoạt dịch vụ ngân hàng trực tuyến"
+    },
+    {
+        "Words": "I used to pay tax",
+        "IPA": "aɪ juːzd tuː peɪ tæks",
+        "Meaning": "Tôi đã từng phải trả thuế"
+    },
+    {
+        "Words": "I used to buy insurance",
+        "IPA": "aɪ juːzd tuː baɪ ɪnˈʃʊərəns",
+        "Meaning": "Tôi đã từng mua bảo hiểm"
+    },
+    {
+        "Words": "I used to save money in my account",
+        "IPA": "aɪ juːzd tuː seɪv ˈmʌni ɪn maɪ əˈkaʊnt",
+        "Meaning": "Tôi đã từng tiết kiệm tiền trong tài khoản của mình"
+    },
+    {
+        "Words": "I used to pay insurance premiums",
+        "IPA": "aɪ juːzd tuː peɪ ɪnˈʃʊərəns ˈpriːmiəmz",
+        "Meaning": "Tôi đã từng trả tiền bảo hiểm"
+    },
+    {
+        "Words": "I used to exchange foreign currency",
+        "IPA": "aɪ juːzd tuː ɪksˈʧeɪnʤ ˈfɒrɪn ˈkʌrənsi",
+        "Meaning": "Tôi đã từng đổi ngoại tệ"
+    },
+    {
+        "Words": "I used to pay insurance premiums",
+        "IPA": "aɪ juːzd tuː peɪ ɪnˈʃʊərəns ˈpriːmiəmz",
+        "Meaning": "Tôi đã từng trả tiền bảo hiểm"
+    },
+    {
+        "Words": "I used to exchange foreign currency",
+        "IPA": "aɪ juːzd tuː ɪksˈʧeɪnʤ ˈfɒrɪn ˈkʌrənsi",
+        "Meaning": "Tôi đã từng đổi ngoại tệ"
+    },
+    {
+        "Words": "I want to be a nurse",
+        "IPA": "aɪ wɒnt tuː biː ə nɜːs",
+        "Meaning": "tôi muốn trở thành một y tá"
+    },
+    {
+        "Words": "I want to be a doctor",
+        "IPA": "aɪ wɒnt tuː biː ə ˈdɒktə",
+        "Meaning": "tôi muốn trở thành bác sĩ"
+    },
+    {
+        "Words": "I want to be a driver",
+        "IPA": "aɪ wɒnt tuː biː ə ˈdraɪvə",
+        "Meaning": "Tôi muốn trở thành một người lái xe"
+    },
+    {
+        "Words": "I want to be a farmer",
+        "IPA": "aɪ wɒnt tuː biː ə ˈfɑːmə",
+        "Meaning": "Tôi muốn trở thành một nông dân"
+    },
+    {
+        "Words": "I want to be a dentist",
+        "IPA": "aɪ wɒnt tuː biː ə ˈdɛntɪst",
+        "Meaning": "Tôi muốn trở thành một nha sĩ"
+    },
+    {
+        "Words": "I want to be a dance",
+        "IPA": "aɪ wɒnt tuː biː ə dɑːns",
+        "Meaning": "Tôi muốn trở thành một vũ công"
+    },
+    {
+        "Words": "I want to be an electrician",
+        "IPA": "aɪ wɒnt tuː biː ən ɪlɛkˈtrɪʃən",
+        "Meaning": "Tôi muốn trở thành một thợ điện"
+    },
+    {
+        "Words": "I want to be an engineer",
+        "IPA": "aɪ wɒnt tuː biː ən ˌɛnʤɪˈnɪə",
+        "Meaning": "tôi muốn trở thành kỹ sư"
+    },
+    {
+        "Words": "I want to be a lawyer",
+        "IPA": "aɪ wɒnt tuː biː ə ˈlɔːjə",
+        "Meaning": "Tôi muốn trở thành một luật sư"
+    },
+    {
+        "Words": "I want to be a manager",
+        "IPA": "aɪ wɒnt tuː biː ə ˈmænɪʤə",
+        "Meaning": "Tôi muốn trở thành một nhà quản lý"
+    },
+    {
+        "Words": "I want to be a model",
+        "IPA": "aɪ wɒnt tuː biː ə ˈmɒdl",
+        "Meaning": "Tôi muốn trở thành một người mẫu"
+    },
+    {
+        "Words": "I want to be a musician",
+        "IPA": "aɪ wɒnt tuː biː ə mju(ː)ˈzɪʃən",
+        "Meaning": "tôi muốn trở thành một nhạc sĩ"
+    },
+    {
+        "Words": "I want to be a pharmacist",
+        "IPA": "aɪ wɒnt tuː biː ə ˈfɑːməsɪst",
+        "Meaning": "Tôi muốn trở thành một dược sĩ"
+    },
+    {
+        "Words": "I want to be a worker",
+        "IPA": "aɪ wɒnt tuː biː ə ˈwɜːkə",
+        "Meaning": "Tôi muốn trở thành một công nhân"
+    },
+    {
+        "Words": "I want to be a singer",
+        "IPA": "aɪ wɒnt tuː biː ə ˈsɪŋə",
+        "Meaning": "tôi muốn trở thành ca sĩ"
+    },
+    {
+        "Words": "I want to be a writer",
+        "IPA": "aɪ wɒnt tuː biː ə ˈraɪtə",
+        "Meaning": "tôi muốn trở thành một nhà văn"
+    },
+    {
+        "Words": "I want to be a secretary",
+        "IPA": "aɪ wɒnt tuː biː ə ˈsɛkrətri",
+        "Meaning": "Tôi muốn trở thành thư ký"
+    },
+    {
+        "Words": "I want to be a tour guide",
+        "IPA": "aɪ wɒnt tuː biː ə tʊə gaɪd",
+        "Meaning": "Tôi muốn trở thành một hướng dẫn viên du lịch"
+    },
+    {
+        "Words": "I want to be a soldier",
+        "IPA": "aɪ wɒnt tuː biː ə ˈsəʊlʤə",
+        "Meaning": "Tôi muốn trở thành một người lính"
+    },
+    {
+        "Words": "I want to be a journalist",
+        "IPA": "aɪ wɒnt tuː biː ə ˈʤɜːnəlɪst",
+        "Meaning": "Tôi muốn trở thành một nhà báo"
+    },
+    {
+        "Words": "I want to be an editor",
+        "IPA": "aɪ wɒnt tuː biː ən ˈɛdɪtə",
+        "Meaning": "Tôi muốn trở thành một biên tập viên"
+    },
+    {
+        "Words": "I want to be a financial adviser",
+        "IPA": "aɪ wɒnt tuː biː ə faɪˈnænʃəl ədˈvaɪzə",
+        "Meaning": "Tôi muốn trở thành cố vấn tài chính"
+    },
+    {
+        "Words": "I want to be a fireman",
+        "IPA": "aɪ wɒnt tuː biː ə ˈfaɪəmən",
+        "Meaning": "Tôi muốn trở thành một người lính cứu hỏa"
+    },
+    {
+        "Words": "I want to be a chef",
+        "IPA": "aɪ wɒnt tuː biː ə ʃɛf",
+        "Meaning": "Tôi muốn trở thành một đầu bếp"
+    },
+    {
+        "Words": "I want to be a bank clerk",
+        "IPA": "aɪ wɒnt tuː biː ə bæŋk klɑːk",
+        "Meaning": "Tôi muốn trở thành nhân viên ngân hàng"
+    },
+    {
+        "Words": "I want to be an accountant",
+        "IPA": "aɪ wɒnt tuː biː ən əˈkaʊntənt",
+        "Meaning": "Tôi muốn trở thành một kế toán"
+    },
+    {
+        "Words": "I want to be an architect",
+        "IPA": "aɪ wɒnt tuː biː ən ˈɑːkɪtɛkt",
+        "Meaning": "Tôi muốn trở thành một kiến trúc sư"
+    },
+    {
+        "Words": "I want to be an artist",
+        "IPA": "aɪ wɒnt tuː biː ən ˈɑːtɪst",
+        "Meaning": "Tôi muốn trở thành một nghệ sĩ"
+    },
+    {
+        "Words": "I want to be an astronaut",
+        "IPA": "aɪ wɒnt tuː biː ən ˈæstrənɔːt",
+        "Meaning": "Tôi muốn trở thành một phi hành gia"
+    },
+    {
+        "Words": "I want to be a baker",
+        "IPA": "aɪ wɒnt tuː biː ə ˈbeɪkə",
+        "Meaning": "Tôi muốn trở thành một thợ làm bánh"
+    },
+    {
+        "Words": "Yes, It is a plane from New Zealand to Laos",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː laʊs",
+        "Meaning": "Có, đó là một máy bay từ New Zealand đến Lào"
+    },
+    {
+        "Words": "Yes, It is a plane from America to China",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm əˈmɛrɪkə tuː ˈʧaɪnə",
+        "Meaning": "Có, đó là một chiếc máy bay từ Mỹ đến Trung Quốc"
+    },
+    {
+        "Words": "Yes, It is a plane from New Zealand to Singapore",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː ˌsɪŋgəˈpɔː",
+        "Meaning": "Có, đó là một máy bay từ New Zealand đến Singapore"
+    },
+    {
+        "Words": "Yes, It is a plane from New Zealand to France",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː ˈfrɑːns",
+        "Meaning": "Có, đó là một máy bay từ New Zealand đến Pháp"
+    },
+    {
+        "Words": "Yes, It is a plane from New Zealand to Thai Lan",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː taɪ læn",
+        "Meaning": "Có, Đó là một máy bay từ New Zealand đến Thái Lan"
+    },
+    {
+        "Words": "Yes, It is a plane from New Zealand to America",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː əˈmɛrɪkə",
+        "Meaning": "Có, đó là máy bay từ New Zealand đến Mỹ"
+    },
+    {
+        "Words": "Yes, It is a plane fromNew Zealand to Japan",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn fromNew ˈziːlənd tuː ʤəˈpæn",
+        "Meaning": "Có, đó là một máy bay từ New Zealand đến Nhật Bản"
+    },
+    {
+        "Words": "Yes, It is a plane from New Zealand to Russia",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː ˈrʌʃə",
+        "Meaning": "Có, đó là một máy bay từ New Zealand đến Nga"
+    },
+    {
+        "Words": "Yes, It is a plane from New Zealand to Australia",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː ɒˈstreɪliːə",
+        "Meaning": "Có, đó là một máy bay từ New Zealand đến Úc"
+    },
+    {
+        "Words": "Yes, It is a plane from New Zealand to Sweden",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː ˈswɪdən",
+        "Meaning": "Có, đó là một máy bay từ New Zealand đến Thụy Điển"
+    },
+    {
+        "Words": "Yes, It is a plane from New Zealand to Turkey",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː ˈtɜːki",
+        "Meaning": "Có, đó là một máy bay từ New Zealand đến Thổ Nhĩ Kỳ"
+    },
+    {
+        "Words": "Yes, It is a plane from New Zealand to Germany",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː ˈʤɜːməni",
+        "Meaning": "Có, đó là một máy bay từ New Zealand đến Đức"
+    },
+    {
+        "Words": "Yes, It is a plane from New Zealand to Mexico",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː ˈmɛksɪkəʊ",
+        "Meaning": "Có, đó là một máy bay từ New Zealand đến Mexico"
+    },
+    {
+        "Words": "Yes, It is a plane from New Zealand to Brazil",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː brəˈzɪl",
+        "Meaning": "Có, đó là một máy bay từ New Zealand đến Brazil"
+    },
+    {
+        "Words": "Yes, It is a plane from New Zealand to Korea",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː kəˈrɪə",
+        "Meaning": "Có, đó là một máy bay từ New Zealand đến Hàn Quốc"
+    },
+    {
+        "Words": "Yes, It is a plane from New Zealand to Italy",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː ˈɪtəli",
+        "Meaning": "Có, đó là một máy bay từ New Zealand đến Ý"
+    },
+    {
+        "Words": "Yes, It is a plane from New Zealand to Poland",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː ˈpəʊlənd",
+        "Meaning": "Có, đó là một máy bay từ New Zealand đến Ba Lan"
+    },
+    {
+        "Words": "Yes, It is a plane from New Zealand to Vietnam",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː ˌvjɛtˈnɑːm",
+        "Meaning": "Có, Đó là một máy bay từ New Zealand đến Việt Nam"
+    },
+    {
+        "Words": "Yes, It is a plane from New Zealand to Switzerland",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː ˈswɪtsələnd",
+        "Meaning": "Có, đó là một máy bay từ New Zealand đến Thụy Sĩ"
+    },
+    {
+        "Words": "Yes, It is a plane from New Zealand Denmark",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd ˈdɛnmɑːk",
+        "Meaning": "Có, đó là một máy bay từ New Zealand Đan Mạch"
+    },
+    {
+        "Words": "Yes, It is a plane from New Zealand to Spain",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː speɪn",
+        "Meaning": "Có, đó là một máy bay từ New Zealand đến Tây Ban Nha"
+    },
+    {
+        "Words": "Yes, It is a plane from France to Thai Lan",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm ˈfrɑːns tuː taɪ læn",
+        "Meaning": "Có, Đó là một máy bay từ Pháp đến Thái Lan"
+    },
+    {
+        "Words": "Yes, It is a plane from France to Australia",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm ˈfrɑːns tuː ɒˈstreɪliːə",
+        "Meaning": "Có, đó là một máy bay từ Pháp đến Úc"
+    },
+    {
+        "Words": "Yes, It is a plane from France to Vietnam",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm ˈfrɑːns tuː ˌvjɛtˈnɑːm",
+        "Meaning": "Có, đó là máy bay từ Pháp đến Việt Nam"
+    },
+    {
+        "Words": "Yes, It is a plane from France to Germany",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm ˈfrɑːns tuː ˈʤɜːməni",
+        "Meaning": "Có, đó là máy bay từ Pháp đến Đức"
+    },
+    {
+        "Words": "Yes, It is a plane from France to Poland",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm ˈfrɑːns tuː ˈpəʊlənd",
+        "Meaning": "Có, đó là một máy bay từ Pháp đến Ba Lan"
+    },
+    {
+        "Words": "Yes, It is a plane from France to America",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm ˈfrɑːns tuː əˈmɛrɪkə",
+        "Meaning": "Có, đó là máy bay từ Pháp đến Mỹ"
+    },
+    {
+        "Words": "Yes, It is a plane from France to England",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm ˈfrɑːns tuː ˈɪŋglənd",
+        "Meaning": "Có, đó là một chiếc máy bay từ Pháp đến Anh"
+    },
+    {
+        "Words": "Yes, It is a plane from France to Singapore",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm ˈfrɑːns tuː ˌsɪŋgəˈpɔː",
+        "Meaning": "Có, đó là một máy bay từ Pháp đến Singapore"
+    },
+    {
+        "Words": "Yes, It is a plane from France to Sweden",
+        "IPA": "jɛs, ɪt ɪz ə pleɪn frɒm ˈfrɑːns tuː ˈswɪdən",
+        "Meaning": "Có, đó là một máy bay từ Pháp đến Thụy Điển"
+    },
+    {
+        "Words": "It's 10th December 2022",
+        "IPA": "ɪts 10th dɪˈsɛmbə 2022",
+        "Meaning": "Đó là ngày 10 tháng 12 năm 2022"
+    },
+    {
+        "Words": "It's 12th December 2022",
+        "IPA": "ɪts 12th dɪˈsɛmbə 2022",
+        "Meaning": "Đó là ngày 12 tháng 12 năm 2022"
+    },
+    {
+        "Words": "It's 5th June 2022",
+        "IPA": "ɪts 5th ʤuːn 2022",
+        "Meaning": "Đó là ngày 5 tháng 6 năm 2022"
+    },
+    {
+        "Words": "It's 30th July 2022",
+        "IPA": "ɪts 30th ʤu(ː)ˈlaɪ 2022",
+        "Meaning": "Đó là ngày 30 tháng 7 năm 2022"
+    },
+    {
+        "Words": "It's 10th November 2022",
+        "IPA": "ɪts 10th nəʊˈvɛmbə 2022",
+        "Meaning": "Đó là ngày 10 tháng 11 năm 2022"
+    },
+    {
+        "Words": "It's 6th December 2022",
+        "IPA": "ɪts 6th dɪˈsɛmbə 2022",
+        "Meaning": "Đó là ngày 6 tháng 12 năm 2022"
+    },
+    {
+        "Words": "It's 1st December 2022",
+        "IPA": "ɪts 1st dɪˈsɛmbə 2022",
+        "Meaning": "Đó là ngày 1 tháng 12 năm 2022"
+    },
+    {
+        "Words": "It's 10th September 2022",
+        "IPA": "ɪts 10th sɛpˈtɛmbə 2022",
+        "Meaning": "Đó là ngày 10 tháng 9 năm 2022"
+    },
+    {
+        "Words": "It's 2nd, November 2022",
+        "IPA": "ɪts 2nd, nəʊˈvɛmbə 2022",
+        "Meaning": "Đó là ngày 2 tháng 11 năm 2022"
+    },
+    {
+        "Words": "It's 15th January 2022",
+        "IPA": "ɪts 15th ˈʤænjʊəri 2022",
+        "Meaning": "Đó là ngày 15 tháng 1 năm 2022"
+    },
+    {
+        "Words": "It's 20th May 2021",
+        "IPA": "ɪts 20th meɪ 2021",
+        "Meaning": "Đó là ngày 20 tháng 5 năm 2021"
+    },
+    {
+        "Words": "It's 7th July 2021",
+        "IPA": "ɪts 7th ʤu(ː)ˈlaɪ 2021",
+        "Meaning": "Đó là ngày 7 tháng 7 năm 2021"
+    },
+    {
+        "Words": "It's 14th October 2021",
+        "IPA": "ɪts 14th ɒkˈtəʊbə 2021",
+        "Meaning": "Đó là ngày 14 tháng 10 năm 2021"
+    },
+    {
+        "Words": "It's 19th March 2029",
+        "IPA": "ɪts 19th mɑːʧ 2029",
+        "Meaning": "Đó là ngày 19 tháng 3 năm 2029"
+    },
+    {
+        "Words": "It's 6th December 2021",
+        "IPA": "ɪts 6th dɪˈsɛmbə 2021",
+        "Meaning": "Đó là ngày 6 tháng 12 năm 2021"
+    },
+    {
+        "Words": "It's 31st May 2019",
+        "IPA": "ɪts 31st meɪ 2019",
+        "Meaning": "Đó là ngày 31 tháng 5 năm 2019"
+    },
+    {
+        "Words": "It's 22nd August 2022",
+        "IPA": "ɪts 22nd ˈɔːgəst 2022",
+        "Meaning": "Đó là ngày 22 tháng 8 năm 2022"
+    },
+    {
+        "Words": "It's 5th December 2019",
+        "IPA": "ɪts 5th dɪˈsɛmbə 2019",
+        "Meaning": "Đó là ngày 5 tháng 12 năm 2019"
+    },
+    {
+        "Words": "It's 19th October 2018",
+        "IPA": "ɪts 19th ɒkˈtəʊbə 2018",
+        "Meaning": "Đó là ngày 19 tháng 10 năm 2018"
+    },
+    {
+        "Words": "It's 21st March 2021",
+        "IPA": "ɪts 21st mɑːʧ 2021",
+        "Meaning": "Đó là ngày 21 tháng 3 năm 2021"
+    },
+    {
+        "Words": "It's 30th April 2022",
+        "IPA": "ɪts 30th ˈeɪprəl 2022",
+        "Meaning": "Đó là ngày 30 tháng 4 năm 2022"
+    },
+    {
+        "Words": "It's 17th April 2022",
+        "IPA": "ɪts 17th ˈeɪprəl 2022",
+        "Meaning": "Đó là ngày 17 tháng 4 năm 2022"
+    },
+    {
+        "Words": "It's 14th February 2023",
+        "IPA": "ɪts 14th ˈfɛbrʊəri 2023",
+        "Meaning": "Đó là ngày 14 tháng 2 năm 2023"
+    },
+    {
+        "Words": "It's 18th Ma, 2021",
+        "IPA": "ɪts 18th mɑː, 2021",
+        "Meaning": "Đó là ngày 18 tháng Ma, năm 2021"
+    },
+    {
+        "Words": "It's 29th April 2022",
+        "IPA": "ɪts 29th ˈeɪprəl 2022",
+        "Meaning": "Đó là ngày 29 tháng 4 năm 2022"
+    },
+    {
+        "Words": "It's 12th January 2021",
+        "IPA": "ɪts 12th ˈʤænjʊəri 2021",
+        "Meaning": "Đó là ngày 12 tháng 1 năm 2021"
+    },
+    {
+        "Words": "It's 17th April 2018",
+        "IPA": "ɪts 17th ˈeɪprəl 2018",
+        "Meaning": "Đó là ngày 17 tháng 4 năm 2018"
+    },
+    {
+        "Words": "It's 12th November 2020",
+        "IPA": "ɪts 12th nəʊˈvɛmbə 2020",
+        "Meaning": "Đó là ngày 12 tháng 11 năm 2020"
+    },
+    {
+        "Words": "It's 14th October 2023",
+        "IPA": "ɪts 14th ɒkˈtəʊbə 2023",
+        "Meaning": "Đó là ngày 14 tháng 10 năm 2023"
+    },
+    {
+        "Words": "It's 29th May 2019",
+        "IPA": "ɪts 29th meɪ 2019",
+        "Meaning": "Đó là ngày 29 tháng 5 năm 2019"
+    },
+    {
+        "Words": "I have had malaria 2 years ago.",
+        "IPA": "aɪ hæv hæd məˈleərɪə 2 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi bị sốt rét cách đây 2 năm."
+    },
+    {
+        "Words": "I have had a headache 3 years ago.",
+        "IPA": "aɪ hæv hæd ə ˈhɛdeɪk 3 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi đã bị đau đầu cách đây 3 năm."
+    },
+    {
+        "Words": "I have had a mild fever 4 years ago.",
+        "IPA": "aɪ hæv hæd ə maɪld ˈfiːvə 4 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi bị sốt nhẹ cách đây 4 năm."
+    },
+    {
+        "Words": "I had sick 2 years ago.",
+        "IPA": "aɪ hæd sɪk 2 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi bị bệnh cách đây 2 năm."
+    },
+    {
+        "Words": "I have had a joint ache 3 years ago.",
+        "IPA": "aɪ hæv hæd ə ʤɔɪnt eɪk 3 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi bị đau khớp cách đây 3 năm."
+    },
+    {
+        "Words": "I have had diarrhea 4 years ago.",
+        "IPA": "aɪ hæv hæd ˌdaɪəˈrɪə 4 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi bị tiêu chảy cách đây 4 năm."
+    },
+    {
+        "Words": "I have had constipation 2 years ago.",
+        "IPA": "aɪ hæv hæd ˌkɒnstɪˈpeɪʃən 2 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi bị táo bón cách đây 2 năm."
+    },
+    {
+        "Words": "I have had swollen feet 3 years ago.",
+        "IPA": "aɪ hæv hæd ˈswəʊlən fiːt 3 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi đã bị sưng bàn chân cách đây 3 năm."
+    },
+    {
+        "Words": "I have had swollen the ankle 4 years ago.",
+        "IPA": "aɪ hæv hæd ˈswəʊlən ði ˈæŋkl 4 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi đã bị sưng mắt cá chân cách đây 4 năm."
+    },
+    {
+        "Words": "I had difficulty breathing 2 years ago.",
+        "IPA": "aɪ hæd ˈdɪfɪkəlti ˈbriːðɪŋ 2 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi bị khó thở cách đây 2 năm."
+    },
+    {
+        "Words": "I have had depression 3 years ago.",
+        "IPA": "aɪ hæv hæd dɪˈprɛʃən 3 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi bị trầm cảm cách đây 3 năm."
+    },
+    {
+        "Words": "I had difficulty sleeping 4 years ago.",
+        "IPA": "aɪ hæd ˈdɪfɪkəlti ˈsliːpɪŋ 4 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi khó ngủ cách đây 4 năm."
+    },
+    {
+        "Words": "I have had an allergy 2 years ago.",
+        "IPA": "aɪ hæv hæd ən ˈæləʤi 2 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi từng bị dị ứng cách đây 2 năm."
+    },
+    {
+        "Words": "I have had a stomachache 3 years ago.",
+        "IPA": "aɪ hæv hæd ə ˈstʌməkeɪk 3 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi bị đau dạ dày cách đây 3 năm."
+    },
+    {
+        "Words": "I have had the flu 4 years ago.",
+        "IPA": "aɪ hæv hæd ðə fluː 4 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi đã bị cúm cách đây 4 năm."
+    },
+    {
+        "Words": "I have had a small accident 2 years ago.",
+        "IPA": "aɪ hæv hæd ə smɔːl ˈæksɪdənt 2 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi đã bị một tai nạn nhỏ cách đây 2 năm."
+    },
+    {
+        "Words": "I have had a terrible headache 3 years ago.",
+        "IPA": "aɪ hæv hæd ə ˈtɛrəbl ˈhɛdeɪk 3 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi đã bị một cơn đau đầu khủng khiếp cách đây 3 năm."
+    },
+    {
+        "Words": "I have had a runny nose 4 years ago.",
+        "IPA": "aɪ hæv hæd ə ˈrʌni nəʊz 4 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi bị sổ mũi cách đây 4 năm."
+    },
+    {
+        "Words": "I have had a sore throat 2 years ago.",
+        "IPA": "aɪ hæv hæd ə sɔː θrəʊt 2 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi bị viêm họng cách đây 2 năm."
+    },
+    {
+        "Words": "I have had a toothache 3 years ago.",
+        "IPA": "aɪ hæv hæd ə ˈtuːθeɪk 3 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi bị đau răng cách đây 3 năm."
+    },
+    {
+        "Words": "I have had an earache 4 years ago.",
+        "IPA": "aɪ hæv hæd ən ˈɪəreɪk 4 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi đã bị đau tai cách đây 4 năm."
+    },
+    {
+        "Words": "I have had a cold 2 years ago.",
+        "IPA": "aɪ hæv hæd ə kəʊld 2 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi bị cảm cách đây 2 năm."
+    },
+    {
+        "Words": "I have had a backache 3 years ago.",
+        "IPA": "aɪ hæv hæd ə ˈbækeɪk 3 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi đã bị đau lưng cách đây 3 năm."
+    },
+    {
+        "Words": "I have had run down 4 years ago.",
+        "IPA": "aɪ hæv hæd rʌn daʊn 4 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi đã chạy xuống 4 năm trước."
+    },
+    {
+        "Words": "I have had an illness 2 years ago.",
+        "IPA": "aɪ hæv hæd ən ˈɪlnɪs 2 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi bị bệnh cách đây 2 năm."
+    },
+    {
+        "Words": "I have had insomnia 3 years ago.",
+        "IPA": "aɪ hæv hæd ɪnˈsɒmnɪə 3 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi bị mất ngủ cách đây 3 năm."
+    },
+    {
+        "Words": "I have had a sprain 4 years ago.",
+        "IPA": "aɪ hæv hæd ə spreɪn 4 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi đã bị bong gân cách đây 4 năm."
+    },
+    {
+        "Words": "I have had a cough 2 years ago.",
+        "IPA": "aɪ hæv hæd ə kɒf 2 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi bị ho cách đây 2 năm."
+    },
+    {
+        "Words": "I have had anorexia 3 years ago.",
+        "IPA": "aɪ hæv hæd ˌænəˈrɛksɪə 3 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi mắc chứng biếng ăn cách đây 3 năm."
+    },
+    {
+        "Words": "I have had tired 4 years ago.",
+        "IPA": "aɪ hæv hæd ˈtaɪəd 4 jɪəz əˈgəʊ.",
+        "Meaning": "Tôi đã từng mệt mỏi 4 năm trước."
+    },
+    {
+        "Words": "My friend has just been sick for 2 weeks.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk fɔː 2 wiːks.",
+        "Meaning": "Bạn tôi mới ốm được 2 tuần."
+    },
+    {
+        "Words": "My friend has just been sick for 2 days.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk fɔː 2 deɪz.",
+        "Meaning": "Bạn tôi mới ốm được 2 ngày."
+    },
+    {
+        "Words": "My friend has just been sick just yesterday.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk ʤʌst ˈjɛstədeɪ.",
+        "Meaning": "Bạn tôi vừa bị ốm hôm qua."
+    },
+    {
+        "Words": "My friend has just been sick for 3 days.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk fɔː 3 deɪz.",
+        "Meaning": "Bạn tôi mới ốm được 3 ngày."
+    },
+    {
+        "Words": "My friend has just been sick for 4 days",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk fɔː 4 deɪz",
+        "Meaning": "Bạn tôi mới ốm được 4 ngày."
+    },
+    {
+        "Words": "My friend has just been sick for a week.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk fɔːr ə wiːk.",
+        "Meaning": "Bạn tôi vừa ốm được một tuần."
+    },
+    {
+        "Words": "My friend has just been sick yesterday morning.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk ˈjɛstədeɪ ˈmɔːnɪŋ.",
+        "Meaning": "Bạn tôi vừa bị ốm sáng hôm qua."
+    },
+    {
+        "Words": "My friend has just been sick last Sunday.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk lɑːst ˈsʌndeɪ.",
+        "Meaning": "Bạn tôi vừa bị ốm vào Chủ nhật tuần trước."
+    },
+    {
+        "Words": "My friend has just been sick last Monday.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk lɑːst ˈmʌndeɪ.",
+        "Meaning": "Bạn tôi vừa bị ốm thứ hai tuần trước."
+    },
+    {
+        "Words": "My friend has just been sick last Tuesday.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk lɑːst ˈtjuːzdeɪ.",
+        "Meaning": "Bạn tôi vừa bị ốm thứ ba tuần trước."
+    },
+    {
+        "Words": "My friend has just been sick last Wednesday.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk lɑːst ˈwɛnzdeɪ.",
+        "Meaning": "Bạn tôi vừa bị ốm hôm thứ Tư tuần trước."
+    },
+    {
+        "Words": "My friend has just been sick last Thursday.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk lɑːst ˈθɜːzdeɪ.",
+        "Meaning": "Bạn tôi vừa bị ốm hôm thứ Năm tuần trước."
+    },
+    {
+        "Words": "My friend has just been sick last Friday.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk lɑːst ˈfraɪdeɪ.",
+        "Meaning": "Bạn tôi vừa bị ốm thứ sáu tuần trước."
+    },
+    {
+        "Words": "My friend has just been sick last Saturday.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk lɑːst ˈsætədeɪ.",
+        "Meaning": "Bạn tôi vừa bị ốm thứ bảy tuần trước."
+    },
+    {
+        "Words": "My friend has just been sick yesterday afternoon.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk ˈjɛstədeɪ ˈɑːftəˈnuːn.",
+        "Meaning": "Bạn tôi vừa bị ốm chiều qua."
+    },
+    {
+        "Words": "My friend has just been sick yesterday evening.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk ˈjɛstədeɪ ˈiːvnɪŋ.",
+        "Meaning": "Bạn tôi vừa bị ốm tối hôm qua."
+    },
+    {
+        "Words": "My friend has just been sick this morning.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk ðɪs ˈmɔːnɪŋ.",
+        "Meaning": "Bạn tôi vừa bị ốm sáng nay."
+    },
+    {
+        "Words": "My friend has just been sick for a few days.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk fɔːr ə fjuː deɪz.",
+        "Meaning": "Bạn tôi mới ốm được vài ngày."
+    },
+    {
+        "Words": "My friend has just been sick for 10 days.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk fɔː 10 deɪz.",
+        "Meaning": "Bạn tôi vừa ốm được 10 ngày."
+    },
+    {
+        "Words": "My friend has just been sick for 3 weeks.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk fɔː 3 wiːks.",
+        "Meaning": "Bạn tôi mới ốm được 3 tuần."
+    },
+    {
+        "Words": "My friend has just been sick for a month.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk fɔːr ə mʌnθ.",
+        "Meaning": "Bạn tôi vừa ốm được một tháng."
+    },
+    {
+        "Words": "My friend has just been sick for 6 days.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk fɔː 6 deɪz.",
+        "Meaning": "Bạn tôi vừa ốm được 6 ngày."
+    },
+    {
+        "Words": "My friend has just been sick for half a month.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk fɔː hɑːf ə mʌnθ.",
+        "Meaning": "Bạn tôi mới ốm được nửa tháng."
+    },
+    {
+        "Words": "My friend has just been sick since 9 PM last night.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk sɪns 9 piː-ɛm lɑːst naɪt.",
+        "Meaning": "Bạn tôi vừa bị ốm từ 9 giờ tối qua."
+    },
+    {
+        "Words": "My friend has just been sick since 4 AM this morning.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk sɪns 4 æm ðɪs ˈmɔːnɪŋ.",
+        "Meaning": "Bạn tôi vừa bị ốm từ 4 giờ sáng nay."
+    },
+    {
+        "Words": "My friend has just been sick since He had to drink antibiotics",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk sɪns hiː hæd tuː drɪŋk ˌæntɪbaɪˈɒtɪks",
+        "Meaning": "Bạn tôi vừa bị ốm vì phải uống thuốc kháng sinh"
+    },
+    {
+        "Words": "My friend has just been sick since He got vaccinated.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk sɪns hiː gɒt ˈvæksɪneɪtɪd.",
+        "Meaning": "Bạn của tôi vừa mới bị ốm kể từ khi Anh ấy đi tiêm phòng."
+    },
+    {
+        "Words": "My friend has just been sick for 8 days.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk fɔː 8 deɪz.",
+        "Meaning": "Bạn tôi vừa ốm được 8 ngày."
+    },
+    {
+        "Words": "My friend has just been sick for 2 months.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk fɔː 2 mʌnθs.",
+        "Meaning": "Bạn tôi mới ốm dậy được 2 tháng."
+    },
+    {
+        "Words": "My friend has just been sick for 3 months.",
+        "IPA": "maɪ frɛnd hæz ʤʌst biːn sɪk fɔː 3 mʌnθs.",
+        "Meaning": "Bạn tôi mới ốm được 3 tháng."
+    },
+    {
+        "Words": "It must be a watch",
+        "IPA": "ɪt mʌst biː ə wɒʧ",
+        "Meaning": "Nó phải là một chiếc đồng hồ"
+    },
+    {
+        "Words": "It must be a radio",
+        "IPA": "ɪt mʌst biː ə ˈreɪdɪəʊ",
+        "Meaning": "Nó phải là một đài phát thanh"
+    },
+    {
+        "Words": "It must be a television",
+        "IPA": "ɪt mʌst biː ə ˈtɛlɪˌvɪʒən",
+        "Meaning": "Nó phải là một chiếc tivi"
+    },
+    {
+        "Words": "It must be a computer",
+        "IPA": "ɪt mʌst biː ə kəmˈpjuːtə",
+        "Meaning": "Nó phải là một máy tính"
+    },
+    {
+        "Words": "It must be a laptop",
+        "IPA": "ɪt mʌst biː ə ˈlæpˌtɒp",
+        "Meaning": "Nó phải là một máy tính xách tay"
+    },
+    {
+        "Words": "It must be a camera",
+        "IPA": "ɪt mʌst biː ə ˈkæmərə",
+        "Meaning": "Nó phải là một máy ảnh"
+    },
+    {
+        "Words": "It must be a phone",
+        "IPA": "ɪt mʌst biː ə fəʊn",
+        "Meaning": "Nó phải là một chiếc điện thoại"
+    },
+    {
+        "Words": "It must be a screen",
+        "IPA": "ɪt mʌst biː ə skriːn",
+        "Meaning": "Nó phải là một màn hình"
+    },
+    {
+        "Words": "It must be a keyboard",
+        "IPA": "ɪt mʌst biː ə ˈkiːbɔːd",
+        "Meaning": "Nó phải là một bàn phím"
+    },
+    {
+        "Words": "It must be a stove",
+        "IPA": "ɪt mʌst biː ə stəʊv",
+        "Meaning": "Nó phải là một cái bếp"
+    },
+    {
+        "Words": "It must be a gas cooker",
+        "IPA": "ɪt mʌst biː ə gæs ˈkʊkə",
+        "Meaning": "Nó phải là một cái bếp ga"
+    },
+    {
+        "Words": "It must be a dishwasher",
+        "IPA": "ɪt mʌst biː ə ˈdɪʃˌwɒʃə",
+        "Meaning": "Nó phải là một máy rửa chén"
+    },
+    {
+        "Words": "It must be a washing machine",
+        "IPA": "ɪt mʌst biː ə ˈwɒʃɪŋ məˈʃiːn",
+        "Meaning": "Nó phải là một máy giặt"
+    },
+    {
+        "Words": "It must be an air conditioner",
+        "IPA": "ɪt mʌst biː ən eə kənˈdɪʃənə",
+        "Meaning": "Nó phải là một máy điều hòa không khí"
+    },
+    {
+        "Words": "It must be a dryer",
+        "IPA": "ɪt mʌst biː ə ˈdraɪə",
+        "Meaning": "Nó phải là một máy sấy"
+    },
+    {
+        "Words": "It must be a fan",
+        "IPA": "ɪt mʌst biː ə fæn",
+        "Meaning": "Nó phải là một người hâm mộ"
+    },
+    {
+        "Words": "It must be a clock",
+        "IPA": "ɪt mʌst biː ə klɒk",
+        "Meaning": "Nó phải là một chiếc đồng hồ"
+    },
+    {
+        "Words": "It must be a heater",
+        "IPA": "ɪt mʌst biː ə ˈhiːtə",
+        "Meaning": "Nó phải là một lò sưởi"
+    },
+    {
+        "Words": "It must be a fireplace",
+        "IPA": "ɪt mʌst biː ə ˈfaɪəˌpleɪs",
+        "Meaning": "Nó phải là một lò sưởi"
+    },
+    {
+        "Words": "It must be a hair dryer",
+        "IPA": "ɪt mʌst biː ə heə ˈdraɪə",
+        "Meaning": "Nó phải là một máy sấy tóc"
+    },
+    {
+        "Words": "It must be a refrigerator",
+        "IPA": "ɪt mʌst biː ə rɪˈfrɪʤəreɪtə",
+        "Meaning": "Nó phải là một cái tủ lạnh"
+    },
+    {
+        "Words": "It must be a rice cooker",
+        "IPA": "ɪt mʌst biː ə raɪs ˈkʊkə",
+        "Meaning": "Nó phải là một nồi cơm điện"
+    },
+    {
+        "Words": "It must be a telephone",
+        "IPA": "ɪt mʌst biː ə ˈtɛlɪfəʊn",
+        "Meaning": "Nó phải là một chiếc điện thoại"
+    },
+    {
+        "Words": "It must be a microwave",
+        "IPA": "ɪt mʌst biː ə ˈmaɪkrəʊweɪv",
+        "Meaning": "Nó phải là một lò vi sóng"
+    },
+    {
+        "Words": "It must be a freezer",
+        "IPA": "ɪt mʌst biː ə ˈfriːzə",
+        "Meaning": "Nó phải là một tủ đông"
+    },
+    {
+        "Words": "It must be a blender",
+        "IPA": "ɪt mʌst biː ə ˈblɛndə",
+        "Meaning": "Nó phải là một máy xay sinh tố"
+    },
+    {
+        "Words": "It must be a vacuum cleaner",
+        "IPA": "ɪt mʌst biː ə ˈvækjʊəm ˈkliːnə",
+        "Meaning": "Nó phải là một máy hút bụi"
+    },
+    {
+        "Words": "It must be an iron",
+        "IPA": "ɪt mʌst biː ən ˈaɪən",
+        "Meaning": "Nó phải là một cái bàn là"
+    },
+    {
+        "Words": "It must be a printer",
+        "IPA": "ɪt mʌst biː ə ˈprɪntə",
+        "Meaning": "Nó phải là một máy in"
+    },
+    {
+        "Words": "It must be an electronic stove",
+        "IPA": "ɪt mʌst biː ən ɪlɛkˈtrɒnɪk stəʊv",
+        "Meaning": "Nó phải là một bếp điện tử"
+    },
+    {
+        "Words": "It usually takes a days",
+        "IPA": "ɪt ˈjuːʒʊəli teɪks ə deɪz",
+        "Meaning": "Nó thường mất một ngày"
+    },
+    {
+        "Words": "It usually takes 2 days",
+        "IPA": "ɪt ˈjuːʒʊəli teɪks 2 deɪz",
+        "Meaning": "Nó thường mất 2 ngày"
+    },
+    {
+        "Words": "It usually takes 3 days",
+        "IPA": "ɪt ˈjuːʒʊəli teɪks 3 deɪz",
+        "Meaning": "Nó thường mất 3 ngày"
+    },
+    {
+        "Words": "It usually takes 4 days",
+        "IPA": "ɪt ˈjuːʒʊəli teɪks 4 deɪz",
+        "Meaning": "Nó thường mất 4 ngày"
+    },
+    {
+        "Words": "It usually takes 5 days",
+        "IPA": "ɪt ˈjuːʒʊəli teɪks 5 deɪz",
+        "Meaning": "Nó thường mất 5 ngày"
+    },
+    {
+        "Words": "It usually takes 6 days",
+        "IPA": "ɪt ˈjuːʒʊəli teɪks 6 deɪz",
+        "Meaning": "Nó thường mất 6 ngày"
+    },
+    {
+        "Words": "It usually takes a week",
+        "IPA": "ɪt ˈjuːʒʊəli teɪks ə wiːk",
+        "Meaning": "Nó thường mất một tuần"
+    },
+    {
+        "Words": "It usually takes 2 weeks",
+        "IPA": "ɪt ˈjuːʒʊəli teɪks 2 wiːks",
+        "Meaning": "Thường mất 2 tuần"
+    },
+    {
+        "Words": "It usually takes 3 weeks",
+        "IPA": "ɪt ˈjuːʒʊəli teɪks 3 wiːks",
+        "Meaning": "Thường mất 3 tuần"
+    },
+    {
+        "Words": "It usually takes a month",
+        "IPA": "ɪt ˈjuːʒʊəli teɪks ə mʌnθ",
+        "Meaning": "Nó thường mất một tháng"
+    },
+    {
+        "Words": "It usually takes 2 months",
+        "IPA": "ɪt ˈjuːʒʊəli teɪks 2 mʌnθs",
+        "Meaning": "Thường mất 2 tháng"
+    },
+    {
+        "Words": "It usually takes 3 months",
+        "IPA": "ɪt ˈjuːʒʊəli teɪks 3 mʌnθs",
+        "Meaning": "Thường mất 3 tháng"
+    },
+    {
+        "Words": "It's will be ready tomorrow",
+        "IPA": "ɪts wɪl biː ˈrɛdi təˈmɒrəʊ",
+        "Meaning": "Nó sẽ sẵn sàng vào ngày mai"
+    },
+    {
+        "Words": "It's will be ready next week",
+        "IPA": "ɪts wɪl biː ˈrɛdi nɛkst wiːk",
+        "Meaning": "Nó sẽ sẵn sàng vào tuần tới"
+    },
+    {
+        "Words": "It's will be ready next 4 days",
+        "IPA": "ɪts wɪl biː ˈrɛdi nɛkst 4 deɪz",
+        "Meaning": "Nó sẽ sẵn sàng trong 4 ngày tới"
+    },
+    {
+        "Words": "It's will be ready next month",
+        "IPA": "ɪts wɪl biː ˈrɛdi nɛkst mʌnθ",
+        "Meaning": "Nó sẽ sẵn sàng vào tháng tới"
+    },
+    {
+        "Words": "It's will be ready after 6 pm today",
+        "IPA": "ɪts wɪl biː ˈrɛdi ˈɑːftə 6 pm təˈdeɪ",
+        "Meaning": "Nó sẽ sẵn sàng sau 6 giờ chiều hôm nay"
+    },
+    {
+        "Words": "It's will be ready after 5 pm today",
+        "IPA": "ɪts wɪl biː ˈrɛdi ˈɑːftə 5 pm təˈdeɪ",
+        "Meaning": "Nó sẽ sẵn sàng sau 5 giờ chiều hôm nay"
+    },
+    {
+        "Words": "It's will be ready after lunch",
+        "IPA": "ɪts wɪl biː ˈrɛdi ˈɑːftə lʌnʧ",
+        "Meaning": "Nó sẽ sẵn sàng sau bữa trưa"
+    },
+    {
+        "Words": "It's will be ready after an hour",
+        "IPA": "ɪts wɪl biː ˈrɛdi ˈɑːftər ən ˈaʊə",
+        "Meaning": "Nó sẽ sẵn sàng sau một giờ"
+    },
+    {
+        "Words": "It's will be ready after 2 hours",
+        "IPA": "ɪts wɪl biː ˈrɛdi ˈɑːftə 2 ˈaʊəz",
+        "Meaning": "Nó sẽ sẵn sàng sau 2 giờ"
+    },
+    {
+        "Words": "It's will be ready after a few minutes",
+        "IPA": "ɪts wɪl biː ˈrɛdi ˈɑːftər ə fjuː ˈmɪnɪts",
+        "Meaning": "Nó sẽ sẵn sàng sau vài phút"
+    },
+    {
+        "Words": "It's will be ready after tomorrow",
+        "IPA": "ɪts wɪl biː ˈrɛdi ˈɑːftə təˈmɒrəʊ",
+        "Meaning": "Nó sẽ sẵn sàng sau ngày mai"
+    },
+    {
+        "Words": "It's will be ready on Monday",
+        "IPA": "ɪts wɪl biː ˈrɛdi ɒn ˈmʌndeɪ",
+        "Meaning": "Nó sẽ sẵn sàng vào thứ Hai"
+    },
+    {
+        "Words": "It's will be ready on Tuesday",
+        "IPA": "ɪts wɪl biː ˈrɛdi ɒn ˈtjuːzdeɪ",
+        "Meaning": "Nó sẽ sẵn sàng vào thứ Ba"
+    },
+    {
+        "Words": "It's will be ready on Wednesday",
+        "IPA": "ɪts wɪl biː ˈrɛdi ɒn ˈwɛnzdeɪ",
+        "Meaning": "Nó sẽ sẵn sàng vào thứ Tư"
+    },
+    {
+        "Words": "It's will be ready on Friday",
+        "IPA": "ɪts wɪl biː ˈrɛdi ɒn ˈfraɪdeɪ",
+        "Meaning": "Nó sẽ sẵn sàng vào thứ Sáu"
+    },
+    {
+        "Words": "It's will be ready on Thursday",
+        "IPA": "ɪts wɪl biː ˈrɛdi ɒn ˈθɜːzdeɪ",
+        "Meaning": "Nó sẽ sẵn sàng vào thứ Năm"
+    },
+    {
+        "Words": "It's will be ready on Friday",
+        "IPA": "ɪts wɪl biː ˈrɛdi ɒn ˈfraɪdeɪ",
+        "Meaning": "Nó sẽ sẵn sàng vào thứ Sáu"
+    },
+    {
+        "Words": "It's will be ready on Thursday",
+        "IPA": "ɪts wɪl biː ˈrɛdi ɒn ˈθɜːzdeɪ",
+        "Meaning": "Nó sẽ sẵn sàng vào thứ Năm"
+    },
+    {
+        "Words": "I travel mainly by car",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ kɑː",
+        "Meaning": "Tôi đi du lịch chủ yếu bằng ô tô"
+    },
+    {
+        "Words": "I travel mainly by bus",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ bʌs",
+        "Meaning": "Tôi đi du lịch chủ yếu bằng xe buýt"
+    },
+    {
+        "Words": "I travel mainly by motorbike",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ ˈməʊtəˌbaɪk",
+        "Meaning": "Tôi di chuyển chủ yếu bằng xe máy"
+    },
+    {
+        "Words": "I travel mainly by bike",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ baɪk",
+        "Meaning": "Tôi đi du lịch chủ yếu bằng xe đạp"
+    },
+    {
+        "Words": "I travel mainly by bicycle",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ ˈbaɪsɪkl",
+        "Meaning": "Tôi di chuyển chủ yếu bằng xe đạp"
+    },
+    {
+        "Words": "I travel mainly by scooter",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ ˈskuːtə",
+        "Meaning": "Tôi đi du lịch chủ yếu bằng xe tay ga"
+    },
+    {
+        "Words": "I travel mainly by tram",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ træm",
+        "Meaning": "Tôi đi du lịch chủ yếu bằng xe điện"
+    },
+    {
+        "Words": "I travel mainly by moped",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ ˈməʊpɛd",
+        "Meaning": "Tôi đi du lịch chủ yếu bằng xe máy"
+    },
+    {
+        "Words": "I travel mainly by taxi",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ ˈtæksi",
+        "Meaning": "Tôi di chuyển chủ yếu bằng taxi"
+    },
+    {
+        "Words": "I travel mainly underground",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli ˈʌndəgraʊnd",
+        "Meaning": "Tôi chủ yếu di chuyển bằng tài điện ngầm"
+    },
+    {
+        "Words": "I travel mainly by high-speed train",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ ˈhaɪˈspiːd treɪn",
+        "Meaning": "Tôi đi du lịch chủ yếu bằng tàu cao tốc"
+    },
+    {
+        "Words": "I travel mainly by railway train",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ ˈreɪlweɪ treɪn",
+        "Meaning": "Tôi đi du lịch chủ yếu bằng tàu hỏa"
+    },
+    {
+        "Words": "I travel mainly by boat",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ bəʊt",
+        "Meaning": "Tôi đi du lịch chủ yếu bằng thuyền"
+    },
+    {
+        "Words": "I travel mainly by ferry",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ ˈfɛri",
+        "Meaning": "Tôi đi du lịch chủ yếu bằng phà"
+    },
+    {
+        "Words": "I travel mainly by sailboat",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ ˈseɪlbəʊt",
+        "Meaning": "Tôi đi du lịch chủ yếu bằng thuyền buồm"
+    },
+    {
+        "Words": "I travel mainly by rowing boat",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ ˈrəʊɪŋ bəʊt",
+        "Meaning": "Tôi đi du lịch chủ yếu bằng thuyền chèo"
+    },
+    {
+        "Words": "I travel mainly by plane",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ pleɪn",
+        "Meaning": "Tôi đi du lịch chủ yếu bằng máy bay"
+    },
+    {
+        "Words": "I travel mainly by helicopter",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ ˈhɛlɪkɒptə",
+        "Meaning": "Tôi đi du lịch chủ yếu bằng máy bay trực thăng"
+    },
+    {
+        "Words": "I travel mainly by ship",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ ʃɪp",
+        "Meaning": "Tôi đi du lịch chủ yếu bằng tàu thủy"
+    },
+    {
+        "Words": "I travel mainly on foot",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli ɒn fʊt",
+        "Meaning": "Tôi chủ yếu đi bộ"
+    },
+    {
+        "Words": "I travel mainly by walking",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ ˈwɔːkɪŋ",
+        "Meaning": "Tôi đi du lịch chủ yếu bằng cách đi bộ"
+    },
+    {
+        "Words": "I travel mainly by car",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ kɑː",
+        "Meaning": "Tôi đi du lịch chủ yếu bằng ô tô"
+    },
+    {
+        "Words": "I travel mainly by bus",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ bʌs",
+        "Meaning": "Tôi đi du lịch chủ yếu bằng xe buýt"
+    },
+    {
+        "Words": "I travel mainly by motorbike",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ ˈməʊtəˌbaɪk",
+        "Meaning": "Tôi di chuyển chủ yếu bằng xe máy"
+    },
+    {
+        "Words": "I travel mainly by bike",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ baɪk",
+        "Meaning": "Tôi đi du lịch chủ yếu bằng xe đạp"
+    },
+    {
+        "Words": "I travel mainly by bicycle",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ ˈbaɪsɪkl",
+        "Meaning": "Tôi di chuyển chủ yếu bằng xe đạp"
+    },
+    {
+        "Words": "I travel mainly by scooter",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ ˈskuːtə",
+        "Meaning": "Tôi đi du lịch chủ yếu bằng xe tay ga"
+    },
+    {
+        "Words": "I travel mainly by tram",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ træm",
+        "Meaning": "Tôi đi du lịch chủ yếu bằng xe điện"
+    },
+    {
+        "Words": "I travel mainly by moped",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ ˈməʊpɛd",
+        "Meaning": "Tôi đi du lịch chủ yếu bằng xe máy"
+    },
+    {
+        "Words": "I travel mainly by taxi",
+        "IPA": "aɪ ˈtrævl ˈmeɪnli baɪ ˈtæksi",
+        "Meaning": "Tôi di chuyển chủ yếu bằng taxi"
+    },
+    {
+        "Words": "It takes me about 5 minutes",
+        "IPA": "ɪt teɪks miː əˈbaʊt 5 ˈmɪnɪts",
+        "Meaning": "Tôi mất khoảng 5 phút"
+    },
+    {
+        "Words": "It takes me about 6 minutes",
+        "IPA": "ɪt teɪks miː əˈbaʊt 6 ˈmɪnɪts",
+        "Meaning": "Tôi mất khoảng 6 phút"
+    },
+    {
+        "Words": "It takes me about 7 minutes",
+        "IPA": "ɪt teɪks miː əˈbaʊt 7 ˈmɪnɪts",
+        "Meaning": "Tôi mất khoảng 7 phút"
+    },
+    {
+        "Words": "It takes me about 8 minutes",
+        "IPA": "ɪt teɪks miː əˈbaʊt 8 ˈmɪnɪts",
+        "Meaning": "Tôi mất khoảng 8 phút"
+    },
+    {
+        "Words": "It takes me about 9 minutes",
+        "IPA": "ɪt teɪks miː əˈbaʊt 9 ˈmɪnɪts",
+        "Meaning": "Tôi mất khoảng 9 phút"
+    },
+    {
+        "Words": "It takes me about 10 minutes",
+        "IPA": "ɪt teɪks miː əˈbaʊt 10 ˈmɪnɪts",
+        "Meaning": "Tôi mất khoảng 10 phút"
+    },
+    {
+        "Words": "It takes me about 5 minutes",
+        "IPA": "ɪt teɪks miː əˈbaʊt 5 ˈmɪnɪts",
+        "Meaning": "Tôi mất khoảng 5 phút"
+    },
+    {
+        "Words": "It takes me about 6 minutes",
+        "IPA": "ɪt teɪks miː əˈbaʊt 6 ˈmɪnɪts",
+        "Meaning": "Tôi mất khoảng 6 phút"
+    },
+    {
+        "Words": "It takes me about 7 minutes",
+        "IPA": "ɪt teɪks miː əˈbaʊt 7 ˈmɪnɪts",
+        "Meaning": "Tôi mất khoảng 7 phút"
+    },
+    {
+        "Words": "It takes me about 8 minutes",
+        "IPA": "ɪt teɪks miː əˈbaʊt 8 ˈmɪnɪts",
+        "Meaning": "Tôi mất khoảng 8 phút"
+    },
+    {
+        "Words": "It takes me about 9 minutes",
+        "IPA": "ɪt teɪks miː əˈbaʊt 9 ˈmɪnɪts",
+        "Meaning": "Tôi mất khoảng 9 phút"
+    },
+    {
+        "Words": "It takes me about 10 minutes",
+        "IPA": "ɪt teɪks miː əˈbaʊt 10 ˈmɪnɪts",
+        "Meaning": "Tôi mất khoảng 10 phút"
+    },
+    {
+        "Words": "It takes me about 15 minutes",
+        "IPA": "ɪt teɪks miː əˈbaʊt 15 ˈmɪnɪts",
+        "Meaning": "Tôi mất khoảng 15 phút"
+    },
+    {
+        "Words": "It takes me about 45 minutes",
+        "IPA": "ɪt teɪks miː əˈbaʊt 45 ˈmɪnɪts",
+        "Meaning": "Tôi mất khoảng 45 phút"
+    },
+    {
+        "Words": "It takes me about 1 hour",
+        "IPA": "ɪt teɪks miː əˈbaʊt 1 ˈaʊə",
+        "Meaning": "Tôi mất khoảng 1 giờ"
+    },
+    {
+        "Words": "It takes me about 2 hours",
+        "IPA": "ɪt teɪks miː əˈbaʊt 2 ˈaʊəz",
+        "Meaning": "Tôi mất khoảng 2 giờ"
+    },
+    {
+        "Words": "It takes me about a quarter of an hour",
+        "IPA": "ɪt teɪks miː əˈbaʊt ə ˈkwɔːtər ɒv ən ˈaʊə",
+        "Meaning": "Tôi mất khoảng một phần tư giờ"
+    },
+    {
+        "Words": "It takes me about an hour and fifteen minutes",
+        "IPA": "ɪt teɪks miː əˈbaʊt ən ˈaʊər ænd ˈfɪfˈtiːn ˈmɪnɪts",
+        "Meaning": "Tôi mất khoảng một giờ mười lăm phút"
+    },
+    {
+        "Words": "It takes me about an hour and three-quarters of an hour",
+        "IPA": "ɪt teɪks miː əˈbaʊt ən ˈaʊər ænd ˈθriːˈkwɔːtəz ɒv ən ˈaʊə",
+        "Meaning": "Tôi mất khoảng một giờ và ba phần tư giờ"
+    },
+    {
+        "Words": "It takes me about three-quarters of an hour",
+        "IPA": "ɪt teɪks miː əˈbaʊt ˈθriːˈkwɔːtəz ɒv ən ˈaʊə",
+        "Meaning": "Tôi mất khoảng 3/4 giờ"
+    },
+    {
+        "Words": "It takes me about half an hour",
+        "IPA": "ɪt teɪks miː əˈbaʊt hɑːf ən ˈaʊə",
+        "Meaning": "Tôi mất khoảng nửa giờ"
+    },
+    {
+        "Words": "It takes me about an hour and 10 minutes",
+        "IPA": "ɪt teɪks miː əˈbaʊt ən ˈaʊər ænd 10 ˈmɪnɪts",
+        "Meaning": "Tôi mất khoảng một giờ và 10 phút"
+    },
+    {
+        "Words": "It takes me about an hour and 20 minutes",
+        "IPA": "ɪt teɪks miː əˈbaʊt ən ˈaʊər ænd 20 ˈmɪnɪts",
+        "Meaning": "Tôi mất khoảng một giờ 20 phút"
+    },
+    {
+        "Words": "It takes me about 25 minutes",
+        "IPA": "ɪt teɪks miː əˈbaʊt 25 ˈmɪnɪts",
+        "Meaning": "Tôi mất khoảng 25 phút"
+    },
+    {
+        "Words": "It takes me about 2 hours and 10 minutes",
+        "IPA": "ɪt teɪks miː əˈbaʊt 2 ˈaʊəz ænd 10 ˈmɪnɪts",
+        "Meaning": "Tôi mất khoảng 2 giờ 10 phút"
+    },
+    {
+        "Words": "It takes me about 3 hours",
+        "IPA": "ɪt teɪks miː əˈbaʊt 3 ˈaʊəz",
+        "Meaning": "Tôi mất khoảng 3 giờ"
+    },
+    {
+        "Words": "It takes me about 35 minutes",
+        "IPA": "ɪt teɪks miː əˈbaʊt 35 ˈmɪnɪts",
+        "Meaning": "Tôi mất khoảng 35 phút"
+    },
+    {
+        "Words": "It takes me about 50 minutes",
+        "IPA": "ɪt teɪks miː əˈbaʊt 50 ˈmɪnɪts",
+        "Meaning": "Tôi mất khoảng 50 phút"
+    },
+    {
+        "Words": "It takes me about 2 hours and a quarter of an hour",
+        "IPA": "ɪt teɪks miː əˈbaʊt 2 ˈaʊəz ænd ə ˈkwɔːtər ɒv ən ˈaʊə",
+        "Meaning": "Tôi mất khoảng 2 giờ và một phần tư giờ"
+    },
+    {
+        "Words": "It takes me about half 2 hours",
+        "IPA": "ɪt teɪks miː əˈbaʊt hɑːf 2 ˈaʊəz",
+        "Meaning": "Tôi mất khoảng nửa giờ"
+    }
+]

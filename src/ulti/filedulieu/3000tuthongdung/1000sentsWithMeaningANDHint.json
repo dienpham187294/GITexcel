@@ -1,0 +1,5003 @@
+[
+    {
+        "Words": "Will you be my friend?",
+        "IPA": "wɪl juː biː maɪ frɛnd?",
+        "Meaning": "(Be) Bạn sẽ là bạn của tôi chứ?"
+    },
+    {
+        "Words": "You and I will always be friends.",
+        "IPA": "juː ænd aɪ wɪl ˈɔːlweɪz biː frɛndz.",
+        "Meaning": "(And) Bạn và tôi sẽ luôn là bạn của nhau."
+    },
+    {
+        "Words": "Today is the first of November.",
+        "IPA": "təˈdeɪ ɪz ðə fɜːst ɒv nəʊˈvɛmbə.",
+        "Meaning": "(Of) Hôm nay là ngày đầu tiên của tháng mười một."
+    },
+    {
+        "Words": "I saw a bear today.",
+        "IPA": "aɪ sɔː ə beə təˈdeɪ.",
+        "Meaning": "(A) Tôi đã nhìn thấy một con gấu hôm nay."
+    },
+    {
+        "Words": "She is in her room.",
+        "IPA": "ʃiː ɪz ɪn hɜː ruːm.",
+        "Meaning": "(In) Cô ấy đang ở trong phòng của mình."
+    },
+    {
+        "Words": "Let’s go to the park.",
+        "IPA": "lɛts gəʊ tuː ðə pɑːk.",
+        "Meaning": "(To) Chúng ta hãy đi đến công viên."
+    },
+    {
+        "Words": "I have a few questions.",
+        "IPA": "aɪ hæv ə fjuː ˈkwɛsʧənz.",
+        "Meaning": "(Have) Tôi có một vài câu hỏi."
+    },
+    {
+        "Words": "I like her too.",
+        "IPA": "aɪ laɪk hɜː tuː.",
+        "Meaning": "(Too) Tôi cũng thích cô ấy."
+    },
+    {
+        "Words": "It is sunny outside.",
+        "IPA": "ɪt ɪz ˈsʌni ˌaʊtˈsaɪd.",
+        "Meaning": "(It) Ngoài trời đang nắng."
+    },
+    {
+        "Words": "I really like it here.",
+        "IPA": "aɪ ˈrɪəli laɪk ɪt hɪə.",
+        "Meaning": "(I) Tôi thực sự thích nó ở đây."
+    },
+    {
+        "Words": "That door is open.",
+        "IPA": "ðæt dɔːr ɪz ˈəʊpən.",
+        "Meaning": "(That) Cánh cửa đó đang mở."
+    },
+    {
+        "Words": "This letter is for you.",
+        "IPA": "ðɪs ˈlɛtər ɪz fɔː juː.",
+        "Meaning": "(For) Bức thư này là dành cho bạn."
+    },
+    {
+        "Words": "You are really nice.",
+        "IPA": "juː ɑː ˈrɪəli naɪs.",
+        "Meaning": "(You) Bạn thực sự tốt."
+    },
+    {
+        "Words": "He is my brother.",
+        "IPA": "hiː ɪz maɪ ˈbrʌðə.",
+        "Meaning": "(He) Anh ấy là anh trai tôi."
+    },
+    {
+        "Words": "I want to go with you.",
+        "IPA": "aɪ wɒnt tuː gəʊ wɪð juː.",
+        "Meaning": "(With) Tôi muốn đi cùng bạn."
+    },
+    {
+        "Words": "I watch movies on my iPad.",
+        "IPA": "aɪ wɒʧ ˈmuːviz ɒn maɪ ˈaɪˌpæd.",
+        "Meaning": "(On) Tôi xem phim trên iPad của mình."
+    },
+    {
+        "Words": "What will you do now?",
+        "IPA": "wɒt wɪl juː duː naʊ?",
+        "Meaning": "(Do) Bạn sẽ làm gì bây giờ?"
+    },
+    {
+        "Words": "Can I say something?",
+        "IPA": "kæn aɪ seɪ ˈsʌmθɪŋ?",
+        "Meaning": "(Say) Tôi nói một tí được không?"
+    },
+    {
+        "Words": "This is my favorite cookie.",
+        "IPA": "ðɪs ɪz maɪ ˈfeɪvərɪt ˈkʊki.",
+        "Meaning": "(This) Đây là cookie yêu thích của tôi."
+    },
+    {
+        "Words": "They are here!",
+        "IPA": "ðeɪ ɑː hɪə!",
+        "Meaning": "(They) Họ ở đây!"
+    },
+    {
+        "Words": "Can you pick me up at the mall?",
+        "IPA": "kæn juː pɪk miː ʌp æt ðə mɔːl?",
+        "Meaning": "(At) Bạn có thể đón tôi ở trung tâm mua sắm được không?"
+    },
+    {
+        "Words": "I’m sorry but she’s away.",
+        "IPA": "aɪm ˈsɒri bʌt ʃiːz əˈweɪ.",
+        "Meaning": "(But) Tôi xin lỗi nhưng cô ấy đi vắng."
+    },
+    {
+        "Words": "We are going to watch a movie.",
+        "IPA": "wiː ɑː ˈgəʊɪŋ tuː wɒʧ ə ˈmuːvi.",
+        "Meaning": "(We) Chúng ta sẽ xem một bộ phim."
+    },
+    {
+        "Words": "This is his box.",
+        "IPA": "ðɪs ɪz hɪz bɒks.",
+        "Meaning": "(His) Đây là hộp của anh ấy."
+    },
+    {
+        "Words": "This card came from my cousin.",
+        "IPA": "ðɪs kɑːd keɪm frɒm maɪ ˈkʌzn.",
+        "Meaning": "(From) Thẻ này đến từ anh họ của tôi."
+    },
+    {
+        "Words": "That’s a really cool trick!",
+        "IPA": "ðæts ə ˈrɪəli kuːl trɪk!",
+        "Meaning": "(That) Đó là một thủ thuật thực sự thú vị!"
+    },
+    {
+        "Words": "That’s not what I want.",
+        "IPA": "ðæts nɒt wɒt aɪ wɒnt.",
+        "Meaning": "(Not) Đó không phải là điều tôi muốn."
+    },
+    {
+        "Words": "I can’t open it.",
+        "IPA": "aɪ kɑːnt ˈəʊpən ɪt.",
+        "Meaning": "(Can’t) Tôi không thể mở nó."
+    },
+    {
+        "Words": "I won’t open it.",
+        "IPA": "aɪ wəʊnt ˈəʊpən ɪt.",
+        "Meaning": "(Won’t) Tôi sẽ không mở nó."
+    },
+    {
+        "Words": "Will you come by and see me?",
+        "IPA": "wɪl juː kʌm baɪ ænd siː miː?",
+        "Meaning": "(By) Bạn sẽ đến và gặp tôi?"
+    },
+    {
+        "Words": "She is very happy.",
+        "IPA": "ʃiː ɪz ˈvɛri ˈhæpi.",
+        "Meaning": "(She) Cô ấy rất hạnh phúc."
+    },
+    {
+        "Words": "Do you like blue or yellow?",
+        "IPA": "duː juː laɪk bluː ɔː ˈjɛləʊ?",
+        "Meaning": "(Or) Bạn thích màu xanh hay màu vàng?"
+    },
+    {
+        "Words": "Her role as an English teacher is very important.",
+        "IPA": "hɜː rəʊl æz ən ˈɪŋglɪʃ ˈtiːʧər ɪz ˈvɛri ɪmˈpɔːtənt.",
+        "Meaning": "(As) Vai trò của một giáo viên tiếng Anh là rất quan trọng."
+    },
+    {
+        "Words": "What are you thinking of?",
+        "IPA": "wɒt ɑː juː ˈθɪŋkɪŋ ɒv?",
+        "Meaning": "(What) Bạn đang nghĩ về cái gì vậy?"
+    },
+    {
+        "Words": "I want to go there.",
+        "IPA": "aɪ wɒnt tuː gəʊ ðeə.",
+        "Meaning": "(Go) Tôi muốn đi đến đó."
+    },
+    {
+        "Words": "This is their house.",
+        "IPA": "ðɪs ɪz ðeə haʊs.",
+        "Meaning": "(Their) Đây là nhà của họ."
+    },
+    {
+        "Words": "What can I do for you?",
+        "IPA": "wɒt kæn aɪ duː fɔː juː?",
+        "Meaning": "(Can) Tôi có thể làm gì cho bạn?"
+    },
+    {
+        "Words": "Who can help me?",
+        "IPA": "huː kæn hɛlp miː?",
+        "Meaning": "(Who) Ai có thể giúp tôi?"
+    },
+    {
+        "Words": "Can you get me my eyeglasses?",
+        "IPA": "kæn juː gɛt miː maɪ ˈaɪglɑːsɪz?",
+        "Meaning": "(Get) Bạn có thể lấy cho tôi kính mắt của tôi được không?"
+    },
+    {
+        "Words": "What if I fail?",
+        "IPA": "wɒt ɪf aɪ feɪl?",
+        "Meaning": "(If) Nếu tôi thất bại thì sao?"
+    },
+    {
+        "Words": "Would you help me out?",
+        "IPA": "wʊd juː hɛlp miː aʊt?",
+        "Meaning": "(Would) Bạn có thể giúp tôi ra ngoài?"
+    },
+    {
+        "Words": "I have her book.",
+        "IPA": "aɪ hæv hɜː bʊk.",
+        "Meaning": "(Her) Tôi có cuốn sách của cô ấy."
+    },
+    {
+        "Words": "All my favorite books are on this shelf.",
+        "IPA": "ɔːl maɪ ˈfeɪvərɪt bʊks ɑːr ɒn ðɪs ʃɛlf.",
+        "Meaning": "(All) Tất cả những cuốn sách yêu thích của tôi đều có trên kệ này."
+    },
+    {
+        "Words": "My mom is coming to visit.",
+        "IPA": "maɪ mɒm ɪz ˈkʌmɪŋ tuː ˈvɪzɪt.",
+        "Meaning": "(My) Mẹ tôi sắp đến thăm."
+    },
+    {
+        "Words": "Can we make our projects together?",
+        "IPA": "kæn wiː meɪk ˈaʊə ˈprɒʤɛkts təˈgɛðə?",
+        "Meaning": "(Make) Chúng ta có thể thực hiện các dự án của chúng ta cùng nhau không?"
+    },
+    {
+        "Words": "What is this movie about?",
+        "IPA": "wɒt ɪz ðɪs ˈmuːvi əˈbaʊt?",
+        "Meaning": "(About) Phim này nói về cái gì?"
+    },
+    {
+        "Words": "Do you know where this place is?",
+        "IPA": "duː juː nəʊ weə ðɪs pleɪs ɪz?",
+        "Meaning": "(Know) Bạn có biết nơi này là ở đâu không?"
+    },
+    {
+        "Words": "I will help you find that place.",
+        "IPA": "aɪ wɪl hɛlp juː faɪnd ðæt pleɪs.",
+        "Meaning": "(Will) Tôi sẽ giúp bạn tìm ra nơi đó."
+    },
+    {
+        "Words": "As soon as she’s here, I’ll talk to her.",
+        "IPA": "æz suːn æz ʃiːz hɪə, aɪl tɔːk tuː hɜː.",
+        "Meaning": "(As) Ngay khi cô ấy ở đây, tôi sẽ nói chuyện với cô ấy."
+    },
+    {
+        "Words": "I live up in the mountains.",
+        "IPA": "aɪ lɪv ʌp ɪn ðə ˈmaʊntɪnz.",
+        "Meaning": "(Up) Tôi sống trên núi."
+    },
+    {
+        "Words": "She is one of my English teachers.",
+        "IPA": "ʃiː ɪz wʌn ɒv maɪ ˈɪŋglɪʃ ˈtiːʧəz.",
+        "Meaning": "(One) Cô ấy là một trong những giáo viên tiếng Anh của tôi."
+    },
+    {
+        "Words": "There was a time I liked to play golf.",
+        "IPA": "ðeə wɒz ə taɪm aɪ laɪkt tuː pleɪ gɒlf.",
+        "Meaning": "(Time) Có một thời gian tôi thích chơi gôn."
+    },
+    {
+        "Words": "There are so many things I want to learn.",
+        "IPA": "ðeər ɑː səʊ ˈmɛni θɪŋz aɪ wɒnt tuː lɜːn.",
+        "Meaning": "(There) Có rất nhiều điều tôi muốn học."
+    },
+    {
+        "Words": "This is the year I’m finally going to learn English.",
+        "IPA": "ðɪs ɪz ðə jɪər aɪm ˈfaɪnəli ˈgəʊɪŋ tuː lɜːn ˈɪŋglɪʃ.",
+        "Meaning": "(Year) Đây là năm cuối cùng tôi sẽ học tiếng Anh."
+    },
+    {
+        "Words": "I am so sorry.",
+        "IPA": "aɪ æm səʊ ˈsɒri.",
+        "Meaning": "(So) Tôi rât tiêc."
+    },
+    {
+        "Words": "I think I need to lie down.",
+        "IPA": "aɪ θɪŋk aɪ niːd tuː laɪ daʊn.",
+        "Meaning": "(Think) Tôi nghĩ tôi cần phải nằm xuống."
+    },
+    {
+        "Words": "When will I see you again?",
+        "IPA": "wɛn wɪl aɪ siː juː əˈgɛn?",
+        "Meaning": "(When) Chưng nao chung ta gặp lại nhau?"
+    },
+    {
+        "Words": "Which of these slippers is yours?",
+        "IPA": "wɪʧ ɒv ðiːz ˈslɪpəz ɪz jɔːz?",
+        "Meaning": "(Which) Đôi dép nào trong số này là của bạn?"
+    },
+    {
+        "Words": "Please give this to them.",
+        "IPA": "pliːz gɪv ðɪs tuː ðɛm.",
+        "Meaning": "(Them) Hãy đưa cái này cho họ."
+    },
+    {
+        "Words": "Please give them some of the apples I brought home.",
+        "IPA": "pliːz gɪv ðɛm sʌm ɒv ði ˈæplz aɪ brɔːt həʊm.",
+        "Meaning": "(Some) Làm ơn cho họ một số táo mà tôi đã mang về nhà."
+    },
+    {
+        "Words": "Can you give me some apples?",
+        "IPA": "kæn juː gɪv miː sʌm ˈæplz?",
+        "Meaning": "(Me) Bạn có thể cho tôi một ít táo được không?"
+    },
+    {
+        "Words": "There are so many people at the mall today.",
+        "IPA": "ðeər ɑː səʊ ˈmɛni ˈpiːpl æt ðə mɔːl təˈdeɪ.",
+        "Meaning": "(People) Hôm nay có rất nhiều người ở trung tâm mua sắm."
+    },
+    {
+        "Words": "Please take home some of these apples",
+        "IPA": "pliːz teɪk həʊm sʌm ɒv ðiːz ˈæplz",
+        "Meaning": "(Take) Hãy mang về nhà một số táo này"
+    },
+    {
+        "Words": "Please throw the trash out.",
+        "IPA": "pliːz θrəʊ ðə træʃ aʊt.",
+        "Meaning": "(Out) Hãy ném thùng rác ra ngoài."
+    },
+    {
+        "Words": "My puppy ran into the woods.",
+        "IPA": "maɪ ˈpʌpi ræn ˈɪntuː ðə wʊdz.",
+        "Meaning": "(Into) Con chó con của tôi chạy vào rừng."
+    },
+    {
+        "Words": "Just close your eyes.",
+        "IPA": "ʤʌst kləʊs jɔːr aɪz.",
+        "Meaning": "(Just) Chỉ cần nhắm mắt lại."
+    },
+    {
+        "Words": "Did you see that?",
+        "IPA": "dɪd juː siː ðæt?",
+        "Meaning": "(See) Bạn có thấy điều đó không?"
+    },
+    {
+        "Words": "I heard him singing earlier.",
+        "IPA": "aɪ hɜːd hɪm ˈsɪŋɪŋ ˈɜːlɪə.",
+        "Meaning": "(Him) Tôi đã nghe anh ấy hát trước đó."
+    },
+    {
+        "Words": "Your mom is here.",
+        "IPA": "jɔː mɒm ɪz hɪə.",
+        "Meaning": "(Your) Mẹ của bạn đang ở đây."
+    },
+    {
+        "Words": "Can your mom and dad come to the party?",
+        "IPA": "kæn jɔː mɒm ænd dæd kʌm tuː ðə ˈpɑːti?",
+        "Meaning": "(Come) Bố mẹ bạn có thể đến dự tiệc không?"
+    },
+    {
+        "Words": "Could you help me with my project?",
+        "IPA": "kʊd juː hɛlp miː wɪð maɪ ˈprɒʤɛkt?",
+        "Meaning": "(Could) Bạn có thể giúp tôi với dự án của tôi?"
+    },
+    {
+        "Words": "I want to watch this now.",
+        "IPA": "aɪ wɒnt tuː wɒʧ ðɪs naʊ.",
+        "Meaning": "(Now) Tôi muốn xem cái này ngay bây giờ."
+    },
+    {
+        "Words": "I like this cake better than the other one you showed me.",
+        "IPA": "aɪ laɪk ðɪs keɪk ˈbɛtə ðæn ði ˈʌðə wʌn juː ʃəʊd miː.",
+        "Meaning": "(Than) Tôi thích cái bánh này hơn cái khác mà bạn đã cho tôi xem."
+    },
+    {
+        "Words": "I like this bag better than the other one you showed me.",
+        "IPA": "aɪ laɪk ðɪs bæg ˈbɛtə ðæn ði ˈʌðə wʌn juː ʃəʊd miː.",
+        "Meaning": "(Like) Tôi thích cái túi này hơn cái kia mà bạn đã cho tôi xem."
+    },
+    {
+        "Words": "I like these shoes better than the other ones you showed me.",
+        "IPA": "aɪ laɪk ðiːz ʃuːz ˈbɛtə ðæn ði ˈʌðə wʌnz juː ʃəʊd miː.",
+        "Meaning": "(Other) Tôi thích đôi giày này hơn những đôi khác mà bạn đã cho tôi xem."
+    },
+    {
+        "Words": "How do I turn this on?",
+        "IPA": "haʊ duː aɪ tɜːn ðɪs ɒn?",
+        "Meaning": "(How) Làm cách nào để bật tính năng này?"
+    },
+    {
+        "Words": "We had breakfast and then we went to church.",
+        "IPA": "wiː hæd ˈbrɛkfəst ænd ðɛn wiː wɛnt tuː ʧɜːʧ.",
+        "Meaning": "(Then) Chúng tôi ăn sáng và sau đó chúng tôi đến nhà thờ."
+    },
+    {
+        "Words": "I need to read its manual.",
+        "IPA": "aɪ niːd tuː riːd ɪts ˈmænjʊəl.",
+        "Meaning": "(Its) Tôi cần đọc hướng dẫn sử dụng của nó."
+    },
+    {
+        "Words": "This is our home now.",
+        "IPA": "ðɪs ɪz ˈaʊə həʊm naʊ.",
+        "Meaning": "(Our) Đây là nhà của chúng tôi bây giờ."
+    },
+    {
+        "Words": "Two cheeseburgers, please.",
+        "IPA": "tuː ˈʧiːzˌbɜːgəz, pliːz.",
+        "Meaning": "(Two) Làm ơn cho hai cái bánh mì kẹp thịt."
+    },
+    {
+        "Words": "Can I have some more milkshakes?",
+        "IPA": "kæn aɪ hæv sʌm mɔː ˈmɪlkʃeɪks?",
+        "Meaning": "(More) Tôi có thể có thêm một ít sữa lắc được không?"
+    },
+    {
+        "Words": "Do you like these ribbons?",
+        "IPA": "duː juː laɪk ðiːz ˈrɪbənz?",
+        "Meaning": "(These) Bạn có thích những dải ruy băng này không?"
+    },
+    {
+        "Words": "Do you want these ribbons?",
+        "IPA": "duː juː wɒnt ðiːz ˈrɪbənz?",
+        "Meaning": "(Want) Bạn có muốn những dải ruy băng này không?"
+    },
+    {
+        "Words": "Can you look this way?",
+        "IPA": "kæn juː lʊk ðɪs weɪ?",
+        "Meaning": "(Way) Bạn có thể nhìn theo hướng này?"
+    },
+    {
+        "Words": "Please look this way.",
+        "IPA": "pliːz lʊk ðɪs weɪ.",
+        "Meaning": "(Look) Hãy nhìn theo hướng này."
+    },
+    {
+        "Words": "She was my very first teacher.",
+        "IPA": "ʃiː wɒz maɪ ˈvɛri fɜːst ˈtiːʧə.",
+        "Meaning": "(First) Cô ấy là giáo viên đầu tiên của tôi."
+    },
+    {
+        "Words": "She was also my best friend.",
+        "IPA": "ʃiː wɒz ˈɔːlsəʊ maɪ bɛst frɛnd.",
+        "Meaning": "(Also) Cô ấy cũng là bạn thân nhất của tôi."
+    },
+    {
+        "Words": "I have new shoes.",
+        "IPA": "aɪ hæv njuː ʃuːz.",
+        "Meaning": "(New) Tôi có đôi giày mới."
+    },
+    {
+        "Words": "I am crying because I’m sad.",
+        "IPA": "aɪ æm ˈkraɪɪŋ bɪˈkɒz aɪm sæd.",
+        "Meaning": "(Because) Tôi đang khóc vì tôi buồn."
+    },
+    {
+        "Words": "Today is national friendship day.",
+        "IPA": "təˈdeɪ ɪz ˈnæʃənl ˈfrɛndʃɪp deɪ.",
+        "Meaning": "(Day) Hôm nay là ngày quốc gia hữu nghị."
+    },
+    {
+        "Words": "I have more stickers at home.",
+        "IPA": "aɪ hæv mɔː ˈstɪkəz æt həʊm.",
+        "Meaning": "(More) Tôi có nhiều nhãn dán hơn ở nhà."
+    },
+    {
+        "Words": "How do I use this?",
+        "IPA": "haʊ duː aɪ juːz ðɪs?",
+        "Meaning": "(Use) Làm cách nào để sử dụng cái này?"
+    },
+    {
+        "Words": "There’s no electricity now.",
+        "IPA": "ðeəz nəʊ ɪlɛkˈtrɪsɪti naʊ.",
+        "Meaning": "(No) Hiện không có điện."
+    },
+    {
+        "Words": "There’s a man outside looking for you.",
+        "IPA": "ðeəz ə mæn ˌaʊtˈsaɪd ˈlʊkɪŋ fɔː juː.",
+        "Meaning": "(Man) Có một người đàn ông bên ngoài đang tìm bạn."
+    },
+    {
+        "Words": "Where can I find rare furniture?",
+        "IPA": "weə kæn aɪ faɪnd reə ˈfɜːnɪʧə?",
+        "Meaning": "(Find) Tôi có thể tìm đồ nội thất quý hiếm ở đâu?"
+    },
+    {
+        "Words": "My mom is here.",
+        "IPA": "maɪ mɒm ɪz hɪə.",
+        "Meaning": "(Here) Mẹ tôi ở đây."
+    },
+    {
+        "Words": "One thing led to another.",
+        "IPA": "wʌn θɪŋ lɛd tuː əˈnʌðə.",
+        "Meaning": "(Thing) Điều này dẫn đến điều khác."
+    },
+    {
+        "Words": "Give her these pearls.",
+        "IPA": "gɪv hɜː ðiːz pɜːlz.",
+        "Meaning": "(Give) Hãy tặng cô ấy những viên ngọc trai này."
+    },
+    {
+        "Words": "We shared many dreams together.",
+        "IPA": "wiː ʃeəd ˈmɛni driːmz təˈgɛðə.",
+        "Meaning": "(Many) Chúng tôi đã chia sẻ nhiều ước mơ cùng nhau."
+    },
+    {
+        "Words": "You know me so well.",
+        "IPA": "juː nəʊ miː səʊ wɛl.",
+        "Meaning": "(Well) Bạn biết tôi rất rõ."
+    },
+    {
+        "Words": "You are my only friend here.",
+        "IPA": "juː ɑː maɪ ˈəʊnli frɛnd hɪə.",
+        "Meaning": "(Only) Bạn là người bạn duy nhất của tôi ở đây."
+    },
+    {
+        "Words": "Those boots belong to my friend.",
+        "IPA": "ðəʊz buːts bɪˈlɒŋ tuː maɪ frɛnd.",
+        "Meaning": "(Those) Đôi ủng đó là của bạn tôi."
+    },
+    {
+        "Words": "Can you tell me which way to go?",
+        "IPA": "kæn juː tɛl miː wɪʧ weɪ tuː gəʊ?",
+        "Meaning": "(Tell) Bạn có thể cho tôi biết con đường nào để đi?"
+    },
+    {
+        "Words": "She’s the one he’s been waiting for.",
+        "IPA": "ʃiːz ðə wʌn hiːz biːn ˈweɪtɪŋ fɔː.",
+        "Meaning": "(One) Cô ấy là người anh ấy đang chờ đợi."
+    },
+    {
+        "Words": "I’m very upset right now.",
+        "IPA": "aɪm ˈvɛri ʌpˈsɛt raɪt naʊ.",
+        "Meaning": "(Very) Tôi rất khó chịu ngay bây giờ."
+    },
+    {
+        "Words": "Her grandmother is sick.",
+        "IPA": "hɜː ˈgrænˌmʌðər ɪz sɪk.",
+        "Meaning": "(Her) Bà của cô ấy bị ốm."
+    },
+    {
+        "Words": "She can’t even stand on her own.",
+        "IPA": "ʃiː kɑːnt ˈiːvən stænd ɒn hɜːr əʊn.",
+        "Meaning": "(Even) Cô ấy thậm chí không thể tự đứng vững."
+    },
+    {
+        "Words": "I’ll be right back.",
+        "IPA": "aɪl biː raɪt bæk.",
+        "Meaning": "(Back) Tôi sẽ trở lại ngay."
+    },
+    {
+        "Words": "Have you had any luck on your research?",
+        "IPA": "hæv juː hæd ˈɛni lʌk ɒn jɔː rɪˈsɜːʧ?",
+        "Meaning": "(Any) Bạn đã gặp may mắn nào về nghiên cứu của mình chưa?"
+    },
+    {
+        "Words": "You’re a good person.",
+        "IPA": "jʊər ə gʊd ˈpɜːsn.",
+        "Meaning": "(Good) Bạn là một người tốt."
+    },
+    {
+        "Words": "That woman looks so polished.",
+        "IPA": "ðæt ˈwʊmən lʊks səʊ ˈpɒlɪʃt.",
+        "Meaning": "(Woman) Người phụ nữ đó trông thật bóng bẩy."
+    },
+    {
+        "Words": "Your faith will see you through tough times.",
+        "IPA": "jɔː feɪθ wɪl siː juː θruː tʌf taɪmz.",
+        "Meaning": "(Through) Niềm tin của bạn sẽ nhìn thấy bạn vượt qua thời gian khó khăn."
+    },
+    {
+        "Words": "Do you want to go with us?",
+        "IPA": "duː juː wɒnt tuː gəʊ wɪð ʌs?",
+        "Meaning": "(Us) Bạn có muốn đi với chúng tôi không?"
+    },
+    {
+        "Words": "This is the best day of my life.",
+        "IPA": "ðɪs ɪz ðə bɛst deɪ ɒv maɪ laɪf.",
+        "Meaning": "(Life) Đây là ngày tuyệt vời nhất trong cuộc đời tôi."
+    },
+    {
+        "Words": "I just saw a child cross the street by herself.",
+        "IPA": "aɪ ʤʌst sɔː ə ʧaɪld krɒs ðə striːt baɪ hɜːˈsɛlf.",
+        "Meaning": "(Child) Tôi vừa nhìn thấy một đứa trẻ băng qua đường một mình."
+    },
+    {
+        "Words": "Did you go there?",
+        "IPA": "dɪd juː gəʊ ðeə?",
+        "Meaning": "(There) Bạn đã đến đó chưa?"
+    },
+    {
+        "Words": "I have to go to work.",
+        "IPA": "aɪ hæv tuː gəʊ tuː wɜːk.",
+        "Meaning": "(Work) Tôi phải đi làm đây."
+    },
+    {
+        "Words": "Let’s go down.",
+        "IPA": "lɛts gəʊ daʊn.",
+        "Meaning": "(Down) Nào chúng ta cùng đi xuống."
+    },
+    {
+        "Words": "You may take your seats.",
+        "IPA": "juː meɪ teɪk jɔː siːts.",
+        "Meaning": "(May) Bạn có thể lấy chỗ ngồi của mình."
+    },
+    {
+        "Words": "Let’s have dinner after work.",
+        "IPA": "lɛts hæv ˈdɪnər ˈɑːftə wɜːk.",
+        "Meaning": "(After) Hãy ăn tối sau khi làm việc."
+    },
+    {
+        "Words": "Should I buy this dress?",
+        "IPA": "ʃʊd aɪ baɪ ðɪs drɛs?",
+        "Meaning": "(Should) Tôi có nên mua chiếc váy này không?"
+    },
+    {
+        "Words": "Call me when you get home, okay?",
+        "IPA": "kɔːl miː wɛn juː gɛt həʊm, ˈəʊˈkeɪ?",
+        "Meaning": "(Call) Gọi cho tôi khi bạn về nhà, được không?"
+    },
+    {
+        "Words": "I want to travel and see the world.",
+        "IPA": "aɪ wɒnt tuː ˈtrævl ænd siː ðə wɜːld.",
+        "Meaning": "(World) Tôi muốn đi du lịch và ngắm nhìn thế giới."
+    },
+    {
+        "Words": "I can’t wait for this day to be over.",
+        "IPA": "aɪ kɑːnt weɪt fɔː ðɪs deɪ tuː biː ˈəʊvə.",
+        "Meaning": "(Over) Tôi không thể đợi ngày này kết thúc."
+    },
+    {
+        "Words": "My cousin goes to school here.",
+        "IPA": "maɪ ˈkʌzn gəʊz tuː skuːl hɪə.",
+        "Meaning": "(School) Em họ tôi đi học ở đây."
+    },
+    {
+        "Words": "I still think you should go.",
+        "IPA": "aɪ stɪl θɪŋk juː ʃʊd gəʊ.",
+        "Meaning": "(Still) Tôi vẫn nghĩ bạn nên đi."
+    },
+    {
+        "Words": "Can you try to be nicer to him?",
+        "IPA": "kæn juː traɪ tuː biː ˈnaɪsə tuː hɪm?",
+        "Meaning": "(Try) Bạn có thể cố gắng đối xử tốt hơn với anh ấy không?"
+    },
+    {
+        "Words": "What’s in that box?",
+        "IPA": "wɒts ɪn ðæt bɒks?",
+        "Meaning": "(In) Cái gì trong hộp đó?"
+    },
+    {
+        "Words": "As soon as I get home, I'm going to start watching that series.",
+        "IPA": "æz suːn æz aɪ gɛt həʊm, aɪm ˈgəʊɪŋ tuː stɑːt ˈwɒʧɪŋ ðæt ˈsɪəriːz.",
+        "Meaning": "(As) Ngay sau khi về nhà, tôi sẽ bắt đầu xem bộ truyện đó."
+    },
+    {
+        "Words": "This is my last slice of cake, I promise!",
+        "IPA": "ðɪs ɪz maɪ lɑːst slaɪs ɒv keɪk, aɪ ˈprɒmɪs!",
+        "Meaning": "(Last) Đây là miếng bánh cuối cùng của tôi, tôi hứa!"
+    },
+    {
+        "Words": "Can you ask the waiter to bring us some wine?",
+        "IPA": "kæn juː ɑːsk ðə ˈweɪtə tuː brɪŋ ʌs sʌm waɪn?",
+        "Meaning": "(Ask) Bạn có thể yêu cầu người phục vụ mang rượu cho chúng tôi không?"
+    },
+    {
+        "Words": "I need some wine tonight!",
+        "IPA": "aɪ niːd sʌm waɪn təˈnaɪt!",
+        "Meaning": "(Need) Tôi cần một ít rượu vang tối nay!"
+    },
+    {
+        "Words": "I need some wine, too!",
+        "IPA": "aɪ niːd sʌm waɪn, tuː!",
+        "Meaning": "(Too) Tôi cũng cần một chút rượu!"
+    },
+    {
+        "Words": "I feel so tired, I just need to relax and unwind.",
+        "IPA": "aɪ fiːl səʊ ˈtaɪəd, aɪ ʤʌst niːd tuː rɪˈlæks ænd ʌnˈwaɪnd.",
+        "Meaning": "(Feel) Tôi cảm thấy rất mệt mỏi, tôi chỉ cần thư giãn và xả hơi."
+    },
+    {
+        "Words": "I have three sisters.",
+        "IPA": "aɪ hæv θriː ˈsɪstəz.",
+        "Meaning": "(Three) Tôi có ba chị em gái."
+    },
+    {
+        "Words": "When was the last time you saw them?",
+        "IPA": "wɛn wɒz ðə lɑːst taɪm juː sɔː ðɛm?",
+        "Meaning": "(When) Lần cuối cùng bạn nhìn thấy chúng là khi nào?"
+    },
+    {
+        "Words": "Check out the state of that shed, it’s falling apart.",
+        "IPA": "ʧɛk aʊt ðə steɪt ɒv ðæt ʃɛd, ɪts ˈfɔːlɪŋ əˈpɑːt.",
+        "Meaning": "(State) Kiểm tra tình trạng của cái nhà kho đó, nó đang đổ nát."
+    },
+    {
+        "Words": "I’m never going to drink wine again.",
+        "IPA": "aɪm ˈnɛvə ˈgəʊɪŋ tuː drɪŋk waɪn əˈgɛn.",
+        "Meaning": "(Never) Tôi sẽ không bao giờ uống rượu nữa."
+    },
+    {
+        "Words": "Over the years we’ve become really close.",
+        "IPA": "ˈəʊvə ðə jɪəz wiːv bɪˈkʌm ˈrɪəli kləʊs.",
+        "Meaning": "(Become) Qua nhiều năm, chúng tôi đã trở nên thực sự thân thiết."
+    },
+    {
+        "Words": "This is just between you and me.",
+        "IPA": "ðɪs ɪz ʤʌst bɪˈtwiːn juː ænd miː.",
+        "Meaning": "(Between) Đây chỉ là giữa bạn và tôi."
+    },
+    {
+        "Words": "Give me a high five!",
+        "IPA": "gɪv miː ə haɪ faɪv!",
+        "Meaning": "(High) Cho tôi một điểm cao!"
+    },
+    {
+        "Words": "I really like your painting!",
+        "IPA": "aɪ ˈrɪəli laɪk jɔː ˈpeɪntɪŋ!",
+        "Meaning": "(Really) Tôi thực sự thích bức tranh của bạn!"
+    },
+    {
+        "Words": "I have something for you.",
+        "IPA": "aɪ hæv ˈsʌmθɪŋ fɔː juː.",
+        "Meaning": "(Something) Tôi có thứ này cho bạn."
+    },
+    {
+        "Words": "She’s the most beautiful girl I’ve ever seen.",
+        "IPA": "ʃiːz ðə məʊst ˈbjuːtəfʊl gɜːl aɪv ˈɛvə siːn.",
+        "Meaning": "(Most) Cô ấy là cô gái xinh đẹp nhất mà tôi từng thấy."
+    },
+    {
+        "Words": "I’ll have another glass of wine, please.",
+        "IPA": "aɪl hæv əˈnʌðə glɑːs ɒv waɪn, pliːz.",
+        "Meaning": "(Another) Vui lòng cho tôi một ly rượu khác."
+    },
+    {
+        "Words": "I love you guys so much.",
+        "IPA": "aɪ lʌv juː gaɪz səʊ mʌʧ.",
+        "Meaning": "(Much) Tôi yêu các bạn rất nhiều."
+    },
+    {
+        "Words": "You are like family to me.",
+        "IPA": "juː ɑː laɪk ˈfæmɪli tuː miː.",
+        "Meaning": "(Family) Bạn như một gia đình đối với tôi."
+    },
+    {
+        "Words": "I want to get my own place.",
+        "IPA": "aɪ wɒnt tuː gɛt maɪ əʊn pleɪs.",
+        "Meaning": "(Own) Tôi muốn có được vị trí của riêng mình."
+    },
+    {
+        "Words": "Get out of my room.",
+        "IPA": "gɛt aʊt ɒv maɪ ruːm.",
+        "Meaning": "(Out) Ra khỏi phòng tôi."
+    },
+    {
+        "Words": "I want you to leave.",
+        "IPA": "aɪ wɒnt juː tuː liːv.",
+        "Meaning": "(Leave) Tôi muốn bạn rời đi."
+    },
+    {
+        "Words": "Please put down that book and listen to me.",
+        "IPA": "pliːz pʊt daʊn ðæt bʊk ænd ˈlɪsn tuː miː.",
+        "Meaning": "(Put) Hãy đặt cuốn sách đó xuống và lắng nghe tôi."
+    },
+    {
+        "Words": "I feel so old!",
+        "IPA": "aɪ fiːl səʊ əʊld!",
+        "Meaning": "(Old) Tôi cảm thấy thật già!"
+    },
+    {
+        "Words": "I can wait for you here while you shop.",
+        "IPA": "aɪ kæn weɪt fɔː juː hɪə waɪl juː ʃɒp.",
+        "Meaning": "(While) Tôi có thể đợi bạn ở đây trong khi bạn mua sắm."
+    },
+    {
+        "Words": "I didn’t mean to sound so angry.",
+        "IPA": "aɪ dɪdnt miːn tuː saʊnd səʊ ˈæŋgri.",
+        "Meaning": "(Mean) Tôi không cố ý tỏ ra tức giận như vậy."
+    },
+    {
+        "Words": "Can you turn on the lights?",
+        "IPA": "kæn juː tɜːn ɒn ðə laɪts?",
+        "Meaning": "(On) Bạn có thể bật đèn lên không?"
+    },
+    {
+        "Words": "Can we keep the lights on tonight?",
+        "IPA": "kæn wiː kiːp ðə laɪts ɒn təˈnaɪt?",
+        "Meaning": "(Keep) Chúng ta có thể để đèn sáng tối nay không?"
+    },
+    {
+        "Words": "I’ve always been a diligent student.",
+        "IPA": "aɪv ˈɔːlweɪz biːn ə ˈdɪlɪʤənt ˈstjuːdənt.",
+        "Meaning": "(Student) Tôi luôn là một học sinh siêng năng."
+    },
+    {
+        "Words": "This is why I don’t go out anymore.",
+        "IPA": "ðɪs ɪz waɪ aɪ dəʊnt gəʊ aʊt ˌɛniˈmɔː.",
+        "Meaning": "(Why) Đây là lý do tại sao tôi không ra ngoài nữa."
+    },
+    {
+        "Words": "Why won’t you let him know how you feel?",
+        "IPA": "waɪ wəʊnt juː lɛt hɪm nəʊ haʊ juː fiːl?",
+        "Meaning": "(Let) Tại sao bạn không cho anh ấy biết cảm giác của bạn?"
+    },
+    {
+        "Words": "This ice cream place is great for families with kids!",
+        "IPA": "ðɪs aɪs kriːm pleɪs ɪz greɪt fɔː ˈfæmɪliz wɪð kɪdz!",
+        "Meaning": "(Great) Địa điểm ăn kem này là tuyệt vời cho các gia đình có trẻ em!"
+    },
+    {
+        "Words": "Hey, we’re wearing the same shirt!",
+        "IPA": "heɪ, wɪə ˈweərɪŋ ðə seɪm ʃɜːt!",
+        "Meaning": "(Same) Này, chúng ta đang mặc cùng một chiếc áo!"
+    },
+    {
+        "Words": "I have this big crush on Brad Pitt.",
+        "IPA": "aɪ hæv ðɪs bɪg krʌʃ ɒn bræd pɪt.",
+        "Meaning": "(Big) Tôi rất thích Brad Pitt."
+    },
+    {
+        "Words": "The group sitting across our table is so noisy.",
+        "IPA": "ðə gruːp ˈsɪtɪŋ əˈkrɒs ˈaʊə ˈteɪbl ɪz səʊ ˈnɔɪzi.",
+        "Meaning": "(Group) Nhóm ngồi đối diện bàn của chúng tôi rất ồn ào."
+    },
+    {
+        "Words": "Where do I begin with this huge project?",
+        "IPA": "weə duː aɪ bɪˈgɪn wɪð ðɪs hjuːʤ ˈprɒʤɛkt?",
+        "Meaning": "(Begin) Tôi bắt đầu từ đâu với dự án khổng lồ này?"
+    },
+    {
+        "Words": "She may seem quiet, but she’s really outgoing once you get to know her.",
+        "IPA": "ʃiː meɪ siːm ˈkwaɪət, bʌt ʃiːz ˈrɪəli aʊtˈgəʊɪŋ wʌns juː gɛt tuː nəʊ hɜː.",
+        "Meaning": "(Seem) Cô ấy có vẻ trầm lặng, nhưng cô ấy thực sự hướng ngoại khi bạn làm quen với cô ấy."
+    },
+    {
+        "Words": "Japan is such a beautiful country!",
+        "IPA": "ʤəˈpæn ɪz sʌʧ ə ˈbjuːtəfʊl ˈkʌntri!",
+        "Meaning": "(Country) Nhật Bản là một đất nước xinh đẹp!"
+    },
+    {
+        "Words": "I need help with my math homework.",
+        "IPA": "aɪ niːd hɛlp wɪð maɪ mæθ ˈhəʊmˌwɜːk.",
+        "Meaning": "(Help) Tôi cần giúp đỡ với bài tập về nhà toán học của tôi."
+    },
+    {
+        "Words": "Can we talk in private?",
+        "IPA": "kæn wiː tɔːk ɪn ˈpraɪvɪt?",
+        "Meaning": "(Talk) Chúng ta có thể nói chuyện riêng không?"
+    },
+    {
+        "Words": "Where were you last night?",
+        "IPA": "weə wɜː juː lɑːst naɪt?",
+        "Meaning": "(Where) Bạn đã ở đâu tối qua?"
+    },
+    {
+        "Words": "If only I could turn back time.",
+        "IPA": "ɪf ˈəʊnli aɪ kʊd tɜːn bæk taɪm.",
+        "Meaning": "(Turn) Giá như tôi có thể quay ngược thời gian."
+    },
+    {
+        "Words": "The problem is we think we have plenty of time.",
+        "IPA": "ðə ˈprɒbləm ɪz wiː θɪŋk wiː hæv ˈplɛnti ɒv taɪm.",
+        "Meaning": "(Problem) Vấn đề là chúng tôi nghĩ rằng chúng tôi còn nhiều thời gian."
+    },
+    {
+        "Words": "Every person has his own big goal to fulfill.",
+        "IPA": "ˈɛvri ˈpɜːsn hæz hɪz əʊn bɪg gəʊl tuː fʊlˈfɪl.",
+        "Meaning": "(Every) Mỗi người đều có mục tiêu lớn của riêng mình để hoàn thành."
+    },
+    {
+        "Words": "This is great to start learning the English language.",
+        "IPA": "ðɪs ɪz greɪt tuː stɑːt ˈlɜːnɪŋ ði ˈɪŋglɪʃ ˈlæŋgwɪʤ.",
+        "Meaning": "(Start) Đây là điều tuyệt vời để bắt đầu học tiếng Anh."
+    },
+    {
+        "Words": "Don’t let go of my hand.",
+        "IPA": "dəʊnt lɛt gəʊ ɒv maɪ hænd.",
+        "Meaning": "(Hand) Đừng buông tay tôi."
+    },
+    {
+        "Words": "This might actually work.",
+        "IPA": "ðɪs maɪt ˈækʧʊəli wɜːk.",
+        "Meaning": "(Might) Điều này thực sự có thể hoạt động."
+    },
+    {
+        "Words": "The American culture is so dynamic.",
+        "IPA": "ði əˈmɛrɪkən ˈkʌlʧər ɪz səʊ daɪˈnæmɪk.",
+        "Meaning": "(American) Văn hóa Mỹ rất năng động."
+    },
+    {
+        "Words": "Can you show me how to use this vacuum cleaner?",
+        "IPA": "kæn juː ʃəʊ miː haʊ tuː juːz ðɪs ˈvækjʊəm ˈkliːnə?",
+        "Meaning": "(Show) Bạn có thể chỉ cho tôi cách sử dụng máy hút bụi này không?"
+    },
+    {
+        "Words": "This is my favorite part of the movie!",
+        "IPA": "ðɪs ɪz maɪ ˈfeɪvərɪt pɑːt ɒv ðə ˈmuːvi!",
+        "Meaning": "(Part) Đây là phần yêu thích của tôi trong bộ phim!"
+    },
+    {
+        "Words": "What is the story about?",
+        "IPA": "wɒt ɪz ðə ˈstɔːri əˈbaʊt?",
+        "Meaning": "(About) Câu chuyện nói về điều gì?"
+    },
+    {
+        "Words": "I am so against domestic abuse!",
+        "IPA": "aɪ æm səʊ əˈgɛnst dəʊˈmɛstɪk əˈbjuːs!",
+        "Meaning": "(Against) Tôi rất chống lại sự lạm dụng trong gia đình!"
+    },
+    {
+        "Words": "This place is wonderful!",
+        "IPA": "ðɪs pleɪs ɪz ˈwʌndəfʊl!",
+        "Meaning": "(Place) Nơi này thật tuyệt vời!"
+    },
+    {
+        "Words": "She kept saying this over and over again.",
+        "IPA": "ʃiː kɛpt ˈseɪɪŋ ðɪs ˈəʊvər ænd ˈəʊvər əˈgɛn.",
+        "Meaning": "(Over) Cô ấy cứ nói đi nói lại điều này."
+    },
+    {
+        "Words": "He is such an annoying person.",
+        "IPA": "hiː ɪz sʌʧ ən əˈnɔɪɪŋ ˈpɜːsn.",
+        "Meaning": "(Such) Anh ta đúng là một kẻ khó chịu."
+    },
+    {
+        "Words": "Can we play that game again?",
+        "IPA": "kæn wiː pleɪ ðæt geɪm əˈgɛn?",
+        "Meaning": "(Again) Chúng ta có thể chơi lại trò chơi đó không?"
+    },
+    {
+        "Words": "Just a few more errands and I'm done!",
+        "IPA": "ʤʌst ə fjuː mɔːr ˈɛrəndz ænd aɪm dʌn!",
+        "Meaning": "(Few) Chỉ cần một vài việc lặt vặt nữa là xong!"
+    },
+    {
+        "Words": "What an interesting case you are working on now!",
+        "IPA": "wɒt ən ˈɪntrɪstɪŋ keɪs juː ɑː ˈwɜːkɪŋ ɒn naʊ!",
+        "Meaning": "(Case) Thật là một trường hợp thú vị mà bạn đang làm!"
+    },
+    {
+        "Words": "That’s the most interesting story I’ve ever heard.",
+        "IPA": "ðæts ðə məʊst ˈɪntrɪstɪŋ ˈstɔːri aɪv ˈɛvə hɜːd.",
+        "Meaning": "(Most) Đó là câu chuyện thú vị nhất mà tôi từng nghe."
+    },
+    {
+        "Words": "I had a rough week.",
+        "IPA": "aɪ hæd ə rʌf wiːk.",
+        "Meaning": "(Week) Tôi đã có một tuần khó khăn."
+    },
+    {
+        "Words": "Will you keep me company?",
+        "IPA": "wɪl juː kiːp miː ˈkʌmpəni?",
+        "Meaning": "(Company) Bạn sẽ tiếp tục bầu bạn với tôi chứ?"
+    },
+    {
+        "Words": "Where are we going?",
+        "IPA": "weər ɑː wiː ˈgəʊɪŋ?",
+        "Meaning": "(Where) Chúng ta đang đi đâu vậy?"
+    },
+    {
+        "Words": "What’s wrong with the airport’s system?",
+        "IPA": "wɒts rɒŋ wɪð ði ˈeəpɔːts ˈsɪstɪm?",
+        "Meaning": "(System) Có vấn đề gì với hệ thống của sân bay?"
+    },
+    {
+        "Words": "Can you give each of them an apple?",
+        "IPA": "kæn juː gɪv iːʧ ɒv ðɛm ən ˈæpl?",
+        "Meaning": "(Each) Bạn có thể cho mỗi người trong số họ một quả táo?"
+    },
+    {
+        "Words": "I’m right this time.",
+        "IPA": "aɪm raɪt ðɪs taɪm.",
+        "Meaning": "(Right) Tôi đúng lúc này."
+    },
+    {
+        "Words": "This community program for teens is really helpful.",
+        "IPA": "ðɪs kəˈmjuːnɪti ˈprəʊgræm fɔː tiːnz ɪz ˈrɪəli ˈhɛlpfʊl.",
+        "Meaning": "(Program) Chương trình cộng đồng dành cho thanh thiếu niên này thực sự hữu ích."
+    },
+    {
+        "Words": "Did you hear that?",
+        "IPA": "dɪd juː hɪə ðæt?",
+        "Meaning": "(Hear) Bạn có nghe thấy điều đó không?"
+    },
+    {
+        "Words": "I’m so sleepy.",
+        "IPA": "aɪm səʊ ˈsliːpi.",
+        "Meaning": "(So) Tôi rất buồn ngủ."
+    },
+    {
+        "Words": "I have a question for you.",
+        "IPA": "aɪ hæv ə ˈkwɛsʧən fɔː juː.",
+        "Meaning": "(Question) Tôi có một câu hỏi dành cho bạn."
+    },
+    {
+        "Words": "During the session, I saw him fall asleep.",
+        "IPA": "ˈdjʊərɪŋ ðə ˈsɛʃən, aɪ sɔː hɪm fɔːl əˈsliːp.",
+        "Meaning": "(During) Trong suốt buổi học, tôi thấy anh ấy ngủ thiếp đi."
+    },
+    {
+        "Words": "I have to work this weekend.",
+        "IPA": "aɪ hæv tuː wɜːk ðɪs ˈwiːkˈɛnd.",
+        "Meaning": "(Work) Tôi phải làm việc vào cuối tuần này."
+    },
+    {
+        "Words": "We can play soccer next weekend instead.",
+        "IPA": "wiː kæn pleɪ ˈsɒkə nɛkst ˈwiːkˈɛnd ɪnˈstɛd.",
+        "Meaning": "(Play) Thay vào đó, chúng ta có thể chơi bóng đá vào cuối tuần tới."
+    },
+    {
+        "Words": "I hope the government does something about the poverty in this country.",
+        "IPA": "aɪ həʊp ðə ˈgʌvnmənt dʌz ˈsʌmθɪŋ əˈbaʊt ðə ˈpɒvəti ɪn ðɪs ˈkʌntri.",
+        "Meaning": "(Government) Tôi hy vọng chính phủ làm điều gì đó để giải quyết tình trạng nghèo đói ở đất nước này."
+    },
+    {
+        "Words": "If you see a bear here, run for your life.",
+        "IPA": "ɪf juː siː ə beə hɪə, rʌn fɔː jɔː laɪf.",
+        "Meaning": "(Run) Nếu bạn nhìn thấy một con gấu ở đây, hãy chạy lấy mạng sống của bạn."
+    },
+    {
+        "Words": "I have a small favor to ask you.",
+        "IPA": "aɪ hæv ə smɔːl ˈfeɪvə tuː ɑːsk juː.",
+        "Meaning": "(Small) Tôi có một ân huệ nhỏ muốn hỏi bạn."
+    },
+    {
+        "Words": "I have a number of favors to ask you.",
+        "IPA": "aɪ hæv ə ˈnʌmbər ɒv ˈfeɪvəz tuː ɑːsk juː.",
+        "Meaning": "(Number) Tôi có một số đặc ân để hỏi bạn."
+    },
+    {
+        "Words": "Please turn off the television.",
+        "IPA": "pliːz tɜːn ɒf ðə ˈtɛlɪˌvɪʒən.",
+        "Meaning": "(Off) Vui lòng tắt tivi."
+    },
+    {
+        "Words": "I always bring pepper spray with me.",
+        "IPA": "aɪ ˈɔːlweɪz brɪŋ ˈpɛpə spreɪ wɪð miː.",
+        "Meaning": "(Always) Tôi luôn mang theo bình xịt hơi cay bên mình."
+    },
+    {
+        "Words": "Let’s move on to the next tourist spot.",
+        "IPA": "lɛts muːv ɒn tuː ðə nɛkst ˈtʊərɪst spɒt.",
+        "Meaning": "(Move) Hãy chuyển sang điểm du lịch tiếp theo."
+    },
+    {
+        "Words": "I really like you.",
+        "IPA": "aɪ ˈrɪəli laɪk juː.",
+        "Meaning": "(Like) Tôi thực sự thích bạn."
+    },
+    {
+        "Words": "The night is young.",
+        "IPA": "ðə naɪt ɪz jʌŋ.",
+        "Meaning": "(Night) Đêm vẫn còn sớm."
+    },
+    {
+        "Words": "I’m going to live like there’s no tomorrow.",
+        "IPA": "aɪm ˈgəʊɪŋ tuː lɪv laɪk ðeəz nəʊ təˈmɒrəʊ.",
+        "Meaning": "(Live) Tôi sẽ sống như không có ngày mai."
+    },
+    {
+        "Words": "Mr. Morris is here.",
+        "IPA": "Mr. ˈmɒrɪs ɪz hɪə.",
+        "Meaning": "(Mr.) Ông Morris đang ở đây."
+    },
+    {
+        "Words": "You have a point.",
+        "IPA": "juː hæv ə pɔɪnt.",
+        "Meaning": "(Point) Bạn có lý."
+    },
+    {
+        "Words": "I believe in you.",
+        "IPA": "aɪ bɪˈliːv ɪn juː.",
+        "Meaning": "(Believe) Tôi tin bạn."
+    },
+    {
+        "Words": "Just hold my hand.",
+        "IPA": "ʤʌst həʊld maɪ hænd.",
+        "Meaning": "(Hold) Chỉ cần nắm tay tôi."
+    },
+    {
+        "Words": "I’m going to see you today.",
+        "IPA": "aɪm ˈgəʊɪŋ tuː siː juː təˈdeɪ.",
+        "Meaning": "(Today) Tôi sẽ gặp bạn hôm nay."
+    },
+    {
+        "Words": "Please bring a pen.",
+        "IPA": "pliːz brɪŋ ə pɛn.",
+        "Meaning": "(Bring) Vui lòng mang theo bút."
+    },
+    {
+        "Words": "What will happen if you don’t submit your report on time?",
+        "IPA": "wɒt wɪl ˈhæpən ɪf juː dəʊnt səbˈmɪt jɔː rɪˈpɔːt ɒn taɪm?",
+        "Meaning": "(Happen) Điều gì sẽ xảy ra nếu bạn không gửi báo cáo đúng hạn?"
+    },
+    {
+        "Words": "This is the next best thing.",
+        "IPA": "ðɪs ɪz ðə nɛkst bɛst θɪŋ.",
+        "Meaning": "(Next) Đây là điều tốt nhất tiếp theo."
+    },
+    {
+        "Words": "I can’t live without my phone.",
+        "IPA": "aɪ kɑːnt lɪv wɪˈðaʊt maɪ fəʊn.",
+        "Meaning": "(Without) Tôi không thể sống mà không có điện thoại của mình."
+    },
+    {
+        "Words": "Before I go to bed I always wash my face.",
+        "IPA": "bɪˈfɔːr aɪ gəʊ tuː bɛd aɪ ˈɔːlweɪz wɒʃ maɪ feɪs.",
+        "Meaning": "(Before) Trước khi đi ngủ, tôi luôn rửa mặt."
+    },
+    {
+        "Words": "There’s a large amount of data online about that topic.",
+        "IPA": "ðeəz ə lɑːʤ əˈmaʊnt ɒv ˈdeɪtə ˈɒnˌlaɪn əˈbaʊt ðæt ˈtɒpɪk.",
+        "Meaning": "(Large) Có một lượng lớn dữ liệu trực tuyến về chủ đề đó."
+    },
+    {
+        "Words": "That’s all I know about dinosaurs.",
+        "IPA": "ðæts ɔːl aɪ nəʊ əˈbaʊt ˈdaɪnəʊsɔːz.",
+        "Meaning": "(All) Đó là tất cả những gì tôi biết về khủng long."
+    },
+    {
+        "Words": "I have a million questions about this book.",
+        "IPA": "aɪ hæv ə ˈmɪljən ˈkwɛsʧənz əˈbaʊt ðɪs bʊk.",
+        "Meaning": "(Million) Tôi có một triệu câu hỏi về cuốn sách này."
+    },
+    {
+        "Words": "We must watch this movie together.",
+        "IPA": "wiː mʌst wɒʧ ðɪs ˈmuːvi təˈgɛðə.",
+        "Meaning": "(Must) Chúng ta phải xem bộ phim này cùng nhau."
+    },
+    {
+        "Words": "Can we go home now?",
+        "IPA": "kæn wiː gəʊ həʊm naʊ?",
+        "Meaning": "(Home) Chúng ta có thể về nhà bây giờ không?"
+    },
+    {
+        "Words": "I hid it under my bed.",
+        "IPA": "aɪ hɪd ɪt ˈʌndə maɪ bɛd.",
+        "Meaning": "(Under) Tôi đã giấu nó dưới gầm giường của mình."
+    },
+    {
+        "Words": "I filled the tub with water.",
+        "IPA": "aɪ fɪld ðə tʌb wɪð ˈwɔːtə.",
+        "Meaning": "(Water) Tôi đổ đầy nước vào bồn tắm."
+    },
+    {
+        "Words": "His room is at the end of the corridor.",
+        "IPA": "hɪz ruːm ɪz æt ði ɛnd ɒv ðə ˈkɒrɪdɔː.",
+        "Meaning": "(Room) Phòng của anh ấy ở cuối hành lang."
+    },
+    {
+        "Words": "Can you write me a prescription for this?",
+        "IPA": "kæn juː raɪt miː ə prɪsˈkrɪpʃən fɔː ðɪs?",
+        "Meaning": "(Write) Bạn có thể viết cho tôi một đơn thuốc cho điều này?"
+    },
+    {
+        "Words": "His mother is a very lovely woman.",
+        "IPA": "hɪz ˈmʌðər ɪz ə ˈvɛri ˈlʌvli ˈwʊmən.",
+        "Meaning": "(Mother) Mẹ anh là một người phụ nữ rất đáng yêu."
+    },
+    {
+        "Words": "This area of this house needs to be fixed.",
+        "IPA": "ðɪs ˈeərɪə ɒv ðɪs haʊs niːdz tuː biː fɪkst.",
+        "Meaning": "(Area) Diện tích của ngôi nhà này cần được sửa lại."
+    },
+    {
+        "Words": "That virus has become a national concern.",
+        "IPA": "ðæt ˈvaɪərəs hæz bɪˈkʌm ə ˈnæʃənl kənˈsɜːn.",
+        "Meaning": "(National) Virus đó đã trở thành mối quan tâm của quốc gia."
+    },
+    {
+        "Words": "She needs money to buy her medicine.",
+        "IPA": "ʃiː niːdz ˈmʌni tuː baɪ hɜː ˈmɛdsɪn.",
+        "Meaning": "(Money) Cô ấy cần tiền để mua thuốc cho mình."
+    },
+    {
+        "Words": "She shared her story to the media.",
+        "IPA": "ʃiː ʃeəd hɜː ˈstɔːri tuː ðə ˈmiːdiə.",
+        "Meaning": "(Story) Cô đã chia sẻ câu chuyện của mình với giới truyền thông."
+    },
+    {
+        "Words": "She is so young and so hopeful.",
+        "IPA": "ʃiː ɪz səʊ jʌŋ ænd səʊ ˈhəʊpfʊl.",
+        "Meaning": "(Young) Cô ấy còn quá trẻ và rất hy vọng."
+    },
+    {
+        "Words": "It’s a fact: shopping can improve your mood.",
+        "IPA": "ɪts ə fækt: ˈʃɒpɪŋ kæn ɪmˈpruːv jɔː muːd.",
+        "Meaning": "(Fact) Đó là một thực tế: mua sắm có thể cải thiện tâm trạng của bạn."
+    },
+    {
+        "Words": "It’s that time of the month!",
+        "IPA": "ɪts ðæt taɪm ɒv ðə mʌnθ!",
+        "Meaning": "(Month) Vào thời gian đó của tháng!"
+    },
+    {
+        "Words": "Just because she’s different, it doesn’t mean she’s bad.",
+        "IPA": "ʤʌst bɪˈkɒz ʃiːz ˈdɪfrənt, ɪt dʌznt miːn ʃiːz bæd.",
+        "Meaning": "(Different) Chỉ vì cô ấy khác biệt, không có nghĩa là cô ấy xấu."
+    },
+    {
+        "Words": "You have a lot of explaining to do.",
+        "IPA": "juː hæv ə lɒt ɒv ɪksˈpleɪnɪŋ tuː duː.",
+        "Meaning": "(Lot) Bạn có rất nhiều giải thích để làm."
+    },
+    {
+        "Words": "Turn right when you reach the corner.",
+        "IPA": "tɜːn raɪt wɛn juː riːʧ ðə ˈkɔːnə.",
+        "Meaning": "(Right) Rẽ phải khi bạn đến góc."
+    },
+    {
+        "Words": "Let’s study our English lessons together.",
+        "IPA": "lɛts ˈstʌdi ˈaʊər ˈɪŋglɪʃ ˈlɛsnz təˈgɛðə.",
+        "Meaning": "(Study) Chúng ta hãy cùng nhau nghiên cứu các bài học tiếng Anh của chúng ta."
+    },
+    {
+        "Words": "Can I borrow your English book?",
+        "IPA": "kæn aɪ ˈbɒrəʊ jɔːr ˈɪŋglɪʃ bʊk?",
+        "Meaning": "(Book) Tôi có thể mượn sách tiếng Anh của bạn không?"
+    },
+    {
+        "Words": "She has pink eye.",
+        "IPA": "ʃiː hæz pɪŋk aɪ.",
+        "Meaning": "(Eye) Cô ấy có mắt màu hồng."
+    },
+    {
+        "Words": "I love my job.",
+        "IPA": "aɪ lʌv maɪ ʤɒb.",
+        "Meaning": "(Job) Tôi yêu công việc của mình."
+    },
+    {
+        "Words": "Describe yourself in one word.",
+        "IPA": "dɪsˈkraɪb jɔːˈsɛlf ɪn wʌn wɜːd.",
+        "Meaning": "(Word) Mô tả bản thân bằng một từ."
+    },
+    {
+        "Words": "Though you are angry now, I’m sure you will forget about this later.",
+        "IPA": "ðəʊ juː ɑːr ˈæŋgri naʊ, aɪm ʃʊə juː wɪl fəˈgɛt əˈbaʊt ðɪs ˈleɪtə.",
+        "Meaning": "(Though) Dù bây giờ bạn đang tức giận nhưng tôi chắc chắn rằng bạn sẽ quên chuyện này sau này."
+    },
+    {
+        "Words": "His business is thriving.",
+        "IPA": "hɪz ˈbɪznɪs ɪz ˈθraɪvɪŋ.",
+        "Meaning": "(Business) Công việc kinh doanh của anh ấy đang phát đạt."
+    },
+    {
+        "Words": "This is not an issue for me.",
+        "IPA": "ðɪs ɪz nɒt ən ˈɪʃuː fɔː miː.",
+        "Meaning": "(Issue) Đây không phải là một vấn đề đối với tôi."
+    },
+    {
+        "Words": "Whose side are you on, anyway?",
+        "IPA": "huːz saɪd ɑː juː ɒn, ˈɛnɪweɪ?",
+        "Meaning": "(Side) Dù sao thì bạn cũng đứng về phía ai?"
+    },
+    {
+        "Words": "Always be kind, even to strangers.",
+        "IPA": "ˈɔːlweɪz biː kaɪnd, ˈiːvən tuː ˈstreɪnʤəz.",
+        "Meaning": "(Kind) Hãy luôn tử tế, ngay cả với người lạ."
+    },
+    {
+        "Words": "There are four seasons in a year.",
+        "IPA": "ðeər ɑː fɔː ˈsiːznz ɪn ə jɪə.",
+        "Meaning": "(Four) Có bốn mùa trong một năm."
+    },
+    {
+        "Words": "Let’s head back, it’s freezing out here.",
+        "IPA": "lɛts hɛd bæk, ɪts ˈfriːzɪŋ aʊt hɪə.",
+        "Meaning": "(Head) Quay đầu lại, ở đây đang đóng băng."
+    },
+    {
+        "Words": "We’ve gone too far and now we’re lost.",
+        "IPA": "wiːv gɒn tuː fɑːr ænd naʊ wɪə lɒst.",
+        "Meaning": "(Far) Chúng ta đã đi quá xa và giờ chúng ta lạc lối."
+    },
+    {
+        "Words": "She has long, black hair.",
+        "IPA": "ʃiː hæz lɒŋ, blæk heə.",
+        "Meaning": "(Black) Cô ấy có mái tóc đen dài."
+    },
+    {
+        "Words": "She has long, brown hair.",
+        "IPA": "ʃiː hæz lɒŋ, braʊn heə.",
+        "Meaning": "(Long) Cô ấy có mái tóc dài và màu nâu."
+    },
+    {
+        "Words": "They both love chocolate ice cream.",
+        "IPA": "ðeɪ bəʊθ lʌv ˈʧɒkəlɪt aɪs kriːm.",
+        "Meaning": "(Both) Cả hai đều thích kem sô cô la."
+    },
+    {
+        "Words": "I have two little boys with me now.",
+        "IPA": "aɪ hæv tuː ˈlɪtl bɔɪz wɪð miː naʊ.",
+        "Meaning": "(Little) Bây giờ tôi có hai cậu con trai nhỏ."
+    },
+    {
+        "Words": "The house is so quiet without you.",
+        "IPA": "ðə haʊs ɪz səʊ ˈkwaɪət wɪˈðaʊt juː.",
+        "Meaning": "(House) Ngôi nhà thật yên tĩnh khi không có anh."
+    },
+    {
+        "Words": "I hope you say yes.",
+        "IPA": "aɪ həʊp juː seɪ jɛs.",
+        "Meaning": "(Yes) Tôi hy vọng bạn nói có."
+    },
+    {
+        "Words": "After all this time, he has finally learned to love.",
+        "IPA": "ˈɑːftər ɔːl ðɪs taɪm, hiː hæz ˈfaɪnəli lɜːnt tuː lʌv.",
+        "Meaning": "(After) Sau ngần ấy thời gian, cuối cùng anh ấy cũng đã học được cách yêu."
+    },
+    {
+        "Words": "Ever since his mom died, he has been cranky and angry at the world.",
+        "IPA": "ˈɛvə sɪns hɪz mɒm daɪd, hiː hæz biːn ˈkræŋki ænd ˈæŋgri æt ðə wɜːld.",
+        "Meaning": "(Since) Kể từ khi mẹ anh mất, anh luôn cáu kỉnh và giận dữ với thế giới."
+    },
+    {
+        "Words": "That was such a long time ago.",
+        "IPA": "ðæt wɒz sʌʧ ə lɒŋ taɪm əˈgəʊ.",
+        "Meaning": "(Long) Đó là một thời gian dài trước đây."
+    },
+    {
+        "Words": "Please provide me with a list of your services.",
+        "IPA": "pliːz prəˈvaɪd miː wɪð ə lɪst ɒv jɔː ˈsɜːvɪsɪz.",
+        "Meaning": "(Provide) Vui lòng cung cấp cho tôi danh sách các dịch vụ của bạn."
+    },
+    {
+        "Words": "Do you have a specific dental service to treat this?",
+        "IPA": "duː juː hæv ə spɪˈsɪfɪk ˈdɛntl ˈsɜːvɪs tuː triːt ðɪs?",
+        "Meaning": "(Service) Bạn có một dịch vụ nha khoa cụ thể để điều trị điều này?"
+    },
+    {
+        "Words": "We went around the block.",
+        "IPA": "wiː wɛnt əˈraʊnd ðə blɒk.",
+        "Meaning": "(Around) Chúng tôi đã đi xung quanh khu nhà."
+    },
+    {
+        "Words": "You’re a good friend.",
+        "IPA": "jʊər ə gʊd frɛnd.",
+        "Meaning": "(Friend) Bạn là một người bạn tốt."
+    },
+    {
+        "Words": "You’re important to me.",
+        "IPA": "jʊər ɪmˈpɔːtənt tuː miː.",
+        "Meaning": "(Important) Bạn quan trọng đôi vơi tôi."
+    },
+    {
+        "Words": "My father is so important to me.",
+        "IPA": "maɪ ˈfɑːðər ɪz səʊ ɪmˈpɔːtənt tuː miː.",
+        "Meaning": "(Father) Cha tôi rất quan trọng đối với tôi."
+    },
+    {
+        "Words": "Let’s sit outside together.",
+        "IPA": "lɛts sɪt ˌaʊtˈsaɪd təˈgɛðə.",
+        "Meaning": "(Sit) Hãy ngồi bên ngoài cùng nhau."
+    },
+    {
+        "Words": "He’s away right now.",
+        "IPA": "hiːz əˈweɪ raɪt naʊ.",
+        "Meaning": "(Away) Anh ấy đi ngay bây giờ."
+    },
+    {
+        "Words": "Until when will you be away?",
+        "IPA": "ənˈtɪl wɛn wɪl juː biː əˈweɪ?",
+        "Meaning": "(Until) Cho đến khi nào bạn sẽ đi xa?"
+    },
+    {
+        "Words": "With great power comes great responsibility.",
+        "IPA": "wɪð greɪt ˈpaʊə kʌmz greɪt rɪsˌpɒnsəˈbɪlɪti.",
+        "Meaning": "(Power) Với sức mạnh lớn đến trách nhiệm lớn."
+    },
+    {
+        "Words": "I’ve been checking his temperature every hour.",
+        "IPA": "aɪv biːn ˈʧɛkɪŋ hɪz ˈtɛmprɪʧər ˈɛvri ˈaʊə.",
+        "Meaning": "(Hour) Tôi đã kiểm tra nhiệt độ của anh ấy hàng giờ."
+    },
+    {
+        "Words": "Let’s play a game.",
+        "IPA": "lɛts pleɪ ə geɪm.",
+        "Meaning": "(Game) Chúng ta hãy chơi một trò chơi."
+    },
+    {
+        "Words": "I buy from his bakery as often as I can.",
+        "IPA": "aɪ baɪ frɒm hɪz ˈbeɪkəri æz ˈɒf(ə)n æz aɪ kæn.",
+        "Meaning": "(Often) Tôi mua từ tiệm bánh của anh ấy thường xuyên nhất có thể."
+    },
+    {
+        "Words": "He’s not yet home.",
+        "IPA": "hiːz nɒt jɛt həʊm.",
+        "Meaning": "(Yet) Anh ấy vẫn chưa về nhà."
+    },
+    {
+        "Words": "There’s a long line at the grocery cashier.",
+        "IPA": "ðeəz ə lɒŋ laɪn æt ðə ˈgrəʊsəri kæˈʃɪə.",
+        "Meaning": "(Line) Có một hàng dài ở quầy thu ngân tạp hóa."
+    },
+    {
+        "Words": "I stay away from political discussions.",
+        "IPA": "aɪ steɪ əˈweɪ frɒm pəˈlɪtɪkəl dɪsˈkʌʃənz.",
+        "Meaning": "(Political) Tôi tránh xa các cuộc thảo luận chính trị."
+    },
+    {
+        "Words": "It’s the end of an era.",
+        "IPA": "ɪts ði ɛnd ɒv ən ˈɪərə.",
+        "Meaning": "(End) Đó là sự kết thúc của một kỷ nguyên."
+    },
+    {
+        "Words": "Among all my pets, he’s my most favorite.",
+        "IPA": "əˈmʌŋ ɔːl maɪ pɛts, hiːz maɪ məʊst ˈfeɪvərɪt.",
+        "Meaning": "(Among) Trong số tất cả các vật nuôi của tôi, nó là con vật yêu thích nhất của tôi."
+    },
+    {
+        "Words": "Have you ever tried this cake?",
+        "IPA": "hæv juː ˈɛvə traɪd ðɪs keɪk?",
+        "Meaning": "(Ever) Bạn đã từng thử món bánh này chưa?"
+    },
+    {
+        "Words": "Can you stand still for a minute?",
+        "IPA": "kæn juː stænd stɪl fɔːr ə ˈmɪnɪt?",
+        "Meaning": "(Stand) Bạn có thể đứng yên trong một phút không?"
+    },
+    {
+        "Words": "What you did was so bad.",
+        "IPA": "wɒt juː dɪd wɒz səʊ bæd.",
+        "Meaning": "(Bad) Những gì bạn đã làm thật tồi tệ."
+    },
+    {
+        "Words": "I can’t lose you.",
+        "IPA": "aɪ kɑːnt luːz juː.",
+        "Meaning": "(Lose) Tôi không thể để mất bạn."
+    },
+    {
+        "Words": "I want to buy this bag, however, I need to save up for it first.",
+        "IPA": "aɪ wɒnt tuː baɪ ðɪs bæg, haʊˈɛvə, aɪ niːd tuː seɪv ʌp fɔːr ɪt fɜːst.",
+        "Meaning": "(However) Tôi muốn mua chiếc túi này, tuy nhiên, trước tiên tôi cần phải tiết kiệm cho nó."
+    },
+    {
+        "Words": "She’s a member of the babysitter’s club.",
+        "IPA": "ʃiːz ə ˈmɛmbər ɒv ðə ˈbeɪbɪˌsɪtəz klʌb.",
+        "Meaning": "(Member) Cô ấy là thành viên của câu lạc bộ người trông trẻ."
+    },
+    {
+        "Words": "Let’s pay for our groceries.",
+        "IPA": "lɛts peɪ fɔːr ˈaʊə ˈgrəʊsəriz.",
+        "Meaning": "(Pay) Hãy trả tiền cho cửa hàng tạp hóa của chúng tôi."
+    },
+    {
+        "Words": "There’s a law against jay-walking.",
+        "IPA": "ðeəz ə lɔː əˈgɛnst ʤeɪ-ˈwɔːkɪŋ.",
+        "Meaning": "(Law) Có luật chống đi bộ đường dài."
+    },
+    {
+        "Words": "I want you to meet my aunt.",
+        "IPA": "aɪ wɒnt juː tuː miːt maɪ ɑːnt.",
+        "Meaning": "(Meet) Tôi muốn bạn gặp dì của tôi."
+    },
+    {
+        "Words": "Let’s go inside my car.",
+        "IPA": "lɛts gəʊ ɪnˈsaɪd maɪ kɑː.",
+        "Meaning": "(Car) Vào trong xe của tôi."
+    },
+    {
+        "Words": "This is the city that never sleeps.",
+        "IPA": "ðɪs ɪz ðə ˈsɪti ðæt ˈnɛvə sliːps.",
+        "Meaning": "(City) Đây là thành phố không bao giờ ngủ."
+    },
+    {
+        "Words": "I’m almost done with my report.",
+        "IPA": "aɪm ˈɔːlməʊst dʌn wɪð maɪ rɪˈpɔːt.",
+        "Meaning": "(Almost) Tôi sắp hoàn thành báo cáo của mình."
+    },
+    {
+        "Words": "Did you remember to include the summary in your report?",
+        "IPA": "dɪd juː rɪˈmɛmbə tuː ɪnˈkluːd ðə ˈsʌməri ɪn jɔː rɪˈpɔːt?",
+        "Meaning": "(Include) Bạn có nhớ đưa phần tóm tắt vào báo cáo của mình không?"
+    },
+    {
+        "Words": "Can we continue working tomorrow?",
+        "IPA": "kæn wiː kənˈtɪnju(ː) ˈwɜːkɪŋ təˈmɒrəʊ?",
+        "Meaning": "(Continue) Chúng ta có thể tiếp tục làm việc vào ngày mai không?"
+    },
+    {
+        "Words": "Great, let me set an appointment for you.",
+        "IPA": "greɪt, lɛt miː sɛt ən əˈpɔɪntmənt fɔː juː.",
+        "Meaning": "(Set) Tuyệt vời, hãy để tôi đặt một cuộc hẹn cho bạn."
+    },
+    {
+        "Words": "I’ll finish it later.",
+        "IPA": "aɪl ˈfɪnɪʃ ɪt ˈleɪtə.",
+        "Meaning": "(Later) Tôi sẽ hoàn thành nó sau."
+    },
+    {
+        "Words": "Our community is very tight-knit.",
+        "IPA": "ˈaʊə kəˈmjuːnɪti ɪz ˈvɛri taɪt-nɪt.",
+        "Meaning": "(Community) Cộng đồng của chúng tôi rất chặt chẽ."
+    },
+    {
+        "Words": "There’s so much to learn in the English language.",
+        "IPA": "ðeəz səʊ mʌʧ tuː lɜːn ɪn ði ˈɪŋglɪʃ ˈlæŋgwɪʤ.",
+        "Meaning": "(Much) Có quá nhiều thứ để học bằng tiếng Anh."
+    },
+    {
+        "Words": "What’s your name?",
+        "IPA": "wɒts jɔː neɪm?",
+        "Meaning": "(Name) Bạn tên là gì?"
+    },
+    {
+        "Words": "I can give you five reasons why you need to watch that video.",
+        "IPA": "aɪ kæn gɪv juː faɪv ˈriːznz waɪ juː niːd tuː wɒʧ ðæt ˈvɪdɪəʊ.",
+        "Meaning": "(Five) Tôi có thể cung cấp cho bạn năm lý do tại sao bạn cần xem video đó."
+    },
+    {
+        "Words": "I once had a puppy named bark.",
+        "IPA": "aɪ wʌns hæd ə ˈpʌpi neɪmd bɑːk.",
+        "Meaning": "(Once) Tôi đã từng có một con chó con tên là sủa."
+    },
+    {
+        "Words": "I love my white sneakers.",
+        "IPA": "aɪ lʌv maɪ waɪt ˈsniːkəz.",
+        "Meaning": "(White) Tôi yêu đôi giày thể thao màu trắng của mình."
+    },
+    {
+        "Words": "She’s the least productive among all the employees.",
+        "IPA": "ʃiːz ðə liːst prəˈdʌktɪv əˈmʌŋ ɔːl ði ˌɛmplɔɪˈiːz.",
+        "Meaning": "(Least) Cô ấy là người kém năng suất nhất trong số tất cả các nhân viên."
+    },
+    {
+        "Words": "She was our class president back in high school.",
+        "IPA": "ʃiː wɒz ˈaʊə klɑːs ˈprɛzɪdənt bæk ɪn haɪ skuːl.",
+        "Meaning": "(President ) Cô ấy là lớp trưởng của chúng tôi hồi trung học."
+    },
+    {
+        "Words": "I’d love to learn more about the English language.",
+        "IPA": "aɪd lʌv tuː lɜːn mɔːr əˈbaʊt ði ˈɪŋglɪʃ ˈlæŋgwɪʤ.",
+        "Meaning": "(Learn) Tôi muốn tìm hiểu thêm về ngôn ngữ tiếng Anh."
+    },
+    {
+        "Words": "What is her real name?",
+        "IPA": "wɒt ɪz hɜː rɪəl neɪm?",
+        "Meaning": "(Real) Tên thật của cô ấy là gì?"
+    },
+    {
+        "Words": "What can we change so that things will get better?",
+        "IPA": "wɒt kæn wiː ʧeɪnʤ səʊ ðæt θɪŋz wɪl gɛt ˈbɛtə?",
+        "Meaning": "(Change) Chúng ta có thể thay đổi điều gì để mọi thứ trở nên tốt đẹp hơn?"
+    },
+    {
+        "Words": "They hired a team to do the design of their new office.",
+        "IPA": "ðeɪ ˈhaɪəd ə tiːm tuː duː ðə dɪˈzaɪn ɒv ðeə njuː ˈɒfɪs.",
+        "Meaning": "(Team) Họ đã thuê một nhóm để thiết kế văn phòng mới của họ."
+    },
+    {
+        "Words": "She’s laughing every minute of every day.",
+        "IPA": "ʃiːz ˈlɑːfɪŋ ˈɛvri ˈmɪnɪt ɒv ˈɛvri deɪ.",
+        "Meaning": "(Minute) Cô ấy đang cười mỗi phút mỗi ngày."
+    },
+    {
+        "Words": "This is the best potato salad I've ever tasted.",
+        "IPA": "ðɪs ɪz ðə bɛst pəˈteɪtəʊ ˈsæləd aɪv ˈɛvə ˈteɪstɪd.",
+        "Meaning": "(Best) Đây là món salad khoai tây ngon nhất mà tôi từng được nếm."
+    },
+    {
+        "Words": "I have several old clothes I need to donate.",
+        "IPA": "aɪ hæv ˈsɛvrəl əʊld kləʊðz aɪ niːd tuː dəʊˈneɪt.",
+        "Meaning": "(Several) Tôi có vài bộ quần áo cũ cần quyên góp."
+    },
+    {
+        "Words": "It was your idea to go to the beach, remember?",
+        "IPA": "ɪt wɒz jɔːr aɪˈdɪə tuː gəʊ tuː ðə biːʧ, rɪˈmɛmbə?",
+        "Meaning": "(Idea) Đó là ý tưởng của bạn để đi đến bãi biển, nhớ không?"
+    },
+    {
+        "Words": "I loved that toy when I was a kid.",
+        "IPA": "aɪ lʌvd ðæt tɔɪ wɛn aɪ wɒz ə kɪd.",
+        "Meaning": "(Kid) Tôi thích món đồ chơi đó khi tôi còn nhỏ."
+    },
+    {
+        "Words": "She worked out hard to achieve a toned body.",
+        "IPA": "ʃiː wɜːkt aʊt hɑːd tuː əˈʧiːv ə təʊnd ˈbɒdi.",
+        "Meaning": "(Body) Cô tập luyện chăm chỉ để có được thân hình săn chắc."
+    },
+    {
+        "Words": "This is the information I need.",
+        "IPA": "ðɪs ɪz ði ˌɪnfəˈmeɪʃən aɪ niːd.",
+        "Meaning": "(Information) Đây là thông tin tôi cần."
+    },
+    {
+        "Words": "There’s nothing we can do now.",
+        "IPA": "ðeəz ˈnʌθɪŋ wiː kæn duː naʊ.",
+        "Meaning": "(Nothing) Chúng tôi không thể làm gì bây giờ."
+    },
+    {
+        "Words": "Three years ago, I visited Japan for the first time.",
+        "IPA": "θriː jɪəz əˈgəʊ, aɪ ˈvɪzɪtɪd ʤəˈpæn fɔː ðə fɜːst taɪm.",
+        "Meaning": "(Ago) Ba năm trước, tôi đến thăm Nhật Bản lần đầu tiên."
+    },
+    {
+        "Words": "You’re right, I want to go back there.",
+        "IPA": "jʊə raɪt, aɪ wɒnt tuː gəʊ bæk ðeə.",
+        "Meaning": "(Right) Bạn nói đúng, tôi muốn quay lại đó."
+    },
+    {
+        "Words": "Just lead the way and I'll follow.",
+        "IPA": "ʤʌst liːd ðə weɪ ænd aɪl ˈfɒləʊ.",
+        "Meaning": "(Lead) Chỉ cần dẫn đường và tôi sẽ theo sau."
+    },
+    {
+        "Words": "I feel awkward in these social gatherings.",
+        "IPA": "aɪ fiːl ˈɔːkwəd ɪn ðiːz ˈsəʊʃəl ˈgæðərɪŋz.",
+        "Meaning": "(Social) Tôi cảm thấy khó xử trong những cuộc gặp gỡ xã hội này."
+    },
+    {
+        "Words": "I understand how you feel.",
+        "IPA": "aɪ ˌʌndəˈstænd haʊ juː fiːl.",
+        "Meaning": "(Understand) Tôi hiểu bạn cảm thấy thế nào."
+    },
+    {
+        "Words": "Whether in big groups or small groups, I always feel a little shy at first.",
+        "IPA": "ˈwɛðər ɪn bɪg gruːps ɔː smɔːl gruːps, aɪ ˈɔːlweɪz fiːl ə ˈlɪtl ʃaɪ æt fɜːst.",
+        "Meaning": "(Whether) Dù ở nhóm lớn hay nhóm nhỏ, ban đầu tôi luôn cảm thấy hơi ngại."
+    },
+    {
+        "Words": "Looking back, I knew I was always an introvert.",
+        "IPA": "ˈlʊkɪŋ bæk, aɪ njuː aɪ wɒz ˈɔːlweɪz ən ˈɪntrəʊˌvɜːt.",
+        "Meaning": "(Back) Nhìn lại, tôi biết mình luôn là người hướng nội."
+    },
+    {
+        "Words": "Let’s watch the sunset on the horizon.",
+        "IPA": "lɛts wɒʧ ðə ˈsʌnsɛt ɒn ðə həˈraɪzn.",
+        "Meaning": "(Watch) Hãy cùng ngắm hoàng hôn trên đường chân trời."
+    },
+    {
+        "Words": "They’re together now.",
+        "IPA": "ðeə təˈgɛðə naʊ.",
+        "Meaning": "(Together) Bây giờ họ đang ở bên nhau."
+    },
+    {
+        "Words": "I’ll follow you home.",
+        "IPA": "aɪl ˈfɒləʊ juː həʊm.",
+        "Meaning": "(Follow) Tôi sẽ theo bạn về nhà."
+    },
+    {
+        "Words": "You’ll always have me around.",
+        "IPA": "juːl ˈɔːlweɪz hæv miː əˈraʊnd.",
+        "Meaning": "(Around) Bạn sẽ luôn có tôi bên cạnh."
+    },
+    {
+        "Words": "Every parent is trying hard and doing their best.",
+        "IPA": "ˈɛvri ˈpeərənt ɪz ˈtraɪɪŋ hɑːd ænd ˈdu(ː)ɪŋ ðeə bɛst.",
+        "Meaning": "(Parent) Cha mẹ nào cũng cố gắng và nỗ lực hết mình."
+    },
+    {
+        "Words": "You are only allowed to go out today.",
+        "IPA": "juː ɑːr ˈəʊnli əˈlaʊd tuː gəʊ aʊt təˈdeɪ.",
+        "Meaning": "(Only) Bạn chỉ được phép ra ngoài ngày hôm nay."
+    },
+    {
+        "Words": "Please stop that.",
+        "IPA": "pliːz stɒp ðæt.",
+        "Meaning": "(Stop) Hãy dừng lại đó."
+    },
+    {
+        "Words": "Why is your face so red?",
+        "IPA": "waɪ ɪz jɔː feɪs səʊ rɛd?",
+        "Meaning": "(Face) Sao mặt cậu đỏ thế này?"
+    },
+    {
+        "Words": "You can ask me for anything.",
+        "IPA": "juː kæn ɑːsk miː fɔːr ˈɛnɪθɪŋ.",
+        "Meaning": "(Anything) Bạn có thể yêu cầu tôi bất cứ điều gì."
+    },
+    {
+        "Words": "Did you create that presentation? It was so good.",
+        "IPA": "dɪd juː kri(ː)ˈeɪt ðæt ˌprɛzɛnˈteɪʃən? ɪt wɒz səʊ gʊd.",
+        "Meaning": "(Create) Bạn đã tạo bản trình bày đó? Nó rất tốt."
+    },
+    {
+        "Words": "This is public property.",
+        "IPA": "ðɪs ɪz ˈpʌblɪk ˈprɒpəti.",
+        "Meaning": "(Public) Đây là tài sản công cộng."
+    },
+    {
+        "Words": "I already asked him to resend his report.",
+        "IPA": "aɪ ɔːlˈrɛdi ɑːskt hɪm tuː ˌriːˈsɛnd hɪz rɪˈpɔːt.",
+        "Meaning": "(Already) Tôi đã yêu cầu anh ta gửi lại báo cáo của mình."
+    },
+    {
+        "Words": "Could you speak a little louder?",
+        "IPA": "kʊd juː spiːk ə ˈlɪtl ˈlaʊdə?",
+        "Meaning": "(Speak) Bạn có thể nói to hơn một chút được không?"
+    },
+    {
+        "Words": "The others haven’t arrived yet.",
+        "IPA": "ði ˈʌðəz hævnt əˈraɪvd jɛt.",
+        "Meaning": "(Others) Những người khác vẫn chưa đến."
+    },
+    {
+        "Words": "I read somewhere that this house is haunted.",
+        "IPA": "aɪ riːd ˈsʌmweə ðæt ðɪs haʊs ɪz ˈhɔːntɪd.",
+        "Meaning": "(Read) Tôi đọc ở đâu đó rằng ngôi nhà này bị ma ám."
+    },
+    {
+        "Words": "What level are you in that game?",
+        "IPA": "wɒt ˈlɛvl ɑː juː ɪn ðæt geɪm?",
+        "Meaning": "(Level) Bạn đang ở cấp độ nào trong trò chơi đó?"
+    },
+    {
+        "Words": "Do you allow your kids to play outside the house?",
+        "IPA": "duː juː əˈlaʊ jɔː kɪdz tuː pleɪ ˌaʊtˈsaɪd ðə haʊs?",
+        "Meaning": "(Allow) Bạn có cho phép con bạn chơi bên ngoài nhà không?"
+    },
+    {
+        "Words": "Is it okay if we add a bit of sugar to the tea?",
+        "IPA": "ɪz ɪt ˈəʊˈkeɪ ɪf wiː æd ə bɪt ɒv ˈʃʊgə tuː ðə tiː?",
+        "Meaning": "(Add) Nếu chúng ta thêm một chút đường vào trà thì có được không?"
+    },
+    {
+        "Words": "Welcome to my office.",
+        "IPA": "ˈwɛlkəm tuː maɪ ˈɒfɪs.",
+        "Meaning": "(Office) Chào mừng đến với văn phòng của tôi."
+    },
+    {
+        "Words": "How much did you spend on your last shopping spree?",
+        "IPA": "haʊ mʌʧ dɪd juː spɛnd ɒn jɔː lɑːst ˈʃɒpɪŋ spriː?",
+        "Meaning": "(Spend) Bạn đã chi bao nhiêu cho lần mua sắm cuối cùng của mình?"
+    },
+    {
+        "Words": "You left the door open.",
+        "IPA": "juː lɛft ðə dɔːr ˈəʊpən.",
+        "Meaning": "(Door) Bạn đã để cửa mở."
+    },
+    {
+        "Words": "You must take good care of your health.",
+        "IPA": "juː mʌst teɪk gʊd keər ɒv jɔː hɛlθ.",
+        "Meaning": "(Health) Bạn phải chăm sóc sức khỏe của mình thật tốt."
+    },
+    {
+        "Words": "You are a good person.",
+        "IPA": "juː ɑːr ə gʊd ˈpɜːsn.",
+        "Meaning": "(Person) Bạn là một người tốt."
+    },
+    {
+        "Words": "This is my work of art.",
+        "IPA": "ðɪs ɪz maɪ wɜːk ɒv ɑːt.",
+        "Meaning": "(Art) Đây là tác phẩm nghệ thuật của tôi."
+    },
+    {
+        "Words": "Are you sure you want to do this alone?",
+        "IPA": "ɑː juː ʃʊə juː wɒnt tuː duː ðɪs əˈləʊn?",
+        "Meaning": "(Sure) Bạn có chắc chắn muốn làm điều này một mình?"
+    },
+    {
+        "Words": "You are such a brave little boy.",
+        "IPA": "juː ɑː sʌʧ ə breɪv ˈlɪtl bɔɪ.",
+        "Meaning": "(Such) Con quả là một cậu bé dũng cảm."
+    },
+    {
+        "Words": "The war has finally ended.",
+        "IPA": "ðə wɔː hæz ˈfaɪnəli ˈɛndɪd.",
+        "Meaning": "(War) Cuộc chiến cuối cùng đã kết thúc."
+    },
+    {
+        "Words": "She is my history professor.",
+        "IPA": "ʃiː ɪz maɪ ˈhɪstəri prəˈfɛsə.",
+        "Meaning": "(History) Cô ấy là giáo sư lịch sử của tôi."
+    },
+    {
+        "Words": "Are you going to her party tonight?",
+        "IPA": "ɑː juː ˈgəʊɪŋ tuː hɜː ˈpɑːti təˈnaɪt?",
+        "Meaning": "(Party) Bạn có đi đến bữa tiệc của cô ấy tối nay?"
+    },
+    {
+        "Words": "We support everyone within our small community.",
+        "IPA": "wiː səˈpɔːt ˈɛvrɪwʌn wɪˈðɪn ˈaʊə smɔːl kəˈmjuːnɪti.",
+        "Meaning": "(Within) Chúng tôi hỗ trợ tất cả mọi người trong cộng đồng nhỏ của chúng tôi."
+    },
+    {
+        "Words": "We want everyone to grow and thrive in their careers.",
+        "IPA": "wiː wɒnt ˈɛvrɪwʌn tuː grəʊ ænd θraɪv ɪn ðeə kəˈrɪəz.",
+        "Meaning": "(Grow) Chúng tôi muốn tất cả mọi người đều phát triển và thành công trong sự nghiệp của họ."
+    },
+    {
+        "Words": "The result of this outreach program is amazing.",
+        "IPA": "ðə rɪˈzʌlt ɒv ðɪs ˈaʊtriːʧ ˈprəʊgræm ɪz əˈmeɪzɪŋ.",
+        "Meaning": "(Result) Kết quả của chương trình tiếp cận cộng đồng này thật tuyệt vời."
+    },
+    {
+        "Words": "Are you open to teaching on weekends?",
+        "IPA": "ɑː juː ˈəʊpən tuː ˈtiːʧɪŋ ɒn ˈwiːkˈɛndz?",
+        "Meaning": "(Open) Bạn có mở cửa dạy học vào cuối tuần không?"
+    },
+    {
+        "Words": "Where can we change her diaper?",
+        "IPA": "weə kæn wiː ʧeɪnʤ hɜː ˈdaɪəpə?",
+        "Meaning": "(Change) Chúng tôi có thể thay tã cho cô ấy ở đâu?"
+    },
+    {
+        "Words": "It’s such a beautiful morning!",
+        "IPA": "ɪts sʌʧ ə ˈbjuːtəfʊl ˈmɔːnɪŋ!",
+        "Meaning": "(Morning) Đó là một buổi sáng đẹp trời!"
+    },
+    {
+        "Words": "Come take a walk with me.",
+        "IPA": "kʌm teɪk ə wɔːk wɪð miː.",
+        "Meaning": "(Walk) Hãy đi dạo với tôi."
+    },
+    {
+        "Words": "You are the reason I came home.",
+        "IPA": "juː ɑː ðə ˈriːzn aɪ keɪm həʊm.",
+        "Meaning": "(Reason) Bạn là lý do tôi trở về nhà."
+    },
+    {
+        "Words": "Her blood pressure has gotten really low.",
+        "IPA": "hɜː blʌd ˈprɛʃə hæz ˈgɒtn ˈrɪəli ləʊ.",
+        "Meaning": "(Low) Huyết áp của cô ấy đã xuống rất thấp."
+    },
+    {
+        "Words": "We can win this match if we work together.",
+        "IPA": "wiː kæn wɪn ðɪs mæʧ ɪf wiː wɜːk təˈgɛðə.",
+        "Meaning": "(Win) Chúng tôi có thể giành chiến thắng trong trận đấu này nếu chúng tôi làm việc cùng nhau."
+    },
+    {
+        "Words": "How is your research going?",
+        "IPA": "haʊ ɪz jɔː rɪˈsɜːʧ ˈgəʊɪŋ?",
+        "Meaning": "(Research) Tiến trình nghiên cứu của bạn như thế nào?"
+    },
+    {
+        "Words": "That girl is in my class.",
+        "IPA": "ðæt gɜːl ɪz ɪn maɪ klɑːs.",
+        "Meaning": "(Girl) Cô gái đó học cùng lớp với tôi."
+    },
+    {
+        "Words": "I’ve seen that guy in school before.",
+        "IPA": "aɪv siːn ðæt gaɪ ɪn skuːl bɪˈfɔː.",
+        "Meaning": "(Guy) Tôi đã từng gặp anh chàng đó trong trường học trước đây."
+    },
+    {
+        "Words": "I come to work so early every day.",
+        "IPA": "aɪ kʌm tuː wɜːk səʊ ˈɜːli ˈɛvri deɪ.",
+        "Meaning": "(Early) Tôi đến làm việc sớm như vậy mỗi ngày."
+    },
+    {
+        "Words": "Let’s buy some food, I’m hungry!",
+        "IPA": "lɛts baɪ sʌm fuːd, aɪm ˈhʌŋgri!",
+        "Meaning": "(Food) Mua đồ ăn đi, tôi đói rồi!"
+    },
+    {
+        "Words": "Can I talk to you before you go home?",
+        "IPA": "kæn aɪ tɔːk tuː juː bɪˈfɔː juː gəʊ həʊm?",
+        "Meaning": "(Before) Tôi có thể nói chuyện với bạn trước khi bạn về nhà không?"
+    },
+    {
+        "Words": "The moment she walked into the room, her puppy started to jump and dance again.",
+        "IPA": "ðə ˈməʊmənt ʃiː wɔːkt ˈɪntuː ðə ruːm, hɜː ˈpʌpi ˈstɑːtɪd tuː ʤʌmp ænd dɑːns əˈgɛn.",
+        "Meaning": "(Moment) Lúc cô bước vào phòng, con chó con của cô lại bắt đầu nhảy và nhảy."
+    },
+    {
+        "Words": "He cooked this turkey himself.",
+        "IPA": "hiː kʊkt ðɪs ˈtɜːki hɪmˈsɛlf.",
+        "Meaning": "(Himself) Anh ấy đã tự tay nấu món gà tây này."
+    },
+    {
+        "Words": "I am loving the cold night air here.",
+        "IPA": "aɪ æm ˈlʌvɪŋ ðə kəʊld naɪt eə hɪə.",
+        "Meaning": "(Air) Tôi yêu cái không khí lạnh về đêm ở đây."
+    },
+    {
+        "Words": "You are the best teacher ever.",
+        "IPA": "juː ɑː ðə bɛst ˈtiːʧər ˈɛvə.",
+        "Meaning": "(Teacher) Bạn là người giáo viên tốt nhất từ ​​trước đến nay."
+    },
+    {
+        "Words": "Don’t force him to play with other kids.",
+        "IPA": "dəʊnt fɔːs hɪm tuː pleɪ wɪð ˈʌðə kɪdz.",
+        "Meaning": "(Force) Đừng ép anh ấy chơi với những đứa trẻ khác."
+    },
+    {
+        "Words": "Can I offer you a ride home?",
+        "IPA": "kæn aɪ ˈɒfə juː ə raɪd həʊm?",
+        "Meaning": "(Offer) Tôi có thể cho bạn một chuyến xe về nhà không?"
+    },
+    {
+        "Words": "Boys, that’s enough playing for today.",
+        "IPA": "bɔɪz, ðæts ɪˈnʌf ˈpleɪɪŋ fɔː təˈdeɪ.",
+        "Meaning": "(Enough) Các chàng trai, chơi như vậy là đủ cho ngày hôm nay."
+    },
+    {
+        "Words": "You both need to change into your sleep clothes now.",
+        "IPA": "juː bəʊθ niːd tuː ʧeɪnʤ ˈɪntuː jɔː sliːp kləʊðz naʊ.",
+        "Meaning": "(Both) Cả hai bạn cần thay quần áo đi ngủ ngay bây giờ."
+    },
+    {
+        "Words": "I just want you to get the best education.",
+        "IPA": "aɪ ʤʌst wɒnt juː tuː gɛt ðə bɛst ˌɛdju(ː)ˈkeɪʃən.",
+        "Meaning": "(Education) Tôi chỉ muốn con có được một nền giáo dục tốt nhất."
+    },
+    {
+        "Words": "Your dog ran across the park.",
+        "IPA": "jɔː dɒg ræn əˈkrɒs ðə pɑːk.",
+        "Meaning": "(Across) Con chó của bạn chạy ngang qua công viên."
+    },
+    {
+        "Words": "Although she felt tired, she still couldn’t sleep.",
+        "IPA": "ɔːlˈðəʊ ʃiː fɛlt ˈtaɪəd, ʃiː stɪl ˈkʊdnt sliːp.",
+        "Meaning": "(Although) Mặc dù cảm thấy mệt mỏi nhưng cô vẫn không thể ngủ được."
+    },
+    {
+        "Words": "Do you think she will still remember me after ten years?",
+        "IPA": "duː juː θɪŋk ʃiː wɪl stɪl rɪˈmɛmbə miː ˈɑːftə tɛn jɪəz?",
+        "Meaning": "(Remember) Bạn có nghĩ rằng cô ấy sẽ vẫn nhớ đến tôi sau mười năm?"
+    },
+    {
+        "Words": "Her foot got caught in one of the ropes.",
+        "IPA": "hɜː fʊt gɒt kɔːt ɪn wʌn ɒv ðə rəʊps.",
+        "Meaning": "(Foot) Chân cô ấy vướng vào một trong những sợi dây."
+    },
+    {
+        "Words": "This is the second time she got late this month.",
+        "IPA": "ðɪs ɪz ðə ˈsɛkənd taɪm ʃiː gɒt leɪt ðɪs mʌnθ.",
+        "Meaning": "(Second) Đây là lần thứ hai cô ấy bị trễ kinh trong tháng này."
+    },
+    {
+        "Words": "There’s a boy in her class who keeps pulling her hair.",
+        "IPA": "ðeəz ə bɔɪ ɪn hɜː klɑːs huː kiːps ˈpʊlɪŋ hɜː heə.",
+        "Meaning": "(Boy) Có một cậu bé trong lớp của cô ấy liên tục kéo tóc cô ấy."
+    },
+    {
+        "Words": "Maybe we can have ice cream for dessert.",
+        "IPA": "ˈmeɪbiː wiː kæn hæv aɪs kriːm fɔː dɪˈzɜːt.",
+        "Meaning": "(Maybe) Có lẽ chúng ta có thể ăn kem để tráng miệng."
+    },
+    {
+        "Words": "He took a step toward her.",
+        "IPA": "hiː tʊk ə stɛp təˈwɔːd hɜː.",
+        "Meaning": "(Toward) Anh tiến một bước về phía cô."
+    },
+    {
+        "Words": "Will you be able to send me your report today?",
+        "IPA": "wɪl juː biː ˈeɪbl tuː sɛnd miː jɔː rɪˈpɔːt təˈdeɪ?",
+        "Meaning": "(Able) Bạn sẽ có thể gửi cho tôi báo cáo của bạn ngày hôm nay?"
+    },
+    {
+        "Words": "What is the average marrying age these days?",
+        "IPA": "wɒt ɪz ði ˈævərɪʤ ˈmæriɪŋ eɪʤ ðiːz deɪz?",
+        "Meaning": "(Age) Tuổi kết hôn trung bình những ngày này là bao nhiêu?"
+    },
+    {
+        "Words": "The cat ran off with the dog.",
+        "IPA": "ðə kæt ræn ɒf wɪð ðə dɒg.",
+        "Meaning": "(Off) Con mèo bỏ chạy với con chó."
+    },
+    {
+        "Words": "They have a generous return policy.",
+        "IPA": "ðeɪ hæv ə ˈʤɛnərəs rɪˈtɜːn ˈpɒlɪsi.",
+        "Meaning": "(Policy) Họ có một chính sách hoàn trả hào phóng."
+    },
+    {
+        "Words": "Everything is on sale.",
+        "IPA": "ˈɛvrɪθɪŋ ɪz ɒn seɪl.",
+        "Meaning": "(Everything) Tất cả mọi thứ đều được bán."
+    },
+    {
+        "Words": "I love what you’re wearing!",
+        "IPA": "aɪ lʌv wɒt jʊə ˈweərɪŋ!",
+        "Meaning": "(Love) Tôi thích những gì bạn đang mặc!"
+    },
+    {
+        "Words": "Wait, give me time to process everything you’re telling me.",
+        "IPA": "weɪt, gɪv miː taɪm tuː ˈprəʊsɛs ˈɛvrɪθɪŋ jʊə ˈtɛlɪŋ miː.",
+        "Meaning": "(Process) Chờ đã, cho tôi thời gian để xử lý mọi thứ bạn đang nói với tôi."
+    },
+    {
+        "Words": "I love music.",
+        "IPA": "aɪ lʌv ˈmjuːzɪk.",
+        "Meaning": "(Music) Tôi yêu âm nhạc."
+    },
+    {
+        "Words": "Around 20 people attended, including bob and beth.",
+        "IPA": "əˈraʊnd 20 ˈpiːpl əˈtɛndɪd, ɪnˈkluːdɪŋ bɒb ænd bɛθ.",
+        "Meaning": "(Including) Khoảng 20 người đã tham dự, bao gồm cả bob và beth."
+    },
+    {
+        "Words": "I hope you consider my project proposal.",
+        "IPA": "aɪ həʊp juː kənˈsɪdə maɪ ˈprɒʤɛkt prəˈpəʊzəl.",
+        "Meaning": "(Consider) Tôi hy vọng bạn xem xét đề xuất dự án của tôi."
+    },
+    {
+        "Words": "How did that appear out of nowhere?",
+        "IPA": "haʊ dɪd ðæt əˈpɪər aʊt ɒv ˈnəʊweə?",
+        "Meaning": "(Appear) Làm thế nào mà điều đó xuất hiện từ hư không?"
+    },
+    {
+        "Words": "I’m actually just heading out.",
+        "IPA": "aɪm ˈækʧʊəli ʤʌst ˈhɛdɪŋ aʊt.",
+        "Meaning": "(Actually) Tôi thực sự chỉ đang đi ra ngoài."
+    },
+    {
+        "Words": "I’m going to buy these shoes.",
+        "IPA": "aɪm ˈgəʊɪŋ tuː baɪ ðiːz ʃuːz.",
+        "Meaning": "(Buy) Tôi sẽ mua đôi giày này."
+    },
+    {
+        "Words": "He’s probably still asleep.",
+        "IPA": "hiːz ˈprɒbəbli stɪl əˈsliːp.",
+        "Meaning": "(Probably) Anh ấy có lẽ vẫn đang ngủ."
+    },
+    {
+        "Words": "Give him a break, he is only human.",
+        "IPA": "gɪv hɪm ə breɪk, hiː ɪz ˈəʊnli ˈhjuːmən.",
+        "Meaning": "(Human) Hãy cho anh ta nghỉ ngơi, anh ta chỉ là con người."
+    },
+    {
+        "Words": "Is it alright if you wait for a few minutes?",
+        "IPA": "ɪz ɪt ɔːlˈraɪt ɪf juː weɪt fɔːr ə fjuː ˈmɪnɪts?",
+        "Meaning": "(Wait) Có ổn không nếu bạn đợi trong vài phút?"
+    },
+    {
+        "Words": "This blow dryer has served me well for years.",
+        "IPA": "ðɪs bləʊ ˈdraɪə hæz sɜːvd miː wɛl fɔː jɪəz.",
+        "Meaning": "(Serve) Máy sấy thổi này đã phục vụ tôi tốt trong nhiều năm."
+    },
+    {
+        "Words": "Let’s visit the Sunday market.",
+        "IPA": "lɛts ˈvɪzɪt ðə ˈsʌndeɪ ˈmɑːkɪt.",
+        "Meaning": "(Market) Hãy đến thăm chợ Chủ nhật."
+    },
+    {
+        "Words": "I don’t want my cat to die, let’s take him to the vet, please.",
+        "IPA": "aɪ dəʊnt wɒnt maɪ kæt tuː daɪ, lɛts teɪk hɪm tuː ðə vɛt, pliːz.",
+        "Meaning": "(Die) Tôi không muốn con mèo của mình chết, hãy đưa nó đến bác sĩ thú y, làm ơn."
+    },
+    {
+        "Words": "Please send the package to my address.",
+        "IPA": "pliːz sɛnd ðə ˈpækɪʤ tuː maɪ əˈdrɛs.",
+        "Meaning": "(Send) Vui lòng gửi gói hàng đến địa chỉ của tôi."
+    },
+    {
+        "Words": "You can’t expect much from their poor service.",
+        "IPA": "juː kɑːnt ɪksˈpɛkt mʌʧ frɒm ðeə pʊə ˈsɜːvɪs.",
+        "Meaning": "(Expect) Bạn không thể mong đợi nhiều từ dịch vụ kém của họ."
+    },
+    {
+        "Words": "I can’t wait to go home!",
+        "IPA": "aɪ kɑːnt weɪt tuː gəʊ həʊm!",
+        "Meaning": "(Home) Tôi nóng lòng muốn về nhà!"
+    },
+    {
+        "Words": "I did sense that something was not okay.",
+        "IPA": "aɪ dɪd sɛns ðæt ˈsʌmθɪŋ wɒz nɒt ˈəʊˈkeɪ.",
+        "Meaning": "(Sense) Tôi đã cảm thấy rằng có điều gì đó không ổn."
+    },
+    {
+        "Words": "He is going to build his dream house.",
+        "IPA": "hiː ɪz ˈgəʊɪŋ tuː bɪld hɪz driːm haʊs.",
+        "Meaning": "(Build) Anh ấy sẽ xây ngôi nhà mơ ước của mình."
+    },
+    {
+        "Words": "You can stay with me for a few weeks.",
+        "IPA": "juː kæn steɪ wɪð miː fɔːr ə fjuː wiːks.",
+        "Meaning": "(Stay) Bạn có thể ở với tôi trong một vài tuần."
+    },
+    {
+        "Words": "Be careful, you might fall.",
+        "IPA": "biː ˈkeəfʊl, juː maɪt fɔːl.",
+        "Meaning": "(Fall) Hãy cẩn thận, bạn có thể bị ngã."
+    },
+    {
+        "Words": "Oh no, I left my phone at home!",
+        "IPA": "əʊ nəʊ, aɪ lɛft maɪ fəʊn æt həʊm!",
+        "Meaning": "(Oh) Ồ không, tôi để quên điện thoại ở nhà!"
+    },
+    {
+        "Words": "We have to act as one nation.",
+        "IPA": "wiː hæv tuː ækt æz wʌn ˈneɪʃən.",
+        "Meaning": "(Nation) Chúng ta phải hành động như một quốc gia."
+    },
+    {
+        "Words": "What’s your plan this time?",
+        "IPA": "wɒts jɔː plæn ðɪs taɪm?",
+        "Meaning": "(Plan) Kế hoạch của bạn lần này là gì?"
+    },
+    {
+        "Words": "Don’t cut your hair.",
+        "IPA": "dəʊnt kʌt jɔː heə.",
+        "Meaning": "(Cut) Đừng cắt tóc của bạn."
+    },
+    {
+        "Words": "We met in college.",
+        "IPA": "wiː mɛt ɪn ˈkɒlɪʤ.",
+        "Meaning": "(College) Chúng tôi gặp nhau ở trường đại học."
+    },
+    {
+        "Words": "Music is an interest of mine.",
+        "IPA": "ˈmjuːzɪk ɪz ən ˈɪntrɪst ɒv maɪn.",
+        "Meaning": "(Interest) Âm nhạc là một sở thích của tôi."
+    },
+    {
+        "Words": "Death is such a heavy topic for me.",
+        "IPA": "dɛθ ɪz sʌʧ ə ˈhɛvi ˈtɒpɪk fɔː miː.",
+        "Meaning": "(Death) Cái chết là một chủ đề nặng nề đối với tôi."
+    },
+    {
+        "Words": "What course did you take up in college?",
+        "IPA": "wɒt kɔːs dɪd juː teɪk ʌp ɪn ˈkɒlɪʤ?",
+        "Meaning": "(Course) Bạn đã học khóa học gì ở trường đại học?"
+    },
+    {
+        "Words": "Is there someone who can go with you?",
+        "IPA": "ɪz ðeə ˈsʌmwʌn huː kæn gəʊ wɪð juː?",
+        "Meaning": "(Someone) Có ai đó có thể đi cùng bạn không?"
+    },
+    {
+        "Words": "What an exciting experience!",
+        "IPA": "wɒt ən ɪkˈsaɪtɪŋ ɪksˈpɪərɪəns!",
+        "Meaning": "(Experience) Thật là một trải nghiệm thú vị!"
+    },
+    {
+        "Words": "I’m scared to check what’s behind that door.",
+        "IPA": "aɪm skeəd tuː ʧɛk wɒts bɪˈhaɪnd ðæt dɔː.",
+        "Meaning": "(Behind) Tôi sợ hãi khi kiểm tra xem có gì đằng sau cánh cửa đó."
+    },
+    {
+        "Words": "I can’t reach him, he won’t answer his phone.",
+        "IPA": "aɪ kɑːnt riːʧ hɪm, hiː wəʊnt ˈɑːnsə hɪz fəʊn.",
+        "Meaning": "(Reach) Tôi không thể liên lạc với anh ấy, anh ấy sẽ không trả lời điện thoại của mình."
+    },
+    {
+        "Words": "This is a local business.",
+        "IPA": "ðɪs ɪz ə ˈləʊkəl ˈbɪznɪs.",
+        "Meaning": "(Local) Đây là một doanh nghiệp địa phương."
+    },
+    {
+        "Words": "Smoking can kill you.",
+        "IPA": "ˈsməʊkɪŋ kæn kɪl juː.",
+        "Meaning": "(Kill) Hút thuốc có thể giết chết bạn."
+    },
+    {
+        "Words": "I have six books about psychology.",
+        "IPA": "aɪ hæv sɪks bʊks əˈbaʊt saɪˈkɒləʤi.",
+        "Meaning": "(Six) Tôi có sáu cuốn sách về tâm lý học."
+    },
+    {
+        "Words": "These remain on the top shelf.",
+        "IPA": "ðiːz rɪˈmeɪn ɒn ðə tɒp ʃɛlf.",
+        "Meaning": "(Remain) Những thứ này vẫn còn trên kệ trên cùng."
+    },
+    {
+        "Words": "Wow, the effect of that mascara is great!",
+        "IPA": "waʊ, ði ɪˈfɛkt ɒv ðæt mæsˈkɑːrə ɪz greɪt!",
+        "Meaning": "(Effect) Chà, tác dụng của cây mascara đó thật tuyệt!"
+    },
+    {
+        "Words": "Can I use your phone?",
+        "IPA": "kæn aɪ juːz jɔː fəʊn?",
+        "Meaning": "(Use) Tôi có thể dùng điện thoại của bạn được không?"
+    },
+    {
+        "Words": "Yeah, he did call me earlier.",
+        "IPA": "jeə, hiː dɪd kɔːl miː ˈɜːlɪə.",
+        "Meaning": "(Yeah) Phải, anh ấy đã gọi cho tôi trước đó."
+    },
+    {
+        "Words": "He did suggest that to me.",
+        "IPA": "hiː dɪd səˈʤɛst ðæt tuː miː.",
+        "Meaning": "(Suggest) Anh ấy đã gợi ý điều đó cho tôi."
+    },
+    {
+        "Words": "We were in the same English class.",
+        "IPA": "wiː wɜːr ɪn ðə seɪm ˈɪŋglɪʃ klɑːs.",
+        "Meaning": "(Class) Chúng tôi học cùng lớp tiếng Anh."
+    },
+    {
+        "Words": "Where’s the remote control?",
+        "IPA": "weəz ðə rɪˈməʊt kənˈtrəʊl?",
+        "Meaning": "(Control) Điều khiển từ xa ở đâu?"
+    },
+    {
+        "Words": "It’s so challenging to discipline kids these days.",
+        "IPA": "ɪts səʊ ˈʧælɪnʤɪŋ tuː ˈdɪsɪplɪn kɪdz ðiːz deɪz.",
+        "Meaning": "(Raise) Ngày nay, thật khó để kỷ luật trẻ em."
+    },
+    {
+        "Words": "I don’t care about what you think.",
+        "IPA": "aɪ dəʊnt keər əˈbaʊt wɒt juː θɪŋk.",
+        "Meaning": "(Care) Tôi không quan tâm đến những gì bạn nghĩ."
+    },
+    {
+        "Words": "Perhaps we can arrive at a compromise.",
+        "IPA": "pəˈhæps wiː kæn əˈraɪv æt ə ˈkɒmprəmaɪz.",
+        "Meaning": "(Perhaps) Có lẽ chúng ta có thể đi đến một thỏa hiệp."
+    },
+    {
+        "Words": "There’s a little bird outside my window.",
+        "IPA": "ðeəz ə ˈlɪtl bɜːd ˌaʊtˈsaɪd maɪ ˈwɪndəʊ.",
+        "Meaning": "(Little) Có một con chim nhỏ bên ngoài cửa sổ của tôi."
+    },
+    {
+        "Words": "I am running late for my doctor’s appointment.",
+        "IPA": "aɪ æm ˈrʌnɪŋ leɪt fɔː maɪ ˈdɒktəz əˈpɔɪntmənt.",
+        "Meaning": "(Late) Tôi đang đến trễ cuộc hẹn với bác sĩ của mình."
+    },
+    {
+        "Words": "That test was so hard.",
+        "IPA": "ðæt tɛst wɒz səʊ hɑːd.",
+        "Meaning": "(Hard) Bài kiểm tra đó thật khó."
+    },
+    {
+        "Words": "He’s over there, by the soccer field.",
+        "IPA": "hiːz ˈəʊvə ðeə, baɪ ðə ˈsɒkə fiːld.",
+        "Meaning": "(Field) Anh ấy ở đằng kia, cạnh sân bóng."
+    },
+    {
+        "Words": "Is anyone else coming?",
+        "IPA": "ɪz ˈɛnɪwʌn ɛls ˈkʌmɪŋ?",
+        "Meaning": "(Else) Có ai khác đến không?"
+    },
+    {
+        "Words": "Can we pass by the grocery store?",
+        "IPA": "kæn wiː pɑːs baɪ ðə ˈgrəʊsəri stɔː?",
+        "Meaning": "(Pass) Chúng ta có thể đi ngang qua cửa hàng tạp hóa không?"
+    },
+    {
+        "Words": "She was my former housemate.",
+        "IPA": "ʃiː wɒz maɪ ˈfɔːmə ˈhaʊsmeɪt.",
+        "Meaning": "(Former) Cô ấy là bạn cùng nhà cũ của tôi."
+    },
+    {
+        "Words": "We can sell your old couch online.",
+        "IPA": "wiː kæn sɛl jɔːr əʊld kaʊʧ ˈɒnˌlaɪn.",
+        "Meaning": "(Sell) Chúng tôi có thể bán đi văng cũ của bạn trực tuyến."
+    },
+    {
+        "Words": "It’s a major issue for the project.",
+        "IPA": "ɪts ə ˈmeɪʤər ˈɪʃuː fɔː ðə ˈprɒʤɛkt.",
+        "Meaning": "(Major) Đó là một vấn đề lớn của dự án."
+    },
+    {
+        "Words": "Sometimes I forget to turn off the porch lights.",
+        "IPA": "ˈsʌmtaɪmz aɪ fəˈgɛt tuː tɜːn ɒf ðə pɔːʧ laɪts.",
+        "Meaning": "(Sometimes) Đôi khi tôi quên tắt đèn ngoài hiên."
+    },
+    {
+        "Words": "They’ll require you to show your i.d.",
+        "IPA": "ðeɪl rɪˈkwaɪə juː tuː ʃəʊ jɔːr aɪ.diː.",
+        "Meaning": "(Require) Họ sẽ yêu cầu bạn xuất trình i.d."
+    },
+    {
+        "Words": "Can I tag along your road trip?",
+        "IPA": "kæn aɪ tæg əˈlɒŋ jɔː rəʊd trɪp?",
+        "Meaning": "(Along) Tôi có thể gắn thẻ dọc theo chuyến đi của bạn không?"
+    },
+    {
+        "Words": "This news development is really interesting.",
+        "IPA": "ðɪs njuːz dɪˈvɛləpmənt ɪz ˈrɪəli ˈɪntrɪstɪŋ.",
+        "Meaning": "(Development) Diễn biến tin tức này thực sự thú vị."
+    },
+    {
+        "Words": "They can take care of themselves.",
+        "IPA": "ðeɪ kæn teɪk keər ɒv ðəmˈsɛlvz.",
+        "Meaning": "(Themselves) Họ có thể tự chăm sóc bản thân."
+    },
+    {
+        "Words": "I read her report and it was great!",
+        "IPA": "aɪ riːd hɜː rɪˈpɔːt ænd ɪt wɒz greɪt!",
+        "Meaning": "(Report) Tôi đã đọc báo cáo của cô ấy và nó thật tuyệt!"
+    },
+    {
+        "Words": "She’s going to play the role of Elsa.",
+        "IPA": "ʃiːz ˈgəʊɪŋ tuː pleɪ ðə rəʊl ɒv Elsa.",
+        "Meaning": "(Role) Cô ấy sẽ đóng vai Elsa."
+    },
+    {
+        "Words": "Your singing has gotten so much better!",
+        "IPA": "jɔː ˈsɪŋɪŋ hæz ˈgɒtn səʊ mʌʧ ˈbɛtə!",
+        "Meaning": "(Better) Ca hát của bạn đã trở nên tốt hơn rất nhiều!"
+    },
+    {
+        "Words": "Some countries are facing an economic crisis.",
+        "IPA": "sʌm ˈkʌntriz ɑː ˈfeɪsɪŋ ən ˌiːkəˈnɒmɪk ˈkraɪsɪs.",
+        "Meaning": "(Economic) Một số quốc gia đang phải đối mặt với khủng hoảng kinh tế."
+    },
+    {
+        "Words": "The government must make an effort to solve this.",
+        "IPA": "ðə ˈgʌvnmənt mʌst meɪk ən ˈɛfət tuː sɒlv ðɪs.",
+        "Meaning": "(Effort) Chính phủ phải nỗ lực để giải quyết việc này."
+    },
+    {
+        "Words": "His grades have gone up.",
+        "IPA": "hɪz greɪdz hæv gɒn ʌp.",
+        "Meaning": "(Up) Điểm của anh ấy đã tăng lên."
+    },
+    {
+        "Words": "Please decide where to eat.",
+        "IPA": "pliːz dɪˈsaɪd weə tuː iːt.",
+        "Meaning": "(Decide) Hãy quyết định nơi để ăn."
+    },
+    {
+        "Words": "How would you rate the hotel’s service?",
+        "IPA": "haʊ wʊd juː reɪt ðə həʊˈtɛlz ˈsɜːvɪs?",
+        "Meaning": "(Rate) Bạn đánh giá dịch vụ của khách sạn như thế nào?"
+    },
+    {
+        "Words": "They have strong customer service here!",
+        "IPA": "ðeɪ hæv strɒŋ ˈkʌstəmə ˈsɜːvɪs hɪə!",
+        "Meaning": "(Strong) Họ có dịch vụ khách hàng mạnh mẽ ở đây!"
+    },
+    {
+        "Words": "Maybe it’s possible to change their bathroom amenities.",
+        "IPA": "ˈmeɪbiː ɪts ˈpɒsəbl tuː ʧeɪnʤ ðeə ˈbɑːθru(ː)m əˈmiːnɪtiz.",
+        "Meaning": "(Possible) Có lẽ có thể thay đổi đồ vệ sinh cá nhân của họ."
+    },
+    {
+        "Words": "My heart is so full.",
+        "IPA": "maɪ hɑːt ɪz səʊ fʊl.",
+        "Meaning": "(Heart) Trái tim tôi thật đầy ắp."
+    },
+    {
+        "Words": "She got the patent for the drug she has created to cure cancer.",
+        "IPA": "ʃiː gɒt ðə ˈpeɪtənt fɔː ðə drʌg ʃiː hæz kri(ː)ˈeɪtɪd tuː kjʊə ˈkænsə.",
+        "Meaning": "(Drug) Cô đã nhận được bằng sáng chế cho loại thuốc mà cô đã tạo ra để chữa bệnh ung thư."
+    },
+    {
+        "Words": "Can you show me how to solve this puzzle?",
+        "IPA": "kæn juː ʃəʊ miː haʊ tuː sɒlv ðɪs ˈpʌzl?",
+        "Meaning": "(Show) Bạn có thể chỉ cho tôi làm thế nào để giải quyết câu đố này?"
+    },
+    {
+        "Words": "You are a wonderful leader.",
+        "IPA": "juː ɑːr ə ˈwʌndəfʊl ˈliːdə.",
+        "Meaning": "(Leader) Bạn là một nhà lãnh đạo tuyệt vời."
+    },
+    {
+        "Words": "Watch her face light up when you mention his name.",
+        "IPA": "wɒʧ hɜː feɪs laɪt ʌp wɛn juː ˈmɛnʃən hɪz neɪm.",
+        "Meaning": "(Light) Nhìn khuôn mặt cô ấy sáng lên khi bạn nhắc đến tên anh ấy."
+    },
+    {
+        "Words": "Hearing his mom’s voice is all he needs right now.",
+        "IPA": "ˈhɪərɪŋ hɪz mɒmz vɔɪs ɪz ɔːl hiː niːdz raɪt naʊ.",
+        "Meaning": "(Voice) Nghe thấy giọng nói của mẹ là tất cả những gì anh ấy cần ngay bây giờ."
+    },
+    {
+        "Words": "My wife is away for the weekend.",
+        "IPA": "maɪ waɪf ɪz əˈweɪ fɔː ðə ˈwiːkˈɛnd.",
+        "Meaning": "(Wife) Cuối tuần vợ tôi đi vắng."
+    },
+    {
+        "Words": "I have the whole house to myself.",
+        "IPA": "aɪ hæv ðə həʊl haʊs tuː maɪˈsɛlf.",
+        "Meaning": "(Whole) Tôi có toàn bộ ngôi nhà cho riêng mình."
+    },
+    {
+        "Words": "The police have questioned him about the incident.",
+        "IPA": "ðə pəˈliːs hæv ˈkwɛsʧənd hɪm əˈbaʊt ði ˈɪnsɪdənt.",
+        "Meaning": "(Police) Cảnh sát đã thẩm vấn anh ta về vụ việc."
+    },
+    {
+        "Words": "This relaxation technique really eases my mind.",
+        "IPA": "ðɪs ˌriːlækˈseɪʃən tɛkˈniːk ˈrɪəli ˈiːzɪz maɪ maɪnd.",
+        "Meaning": "(Mind) Kỹ thuật thư giãn này thực sự giúp tôi xoa dịu tâm trí."
+    },
+    {
+        "Words": "I can finally move out from my old apartment.",
+        "IPA": "aɪ kæn ˈfaɪnəli muːv aʊt frɒm maɪ əʊld əˈpɑːtmənt.",
+        "Meaning": "(Finally) Cuối cùng thì tôi cũng có thể dọn ra khỏi căn hộ cũ của mình."
+    },
+    {
+        "Words": "My baby niece likes to pull my hair.",
+        "IPA": "maɪ ˈbeɪbi niːs laɪks tuː pʊl maɪ heə.",
+        "Meaning": "(Pull) Đứa cháu gái nhỏ của tôi thích kéo tóc của tôi."
+    },
+    {
+        "Words": "I give her tickles in return.",
+        "IPA": "aɪ gɪv hɜː ˈtɪklz ɪn rɪˈtɜːn.",
+        "Meaning": "(Return) Tôi trả lại cho cô ấy sự nhột nhạt."
+    },
+    {
+        "Words": "The best things in life are free.",
+        "IPA": "ðə bɛst θɪŋz ɪn laɪf ɑː friː.",
+        "Meaning": "(Free) Những điều tốt nhất trong cuộc sống là miễn phí."
+    },
+    {
+        "Words": "His dad is in the military.",
+        "IPA": "hɪz dæd ɪz ɪn ðə ˈmɪlɪtəri.",
+        "Meaning": "(Military) Bố anh ấy đang trong quân đội."
+    },
+    {
+        "Words": "This is the price you pay for lying.",
+        "IPA": "ðɪs ɪz ðə praɪs juː peɪ fɔː ˈlaɪɪŋ.",
+        "Meaning": "(Price) Đây là cái giá mà bạn phải trả cho việc nói dối."
+    },
+    {
+        "Words": "Did you report this to the police?",
+        "IPA": "dɪd juː rɪˈpɔːt ðɪs tuː ðə pəˈliːs?",
+        "Meaning": "(Report) Bạn đã báo cáo điều này với cảnh sát?"
+    },
+    {
+        "Words": "I am praying for less stress this coming new year.",
+        "IPA": "aɪ æm ˈpreɪɪŋ fɔː lɛs strɛs ðɪs ˈkʌmɪŋ njuː jɪə.",
+        "Meaning": "(Less) Tôi đang cầu nguyện cho năm mới sắp tới bớt căng thẳng hơn."
+    },
+    {
+        "Words": "According to the weather report, it’s going to rain today.",
+        "IPA": "əˈkɔːdɪŋ tuː ðə ˈwɛðə rɪˈpɔːt, ɪts ˈgəʊɪŋ tuː reɪn təˈdeɪ.",
+        "Meaning": "(According) Theo bản tin thời tiết, hôm nay trời sẽ mưa."
+    },
+    {
+        "Words": "This is a big decision for me.",
+        "IPA": "ðɪs ɪz ə bɪg dɪˈsɪʒən fɔː miː.",
+        "Meaning": "(Decision) Đây là một quyết định lớn đối với tôi."
+    },
+    {
+        "Words": "I’ll explain everything later, I promise.",
+        "IPA": "aɪl ɪksˈpleɪn ˈɛvrɪθɪŋ ˈleɪtə, aɪ ˈprɒmɪs.",
+        "Meaning": "(Explain) Tôi sẽ giải thích mọi thứ sau, tôi hứa."
+    },
+    {
+        "Words": "His son is so cute!",
+        "IPA": "hɪz sʌn ɪz səʊ kjuːt!",
+        "Meaning": "(Son) Con trai của anh ấy thật đáng yêu!"
+    },
+    {
+        "Words": "I hope I’ll have a son one day.",
+        "IPA": "aɪ həʊp aɪl hæv ə sʌn wʌn deɪ.",
+        "Meaning": "(Hope) Tôi hy vọng một ngày nào đó tôi sẽ có một cậu con trai."
+    },
+    {
+        "Words": "Even if they’ve broken up, they still remain friends.",
+        "IPA": "ˈiːvən ɪf ðeɪv ˈbrəʊkən ʌp, ðeɪ stɪl rɪˈmeɪn frɛndz.",
+        "Meaning": "(Even) Ngay cả khi đã chia tay, họ vẫn là bạn của nhau."
+    },
+    {
+        "Words": "That rash could develop into something more serious.",
+        "IPA": "ðæt ræʃ kʊd dɪˈvɛləp ˈɪntuː ˈsʌmθɪŋ mɔː ˈsɪərɪəs.",
+        "Meaning": "(Develop) Phát ban đó có thể phát triển thành một cái gì đó nghiêm trọng hơn."
+    },
+    {
+        "Words": "This view is amazing!",
+        "IPA": "ðɪs vjuː ɪz əˈmeɪzɪŋ!",
+        "Meaning": "(View) Quan điểm này là tuyệt vời!"
+    },
+    {
+        "Words": "They’ve taken their relationship to the next level.",
+        "IPA": "ðeɪv ˈteɪkən ðeə rɪˈleɪʃənʃɪp tuː ðə nɛkst ˈlɛvl.",
+        "Meaning": "(Relationship) Họ đã đưa mối quan hệ của mình lên một tầm cao mới."
+    },
+    {
+        "Words": "Can you carry my bag for me?",
+        "IPA": "kæn juː ˈkæri maɪ bæg fɔː miː?",
+        "Meaning": "(Carry) Bạn có thể xách cặp cho tôi được không?"
+    },
+    {
+        "Words": "This town is extremely quiet.",
+        "IPA": "ðɪs taʊn ɪz ɪksˈtriːmli ˈkwaɪət.",
+        "Meaning": "(Town) Thị trấn này cực kỳ yên tĩnh."
+    },
+    {
+        "Words": "There’s a road that leads to the edge of the woods.",
+        "IPA": "ðeəz ə rəʊd ðæt liːdz tuː ði ɛʤ ɒv ðə wʊdz.",
+        "Meaning": "(Road) Có một con đường dẫn đến bìa rừng."
+    },
+    {
+        "Words": "You can’t drive there, you need to walk.",
+        "IPA": "juː kɑːnt draɪv ðeə, juː niːd tuː wɔːk.",
+        "Meaning": "(Drive) Bạn không thể lái xe đến đó, bạn cần phải đi bộ."
+    },
+    {
+        "Words": "He broke his arm during practice.",
+        "IPA": "hiː brəʊk hɪz ɑːm ˈdjʊərɪŋ ˈpræktɪs.",
+        "Meaning": "(Arm) Anh ấy bị gãy tay trong lúc tập luyện."
+    },
+    {
+        "Words": "It’s true, I’m leaving the company.",
+        "IPA": "ɪts truː, aɪm ˈliːvɪŋ ðə ˈkʌmpəni.",
+        "Meaning": "(True ) Đúng là tôi sắp rời công ty."
+    },
+    {
+        "Words": "Animal abuse is now a federal felony!",
+        "IPA": "ˈænɪməl əˈbjuːs ɪz naʊ ə ˈfɛdərəl ˈfɛləni!",
+        "Meaning": "(Federal) Ngược đãi động vật hiện là một trọng tội liên bang!"
+    },
+    {
+        "Words": "Don’t break the law.",
+        "IPA": "dəʊnt breɪk ðə lɔː.",
+        "Meaning": "(Break) Đừng vi phạm pháp luật."
+    },
+    {
+        "Words": "You better learn how to follow rules.",
+        "IPA": "juː ˈbɛtə lɜːn haʊ tuː ˈfɒləʊ ruːlz.",
+        "Meaning": "(Better) Tốt hơn bạn nên học cách tuân theo các quy tắc."
+    },
+    {
+        "Words": "What’s the difference between happiness and contentment?",
+        "IPA": "wɒts ðə ˈdɪfrəns bɪˈtwiːn ˈhæpɪnɪs ænd kənˈtɛntmənt?",
+        "Meaning": "(Difference) Sự khác biệt giữa hạnh phúc và mãn nguyện là gì?"
+    },
+    {
+        "Words": "I forgot to thank her for the pie she sent us.",
+        "IPA": "aɪ fəˈgɒt tuː θæŋk hɜː fɔː ðə paɪ ʃiː sɛnt ʌs.",
+        "Meaning": "(Thank) Tôi quên cảm ơn cô ấy vì chiếc bánh mà cô ấy đã gửi cho chúng tôi."
+    },
+    {
+        "Words": "Did you receive the pie I sent you?",
+        "IPA": "dɪd juː rɪˈsiːv ðə paɪ aɪ sɛnt juː?",
+        "Meaning": "(Receive) Bạn đã nhận được cái bánh mà tôi đã gửi cho bạn chưa?"
+    },
+    {
+        "Words": "I value our friendship so much.",
+        "IPA": "aɪ ˈvæljuː ˈaʊə ˈfrɛndʃɪp səʊ mʌʧ.",
+        "Meaning": "(Value) Tôi coi trọng tình bạn của chúng tôi rất nhiều."
+    },
+    {
+        "Words": "Their brand has gone international!",
+        "IPA": "ðeə brænd hæz gɒn ˌɪntə(ː)ˈnæʃənl!",
+        "Meaning": "(International ) Thương hiệu của họ đã vươn ra quốc tế!"
+    },
+    {
+        "Words": "This building is so tall!",
+        "IPA": "ðɪs ˈbɪldɪŋ ɪz səʊ tɔːl!",
+        "Meaning": "(Building) Tòa nhà này cao quá!"
+    },
+    {
+        "Words": "Your next action is going to be critical.",
+        "IPA": "jɔː nɛkst ˈækʃ(ə)n ɪz ˈgəʊɪŋ tuː biː ˈkrɪtɪkəl.",
+        "Meaning": "(Action) Hành động tiếp theo của bạn sẽ rất quan trọng."
+    },
+    {
+        "Words": "My workload is so full now.",
+        "IPA": "maɪ ˈwɜːkˌləʊd ɪz səʊ fʊl naʊ.",
+        "Meaning": "(Full) Hiện tại khối lượng công việc của tôi quá đầy."
+    },
+    {
+        "Words": "A great leader is a great model of how to do things.",
+        "IPA": "ə greɪt ˈliːdər ɪz ə greɪt ˈmɒdl ɒv haʊ tuː duː θɪŋz.",
+        "Meaning": "(Model) Một nhà lãnh đạo tuyệt vời là một hình mẫu tuyệt vời về cách làm mọi việc."
+    },
+    {
+        "Words": "He wants to join the soccer team.",
+        "IPA": "hiː wɒnts tuː ʤɔɪn ðə ˈsɒkə tiːm.",
+        "Meaning": "(Join) Anh ấy muốn tham gia đội bóng đá."
+    },
+    {
+        "Words": "Christmas is my favorite season!",
+        "IPA": "ˈkrɪsməs ɪz maɪ ˈfeɪvərɪt ˈsiːzn!",
+        "Meaning": "(Season) Giáng sinh là mùa yêu thích của tôi!"
+    },
+    {
+        "Words": "Their society is holding a fundraiser.",
+        "IPA": "ðeə səˈsaɪəti ɪz ˈhəʊldɪŋ ə ˈfʌndˌreɪzə.",
+        "Meaning": "(Society) Xã hội của họ đang tổ chức một buổi gây quỹ."
+    },
+    {
+        "Words": "I’m going home because my mom needs me.",
+        "IPA": "aɪm ˈgəʊɪŋ həʊm bɪˈkɒz maɪ mɒm niːdz miː.",
+        "Meaning": "(Because) Tôi về nhà vì mẹ tôi cần tôi."
+    },
+    {
+        "Words": "How much is the current income tax?",
+        "IPA": "haʊ mʌʧ ɪz ðə ˈkʌrənt ˈɪnkʌm tæks?",
+        "Meaning": "(Tax) Thuế thu nhập hiện tại là bao nhiêu?"
+    },
+    {
+        "Words": "The director yelled ‘cut!'",
+        "IPA": "ðə dɪˈrɛktə jɛld kʌt!'",
+        "Meaning": "(Director) Đạo diễn hét lên ‘cắt!’"
+    },
+    {
+        "Words": "I’m too early for my appointment.",
+        "IPA": "aɪm tuː ˈɜːli fɔː maɪ əˈpɔɪntmənt.",
+        "Meaning": "(Early) Tôi còn quá sớm cho cuộc hẹn của mình."
+    },
+    {
+        "Words": "Please position your hand properly when drawing.",
+        "IPA": "pliːz pəˈzɪʃən jɔː hænd ˈprɒpəli wɛn ˈdrɔːɪŋ.",
+        "Meaning": "(Position ) Hãy đặt tay đúng vị trí khi vẽ."
+    },
+    {
+        "Words": "That basketball player is cute.",
+        "IPA": "ðæt ˈbɑːskɪtˌbɔːl ˈpleɪər ɪz kjuːt.",
+        "Meaning": "(Player) Cầu thủ bóng rổ đó thật dễ thương."
+    },
+    {
+        "Words": "I agree! He is cute!",
+        "IPA": "aɪ əˈgriː! hiː ɪz kjuːt!",
+        "Meaning": "(Agree) Tôi đồng ý! Anh ấy thật dễ thương!"
+    },
+    {
+        "Words": "I especially like his blue eyes.",
+        "IPA": "aɪ ɪsˈpɛʃəli laɪk hɪz bluː aɪz.",
+        "Meaning": "(Especially) Tôi đặc biệt thích đôi mắt xanh của anh ấy."
+    },
+    {
+        "Words": "Can we record the minutes of this meeting, please?",
+        "IPA": "kæn wiː ˈrɛkɔːd ðə ˈmɪnɪts ɒv ðɪs ˈmiːtɪŋ, pliːz?",
+        "Meaning": "(Record ) Chúng tôi có thể ghi lại biên bản cuộc họp này được không?"
+    },
+    {
+        "Words": "Did you pick a color theme already?",
+        "IPA": "dɪd juː pɪk ə ˈkʌlə θiːm ɔːlˈrɛdi?",
+        "Meaning": "(Pick) Bạn đã chọn một chủ đề màu sắc chưa?"
+    },
+    {
+        "Words": "Is that what you’re going to wear for the party?",
+        "IPA": "ɪz ðæt wɒt jʊə ˈgəʊɪŋ tuː weə fɔː ðə ˈpɑːti?",
+        "Meaning": "(Wear ) Đó có phải là những gì bạn sẽ mặc cho bữa tiệc không?"
+    },
+    {
+        "Words": "You can use a special paper for your invitations.",
+        "IPA": "juː kæn juːz ə ˈspɛʃəl ˈpeɪpə fɔː jɔːr ˌɪnvɪˈteɪʃənz.",
+        "Meaning": "(Paper) Bạn có thể sử dụng một loại giấy đặc biệt cho lời mời của mình."
+    },
+    {
+        "Words": "Some special papers are even scented!",
+        "IPA": "sʌm ˈspɛʃəl ˈpeɪpəz ɑːr ˈiːvən ˈsɛntɪd!",
+        "Meaning": "(Special) Một số loại giấy đặc biệt thậm chí còn có mùi thơm!"
+    },
+    {
+        "Words": "Please leave some space to write down your phone number.",
+        "IPA": "pliːz liːv sʌm speɪs tuː raɪt daʊn jɔː fəʊn ˈnʌmbə.",
+        "Meaning": "(Space) Vui lòng để lại một số khoảng trống để viết số điện thoại của bạn."
+    },
+    {
+        "Words": "The ground is shaking.",
+        "IPA": "ðə graʊnd ɪz ˈʃeɪkɪŋ.",
+        "Meaning": "(Ground ) Mặt đất đang rung chuyển."
+    },
+    {
+        "Words": "A new island was formed after that big earthquake.",
+        "IPA": "ə njuː ˈaɪlənd wɒz fɔːmd ˈɑːftə ðæt bɪg ˈɜːθkweɪk.",
+        "Meaning": "(Form) Một hòn đảo mới được hình thành sau trận động đất lớn đó."
+    },
+    {
+        "Words": "I need your support for this project.",
+        "IPA": "aɪ niːd jɔː səˈpɔːt fɔː ðɪs ˈprɒʤɛkt.",
+        "Meaning": "(Support ) Tôi cần sự hỗ trợ của bạn cho dự án này."
+    },
+    {
+        "Words": "We’re holding a big event tonight.",
+        "IPA": "wɪə ˈhəʊldɪŋ ə bɪg ɪˈvɛnt təˈnaɪt.",
+        "Meaning": "(Event) Chúng tôi sẽ tổ chức một sự kiện lớn vào tối nay."
+    },
+    {
+        "Words": "Our official wedding photos are out!",
+        "IPA": "ˈaʊər əˈfɪʃəl ˈwɛdɪŋ ˈfəʊtəʊz ɑːr aʊt!",
+        "Meaning": "(Official) Hình ảnh đám cưới chính thức của chúng tôi đã ra mắt!"
+    },
+    {
+        "Words": "Whose umbrella is this?",
+        "IPA": "huːz ʌmˈbrɛlə ɪz ðɪs?",
+        "Meaning": "(Whose ) Cái ô này của ai vậy?"
+    },
+    {
+        "Words": "What does it matter anyway?",
+        "IPA": "wɒt dʌz ɪt ˈmætər ˈɛnɪweɪ?",
+        "Meaning": "(Matter) Nó có vấn đề gì không?"
+    },
+    {
+        "Words": "Everyone thinks I stole that file.",
+        "IPA": "ˈɛvrɪwʌn θɪŋks aɪ stəʊl ðæt faɪl.",
+        "Meaning": "(Everyone ) Mọi người đều nghĩ rằng tôi đã đánh cắp tập tin đó."
+    },
+    {
+        "Words": "I hate being the center of attention.",
+        "IPA": "aɪ heɪt ˈbiːɪŋ ðə ˈsɛntər ɒv əˈtɛnʃ(ə)n.",
+        "Meaning": "(Center) Tôi ghét trở thành trung tâm của sự chú ý."
+    },
+    {
+        "Words": "The couple is on their honeymoon now.",
+        "IPA": "ðə ˈkʌpl ɪz ɒn ðeə ˈhʌnɪmuːn naʊ.",
+        "Meaning": "(Couple) Hiện cặp đôi đang đi hưởng tuần trăng mật."
+    },
+    {
+        "Words": "This site is so big!",
+        "IPA": "ðɪs saɪt ɪz səʊ bɪg!",
+        "Meaning": "(Site) Trang web này rất lớn!"
+    },
+    {
+        "Words": "It’s the end of an era.",
+        "IPA": "ɪts ði ɛnd ɒv ən ˈɪərə.",
+        "Meaning": "(End) Đó là sự kết thúc của một kỷ nguyên."
+    },
+    {
+        "Words": "This project file is due tomorrow.",
+        "IPA": "ðɪs ˈprɒʤɛkt faɪl ɪz djuː təˈmɒrəʊ.",
+        "Meaning": "(Project) Hồ sơ dự án này sẽ đến hạn vào ngày mai."
+    },
+    {
+        "Words": "He hit the burglar with a bat.",
+        "IPA": "hiː hɪt ðə ˈbɜːglə wɪð ə bæt.",
+        "Meaning": "(Hit ) Anh ta dùng gậy đánh tên trộm."
+    },
+    {
+        "Words": "All moms are their child’s home base.",
+        "IPA": "ɔːl mɒmz ɑː ðeə ʧaɪldz həʊm beɪs.",
+        "Meaning": "(Base) Tất cả các bà mẹ đều là cơ sở ở nhà của con họ."
+    },
+    {
+        "Words": "What musical activity can you suggest for my toddler?",
+        "IPA": "wɒt ˈmjuːzɪkəl ækˈtɪvɪti kæn juː səˈʤɛst fɔː maɪ ˈtɒdlə?",
+        "Meaning": "(Activity) Bạn có thể gợi ý hoạt động âm nhạc nào cho con tôi?"
+    },
+    {
+        "Words": "My son can draw a star!",
+        "IPA": "maɪ sʌn kæn drɔː ə stɑː!",
+        "Meaning": "(Star) Con trai tôi có thể vẽ một ngôi sao!"
+    },
+    {
+        "Words": "I saw him draw it while he was writing on the table.",
+        "IPA": "aɪ sɔː hɪm drɔː ɪt waɪl hiː wɒz ˈraɪtɪŋ ɒn ðə ˈteɪbl.",
+        "Meaning": "(Table ) Tôi thấy anh ấy vẽ nó khi anh ấy đang viết trên bàn."
+    },
+    {
+        "Words": "I need to enroll him to a good preschool.",
+        "IPA": "aɪ niːd tuː ɪnˈrəʊl hɪm tuː ə gʊd ˌpriːˈskuːl.",
+        "Meaning": "(Need ) Tôi cần ghi danh cho cháu vào một trường mầm non tốt."
+    },
+    {
+        "Words": "There’s a basketball court near our house.",
+        "IPA": "ðeəz ə ˈbɑːskɪtˌbɔːl kɔːt nɪər ˈaʊə haʊs.",
+        "Meaning": "(Court) Có một sân bóng rổ gần nhà của chúng tôi."
+    },
+    {
+        "Words": "Fresh farm produce is the best.",
+        "IPA": "frɛʃ fɑːm ˈprɒdjuːs ɪz ðə bɛst.",
+        "Meaning": "(Produce ) Nông sản tươi là tốt nhất."
+    },
+    {
+        "Words": "I could eat that all day.",
+        "IPA": "aɪ kʊd iːt ðæt ɔːl deɪ.",
+        "Meaning": "(Eat) Tôi có thể ăn cái đó cả ngày."
+    },
+    {
+        "Words": "My sister is dating an American.",
+        "IPA": "maɪ ˈsɪstər ɪz ˈdeɪtɪŋ ən əˈmɛrɪkən.",
+        "Meaning": "(American) Em gái tôi đang hẹn hò với một người Mỹ."
+    },
+    {
+        "Words": "I love to teach English lessons.",
+        "IPA": "aɪ lʌv tuː tiːʧ ˈɪŋglɪʃ ˈlɛsnz.",
+        "Meaning": "(Teach) Tôi thích dạy các bài học tiếng Anh."
+    },
+    {
+        "Words": "Could you buy me some cooking oil at the store?",
+        "IPA": "kʊd juː baɪ miː sʌm ˈkʊkɪŋ ɔɪl æt ðə stɔː?",
+        "Meaning": "(Oil ) Bạn có thể mua cho tôi một ít dầu ăn ở cửa hàng được không?"
+    },
+    {
+        "Words": "Just half a liter, please.",
+        "IPA": "ʤʌst hɑːf ə ˈliːtə, pliːz.",
+        "Meaning": "(Half) Vui lòng chỉ nửa lít."
+    },
+    {
+        "Words": "The situation is getting out of hand.",
+        "IPA": "ðə ˌsɪtjʊˈeɪʃən ɪz ˈgɛtɪŋ aʊt ɒv hænd.",
+        "Meaning": "(Situation) Tình hình đang vượt quá tầm kiểm soát."
+    },
+    {
+        "Words": "I thought you said this was going to be easy?",
+        "IPA": "aɪ θɔːt juː sɛd ðɪs wɒz ˈgəʊɪŋ tuː biː ˈiːzi?",
+        "Meaning": "(Easy) Tôi nghĩ bạn nói điều này sẽ dễ dàng?"
+    },
+    {
+        "Words": "The cost of fuel has increased!",
+        "IPA": "ðə kɒst ɒv fjʊəl hæz ɪnˈkriːst!",
+        "Meaning": "(Cost) Chi phí nhiên liệu đã tăng lên!"
+    },
+    {
+        "Words": "The fuel industry is hiking prices.",
+        "IPA": "ðə fjʊəl ˈɪndəstri ɪz ˈhaɪkɪŋ ˈpraɪsɪz.",
+        "Meaning": "(Industry) Ngành công nghiệp nhiên liệu đang tăng giá."
+    },
+    {
+        "Words": "Will our government figure out how to fix this problem?",
+        "IPA": "wɪl ˈaʊə ˈgʌvnmənt ˈfɪgər aʊt haʊ tuː fɪks ðɪs ˈprɒbləm?",
+        "Meaning": "(Figure) Liệu chính phủ của chúng ta có tìm ra cách khắc phục vấn đề này không?"
+    },
+    {
+        "Words": "I can’t bear to face this horrendous traffic again and again.",
+        "IPA": "aɪ kɑːnt beə tuː feɪs ðɪs hɒˈrɛndəs ˈtræfɪk əˈgɛn ænd əˈgɛn.",
+        "Meaning": "(Face ) Tôi không thể chịu nổi khi phải đối mặt với giao thông khủng khiếp này lặp đi lặp lại."
+    },
+    {
+        "Words": "Let’s cross the street.",
+        "IPA": "lɛts krɒs ðə striːt.",
+        "Meaning": "(Street ) Hãy băng qua đường."
+    },
+    {
+        "Words": "There’s an image of him stored inside my mind.",
+        "IPA": "ðeəz ən ˈɪmɪʤ ɒv hɪm stɔːd ɪnˈsaɪd maɪ maɪnd.",
+        "Meaning": "(Image) Có một hình ảnh về anh ấy được lưu giữ trong tâm trí tôi."
+    },
+    {
+        "Words": "The bike itself is pretty awesome.",
+        "IPA": "ðə baɪk ɪtˈsɛlf ɪz ˈprɪti ˈɔːsəm.",
+        "Meaning": "(Itself ) Bản thân chiếc xe đạp là khá tuyệt vời."
+    },
+    {
+        "Words": "Plus, it has a phone holder.",
+        "IPA": "plʌs, ɪt hæz ə fəʊn ˈhəʊldə.",
+        "Meaning": "(Phone ) Thêm vào đó, nó có một giá đỡ điện thoại."
+    },
+    {
+        "Words": "I either walk or commute to work.",
+        "IPA": "aɪ ˈaɪðə wɔːk ɔː kəˈmjuːt tuː wɜːk.",
+        "Meaning": "(Either) Tôi đi bộ hoặc đi làm."
+    },
+    {
+        "Words": "How can we simplify this data?",
+        "IPA": "haʊ kæn wiː ˈsɪmplɪfaɪ ðɪs ˈdeɪtə?",
+        "Meaning": "(Data) Làm thế nào chúng ta có thể đơn giản hóa dữ liệu này?"
+    },
+    {
+        "Words": "Could you cover for me during emergencies?",
+        "IPA": "kʊd juː ˈkʌvə fɔː miː ˈdjʊərɪŋ ɪˈmɜːʤənsiz?",
+        "Meaning": "(Cover ) Bạn có thể che chở cho tôi trong những trường hợp khẩn cấp không?"
+    },
+    {
+        "Words": "I’m quite satisfied with their work.",
+        "IPA": "aɪm kwaɪt ˈsætɪsfaɪd wɪð ðeə wɜːk.",
+        "Meaning": "(Quite) Tôi khá hài lòng với công việc của họ."
+    },
+    {
+        "Words": "Picture this: a lake, a cabin, and lots of peace and quiet.",
+        "IPA": "ˈpɪkʧə ðɪs: ə leɪk, ə ˈkæbɪn, ænd lɒts ɒv piːs ænd ˈkwaɪət.",
+        "Meaning": "(Picture ) Hãy hình dung thế này: một cái hồ, một căn nhà gỗ, và rất nhiều sự yên bình và tĩnh lặng."
+    },
+    {
+        "Words": "That picture is so clear inside my head.",
+        "IPA": "ðæt ˈpɪkʧər ɪz səʊ klɪər ɪnˈsaɪd maɪ hɛd.",
+        "Meaning": "(Clear) Hình ảnh đó rất rõ ràng trong đầu tôi."
+    },
+    {
+        "Words": "Let’s practice our dance number.",
+        "IPA": "lɛts ˈpræktɪs ˈaʊə dɑːns ˈnʌmbə.",
+        "Meaning": "(Practice) Hãy thực hành số nhảy của chúng ta."
+    },
+    {
+        "Words": "That’s a piece of cake!",
+        "IPA": "ðæts ə piːs ɒv keɪk!",
+        "Meaning": "(Piece) Đó là một miếng bánh!"
+    },
+    {
+        "Words": "Their plane is going to land soon.",
+        "IPA": "ðeə pleɪn ɪz ˈgəʊɪŋ tuː lænd suːn.",
+        "Meaning": "(Land) Máy bay của họ sẽ sớm hạ cánh."
+    },
+    {
+        "Words": "This is her most recent social media post.",
+        "IPA": "ðɪs ɪz hɜː məʊst ˈriːsnt ˈsəʊʃəl ˈmiːdiə pəʊst.",
+        "Meaning": "(Recent) Đây là bài đăng trên mạng xã hội gần đây nhất của cô ấy."
+    },
+    {
+        "Words": "Describe yourself in one word.",
+        "IPA": "dɪsˈkraɪb jɔːˈsɛlf ɪn wʌn wɜːd.",
+        "Meaning": "(Describe) Mô tả bản thân bằng một từ."
+    },
+    {
+        "Words": "This is my favorite product in their new line of cosmetics.",
+        "IPA": "ðɪs ɪz maɪ ˈfeɪvərɪt ˈprɒdʌkt ɪn ðeə njuː laɪn ɒv kɒzˈmɛtɪks.",
+        "Meaning": "(Product) Đây là sản phẩm yêu thích của tôi trong dòng mỹ phẩm mới của họ."
+    },
+    {
+        "Words": "The doctor is in.",
+        "IPA": "ðə ˈdɒktər ɪz ɪn.",
+        "Meaning": "(Doctor) Các bác sĩ đang ở trong."
+    },
+    {
+        "Words": "Can you post this up on the wall?",
+        "IPA": "kæn juː pəʊst ðɪs ʌp ɒn ðə wɔːl?",
+        "Meaning": "(Wall) Bạn có thể đăng cái này lên tường được không?"
+    },
+    {
+        "Words": "The patient is in so much pain now.",
+        "IPA": "ðə ˈpeɪʃənt ɪz ɪn səʊ mʌʧ peɪn naʊ.",
+        "Meaning": "(Patient ) Hiện bệnh nhân rất đau."
+    },
+    {
+        "Words": "She’s a factory worker.",
+        "IPA": "ʃiːz ə ˈfæktəri ˈwɜːkə.",
+        "Meaning": "(Worker) Cô ấy là một công nhân nhà máy."
+    },
+    {
+        "Words": "I saw that on the news.",
+        "IPA": "aɪ sɔː ðæt ɒn ðə njuːz.",
+        "Meaning": "(News ) Tôi đã thấy điều đó trên tin tức."
+    },
+    {
+        "Words": "I have to pass this English test.",
+        "IPA": "aɪ hæv tuː pɑːs ðɪs ˈɪŋglɪʃ tɛst.",
+        "Meaning": "(Test) Tôi phải vượt qua bài kiểm tra tiếng Anh này."
+    },
+    {
+        "Words": "Let’s watch a movie later.",
+        "IPA": "lɛts wɒʧ ə ˈmuːvi ˈleɪtə.",
+        "Meaning": "(Movie) Hãy xem phim sau."
+    },
+    {
+        "Words": "There’s a certain kind of magic in the air now.",
+        "IPA": "ðeəz ə ˈsɜːtn kaɪnd ɒv ˈmæʤɪk ɪn ði eə naʊ.",
+        "Meaning": "(Certain ) Hiện giờ có một loại ma thuật nào đó đang bay trong không khí."
+    },
+    {
+        "Words": "Santa lives up north.",
+        "IPA": "ˈsæntə lɪvz ʌp nɔːθ.",
+        "Meaning": "(North) Ông già Noel sống ở phía bắc."
+    },
+    {
+        "Words": "I love Christmas!",
+        "IPA": "aɪ lʌv ˈkrɪsməs!",
+        "Meaning": "(Love) Tôi yêu Giáng sinh!"
+    },
+    {
+        "Words": "This letter is very personal.",
+        "IPA": "ðɪs ˈlɛtər ɪz ˈvɛri ˈpɜːsnl.",
+        "Meaning": "(Personal ) Bức thư này rất cá nhân."
+    },
+    {
+        "Words": "Why did you open and read it?",
+        "IPA": "waɪ dɪd juː ˈəʊpən ænd riːd ɪt?",
+        "Meaning": "(Open) Tại sao bạn mở và đọc nó?"
+    },
+    {
+        "Words": "Will you support him?",
+        "IPA": "wɪl juː səˈpɔːt hɪm?",
+        "Meaning": "(Support) Bạn sẽ ủng hộ anh ấy chứ?"
+    },
+    {
+        "Words": "I simply won’t tolerate bad behavior.",
+        "IPA": "aɪ ˈsɪmpli wəʊnt ˈtɒləreɪt bæd bɪˈheɪvjə.",
+        "Meaning": "(Simply) Tôi chỉ đơn giản là sẽ không dung thứ cho hành vi xấu."
+    },
+    {
+        "Words": "This is the third time you’ve lied to me.",
+        "IPA": "ðɪs ɪz ðə θɜːd taɪm juːv laɪd tuː miː.",
+        "Meaning": "(Third) Đây là lần thứ ba bạn nói dối tôi."
+    },
+    {
+        "Words": "Write about the advantages of technology.",
+        "IPA": "raɪt əˈbaʊt ði ədˈvɑːntɪʤɪz ɒv tɛkˈnɒləʤi.",
+        "Meaning": "(Technology) Viết về những lợi thế của công nghệ."
+    },
+    {
+        "Words": "Let’s catch up soon, please!",
+        "IPA": "lɛts kæʧ ʌp suːn, pliːz!",
+        "Meaning": "(Catch) Hãy bắt kịp sớm, vui lòng!"
+    },
+    {
+        "Words": "Watch your step.",
+        "IPA": "wɒʧ jɔː stɛp.",
+        "Meaning": "(Step) Theo dõi bước đi của bạn."
+    },
+    {
+        "Words": "Her baby is so adorable.",
+        "IPA": "hɜː ˈbeɪbi ɪz səʊ əˈdɔːrəbl.",
+        "Meaning": "(Baby) Em bé của cô ấy thật đáng yêu."
+    },
+    {
+        "Words": "Can you turn on the computer, please?",
+        "IPA": "kæn juː tɜːn ɒn ðə kəmˈpjuːtə, pliːz?",
+        "Meaning": "(Computer) Bạn có thể bật máy tính lên được không?"
+    },
+    {
+        "Words": "You need to type in your password.",
+        "IPA": "juː niːd tuː taɪp ɪn jɔː ˈpɑːswɜːd.",
+        "Meaning": "(Type ) Bạn cần nhập mật khẩu của mình."
+    },
+    {
+        "Words": "Can I have your attention, please?",
+        "IPA": "kæn aɪ hæv jɔːr əˈtɛnʃ(ə)n, pliːz?",
+        "Meaning": "(Attention) Tôi có thể để ý bạn được không?"
+    },
+    {
+        "Words": "Can you draw this for me?",
+        "IPA": "kæn juː drɔː ðɪs fɔː miː?",
+        "Meaning": "(Draw) Bạn có thể vẽ cái này cho tôi được không?"
+    },
+    {
+        "Words": "That film is absolutely mind-blowing.",
+        "IPA": "ðæt fɪlm ɪz ˈæbsəluːtli maɪnd-ˈbləʊɪŋ.",
+        "Meaning": "(Film) Đó là bộ phim hoàn toàn tuyệt vời."
+    },
+    {
+        "Words": "He is a Republican candidate.",
+        "IPA": "hiː ɪz ə rɪˈpʌblɪkən ˈkændɪˌdeɪt.",
+        "Meaning": "(Republican) Anh ấy là một ứng cử viên của Đảng Cộng hòa."
+    },
+    {
+        "Words": "That tree has been there for generations.",
+        "IPA": "ðæt triː hæz biːn ðeə fɔː ˌʤɛnəˈreɪʃənz.",
+        "Meaning": "(Tree) Cây đó đã có từ bao đời nay."
+    },
+    {
+        "Words": "You are my source of strength.",
+        "IPA": "juː ɑː maɪ sɔːs ɒv strɛŋθ.",
+        "Meaning": "(Source) Bạn là nguồn sức mạnh của tôi."
+    },
+    {
+        "Words": "I’ll wear a red dress tonight.",
+        "IPA": "aɪl weər ə rɛd drɛs təˈnaɪt.",
+        "Meaning": "(Red) Tôi sẽ mặc một chiếc váy đỏ tối nay."
+    },
+    {
+        "Words": "He nearly died in that accident!",
+        "IPA": "hiː ˈnɪəli daɪd ɪn ðæt ˈæksɪdənt!",
+        "Meaning": "(Nearly) Anh ấy suýt chết trong vụ tai nạn đó!"
+    },
+    {
+        "Words": "Their organization is doing great things for street kids.",
+        "IPA": "ðeər ˌɔːgənaɪˈzeɪʃən ɪz ˈdu(ː)ɪŋ greɪt θɪŋz fɔː striːt kɪdz.",
+        "Meaning": "(Organization) Tổ chức của họ đang làm những điều tuyệt vời cho trẻ em đường phố."
+    },
+    {
+        "Words": "Let me choose a color.",
+        "IPA": "lɛt miː ʧuːz ə ˈkʌlə.",
+        "Meaning": "(Choose) Hãy để tôi chọn một màu."
+    },
+    {
+        "Words": "We have to see the cause and effect of this experiment.",
+        "IPA": "wiː hæv tuː siː ðə kɔːz ænd ɪˈfɛkt ɒv ðɪs ɪksˈpɛrɪmənt.",
+        "Meaning": "(Cause) Chúng ta phải xem nguyên nhân và kết quả của cuộc thử nghiệm này."
+    },
+    {
+        "Words": "I’ll cut my hair short for a change.",
+        "IPA": "aɪl kʌt maɪ heə ʃɔːt fɔːr ə ʧeɪnʤ.",
+        "Meaning": "(Hair) Tôi sẽ cắt tóc ngắn để thay đổi."
+    },
+    {
+        "Words": "Can you look at the items I bought?",
+        "IPA": "kæn juː lʊk æt ði ˈaɪtəmz aɪ bɔːt?",
+        "Meaning": "(Look) Bạn có thể nhìn vào những món đồ tôi đã mua không?"
+    },
+    {
+        "Words": "What is the point of all this?",
+        "IPA": "wɒt ɪz ðə pɔɪnt ɒv ɔːl ðɪs?",
+        "Meaning": "(Point ) tất cả những thứ này có nghĩa gì?"
+    },
+    {
+        "Words": "We’re living in the 21st century, mary.",
+        "IPA": "wɪə ˈlɪvɪŋ ɪn ðiː 21st ˈsɛnʧʊri, ˈmeəri.",
+        "Meaning": "(Century) Chúng ta đang sống trong thế kỷ 21, thưa bà."
+    },
+    {
+        "Words": "The evidence clearly shows that he is guilty.",
+        "IPA": "ði ˈɛvɪdəns ˈklɪəli ʃəʊz ðæt hiː ɪz ˈgɪlti.",
+        "Meaning": "(Evidence) Bằng chứng rõ ràng cho thấy anh ta có tội."
+    },
+    {
+        "Words": "I’ll buy window curtains next week.",
+        "IPA": "aɪl baɪ ˈwɪndəʊ ˈkɜːtnz nɛkst wiːk.",
+        "Meaning": "(Window ) Tôi sẽ mua rèm cửa sổ vào tuần tới."
+    },
+    {
+        "Words": "Sometimes, life can be difficult.",
+        "IPA": "ˈsʌmtaɪmz, laɪf kæn biː ˈdɪfɪkəlt.",
+        "Meaning": "(Difficult) Đôi khi, cuộc sống có thể khó khăn."
+    },
+    {
+        "Words": "You have to listen to your teacher.",
+        "IPA": "juː hæv tuː ˈlɪsn tuː jɔː ˈtiːʧə.",
+        "Meaning": "(Listen) Bạn phải nghe giáo viên của bạn."
+    },
+    {
+        "Words": "I will launch my course soon.",
+        "IPA": "aɪ wɪl lɔːnʧ maɪ kɔːs suːn.",
+        "Meaning": "(Soon ) Tôi sẽ bắt đầu khóa học của tôi sớm."
+    },
+    {
+        "Words": "I hope they understand our culture better.",
+        "IPA": "aɪ həʊp ðeɪ ˌʌndəˈstænd ˈaʊə ˈkʌlʧə ˈbɛtə.",
+        "Meaning": "(Culture ) Tôi hy vọng họ hiểu văn hóa của chúng tôi hơn."
+    },
+    {
+        "Words": "My target is to have 1 billion dollars in my account by the end of the year.",
+        "IPA": "maɪ ˈtɑːgɪt ɪz tuː hæv 1 ˈbɪljən ˈdɒləz ɪn maɪ əˈkaʊnt baɪ ði ɛnd ɒv ðə jɪə.",
+        "Meaning": "(Billion ) Mục tiêu của tôi là có 1 tỷ đô la trong tài khoản của mình vào cuối năm."
+    },
+    {
+        "Words": "Is there any chance that you can do this for me?",
+        "IPA": "ɪz ðeər ˈɛni ʧɑːns ðæt juː kæn duː ðɪs fɔː miː?",
+        "Meaning": "(Chance) Có bất kỳ cơ hội nào mà bạn có thể làm điều này cho tôi?"
+    },
+    {
+        "Words": "My brother always has my back.",
+        "IPA": "maɪ ˈbrʌðər ˈɔːlweɪz hæz maɪ bæk.",
+        "Meaning": "(Brother) Anh trai tôi luôn luôn có tôi sau lưng."
+    },
+    {
+        "Words": "now put that energy into walking.",
+        "IPA": "naʊ pʊt ðæt ˈɛnəʤi ˈɪntuː ˈwɔːkɪŋ.",
+        "Meaning": "(Energy ) bây giờ hãy đặt năng lượng đó vào việc đi bộ."
+    },
+    {
+        "Words": "They covered a period of twenty years.",
+        "IPA": "ðeɪ ˈkʌvəd ə ˈpɪərɪəd ɒv ˈtwɛnti jɪəz.",
+        "Meaning": "(Period) Chúng được bảo hiểm trong khoảng thời gian hai mươi năm."
+    },
+    {
+        "Words": "Have seen my course already?",
+        "IPA": "hæv siːn maɪ kɔːs ɔːlˈrɛdi?",
+        "Meaning": "(Course ) Đã xem khóa học của tôi rồi chứ?"
+    },
+    {
+        "Words": "I’ll go to the beach in summer.",
+        "IPA": "aɪl gəʊ tuː ðə biːʧ ɪn ˈsʌmə.",
+        "Meaning": "(Summer) Tôi sẽ đi biển vào mùa hè."
+    },
+    {
+        "Words": "Sometimes, less is more.",
+        "IPA": "ˈsʌmtaɪmz, lɛs ɪz mɔː.",
+        "Meaning": "(Less) Đôi khi ít lại hơn."
+    },
+    {
+        "Words": "I just realize that I have a meeting today.",
+        "IPA": "aɪ ʤʌst ˈrɪəlaɪz ðæt aɪ hæv ə ˈmiːtɪŋ təˈdeɪ.",
+        "Meaning": "(Realize) Tôi chỉ nhận ra rằng tôi có một cuộc họp hôm nay."
+    },
+    {
+        "Words": "I have a hundred dollars that I can lend you.",
+        "IPA": "aɪ hæv ə ˈhʌndrəd ˈdɒləz ðæt aɪ kæn lɛnd juː.",
+        "Meaning": "(Hundred) Tôi có một trăm đô la mà tôi có thể cho bạn vay."
+    },
+    {
+        "Words": "I am available to work on your project.",
+        "IPA": "aɪ æm əˈveɪləbl tuː wɜːk ɒn jɔː ˈprɒʤɛkt.",
+        "Meaning": "(Available) Tôi sẵn sàng làm việc trong dự án của bạn."
+    },
+    {
+        "Words": "Plant a seed.",
+        "IPA": "plɑːnt ə siːd.",
+        "Meaning": "(Plant) Trồng một hạt giống."
+    },
+    {
+        "Words": "It was likely a deer trail.",
+        "IPA": "ɪt wɒz ˈlaɪkli ə dɪə treɪl.",
+        "Meaning": "(Likely) Đó có thể là một con đường mòn của hươu."
+    },
+    {
+        "Words": "It was the perfect opportunity to test her theory.",
+        "IPA": "ɪt wɒz ðə ˈpɜːfɪkt ˌɒpəˈtjuːnɪti tuː tɛst hɜː ˈθɪəri.",
+        "Meaning": "(Opportunity) Đó là cơ hội hoàn hảo để kiểm tra lý thuyết của cô ấy."
+    },
+    {
+        "Words": "I’m sure there’s a Latin term for it.",
+        "IPA": "aɪm ʃʊə ðeəz ə ˈlætɪn tɜːm fɔːr ɪt.",
+        "Meaning": "(Term ) Tôi chắc chắn rằng có một thuật ngữ Latinh cho nó."
+    },
+    {
+        "Words": "It was just a short stay at the hotel.",
+        "IPA": "ɪt wɒz ʤʌst ə ʃɔːt steɪ æt ðə həʊˈtɛl.",
+        "Meaning": "(Short ) Đó chỉ là một kỳ nghỉ ngắn hạn tại khách sạn."
+    },
+    {
+        "Words": "I already passed my letter of intent.",
+        "IPA": "aɪ ɔːlˈrɛdi pɑːst maɪ ˈlɛtər ɒv ɪnˈtɛnt.",
+        "Meaning": "(Letter) Tôi đã thông qua ý định thư của mình."
+    },
+    {
+        "Words": "Do you know the condition I am in?",
+        "IPA": "duː juː nəʊ ðə kənˈdɪʃən aɪ æm ɪn?",
+        "Meaning": "(Condition) Bạn có biết tình trạng của tôi không?"
+    },
+    {
+        "Words": "I have no choice.",
+        "IPA": "aɪ hæv nəʊ ʧɔɪs.",
+        "Meaning": "(Choice) Tôi không có lựa chọn."
+    },
+    {
+        "Words": "Let’s meet out at the meeting place.",
+        "IPA": "lɛts miːt aʊt æt ðə ˈmiːtɪŋ pleɪs.",
+        "Meaning": "(Place) Gặp nhau ở điểm hẹn."
+    },
+    {
+        "Words": "I am a single parent.",
+        "IPA": "aɪ æm ə ˈsɪŋgl ˈpeərənt.",
+        "Meaning": "(Single) Tôi là một phụ huynh đơn thân."
+    },
+    {
+        "Words": "It’s the rule of the law.",
+        "IPA": "ɪts ðə ruːl ɒv ðə lɔː.",
+        "Meaning": "(Rule) Đó là quy định của luật."
+    },
+    {
+        "Words": "My daughter knows how to read now.",
+        "IPA": "maɪ ˈdɔːtə nəʊz haʊ tuː riːd naʊ.",
+        "Meaning": "(Daughter) Con gái tôi biết đọc bây giờ."
+    },
+    {
+        "Words": "I will take this up with the administration.",
+        "IPA": "aɪ wɪl teɪk ðɪs ʌp wɪð ði ədˌmɪnɪsˈtreɪʃ(ə)n.",
+        "Meaning": "(Administration) Tôi sẽ giải quyết vấn đề này với chính quyền."
+    },
+    {
+        "Words": "I am headed south.",
+        "IPA": "aɪ æm ˈhɛdɪd saʊθ.",
+        "Meaning": "(South) Tôi đang đi về hướng nam."
+    },
+    {
+        "Words": "My husband just bought me a ring for my birthday.",
+        "IPA": "maɪ ˈhʌzbənd ʤʌst bɔːt miː ə rɪŋ fɔː maɪ ˈbɜːθdeɪ.",
+        "Meaning": "(Husband) Chồng tôi vừa mua cho tôi một chiếc nhẫn nhân ngày sinh nhật của tôi."
+    },
+    {
+        "Words": "It will be debated in the congress.",
+        "IPA": "ɪt wɪl biː dɪˈbeɪtɪd ɪn ðə ˈkɒŋgrɛs.",
+        "Meaning": "(Congress) Nó sẽ được tranh luận trong đại hội."
+    },
+    {
+        "Words": "She is our floor manager.",
+        "IPA": "ʃiː ɪz ˈaʊə flɔː ˈmænɪʤə.",
+        "Meaning": "(Floor) Cô ấy là quản lý tầng của chúng tôi."
+    },
+    {
+        "Words": "I handled their election campaign.",
+        "IPA": "aɪ ˈhændld ðeər ɪˈlɛkʃən kæmˈpeɪn.",
+        "Meaning": "(Campaign) Tôi đã xử lý chiến dịch tranh cử của họ."
+    },
+    {
+        "Words": "She had nothing material to report.",
+        "IPA": "ʃiː hæd ˈnʌθɪŋ məˈtɪərɪəl tuː rɪˈpɔːt.",
+        "Meaning": "(Material) Cô không có tài liệu gì để báo cáo."
+    },
+    {
+        "Words": "The population of the nearest big city was growing.",
+        "IPA": "ðə ˌpɒpjʊˈleɪʃən ɒv ðə ˈnɪərɪst bɪg ˈsɪti wɒz ˈgrəʊɪŋ.",
+        "Meaning": "(Population) Dân số của thành phố lớn gần nhất đang tăng lên."
+    },
+    {
+        "Words": "I wish you well.",
+        "IPA": "aɪ wɪʃ juː wɛl.",
+        "Meaning": "(Well) Tôi cầu chúc bạn khỏe mạnh."
+    },
+    {
+        "Words": "I am going to call the bank.",
+        "IPA": "aɪ æm ˈgəʊɪŋ tuː kɔːl ðə bæŋk.",
+        "Meaning": "(Call) Tôi sẽ gọi cho ngân hàng."
+    },
+    {
+        "Words": "The economy is booming.",
+        "IPA": "ði i(ː)ˈkɒnəmi ɪz ˈbuːmɪŋ.",
+        "Meaning": "(Economy) Nền kinh tế đang phát triển vượt bậc."
+    },
+    {
+        "Words": "She needs medical assistance.",
+        "IPA": "ʃiː niːdz ˈmɛdɪkəl əˈsɪstəns.",
+        "Meaning": "(Medical) Cô ấy cần hỗ trợ y tế."
+    },
+    {
+        "Words": "I’ll take her to the nearest hospital.",
+        "IPA": "aɪl teɪk hɜː tuː ðə ˈnɪərɪst ˈhɒspɪtl.",
+        "Meaning": "(Hospital) Tôi sẽ đưa cô ấy đến bệnh viện gần nhất."
+    },
+    {
+        "Words": "I saw you in church last Sunday.",
+        "IPA": "aɪ sɔː juː ɪn ʧɜːʧ lɑːst ˈsʌndeɪ.",
+        "Meaning": "(Church ) Tôi đã nhìn thấy bạn trong nhà thờ vào Chủ nhật tuần trước."
+    },
+    {
+        "Words": "Please close the door.",
+        "IPA": "pliːz kləʊs ðə dɔː.",
+        "Meaning": "(Close) Hãy đóng cửa lại."
+    },
+    {
+        "Words": "There are a thousand reasons to learn English!",
+        "IPA": "ðeər ɑːr ə ˈθaʊzənd ˈriːznz tuː lɜːn ˈɪŋglɪʃ!",
+        "Meaning": "(Thousand) Có hàng ngàn lý do để học tiếng Anh!"
+    },
+    {
+        "Words": "Taking a risk can be rewarding.",
+        "IPA": "ˈteɪkɪŋ ə rɪsk kæn biː rɪˈwɔːdɪŋ.",
+        "Meaning": "(Risk) Chấp nhận rủi ro có thể được thưởng."
+    },
+    {
+        "Words": "What is your current address?",
+        "IPA": "wɒt ɪz jɔː ˈkʌrənt əˈdrɛs?",
+        "Meaning": "(Current) Địa chỉ hiện tại của bạn là gì?"
+    },
+    {
+        "Words": "Make sure your smoke alarm works in case of fire.",
+        "IPA": "meɪk ʃʊə jɔː sməʊk əˈlɑːm wɜːks ɪn keɪs ɒv ˈfaɪə.",
+        "Meaning": "(Fire) Đảm bảo rằng thiết bị báo động khói của bạn hoạt động trong trường hợp hỏa hoạn."
+    },
+    {
+        "Words": "The future is full of hope.",
+        "IPA": "ðə ˈfjuːʧər ɪz fʊl ɒv həʊp.",
+        "Meaning": "(Future ) Tương lai đầy hy vọng."
+    },
+    {
+        "Words": "That is the wrong answer.",
+        "IPA": "ðæt ɪz ðə rɒŋ ˈɑːnsə.",
+        "Meaning": "(Wrong) Đó là câu trả lời sai."
+    },
+    {
+        "Words": "We need to involve the police.",
+        "IPA": "wiː niːd tuː ɪnˈvɒlv ðə pəˈliːs.",
+        "Meaning": "(Involve) Chúng ta cần có sự tham gia của cảnh sát."
+    },
+    {
+        "Words": "What is your defense or reason you did this?",
+        "IPA": "wɒt ɪz jɔː dɪˈfɛns ɔː ˈriːzn juː dɪd ðɪs?",
+        "Meaning": "(Defense) Biện hộ của bạn là gì hoặc lý do bạn làm điều này là gì?"
+    },
+    {
+        "Words": "Does anyone know the answer?",
+        "IPA": "dʌz ˈɛnɪwʌn nəʊ ði ˈɑːnsə?",
+        "Meaning": "(Anyone) Có ai biết câu trả lời không?"
+    },
+    {
+        "Words": "Let’s increase your test score.",
+        "IPA": "lɛts ˈɪnkriːs jɔː tɛst skɔː.",
+        "Meaning": "(Increase) Hãy tăng điểm bài kiểm tra của bạn."
+    },
+    {
+        "Words": "Some apartment buildings have security.",
+        "IPA": "sʌm əˈpɑːtmənt ˈbɪldɪŋz hæv sɪˈkjʊərɪti.",
+        "Meaning": "(Security) Một số khu chung cư có bảo vệ."
+    },
+    {
+        "Words": "I need to go to the bank to withdraw some money.",
+        "IPA": "aɪ niːd tuː gəʊ tuː ðə bæŋk tuː wɪðˈdrɔː sʌm ˈmʌni.",
+        "Meaning": "(Bank) Tôi cần đến ngân hàng để rút một số tiền."
+    },
+    {
+        "Words": "I can clean up by myself.",
+        "IPA": "aɪ kæn kliːn ʌp baɪ maɪˈsɛlf.",
+        "Meaning": "(Myself) Tôi có thể tự dọn dẹp."
+    },
+    {
+        "Words": "I can certainly help clean up.",
+        "IPA": "aɪ kæn ˈsɜːtnli hɛlp kliːn ʌp.",
+        "Meaning": "(Certainly) Tôi chắc chắn có thể giúp dọn dẹp."
+    },
+    {
+        "Words": "If you drive west, you will arrive in California.",
+        "IPA": "ɪf juː draɪv wɛst, juː wɪl əˈraɪv ɪn ˌkæləˈfɔːniə.",
+        "Meaning": "(West) Nếu bạn lái xe về phía Tây, bạn sẽ đến California."
+    },
+    {
+        "Words": "My favorite sport is soccer.",
+        "IPA": "maɪ ˈfeɪvərɪt spɔːt ɪz ˈsɒkə.",
+        "Meaning": "(Sport) Môn thể thao yêu thích của tôi là bóng đá."
+    },
+    {
+        "Words": "Can you see the board?",
+        "IPA": "kæn juː siː ðə bɔːd?",
+        "Meaning": "(Board) Bạn có thể nhìn thấy bảng?"
+    },
+    {
+        "Words": "Seek and you will find.",
+        "IPA": "siːk ænd juː wɪl faɪnd.",
+        "Meaning": "(Seek) Tìm kiếm và bạn sẽ tìm thấy."
+    },
+    {
+        "Words": "Lobster is $20 per pound.",
+        "IPA": "ˈlɒbstər ɪz $20 pɜː paʊnd.",
+        "Meaning": "(Per) Tôm hùm là $ 20 một pound."
+    },
+    {
+        "Words": "My favorite subject is English!",
+        "IPA": "maɪ ˈfeɪvərɪt ˈsʌbʤɪkt ɪz ˈɪŋglɪʃ!",
+        "Meaning": "(Subject) Môn tôi yêu thích là tiếng Anh!"
+    },
+    {
+        "Words": "Where can I find a police officer?",
+        "IPA": "weə kæn aɪ faɪnd ə pəˈliːs ˈɒfɪsə?",
+        "Meaning": "(Officer) Tôi có thể tìm cảnh sát ở đâu?"
+    },
+    {
+        "Words": "This is a private party.",
+        "IPA": "ðɪs ɪz ə ˈpraɪvɪt ˈpɑːti.",
+        "Meaning": "(Private) Đây là một bữa tiệc riêng tư."
+    },
+    {
+        "Words": "Let’s take a 15-minute rest.",
+        "IPA": "lɛts teɪk eɪ 15-ˈmɪnɪt rɛst.",
+        "Meaning": "(Rest) Hãy nghỉ ngơi trong 15 phút."
+    },
+    {
+        "Words": "This dog’s behavior is excellent.",
+        "IPA": "ðɪs dɒgz bɪˈheɪvjər ɪz ˈɛksələnt.",
+        "Meaning": "(Behavior) Hành vi của con chó này là tuyệt vời."
+    },
+    {
+        "Words": "A used car can be a good deal.",
+        "IPA": "ə juːzd kɑː kæn biː ə gʊd diːl.",
+        "Meaning": "(Deal) Một chiếc xe đã qua sử dụng có thể là một việc tốt."
+    },
+    {
+        "Words": "Your performance can be affected by your sleep.",
+        "IPA": "jɔː pəˈfɔːməns kæn biː əˈfɛktɪd baɪ jɔː sliːp.",
+        "Meaning": "(Performance) Hiệu suất của bạn có thể bị ảnh hưởng bởi giấc ngủ của bạn."
+    },
+    {
+        "Words": "I don’t want to fight with you.",
+        "IPA": "aɪ dəʊnt wɒnt tuː faɪt wɪð juː.",
+        "Meaning": "(Fight) Tôi không muốn chiến đấu với bạn."
+    },
+    {
+        "Words": "Throw me the ball!",
+        "IPA": "θrəʊ miː ðə bɔːl!",
+        "Meaning": "(Throw) Ném bóng cho tôi!"
+    },
+    {
+        "Words": "You are a top student.",
+        "IPA": "juː ɑːr ə tɒp ˈstjuːdənt.",
+        "Meaning": "(Top) Bạn là một sinh viên hàng đầu."
+    },
+    {
+        "Words": "Let’s finish reading this quickly.",
+        "IPA": "lɛts ˈfɪnɪʃ ˈriːdɪŋ ðɪs ˈkwɪkli.",
+        "Meaning": "(Quickly) Hãy nhanh chóng kết thúc việc đọc này."
+    },
+    {
+        "Words": "In the past, my English was not as good as it is today.",
+        "IPA": "ɪn ðə pɑːst, maɪ ˈɪŋglɪʃ wɒz nɒt æz gʊd æz ɪt ɪz təˈdeɪ.",
+        "Meaning": "(Past) Trước đây, tiếng Anh của tôi không được như ngày nay."
+    },
+    {
+        "Words": "My goal is to speak English fluently.",
+        "IPA": "maɪ gəʊl ɪz tuː spiːk ˈɪŋglɪʃ ˈflu(ː)əntli.",
+        "Meaning": "(Goal) Mục tiêu của tôi là nói tiếng Anh trôi chảy."
+    },
+    {
+        "Words": "My second goal is to increase my confidence.",
+        "IPA": "maɪ ˈsɛkənd gəʊl ɪz tuː ˈɪnkriːs maɪ ˈkɒnfɪdəns.",
+        "Meaning": "(Second) Mục tiêu thứ hai của tôi là tăng cường sự tự tin của mình."
+    },
+    {
+        "Words": "I go to bed around 10 pm.",
+        "IPA": "aɪ gəʊ tuː bɛd əˈraʊnd 10 pm.",
+        "Meaning": "(Bed) Tôi đi ngủ khoảng 10 giờ tối."
+    },
+    {
+        "Words": "I would like to order a book.",
+        "IPA": "aɪ wʊd laɪk tuː ˈɔːdər ə bʊk.",
+        "Meaning": "(Order) Tôi muốn đặt một cuốn sách."
+    },
+    {
+        "Words": "The author of this series is world-famous.",
+        "IPA": "ði ˈɔːθər ɒv ðɪs ˈsɪəriːz ɪz wɜːld-ˈfeɪməs.",
+        "Meaning": "(Author) Tác giả của bộ truyện này nổi tiếng thế giới."
+    },
+    {
+        "Words": "I need to fill (up) my gas tank.",
+        "IPA": "aɪ niːd tuː fɪl (ʌp) maɪ gæs tæŋk.",
+        "Meaning": "(Fill) Tôi cần đổ (đầy) bình xăng của mình."
+    },
+    {
+        "Words": "I represent my family.",
+        "IPA": "aɪ ˌrɛprɪˈzɛnt maɪ ˈfæmɪli.",
+        "Meaning": "(Represent) Tôi đại diện cho gia đình tôi."
+    },
+    {
+        "Words": "Turn off your phone and the tv and focus on your studies!",
+        "IPA": "tɜːn ɒf jɔː fəʊn ænd ðə ˌtiːˈviː ænd ˈfəʊkəs ɒn jɔː ˈstʌdiz!",
+        "Meaning": "(Focus) Tắt điện thoại và TV và tập trung vào việc học của bạn!"
+    },
+    {
+        "Words": "It’s great having foreign friends.",
+        "IPA": "ɪts greɪt ˈhævɪŋ ˈfɒrɪn frɛndz.",
+        "Meaning": "(Foreign) Thật tuyệt khi có những người bạn nước ngoài."
+    },
+    {
+        "Words": "Please don’t drop the eggs!",
+        "IPA": "pliːz dəʊnt drɒp ði ɛgz!",
+        "Meaning": "(Drop) Xin đừng làm rơi trứng!"
+    },
+    {
+        "Words": "Let’s make a plan.",
+        "IPA": "lɛts meɪk ə plæn.",
+        "Meaning": "(Plan) Hãy lập kế hoạch."
+    },
+    {
+        "Words": "The hospital needs people to give blood.",
+        "IPA": "ðə ˈhɒspɪtl niːdz ˈpiːpl tuː gɪv blʌd.",
+        "Meaning": "(Blood) Bệnh viện cần người cho máu."
+    },
+    {
+        "Words": "Once upon a time, a princess lived in a castle.",
+        "IPA": "wʌns əˈpɒn ə taɪm, ə prɪnˈsɛs lɪvd ɪn ə ˈkɑːsl.",
+        "Meaning": "(Upon) Ngày xưa, một công chúa sống trong một lâu đài."
+    },
+    {
+        "Words": "Let’s contract an agency to help with marketing.",
+        "IPA": "lɛts ˈkɒntrækt ən ˈeɪʤənsi tuː hɛlp wɪð ˈmɑːkɪtɪŋ.",
+        "Meaning": "(Agency) Hãy ký hợp đồng với một đại lý để giúp tiếp thị."
+    },
+    {
+        "Words": "The door says ‘push,’ not ‘pull.'",
+        "IPA": "ðə dɔː sɛz pʊʃ,’ nɒt pʊl.'",
+        "Meaning": "(Push) Cánh cửa nói \"đẩy\", không phải \"kéo\"."
+    },
+    {
+        "Words": "I love walking in nature!",
+        "IPA": "aɪ lʌv ˈwɔːkɪŋ ɪn ˈneɪʧə!",
+        "Meaning": "(Nature) Tôi thích đi dạo trong thiên nhiên!"
+    },
+    {
+        "Words": "My favorite color is blue.",
+        "IPA": "maɪ ˈfeɪvərɪt ˈkʌlər ɪz bluː.",
+        "Meaning": "(Color) Màu sắc yêu thích của tôi là màu xanh."
+    },
+    {
+        "Words": "‘No’ is one of the shortest complete sentences.",
+        "IPA": "nəʊ ɪz wʌn ɒv ðə ˈʃɔːtɪst kəmˈpliːt ˈsɛntənsɪz.",
+        "Meaning": "(No) ‘No’ là một trong những câu hoàn chỉnh ngắn nhất."
+    },
+    {
+        "Words": "I cleaned the bathroom most recently, so I think it’s your turn this time.",
+        "IPA": "aɪ kliːnd ðə ˈbɑːθru(ː)m məʊst ˈriːsntli, səʊ aɪ θɪŋk ɪts jɔː tɜːn ðɪs taɪm.",
+        "Meaning": "(Recently) Tôi đã dọn dẹp phòng tắm gần đây nhất, vì vậy tôi nghĩ lần này đến lượt bạn."
+    },
+    {
+        "Words": "I’m going to the store to buy some bread.",
+        "IPA": "aɪm ˈgəʊɪŋ tuː ðə stɔː tuː baɪ sʌm brɛd.",
+        "Meaning": "(Store) Tôi đang đi đến cửa hàng để mua một ít bánh mì."
+    },
+    {
+        "Words": "Reduce, reuse, and recycle are the ways to help the environment.",
+        "IPA": "rɪˈdjuːs, riːˈjuːz, ænd ˌriːˈsaɪkl ɑː ðə weɪz tuː hɛlp ði ɪnˈvaɪərənmənt.",
+        "Meaning": "(Reduce) Giảm thiểu, tái sử dụng và tái chế là những cách để giúp ích cho môi trường."
+    },
+    {
+        "Words": "I like the sound of wind chimes.",
+        "IPA": "aɪ laɪk ðə saʊnd ɒv wɪnd ʧaɪmz.",
+        "Meaning": "(Sound) Tôi thích âm thanh của chuông gió."
+    },
+    {
+        "Words": "Please take notes during the lesson.",
+        "IPA": "pliːz teɪk nəʊts ˈdjʊərɪŋ ðə ˈlɛsn.",
+        "Meaning": "(Note) Hãy ghi chép lại trong buổi học."
+    },
+    {
+        "Words": "I feel fine.",
+        "IPA": "aɪ fiːl faɪn.",
+        "Meaning": "(Fine) Tôi cảm thấy ổn."
+    },
+    {
+        "Words": "Before the movie, let’s buy popcorn!",
+        "IPA": "bɪˈfɔː ðə ˈmuːvi, lɛts baɪ ˈpɒpkɔːn!",
+        "Meaning": "(Before) Trước khi xem phim, hãy mua bắp rang bơ!"
+    },
+    {
+        "Words": "Near, far, wherever you are, I do believe that the heart goes on.",
+        "IPA": "nɪə, fɑː, weərˈɛvə juː ɑː, aɪ duː bɪˈliːv ðæt ðə hɑːt gəʊz ɒn.",
+        "Meaning": "(Near) Gần, xa, dù bạn ở đâu, tôi tin rằng trái tim luôn hướng về."
+    },
+    {
+        "Words": "The environmental movement is an international movement.",
+        "IPA": "ði ɪnˌvaɪərənˈmɛntl ˈmuːvmənt ɪz ən ˌɪntə(ː)ˈnæʃənl ˈmuːvmənt.",
+        "Meaning": "(Movement) Phong trào môi trường là một phong trào quốc tế."
+    },
+    {
+        "Words": "Please turn to page 62.",
+        "IPA": "pliːz tɜːn tuː peɪʤ 62.",
+        "Meaning": "(Page) Vui lòng chuyển sang trang 62."
+    },
+    {
+        "Words": "You can enter the building on the left.",
+        "IPA": "juː kæn ˈɛntə ðə ˈbɪldɪŋ ɒn ðə lɛft.",
+        "Meaning": "(Enter) Bạn có thể vào tòa nhà bên trái."
+    },
+    {
+        "Words": "Let me share my idea.",
+        "IPA": "lɛt miː ʃeə maɪ aɪˈdɪə.",
+        "Meaning": "(Share) Hãy để tôi chia sẻ ý tưởng của tôi."
+    },
+    {
+        "Words": "Ice cream has more calories than water.",
+        "IPA": "aɪs kriːm hæz mɔː ˈkæləriz ðæn ˈwɔːtə.",
+        "Meaning": "(Than) Kem có nhiều calo hơn nước."
+    },
+    {
+        "Words": "Most people can find something in common with each other.",
+        "IPA": "məʊst ˈpiːpl kæn faɪnd ˈsʌmθɪŋ ɪn ˈkɒmən wɪð iːʧ ˈʌðə.",
+        "Meaning": "(Common) Hầu hết mọi người đều có thể tìm thấy điểm chung với nhau."
+    },
+    {
+        "Words": "We had a poor harvest this year because it was so dry.",
+        "IPA": "wiː hæd ə pʊə ˈhɑːvɪst ðɪs jɪə bɪˈkɒz ɪt wɒz səʊ draɪ.",
+        "Meaning": "(Poor) Chúng tôi đã có một vụ thu hoạch kém năm nay vì nó quá khô hạn."
+    },
+    {
+        "Words": "If this pen doesn’t work, try the other one.",
+        "IPA": "ɪf ðɪs pɛn dʌznt wɜːk, traɪ ði ˈʌðə wʌn.",
+        "Meaning": "(Other ) Nếu bút này không hoạt động, hãy thử bút khác."
+    },
+    {
+        "Words": "This cleaner is natural, there aren’t any chemicals in it.",
+        "IPA": "ðɪs ˈkliːnər ɪz ˈnæʧrəl, ðeər ɑːnt ˈɛni ˈkɛmɪkəlz ɪn ɪt.",
+        "Meaning": "(Natural) Chất tẩy rửa này là tự nhiên, không có bất kỳ hóa chất nào trong đó."
+    },
+    {
+        "Words": "We watched the car race on tv.",
+        "IPA": "wiː wɒʧt ðə kɑː reɪs ɒn ˌtiːˈviː.",
+        "Meaning": "(Race) Chúng tôi đã xem cuộc đua ô tô trên TV."
+    },
+    {
+        "Words": "Thank you for your concern, but I'm fine.",
+        "IPA": "θæŋk juː fɔː jɔː kənˈsɜːn, bʌt aɪm faɪn.",
+        "Meaning": "(Concern) Cảm ơn vì sự quan tâm của bạn, nhưng tôi không sao."
+    },
+    {
+        "Words": "What is your favorite tv series?",
+        "IPA": "wɒt ɪz jɔː ˈfeɪvərɪt ˌtiːˈviː ˈsɪəriːz?",
+        "Meaning": "(Series) Các chương trình TV mà bạn yêu thích?"
+    },
+    {
+        "Words": "His job earns a significant amount of money.",
+        "IPA": "hɪz ʤɒb ɜːnz ə sɪgˈnɪfɪkənt əˈmaʊnt ɒv ˈmʌni.",
+        "Meaning": "(Significant) Công việc của anh ấy kiếm được một số tiền đáng kể."
+    },
+    {
+        "Words": "These earrings don’t match, but they are similar.",
+        "IPA": "ðiːz ˈɪəˌrɪŋz dəʊnt mæʧ, bʌt ðeɪ ɑː ˈsɪmɪlə.",
+        "Meaning": "(Similar) Đôi bông tai này không giống nhau, nhưng chúng tương tự nhau."
+    },
+    {
+        "Words": "Don’t touch the stove, it’s still hot.",
+        "IPA": "dəʊnt tʌʧ ðə stəʊv, ɪts stɪl hɒt.",
+        "Meaning": "(Hot) Đừng chạm vào bếp, bếp vẫn còn nóng."
+    },
+    {
+        "Words": "Learning a new language is fun.",
+        "IPA": "ˈlɜːnɪŋ ə njuː ˈlæŋgwɪʤ ɪz fʌn.",
+        "Meaning": "(Language) Học một ngôn ngữ mới rất thú vị."
+    },
+    {
+        "Words": "Put a flower in each vase.",
+        "IPA": "pʊt ə ˈflaʊər ɪn iːʧ vɑːz.",
+        "Meaning": "(Each) Cắm một bông hoa vào mỗi bình."
+    },
+    {
+        "Words": "I usually shop at the corner store.",
+        "IPA": "aɪ ˈjuːʒʊəli ʃɒp æt ðə ˈkɔːnə stɔː.",
+        "Meaning": "(Usually) Tôi thường mua sắm ở cửa hàng góc."
+    },
+    {
+        "Words": "I didn’t expect his response to come so soon.",
+        "IPA": "aɪ dɪdnt ɪksˈpɛkt hɪz rɪsˈpɒns tuː kʌm səʊ suːn.",
+        "Meaning": "(Response) Tôi không mong đợi phản hồi của anh ấy đến sớm như vậy."
+    },
+    {
+        "Words": "My phone is dead, let me charge it.",
+        "IPA": "maɪ fəʊn ɪz dɛd, lɛt miː ʧɑːʤ ɪt.",
+        "Meaning": "(Dead) Điện thoại của tôi đã chết, để tôi sạc nó."
+    },
+    {
+        "Words": "The sun will rise at 7:00 a.m.",
+        "IPA": "ðə sʌn wɪl raɪz æt 7:00 eɪ.ɛm.",
+        "Meaning": "(Rise) Mặt trời sẽ mọc lúc 7:00 sáng."
+    },
+    {
+        "Words": "What kind of animal is that?",
+        "IPA": "wɒt kaɪnd ɒv ˈænɪməl ɪz ðæt?",
+        "Meaning": "(Animal) Đó là loại động vật gì?"
+    },
+    {
+        "Words": "Heredity is a factor in your overall health.",
+        "IPA": "hɪˈrɛdɪti ɪz ə ˈfæktər ɪn jɔːr ˈəʊvərɔːl hɛlθ.",
+        "Meaning": "(Factor) Di truyền là một yếu tố ảnh hưởng đến sức khỏe tổng thể của bạn."
+    },
+    {
+        "Words": "I’ve lived in this city for over a decade.",
+        "IPA": "aɪv lɪvd ɪn ðɪs ˈsɪti fɔːr ˈəʊvər ə ˈdɛkeɪd.",
+        "Meaning": "(Decade) Tôi đã sống ở thành phố này hơn một thập kỷ."
+    },
+    {
+        "Words": "Did you read that newspaper article?",
+        "IPA": "dɪd juː riːd ðæt ˈnjuːzˌpeɪpər ˈɑːtɪkl?",
+        "Meaning": "(Article) Bạn đã đọc bài báo đó?"
+    },
+    {
+        "Words": "He wants to shoot arrows at the target.",
+        "IPA": "hiː wɒnts tuː ʃuːt ˈærəʊz æt ðə ˈtɑːgɪt.",
+        "Meaning": "(Shoot) Anh ta muốn bắn tên vào mục tiêu."
+    },
+    {
+        "Words": "Drive east for three miles.",
+        "IPA": "draɪv iːst fɔː θriː maɪlz.",
+        "Meaning": "(East) Lái xe về phía đông ba dặm."
+    },
+    {
+        "Words": "I save all my cans for recycling.",
+        "IPA": "aɪ seɪv ɔːl maɪ kænz fɔː ˌriːˈsaɪklɪŋ.",
+        "Meaning": "(Save) Tôi tiết kiệm tất cả các lon của tôi để tái chế."
+    },
+    {
+        "Words": "There are seven slices of pie left.",
+        "IPA": "ðeər ɑː ˈsɛvn ˈslaɪsɪz ɒv paɪ lɛft.",
+        "Meaning": "(Seven) Còn lại bảy lát bánh."
+    },
+    {
+        "Words": "Taylor swift is a recording artist.",
+        "IPA": "ˈteɪlə swɪft ɪz ə rɪˈkɔːdɪŋ ˈɑːtɪst.",
+        "Meaning": "(Artist) Taylor swift là một nghệ sĩ thu âm."
+    },
+    {
+        "Words": "I wish that mosquito would go away.",
+        "IPA": "aɪ wɪʃ ðæt məsˈkiːtəʊ wʊd gəʊ əˈweɪ.",
+        "Meaning": "(Away) Tôi ước rằng con muỗi đó sẽ biến mất."
+    },
+    {
+        "Words": "He painted a colorful street scene.",
+        "IPA": "hiː ˈpeɪntɪd ə ˈkʌləf(ə)l striːt siːn.",
+        "Meaning": "(Scene) Anh ấy đã vẽ nên một khung cảnh đường phố đầy màu sắc."
+    },
+    {
+        "Words": "That shop has a good stock of postcards.",
+        "IPA": "ðæt ʃɒp hæz ə gʊd stɒk ɒv ˈpəʊstkɑːdz.",
+        "Meaning": "(Stock) Cửa hàng đó có một kho bưu thiếp tốt."
+    },
+    {
+        "Words": "Retail sale is a good career for some people.",
+        "IPA": "ˈriːteɪl seɪl ɪz ə gʊd kəˈrɪə fɔː sʌm ˈpiːpl.",
+        "Meaning": "(Career) Bán lẻ là một nghề nghiệp tốt đối với một số người."
+    },
+    {
+        "Words": "Despite the rain, we will still have the picnic.",
+        "IPA": "dɪsˈpaɪt ðə reɪn, wiː wɪl stɪl hæv ðə ˈpɪknɪk.",
+        "Meaning": "(Despite) Mặc dù trời mưa, chúng tôi vẫn sẽ có buổi dã ngoại."
+    },
+    {
+        "Words": "There is good shopping in central London.",
+        "IPA": "ðeər ɪz gʊd ˈʃɒpɪŋ ɪn ˈsɛntrəl ˈlʌndən.",
+        "Meaning": "(Central) Có khu mua sắm tốt ở trung tâm London."
+    },
+    {
+        "Words": "That recipe takes eight cups of flour.",
+        "IPA": "ðæt ˈrɛsɪpi teɪks eɪt kʌps ɒv ˈflaʊə.",
+        "Meaning": "(Eight) Công thức đó cần tám cốc bột."
+    },
+    {
+        "Words": "We haven’t had any problems thus far.",
+        "IPA": "wiː hævnt hæd ˈɛni ˈprɒbləmz ðʌs fɑː.",
+        "Meaning": "(Thus) Cho đến nay, chúng tôi chưa gặp bất kỳ vấn đề nào."
+    },
+    {
+        "Words": "I will propose a treatment plan for your injury.",
+        "IPA": "aɪ wɪl prəˈpəʊz ə ˈtriːtmənt plæn fɔː jɔːr ˈɪnʤəri.",
+        "Meaning": "(Treatment) Tôi sẽ đề xuất một kế hoạch điều trị cho vết thương của bạn."
+    },
+    {
+        "Words": "The town is just beyond those mountains.",
+        "IPA": "ðə taʊn ɪz ʤʌst bɪˈjɒnd ðəʊz ˈmaʊntɪnz.",
+        "Meaning": "(Beyond) Thị trấn nằm ngay bên ngoài những ngọn núi đó."
+    },
+    {
+        "Words": "Kittens make me happy.",
+        "IPA": "ˈkɪtnz meɪk miː ˈhæpi.",
+        "Meaning": "(Happy) Mèo con làm tôi hạnh phúc."
+    },
+    {
+        "Words": "Use exactly one teaspoon of salt in that recipe.",
+        "IPA": "juːz ɪgˈzæktli wʌn ˈtiːˌspuːn ɒv sɒlt ɪn ðæt ˈrɛsɪpi.",
+        "Meaning": "(Exactly) Sử dụng chính xác một thìa cà phê muối trong công thức đó."
+    },
+    {
+        "Words": "A coat will protect you from the cold weather.",
+        "IPA": "ə kəʊt wɪl prəˈtɛkt juː frɒm ðə kəʊld ˈwɛðə.",
+        "Meaning": "(Protect) Một chiếc áo khoác sẽ bảo vệ bạn khỏi thời tiết lạnh giá."
+    },
+    {
+        "Words": "The cat slowly approached the bird.",
+        "IPA": "ðə kæt ˈsləʊli əˈprəʊʧt ðə bɜːd.",
+        "Meaning": "(Approach) Con mèo từ từ đến gần con chim."
+    },
+    {
+        "Words": "Teach your children not to lie.",
+        "IPA": "tiːʧ jɔː ˈʧɪldrən nɒt tuː laɪ.",
+        "Meaning": "(Lie) Dạy con bạn không nói dối."
+    },
+    {
+        "Words": "What size is that shirt?",
+        "IPA": "wɒt saɪz ɪz ðæt ʃɜːt?",
+        "Meaning": "(Size) Cái áo đó cỡ bao nhiêu?"
+    },
+    {
+        "Words": "Do you think a dog is a good pet?",
+        "IPA": "duː juː θɪŋk ə dɒg ɪz ə gʊd pɛt?",
+        "Meaning": "(Dog) Bạn có nghĩ rằng một con chó là một con vật cưng tốt?"
+    },
+    {
+        "Words": "I have a savings fund for college.",
+        "IPA": "aɪ hæv ə ˈseɪvɪŋz fʌnd fɔː ˈkɒlɪʤ.",
+        "Meaning": "(Fund) Tôi có một quỹ tiết kiệm cho việc học đại học."
+    },
+    {
+        "Words": "She is so serious, she never laughs.",
+        "IPA": "ʃiː ɪz səʊ ˈsɪərɪəs, ʃiː ˈnɛvə lɑːfs.",
+        "Meaning": "(Serious) Cô ấy rất nghiêm túc, cô ấy không bao giờ cười."
+    },
+    {
+        "Words": "Strange things occur in that empty house.",
+        "IPA": "streɪnʤ θɪŋz əˈkɜːr ɪn ðæt ˈɛmpti haʊs.",
+        "Meaning": "(Occur) Những điều kỳ lạ xảy ra trong ngôi nhà trống rỗng đó."
+    },
+    {
+        "Words": "That issue has been discussed in the media.",
+        "IPA": "ðæt ˈɪʃuː hæz biːn dɪsˈkʌst ɪn ðə ˈmiːdiə.",
+        "Meaning": "(Media) Vấn đề đó đã được thảo luận trên các phương tiện truyền thông."
+    },
+    {
+        "Words": "Are you ready to leave for work?",
+        "IPA": "ɑː juː ˈrɛdi tuː liːv fɔː wɜːk?",
+        "Meaning": "(Ready) Bạn đã sẵn sàng đi làm chưa?"
+    },
+    {
+        "Words": "That store needs a bigger sign.",
+        "IPA": "ðæt stɔː niːdz ə ˈbɪgə saɪn.",
+        "Meaning": "(Sign) Cửa hàng đó cần một bảng hiệu lớn hơn."
+    },
+    {
+        "Words": "I’ll have to give it some thought.",
+        "IPA": "aɪl hæv tuː gɪv ɪt sʌm θɔːt.",
+        "Meaning": "(Thought) Tôi sẽ phải suy nghĩ về nó."
+    },
+    {
+        "Words": "I made a list of things to do.",
+        "IPA": "aɪ meɪd ə lɪst ɒv θɪŋz tuː duː.",
+        "Meaning": "(List) Tôi đã lập một danh sách những việc cần làm."
+    },
+    {
+        "Words": "You can buy an individual or group membership.",
+        "IPA": "juː kæn baɪ ən ˌɪndɪˈvɪdjʊəl ɔː gruːp ˈmɛmbəʃɪp.",
+        "Meaning": "(Individual) Bạn có thể mua một thành viên cá nhân hoặc nhóm."
+    },
+    {
+        "Words": "The appliance comes with simple instructions.",
+        "IPA": "ði əˈplaɪəns kʌmz wɪð ˈsɪmpl ɪnˈstrʌkʃənz.",
+        "Meaning": "(Simple) Thiết bị đi kèm với các hướng dẫn đơn giản."
+    },
+    {
+        "Words": "I paid a little more for quality shoes.",
+        "IPA": "aɪ peɪd ə ˈlɪtl mɔː fɔː ˈkwɒlɪti ʃuːz.",
+        "Meaning": "(Quality) Tôi đã trả nhiều hơn một chút cho những đôi giày chất lượng."
+    },
+    {
+        "Words": "There is no pressure to finish right now.",
+        "IPA": "ðeər ɪz nəʊ ˈprɛʃə tuː ˈfɪnɪʃ raɪt naʊ.",
+        "Meaning": "(Pressure) Không có áp lực để hoàn thành ngay bây giờ."
+    },
+    {
+        "Words": "Will you accept my credit card?",
+        "IPA": "wɪl juː əkˈsɛpt maɪ ˈkrɛdɪt kɑːd?",
+        "Meaning": "(Accept) Bạn sẽ chấp nhận thẻ tín dụng của tôi chứ?"
+    },
+    {
+        "Words": "Give me your answer by noon tomorrow.",
+        "IPA": "gɪv miː jɔːr ˈɑːnsə baɪ nuːn təˈmɒrəʊ.",
+        "Meaning": "(Answer) Hãy cho tôi câu trả lời của bạn vào trưa mai."
+    },
+    {
+        "Words": "That test was very hard.",
+        "IPA": "ðæt tɛst wɒz ˈvɛri hɑːd.",
+        "Meaning": "(Hard) Bài kiểm tra đó rất khó."
+    },
+    {
+        "Words": "The library has many online resources.",
+        "IPA": "ðə ˈlaɪbrəri hæz ˈmɛni ˈɒnˌlaɪn rɪˈsɔːsɪz.",
+        "Meaning": "(Resource) Thư viện có nhiều tài nguyên trực tuyến."
+    },
+    {
+        "Words": "I can’t identify that plant.",
+        "IPA": "aɪ kɑːnt aɪˈdɛntɪfaɪ ðæt plɑːnt.",
+        "Meaning": "(Identify) Tôi không thể xác định được loại cây đó."
+    },
+    {
+        "Words": "The door is on your left as you approach.",
+        "IPA": "ðə dɔːr ɪz ɒn jɔː lɛft æz juː əˈprəʊʧ.",
+        "Meaning": "(Left) Cánh cửa ở bên trái khi bạn đến gần."
+    },
+    {
+        "Words": "We’ll have a staff meeting after lunch.",
+        "IPA": "wiːl hæv ə stɑːf ˈmiːtɪŋ ˈɑːftə lʌnʧ.",
+        "Meaning": "(Meeting) Chúng ta sẽ có một cuộc họp nhân viên sau bữa trưa."
+    },
+    {
+        "Words": "Eye color is genetically determined.",
+        "IPA": "aɪ ˈkʌlər ɪz ʤɪˈnɛtɪk(ə)li dɪˈtɜːmɪnd.",
+        "Meaning": "(Determine) Màu mắt được xác định về mặt di truyền."
+    },
+    {
+        "Words": "I’ll prepare breakfast tomorrow.",
+        "IPA": "aɪl prɪˈpeə ˈbrɛkfəst təˈmɒrəʊ.",
+        "Meaning": "(Prepare) Tôi sẽ chuẩn bị bữa sáng vào ngày mai."
+    },
+    {
+        "Words": "Face masks help prevent disease.",
+        "IPA": "feɪs mɑːsks hɛlp prɪˈvɛnt dɪˈziːz.",
+        "Meaning": "(Disease) Mặt nạ giúp ngăn ngừa bệnh tật."
+    },
+    {
+        "Words": "Choose whatever flavor you like the best.",
+        "IPA": "ʧuːz wɒtˈɛvə ˈfleɪvə juː laɪk ðə bɛst.",
+        "Meaning": "(Whatever) Chọn bất kỳ hương vị nào bạn thích nhất."
+    },
+    {
+        "Words": "Failure is the back door to success.",
+        "IPA": "ˈfeɪljər ɪz ðə bæk dɔː tuː səkˈsɛs.",
+        "Meaning": "(Success) Thất bại là cửa sau của thành công."
+    },
+    {
+        "Words": "It’s not a good idea to argue with your boss.",
+        "IPA": "ɪts nɒt ə gʊd aɪˈdɪə tuː ˈɑːgjuː wɪð jɔː bɒs.",
+        "Meaning": "(Argue) Tranh luận với sếp của bạn không phải là một ý kiến ​​hay."
+    },
+    {
+        "Words": "Would you like a cup of coffee?",
+        "IPA": "wʊd juː laɪk ə kʌp ɒv ˈkɒfi?",
+        "Meaning": "(Cup) Bạn muốn có một tách cà phê?"
+    },
+    {
+        "Words": "It’s not particularly hot outside, just warm.",
+        "IPA": "ɪts nɒt pəˈtɪkjʊləli hɒt ˌaʊtˈsaɪd, ʤʌst wɔːm.",
+        "Meaning": "(Particularly) Bên ngoài trời không quá nóng, chỉ ấm."
+    },
+    {
+        "Words": "It takes a large amount of food to feed an elephant.",
+        "IPA": "ɪt teɪks ə lɑːʤ əˈmaʊnt ɒv fuːd tuː fiːd ən ˈɛlɪfənt.",
+        "Meaning": "(Amount) Cần một lượng lớn thức ăn để nuôi một con voi."
+    },
+    {
+        "Words": "He has the ability to explain things well.",
+        "IPA": "hiː hæz ði əˈbɪlɪti tuː ɪksˈpleɪn θɪŋz wɛl.",
+        "Meaning": "(Ability) Anh ấy có khả năng giải thích mọi thứ tốt."
+    },
+    {
+        "Words": "There are five people on staff here.",
+        "IPA": "ðeər ɑː faɪv ˈpiːpl ɒn stɑːf hɪə.",
+        "Meaning": "(Staff) Có năm người trong nhân viên ở đây."
+    },
+    {
+        "Words": "Do you recognize the person in this photo?",
+        "IPA": "duː juː ˈrɛkəgnaɪz ðə ˈpɜːsn ɪn ðɪs ˈfəʊtəʊ?",
+        "Meaning": "(Recognize) Bạn có nhận ra người trong bức ảnh này không?"
+    },
+    {
+        "Words": "Her reply indicated that she understood.",
+        "IPA": "hɜː rɪˈplaɪ ˈɪndɪkeɪtɪd ðæt ʃiː ˌʌndəˈstʊd.",
+        "Meaning": "(Indicate) Câu trả lời của cô ấy cho thấy rằng cô ấy đã hiểu."
+    },
+    {
+        "Words": "You can trust people of good character.",
+        "IPA": "juː kæn trʌst ˈpiːpl ɒv gʊd ˈkærɪktə.",
+        "Meaning": "(Character) Bạn có thể tin tưởng những người có đức tính tốt."
+    },
+    {
+        "Words": "The company has seen strong growth this quarter.",
+        "IPA": "ðə ˈkʌmpəni hæz siːn strɒŋ grəʊθ ðɪs ˈkwɔːtə.",
+        "Meaning": "(Growth) Công ty đã tăng trưởng mạnh mẽ trong quý này."
+    },
+    {
+        "Words": "The farmer suffered heavy losses after the storm.",
+        "IPA": "ðə ˈfɑːmə ˈsʌfəd ˈhɛvi ˈlɒsɪz ˈɑːftə ðə stɔːm.",
+        "Meaning": "(Loss) Người nông dân thiệt hại nặng nề sau bão."
+    },
+    {
+        "Words": "Set the oven to 300 degrees.",
+        "IPA": "sɛt ði ˈʌvn tuː 300 dɪˈgriːz.",
+        "Meaning": "(Degree) Đặt lò ở 300 độ."
+    },
+    {
+        "Words": "I wonder if the bulls will win the game.",
+        "IPA": "aɪ ˈwʌndər ɪf ðə bʊlz wɪl wɪn ðə geɪm.",
+        "Meaning": "(Wonder) Tôi tự hỏi liệu những con bò đực sẽ giành chiến thắng trong trò chơi."
+    },
+    {
+        "Words": "The army will attack at dawn.",
+        "IPA": "ði ˈɑːmi wɪl əˈtæk æt dɔːn.",
+        "Meaning": "(Attack) Quân đội sẽ tấn công vào lúc bình minh."
+    },
+    {
+        "Words": "She bought herself a new coat.",
+        "IPA": "ʃiː bɔːt hɜːˈsɛlf ə njuː kəʊt.",
+        "Meaning": "(Herself) Cô đã mua cho mình một chiếc áo khoác mới."
+    },
+    {
+        "Words": "What internet services are in your region?",
+        "IPA": "wɒt ˈɪntəˌnɛt ˈsɜːvɪsɪz ɑːr ɪn jɔː ˈriːʤən?",
+        "Meaning": "(Region) Những dịch vụ internet nào có trong khu vực của bạn?"
+    },
+    {
+        "Words": "I don’t watch much television.",
+        "IPA": "aɪ dəʊnt wɒʧ mʌʧ ˈtɛlɪˌvɪʒən.",
+        "Meaning": "(Television) Tôi không xem tivi nhiều."
+    },
+    {
+        "Words": "I packed my dishes in a strong box.",
+        "IPA": "aɪ pækt maɪ ˈdɪʃɪz ɪn ə strɒŋ bɒks.",
+        "Meaning": "(Box) Tôi đóng gói các món ăn của mình trong một chiếc hộp chắc chắn."
+    },
+    {
+        "Words": "There is a good movie on tv tonight.",
+        "IPA": "ðeər ɪz ə gʊd ˈmuːvi ɒn ˌtiːˈviː təˈnaɪt.",
+        "Meaning": "(Tv) Có một bộ phim hay trên tv tối nay."
+    },
+    {
+        "Words": "The company will pay for your training.",
+        "IPA": "ðə ˈkʌmpəni wɪl peɪ fɔː jɔː ˈtreɪnɪŋ.",
+        "Meaning": "(Training) Công ty sẽ trả tiền cho việc đào tạo của bạn."
+    },
+    {
+        "Words": "That is a pretty dress.",
+        "IPA": "ðæt ɪz ə ˈprɪti drɛs.",
+        "Meaning": "(Pretty) Đó là một chiếc váy đẹp."
+    },
+    {
+        "Words": "The stock market traded lower today.",
+        "IPA": "ðə stɒk ˈmɑːkɪt ˈtreɪdɪd ˈləʊə təˈdeɪ.",
+        "Meaning": "(Trade) Thị trường chứng khoán hôm nay giao dịch thấp hơn."
+    },
+    {
+        "Words": "I got a good deal at the store.",
+        "IPA": "aɪ gɒt ə gʊd diːl æt ðə stɔː.",
+        "Meaning": "(Deal) Tôi có một thỏa thuận tốt ở cửa hàng."
+    },
+    {
+        "Words": "Who do you think will win the election?",
+        "IPA": "huː duː juː θɪŋk wɪl wɪn ði ɪˈlɛkʃən?",
+        "Meaning": "(Election) Bạn nghĩ ai sẽ thắng cuộc bầu cử?"
+    },
+    {
+        "Words": "Everybody likes ice cream.",
+        "IPA": "ˈɛvrɪbɒdi laɪks aɪs kriːm.",
+        "Meaning": "(Everybody) Mọi người đều thích kem."
+    },
+    {
+        "Words": "Keep a physical distance of six feet.",
+        "IPA": "kiːp ə ˈfɪzɪkəl ˈdɪstəns ɒv sɪks fiːt.",
+        "Meaning": "(Physical) Giữ khoảng cách vật lý là 6 feet."
+    },
+    {
+        "Words": "Lay the baby in her crib, please.",
+        "IPA": "leɪ ðə ˈbeɪbi ɪn hɜː krɪb, pliːz.",
+        "Meaning": "(Lay) Làm ơn đặt đứa bé vào cũi của cô ấy."
+    },
+    {
+        "Words": "My general impression of the restaurant was good.",
+        "IPA": "maɪ ˈʤɛnərəl ɪmˈprɛʃən ɒv ðə ˈrɛstrɒnt wɒz gʊd.",
+        "Meaning": "(General) Ấn tượng chung của tôi về nhà hàng là tốt."
+    },
+    {
+        "Words": "I have a good feeling about this.",
+        "IPA": "aɪ hæv ə gʊd ˈfiːlɪŋ əˈbaʊt ðɪs.",
+        "Meaning": "(Feeling) Tôi có một cảm giác tốt về điều này."
+    },
+    {
+        "Words": "The standard fee is $10.00.",
+        "IPA": "ðə ˈstændəd fiː ɪz $10.00.",
+        "Meaning": "(Standard) Phí tiêu chuẩn là $ 10,00."
+    },
+    {
+        "Words": "The electrician will send me a bill.",
+        "IPA": "ði ɪlɛkˈtrɪʃən wɪl sɛnd miː ə bɪl.",
+        "Meaning": "(Bill) Thợ điện sẽ gửi hóa đơn cho tôi."
+    },
+    {
+        "Words": "You have a text message on your phone.",
+        "IPA": "juː hæv ə tɛkst ˈmɛsɪʤ ɒn jɔː fəʊn.",
+        "Meaning": "(Message) Bạn có một tin nhắn văn bản trên điện thoại của mình."
+    },
+    {
+        "Words": "I fail to see what is so funny about that.",
+        "IPA": "aɪ feɪl tuː siː wɒt ɪz səʊ ˈfʌni əˈbaʊt ðæt.",
+        "Meaning": "(Fail) Tôi không hiểu điều đó có gì buồn cười."
+    },
+    {
+        "Words": "The cat goes outside sometimes.",
+        "IPA": "ðə kæt gəʊz ˌaʊtˈsaɪd ˈsʌmtaɪmz.",
+        "Meaning": "(Outside) Đôi khi con mèo đi ra ngoài."
+    },
+    {
+        "Words": "When will your plane arrive?",
+        "IPA": "wɛn wɪl jɔː pleɪn əˈraɪv?",
+        "Meaning": "(Arrive) Khi nào máy bay của bạn sẽ đến nơi?"
+    },
+    {
+        "Words": "I’ll give you my analysis when I’ve seen everything.",
+        "IPA": "aɪl gɪv juː maɪ əˈnæləsɪs wɛn aɪv siːn ˈɛvrɪθɪŋ.",
+        "Meaning": "(Analysis) Tôi sẽ cung cấp cho bạn phân tích của tôi khi tôi đã nhìn thấy mọi thứ."
+    },
+    {
+        "Words": "There are many health benefits to quinoa.",
+        "IPA": "ðeər ɑː ˈmɛni hɛlθ ˈbɛnɪfɪts tuː ˈkiːnwɑː.",
+        "Meaning": "(Benefit) Hạt quinoa có rất nhiều lợi ích cho sức khỏe."
+    },
+    {
+        "Words": "What’s your name?",
+        "IPA": "wɒts jɔː neɪm?",
+        "Meaning": "(Name) Bạn tên là gì?"
+    },
+    {
+        "Words": "Do you know the sex of your baby yet?",
+        "IPA": "duː juː nəʊ ðə sɛks ɒv jɔː ˈbeɪbi jɛt?",
+        "Meaning": "(Sex) Bạn đã biết giới tính của con mình chưa?"
+    },
+    {
+        "Words": "Move the car forward a few feet.",
+        "IPA": "muːv ðə kɑː ˈfɔːwəd ə fjuː fiːt.",
+        "Meaning": "(Forward) Di chuyển xe về phía trước một vài bước chân."
+    },
+    {
+        "Words": "My lawyer helped me write a will.",
+        "IPA": "maɪ ˈlɔːjə hɛlpt miː raɪt ə wɪl.",
+        "Meaning": "(Lawyer) Luật sư đã giúp tôi viết di chúc."
+    },
+    {
+        "Words": "If everyone is present, the meeting can begin.",
+        "IPA": "ɪf ˈɛvrɪwʌn ɪz ˈprɛznt, ðə ˈmiːtɪŋ kæn bɪˈgɪn.",
+        "Meaning": "(Present) Nếu tất cả mọi người đều có mặt, cuộc họp có thể bắt đầu."
+    },
+    {
+        "Words": "What section of the stadium are you sitting in?",
+        "IPA": "wɒt ˈsɛkʃən ɒv ðə ˈsteɪdiəm ɑː juː ˈsɪtɪŋ ɪn?",
+        "Meaning": "(Section) Bạn đang ngồi ở khu vực nào của sân vận động?"
+    },
+    {
+        "Words": "Environmental issues are in the news.",
+        "IPA": "ɪnˌvaɪərənˈmɛntl ˈɪʃuːz ɑːr ɪn ðə njuːz.",
+        "Meaning": "(Environmental) Các vấn đề môi trường đang được đưa tin."
+    },
+    {
+        "Words": "Glass is much heavier than plastic.",
+        "IPA": "glɑːs ɪz mʌʧ ˈhɛvɪə ðæn ˈplæstɪk.",
+        "Meaning": "(Glass) Thủy tinh nặng hơn nhiều so với nhựa."
+    },
+    {
+        "Words": "Could you answer a question for me?",
+        "IPA": "kʊd juː ˈɑːnsər ə ˈkwɛsʧən fɔː miː?",
+        "Meaning": "(Answer) Bạn có thể trả lời một câu hỏi cho tôi?"
+    },
+    {
+        "Words": "His best skill is woodworking.",
+        "IPA": "hɪz bɛst skɪl ɪz ˈwʊdwɜːkɪŋ.",
+        "Meaning": "(Skill) Kỹ năng tốt nhất của anh ấy là chế biến gỗ."
+    },
+    {
+        "Words": "My sister lives close to me.",
+        "IPA": "maɪ ˈsɪstə lɪvz kləʊs tuː miː.",
+        "Meaning": "(Sister) Em gái tôi sống gần tôi."
+    },
+    {
+        "Words": "The movie starts at 7:30 pm.",
+        "IPA": "ðə ˈmuːvi stɑːts æt 7:30 pm.",
+        "Meaning": "(Pm) Phim bắt đầu lúc 7:30 tối."
+    },
+    {
+        "Words": "Dr. Smith is my favorite professor.",
+        "IPA": "Dr. smɪθ ɪz maɪ ˈfeɪvərɪt prəˈfɛsə.",
+        "Meaning": "(Professor) Tiến sĩ Smith là giáo sư yêu thích của tôi."
+    },
+    {
+        "Words": "The mining operation employs thousands of people.",
+        "IPA": "ðə ˈmaɪnɪŋ ˌɒpəˈreɪʃən ɪmˈplɔɪz ˈθaʊzəndz ɒv ˈpiːpl.",
+        "Meaning": "(Operation) Hoạt động khai thác sử dụng hàng nghìn người."
+    },
+    {
+        "Words": "I keep my accounts at my financial institution.",
+        "IPA": "aɪ kiːp maɪ əˈkaʊnts æt maɪ faɪˈnænʃəl ˌɪnstɪˈtjuːʃən.",
+        "Meaning": "(Financial) Tôi giữ tài khoản của mình tại tổ chức tài chính của mình."
+    },
+    {
+        "Words": "The police fight crime.",
+        "IPA": "ðə pəˈliːs faɪt kraɪm.",
+        "Meaning": "(Crime) Cảnh sát chống tội phạm."
+    },
+    {
+        "Words": "A caterpillar is the larval stage of a butterfly.",
+        "IPA": "ə ˈkætəpɪlər ɪz ðə ˈlɑːvəl steɪʤ ɒv ə ˈbʌtəflaɪ.",
+        "Meaning": "(Stage) Sâu bướm là giai đoạn ấu trùng của bướm."
+    },
+    {
+        "Words": "Would it be ok to eat out tonight?",
+        "IPA": "wʊd ɪt biː ˈəʊˈkeɪ tuː iːt aʊt təˈnaɪt?",
+        "Meaning": "(Ok) Tối nay đi ăn ngoài có được không?"
+    },
+    {
+        "Words": "We should compare cars before we buy one.",
+        "IPA": "wiː ʃʊd kəmˈpeə kɑːz bɪˈfɔː wiː baɪ wʌn.",
+        "Meaning": "(Compare) Chúng ta nên so sánh những chiếc xe trước khi mua một chiếc."
+    },
+    {
+        "Words": "City authorities make the local laws.",
+        "IPA": "ˈsɪti ɔːˈθɒrɪtiz meɪk ðə ˈləʊkəl lɔːz.",
+        "Meaning": "(Authority) Chính quyền thành phố thực hiện luật pháp địa phương."
+    },
+    {
+        "Words": "I miss you, when will I see you again?",
+        "IPA": "aɪ mɪs juː, wɛn wɪl aɪ siː juː əˈgɛn?",
+        "Meaning": "(Miss) Em nhớ anh, khi nào gặp lại anh?"
+    },
+    {
+        "Words": "We need to design a new logo.",
+        "IPA": "wiː niːd tuː dɪˈzaɪn ə njuː ˈləʊgəʊ.",
+        "Meaning": "(Design) Chúng tôi cần thiết kế một logo mới."
+    },
+    {
+        "Words": "Let’s sort these beads according to color.",
+        "IPA": "lɛts sɔːt ðiːz biːdz əˈkɔːdɪŋ tuː ˈkʌlə.",
+        "Meaning": "(Sort) Hãy phân loại các hạt này theo màu sắc."
+    },
+    {
+        "Words": "I only have one cat.",
+        "IPA": "aɪ ˈəʊnli hæv wʌn kæt.",
+        "Meaning": "(One) Tôi chỉ có một con mèo."
+    },
+    {
+        "Words": "I’ll act on your information today.",
+        "IPA": "aɪl ækt ɒn jɔːr ˌɪnfəˈmeɪʃən təˈdeɪ.",
+        "Meaning": "(Act) Tôi sẽ hành động dựa trên thông tin của bạn hôm nay."
+    },
+    {
+        "Words": "The baby counted her ten toes.",
+        "IPA": "ðə ˈbeɪbi ˈkaʊntɪd hɜː tɛn təʊz.",
+        "Meaning": "(Ten) Em bé đã đếm được mười ngón chân của mẹ."
+    },
+    {
+        "Words": "Do you have the knowledge to fix that?",
+        "IPA": "duː juː hæv ðə ˈnɒlɪʤ tuː fɪks ðæt?",
+        "Meaning": "(Knowledge) Bạn có kiến ​​thức để khắc phục điều đó?"
+    },
+    {
+        "Words": "Gun ownership is a controversial topic.",
+        "IPA": "gʌn ˈəʊnəʃɪp ɪz ə ˌkɒntrəˈvɜːʃəl ˈtɒpɪk.",
+        "Meaning": "(Gun) Quyền sở hữu súng là một chủ đề gây tranh cãi."
+    },
+    {
+        "Words": "There is a train station close to my house.",
+        "IPA": "ðeər ɪz ə treɪn ˈsteɪʃən kləʊs tuː maɪ haʊs.",
+        "Meaning": "(Station) Có một ga xe lửa gần nhà tôi."
+    },
+    {
+        "Words": "My favorite color is blue.",
+        "IPA": "maɪ ˈfeɪvərɪt ˈkʌlər ɪz bluː.",
+        "Meaning": "(Blue) Màu sắc yêu thích của tôi là màu xanh."
+    },
+    {
+        "Words": "After the accident, I was in a state of shock.",
+        "IPA": "ˈɑːftə ði ˈæksɪdənt, aɪ wɒz ɪn ə steɪt ɒv ʃɒk.",
+        "Meaning": "(State) Sau khi vụ tai nạn xảy ra, tôi bị sốc."
+    },
+    {
+        "Words": "Our new corporate strategy is written here.",
+        "IPA": "ˈaʊə njuː ˈkɔːpərɪt ˈstrætɪʤi ɪz ˈrɪtn hɪə.",
+        "Meaning": "(Strategy) Chiến lược công ty mới của chúng tôi được viết ở đây."
+    },
+    {
+        "Words": "I prefer little cars.",
+        "IPA": "aɪ priˈfɜː ˈlɪtl kɑːz.",
+        "Meaning": "(Little) Tôi thích những chiếc xe nhỏ hơn."
+    },
+    {
+        "Words": "The instructions were clearly written.",
+        "IPA": "ði ɪnˈstrʌkʃənz wɜː ˈklɪəli ˈrɪtn.",
+        "Meaning": "(Clearly) Các hướng dẫn đã được viết rõ ràng."
+    },
+    {
+        "Words": "We’ll discuss that at the meeting.",
+        "IPA": "wiːl dɪsˈkʌs ðæt æt ðə ˈmiːtɪŋ.",
+        "Meaning": "(Discuss) Chúng ta sẽ thảo luận điều đó tại cuộc họp."
+    },
+    {
+        "Words": "Your mother does indeed have hearing loss.",
+        "IPA": "jɔː ˈmʌðə dʌz ɪnˈdiːd hæv ˈhɪərɪŋ lɒs.",
+        "Meaning": "(Indeed) Mẹ của bạn thực sự bị mất thính giác."
+    },
+    {
+        "Words": "It takes a lot of force to open that door.",
+        "IPA": "ɪt teɪks ə lɒt ɒv fɔːs tuː ˈəʊpən ðæt dɔː.",
+        "Meaning": "(Force) Cần rất nhiều lực để mở cánh cửa đó."
+    },
+    {
+        "Words": "Please tell me the truth.",
+        "IPA": "pliːz tɛl miː ðə truːθ.",
+        "Meaning": "(Truth) Làm ơn hãy nói tôi biết sự thật."
+    },
+    {
+        "Words": "That’s a beautiful song.",
+        "IPA": "ðæts ə ˈbjuːtəfʊl sɒŋ.",
+        "Meaning": "(Song) Đó là một bài hát hay."
+    },
+    {
+        "Words": "I need an example of that grammar point, please.",
+        "IPA": "aɪ niːd ən ɪgˈzɑːmpl ɒv ðæt ˈgræmə pɔɪnt, pliːz.",
+        "Meaning": "(Example) Tôi cần một ví dụ về điểm ngữ pháp đó, làm ơn."
+    },
+    {
+        "Words": "Does Australia have a democratic government?",
+        "IPA": "dʌz ɒˈstreɪliːə hæv ə ˌdɛməˈkrætɪk ˈgʌvnmənt?",
+        "Meaning": "(Democratic) Úc có chính phủ dân chủ không?"
+    },
+    {
+        "Words": "Please check my work to be sure it’s correct.",
+        "IPA": "pliːz ʧɛk maɪ wɜːk tuː biː ʃʊər ɪts kəˈrɛkt.",
+        "Meaning": "(Check) Vui lòng kiểm tra công việc của tôi để chắc chắn rằng nó chính xác."
+    },
+    {
+        "Words": "We live in a healthy environment.",
+        "IPA": "wiː lɪv ɪn ə ˈhɛlθi ɪnˈvaɪərənmənt.",
+        "Meaning": "(Environment) Chúng ta đang sống trong một môi trường lành mạnh."
+    },
+    {
+        "Words": "The boy broke his leg.",
+        "IPA": "ðə bɔɪ brəʊk hɪz lɛg.",
+        "Meaning": "(Leg) Cậu bé bị gãy chân."
+    },
+    {
+        "Words": "Turn on the light, it’s dark in here.",
+        "IPA": "tɜːn ɒn ðə laɪt, ɪts dɑːk ɪn hɪə.",
+        "Meaning": "(Dark) Bật đèn lên, trong này tối."
+    },
+    {
+        "Words": "Masks must be worn in public places.",
+        "IPA": "mɑːsks mʌst biː wɔːn ɪn ˈpʌblɪk ˈpleɪsɪz.",
+        "Meaning": "(Public) Ở những nơi công cộng phải đeo khẩu trang."
+    },
+    {
+        "Words": "That rug comes in various shades of gray.",
+        "IPA": "ðæt rʌg kʌmz ɪn ˈveərɪəs ʃeɪdz ɒv greɪ.",
+        "Meaning": "(Various) Tấm thảm đó có nhiều màu xám khác nhau."
+    },
+    {
+        "Words": "Would you rather have a hamburger than a hot dog?",
+        "IPA": "wʊd juː ˈrɑːðə hæv ə ˈhæmbɜːgə ðæn ə hɒt dɒg?",
+        "Meaning": "(Rather) Bạn muốn ăn một chiếc bánh hamburger hơn là một chiếc xúc xích?"
+    },
+    {
+        "Words": "That movie always makes me laugh.",
+        "IPA": "ðæt ˈmuːvi ˈɔːlweɪz meɪks miː lɑːf.",
+        "Meaning": "(Laugh) Bộ phim đó luôn khiến tôi cười."
+    },
+    {
+        "Words": "If you don’t know, just guess.",
+        "IPA": "ɪf juː dəʊnt nəʊ, ʤʌst gɛs.",
+        "Meaning": "(Guess) Nếu bạn không biết, chỉ cần đoán."
+    },
+    {
+        "Words": "The company’s executives are paid well.",
+        "IPA": "ðə ˈkʌmpəniz ɪgˈzɛkjʊtɪvz ɑː peɪd wɛl.",
+        "Meaning": "(Executive) Các giám đốc điều hành của công ty được trả lương cao."
+    },
+    {
+        "Words": "Set the glass on the table, please.",
+        "IPA": "sɛt ðə glɑːs ɒn ðə ˈteɪbl, pliːz.",
+        "Meaning": "(Set) Làm ơn đặt cái ly lên bàn."
+    },
+    {
+        "Words": "He needs to study for the test.",
+        "IPA": "hiː niːdz tuː ˈstʌdi fɔː ðə tɛst.",
+        "Meaning": "(Study) Anh ấy cần phải học cho bài kiểm tra."
+    },
+    {
+        "Words": "The employee proved his worth.",
+        "IPA": "ði ˌɛmplɔɪˈiː pruːvd hɪz wɜːθ.",
+        "Meaning": "(Prove) Nhân viên đã chứng minh giá trị của mình."
+    },
+    {
+        "Words": "Please hang your coat on the hook.",
+        "IPA": "pliːz hæŋ jɔː kəʊt ɒn ðə hʊk.",
+        "Meaning": "(Hang) Hãy treo áo khoác của bạn trên móc."
+    },
+    {
+        "Words": "He ate the entire meal in 10 minutes.",
+        "IPA": "hiː ɛt ði ɪnˈtaɪə miːl ɪn 10 ˈmɪnɪts.",
+        "Meaning": "(Entire) Anh ấy đã ăn toàn bộ bữa ăn trong 10 phút."
+    },
+    {
+        "Words": "There are decorative rocks in the garden.",
+        "IPA": "ðeər ɑː ˈdɛkərətɪv rɒks ɪn ðə ˈgɑːdn.",
+        "Meaning": "(Rock) Có đá trang trí trong vườn."
+    },
+    {
+        "Words": "The windows don’t open by design.",
+        "IPA": "ðə ˈwɪndəʊz dəʊnt ˈəʊpən baɪ dɪˈzaɪn.",
+        "Meaning": "(Design) Các cửa sổ không mở theo thiết kế."
+    },
+    {
+        "Words": "Have you had enough coffee?",
+        "IPA": "hæv juː hæd ɪˈnʌf ˈkɒfi?",
+        "Meaning": "(Enough) Bạn đã uống đủ cà phê chưa?"
+    },
+    {
+        "Words": "Don’t forget to stop at the store.",
+        "IPA": "dəʊnt fəˈgɛt tuː stɒp æt ðə stɔː.",
+        "Meaning": "(Forget) Đừng quên dừng lại ở cửa hàng."
+    },
+    {
+        "Words": "She hasn’t eaten since yesterday.",
+        "IPA": "ʃiː ˈhæznt ˈiːtn sɪns ˈjɛstədeɪ.",
+        "Meaning": "(Since) Cô ấy đã không ăn kể từ hôm qua."
+    },
+    {
+        "Words": "I made an insurance claim for my car accident.",
+        "IPA": "aɪ meɪd ən ɪnˈʃʊərəns kleɪm fɔː maɪ kɑːr ˈæksɪdənt.",
+        "Meaning": "(Claim) Tôi đã yêu cầu bảo hiểm cho tai nạn xe hơi của tôi."
+    },
+    {
+        "Words": "Leave me a note if you’re going to be late.",
+        "IPA": "liːv miː ə nəʊt ɪf jʊə ˈgəʊɪŋ tuː biː leɪt.",
+        "Meaning": "(Note) Hãy để lại lời nhắn cho tôi nếu bạn đến muộn."
+    },
+    {
+        "Words": "Remove the cookies from the oven.",
+        "IPA": "rɪˈmuːv ðə ˈkʊkiz frɒm ði ˈʌvn.",
+        "Meaning": "(Remove) Lấy cookie ra khỏi lò."
+    },
+    {
+        "Words": "The manager will look at your application.",
+        "IPA": "ðə ˈmænɪʤə wɪl lʊk æt jɔːr ˌæplɪˈkeɪʃ(ə)n.",
+        "Meaning": "(Manager) Người quản lý sẽ xem xét đơn đăng ký của bạn."
+    },
+    {
+        "Words": "Could you help me move this table?",
+        "IPA": "kʊd juː hɛlp miː muːv ðɪs ˈteɪbl?",
+        "Meaning": "(Help) Bạn có thể giúp tôi di chuyển cái bàn này được không?"
+    },
+    {
+        "Words": "Close the door, please.",
+        "IPA": "kləʊs ðə dɔː, pliːz.",
+        "Meaning": "(Close) Xin hãy đóng cửa lại."
+    },
+    {
+        "Words": "The dog did not make a sound.",
+        "IPA": "ðə dɒg dɪd nɒt meɪk ə saʊnd.",
+        "Meaning": "(Sound) Con chó không phát ra tiếng động."
+    },
+    {
+        "Words": "I enjoy soda.",
+        "IPA": "aɪ ɪnˈʤɔɪ ˈsəʊdə.",
+        "Meaning": "(Enjoy) Tôi thích soda."
+    },
+    {
+        "Words": "Band is the name of our internet network.",
+        "IPA": "bænd ɪz ðə neɪm ɒv ˈaʊər ˈɪntəˌnɛt ˈnɛtwɜːk.",
+        "Meaning": "(Network) Band là tên của mạng internet của chúng tôi."
+    },
+    {
+        "Words": "The legal documents need to be signed.",
+        "IPA": "ðə ˈliːgəl ˈdɒkjʊmənts niːd tuː biː saɪnd.",
+        "Meaning": "(Legal) Các văn bản pháp lý cần phải được ký kết."
+    },
+    {
+        "Words": "She is very religious, she attends church weekly.",
+        "IPA": "ʃiː ɪz ˈvɛri rɪˈlɪʤəs, ʃiː əˈtɛndz ʧɜːʧ ˈwiːkli.",
+        "Meaning": "(Religious) Cô ấy rất sùng đạo, cô ấy đến nhà thờ hàng tuần."
+    },
+    {
+        "Words": "My feet are cold.",
+        "IPA": "maɪ fiːt ɑː kəʊld.",
+        "Meaning": "(Cold) Chân của tôi lạnh."
+    },
+    {
+        "Words": "Please fill out this application form.",
+        "IPA": "pliːz fɪl aʊt ðɪs ˌæplɪˈkeɪʃ(ə)n fɔːm.",
+        "Meaning": "(Form) Vui lòng điền vào mẫu đơn đăng ký này."
+    },
+    {
+        "Words": "The divorce was final last month.",
+        "IPA": "ðə dɪˈvɔːs wɒz ˈfaɪnl lɑːst mʌnθ.",
+        "Meaning": "(Final) Cuộc ly hôn là cuối cùng vào tháng trước."
+    },
+    {
+        "Words": "The main problem is a lack of money.",
+        "IPA": "ðə meɪn ˈprɒbləm ɪz ə læk ɒv ˈmʌni.",
+        "Meaning": "(Main) Vấn đề chính là thiếu tiền."
+    },
+    {
+        "Words": "He studies health science at the university.",
+        "IPA": "hiː ˈstʌdiz hɛlθ ˈsaɪəns æt ðə ˌjuːnɪˈvɜːsɪti.",
+        "Meaning": "(Science) Anh ấy nghiên cứu khoa học sức khỏe tại trường đại học."
+    },
+    {
+        "Words": "The grass is green.",
+        "IPA": "ðə grɑːs ɪz griːn.",
+        "Meaning": "(Green) Cỏ xanh."
+    },
+    {
+        "Words": "He has a good memory.",
+        "IPA": "hiː hæz ə gʊd ˈmɛməri.",
+        "Meaning": "(Memory) Anh ấy có một trí nhớ tốt."
+    },
+    {
+        "Words": "They sent me a card for my birthday.",
+        "IPA": "ðeɪ sɛnt miː ə kɑːd fɔː maɪ ˈbɜːθdeɪ.",
+        "Meaning": "(Card) Họ đã gửi cho tôi một tấm thiệp cho ngày sinh nhật của tôi."
+    },
+    {
+        "Words": "Look on the shelf above the sink.",
+        "IPA": "lʊk ɒn ðə ʃɛlf əˈbʌv ðə sɪŋk.",
+        "Meaning": "(Above) Nhìn trên kệ phía trên bồn rửa."
+    },
+    {
+        "Words": "That’s a comfortable seat.",
+        "IPA": "ðæts ə ˈkʌmf(ə)təbl siːt.",
+        "Meaning": "(Seat) Đó là một chỗ ngồi thoải mái."
+    },
+    {
+        "Words": "Your body is made of millions of cells.",
+        "IPA": "jɔː ˈbɒdi ɪz meɪd ɒv ˈmɪljənz ɒv sɛlz.",
+        "Meaning": "(Cell) Cơ thể của bạn được tạo ra từ hàng triệu tế bào."
+    },
+    {
+        "Words": "They established their business in 1942.",
+        "IPA": "ðeɪ ɪsˈtæblɪʃt ðeə ˈbɪznɪs ɪn 1942.",
+        "Meaning": "(Establish) Họ thành lập doanh nghiệp của mình vào năm 1942."
+    },
+    {
+        "Words": "That’s a very nice car.",
+        "IPA": "ðæts ə ˈvɛri naɪs kɑː.",
+        "Meaning": "(Nice) Đó là một chiếc xe rất đẹp."
+    },
+    {
+        "Words": "They are employing her on a trial basis.",
+        "IPA": "ðeɪ ɑːr ɪmˈplɔɪɪŋ hɜːr ɒn ə ˈtraɪəl ˈbeɪsɪs.",
+        "Meaning": "(Trial) Họ đang tuyển dụng cô ấy trên cơ sở thử việc."
+    },
+    {
+        "Words": "Matt is an IT expert.",
+        "IPA": "mæt ɪz ən ɪt ˈɛkspɜːt.",
+        "Meaning": "(Expert) Matt là một chuyên gia CNTT."
+    },
+    {
+        "Words": "Did you see that movie?",
+        "IPA": "dɪd juː siː ðæt ˈmuːvi?",
+        "Meaning": "(That) Bạn đã xem bộ phim đó chưa?"
+    },
+    {
+        "Words": "Spring is the most beautiful season.",
+        "IPA": "sprɪŋ ɪz ðə məʊst ˈbjuːtəfʊl ˈsiːzn.",
+        "Meaning": "(Spring) Mùa xuân là mùa đẹp nhất."
+    },
+    {
+        "Words": "Her ‘no was very firm, she won’t change her mind.",
+        "IPA": "hɜː nəʊ wɒz ˈvɛri fɜːm, ʃiː wəʊnt ʧeɪnʤ hɜː maɪnd.",
+        "Meaning": "(Firm) Cô ấy nói \"không rất chắc chắn, cô ấy sẽ không thay đổi ý định của mình.\""
+    },
+    {
+        "Words": "The democrats control the senate.",
+        "IPA": "ðə ˈdɛməkræts kənˈtrəʊl ðə ˈsɛnɪt.",
+        "Meaning": "(Democrat) Những người dân chủ kiểm soát thượng viện."
+    },
+    {
+        "Words": "I listen to the radio in the car.",
+        "IPA": "aɪ ˈlɪsn tuː ðə ˈreɪdɪəʊ ɪn ðə kɑː.",
+        "Meaning": "(Radio) Tôi nghe radio trong xe hơi."
+    },
+    {
+        "Words": "We visited the museum today.",
+        "IPA": "wiː ˈvɪzɪtɪd ðə mju(ː)ˈzɪəm təˈdeɪ.",
+        "Meaning": "(Visit) Chúng tôi đã đến thăm viện bảo tàng ngày hôm nay."
+    },
+    {
+        "Words": "That store has good management.",
+        "IPA": "ðæt stɔː hæz gʊd ˈmænɪʤmənt.",
+        "Meaning": "(Management) Cửa hàng đó có quản lý tốt."
+    },
+    {
+        "Words": "She cares for her mother at home.",
+        "IPA": "ʃiː keəz fɔː hɜː ˈmʌðər æt həʊm.",
+        "Meaning": "(Care) Cô ấy chăm sóc cho mẹ cô ấy ở nhà."
+    },
+    {
+        "Words": "You should avoid poison ivy.",
+        "IPA": "juː ʃʊd əˈvɔɪd ˈpɔɪzn ˈaɪvi.",
+        "Meaning": "(Avoid) Bạn nên tránh cây thường xuân độc."
+    },
+    {
+        "Words": "Can you imagine if pigs could fly?",
+        "IPA": "kæn juː ɪˈmæʤɪn ɪf pɪgz kʊd flaɪ?",
+        "Meaning": "(Imagine) Bạn có thể tưởng tượng nếu lợn có thể bay?"
+    },
+    {
+        "Words": "Would you like to go out tonight?",
+        "IPA": "wʊd juː laɪk tuː gəʊ aʊt təˈnaɪt?",
+        "Meaning": "(Tonight) Bạn có muốn đi chơi tối nay không?"
+    },
+    {
+        "Words": "That truck is huge!",
+        "IPA": "ðæt trʌk ɪz hjuːʤ!",
+        "Meaning": "(Huge) Xe tải đó rất lớn!"
+    },
+    {
+        "Words": "He threw the ball to the dog.",
+        "IPA": "hiː θruː ðə bɔːl tuː ðə dɒg.",
+        "Meaning": "(Ball) Anh ta ném quả bóng cho con chó."
+    },
+    {
+        "Words": "I said ‘no,’ please don’t ask again.",
+        "IPA": "aɪ sɛd nəʊ,’ pliːz dəʊnt ɑːsk əˈgɛn.",
+        "Meaning": "(No) Tôi đã nói \"không\", vui lòng không hỏi lại."
+    },
+    {
+        "Words": "Close the window, please.",
+        "IPA": "kləʊs ðə ˈwɪndəʊ, pliːz.",
+        "Meaning": "(Close) Vui lòng đóng cửa sổ."
+    },
+    {
+        "Words": "Did you finish your homework?",
+        "IPA": "dɪd juː ˈfɪnɪʃ jɔː ˈhəʊmˌwɜːk?",
+        "Meaning": "(Finish) Bạn đã hoàn thành bài tập về nhà chưa?"
+    },
+    {
+        "Words": "Do you give yourself a haircut?",
+        "IPA": "duː juː gɪv jɔːˈsɛlf ə ˈheəkʌt?",
+        "Meaning": "(Yourself) Bạn có cho mình một mái tóc cắt?"
+    },
+    {
+        "Words": "He talks a lot.",
+        "IPA": "hiː tɔːks ə lɒt.",
+        "Meaning": "(Talk) Anh ấy nói rất nhiều."
+    },
+    {
+        "Words": "In theory, that’s a good plan.",
+        "IPA": "ɪn ˈθɪəri, ðæts ə gʊd plæn.",
+        "Meaning": "(Theory) Về lý thuyết, đó là một kế hoạch tốt."
+    },
+    {
+        "Words": "The drought had a big impact on the crops.",
+        "IPA": "ðə draʊt hæd ə bɪg ˈɪmpækt ɒn ðə krɒps.",
+        "Meaning": "(Impact) Hạn hán đã ảnh hưởng lớn đến mùa màng."
+    },
+    {
+        "Words": "He hasn’t responded to my text yet.",
+        "IPA": "hiː ˈhæznt rɪsˈpɒndɪd tuː maɪ tɛkst jɛt.",
+        "Meaning": "(Respond) Anh ấy chưa trả lời tin nhắn của tôi."
+    },
+    {
+        "Words": "The police chief gave a statement to the media.",
+        "IPA": "ðə pəˈliːs ʧiːf geɪv ə ˈsteɪtmənt tuː ðə ˈmiːdiə.",
+        "Meaning": "(Statement) Cảnh sát trưởng đã đưa ra một tuyên bố với giới truyền thông."
+    },
+    {
+        "Words": "Exercise helps you maintain a healthy weight.",
+        "IPA": "ˈɛksəsaɪz hɛlps juː meɪnˈteɪn ə ˈhɛlθi weɪt.",
+        "Meaning": "(Maintain) Tập thể dục giúp bạn duy trì cân nặng hợp lý."
+    },
+    {
+        "Words": "I need to charge my phone.",
+        "IPA": "aɪ niːd tuː ʧɑːʤ maɪ fəʊn.",
+        "Meaning": "(Charge) Tôi cần sạc điện thoại của mình."
+    },
+    {
+        "Words": "That’s a popular restaurant.",
+        "IPA": "ðæts ə ˈpɒpjʊlə ˈrɛstrɒnt.",
+        "Meaning": "(Popular) Đó là một nhà hàng bình dân."
+    },
+    {
+        "Words": "They serve traditional Italian food there.",
+        "IPA": "ðeɪ sɜːv trəˈdɪʃənl ɪˈtæliən fuːd ðeə.",
+        "Meaning": "(Traditional) Họ phục vụ các món ăn truyền thống của Ý ở đó."
+    },
+    {
+        "Words": "Jump onto the boat and we’ll go fishing.",
+        "IPA": "ʤʌmp ˈɒntʊ ðə bəʊt ænd wiːl gəʊ ˈfɪʃɪŋ.",
+        "Meaning": "(Onto) Nhảy lên thuyền và chúng ta sẽ đi câu cá."
+    },
+    {
+        "Words": "Washing off the dirt revealed the boy’s skinned knee.",
+        "IPA": "ˈwɒʃɪŋ ɒf ðə dɜːt rɪˈviːld ðə bɔɪz skɪnd niː.",
+        "Meaning": "(Reveal) Rửa sạch bụi bẩn để lộ đầu gối bị lột da của cậu bé."
+    },
+    {
+        "Words": "What direction is the city from here?",
+        "IPA": "wɒt dɪˈrɛkʃən ɪz ðə ˈsɪti frɒm hɪə?",
+        "Meaning": "(Direction) Thành phố từ đây đi theo hướng nào?"
+    },
+    {
+        "Words": "No weapons are allowed in government buildings.",
+        "IPA": "nəʊ ˈwɛpənz ɑːr əˈlaʊd ɪn ˈgʌvnmənt ˈbɪldɪŋz.",
+        "Meaning": "(Weapon) Không có vũ khí nào được phép sử dụng trong các tòa nhà chính phủ."
+    },
+    {
+        "Words": "That store only has three employees.",
+        "IPA": "ðæt stɔːr ˈəʊnli hæz θriː ˌɛmplɔɪˈiːz.",
+        "Meaning": "(Employee) Cửa hàng đó chỉ có ba nhân viên."
+    },
+    {
+        "Words": "There is cultural significance to those old ruins.",
+        "IPA": "ðeər ɪz ˈkʌlʧərəl sɪgˈnɪfɪkəns tuː ðəʊz əʊld rʊɪnz.",
+        "Meaning": "(Cultural) Có ý nghĩa văn hóa đối với những tàn tích cũ."
+    },
+    {
+        "Words": "The carton contains a dozen eggs.",
+        "IPA": "ðə ˈkɑːtən kənˈteɪnz ə ˈdʌzn ɛgz.",
+        "Meaning": "(Contain) Thùng carton chứa một tá trứng."
+    },
+    {
+        "Words": "World leaders gathered for peace talks.",
+        "IPA": "wɜːld ˈliːdəz ˈgæðəd fɔː piːs tɔːks.",
+        "Meaning": "(Peace) Các nhà lãnh đạo thế giới tụ họp để đàm phán hòa bình."
+    },
+    {
+        "Words": "My head hurts.",
+        "IPA": "maɪ hɛd hɜːts.",
+        "Meaning": "(Head) Đầu tôi đau."
+    },
+    {
+        "Words": "Keep control of the car.",
+        "IPA": "kiːp kənˈtrəʊl ɒv ðə kɑː.",
+        "Meaning": "(Control) Giữ quyền kiểm soát xe."
+    },
+    {
+        "Words": "The glass has a heavy base so it won’t fall over.",
+        "IPA": "ðə glɑːs hæz ə ˈhɛvi beɪs səʊ ɪt wəʊnt fɔːl ˈəʊvə.",
+        "Meaning": "(Base) Kính có đế nặng nên sẽ không bị đổ."
+    },
+    {
+        "Words": "I have chest pain.",
+        "IPA": "aɪ hæv ʧɛst peɪn.",
+        "Meaning": "(Pain) Tôi bị đau ngực."
+    },
+    {
+        "Words": "Maria applied for the job.",
+        "IPA": "məˈriːə əˈplaɪd fɔː ðə ʤɒb.",
+        "Meaning": "(Apply) Maria đã nộp đơn xin việc."
+    },
+    {
+        "Words": "The children play at the park.",
+        "IPA": "ðə ˈʧɪldrən pleɪ æt ðə pɑːk.",
+        "Meaning": "(Play) Những đứa trẻ chơi ở công viên."
+    },
+    {
+        "Words": "Measure twice, cut once.",
+        "IPA": "ˈmɛʒə twaɪs, kʌt wʌns.",
+        "Meaning": "(Measure) Đo hai lần cắt một lần."
+    },
+    {
+        "Words": "The doorway was very wide.",
+        "IPA": "ðə ˈdɔːweɪ wɒz ˈvɛri waɪd.",
+        "Meaning": "(Wide) Ô cửa rất rộng."
+    },
+    {
+        "Words": "Don’t shake the can of soda.",
+        "IPA": "dəʊnt ʃeɪk ðə kæn ɒv ˈsəʊdə.",
+        "Meaning": "(Shake) Đừng lắc lon nước ngọt."
+    },
+    {
+        "Words": "We can fly to France next year.",
+        "IPA": "wiː kæn flaɪ tuː ˈfrɑːns nɛkst jɪə.",
+        "Meaning": "(Fly) Chúng tôi có thể bay đến Pháp vào năm tới."
+    },
+    {
+        "Words": "My job interview went well.",
+        "IPA": "maɪ ʤɒb ˈɪntəvjuː wɛnt wɛl.",
+        "Meaning": "(Interview) Buổi phỏng vấn xin việc của tôi diễn ra tốt đẹp."
+    },
+    {
+        "Words": "Did you manage to find the keys?",
+        "IPA": "dɪd juː ˈmænɪʤ tuː faɪnd ðə kiːz?",
+        "Meaning": "(Manage) Bạn đã quản lý để tìm thấy các chìa khóa?"
+    },
+    {
+        "Words": "The table has six matching chairs.",
+        "IPA": "ðə ˈteɪbl hæz sɪks ˈmæʧɪŋ ʧeəz.",
+        "Meaning": "(Chair) Bàn có sáu ghế phù hợp."
+    },
+    {
+        "Words": "I don’t enjoy eating fish.",
+        "IPA": "aɪ dəʊnt ɪnˈʤɔɪ ˈiːtɪŋ fɪʃ.",
+        "Meaning": "(Fish) Tôi không thích ăn cá."
+    },
+    {
+        "Words": "That particular style looks good on you.",
+        "IPA": "ðæt pəˈtɪkjʊlə staɪl lʊks gʊd ɒn juː.",
+        "Meaning": "(Particular) Phong cách cụ thể đó trông phù hợp với bạn."
+    },
+    {
+        "Words": "I use the camera on my phone.",
+        "IPA": "aɪ juːz ðə ˈkæmərə ɒn maɪ fəʊn.",
+        "Meaning": "(Camera) Tôi sử dụng máy ảnh trên điện thoại của mình."
+    },
+    {
+        "Words": "The building’s structure is solid.",
+        "IPA": "ðə ˈbɪldɪŋz ˈstrʌkʧər ɪz ˈsɒlɪd.",
+        "Meaning": "(Structure) Cấu trúc của tòa nhà chắc chắn."
+    },
+    {
+        "Words": "Mitch is very active in politics.",
+        "IPA": "Mitch ɪz ˈvɛri ˈæktɪv ɪn ˈpɒlɪtɪks.",
+        "Meaning": "(Politics) Mitch rất tích cực trong lĩnh vực chính trị."
+    },
+    {
+        "Words": "The singer will perform tonight.",
+        "IPA": "ðə ˈsɪŋə wɪl pəˈfɔːm təˈnaɪt.",
+        "Meaning": "(Perform) Ca sĩ sẽ biểu diễn vào tối nay."
+    },
+    {
+        "Words": "It rained a little bit last night.",
+        "IPA": "ɪt reɪnd ə ˈlɪtl bɪt lɑːst naɪt.",
+        "Meaning": "(Bit) Đêm qua trời có mưa một chút."
+    },
+    {
+        "Words": "Keep track of your pet’s weight.",
+        "IPA": "kiːp træk ɒv jɔː pɛts weɪt.",
+        "Meaning": "(Weight) Theo dõi cân nặng của thú cưng."
+    },
+    {
+        "Words": "The storm came up suddenly.",
+        "IPA": "ðə stɔːm keɪm ʌp ˈsʌdnli.",
+        "Meaning": "(Suddenly) Cơn bão nổi lên bất ngờ."
+    },
+    {
+        "Words": "You’ll discover treasures at that thrift store.",
+        "IPA": "juːl dɪsˈkʌvə ˈtrɛʒəz æt ðæt θrɪft stɔː.",
+        "Meaning": "(Discover) Bạn sẽ khám phá các kho báu tại cửa hàng tiết kiệm đó."
+    },
+    {
+        "Words": "There are ten candidates for the position.",
+        "IPA": "ðeər ɑː tɛn ˈkændɪˌdeɪts fɔː ðə pəˈzɪʃən.",
+        "Meaning": "(Candidate) Có mười ứng cử viên cho vị trí này."
+    },
+    {
+        "Words": "The flag flies on the top of that building.",
+        "IPA": "ðə flæg flaɪz ɒn ðə tɒp ɒv ðæt ˈbɪldɪŋ.",
+        "Meaning": "(Top) Lá cờ bay trên đỉnh của tòa nhà đó."
+    },
+    {
+        "Words": "Factory production has improved over the summer.",
+        "IPA": "ˈfæktəri prəˈdʌkʃən hæz ɪmˈpruːvd ˈəʊvə ðə ˈsʌmə.",
+        "Meaning": "(Production) Sản xuất của nhà máy đã được cải thiện trong mùa hè."
+    },
+    {
+        "Words": "Give yourself a treat for a job well done.",
+        "IPA": "gɪv jɔːˈsɛlf ə triːt fɔːr ə ʤɒb wɛl dʌn.",
+        "Meaning": "(Treat) Hãy tự thưởng cho mình một công việc được hoàn thành tốt."
+    },
+    {
+        "Words": "We are taking a trip to Florida in January.",
+        "IPA": "wiː ɑː ˈteɪkɪŋ ə trɪp tuː ˈflɒrɪdə ɪn ˈʤænjʊəri.",
+        "Meaning": "(Trip) Chúng tôi sẽ có một chuyến đi đến Florida vào tháng Giêng."
+    },
+    {
+        "Words": "I’m staying home this evening.",
+        "IPA": "aɪm ˈsteɪɪŋ həʊm ðɪs ˈiːvnɪŋ.",
+        "Meaning": "(Evening) Tôi sẽ ở nhà tối nay."
+    },
+    {
+        "Words": "My bank account will affect how much I can buy.",
+        "IPA": "maɪ bæŋk əˈkaʊnt wɪl əˈfɛkt haʊ mʌʧ aɪ kæn baɪ.",
+        "Meaning": "(Affect) Tài khoản ngân hàng của tôi sẽ ảnh hưởng đến số tiền tôi có thể mua."
+    },
+    {
+        "Words": "The cat stays inside.",
+        "IPA": "ðə kæt steɪz ɪnˈsaɪd.",
+        "Meaning": "(Inside) Con mèo ở trong nhà."
+    },
+    {
+        "Words": "There will be expert presenters at the conference.",
+        "IPA": "ðeə wɪl biː ˈɛkspɜːt prɪˈzɛntəz æt ðə ˈkɒnfərəns.",
+        "Meaning": "(Conference) Sẽ có các chuyên gia trình bày tại hội nghị."
+    },
+    {
+        "Words": "A foot is a unit of measure.",
+        "IPA": "ə fʊt ɪz ə ˈjuːnɪt ɒv ˈmɛʒə.",
+        "Meaning": "(Unit) Chân là một đơn vị đo lường."
+    },
+    {
+        "Words": "Those are the best glasses to buy.",
+        "IPA": "ðəʊz ɑː ðə bɛst ˈglɑːsɪz tuː baɪ.",
+        "Meaning": "(Best) Đó là những chiếc kính tốt nhất để mua."
+    },
+    {
+        "Words": "My dress is out of style.",
+        "IPA": "maɪ drɛs ɪz aʊt ɒv staɪl.",
+        "Meaning": "(Style) Chiếc váy của tôi đã lỗi mốt."
+    },
+    {
+        "Words": "Adults pay full price, but children are free.",
+        "IPA": "ˈædʌlts peɪ fʊl praɪs, bʌt ˈʧɪldrən ɑː friː.",
+        "Meaning": "(Adult) Người lớn phải trả giá đầy đủ, nhưng trẻ em được miễn phí."
+    },
+    {
+        "Words": "Don’t worry about tomorrow.",
+        "IPA": "dəʊnt ˈwʌri əˈbaʊt təˈmɒrəʊ.",
+        "Meaning": "(Worry) Đừng lo lắng về ngày mai."
+    },
+    {
+        "Words": "My doctor offered me a range of options.",
+        "IPA": "maɪ ˈdɒktər ˈɒfəd miː ə reɪnʤ ɒv ˈɒpʃənz.",
+        "Meaning": "(Range) Bác sĩ của tôi đã đưa ra cho tôi một loạt các lựa chọn."
+    },
+    {
+        "Words": "Can you mention me in your story?",
+        "IPA": "kæn juː ˈmɛnʃən miː ɪn jɔː ˈstɔːri?",
+        "Meaning": "(Mention) Bạn có thể nhắc đến tôi trong câu chuyện của bạn không?"
+    },
+    {
+        "Words": "Rather than focusing on the bad things, let’s be grateful for the good things.",
+        "IPA": "ˈrɑːðə ðæn ˈfəʊkəsɪŋ ɒn ðə bæd θɪŋz, lɛts biː ˈgreɪtfʊl fɔː ðə gʊd θɪŋz.",
+        "Meaning": "(Rather) Thay vì tập trung vào những điều tồi tệ, chúng ta hãy biết ơn những điều tốt đẹp."
+    },
+    {
+        "Words": "I don’t want to move far from my family.",
+        "IPA": "aɪ dəʊnt wɒnt tuː muːv fɑː frɒm maɪ ˈfæmɪli.",
+        "Meaning": "(Far) Tôi không muốn xa gia đình."
+    },
+    {
+        "Words": "That poem about life is deep.",
+        "IPA": "ðæt ˈpəʊɪm əˈbaʊt laɪf ɪz diːp.",
+        "Meaning": "(Deep) Bài thơ về cuộc đời ấy thật sâu sắc."
+    },
+    {
+        "Words": "Please face front.",
+        "IPA": "pliːz feɪs frʌnt.",
+        "Meaning": "(Front) Hãy quay mặt về phía trước."
+    },
+    {
+        "Words": "Please do not stand so close to the edge of the cliff.",
+        "IPA": "pliːz duː nɒt stænd səʊ kləʊs tuː ði ɛʤ ɒv ðə klɪf.",
+        "Meaning": "(Edge) Xin đừng đứng sát mép vách đá."
+    },
+    {
+        "Words": "These potato chips are in an individual serving size package.",
+        "IPA": "ðiːz pəˈteɪtəʊ ʧɪps ɑːr ɪn ən ˌɪndɪˈvɪdjʊəl ˈsɜːvɪŋ saɪz ˈpækɪʤ.",
+        "Meaning": "(Individual) Những miếng khoai tây chiên này nằm trong một gói kích thước khẩu phần riêng lẻ."
+    },
+    {
+        "Words": "Could you be more specific?",
+        "IPA": "kʊd juː biː mɔː spɪˈsɪfɪk?",
+        "Meaning": "(Specific) Bạn có thể đặc sắc hơn không?"
+    },
+    {
+        "Words": "You are a good writer.",
+        "IPA": "juː ɑːr ə gʊd ˈraɪtə.",
+        "Meaning": "(Writer) Bạn là một nhà văn giỏi."
+    },
+    {
+        "Words": "Stay out of trouble.",
+        "IPA": "steɪ aʊt ɒv ˈtrʌbl.",
+        "Meaning": "(Trouble) Tránh xa rắc rối."
+    },
+    {
+        "Words": "It is necessary to sleep.",
+        "IPA": "ɪt ɪz ˈnɛsɪsəri tuː sliːp.",
+        "Meaning": "(Necessary) Nó là cần thiết để ngủ."
+    },
+    {
+        "Words": "Throughout my life, I have always enjoyed reading.",
+        "IPA": "θru(ː)ˈaʊt maɪ laɪf, aɪ hæv ˈɔːlweɪz ɪnˈʤɔɪd ˈriːdɪŋ.",
+        "Meaning": "(Throughout) Trong suốt cuộc đời mình, tôi luôn thích đọc sách."
+    },
+    {
+        "Words": "I challenge you to do better.",
+        "IPA": "aɪ ˈʧælɪnʤ juː tuː duː ˈbɛtə.",
+        "Meaning": "(Challenge) Tôi thách thức bạn làm tốt hơn."
+    },
+    {
+        "Words": "Do you have any fears?",
+        "IPA": "duː juː hæv ˈɛni fɪəz?",
+        "Meaning": "(Fear) Bạn có sợ hãi gì không?"
+    },
+    {
+        "Words": "You do not have to shoulder all the work on your own.",
+        "IPA": "juː duː nɒt hæv tuː ˈʃəʊldər ɔːl ðə wɜːk ɒn jɔːr əʊn.",
+        "Meaning": "(Shoulder) Bạn không nhất thiết phải tự mình gánh vác mọi công việc."
+    },
+    {
+        "Words": "Have you attended any institution of higher learning?",
+        "IPA": "hæv juː əˈtɛndɪd ˈɛni ˌɪnstɪˈtjuːʃən ɒv ˈhaɪə ˈlɜːnɪŋ?",
+        "Meaning": "(Institution) Bạn đã tham dự bất kỳ cơ sở giáo dục đại học nào chưa?"
+    },
+    {
+        "Words": "I am a middle child with one older brother and one younger sister.",
+        "IPA": "aɪ æm ə ˈmɪdl ʧaɪld wɪð wʌn ˈəʊldə ˈbrʌðər ænd wʌn ˈjʌŋə ˈsɪstə.",
+        "Meaning": "(Middle) Tôi là con giữa với một anh trai và một em gái."
+    },
+    {
+        "Words": "I want to sail the seven seas.",
+        "IPA": "aɪ wɒnt tuː seɪl ðə ˈsɛvn siːz.",
+        "Meaning": "(Sea) Tôi muốn chèo thuyền bảy biển."
+    },
+    {
+        "Words": "I have a dream.",
+        "IPA": "aɪ hæv ə driːm.",
+        "Meaning": "(Dream) Tôi có một giấc mơ."
+    },
+    {
+        "Words": "A bar is a place where alcohol is served.",
+        "IPA": "ə bɑːr ɪz ə pleɪs weər ˈælkəhɒl ɪz sɜːvd.",
+        "Meaning": "(Bar) Quầy bar là nơi phục vụ rượu."
+    },
+    {
+        "Words": "You are beautiful.",
+        "IPA": "juː ɑː ˈbjuːtəfʊl.",
+        "Meaning": "(Beautiful) Bạn thật đẹp."
+    },
+    {
+        "Words": "Do you own property, like a house?",
+        "IPA": "duː juː əʊn ˈprɒpəti, laɪk ə haʊs?",
+        "Meaning": "(Property) Bạn có sở hữu tài sản, chẳng hạn như một ngôi nhà?"
+    },
+    {
+        "Words": "Instead of eating cake, I will have fruit.",
+        "IPA": "ɪnˈstɛd ɒv ˈiːtɪŋ keɪk, aɪ wɪl hæv fruːt.",
+        "Meaning": "(Instead) Thay vì ăn bánh, tôi sẽ có trái cây."
+    },
+    {
+        "Words": "I am always looking for ways to improve.",
+        "IPA": "aɪ æm ˈɔːlweɪz ˈlʊkɪŋ fɔː weɪz tuː ɪmˈpruːv.",
+        "Meaning": "(Improve) Tôi luôn tìm cách để cải thiện."
+    },
+    {
+        "Words": "When I moved, I realized I have a lot of stuff!",
+        "IPA": "wɛn aɪ muːvd, aɪ ˈrɪəlaɪzd aɪ hæv ə lɒt ɒv stʌf!",
+        "Meaning": "(Stuff) Khi tôi chuyển đi, tôi nhận ra rằng tôi có rất nhiều thứ!"
+    },
+    {
+        "Words": "I claim to be a fast reader, but actually, I am average.",
+        "IPA": "aɪ kleɪm tuː biː ə fɑːst ˈriːdə, bʌt ˈækʧʊəli, aɪ æm ˈævərɪʤ.",
+        "Meaning": "(Claim) Tôi tự nhận là một người đọc nhanh, nhưng thực ra, tôi ở mức trung bình."
+    }
+
+]

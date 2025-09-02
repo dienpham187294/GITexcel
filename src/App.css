@@ -142,3 +142,6 @@
 .move-in-top {
   animation: moveInTop 2s ease-in forwards;
 }
+.tiktokHover {
+  background-color: "red";
+}
