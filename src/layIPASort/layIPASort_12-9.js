@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import bangantu from "../ulti/filedulieu/3000tuthongdung/tuvung3000thongdungJSON.json";
 
+// Constants moved to separate objects for better organization
 const CONSTANTS = {
   sounds44: [
     "ɪ",
@@ -49,6 +50,7 @@ const CONSTANTS = {
     "h",
     "j",
   ],
+
   partsOfSpeech: [
     "-",
     " v.",
@@ -61,6 +63,7 @@ const CONSTANTS = {
     "pron",
     "exclamation",
   ],
+
   engLetters: [
     "a",
     "b",
@@ -97,52 +100,8 @@ const CONSTANTS = {
     "oi",
     "oo",
   ],
+
   countOptions: Array.from({ length: 21 }, (_, i) => i),
-  // Common IPA sound combinations
-  commonSoundGroups: [
-    "ɪŋ",
-    "æn",
-    "ɔː",
-    "eɪ",
-    "aɪ",
-    "əʊ",
-    "aʊ",
-    "ɪə",
-    "eə",
-    "ʊə",
-    "st",
-    "sp",
-    "sk",
-    "pr",
-    "br",
-    "tr",
-    "dr",
-    "kr",
-    "gr",
-    "fl",
-    "bl",
-    "pl",
-    "kl",
-    "gl",
-    "fr",
-    "θr",
-    "ʃr",
-    "tʃ",
-    "dʒ",
-    "θs",
-    "ðz",
-    "nd",
-    "nt",
-    "mp",
-    "nk",
-    "ŋk",
-    "ŋg",
-    "lf",
-    "lk",
-    "lt",
-    "pt",
-    "kt",
-  ],
 };
 
 // Utility Components
@@ -213,307 +172,6 @@ const MultiSelector = ({ options, selected, onToggle, onClear }) => (
   </div>
 );
 
-// Sound Group Tag Component
-const SoundGroupTag = ({ group, onRemove }) => (
-  <span
-    className="badge bg-primary me-1 mb-1 px-2 py-1"
-    style={{ fontSize: "0.9rem" }}
-  >
-    {group}
-    <button
-      type="button"
-      className="btn-close btn-close-white ms-2"
-      style={{ fontSize: "0.6rem" }}
-      onClick={() => onRemove(group)}
-    />
-  </span>
-);
-
-// Virtual IPA Keyboard Component
-const VirtualIPAKeyboard = ({
-  onKeyPress,
-  onAddGroup,
-  isVisible,
-  onToggle,
-  currentInput,
-}) => {
-  if (!isVisible) return null;
-
-  return (
-    <div className="card mb-3">
-      <div className="card-header d-flex justify-content-between align-items-center">
-        <h6 className="mb-0">Virtual IPA Keyboard</h6>
-        <button
-          type="button"
-          className="btn btn-sm btn-outline-secondary"
-          onClick={onToggle}
-        >
-          Hide Keyboard
-        </button>
-      </div>
-      <div className="card-body">
-        {/* Current Input Display */}
-        {currentInput && (
-          <div className="mb-3 p-2 bg-light border rounded">
-            <small className="text-muted">Current: </small>
-            <span className="fw-bold font-monospace">{currentInput}</span>
-            <button
-              type="button"
-              className="btn btn-sm btn-success ms-2"
-              onClick={() => onAddGroup(currentInput)}
-              disabled={!currentInput}
-            >
-              Add as Group
-            </button>
-          </div>
-        )}
-
-        {/* Common Sound Groups */}
-        <div className="mb-3">
-          <h6 className="text-muted">Quick Add Common Groups</h6>
-          <div className="d-flex flex-wrap gap-1">
-            {CONSTANTS.commonSoundGroups.map((group) => (
-              <button
-                key={group}
-                type="button"
-                className="btn btn-outline-info btn-sm"
-                onClick={() => onAddGroup(group)}
-                style={{ minWidth: "50px" }}
-              >
-                {group}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        <div className="mb-3">
-          <h6 className="text-muted">Vowels</h6>
-          <div className="d-flex flex-wrap gap-1">
-            {CONSTANTS.sounds44.slice(0, 22).map((sound) => (
-              <button
-                key={sound}
-                type="button"
-                className="btn btn-outline-primary btn-sm"
-                onClick={() => onKeyPress(sound)}
-                style={{ minWidth: "40px" }}
-              >
-                {sound}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        <div className="mb-3">
-          <h6 className="text-muted">Consonants</h6>
-          <div className="d-flex flex-wrap gap-1">
-            {CONSTANTS.sounds44.slice(22).map((sound) => (
-              <button
-                key={sound}
-                type="button"
-                className="btn btn-outline-success btn-sm"
-                onClick={() => onKeyPress(sound)}
-                style={{ minWidth: "40px" }}
-              >
-                {sound}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        <div>
-          <h6 className="text-muted">Special Characters</h6>
-          <div className="d-flex flex-wrap gap-1">
-            {["/", "ˈ", "ˌ", ".", "-"].map((char) => (
-              <button
-                key={char}
-                type="button"
-                className="btn btn-outline-warning btn-sm"
-                onClick={() => onKeyPress(char)}
-                style={{ minWidth: "40px" }}
-              >
-                {char}
-              </button>
-            ))}
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-// Sound Groups Search Component
-const SoundGroupsSection = ({
-  requiredSoundGroups,
-  excludedSoundGroups,
-  onAddRequiredGroup,
-  onRemoveRequiredGroup,
-  onAddExcludedGroup,
-  onRemoveExcludedGroup,
-  onClearRequiredGroups,
-  onClearExcludedGroups,
-  showKeyboard,
-  onToggleKeyboard,
-}) => {
-  const [currentInput, setCurrentInput] = useState("");
-
-  const handleKeyPress = (key) => {
-    setCurrentInput((prev) => prev + key);
-  };
-
-  const handleBackspace = () => {
-    setCurrentInput((prev) => prev.slice(0, -1));
-  };
-
-  const handleAddGroup = (group, isExcluded = false) => {
-    if (!group.trim()) return;
-
-    if (isExcluded) {
-      onAddExcludedGroup(group.trim());
-    } else {
-      onAddRequiredGroup(group.trim());
-    }
-    setCurrentInput("");
-  };
-
-  const handleInputChange = (e) => {
-    setCurrentInput(e.target.value);
-  };
-
-  return (
-    <FilterSection
-      title="Sound Groups Search"
-      description="Search by IPA sound combinations (e.g., 'nuː', 'st', 'ɪŋ'). Use virtual keyboard or type directly."
-    >
-      {/* Input Controls */}
-      <div className="mb-3">
-        <div className="input-group mb-2">
-          <input
-            type="text"
-            className="form-control font-monospace"
-            placeholder="Enter IPA sound group (e.g., nuː, st, ɪŋ)..."
-            value={currentInput}
-            onChange={handleInputChange}
-          />
-          <button
-            type="button"
-            className="btn btn-outline-primary"
-            onClick={onToggleKeyboard}
-          >
-            {showKeyboard ? "Hide" : "Show"} IPA Keyboard
-          </button>
-          <button
-            type="button"
-            className="btn btn-outline-secondary"
-            onClick={handleBackspace}
-            disabled={!currentInput}
-          >
-            ⌫
-          </button>
-        </div>
-
-        <div className="d-flex gap-2 flex-wrap">
-          <button
-            type="button"
-            className="btn btn-success btn-sm"
-            onClick={() => handleAddGroup(currentInput, false)}
-            disabled={!currentInput.trim()}
-          >
-            + Add Required
-          </button>
-          <button
-            type="button"
-            className="btn btn-danger btn-sm"
-            onClick={() => handleAddGroup(currentInput, true)}
-            disabled={!currentInput.trim()}
-          >
-            + Add Excluded
-          </button>
-          <button
-            type="button"
-            className="btn btn-outline-secondary btn-sm"
-            onClick={() => setCurrentInput("")}
-            disabled={!currentInput}
-          >
-            Clear Input
-          </button>
-        </div>
-      </div>
-
-      <VirtualIPAKeyboard
-        onKeyPress={handleKeyPress}
-        onAddGroup={(group) => handleAddGroup(group, false)}
-        isVisible={showKeyboard}
-        onToggle={onToggleKeyboard}
-        currentInput={currentInput}
-      />
-
-      {/* Required Sound Groups */}
-      <div className="mb-3">
-        <h6 className="text-success">
-          Required Sound Groups ({requiredSoundGroups.length})
-        </h6>
-        <div className="mb-2">
-          {requiredSoundGroups.map((group, index) => (
-            <SoundGroupTag
-              key={index}
-              group={group}
-              onRemove={onRemoveRequiredGroup}
-            />
-          ))}
-          {requiredSoundGroups.length === 0 && (
-            <span className="text-muted small">No required sound groups</span>
-          )}
-        </div>
-        {requiredSoundGroups.length > 0 && (
-          <button
-            type="button"
-            className="btn btn-outline-danger btn-sm"
-            onClick={onClearRequiredGroups}
-          >
-            Clear All Required
-          </button>
-        )}
-      </div>
-
-      {/* Excluded Sound Groups */}
-      <div>
-        <h6 className="text-danger">
-          Excluded Sound Groups ({excludedSoundGroups.length})
-        </h6>
-        <div className="mb-2">
-          {excludedSoundGroups.map((group, index) => (
-            <span
-              key={index}
-              className="badge bg-danger me-1 mb-1 px-2 py-1"
-              style={{ fontSize: "0.9rem" }}
-            >
-              {group}
-              <button
-                type="button"
-                className="btn-close btn-close-white ms-2"
-                style={{ fontSize: "0.6rem" }}
-                onClick={() => onRemoveExcludedGroup(group)}
-              />
-            </span>
-          ))}
-          {excludedSoundGroups.length === 0 && (
-            <span className="text-muted small">No excluded sound groups</span>
-          )}
-        </div>
-        {excludedSoundGroups.length > 0 && (
-          <button
-            type="button"
-            className="btn btn-outline-danger btn-sm"
-            onClick={onClearExcludedGroups}
-          >
-            Clear All Excluded
-          </button>
-        )}
-      </div>
-    </FilterSection>
-  );
-};
-
 const WordsTable = ({ words }) => {
   if (!words?.length) {
     return (
@@ -566,9 +224,6 @@ export default function LayIPASort() {
   const [excludedSounds, setExcludedSounds] = useState([]);
   const [requiredPartsOfSpeech, setRequiredPartsOfSpeech] = useState([]);
   const [requiredLetters, setRequiredLetters] = useState([]);
-  const [requiredSoundGroups, setRequiredSoundGroups] = useState([]);
-  const [excludedSoundGroups, setExcludedSoundGroups] = useState([]);
-  const [showKeyboard, setShowKeyboard] = useState(false);
   const [isInitialized, setIsInitialized] = useState(false);
 
   // URL Parameter utilities
@@ -589,17 +244,12 @@ export default function LayIPASort() {
       requiredLetters: params.get("reqLetters")
         ? params.get("reqLetters").split(",")
         : [],
-      requiredSoundGroups: params.get("reqGroups")
-        ? params.get("reqGroups").split(",")
-        : [],
-      excludedSoundGroups: params.get("exGroups")
-        ? params.get("exGroups").split(",")
-        : [],
     };
   };
 
   const updateURL = () => {
     const params = new URLSearchParams();
+
     if (minLength !== 0) params.set("minLen", minLength.toString());
     if (maxLength !== 4) params.set("maxLen", maxLength.toString());
     if (requiredSounds.length > 0)
@@ -610,10 +260,6 @@ export default function LayIPASort() {
       params.set("reqPos", requiredPartsOfSpeech.join(","));
     if (requiredLetters.length > 0)
       params.set("reqLetters", requiredLetters.join(","));
-    if (requiredSoundGroups.length > 0)
-      params.set("reqGroups", requiredSoundGroups.join(","));
-    if (excludedSoundGroups.length > 0)
-      params.set("exGroups", excludedSoundGroups.join(","));
 
     const newURL = `${window.location.pathname}${
       params.toString() ? "?" + params.toString() : ""
@@ -630,6 +276,7 @@ export default function LayIPASort() {
         alert("Shareable link copied to clipboard!");
       })
       .catch(() => {
+        // Fallback for older browsers
         const textArea = document.createElement("textarea");
         textArea.value = url;
         document.body.appendChild(textArea);
@@ -649,8 +296,6 @@ export default function LayIPASort() {
     setExcludedSounds(urlParams.excludedSounds);
     setRequiredPartsOfSpeech(urlParams.requiredPartsOfSpeech);
     setRequiredLetters(urlParams.requiredLetters);
-    setRequiredSoundGroups(urlParams.requiredSoundGroups);
-    setExcludedSoundGroups(urlParams.excludedSoundGroups);
     setIsInitialized(true);
   }, []);
 
@@ -667,8 +312,6 @@ export default function LayIPASort() {
     excludedSounds,
     requiredPartsOfSpeech,
     requiredLetters,
-    requiredSoundGroups,
-    excludedSoundGroups,
     isInitialized,
   ]);
 
@@ -678,20 +321,12 @@ export default function LayIPASort() {
       // Length filters
       if (word.len < minLength || word.len > maxLength) return false;
 
-      // Required sounds (individual)
+      // Required sounds
       if (requiredSounds.some((sound) => !word.ipaUK.includes(sound)))
         return false;
 
-      // Excluded sounds (individual)
+      // Excluded sounds
       if (excludedSounds.some((sound) => word.ipaUK.includes(sound)))
-        return false;
-
-      // Required sound groups
-      if (requiredSoundGroups.some((group) => !word.ipaUK.includes(group)))
-        return false;
-
-      // Excluded sound groups
-      if (excludedSoundGroups.some((group) => word.ipaUK.includes(group)))
         return false;
 
       // Required parts of speech
@@ -722,25 +357,13 @@ export default function LayIPASort() {
     setter(newArray);
   };
 
-  // Sound group management functions
-  const addRequiredSoundGroup = (group) => {
-    if (!requiredSoundGroups.includes(group)) {
-      setRequiredSoundGroups([...requiredSoundGroups, group]);
+  const handlePractice = () => {
+    if (filteredWords.length === 0) {
+      alert("No words selected for practice!");
+      return;
     }
-  };
-
-  const removeRequiredSoundGroup = (group) => {
-    setRequiredSoundGroups(requiredSoundGroups.filter((g) => g !== group));
-  };
-
-  const addExcludedSoundGroup = (group) => {
-    if (!excludedSoundGroups.includes(group)) {
-      setExcludedSoundGroups([...excludedSoundGroups, group]);
-    }
-  };
-
-  const removeExcludedSoundGroup = (group) => {
-    setExcludedSoundGroups(excludedSoundGroups.filter((g) => g !== group));
+    // Practice logic here
+    console.log("Practice with:", filteredWords);
   };
 
   return (
@@ -750,23 +373,10 @@ export default function LayIPASort() {
           <h2 className="text-center mb-4 text-primary">
             IPA Word Filter & Practice Tool
           </h2>
+
           <div className="card shadow-sm mb-4">
             <div className="card-body">
               <h4 className="card-title mb-3">Filters</h4>
-
-              {/* Sound Groups Search */}
-              <SoundGroupsSection
-                requiredSoundGroups={requiredSoundGroups}
-                excludedSoundGroups={excludedSoundGroups}
-                onAddRequiredGroup={addRequiredSoundGroup}
-                onRemoveRequiredGroup={removeRequiredSoundGroup}
-                onAddExcludedGroup={addExcludedSoundGroup}
-                onRemoveExcludedGroup={removeExcludedSoundGroup}
-                onClearRequiredGroups={() => setRequiredSoundGroups([])}
-                onClearExcludedGroups={() => setExcludedSoundGroups([])}
-                showKeyboard={showKeyboard}
-                onToggleKeyboard={() => setShowKeyboard(!showKeyboard)}
-              />
 
               <div className="row">
                 <div className="col-md-6">
@@ -781,6 +391,7 @@ export default function LayIPASort() {
                     />
                   </FilterSection>
                 </div>
+
                 <div className="col-md-6">
                   <FilterSection
                     title="Maximum Character Count"
@@ -796,8 +407,8 @@ export default function LayIPASort() {
               </div>
 
               <FilterSection
-                title="Required IPA Sounds (Individual)"
-                description="Select individual IPA sounds that must appear in words"
+                title="Required IPA Sounds"
+                description="Select IPA sounds that must appear in words"
               >
                 <MultiSelector
                   options={CONSTANTS.sounds44}
@@ -810,8 +421,8 @@ export default function LayIPASort() {
               </FilterSection>
 
               <FilterSection
-                title="Excluded IPA Sounds (Individual)"
-                description="Select individual IPA sounds to exclude from words"
+                title="Excluded IPA Sounds"
+                description="Select IPA sounds to exclude from words"
               >
                 <MultiSelector
                   options={CONSTANTS.sounds44}
@@ -860,6 +471,7 @@ export default function LayIPASort() {
                   <i className="bi bi-funnel me-1"></i>
                   Apply Filters ({filteredWords.length} words)
                 </button>
+
                 <button
                   className="btn btn-outline-info"
                   onClick={copyShareableLink}
@@ -868,6 +480,7 @@ export default function LayIPASort() {
                   <i className="bi bi-share me-1"></i>
                   Share Filters
                 </button>
+
                 <button
                   className="btn btn-outline-secondary"
                   onClick={() => {
@@ -877,8 +490,6 @@ export default function LayIPASort() {
                     setExcludedSounds([]);
                     setRequiredPartsOfSpeech([]);
                     setRequiredLetters([]);
-                    setRequiredSoundGroups([]);
-                    setExcludedSoundGroups([]);
                     window.history.replaceState(
                       {},
                       "",
@@ -904,9 +515,7 @@ export default function LayIPASort() {
                 requiredSounds.length > 0 ||
                 excludedSounds.length > 0 ||
                 requiredPartsOfSpeech.length > 0 ||
-                requiredLetters.length > 0 ||
-                requiredSoundGroups.length > 0 ||
-                excludedSoundGroups.length > 0) && (
+                requiredLetters.length > 0) && (
                 <small className="text-muted">
                   <i className="bi bi-funnel-fill me-1"></i>
                   Filters active

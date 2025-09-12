@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function VideoTiktokGhepAm() {
   const [clickedElements, setClickedElements] = useState(new Set());
-  const ipaSets = ["U", "E", "O", "A", "i", "Ơ"];
+
   const handleClick = (elementId, className) => {
     setClickedElements((prev) => {
       const newSet = new Set(prev);
@@ -38,20 +38,6 @@ function VideoTiktokGhepAm() {
         padding: "10px",
         transition: "all 0.3s ease",
         border: "1px solid black",
-        marginBottom: "5px",
-      };
-    }
-
-    if (className === "tiktokHover04" && isClicked) {
-      return {
-        // backgroundColor: "yellow",
-        fontSize: "30px",
-        // padding: "10px",
-        // transition: "all 0.3s ease",
-        // border: "1px solid black",
-        // marginBottom: "5px",
-        fontWeight: "700",
-        // color: "blue",
       };
     }
     if (className === "tiktokHover02" && isClicked) {
@@ -64,18 +50,6 @@ function VideoTiktokGhepAm() {
         border: "1px solid black",
       };
     }
-
-    if (className === "tiktokHover02A" && isClicked) {
-      return {
-        backgroundColor: "red",
-        color: "yellow",
-        fontSize: "150px",
-        padding: "5px",
-        transition: "all 0.3s ease",
-        border: "1px solid black",
-      };
-    }
-
     if (className === "tiktokHover03" && isClicked) {
       return {
         backgroundColor: "red",
@@ -117,113 +91,151 @@ function VideoTiktokGhepAm() {
               style={getClickedStyle(2, "tiktokHover")}
               onClick={() => handleClick(2, "tiktokHover")}
             >
-              GHÉP ÂM 3 bước #10
+              CHIA SẺ GHÉP ÂM #9
             </h1>
           </div>
-
-          <div style={{ textAlign: "center" }}>
-            {" "}
-            {[
-              "U",
-              "E",
-              "O",
-              "A",
-              "i",
-              "Ơ",
-              "Ei",
-              "Ai",
-              "Oi",
-              "Ơu",
-              "Au",
-              "I-ơ",
-              "E-ơ",
-              "U-ơ",
-            ].map((e, i) => (
-              <span key={i}>
-                {" "}
-                .{" "}
-                <i
-                  style={getClickedStyle(5 + "A" + i, "tiktokHover02")}
-                  onClick={() => handleClick(5 + "A" + i, "tiktokHover02")}
-                >
-                  {e}
-                </i>
-              </span>
-            ))}
+          <div
+            style={getClickedStyle(3, "tiktokHover")}
+            onClick={() => handleClick(3, "tiktokHover")}
+          >
+            #1 Tiếng anh cũng có những nguyên tắc ghép âm tương tự như tiếng
+            việt.{" "}
           </div>
-
-          <div style={{ textAlign: "center", fontSize: "160px" }}>
-            h
+          <div
+            style={getClickedStyle(4, "tiktokHover")}
+            onClick={() => handleClick(4, "tiktokHover")}
+          >
+            #2 Chỉ cần nắm những nguyên tắc này chúng ta có thể nghe đọc tiếng
+            anh dễ dàng.
+          </div>
+          <div style={{ fontSize: "30px" }}>
+            Trong tiếng việt có từ{" "}
             <b
-              style={getClickedStyle(5 + "B", "tiktokHover02A")}
-              onClick={() => handleClick(5 + "B", "tiktokHover02A")}
+              style={getClickedStyle(5, "tiktokHover")}
+              onClick={() => handleClick(5, "tiktokHover")}
             >
-              Au
-            </b>
-            s
-            {/* t
-            <b
-              style={getClickedStyle(5 + "B1", "tiktokHover02A")}
-              onClick={() => handleClick(5 + "B1", "tiktokHover02A")}
-            >
-              U
+              mU
             </b>{" "}
-            b
-            <b
-              style={getClickedStyle(5 + "B2", "tiktokHover02A")}
-              onClick={() => handleClick(5 + "B2", "tiktokHover02A")}
+            trong
+            <i
+              style={{
+                color: "blue",
+                ...getClickedStyle(6, "tiktokHover"),
+              }}
+              onClick={() => handleClick(6, "tiktokHover")}
             >
-              ɪ
-            </b>
-            ˈh
-            <b
-              style={getClickedStyle(5 + "B3", "tiktokHover02A")}
-              onClick={() => handleClick(5 + "B3", "tiktokHover02A")}
-            >
-              Eɪ
-            </b>
-            (-v) */}
+              {" "}
+              mu bàn tay
+            </i>
           </div>
-          <div style={{ textAlign: "center", fontSize: "30px" }}>
-            {" "}
-            house | nhà
+          <div className="row" style={{ textAlign: "center" }}>
+            <div className="col-12">
+              <h4
+                style={{
+                  color: "blue",
+                  ...getClickedStyle(7, "tiktokHover01"),
+                }}
+                onClick={() => handleClick(7, "tiktokHover01")}
+              >
+                TIẾNG ANH (mU- | đọc mU)
+              </h4>
+              <div className="row">
+                <div
+                  className="col-6"
+                  style={getClickedStyle(8, "tiktokHover01")}
+                  onClick={() => handleClick(8, "tiktokHover01")}
+                >
+                  (1)
+                  <b
+                    style={getClickedStyle(9, "tiktokHover02")}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleClick(9, "tiktokHover02");
+                    }}
+                  >
+                    mU
+                  </b>
+                  (-d)
+                </div>
+                <div
+                  className="col-6"
+                  style={getClickedStyle(10, "tiktokHover")}
+                  onClick={() => handleClick(10, "tiktokHover")}
+                >
+                  mood n. lối, thức, điệu
+                </div>
+              </div>
+              <div className="row">
+                <div
+                  className="col-6"
+                  style={getClickedStyle(11, "tiktokHover01")}
+                  onClick={() => handleClick(11, "tiktokHover01")}
+                >
+                  (2)
+                  <b
+                    style={getClickedStyle(12, "tiktokHover02")}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleClick(12, "tiktokHover02");
+                    }}
+                  >
+                    mU
+                  </b>
+                  (-n)
+                </div>
+                <div
+                  className="col-6"
+                  style={getClickedStyle(13, "tiktokHover")}
+                  onClick={() => handleClick(13, "tiktokHover")}
+                >
+                  moon n. mặt trăng
+                </div>
+              </div>
+              <div className="row">
+                <div
+                  className="col-6"
+                  style={getClickedStyle(15, "tiktokHover01")}
+                  onClick={() => handleClick(15, "tiktokHover01")}
+                >
+                  (3)
+                  <b
+                    style={getClickedStyle(16, "tiktokHover02")}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleClick(16, "tiktokHover02");
+                    }}
+                  >
+                    mU
+                  </b>
+                  (-v)
+                </div>
+                <div
+                  className="col-6"
+                  style={getClickedStyle(17, "tiktokHover")}
+                  onClick={() => handleClick(17, "tiktokHover")}
+                >
+                  move v., n. di chuyển, chuyển động
+                </div>
+              </div>
+            </div>
           </div>
-          <div style={{ fontSize: "17px", lineHeight: "2" }}>
-            {" "}
-            <div
-              style={getClickedStyle(41, "tiktokHover")}
-              onClick={() => handleClick(41, "tiktokHover")}
-            >
-              @1 Tất cả các âm tiết trong tiếng anh đều phải có 1 trong các
-              nguyên âm ở trên.{" "}
-              <b style={{ color: "blue" }}>
-                {" "}
-                Bước 1 là xác định xem Nguyên âm của âm tiết{" "}
-              </b>
-              (1 từ có thể có nhiều âm tiết).
-            </div>
-            <div
-              style={getClickedStyle(42, "tiktokHover")}
-              onClick={() => handleClick(42, "tiktokHover")}
-            >
-              @2{" "}
-              <b style={{ color: "blue" }}>
-                {" "}
-                Bước 2 Nối nguyên âm với các phụ âm phía trước!{" "}
-              </b>
-              (ghép gần giống tiếng việt).
-            </div>
-            <div
-              style={getClickedStyle(43, "tiktokHover")}
-              onClick={() => handleClick(43, "tiktokHover")}
-            >
-              @3{" "}
-              <b style={{ color: "blue" }}>
-                {" "}
-                Bước 3 kéo âm từ nguyên âm về các phụ âm phía sau!{" "}
-              </b>
-              (các âm phía sau gọi là phần âm dấu | đọc nhỏ, ngắn hơn, âm gió).
-            </div>
+
+          <div
+            style={getClickedStyle(14, "tiktokHover03")}
+            onClick={() => handleClick(14, "tiktokHover03")}
+          >
+            <i>Tại sao nên học ghép âm?</i>
+            <br />
+            <b>
+              Ví dụ từ nguyên âm "o" trong tiếng việt chúng ta có thể phải triển
+              thành các âm khác dễ dàng như: on, om , mon, non, lon, đon, món,
+              mọn, mòn, ... bằng các nguyên tắc cố định.
+            </b>
+            <i>
+              {" "}
+              Trong tiếng anh cũng vậy, nếu nắm nguyên tắc sẽ dễ dàng đọc đúng
+              và nghe rõ hơn.
+            </i>
           </div>
         </div>
         <div style={{ height: "110px" }}>
@@ -236,8 +248,8 @@ function VideoTiktokGhepAm() {
               />
             </div>
             <div className="col-10" style={{ color: "blue" }}>
-              Chuyên rèn luyện nghe nói cho sinh viên có biết ngữ pháp nhưng kém
-              nghe nói. Học online, ứng dụng AI.
+              Chuyên rèn luyện nghe nói cho sinh viên mất căn bản, kém tự tin.
+              Học online, ứng dụng AI.
             </div>
           </div>
         </div>
