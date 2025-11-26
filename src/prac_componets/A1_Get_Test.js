@@ -233,6 +233,7 @@ function Test() {
           SetPracData
         )}
       </div>
+      <WeCanSayView WeCanSay={WeCanSay} />
     </div>
   );
 }

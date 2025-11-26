@@ -1,6 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import DocumentsForMap from "./getDocument_Content.js";
+// import DocumentsForMap from "./getDocument_Content.js";
+import DocumentsForMap from "./getDocument_Content";
 import Test from "./prac_componets/A1_Get_Test";
 import VideoView from "./prac_componets/C1_VideoView";
 import VoiceList from "./getVoiceslist";

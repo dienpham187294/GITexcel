@@ -50,6 +50,9 @@ function AudioSplitter() {
       try {
         const startTime = (begin_01 - jsonData[0].begin_01) / 1000;
         const duration = (end - begin_01) / 1000;
+        
+        console.log("timecut", startTime, duration);
+
         await ffmpeg.load();
         // Load the audio file
         await ffmpeg.writeFile("input.mp3", await fetchFile(audio));

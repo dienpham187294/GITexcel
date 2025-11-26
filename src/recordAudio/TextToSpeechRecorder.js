@@ -1,123 +1,81 @@
 import React, { useState, useRef, useEffect } from "react";
 import $ from "jquery";
 import VideoPlayer from "./YoutubeCover";
-function TextToSpeechRecorder() {
-  // const [text, setText] = useState(
-  //   "Xin chào, đây là một ví dụ về text to speech!"
-  // );
 
+function TextToSpeechRecorder() {
   let beginNumber = 0;
 
-  //File {text, rate, number}
   const [jsonData, setJsonData] = useState(null);
   const [Timeline, setTimeline] = useState([]);
   const [INDEX, setINDEX] = useState(0);
   const [error, setError] = useState(null);
   const [audioUrl, setAudioUrl] = useState(null);
   const [deviceId, setDeviceId] = useState(null);
+
   const mediaRecorderRef = useRef(null);
   const chunksRef = useRef([]);
-  // useEffect(() => {
-  //   navigator.mediaDevices.enumerateDevices().then((devices) => {
-  //     devices.forEach((device) => {
-  //       console.log(`${device.kind}: ${device.label} (ID: ${device.deviceId})`);
-  //     });
-  //   });
-  // }, []);
-  // Tìm deviceId của "CABLE Input"
-  // useEffect(() => {
-  //   navigator.mediaDevices.enumerateDevices().then((devices) => {
-  //     const cableInput = devices.find(
-  //       (device) =>
-  //         device.label.includes("CABLE") && device.kind === "audioinput"
-  //     );
-  //     if (cableInput) {
-  //       setDeviceId(cableInput.deviceId);
-  //     } else {
-  //       console.warn("Không tìm thấy thiết bị CABLE Input.");
-  //     }
-  //   });
-  // }, []);
 
+  // ================== HOTKEY LISTENER ==================
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      console.log(e.code);
+      if (e.code === "F8") {
+        console.log("F9 pressed, will start recording in 3s...");
+        setTimeout(() => {
+          if (!jsonData) return alert("Upload file trước đã!");
+          try {
+            handleTextToSpeech(0, jsonData.slice(beginNumber));
+          } catch (error) {
+            alert("Lỗi dữ liệu đầu vào.");
+            console.log(error);
+          }
+        }, 3000);
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, []);
+
+  // ================== TTS ==================
   const handleTextToSpeech = (n, jsonDataFN) => {
     setINDEX(n);
-    // if (!deviceId) {
-    //   alert("Không tìm thấy thiết bị CABLE Input.");
-    //   return;
-    // }
 
     const utterance = new SpeechSynthesisUtterance(jsonDataFN[n].text);
-    utterance.rate = jsonDataFN[n].rate;
+    utterance.rate = jsonDataFN[n].rate || 1;
     let voices = window.speechSynthesis.getVoices();
-    utterance.voice = voices[jsonDataFN[n].lang];
+    utterance.voice = voices[jsonDataFN[n].lang] || null;
 
     let objTimeline = { id: jsonDataFN[n].audioCode, begin: "", end: "" };
 
     utterance.onstart = () => {
       objTimeline.begin = Date.now();
-      // startRecording(); // Bắt đầu ghi âm khi phát giọng nói
-    };
-    let firstBoundaryLogged = false; // Biến để kiểm soát việc ghi log chỉ một lần cho từ đầu tiên
-    let firstBoundaryEND = false;
-    utterance.onboundary = (event) => {
-      const currentTime = Date.now();
-      console.log(
-        event.charLength + event.charLength,
-        jsonDataFN[n].text.length
-      );
-      if (!firstBoundaryLogged) {
-        console.log("Thời gian bắt đầu đọc từ đầu tiên:", currentTime);
-        objTimeline.begin_01 = Date.now();
-        firstBoundaryLogged = true;
-      }
-
-      // Kiểm tra nếu vị trí đang ở cuối văn bản để log thời gian đọc từ cuối cùng
-      // if (
-      //   event.charIndex + event.charLength > jsonDataFN[n].text.length - 40 &&
-      //   !firstBoundaryEND
-      // ) {
-      //   firstBoundaryEND = true;
-      //   console.log("Thời gian kết thúc đọc từ cuối cùng:", currentTime);
-      //   objTimeline.end = Date.now();
-      //   setTimeline((D) => [...D, objTimeline]);
-      //   if (n + 1 < jsonDataFN.length) {
-      //     handleTextToSpeech(n + 1, jsonDataFN);
-      //   }
-      // }
     };
 
     utterance.onend = () => {
       objTimeline.end = Date.now();
       setTimeline((D) => [...D, objTimeline]);
-      // stopRecording(); // Dừng ghi âm khi giọng nói kết thúc
+
       setTimeout(() => {
         if (n + 1 < jsonDataFN.length) {
           handleTextToSpeech(n + 1, jsonDataFN);
         }
-      }, 1000);
+      }, 2000);
     };
+
     utterance.onerror = () => {
-      console.log(error);
-      document.getElementById("errorNotify").textContent = "errorNotify";
-      // objTimeline.end = Date.now();
-      // setTimeline((D) => [...D, objTimeline]);
-      // // stopRecording(); // Dừng ghi âm khi giọng nói kết thúc
-      // setTimeout(() => {
-      //   if (n + 1 < jsonDataFN.length) {
-      //     handleTextToSpeech(n + 1, jsonDataFN);
-      //   }
-      // }, 1000);
+      setError("Error in speech synthesis");
     };
 
     window.speechSynthesis.speak(utterance);
   };
 
+  // ================== RECORD ==================
   const startRecording = () => {
     navigator.mediaDevices
       .getUserMedia({ audio: { deviceId } })
       .then((stream) => {
         mediaRecorderRef.current = new MediaRecorder(stream);
-        chunksRef.current = []; // Reset các đoạn âm thanh
+        chunksRef.current = [];
 
         mediaRecorderRef.current.ondataavailable = (event) => {
           chunksRef.current.push(event.data);
@@ -131,96 +89,88 @@ function TextToSpeechRecorder() {
         };
 
         mediaRecorderRef.current.start();
-        console.log("Đã bắt đầu ghi âm từ hệ thống.");
+        console.log("Recording started (after 3s delay).");
       })
       .catch((error) => {
-        console.error("Lỗi khi truy cập vào thiết bị CABLE Input:", error);
+        console.error("Error accessing audio device:", error);
       });
   };
 
   const stopRecording = () => {
     if (mediaRecorderRef.current) {
       mediaRecorderRef.current.stop();
-      console.log("Đã dừng ghi âm.");
-      // setTimeout(() => {
-      //   $("#downloadID")[0].click();
-      // }, 5000);
-      // if (n < jsonDataFN.length) {
-      //   setTimeout(() => {
-      //     handleTextToSpeech = (n + 1, jsonDataFN);
-      //   }, 3000);
-      // } else {
-      //   alert("END");
-      // }
+      console.log("Recording stopped.");
     }
   };
 
+  // ================== FILE UPLOAD ==================
   const handleFileUpload = (event) => {
     const file = event.target.files[0];
+    if (!file) return;
 
-    if (file) {
-      const reader = new FileReader();
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      const fileContent = e.target.result;
 
-      reader.onload = (e) => {
-        const fileContent = e.target.result;
-
+      if (file.name.endsWith(".json")) {
         try {
           const parsedData = JSON.parse(fileContent);
           setJsonData(parsedData);
-          setError(null); // Clear any previous errors
-        } catch (parseError) {
-          setError(
-            "Error parsing JSON. Please make sure the file format is correct."
-          );
-          setJsonData(null); // Clear JSON data if parse fails
+          setError(null);
+        } catch {
+          setError("Invalid JSON file.");
+          setJsonData(null);
         }
-      };
-
-      reader.onerror = () => {
-        setError("Failed to read file. Please try again.");
-        setJsonData(null);
-      };
-
-      reader.readAsText(file);
-    }
+      } else if (file.name.endsWith(".txt")) {
+        // Gói text thành object để TTS dùng được
+        setJsonData([
+          {
+            text: fileContent,
+            rate: 1,
+            lang: 0,
+            audioCode: "txt_" + Date.now(),
+          },
+        ]);
+        setError(null);
+      } else {
+        setError("Unsupported file type. Please upload .txt or .json.");
+      }
+    };
+    reader.onerror = () => {
+      setError("Failed to read file.");
+      setJsonData(null);
+    };
+    reader.readAsText(file);
   };
+
+  // ================== UI ==================
   return (
     <div style={{ textAlign: "center", marginTop: "20px" }}>
-      <h1>Chuyển Văn Bản Thành Giọng Nói và Ghi Âm Từ Hệ Thống</h1>
-      <input type="file" accept=".txt" onChange={handleFileUpload} />
+      <h1>Text → Speech + Recording</h1>
+      File JSON
+      <input type="file" accept=".txt,.json" onChange={handleFileUpload} />
       <br />
+
       <button
         onClick={() => {
+          if (!jsonData) return alert("Upload file trước đã!");
           try {
             handleTextToSpeech(0, jsonData.slice(beginNumber));
           } catch (error) {
-            try {
-              handleTextToSpeech(0, [jsonData.slice(beginNumber)]);
-            } catch (error) {
-              alert("Kiểm tra file thông tin.");
-              console.log(error);
-            }
+            alert("Lỗi dữ liệu đầu vào.");
+            console.log(error);
           }
         }}
       >
-        Chuyển văn bản thành giọng nói và ghi âm bằng phần mềm ngoài
+        Chạy Text to Speech
       </button>
 
-      <button
-        onClick={() => {
-          try {
-            handleTextToSpeech(0, jsonData);
-          } catch (error) {
-            alert("Kiểm tra file thông tin.");
-          }
-        }}
-      >
-        Chạy thử mô hình video mới.
-      </button>
+      <button onClick={stopRecording}>Dừng ghi</button>
+
       <div style={{ marginTop: "20px" }}>
         {audioUrl && (
           <div>
-            <h3>Tải về file audio:</h3>
+            <h3>File audio đã ghi:</h3>
             <audio controls src={audioUrl}></audio>
             <br />
             <a
@@ -228,32 +178,24 @@ function TextToSpeechRecorder() {
               href={audioUrl}
               download={jsonData[0][INDEX].audioCode + ".wav"}
             >
-              Tải về file âm thanh
+              Tải xuống
             </a>
           </div>
         )}
       </div>
+
       {error && <p style={{ color: "red" }}>{error}</p>}
-      <h1 id="errorNotify"></h1>
       <div>
         {jsonData
           ? Timeline.length + beginNumber + "/" + jsonData.length
-          : "Loading"}
+          : "Chưa có dữ liệu"}
       </div>
-      <div
-        style={{
-          maxHeight: "300px",
-          overflow: "hidden",
-        }}
-      >
+
+      <div style={{ maxHeight: "300px", overflow: "hidden" }}>
         {JSON.stringify(Timeline)}
       </div>
-      <div
-        style={{
-          maxHeight: "300px",
-          overflow: "hidden",
-        }}
-      >
+
+      <div style={{ maxHeight: "300px", overflow: "hidden" }}>
         {jsonData && (
           <pre style={{ whiteSpace: "pre-wrap", wordWrap: "break-word" }}>
             {JSON.stringify(jsonData, null, 2)}
@@ -267,16 +209,3 @@ function TextToSpeechRecorder() {
 }
 
 export default TextToSpeechRecorder;
-function findAndSlice(arr, n) {
-  // Tìm phần tử có id = n
-  if (n === null) {
-    return arr;
-  }
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i].id === n) {
-      // Trả về mảng con từ phần tử n+1 đến hết mảng
-      return arr.slice(i);
-    }
-  }
-  return arr; // Nếu không tìm thấy phần tử với id = n
-}
