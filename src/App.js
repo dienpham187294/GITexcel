@@ -22,14 +22,15 @@ import VideoMerger03 from "./ghepMp4/GhepMp4_03.js";
 import GhiAm from "./ghiAm/ghiAm.js";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { isMobile } from "pixi.js";
-
+import WeddingPages from "./wedding/wedding.js";
 function App() {
   return (
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<DocumentsForMap />} />{" "}
-          <Route path="/test" element={<Test />} />
+          <Route path="/" element={<WeddingPages />} />{" "}
+          <Route path="/doc" element={<DocumentsForMap />} />{" "}
+          {/* <Route path="/test" element={<Test />} />
           <Route path="/videoview" element={<VideoView />} />
           <Route path="/voice" element={<VoiceList />} />
           <Route path="/video" element={<VideoCreate />} />
@@ -37,15 +38,17 @@ function App() {
           <Route path="/record" element={<TextToSpeechRecorder />} />
           <Route path="/newvideomodel" element={<NewVideoModel />} />
           <Route path="/newtable" element={<NewTableFromJson />} />
-          <Route path="/cut" element={<AudioSplitter />} />
+          <Route path="/cut" element={<AudioSplitter />} /> */}
+
           {/* <Route path="/merge" element={<VideoMerger />} />
           <Route path="/merge01" element={<VideoMerger01 />} />
           <Route path="/merge02" element={<VideoMerger02 />} />{" "} */}
-          <Route path="/merge" element={<VideoMerger03 />} />{" "}
+          
+          {/* <Route path="/merge" element={<VideoMerger03 />} />{" "}
           <Route path="/ghiam" element={<GhiAm />} />
           <Route path="/youtube" element={<YouTubePlaylist />} />
           <Route path="/tiktok" element={<VideoTiktokGhepAm />} />
-          <Route path="/ipasort" element={<LayIPASort />} />
+          <Route path="/ipasort" element={<LayIPASort />} /> */}
         </Routes>
       </div>
     </Router>
