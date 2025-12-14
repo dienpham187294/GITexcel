@@ -900,12 +900,7 @@ export default function WeddingPages() {
           </div>
 
           {/* Video Section - No Poster */}
-          <div className="video-container">
-            <video ref={videoRef} controls>
-              <source src="/data/project_outro.mp4" type="video/mp4" />
-              Trình duyệt của bạn không hỗ trợ video.
-            </video>
-          </div>
+          
         </div>
 
         {/* Dress Code Section */}
