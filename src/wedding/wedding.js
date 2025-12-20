@@ -891,11 +891,14 @@ export default function WeddingPages() {
             <div className="gallery-item">
               <img src="/data/DZ4I6871.jpg" alt="Wedding Photo 2" />
             </div>
-            <div className="gallery-item">
-              <img src="/data/DZ4I6978.jpg" alt="Wedding Photo 3" />
+        <div className="gallery-item">
+              <img src="/data/DZ4I7437.jpg" alt="Wedding Photo 3" />
             </div>
             <div className="gallery-item">
               <img src="/data/DZ4I7068.jpg" alt="Wedding Photo 4" />
+            </div>{" "}
+            <div className="gallery-item">
+              <img src="/data/DZ4I7592.jpg" alt="Wedding Photo 5" />
             </div>
           </div>
 
