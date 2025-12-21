@@ -822,7 +822,7 @@ export default function WeddingPages() {
 
               <div className="info-section">
                 <div className="info-label">Địa Điểm</div>
-                <div className="info-main">THE ADORA LUXURY</div>
+                <div className="info-main">THE ADORA LUXURY - Sảnh Ruby</div>
                 <div className="info-divider"></div>
                 <div className="info-detail">
                   198 Hoàng Văn Thụ, Phường 9<br />
